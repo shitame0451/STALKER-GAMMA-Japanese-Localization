@@ -8,17 +8,20 @@
 	</string>
 
 	<string id="ui_mcm_oleh_misc_sounds_enabled_inventory_pickup">
-		<text>アイテム取得時の効果音を有効化</text>
+		<text>インベントリ操作時の効果音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_misc_sounds_enabled_inventory_pickup_desc">
+		<text>アイテムの取得／ドロップ／修理／インベントリ・スロット間の移動時に効果音を再生します。</text>
 	</string>
 	<string id="ui_mcm_oleh_misc_sounds_volume_inventory_pickup">
-		<text>アイテム取得音の音量</text>
+		<text>インベントリ操作音の音量</text>
 	</string>
 
 	<string id="ui_mcm_oleh_misc_sounds_enabled_inventory_hover">
 		<text>カーソルホバー時の効果音を有効化</text>
 	</string>
 	<string id="ui_mcm_oleh_misc_sounds_enabled_inventory_hover_desc">
-		<text>アイテムにマウスカーソルを重ねた際に効果音を再生します。</text>
+		<text>アイテムアイコンにマウスカーソルを重ねた際に効果音を再生します。</text>
 	</string>
 	<string id="ui_mcm_oleh_misc_sounds_volume_inventory_hover">
 		<text>カーソルホバー音の音量</text>
