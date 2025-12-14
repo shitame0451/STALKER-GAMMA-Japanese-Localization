@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_aug_9mm_spectre">
+		<text>Steyr AUG A3 Spectre Tactical</text>
+	</string>
+	<string id="st_wpn_aug_9mm_spectre_descr">
+		<text>AUG 9x19mmサブマシンガン。これは9x19mm Nightswordコンバージョンキットを使用した標準的なAUG A3アサルトライフルだ。クローズドボルト方式を採用しており、トリガー機構により単発およびフルオートモードでの射撃が可能。基本的な部品と機構はアサルトライフルと同じだが、短縮されたバレル、ボルト、マガジンアダプター、そして32発マガジンが異なっている。\n \n
+		このタクティカルキットには拡張バレルが装備されており、ダメージ、命中精度、弾速、有効射程などの武器の特性に影響を与える。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_green] • %c[ui_gray_1]拡張バレル（417mm）\n
+		%c[d_green] • %c[ui_gray_1]サプレッサー（9mm）\n
+		%c[d_green] • %c[ui_gray_1]ロープロファイルVLTORレシーバー\n
+		%c[d_green] • %c[ui_gray_1]Corvus Defensio製タクティカルレール\n
+		%c[d_green] • %c[ui_gray_1]カスタムスペクター・タクティカルブラックストック\n
+		%c[d_green] • %c[ui_gray_1]3倍マグニファイア付きEtheriumホロサイト\n
+		%c[d_green] • %c[ui_gray_1]MAWL-C1+レーザー\n \n</text>
+	</string>
+
+	<string id="st_wpn_aug_9mm_infiltrator">
+		<text>Steyr AUG A3 Infiltrator</text>
+	</string>
+	<string id="st_wpn_aug_9mm_infiltrator_descr">
+		<text>AUG 9x19mmサブマシンガン。これは9x19mm Nightswordコンバージョンキットを使用した標準的なAUG A3アサルトライフルだ。クローズドボルト方式を採用しており、トリガー機構により単発およびフルオートモードでの射撃が可能。基本的な部品と機構はアサルトライフルと同じだが、短縮されたバレル、ボルト、マガジンアダプター、そして32発マガジンが異なっている。\n \n
+		このタクティカルキットにはヘビーロングバレルが装備されており、ダメージ、命中精度、弾速、有効射程などの武器の特性を大幅に向上させる。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_green] • %c[ui_gray_1]ヘビーロングバレル（508mm）\n
+		%c[d_green] • %c[ui_gray_1]サプレッサー（9mm）\n
+		%c[d_green] • %c[ui_gray_1]ロープロファイルVLTORレシーバー\n
+		%c[d_green] • %c[ui_gray_1]Corvus Defensio製タクティカルレール\n
+		%c[d_green] • %c[ui_gray_1]ACOG（TA47Cレティクル）付きVooDoo-Sサーマルサイト\n
+		%c[d_green] • %c[ui_gray_1]MAWL-C1+レーザー\n \n</text>
+	</string>
+
+</string_table>

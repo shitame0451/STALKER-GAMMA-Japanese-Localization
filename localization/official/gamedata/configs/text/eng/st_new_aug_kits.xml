@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Weapons Attachments
+-->
+
+<string_table>
+
+	<string id="st_addon_scope_infiltrator_tactical_kit">
+		<text>AUG 9mm Infiltrator タクティカルキット</text>
+	</string>
+	<string id="st_addon_scope_infiltrator_tactical_kit_descr">
+		<text>9mm口径のSteyr AUG用タクティカルキット。このキットにはヘビーロングバレル（508mm）、Corvus Defensio製タクティカルレール付きロープロファイルVLTORレシーバー、ACOG（TA47Cレティクル）付きVooDoo-Sサーマルサイト、MAWL-C1+レーザーサイトが含まれている。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_green] • %c[ui_gray_1]命中精度が大幅に向上\n
+		%c[d_green] • %c[ui_gray_1]弾速と有効射程が大幅に向上\n
+		%c[d_green] • %c[ui_gray_1]武器のダメージが向上\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_spectre_tactical_kit">
+		<text>AUG 9mm Spectre タクティカルキット</text>
+	</string>
+	<string id="st_addon_scope_spectre_tactical_kit_descr">
+		<text>9mm口径のSteyr AUG用タクティカルキット。このキットには拡張バレル（417mm）、カスタムスペクター・タクティカルブラックストック、3倍マグニファイア付きEtheriumホロサイト、MAWL-C1+レーザーサイトが含まれている。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_green] • %c[ui_gray_1]命中精度がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]弾速と有効射程がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]武器のダメージがわずかに向上\n \n</text>
+	</string>
+
+</string_table>

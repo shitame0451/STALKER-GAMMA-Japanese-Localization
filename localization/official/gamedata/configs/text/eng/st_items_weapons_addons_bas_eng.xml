@@ -851,7 +851,7 @@
 		<text>510mm KS-23 バレル</text>
 	</string>
 	<string id="st_addon_scope_23_up_descr">
-		<text>KS-23ショットガン用のロングヘビーバレル。強力な威力を維持しつつ、命中精度と射程を向上させる。軍や法執行機関向けに最適化された頑丈な設計が特徴。\n \n
+		<text>KS-23ショットガン用のヘビーロングバレル。強力な威力を維持しつつ、命中精度と射程を向上させる。軍や法執行機関向けに最適化された頑丈な設計が特徴。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
 		%c[pda_white]互換性:\n
