@@ -210,10 +210,10 @@
 		<text>フィールドストリップ</text>
 	</string>
 	<string id="st_field_strip_fail">
-		<text>この銃には取り外せる部品がありません。</text>
+		<text>この銃には取り外せる部品がない</text>
 	</string>
 	<string id="ui_st_missing">
-		<text>この銃は部品が不足しています。</text>
+		<text>この銃は部品が不足している</text>
 	</string>
 
 <!--
