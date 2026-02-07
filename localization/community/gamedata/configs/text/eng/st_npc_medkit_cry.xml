@@ -4,7 +4,7 @@
     <text>はぁ、医療キットだ･･････ よし。まだだ、まだ死なないぞ･･････</text>
   </string>
   <string id="st_eat_medkit_cry_2">
-    <text>くそっ！すぐに包帯を！</text>
+    <text>くそっ！すぐに止血帯を！</text>
   </string>
   <string id="st_eat_medkit_cry_3">
     <text>医療キットを持っているのはお前だけじゃないぜ、この野郎。</text>
@@ -28,28 +28,28 @@
     <text>ああ、くそっ。スーツがボロボロだ！</text>
   </string>
   <string id="st_eat_medkit_cry_10">
-    <text>ぐっ･･････ これを乗り切ったら、傷の手当てをしてくれた奴にキスしてやるよ。</text>
+    <text>ぐっ･･････ これを乗り切ったら、衛生兵にキスしてやるよ。</text>
   </string>
   <string id="st_eat_medkit_cry_11">
     <text>こっちにもっと包帯をくれ！</text>
   </string>
   <string id="st_eat_medkit_cry_12">
-    <text>ぐぁっ！盗んだ薬の出番だ･･････</text>
+    <text>ぐぁっ！奪った薬が役に立つとはな･･････</text>
   </string>
   <string id="st_eat_medkit_cry_13">
     <text>ううっ！これじゃあ保険なんて効かないな･･････</text>
   </string>
   <string id="st_eat_medkit_cry_14">
-    <text>あと1発だけでいい、当てるんだ、もう1発だけ･･････</text>
+    <text>モルヒネが必要だ、あと1本打てればいい･･････ 1本だけ･･････</text>
   </string>
   <string id="st_eat_medkit_cry_15">
-    <text>やはり医療キットが残ってたか。俺はまだやれるぞ、この野郎！</text>
+    <text>医療キットがまだ残っていたようだ。俺はまだやれるぞ、この野郎！</text>
   </string>
   <string id="st_eat_medkit_cry_16">
-    <text>よし、包帯の時間だ。お前の狙いが正確だったら俺は死んでたかもな！</text>
+    <text>うっ･･････ 包帯の時間だ。お前の狙いが正確だったら俺は死んでいたかもな！</text>
   </string>
   <string id="st_eat_medkit_cry_17">
-    <text>ああ！誰かもう1個医療キットをくれ！これじゃ足りない！</text>
+    <text>ああ！誰かもっと医療キットをくれ！これじゃ足りない！</text>
   </string>
   <string id="st_eat_medkit_cry_18">
     <text>あぁぁぁ！ふぅ。モルヒネのおかげだ･･････</text>
@@ -58,12 +58,12 @@
     <text>そんなんじゃ俺は死なんぞ、この野郎！</text>
   </string>
   <string id="st_eat_medkit_cry_20">
-    <text>ああぁぁ！血まみれだっ、うう！医療キットだ、医療キット･･････ ふぅ･･････</text>
+    <text>ああぁぁ！血が･･････ クソッ！医療キットだ、医療キット･･････ ふぅ･･････</text>
   </string>
   <string id="st_eat_medkit_cry_21">
-    <text>俺を血祭りにあげるつもりか？考え直せ。</text>
+    <text>俺から金を巻き上げるつもりか？甘いな。</text>
   </string>
   <string id="st_eat_medkit_cry_22">
-    <text>スーツはまだ持ちこたえてる、大丈夫だ、大丈夫･･････</text>
+    <text>スーツはまだ持ちこたえている、大丈夫だ、大丈夫･･････</text>
   </string>
 </string_table>
