@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+ <!-- 5.56 -->
+ 	<string id="st_mag_k98_7.92x33">
+		<text>Kar 98用マガジン（7.92x33）</text>
+	</string>
+	<string id="st_mag_k98_7.92x33_descr">
+		<text> </text>
+	</string>		
+	<string id="st_mag_k98_7.62x51">
+		<text>Kar 98用改造マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_k98_7.62x51_descr">
+		<text> </text>
+	</string>
+	<string id="st_mag_k98_7.62x54">
+		<text>Kar 98用改造マガジン（7.62x54）</text>
+	</string>	
+	<string id="st_mag_k98_7.62x54_descr">
+		<text> </text>
+	</string>		
+</string_table>

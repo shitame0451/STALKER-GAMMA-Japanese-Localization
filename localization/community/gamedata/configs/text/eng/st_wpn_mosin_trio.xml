@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_obrez">
+		<text>Mosin Nagant «Obrez»</text>
+	</string>
+
+	<string id="st_wpn_obrez_descr">
+		<text>Mosin-Nagantの銃身とストックを切断した短銃身仕様。全長を大幅に縮めることで隠匿しやすい武器となっている。コンパクトかつ強力な火器を求めるストーカーによって改造されたものだが、命中精度、操作性、安全性の低下を代償としている。\n \n
+		%c[ui_gray_1]アタッチメント: PU スコープ, KZRZP サプレッサー\n </text>
+	</string>
+	
+	<string id="st_wpn_shiv">
+		<text>«Shiv»</text>
+	</string>
+
+	<string id="st_wpn_shiv_descr">
+		<text>Mosin Nagant «Obrez»をさらに即席化した改造モデル。「Shiv」の名は、熟練のハンターにしてサバイバリストであるストーカーによって名付けられた。この男はダークスケープを彷徨い、ミュータントの皮や肉といった周囲の資源のみで生存していたという。彼はかつて住処としていたダークスケープの脱線列車内に、この自慢のライフルを残したようだ。再訪を期して意図的に隠したのか、あるいは死闘の末に紛失したものなのか、それを知る者はいない。\n \n
+		%c[ui_gray_1]アタッチメント: PU スコープ, KZRZP サプレッサー\n </text>
+	</string>
+
+	<string id="st_wpn_mosin_carbine">
+		<text>Mosin M38 Carbine</text>
+	</string>
+	<string id="st_wpn_mosin_carbine_descr">
+		<text>クラシックな名銃を短縮して扱いやすさを追求した派生モデルで、機動性と高い阻止力を両立している。フルサイズモデルの嵩張りを嫌い、信頼性が高く強力な火力を求める熟練のストーカーたちに好まれている。地下研究所をはじめとする狭所での運用に向いており、窮地において決定的な差を生む一丁だ。\n</text>
+	</string>
+	
+	<string id="st_wpn_mosin_k">
+		<text>Mosin Nagant</text>
+	</string>
+
+	<string id="st_wpn_mosin_k_descr">
+		<text>長距離精度に優れ、強力な7.62x54mmR弾を放つ頑丈なボルトアクションライフル。最新の流行よりも実用性、耐久性、圧倒的なストッピングパワーを重視する狙撃手、ハンター、ベテランのストーカーに長らく好まれてきた、信頼性の高い歴史的な銃だ。\n \n
+		%c[ui_gray_1]アタッチメント: PU スコープ, KZRZP サプレッサー\n </text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_addon_scope_las_upgrade">
+		<text>レーザーサイト・キット</text>
+	</string>
+
+	<string id="st_addon_scope_las_upgrade_descr">
+		<text>特定の武器に装着可能なレーザーサイトを同梱したキット。\n \n</text>
+</string>
+
+	<string id="st_wpn_colt1911_n">
+		<text>Colt M1911A1 .45 ACP</text>
+	</string>
+	<string id="st_wpn_colt1911_n_descr">
+		<text>世界で最も有名な拳銃の一つで、一般に「1911」の名で知られている。米軍の制式拳銃として第一次・第二次世界大戦を通じて使用され、1986年にその座を退いた後も、派生モデルが様々な米特殊部隊のサイドアームとして運用されている。M1911A1はM1911の第2世代モデルで、第一次世界大戦後に設計改修が行われた。フレームカットを施した短いトリガー、改良型アイアンサイト、アーチ型のメインスプリングハウジング、再設計されたグリップセーフティなど、多岐にわたる変更が加えられている。\n \n		
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]Jarvis .45 ACP スレッドバレル\n
+		%c[d_green] • %c[ui_gray_1]SilencerCo Omega 45k ピストンマウントアダプター\n
+		%c[d_green] • %c[ui_gray_1]SilencerCo Omega 45k .45 ACP サプレッサー\n \n</text>
+	</string>
+
+	<string id="st_wpn_colt1911_anarchy">
+		<text>Colt M1911A1 «Anarchy»</text>
+	</string>
+	<string id="st_wpn_colt1911_anarchy_descr">
+		<text>世界で最も有名な拳銃の一つで、一般に「1911」の名で知られている。米軍の制式拳銃として第一次・第二次世界大戦を通じて使用され、1986年にその座を退いた後も、派生モデルが様々な米特殊部隊のサイドアームとして運用されている。M1911A1はM1911の第2世代モデルで、第一次世界大戦後に設計改修が行われた。フレームカットを施した短いトリガー、改良型アイアンサイト、アーチ型のメインスプリングハウジング、再設計されたグリップセーフティなど、多岐にわたる変更が加えられている。«Anarchy»は多数のチューニングと改良が施されたカスタムモデルで、フルオート射撃機能が特徴。\n \n
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]フルオート射撃モード\n
+		%c[d_green] • %c[ui_gray_1]M1911 Anarchy Outdoors .45 ACP マズルブレーキ\n		
+		%c[d_green] • %c[ui_gray_1]NcSTAR トリガーガードマウント\n		
+		%c[d_green] • %c[ui_gray_1]SureFire X400 Ultra タクティカルライト（レーザー内蔵）\n \n</text>
+	</string>
+
+	<string id="st_wpn_m45a1">
+		<text>Colt M45A1 .45 ACP</text>
+	</string>
+
+	<string id="st_wpn_m45a1_descr">
+		<text>.45 ACP弾を使用するマガジン給弾式、反動利用式、シングルアクションのセミオートピストル。M1911の派生モデルで、1985年以来、アメリカ海兵隊遠征隊のフォース・リーコン（強行偵察部隊）の制式サイドアームとして採用されている。\n
+        改良型の1911_nscは、オリジナルのM1911A1から設計が複数変更されている。その一つがデュアルリコイルスプリングシステムで、反動のピークを抑えることで.45 ACP弾の反動を分散させている。また、3ドット式のトリチウムナイトサイト、5インチのナショナルマッチバレル、アンビセーフティ、ピカティニーレールを備え、デザートタンのセラコート塗装で仕上げられている。\n \n
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]Jarvis .45 ACP スレッドバレル\n
+		%c[d_green] • %c[ui_gray_1]SilencerCo Omega 45k ピストンマウントアダプター\n
+		%c[d_green] • %c[ui_gray_1]SilencerCo Omega 45k .45 ACP サプレッサー\n
+		%c[d_green] • %c[ui_gray_1]SureFire X400 Ultra タクティカルライト（レーザー内蔵）\n \n</text>
+</string>
+
+	<string id="st_wpn_1911_nsc">
+		<text>Colt 1911 Nightsword Custom (NSC)</text>
+	</string>
+
+	<string id="st_wpn_1911_nsc_descr">
+		<text>改良された給弾システムと卓越した命中精度を誇る、希少かつ価値の高いハイテク兵器。この独自のモデルは、戦闘効率を最大限に高めたい熟練のストーカーに最適だ。カスタマイズされた照準器により、暗所や視界不良時でも精密な射撃が可能となっている。3点バーストモードを搭載し、火力が大幅に向上。15発に拡張された装弾数により、頻繁なリロードを挟まずに持続的な射撃を行える。ゾーン内のあらゆる危険な状況に対応できる、信頼性の高い強力な拳銃だ。\n \n
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]Jarvis .45 ACP スレッドバレル\n
+		%c[d_green] • %c[ui_gray_1]SilencerCo Osprey サプレッサー\n
+		%c[d_green] • %c[ui_gray_1]SureFire X400 Ultra タクティカルライト（レーザー内蔵）\n \n</text>
+</string>
+
+	<string id="st_wpn_lar_grizzly">
+		<text>L.A.R. Grizzly Win Mag .357</text>
+	</string>
+
+	<string id="st_wpn_lar_grizzly_descr">
+		<text>アメリカで開発された、強力かつ信頼性の高いセミオートピストル。強化された金属製ボディが特徴で、.357マグナム弾を使用する。着脱式の7連マガジンを装備。その威力と精度から、危険区域におけるミュータントや敵との交戦に適している。頑丈でメンテナンスも容易であり、ゾーンにおいて欠かせない武器となり得る一挺だ。\n \n</text>
+</string>
+
+	<string id="st_wpn_rapide">
+		<text>Kimber Rapide .45 ACP</text>
+	</string>
+
+	<string id="st_wpn_rapide_descr">
+		<text>古典的な1911モデルをベースにした高品質なセミオートピストル。現代的なデザイン、向上したエルゴノミクス、そして高い射撃精度を特徴とする。スチールフレーム、ライフリングバレル、そしてスムーズで確実な動作を保証するリコイルシステムを備えている。.45 ACP弾を使用し、8連の着脱式マガジンが付属する。このモデルはミュータントや軽装のストーカーとの戦闘に適している。ゾーンで見かけることは稀であり、非常に価値のある武器だ。\n \n
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]SilencerCo Osprey サプレッサー \n
+		%c[d_green] • %c[ui_gray_1]SureFire X400 Ultra タクティカルライト（レーザー内蔵）\n \n</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom">
+		<text>TT-33 7.62x25</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_descr">
+		<text>長年にわたり数多くの紛争で使用され、今なお世界の特定の地域で様々なバリエーションが現役で稼働している伝説的な拳銃。本モデルは最も量産されたクラシックなTT-33だ。ブローニング式のショートリコイル・ティルトバレル機構を採用しているが、それ以外の設計は非常に独特である。意図的に簡素化されたシングルアクション構造で、ハーフコック・ノッチ以外の安全装置を持たないため、過酷な運用環境にも耐えうる。強力な7.62x25弾と比較的長い銃身により、高い初速と貫通力、そして長距離でも印象的な命中精度を誇る。\n \n
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]7.62x25 TT用カスタムサプレッサー\n \n</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_las">
+		<text>TT-33 7.62x25</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_las_descr">
+		<text>長年にわたり数多くの紛争で使用され、今なお世界の特定の地域で様々なバリエーションが現役で稼働している伝説的な拳銃。本モデルは最も量産されたクラシックなTT-33だ。ブローニング式のショートリコイル・ティルトバレル機構を採用しているが、それ以外の設計は非常に独特である。意図的に簡素化されたシングルアクション構造で、ハーフコック・ノッチ以外の安全装置を持たないため、過酷な運用環境にも耐えうる。強力な7.62x25弾と比較的長い銃身により、高い初速と貫通力、そして長距離でも印象的な命中精度を誇る。\n \n 
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]Zarya レーザーサイト \n
+		%c[d_green] • %c[ui_gray_1]7.62x25 TT用カスタムサプレッサー\n \n</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_upgr">
+		<text>マンガンのTT-33 7.62x25</text>
+	</string>
+
+	<string id="st_wpn_tt33_custom_upgr_descr">
+		<text>長年にわたり数多くの紛争で使用され、今なお世界の特定の地域で様々なバリエーションが現役で稼働している伝説的な拳銃。本モデルは最も量産されたクラシックなTT-33だ。ブローニング式のショートリコイル・ティルトバレル機構を採用しているが、それ以外の設計は非常に独特である。意図的に簡素化されたシングルアクション構造で、ハーフコック・ノッチ以外の安全装置を持たないため、過酷な運用環境にも耐えうる。強力な7.62x25弾と比較的長い銃身により、高い初速と貫通力、そして長距離でも印象的な命中精度を誇る。デューティーの技術兵、グロモフ軍曹（通称マンガン）が手掛けたTT-33のカスタムモデル。発射速度の向上、サプレッサー装着用のカスタムネジ切り済み銃身、エルゴノミクスの改善など、複数のアップグレードが施されている。\n \n
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]7.62x25 TT用カスタムサプレッサー\n
+		%c[d_green] • %c[ui_gray_1]レーザーサイト内蔵カスタム木製グリップ \n
+		%c[d_green] • %c[ui_gray_1]拡張マガジン（13発） \n		
+		%c[d_green] • %c[ui_gray_1]トリチウム付き拡張アイアンサイト \n \n</text>
+	</string>
+
+	<string id="st_addon_scope_tt_upgr_kit">
+		<text>TT-33 タクティカル・アップグレードキット</text>
+	</string>
+
+	<string id="st_addon_scope_tt_upgr_kit_descr">
+		<text>TT-33 7.62x25用のタクティカル・アップグレードキット。拡張バレル、トリチウム付き拡張アイアンサイト、新型マガジン（13発）、レーザーサイト内蔵カスタム木製グリップへの改造パーツが含まれている。 \n \n  
+
+		%c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]7.62x25 TT用カスタムサプレッサー\n
+		%c[d_green] • %c[ui_gray_1]レーザーサイト内蔵カスタム木製グリップ \n
+		%c[d_green] • %c[ui_gray_1]拡張マガジン（13発） \n
+		%c[d_green] • %c[ui_gray_1]拡張バレル \n		
+		%c[d_green] • %c[ui_gray_1]トリチウム付き拡張アイアンサイト \n \n</text>
+	</string>
+
+<string id="st_wpn_pm_new">
+    <text>Makarov PM Pistol 9x18</text>
+</string>
+
+<string id="st_wpn_pm_new_descr">
+    <text>長年使用されてきたPMピストル。銃本体と弾薬の入手しやすさ、卓越した信頼性、軽量かつコンパクトな設計から、ゾーン南部のストーカーたちに愛用されている。唯一の欠点はストッピングパワーの低さだ。本モデルはサプレッサー装着用のネジを備えた拡張バレルを装備している。 \n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]サプレッサー装着用のスレッドバレル \n    
+    %c[d_green] • %c[ui_gray_1]PM用改良型サプレッサー \n \n</text>
+</string>
+
+<string id="st_wpn_pm_las">
+    <text>Makarov PM Pistol 9x18</text>
+</string>
+
+<string id="st_wpn_pm_las_descr">
+    <text>長年使用されてきたPMピストル。銃本体と弾薬の入手しやすさ、卓越した信頼性、軽量かつコンパクトな設計から、ゾーン南部のストーカーたちに愛用されている。唯一の欠点はストッピングパワーの低さだ。本モデルはサプレッサー装着用のネジを備えた拡張バレルを装備している。 \n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]サプレッサー装着用のスレッドバレル \n
+    %c[d_green] • %c[ui_gray_1]PM用改良型サプレッサー \n
+    %c[d_green] • %c[ui_gray_1]レーザーサイト付きZaryaピストルグリップ \n \n</text>
+</string>
+
+<string id="st_wpn_pm_upgr">
+    <text>Makarov PM 9x18（カスタム）</text>
+</string>
+
+<string id="st_wpn_pm_upgr_descr">
+    <text>長年使用されてきたPMピストル。銃本体と弾薬の入手しやすさ、卓越した信頼性、軽量かつコンパクトな設計から、ゾーン南部のストーカーたちに愛用されている。唯一の欠点はストッピングパワーの低さだ。本モデルはサプレッサー装着用のネジを備えた拡張バレルを装備している。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]サプレッサー装着用のスレッドバレル \n
+    %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニ・ドットサイト \n
+    %c[d_green] • %c[ui_gray_1]オリーブカラーのZaryaピストルグリップ \n	
+    %c[d_green] • %c[ui_gray_1]拡張マガジン（10発） \n \n</text>
+</string>
+
+	<string id="st_addon_scope_pm_upgr_kit">
+		<text>Makarov PM用アップグレードキット</text>
+	</string>
+
+<string id="st_addon_scope_pm_upgr_kit_descr">
+    <text>Makarov PM 9x18用のタクティカル・アップグレードキット。人間工学を向上させる各部改修と、Zarya Z-1x20 ミニ・ドットサイトが含まれている。 \n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニ・ドットサイト \n
+    %c[d_green] • %c[ui_gray_1]オリーブカラーのZaryaピストルグリップ \n	
+    %c[d_green] • %c[ui_gray_1]拡張マガジン（10発） \n \n</text>
+</string>
+
+<string id="st_wpn_pb_new">
+    <text>PB 9x18</text>
+</string>
+
+<string id="st_wpn_pb_new_descr">
+    <text>メインサプレッサーと銃身内蔵セクションの2部構成で設計されている消音拳銃。メインサプレッサーを外した状態でも問題なく射撃可能だが、その場合は消音効果や消炎効果は得られない。1967年にソ連軍の偵察部隊やKGB向けに導入され、現在はロシア連邦保安庁（FSB）の特殊部隊や内務省国内軍で運用されている。Makarovほどの人気はないが、PMと同様の利点を持つため、ストーカーの間でも頻繁に使用されている。 \n \n</text>
+</string>
+
+<string id="st_wpn_pb_upgr">
+    <text>PB 9x18（カスタム）</text>
+</string>
+
+<string id="st_wpn_pb_upgr_descr">
+    <text>メインサプレッサーと銃身内蔵セクションの2部構成で設計されている消音拳銃。メインサプレッサーを外した状態でも問題なく射撃可能だが、その場合は消音効果や消炎効果は得られない。1967年にソ連軍の偵察部隊やKGB向けに導入され、現在はロシア連邦保安庁（FSB）の特殊部隊や内務省国内軍で運用されている。Makarovほどの人気はないが、PMと同様の利点を持つため、ストーカーの間でも頻繁に使用されている。 \n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]専用マウント付きレーザーサイト \n
+    %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニ・ドットサイト \n
+    %c[d_green] • %c[ui_gray_1]拡張マガジン（10発） \n \n</text>
+</string>
+
+<string id="st_addon_scope_pb_upgr_kit">
+    <text>PB 9x18用アップグレードキット</text>
+</string>
+
+<string id="st_addon_scope_pb_upgr_kit_descr">
+    <text>PB 9x18用のタクティカル・アップグレードキット。人間工学の向上、内蔵レーザー、ピカティニーレール、およびAimpoint Micro T1 コリメーターサイトが含まれている。 \n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]専用マウント付きレーザーサイト \n
+    %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニ・ドットサイト \n
+    %c[d_green] • %c[ui_gray_1]拡張マガジン（10発） \n \n</text>
+</string>
+
+	<string id="st_wpn_oc33_new">
+		<text>OTs-33 «Pernach»</text>
+	</string>
+
+	<string id="st_wpn_oc33_new_descr">
+		<text>フルオートとセミオートの切り替えが可能な拳銃で、軍の特殊部隊向けにStechkin APSの後継として開発されたモデル。APSで問題となっていたフルオート射撃時の反動制御を改善し、戦闘条件下での操作を簡略化することを目的として設計されている。製造コストは比較的低く、扱いやすさと反動制御性能の向上を両立している。本モデルは、ゾーン内に展開する軍のストーカーの要請により近代化が施されたものだ。\n \n</text>
+</string>
+
+	<string id="st_wpn_oc33_las">
+		<text>OTs-33 «Pernach»</text>
+	</string>
+
+	<string id="st_wpn_oc33_las_descr">
+		<text>フルオートとセミオートの切り替えが可能な拳銃で、軍の特殊部隊向けにStechkin APSの後継として開発されたモデル。APSで問題となっていたフルオート射撃時の反動制御を改善し、戦闘条件下での操作を簡略化することを目的として設計されている。製造コストは比較的低く、扱いやすさと反動制御性能の向上を両立している。本モデルは、ゾーン内に展開する軍のストーカーの要請により近代化が施されたものだ。\n \n
+		%c[d_green] • %c[ui_gray_1]専用ピカティニーレール \n
+		%c[d_green] • %c[ui_gray_1]NcSTAR タクティカル・レッドレーザー\n \n</text>
+</string>
+
+<string id="st_wpn_usp_tac45">
+    <text>HK USP Tactical .45 ACP</text>
+</string>
+
+<string id="st_wpn_usp_tac45_descr">
+    <text>Heckler &amp;amp; Koch社がHK P7シリーズの後継として開発したモデル。高い命中精度と極めて優れた信頼性を備える拳銃として、世界的に認知されている。特許取得済みの反動軽減機構を組み込んだ改良型ブローニング式アクションを採用し、各コンポーネントへの負荷を抑えつつ、射手が受ける反動の低減を実現している。このモデルは.45 ACP弾を使用し、12発装填の着脱式マガジンを装備している。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]HK USP タクティカル .45 ACP ピストルスライド\n
+    %c[d_green] • %c[ui_gray_1]HK USP用レールアダプター\n
+    %c[d_green] • %c[ui_gray_1]SilencerCo Osprey サプレッサー\n
+    %c[d_green] • %c[ui_gray_1]SureFire X400 Ultra レーザー付きタクティカルライト\n \n</text>
+</string>
+
+<string id="st_wpn_rsh12_shorty">
+    <text>RSh-12 Shorty 12.7x55mm</text>
+</string>
+
+	<string id="st_wpn_rsh12_shorty_descr">
+		<text>強力な12.7×55mm弾を使用するリボルバーで、KBP計器設計局が特殊部隊向けに開発したモデル。短銃身化されたコンパクト仕様で、軽量化と引き換えに反動は増大している。12.7mm用タクティカル・サプレッサーの装着に対応するスレッドバレルを備えている。\n \n
+    %c[pda_white]特性: \n
+		%c[d_green] • %c[ui_gray_1]12.7mm タクティカル・サプレッサー\n \n</text>
+</string>
+
+<string id="st_addon_scope_m9_upgr_kit">
+    <text>Beretta M9A3 タクティカル・アップグレードキット</text>
+</string>
+
+<string id="st_addon_scope_m9_upgr_kit_descr">
+    <text>Beretta M9A3用のタクティカル・アップグレードキット。SureFire XC1 レーザー付きタクティカルライト、タクティカル・マウントレール、およびDeltapoint コリメーターサイトが含まれている。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]タクティカル・マウントレール\n
+    %c[d_green] • %c[ui_gray_1]Deltapoint ドットサイト\n
+    %c[d_green] • %c[ui_gray_1]SureFire XC1 レーザー付きタクティカルライト\n
+    %c[d_green] • %c[ui_gray_1]サプレッサー用サーマルダストカバー\n \n</text>
+</string>
+
+<string id="st_wpn_beretta_new">
+    <text>Beretta M9A3</text>
+</string>
+
+<string id="st_wpn_beretta_new_descr">
+    <text>イタリアのBeretta社が開発した近代的なセミオートピストル。定評のあるM9をベースに改良が加えられており、新設計のグリップによる人間工学的な操作性の向上、17発装填マガジン、改良型セーフティシステムを特徴とする。高い信頼性と命中精度を備え、軍および法執行機関での運用に適している。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]M9A3 9x19 127mm スレッドバレル\n
+    %c[d_green] • %c[ui_gray_1]AAC Illusion 9 9x19 サプレッサー\n
+    %c[d_green] • %c[ui_gray_1]SureFire X400 Ultra レーザー付きタクティカルライト\n \n</text>
+</string>
+
+<string id="st_wpn_pl15_new">
+    <text>Lebedev PL-15 9x19</text>
+</string>
+
+<string id="st_wpn_pl15_new_descr">
+    <text>ロシアの法執行機関のニーズに応えるため、ドミトリー・レベデフ率いるKalashnikov Concernの設計チームが開発した9x19mm自動拳銃。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]PL-15 9x19 112mm スレッドバレル\n
+    %c[d_green] • %c[ui_gray_1]Hexagon モジュラー SP-9 サプレッサー\n \n</text>
+</string>
+
+<string id="st_wpn_pl15_las">
+    <text>Lebedev PL-15 9x19</text>
+</string>
+
+<string id="st_wpn_pl15_las_descr">
+    <text>ロシアの法執行機関のニーズに応えるため、ドミトリー・レベデフ率いるKalashnikov Concernの設計チームが開発した9x19mm自動拳銃。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]PL-15 9x19 112mm スレッドバレル\n
+    %c[d_green] • %c[ui_gray_1]Hexagon モジュラー SP-9 サプレッサー\n
+    %c[d_green] • %c[ui_gray_1]SureFire X400 Ultra レーザー付きタクティカルライト\n \n</text>
+</string>
+
+<string id="st_wpn_pl15_upgr">
+    <text>Lebedev PL-15 9x19（カスタム）</text>
+</string>
+
+<string id="st_wpn_pl15_upgr_descr">
+    <text>ロシアの法執行機関のニーズに応えるため、ドミトリー・レベデフ率いるKalashnikov Concernの設計チームが開発した9x19mm自動拳銃。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]PL-15 9x19 112mm スレッドバレル\n
+    %c[d_green] • %c[ui_gray_1]Hexagon モジュラー SP-9 サプレッサー\n
+    %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニ・ドットサイト\n
+    %c[d_green] • %c[ui_gray_1]サプレッサー用サーマルラップ\n	
+    %c[d_green] • %c[ui_gray_1]SureFire X400 Ultra レーザー付きタクティカルライト\n \n</text>
+</string>
+
+<string id="st_addon_scope_pl15_scolaz_new">
+    <text>Lebedev PL-15 9x19用アップグレードキット</text>
+</string>
+
+<string id="st_addon_scope_pl15_scolaz_new_descr">
+    <text>Lebedev PL-15 9x19用のタクティカル・アップグレードキット。SureFire X400 Ultra レーザー付きタクティカルライト、Zarya Z-1x20 ミニ・ドットサイト、およびサプレッサー用サーマルラップが含まれている。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]PL-15 9x19 112mm スレッドバレル\n
+    %c[d_green] • %c[ui_gray_1]Hexagon モジュラー SP-9 サプレッサー\n
+    %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニ・ドットサイト\n
+    %c[d_green] • %c[ui_gray_1]サプレッサー用サーマルラップ\n	
+    %c[d_green] • %c[ui_gray_1]SureFire X400 Ultra レーザー付きタクティカルライト\n \n</text>
+</string>
+
+<string id="st_wpn_sr1mp_new">
+    <text>Serdyukov SR-1MP Gyurza 9x21</text>
+</string>
+
+<string id="st_wpn_sr1mp_new_descr">
+    <text>「ギュルザ（クサリヘビ）」、またはSPS（セルジュコフ・セミオートマチック・ピストル）の名でも知られる。ロシア連邦軍特殊部隊で運用されていたAPSマシンピストルの後継として、P.セルジュコフとI.ベリャエフにより、強力な9x21mm弾を使用する拳銃として設計されたモデル。追加装備用マウントの装着に対応し、サプレッサー装着のベースとしても機能する。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]レーザーやドットサイト用の純正マウントを装着可能 \n \n</text>
+</string>
+
+<string id="st_wpn_sr1mp_las">
+    <text>Serdyukov SR-1MP Gyurza 9x21</text>
+</string>
+
+<string id="st_wpn_sr1mp_las_descr">
+    <text>「ギュルザ（クサリヘビ）」、またはSPS（セルジュコフ・セミオートマチック・ピストル）の名でも知られる。ロシア連邦軍特殊部隊で運用されていたAPSマシンピストルの後継として、P.セルジュコフとI.ベリャエフにより、強力な9x21mm弾を使用する拳銃として設計されたモデル。追加装備用マウントの装着に対応し、サプレッサー装着のベースとしても機能する。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]SR-1MP シングルレールマウント\n
+    %c[d_green] • %c[ui_gray_1]マウント付きSR-1MP 9x21 サプレッサー\n
+    %c[d_green] • %c[ui_gray_1]Zarya レーザーサイト\n \n</text>
+</string>
+
+<string id="st_wpn_sr1mp_upgr">
+    <text>SR-1MP Gyurza 9x21（カスタム）</text>
+</string>
+
+<string id="st_wpn_sr1mp_upgr_descr">
+    <text>「ギュルザ（クサリヘビ）」、またはSPS（セルジュコフ・セミオートマチック・ピストル）の名でも知られる。ロシア連邦軍特殊部隊で運用されていたAPSマシンピストルの後継として、P.セルジュコフとI.ベリャエフにより、強力な9x21mm弾を使用する拳銃として設計されたモデル。追加装備用マウントの装着に対応し、サプレッサー装着のベースとしても機能する。\n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]SR-1MP シングルレールマウント \n
+    %c[d_green] • %c[ui_gray_1]マウント付きSR-1MP 9x21 サプレッサー \n
+    %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニドットサイト \n
+    %c[d_green] • %c[ui_gray_1]サプレッサー用サーマルラップ \n	
+    %c[d_green] • %c[ui_gray_1]Zarya レーザーサイト \n \n</text>
+</string>
+
+<string id="st_addon_scope_sr1upgr1_new">
+    <text>SR-1MP Gyurza 9x21用アップグレードキット</text>
+</string>
+
+<string id="st_addon_scope_sr1upgr1_new_descr">
+    <text>SR-1MP Gyurza 9x21用タクティカル・アップグレードキット。マウント付きSR-1MP 9x21 サプレッサー、シングルレールマウント、Zarya レーザーサイトが含まれている。 \n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]SR-1MP シングルレールマウント\n
+    %c[d_green] • %c[ui_gray_1]マウント付きSR-1MP 9x21 サプレッサー\n
+    %c[d_green] • %c[ui_gray_1]Zarya レーザーサイト\n \n</text>
+</string>
+
+<string id="st_addon_scope_gurza_up_new">
+    <text>SR-1MP Gyurza 9x21用アドバンスド・アップグレードキット</text>
+</string>
+
+<string id="st_addon_scope_gurza_up_new_descr">
+    <text>SR-1MP Gyurza 9x21用タクティカル・アップグレードキット。マウント付きSR-1MP 9x21 サプレッサー、シングルレールマウント、サプレッサー用サーマルラップ、Zarya Z-1x20 ミニドットサイト、レーザーサイトが含まれている。 \n \n
+    %c[pda_white]特性: \n
+    %c[d_green] • %c[ui_gray_1]SR-1MP シングルレールマウント\n
+    %c[d_green] • %c[ui_gray_1]マウント付きSR-1MP 9x21 サプレッサー\n
+    %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニドットサイト\n
+    %c[d_green] • %c[ui_gray_1]サプレッサー用サーマルラップ\n
+    %c[d_green] • %c[ui_gray_1]Zarya レーザーサイト\n \n</text>
+</string>
+
+</string_table>
