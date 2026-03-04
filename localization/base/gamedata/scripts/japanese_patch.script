@@ -112,73 +112,27 @@ function commas_to_number(n)
 	return left .. (num:reverse():gsub("(%d%d%d)", "%1,"):reverse()) .. right
 end
 
--- =========================================================
---  オンラインNPCの名前を milrank_name_patch に渡す
--- =========================================================
-local function localize_online_npc_name(npc, se_obj)
-	if IsStalker(nil, se_obj:clsid()) then
-		local name = se_obj:character_name()
-		if name and string.find(name, "%s") then
-			local jp_name = milrank_name_patch(name)
-			if jp_name ~= name then
-				se_obj:set_character_name(jp_name)
-				--printf("[NAME_PATCH_ONLINE] %s → %s", name, jp_name)
-			end
+-- ===================================================================
+--  NPCのサーバーオブジェクト生成時（ロード時含む）にフックして名前を変換
+-- ===================================================================
+local function process_npc_name(se_obj)
+	if not se_obj then return end
+	if not IsStalker(nil, se_obj:clsid()) then return end
+
+	local name = se_obj:character_name()
+	if name and string.find(name, " ") then
+		local jp_name = milrank_name_patch(name)
+		if jp_name ~= name then
+			se_obj:set_character_name(jp_name)
+			--printf("[JP_PATCH] Replaced name: %s -> %s", name, jp_name)
 		end
 	end
 end
 
--- =========================================================
---  オフラインNPCの名前を milrank_name_patch に渡す
--- =========================================================
-local scan_counter = 0
-
-local function localize_offline_npc_name()
-	local sim = alife()
-	if not sim then return end
-
-	scan_counter = scan_counter + 1
-	local replaced = 0
-
-	for i = 1, 65534 do
-		local se_obj = sim:object(i)
-		if se_obj and IsStalker(nil, se_obj:clsid()) then
-			local name = se_obj:character_name()
-			if name and string.find(name, "%s") then
-				local jp_name = milrank_name_patch(name)
-				if jp_name ~= name then
-					se_obj:set_character_name(jp_name)
-					replaced = replaced + 1
-					--printf(string.format("[NAME_PATCH_OFFLINE_%d] %s → %s", scan_counter, name, jp_name))
-				end
-			end
-		end
-	end
-
-	if replaced == 0 then
-		--printf(string.format("[NAME_PATCH_OFFLINE_%d] 変換対象なし 実行終了", scan_counter))
-		return true
-	else
-		--printf(string.format("[NAME_PATCH_OFFLINE_%d] %d個の名前を変換 次の実行を予約", scan_counter, replaced))
-		CreateTimeEvent("jp_name_patch_scan_"..scan_counter, "scan_all_names_loop", 3, function()
-			return localize_offline_npc_name()
-		end)
-		return true
-	end
-end
-
--- =========================================================
---  ゲーム開始時に実行
--- =========================================================
+-- ===================================================================
+--  コールバック登録
+-- ===================================================================
 function on_game_start()
+	RegisterScriptCallback("se_stalker_on_spawn", process_npc_name)
 	get_name_dictionary()
-
-	RegisterScriptCallback("npc_on_net_spawn", localize_online_npc_name)
-
-	RegisterScriptCallback("on_game_load", function()
-		scan_counter = 0
-		CreateTimeEvent("jp_name_patch_scan_0", "scan_all_names_loop", 3, function()
-			return localize_offline_npc_name()
-		end)
-	end)
 end
