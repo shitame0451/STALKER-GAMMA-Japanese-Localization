@@ -1,0 +1,38 @@
+-- item_repair.script
+
+-- ===================================================================
+--  UIRepair:OnItemSelect （修理前と修理後の耐久値表示で "+" を除去 回復量を改行後に表示）
+-- ===================================================================
+local original_OnItemSelect = item_repair.UIRepair.OnItemSelect
+
+item_repair.UIRepair.OnItemSelect = function(self, n)
+	original_OnItemSelect(self, n)
+
+	-- 修理前の耐久値（con_txt[1]） ": +50%" → ": 50%"
+	if self.con_txt and self.con_txt[1] then
+		local text = self.con_txt[1]:GetText()
+		if text then
+			-- %d の前にある %+ を置換して消す
+			text = text:gsub(": %+(%d)", ": %1")
+			self.con_txt[1]:SetText(text)
+		end
+	end
+
+	-- 回復量（con_txt_base） ": +25%" → "\n+25%"
+	if self.con_txt_base then
+		local text = self.con_txt_base:GetText()
+		if text then
+			text = text:gsub(": %+", "\\n+")
+			self.con_txt_base:SetText(text)
+		end
+	end
+
+	-- 修理後の耐久値（con_txt_new） ": +75%" → ": 75%"
+	if self.con_txt_new then
+		local text = self.con_txt_new:GetText()
+		if text then
+			text = text:gsub(": %+(%d)", ": %1")
+			self.con_txt_new:SetText(text)
+		end
+	end
+end

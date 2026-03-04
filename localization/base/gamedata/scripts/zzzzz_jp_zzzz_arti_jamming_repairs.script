@@ -68,18 +68,20 @@ end
 --  act_fieldstrip （フィールドストリップの通知）
 --  news_manager.send_tipにフック
 -- ===================================================================
-local original_send_tip = news_manager.send_tip
+local original_act_fieldstrip = zzzz_arti_jamming_repairs.act_fieldstrip
 
-news_manager.send_tip = function(actor, text, a1, icon, time)
-	local t = text
+zzzz_arti_jamming_repairs.act_fieldstrip = function(...)
+	local backup_send_tip = news_manager.send_tip
 
-	if type(t) == "string"
-	and icon == "swiss_knife" then	-- フィールドストリップ通知の条件
-		t = t:gsub(
-			"\\n %-",
-			"\\n- "
-		)
+	news_manager.send_tip = function(actor, text, a1, icon, time)
+		local t = text
+		if type(t) == "string" and icon == "swiss_knife" then	-- フィールドストリップ通知の条件
+			t = t:gsub("\\n %-", "\\n- ")
+		end
+		return backup_send_tip(actor, t, a1, icon, time)
 	end
 
-	return original_send_tip(actor, t, a1, icon, time)
+	local res = original_act_fieldstrip(...)
+	news_manager.send_tip = backup_send_tip
+	return res
 end

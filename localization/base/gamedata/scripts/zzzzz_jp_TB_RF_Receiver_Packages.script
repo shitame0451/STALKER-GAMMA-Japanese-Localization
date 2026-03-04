@@ -1,8 +1,8 @@
 -- TB_RF_Receiver_Packages.script
 
 -- ===================================================================
---  tb_radio_thing （支援物資の生成メッセージ）
---  db.actor.give_game_newsにフック
+--  tb_radio_thing （支援物資の生成メッセージ）
+--  db.actor.give_game_newsにフック
 -- ===================================================================
 local original_tb_radio_thing = tb_rf_receiver_packages.tb_radio_thing
 

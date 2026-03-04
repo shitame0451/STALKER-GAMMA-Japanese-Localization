@@ -1,0 +1,16 @@
+-- ish_total_weights.script
+
+-- ===================================================================
+--  update_weight_display （アイテムチップの合計重量の語順変更 "1.5 kg 合計" → "合計 1.5 kg"）
+-- ===================================================================
+local original_update_weight_display = ish_total_weights.update_weight_display
+
+ish_total_weights.update_weight_display = function(info_item, flags)
+	original_update_weight_display(info_item, flags)
+
+	if flags and flags.totalw8 and info_item and info_item.weight then
+		local st_total = game.translate_string("st_tw8_total")
+		local st_kg = game.translate_string("st_kg")
+		info_item.weight:SetText(st_total .. " " .. round_100(flags.totalw8) .. " " .. st_kg)
+	end
+end

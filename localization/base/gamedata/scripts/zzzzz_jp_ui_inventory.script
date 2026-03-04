@@ -60,15 +60,13 @@ end
 -- ===================================================================
 local original_TMode_UpdatePrice = ui_inventory.UIInventory.TMode_UpdatePrice
 ui_inventory.UIInventory.TMode_UpdatePrice = function(self, ele_txt, ele_btn, bag)
-	local tot_cost = 0
-	local cc = self.CC[bag]
-	if cc then
-		for idx, ci in pairs(cc.cell) do
-			tot_cost = tot_cost + cc:GetCellCost(ci)
+	original_TMode_UpdatePrice(self, ele_txt, ele_btn, bag)
+
+	local text = ele_txt:GetText()
+	if text then
+		local num = text:match("^(%d+)")
+		if num then
+			ele_txt:SetText(japanese_patch.commas_to_number(tonumber(num)) .. " ルーブル")
 		end
 	end
-	tot_cost = math.floor(tot_cost)
-
-	ele_txt:SetText( japanese_patch.commas_to_number(tot_cost) .. " ルーブル" )
-	ele_btn:Enable(tot_cost > 0)
 end

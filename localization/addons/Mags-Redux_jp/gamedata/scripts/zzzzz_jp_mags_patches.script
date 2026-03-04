@@ -1,88 +1,90 @@
 -- mags_patches.script
 
--- ===================================================================
---  mags_patches.ui_item.build_desc_header （スーツのマガジン情報）
---  ui_item.scriptのbuild_desc_headerがオリジナル
--- ===================================================================
-local original_build_desc_header = ui_item.build_desc_header
+if magazines then
+	-- ===================================================================
+	--  mags_patches.ui_item.build_desc_header （スーツのマガジン情報）
+	--  ui_item.scriptのbuild_desc_headerがオリジナル
+	-- ===================================================================
+	local original_build_desc_header = ui_item.build_desc_header
 
-ui_item.build_desc_header = function(obj, sec, str)
-	local text = original_build_desc_header(obj, sec, str)
+	ui_item.build_desc_header = function(obj, sec, str)
+		local text = original_build_desc_header(obj, sec, str)
 
-	if obj and magazines and (IsWeapon(obj) and not IsAmmo(obj) and magazine_binder.is_supported_weapon(obj) or magazine_binder.has_loadout_slots(obj)) then
-		-- スラッシュの置換
-		text = text:gsub(
-			"(%d+)/(%d+)",
-			"%1 / %2"
-		)
+		if obj and (IsWeapon(obj) and not IsAmmo(obj) and magazine_binder.is_supported_weapon(obj) or magazine_binder.has_loadout_slots(obj)) then
+			-- スラッシュの置換
+			text = text:gsub(
+				"(%d+)/(%d+)",
+				"%1 / %2"
+			)
 
-		-- clr_p を clr_b に置換 & スペースの追加
-		text = text:gsub(
-			"%%c%[255,93,0,116%]•",
-			"  %%c[255,153,255,255]•"
-		)
+			-- clr_p を clr_b に置換 & スペースの追加
+			text = text:gsub(
+				"%%c%[255,93,0,116%]•",
+				"  %%c[255,153,255,255]•"
+			)
 
-		-- 見出しを追加
-		text = text:gsub(
-			"  %%c%[255,153,255,255%]•",
-			"%%c[0,255,255,255] マガジンポーチ:\\n  %%c[255,153,255,255]•",
-			1
-		)
+			-- 見出しを追加
+			text = text:gsub(
+				"  %%c%[255,153,255,255%]•",
+				"%%c[0,255,255,255] マガジンポーチ:\\n  %%c[255,153,255,255]•",
+				1
+			)
 
-		-- スーツのマガジン情報の表示を装備時／非装備時で統一
-		text = text:gsub(
-			"(マガジン:%%c%[ui_gray_1%] *)(%d+)",
-			"%1 %2"
-		)
+			-- スーツのマガジン情報の表示を装備時／非装備時で統一
+			text = text:gsub(
+				"(マガジン:%%c%[ui_gray_1%] *)(%d+)",
+				"%1 %2"
+			)
 
-		-- 銃のマガジン情報
-		text = text:gsub(
-			"(%%c%[[^%]]-%])• " .. game.translate_string("st_mag_loaded") .. " " .. "%%c%[[^%]]-%](.-)" .. "\\n",
-			"\\n%1 • " .. "%%c[pda_white]" .. game.translate_string("st_mag_loaded") .. " " .. "%%c[ui_gray_1]%2" .. "\\n\\n"
-		)
-		text = text:gsub(
-			"(%%c%[[^%]]-%])• " .. game.translate_string("st_mag_loaded_none") .. "\\n",
-			"\\n%1 • " .. game.translate_string("st_mag_loaded_none") .. "\\n\\n"
-		)
+			-- 銃のマガジン情報
+			text = text:gsub(
+				"(%%c%[[^%]]-%])• " .. game.translate_string("st_mag_loaded") .. " " .. "%%c%[[^%]]-%](.-)" .. "\\n",
+				"\\n%1 • " .. "%%c[pda_white]" .. game.translate_string("st_mag_loaded") .. " " .. "%%c[ui_gray_1]%2" .. "\\n\\n"
+			)
+			text = text:gsub(
+				"(%%c%[[^%]]-%])• " .. game.translate_string("st_mag_loaded_none") .. "\\n",
+				"\\n%1 • " .. game.translate_string("st_mag_loaded_none") .. "\\n\\n"
+			)
 
-		--printf("[DEBUG]\n%s", text)
+			--printf("[DEBUG]\n%s", text)
+		end
+
+		return text
 	end
 
-	return text
-end
+	-- ===================================================================
+	--  mags_patches.ui_item.build_desc_footer （マガジンのアイテムチップ）
+	--  ui_item.scriptのbuild_desc_footerがオリジナル
+	-- ===================================================================
+	local original_build_desc_footer = ui_item.build_desc_footer
 
--- ===================================================================
---  mags_patches.ui_item.build_desc_footer （マガジンのアイテムチップ）
---  ui_item.scriptのbuild_desc_footerがオリジナル
--- ===================================================================
-local original_build_desc_footer = ui_item.build_desc_footer
+	ui_item.build_desc_footer = function(obj, sec, str)
+		local text = original_build_desc_footer(obj, sec, str)
 
-ui_item.build_desc_footer = function(obj, sec, str)
-	local text = original_build_desc_footer(obj, sec, str)
+		if obj and magazine_binder.is_magazine(obj) then
+			-- 見出しを追加
+			text = text:gsub(
+				"  \\n\\n \\n%%c%[d_cyan%] %%c%[d_cyan%] • %%c%[pda_white%]マガジンサイズ:",
+				"%%c[0,255,255,255] 特性:\\n %%c[d_cyan] • %%c[pda_white]マガジンサイズ:",
+				1
+			)
 
-	if obj and magazines and magazine_binder.is_magazine(obj) then
-		-- 見出しを追加
-		text = text:gsub(
-			"  \\n\\n \\n%%c%[d_cyan%] %%c%[d_cyan%] • %%c%[pda_white%]マガジンサイズ:",
-			"%%c[0,255,255,255] 特性:\\n %%c[d_cyan] • %%c[pda_white]マガジンサイズ:",
-			1
-		)
+			-- 「マガジンサイズ」と「装弾数」の間の改行を削除
+			text = text:gsub(
+				"\\n \\n%%c%[d_cyan%] %%c%[d_cyan%] • %%c%[pda_white%]装弾数:",
+				"\\n%%c[d_cyan] %%c[d_cyan] • %%c[pda_white]装弾数:",
+				1
+			)
 
-		-- 「マガジンサイズ」と「装弾数」の間の改行を削除
-		text = text:gsub(
-			"\\n \\n%%c%[d_cyan%] %%c%[d_cyan%] • %%c%[pda_white%]装弾数:",
-			"\\n%%c[d_cyan] %%c[d_cyan] • %%c[pda_white]装弾数:",
-			1
-		)
+			-- 余分な改行を1つにまとめる
+			text = text:gsub(
+				"\\n *\\n$",
+				"\\n"
+			)
 
-		-- 余分な改行を1つにまとめる
-		text = text:gsub(
-			"\\n *\\n$",
-			"\\n"
-		)
+			--printf("[DEBUG]\n%s", text)
+		end
 
-		--printf("[DEBUG]\n%s", text)
+		return text
 	end
-
-	return text
 end
