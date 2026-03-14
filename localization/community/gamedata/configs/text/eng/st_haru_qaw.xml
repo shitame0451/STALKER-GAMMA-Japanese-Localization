@@ -11,19 +11,19 @@
     </string>
 
     <string id="ui_mcm_qaw_controls">
-        <text>操作</text>
+        <text>操作設定</text>
     </string>
     <string id="ui_mcm_haru_quick_action_wheel_mcm_controls_hold">
         <text>ホールド操作</text>
     </string>
     <string id="ui_mcm_haru_quick_action_wheel_mcm_controls_hold_desc">
-        <text>ボタンを押している間にクイックアクションホイールが開くようになります。</text>
+        <text>ボタンを押し続けている間、クイックアクションホイールを表示します。</text>
     </string>
     <string id="ui_mcm_haru_quick_action_wheel_mcm_controls_keybind">
         <text>クイックアクションホイールを表示 (QAW)</text>
     </string>
     <string id="ui_mcm_haru_quick_action_wheel_mcm_controls_override_ammo_wheel">
-        <text>弾薬ホイールメニューをQAWに置き換える</text>
+        <text>弾薬ホイールメニューをQAWで置き換える</text>
     </string>
 
     <string id="ui_mcm_qaw_tabs">
@@ -60,7 +60,7 @@
         <text>タブの数</text>
     </string>
     <string id="ui_mcm_haru_quick_action_wheel_mcm_tabs_tab_slot">
-        <text>タブ毎の最大アイテム数</text>
+        <text>タブごとの最大アイテム数</text>
     </string>
     <string id="ui_mcm_qaw_misc">
         <text>その他の設定</text>

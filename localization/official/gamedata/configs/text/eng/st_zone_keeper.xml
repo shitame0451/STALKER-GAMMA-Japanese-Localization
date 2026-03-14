@@ -3,19 +3,19 @@
 <string_table>
 
 	<string id="st_zk_tooltip_section">
-		<text>部品の所有情報:</text>
+		<text>部品の所持状況:</text>
 	</string>
 	<string id="st_zk_fetch_count_have_cond">
 		<text>%$clr_txtインベントリに%$clr_number$count個%$clr_txt所持 (%$clr_number$max_condition%%$clr_txt)</text>
 	</string>
 	<string id="st_zk_fetch_count_in_workshops_cond">
-		<text>%$clr_txtワークショップに%$clr_number$count個%$clr_txt所有 (%$clr_number$max_condition%%$clr_txt)</text>
+		<text>%$clr_txtワークショップに%$clr_number$count個%$clr_txt保管 (%$clr_number$max_condition%%$clr_txt)</text>
 	</string>
 	<string id="st_zk_fetch_count_have">
 		<text>%$clr_txtインベントリに%$clr_number$count個%$clr_txt所持</text>
 	</string>
 	<string id="st_zk_fetch_count_in_workshops">
-		<text>%$clr_txtワークショップに%$clr_number$count個%$clr_txt所有</text>
+		<text>%$clr_txtワークショップに%$clr_number$count個%$clr_txt保管</text>
 	</string>
 
 <!--
@@ -29,28 +29,28 @@
 		<text>設定</text>
 	</string>
 	<string id="ui_mcm_zone_keeper_menu_configuration_general">
-		<text>基本</text>
+		<text>一般設定</text>
 	</string>
 	<string id="ui_mcm_zone_keeper_menu_configuration_general_title">
 		<text>General</text>
 	</string>
 	<string id="ui_mcm_zone_keeper_configuration_general_debug">
-		<text>デバッグ</text>
+		<text>デバッグモード</text>
 	</string>
 	<string id="ui_mcm_zone_keeper_configuration_general_debug_desc">
-		<text>有効化するとデバッグログを記録します。</text>
+		<text>有効にすると、デバッグログが記録されるようになります。</text>
 	</string>
 	<string id="ui_mcm_zone_keeper_configuration_general_delete_store">
 		<text>アドオンの在庫データを削除</text>
 	</string>
 	<string id="ui_mcm_zone_keeper_configuration_general_delete_store_help1">
-		<text>「アドオンの在庫データを削除」はこれまでにワークショップから記録した部品をすべて削除することができます。MODをアンインストールし、セーブデータからこのアドオンで記録した情報を完全に削除したい場合に便利です。</text>
+		<text>「アドオンの在庫データを削除」は、ワークショップで記録されたすべての部品データを削除します。\nアドオンをアンインストールし、セーブデータからこのアドオンの情報を完全に削除したい場合に便利です。</text>
 	</string>
 	<string id="ui_mcm_zone_keeper_configuration_general_delete_store_help2">
-		<text>使用方法は、まずチェックを有効にして、MCMメニューで「適用」をクリックします。その後、任意のワークショップを開くと、セーブデータ内の在庫データが自動的にリセットされます。</text>
+		<text>使用するには、まずこの項目にチェックを入れてMCMメニューで「適用」をクリックしてください。\nその後、いずれかのワークショップを開くと、セーブデータ内の在庫データが自動的にリセットされます。</text>
 	</string>
 	<string id="ui_mcm_zone_keeper_configuration_general_delete_store_desc">
-		<text>有効にすると部品の在庫データをリセットする。</text>
+		<text>有効にすると、部品の在庫データがリセットされます。</text>
 	</string>
 
 </string_table>

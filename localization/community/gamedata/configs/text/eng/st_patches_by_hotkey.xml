@@ -10,7 +10,7 @@
 	</string>
 
 	<string id="ui_mcm_patches_by_hotkey_enabled">
-		<text>有効</text>
+		<text>有効化</text>
 	</string>
 	<string id="ui_mcm_patches_by_hotkey_key">
 		<text>派閥パッチの着脱 (Patches By Hotkey)</text>

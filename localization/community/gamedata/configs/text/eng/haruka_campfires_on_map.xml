@@ -6,14 +6,14 @@
 	</string>
 
 	<string id="ui_mcm_campfires_on_map_show_campfires">
-		<text>焚き火を表示</text>
+		<text>マップに焚き火を表示</text>
 	</string>
 
 	<string id="ui_mcm_campfires_on_map_show_only_visited">
 		<text>訪問済みの焚き火のみ表示</text>
 	</string>
 	<string id="ui_mcm_campfires_on_map_show_only_visited_desc">
-		<text>プレイヤーが触れた焚き火のみがマップに表示されるようになります。</text>
+		<text>プレイヤーが利用したことのある焚き火のみをマップに表示します。</text>
 	</string>
 
     <string id="st_campfire">

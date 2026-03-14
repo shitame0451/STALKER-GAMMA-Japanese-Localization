@@ -18,49 +18,49 @@
 		<text>有効化</text>
 	</string>
 	<string id="ui_mcm_npe_general_enable_desc">
-		<text>インストール済みのすべてのNPEモジュールとそのコンテンツを有効／無効にします。</text>
+		<text>インストール済みのすべてのNPEモジュールと関連コンテンツの有効／無効を切り替えます。</text>
 	</string>										
 	<string id="ui_mcm_npe_general_play_loop">
-		<text>セット（チュートリアルなど）を表示するまでの時間</text>
+		<text>NPEコンテンツ（チュートリアルなど）を表示するまでの時間</text>
 	</string>
 	<string id="ui_mcm_npe_general_play_loop_desc">
-		<text>セットのコンテキストが有効化されてから、関連ダイアログが表示されるまでの最小遅延（秒）を設定します。キューが複数入っている場合にも同じ遅延が適用されます。</text>
+		<text>NPEコンテンツの表示条件が満たされてからダイアログが表示されるまでの最小遅延時間（秒）を設定します。複数のNPEコンテンツが待機している場合も、同様にこの遅延が適用されます。</text>
 	</string>	
 	<string id="ui_mcm_npe_general_execution_loop">
-		<text>NPE実行ループの間隔</text>
+		<text>NPE機能の更新間隔</text>
 	</string>
 	<string id="ui_mcm_npe_general_execution_loop_desc">
-		<text>登録されたすべてのコンテキストイベントハンドラを実行し、コンテキストが有効化されたかをチェックする頻度です。</text>
+		<text>NPE機能が有効化されているか、ゲーム内で条件が満たされているかをチェックする頻度を設定します。</text>
 	</string>	
 	<string id="ui_mcm_npe_general_actions_execution_loop">
-		<text>NPEアクション実行ループの間隔</text>
+		<text>NPEアクションの実行間隔</text>
 	</string>
 	<string id="ui_mcm_npe_general_actions_execution_loop_desc">
-		<text>セットによって発行されたすべてのアクションを実行する頻度です。</text>
+		<text>NPEコンテンツによって実行されるすべてのアクションの処理頻度を設定します。</text>
 	</string>	
 	<string id="ui_mcm_npe_general_sounds_set">
-		<text>サウンド</text>
+		<text>効果音</text>
 	</string>
 	<string id="ui_mcm_npe_general_sounds_set_desc">
-		<text>セットのダイアログウィンドウで使用するサウンドを選択します。</text>
+		<text>NPEコンテンツのダイアログウィンドウで再生されるサウンドを設定します。</text>
 	</string>	
 	<string id="ui_mcm_npe_general_pause_game">
-		<text>ゲームを一時停止</text>
+		<text>NPE表示時にゲームを一時停止</text>
 	</string>
 	<string id="ui_mcm_npe_general_pause_game_desc">
-		<text>セット（例: チュートリアル）再生中にゲームを一時停止します。これはグローバル設定です。一部のNPEモジュールにもゲームを一時停止するオプションがあります。すべてのダイアログウィンドウには、一時停止／再開ボタンがあります。</text>
+		<text>NPEコンテンツ（チュートリアルなど）が表示された際に、ゲームを自動的に一時停止します。この設定はNPE機能全体に適用されますが、一部のNPEモジュールには個別に一時停止を設定するオプションも用意されています。すべてのNPEダイアログウィンドウには、ゲームの一時停止／再開ボタンが表示されます。</text>
 	</string>
 	<string id="ui_mcm_npe_general_disable_dof">
-		<text>DoFを無効化</text>
+		<text>NPEダイアログでDoFを無効化</text>
 	</string>
 	<string id="ui_mcm_npe_general_disable_dof_desc">
-		<text>インベントリ表示時のSSSによるDoFが有効な場合、NPEのダイアログウィンドウにも適用されます。ここでは、インベントリではDoFを維持しつつ、NPEのダイアログではDoFを無効にできます。</text>
+		<text>SSSによるインベントリ表示時のDoFが有効になっていると、NPEのダイアログウィンドウにも適用されます。この設定を有効にすると、インベントリではDoFを維持したまま、NPEダイアログ表示時のみDoFを無効にできます。</text>
 	</string>
 	<string id="ui_mcm_npe_general_safe_distance_threat">
-		<text>最大脅威距離</text>
+		<text>脅威からの安全距離</text>
 	</string>
 	<string id="ui_mcm_npe_general_safe_distance_threat_desc">
-		<text>周囲の脅威（ストーカー／ミュータント）からの最小距離を設定し、それを満たすとチュートリアルが再生されます</text>
+		<text>NPEコンテンツ（チュートリアルなど）は周囲の脅威（ストーカーやミュータント）から一定距離以上離れている場合にのみ表示されます。この設定は、その際の最小安全距離を指定します。</text>
 	</string>
 <!-- logs menu	 -->
 	<string id="ui_mcm_npe_logs">
@@ -70,13 +70,13 @@
 		<text>ログ設定</text>
 	</string>
 	<string id="ui_mcm_npe_logs_help1">
-		<text>NPEモジュールの開発や問題のトラブルシューティング時のみログを有効にしてください。それ以外の場合はすべて無効にしておくことを推奨します。</text>
+		<text>NPEモジュールの開発や問題のトラブルシューティング時にのみログを有効にしてください。それ以外の場合はすべて無効にしておくことを推奨します。</text>
 	</string>				
 	<string id="ui_mcm_npe_logs_logging_level">
 		<text>ログレベル</text>
 	</string>
 	<string id="ui_mcm_npe_logs_logging_level_desc">
-		<text>コンソールに出力するログの詳細度を設定します。</text>
+		<text>コンソールに出力するログの詳細度です。</text>
 	</string>	
 	<string id="ui_mcm_npe_logs_title_cat">
 		<text>ログカテゴリ</text>
@@ -106,7 +106,7 @@
 		<text>キュー関連ログ</text>
 	</string>
 	<string id="ui_mcm_npe_logs_play_logs">
-		<text>再生ログ</text>
+		<text>表示ログ</text>
 	</string>
 	<string id="ui_mcm_npe_logs_event_logs">
 		<text>イベント実行ログ</text>

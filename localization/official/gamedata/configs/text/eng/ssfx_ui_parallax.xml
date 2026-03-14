@@ -24,23 +24,23 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_quality_mcm_desc">
-		<text>視差効果の品質を設定します。高い設定では結果を滑らかにするためのサンプル数が増加します。</text>
+		<text>視差効果の品質を調整します。数値を高くすると、より多くのサンプルが使用され、視差効果が滑らかになります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_refine_mcm">
-		<text>視差効果の繊細化</text>
+		<text>視差効果の精度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_refine_mcm_desc">
-		<text>視差効果を改善するための繊細化の工程を追加します。このオプションを有効にすることで、パフォーマンスを犠牲に視差効果の品質を向上させることができます。</text>
+		<text>視差効果の品質を向上させるための追加処理を有効にします。この設定を有効にすると、パフォーマンスと引き換えに視差効果の精度が高まります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_range_mcm">
-		<text>視差効果の距離</text>
+		<text>視差効果の描画距離</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_range_mcm_desc">
-		<text>視差効果の最大描画距離を調整します。</text>
+		<text>視差効果が適用される最大描画距離を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_height_mcm">
@@ -48,7 +48,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_height_mcm_desc">
-		<text>視差効果の高さの最大値を調整します。</text>
+		<text>視差効果における高さの最大値を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_ao_mcm">
@@ -56,7 +56,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_parallax_ao_mcm_desc">
-		<text>視差効果の面に追加されるアンビエントオクルージョンの量を調整します。</text>
+		<text>視差効果に追加されるアンビエントオクルージョンの量を調整します。</text>
 	</string>
 
 </string_table>

@@ -25,7 +25,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_min_speed_mcm_desc">
-		<text>この値を使用して、風の最低速度に制限を設けます。</text>
+		<text>風の最低速度を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_grass_speed_mcm">
@@ -33,31 +33,31 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_grass_speed_mcm_desc">
-		<text>草の最大アニメーション速度を調整します。</text>
+		<text>草が風で揺れる速度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_grass_turbulence_mcm">
-		<text>草が揺れる度合い</text>
+		<text>草の揺れの不規則性</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_grass_turbulence_mcm_desc">
-		<text>草の乱流の強度を調整します。</text>
+		<text>草が不規則に揺れる度合いを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_grass_push_mcm">
-		<text>草が曲がる強さ</text>
+		<text>草の曲がり具合</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_grass_push_mcm_desc">
-		<text>草の屈曲の強度を調整します。</text>
+		<text>草が風でどれくらい曲がるかを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_grass_wave_mcm">
-		<text>草の波</text>
+		<text>草の波打ち</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_grass_wave_mcm_desc">
-		<text>草の波の強度を調整します。</text>
+		<text>草が波打つ強さを調整します。</text>
 	</string>
 
 
@@ -66,23 +66,23 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_trees_speed_mcm_desc">
-		<text>木や低木のアニメーション速度を調整します。</text>
+		<text>木や低木が風で揺れる速度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_trees_trunk_mcm">
-		<text>木が揺れる速度</text>
+		<text>木の幹の揺れる速度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_trees_trunk_mcm_desc">
-		<text>木が揺れるアニメーションの速度を調整します。</text>
+		<text>木の幹が風で揺れる速度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_trees_bend_mcm">
-		<text>木の揺れ幅</text>
+		<text>木の揺れる幅</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wind_trees_bend_mcm_desc">
-		<text>揺れるアニメーションの最大変位量を調整します。</text>
+		<text>木が風でどれくらい大きく揺れるかを調整します。</text>
 	</string>
 
 </string_table>

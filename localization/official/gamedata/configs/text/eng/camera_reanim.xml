@@ -12,22 +12,22 @@
 		<text>Camera Reanim Project</text>
 	</string>
 	<string id="ui_mcm_crpmcm_jump_land">
-		<text>ジャンプと着地のエフェクト</text>
+		<text>ジャンプ／着地時のカメラ演出</text>
 	</string>
 	<string id="ui_mcm_crpmcm_leaning">
-		<text>リーンエフェクト</text>
+		<text>リーン時のカメラ演出</text>
 	</string>
 	<string id="ui_mcm_crpmcm_wpn_ads">
-		<text>ADSエフェクト</text>
+		<text>ADS（照準）時のカメラ演出</text>
 	</string>
 	<string id="ui_mcm_crpmcm_moving">
-		<text>歩行/ダッシュエフェクト</text>
+		<text>歩行／ダッシュ時のカメラ演出</text>
 	</string>
 	<string id="ui_mcm_crpmcm_crouch">
-		<text>しゃがみエフェクト</text>
+		<text>しゃがみ時のカメラ演出</text>
 	</string>
 	<string id="ui_mcm_crpmcm_fire_mode">
-		<text>射撃モード切替エフェクト</text>
+		<text>射撃モード切り替え時のカメラ演出</text>
 	</string>
 
 </string_table>

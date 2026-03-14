@@ -11,9 +11,9 @@
 		<text>スーツ装甲アップグレードキット</text>
 	</string>
 	<string id="st_upgr_o_physical_desc">
-		<text>スーツ関連のアップグレードを行うための各種アーマープレート、コンポーネント、フィッティングが含まれている。\n \n
+		<text>スーツの物理的な防御性能を向上させるための各種アーマープレート、部品、取り付け具が含まれている。\n \n
             %c[yellow]スーツのアップグレードに使用:\n
-            %c[d_cyan] • %c[ui_gray_1]対弾耐性\n
+            %c[d_cyan] • %c[ui_gray_1]銃弾耐性\n
             %c[d_cyan] • %c[ui_gray_1]衝撃耐性\n
             %c[d_cyan] • %c[ui_gray_1]破裂耐性\n
             %c[d_cyan] • %c[ui_gray_1]耐久性\n
@@ -25,7 +25,7 @@
 		<text>スーツ環境保護アップグレードキット</text>
 	</string>
 	<string id="st_upgr_o_magical_desc">
-		<text>スーツ関連のアップグレードを取り付けるための、様々な種類の特殊耐性素材が含まれている。\n \n
+		<text>スーツの環境耐性を高めるための特殊な耐性素材が含まれている。\n \n
             %c[yellow]スーツのアップグレードに使用:\n
             %c[d_cyan] • %c[ui_gray_1]放射線耐性\n
             %c[d_cyan] • %c[ui_gray_1]化学耐性\n
@@ -38,7 +38,7 @@
 		<text>スーツ／バックパックユーティリティアップグレードキット</text>
 	</string>
 	<string id="st_upgr_o_utility_desc">
-		<text>スーツ関連のユーティリティアップグレードを取り付けるための固定ストラップ、各種ポーチ、各種機械装置が含まれている。\n \n
+		<text>スーツやバックパックの利便性を高めるための固定具、各種ポーチ、機械装置が含まれている。\n \n
             %c[yellow]スーツとバックパックのアップグレードに使用:\n
             %c[d_cyan] • %c[ui_gray_1]所持重量\n
             %c[d_cyan] • %c[ui_gray_1]ベルトスロット\n
@@ -52,7 +52,7 @@
 		<text>銃器機構アップグレードキット</text>
 	</string>
 	<string id="st_upgr_w_internal_desc">
-		<text>高品質な武器部品と、武器内部のメカニズムを調整するための工具が含まれている。\n \n
+		<text>高品質な武器部品と、銃器の内部機構を調整するための工具が含まれている。\n \n
             %c[yellow]銃のアップグレードに使用:\n
             %c[d_cyan] • %c[ui_gray_1]信頼性\n
             %c[d_cyan] • %c[ui_gray_1]反動\n
@@ -64,7 +64,7 @@
 		<text>銃器追加アップグレードキット</text>
 	</string>
 	<string id="st_upgr_w_external_desc">
-		<text>銃身、レール、マウント、銃の部品など、銃本体の改造やメンテナンスに使用する工具が含まれている。\n \n
+		<text>銃身、レール、マウント、その他の銃器部品など、銃器本体の改造やメンテナンスに用いる工具が含まれている。\n \n
             %c[yellow]銃のアップグレードに使用:\n
             %c[d_cyan] • %c[ui_gray_1]低伸性\n
             %c[d_cyan] • %c[ui_gray_1]命中精度\n
@@ -76,7 +76,7 @@
 		<text>光学スコープアップグレードキット</text>
 	</string>
 	<string id="st_upgr_w_optical_desc">
-		<text>双眼鏡やライフルスコープの交換に適した高品質のレンズと光学部品が含まれている。\n \n</text>
+		<text>双眼鏡やライフルスコープの交換に適した高品質なレンズと光学部品が含まれている。\n \n</text>
     </string>
 
 	<string id="st_try_combine">
@@ -93,10 +93,10 @@
 	</string>
 
 	<string id="ui_mcm_supgrades_drop">
-		<text>ドロップする確率</text>
+		<text>ドロップ置換率</text>
 	</string>
 	<string id="ui_mcm_supgrades_drop_desc">
-		<text>既存のアップグレードキットが新しい汎用キットに置き換えられる確率を設定します。</text>
+		<text>入手するアップグレードキットが、汎用キットに置き換わる確率を設定します。</text>
 	</string>
 
 </string_table>

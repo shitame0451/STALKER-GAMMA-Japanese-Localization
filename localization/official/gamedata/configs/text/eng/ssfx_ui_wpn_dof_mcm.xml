@@ -20,57 +20,57 @@
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_aim_fadestart_mcm">
-		<text>フォーカス外のフェードの起点 [エイム中]</text>
+		<text>エイム時のぼかし開始距離</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_aim_fadelen_mcm">
-		<text>フォーカス外のフェードの範囲 [エイム中]</text>
+		<text>エイム時のぼかしの範囲</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_aim_blur_mcm">
-		<text>ぼかしの強さ [エイム中] (0 = 無効)</text>
+		<text>エイム時のぼかしの強さ (0で無効)</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wpn_dof_aim_edgeblur_mcm">
-		<text>周辺のぼかし [エイム中] (0 = 無効)</text>
+		<text>エイム時の周辺ぼかしの強さ (0で無効)</text>
 	</string>
 
 
 	<string id="ui_mcm_ssfx_module_wpn_dof_fadestart_mcm">
-		<text>フォーカス外のフェードの起点</text>
+		<text>ぼかし開始距離</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_fadelen_mcm">
-		<text>フォーカス外のフェードの範囲</text>
+		<text>ぼかしの範囲</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_blur_mcm">
-		<text>ぼかしの強さ (0 = 無効)</text>
+		<text>ぼかしの強さ (0で無効)</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_edgeblur_mcm">
-		<text>周辺のぼかし (0 = 無効)</text>
+		<text>周辺ぼかしの強さ (0で無効)</text>
 	</string>
 
 
 	<string id="ui_mcm_ssfx_module_wpn_dof_reloading_mcm">
-		<text>リロード中の被写界深度</text>
+		<text>リロード時の被写界深度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_pda_mcm">
-		<text>PDA操作中の被写界深度</text>
+		<text>PDA操作時の被写界深度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_inventory_mcm">
-		<text>インベントリ操作中の被写界深度</text>
+		<text>インベントリ操作時の被写界深度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_wpn_dof_fdda_mcm">
-		<text>アイテム使用中の被写界深度 (FDDA)</text>
+		<text>アイテム使用時の被写界深度 (FDDA)</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_wpn_dof_looting_mutant_mcm">
-		<text>ミュータントの剥ぎ取り中の被写界深度</text>
+		<text>ミュータント剥ぎ取り時の被写界深度</text>
 	</string>
 	
 </string_table>

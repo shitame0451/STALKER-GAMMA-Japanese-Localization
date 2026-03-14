@@ -24,7 +24,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_quality_mcm_desc">
-		<text>[再起動が必要] 間接光のレンダリングに使用するサンプルの量を設定します。「高」と「非常に高い」の設定はパフォーマンスに大きく影響します。 [ 16, 24, 32, 48, 64 ]</text>
+		<text>[再起動が必要] 間接光のレンダリングに使用するサンプルの数を設定します。特に「高」や「非常に高い」に設定すると、パフォーマンスに大きな影響を与える可能性があります。 [ 16, 24, 32, 48, 64 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_res_mcm">
@@ -32,7 +32,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_res_mcm_desc">
-		<text>間接光のレンダリング解像度を調整します。高い数値はパフォーマンスに大きく影響します。</text>
+		<text>間接光のレンダリング解像度を調整します。数値を高くすると、パフォーマンスに大きな影響を与える可能性があります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_blur_mcm">
@@ -40,7 +40,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_blur_mcm_desc">
-		<text>ぼかしの強さを調整します。これは間接光の滑らかさを向上させます。</text>
+		<text>間接光のぼかしの強さを調整し、見た目をより滑らかにします。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_vibrance_mcm">
@@ -56,15 +56,15 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_distance_mcm_desc">
-		<text>間接光のレンダリングの最大距離を調整します。</text>
+		<text>間接光が描画される最大距離を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_global_int_mcm">
-		<text>全般的な間接光の強さ</text>
+		<text>全体的な間接光の強度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_global_int_mcm_desc">
-		<text>間接光の全般的な強度を調整します。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
+		<text>間接光の全体的な強度を調整します。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_hud_int_mcm">
@@ -72,15 +72,15 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_hud_int_mcm_desc">
-		<text>HUD要素（武器や腕など）にかかるエフェクトの強度を調整します。この設定は全般的な間接光の強さに対しての割合となります。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
+		<text>HUD要素（武器や腕など）に適用される間接光の強度を調整します。これは、全体的な間接光の強度に対する割合で適用されます。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_flora_int_mcm">
-		<text>植物類の強度</text>
+		<text>植物の強度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_il_flora_int_mcm_desc">
-		<text>植物（草や木など）にかかるエフェクトの強度を調整します。この設定は全般的な間接光の強さに対しての割合となります。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
+		<text>植物（草や木など）に適用される間接光の強度を調整します。これは、全体的な間接光の強度に対する割合で適用されます。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
 	</string>
 
 </string_table>

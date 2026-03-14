@@ -13,22 +13,22 @@
 		<text>Item UI Improvements</text>
 	</string>
 	<string id="ui_mcm_menu_cond_text">
-		<text>耐久値表示</text>
+		<text>耐久値</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_cond_text_title">
-		<text>Condition Percentage Number</text>
+		<text>耐久値表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_cond_text_enable">
-		<text>有効</text>
+		<text>有効化</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_cond_text_enable_equipped">
-		<text>身につけた装備に表示する</text>
+		<text>装備中のアイテムに表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_cond_text_hide_bar">
-		<text>耐久値バーを隠す</text>
+		<text>耐久値バーを非表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_cond_text_hide_bg">
-		<text>耐久値の数字を表示しない</text>
+		<text>耐久値の背景（黒枠）を非表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_cond_text_alt_artefact_pos">
 		<text>アーティファクトの耐久値の表示位置</text>
@@ -46,31 +46,31 @@
 		<text>右上</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_cond_text_padding">
-		<text>表示する文字の字間調整</text>
+		<text>文字の字間調整</text>
 	</string>
 	<string id="ui_mcm_menu_part_dots">
-		<text>部品表示</text>
+		<text>部品の情報</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_title">
-		<text>Part Condition Indicators</text>
+		<text>部品の耐久値インジケーター</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_enable">
-		<text>有効</text>
+		<text>有効化</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_show_on_equipped">
-		<text>身につけた装備に表示する</text>
+		<text>装備中のアイテムに表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_show_on_wpn">
-		<text>武器に表示する</text>
+		<text>武器に表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_show_on_armor">
-		<text>スーツ/ヘルメットに表示する</text>
+		<text>スーツ／ヘルメットに表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_size_mult">
 		<text>ドットの大きさ</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_separator_width">
-		<text>ドット間の間隔調整</text>
+		<text>ドットの間隔</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_position">
 		<text>位置</text>
@@ -85,148 +85,148 @@
 		<text>耐久値バーの上 (短い銃のみ)</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_wpo_mode">
-		<text>色のしきい値を使用する</text>
+		<text>耐久値に応じた色分けを適用</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_wpo_green">
-		<text>緑色の耐久値のしきい値</text>
+		<text>「緑」表示にするしきい値</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_wpo_yellow">
-		<text>黄色の耐久値のしきい値</text>
+		<text>「黄」表示にするしきい値</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_part_dots_wpo_orange">
-		<text>オレンジ色の耐久値のしきい値</text>
+		<text>「橙」表示にするしきい値</text>
 	</string>
 	<string id="ui_mcm_menu_ammo_name">
 		<text>弾薬の名前</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_ammo_name_title">
-		<text>Ammo Item Short-Name Text</text>
+		<text>弾薬の略称表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_ammo_name_enable">
-		<text>有効</text>
+		<text>有効化</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_ammo_name_bad_color">
-		<text>弾薬の品質に応じて文字の色を変更する (悪い/古い)</text>
+		<text>弾薬の品質（悪い／古い）に応じて文字を色分けする</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_ammo_name_show_expl">
-		<text>M203/VOG グレネード弾に対して有効にする</text>
+		<text>グレネード弾（M203／VOG）や破片榴弾に表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_ammo_name_expl_bad_color">
-		<text>弾薬 (爆発物) の品質に応じて文字の色を変更する</text>
+		<text>爆発物の品質に応じて文字を色分けする</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_ammo_name_padding">
-		<text>表示する文字の字間調整</text>
+		<text>文字の字間調整</text>
 	</string>
 	<string id="ui_mcm_menu_recipe_text">
-		<text>既読/未読</text>
+		<text>既読／未読</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_recipe_text_title">
-		<text>Recipe, Notes and Maps Show Read/Unread Text</text>
+		<text>レシピ、メモ、マップの既読／未読表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_recipe_text_enable">
-		<text>有効</text>
+		<text>有効化</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_recipe_text_show_on_pda">
-		<text>スタッシュの情報が付いているPDAにヒントを表示する</text>
+		<text>スタッシュ情報を含むPDAにヒントを表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_recipe_text_padding">
-		<text>表示する文字の字間調整</text>
+		<text>文字の字間調整</text>
 	</string>
 	<string id="ui_mcm_menu_mag_info">
-		<text>弾薬の情報</text>
+		<text>マガジンの情報</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_mag_info_title">
-		<text>Magazine Ammo Count and Bullet Name (Mags Redux Only)</text>
+		<text>マガジンの残弾数と弾薬名表示（Mags Redux導入時のみ）</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_mag_info_enable">
 		<text>有効</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_mag_info_show_ammo_name">
-		<text>短縮した弾薬の名前を表示する</text>
+		<text>弾薬の略称を表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_mag_info_show_ammo_count">
-		<text>弾薬の数を表示する</text>
+		<text>残弾数を表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_mag_info_hide_bar">
-		<text>マガジンの装填数バーを非表示にする</text>
+		<text>マガジンの装填数バーを非表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_mag_info_padding">
-		<text>表示する文字の字間調整</text>
+		<text>文字の字間調整</text>
 	</string>
 	<string id="ui_mcm_menu_money_text">
-		<text>金額</text>
+		<text>紙幣／現金</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_money_text_title">
-		<text>Money Text</text>
+		<text>紙幣／現金アイテムの金額表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_money_text_enable">
-		<text>有効</text>
+		<text>有効化</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_money_text_hide_bg">
-		<text>背景を非表示にする</text>
+		<text>背景を非表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_money_text_padding">
-		<text>表示する文字の字間調整</text>
+		<text>文字の字間調整</text>
 	</string>
 	<string id="ui_mcm_menu_armor_info">
 		<text>スーツの情報</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_armor_info_title">
-		<text>Armor Patch and Repair Type</text>
+		<text>スーツの派閥パッチと修理タイプの表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_armor_info_show_patch">
-		<text>スーツの派閥パッチを表示する</text>
+		<text>派閥パッチのアイコンを表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_armor_info_show_armor_type">
-		<text>スーツに対応している修理タイプを表示する</text>
+		<text>スーツに対応している修理タイプを表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_armor_info_show_helmet_type">
-		<text>ヘルメットの種類を表示する</text>
+		<text>ヘルメットのタイプを表示</text>
 	</string>
 	<string id="ui_mcm_menu_wpn_info">
 		<text>武器の情報</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_info_title">
-		<text>Weapon Name and Repair Type</text>
+		<text>武器名と修理タイプの表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_info_show_gun_repair_type">
-		<text>銃に対応している修理タイプを表示する</text>
+		<text>銃に対応している修理タイプを表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_info_show_wpn_name">
-		<text>武器の名前を表示する</text>
+		<text>武器の名前を表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_info_main_slots_only">
-		<text>装備しているプライマリ/セカンダリの武器にのみ名前を表示する</text>
+		<text>プライマリ／セカンダリに装備中の武器にのみ名前を表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_info_show_grenade_name">
-		<text>グレネードの名前を表示する</text>
+		<text>グレネードの名前を表示</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_info_show_melee">
-		<text>近接武器の名前を表示する</text>
+		<text>近接武器の名前を表示</text>
 	</string>
 	<string id="ui_mcm_menu_wpn_scaling">
-		<text>武器の表示の大きさ</text>
+		<text>武器のアイコン表示の大きさ</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_scaling_not_installed">
 		<text>Weapon scaling is not installed</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_scaling_title">
-		<text>Weapon Scaling and Alignment</text>
+		<text>武器アイコンのサイズ調整と配置</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_scaling_enable_equip_hor_scale">
-		<text>装備した武器を拡大および整列させる（横方向）</text>
+		<text>装備中の武器のアイコンをサイズ調整して整列（水平）</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_scaling_enable_equip_vert_scale">
-		<text>装備した武器を拡大および整列させる（縦方向）</text>
+		<text>装備中の武器のアイコンをサイズ調整して整列（垂直）</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_scaling_equip_vert_padding">
-		<text>縦方向に拡大された武器の余白調整</text>
+		<text>整列後の武器アイコンの余白調整（垂直）</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_scaling_equip_hor_padding">
-		<text>横方向に拡大された武器の余白調整</text>
+		<text>整列後の武器アイコンの余白調整（水平）</text>
 	</string>
 	<string id="ui_mcm_item_icon_info_wpn_scaling_enable_inv_scaling">
-		<text>サプレッサー付きの銃のアイコンを拡大および整列させる</text>
+		<text>サプレッサー付きの銃のアイコンをサイズ調整して整列</text>
 	</string>
 
 <!--

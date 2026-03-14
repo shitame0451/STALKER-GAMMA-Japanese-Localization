@@ -150,23 +150,23 @@
 		<text>保留中の変更が「%sか所」あります</text>
 	</string>
 	<string id="ui_mm_warning_economy_diff_not_level_present">
-		<text>ゲーム進行難易度の設定項目は、ゲームのプレイ中にのみアクセス可能です。
+		<text>ゲーム進行難易度は、ゲームプレイ中にのみ設定できます。
 		\n注意: この設定はセーブデータごとに適用されます</text>
 	</string>
 	<string id="ui_mm_warning_gameplay_diff_not_level_present">
-		<text>ゲームプレイ難易度の設定項目は、ゲームのプレイ中にのみアクセス可能です。
+		<text>ゲームプレイ難易度は、ゲームプレイ中にのみ設定できます。
 		\n注意: この設定はセーブデータごとに適用されます</text>
 	</string>
 	<string id="ui_mm_change_done_restart">
-		<text>変更が保存されました。
-		\n変更を適用するにはゲームを再起動する必要があります。</text>
+		<text>変更を保存しました。
+		\n設定を適用するにはゲームの再起動が必要です。</text>
 	</string>
 	<string id="ui_mm_change_done">
-		<text>変更が保存されました</text>
+		<text>変更を保存しました</text>
 	</string>
 	<string id="ui_mm_discard_changes">
-		<text>変更した内容は破棄されます。
-		\n続けますか？</text>
+		<text>変更内容が破棄されます。
+		\n続行しますか？</text>
 	</string>
 	
 	
@@ -304,10 +304,10 @@
 		<text>x8</text>
 	</string>
 	<string id="ui_mm_lst_atest_msaa_dx10_0">
-		<text>DX10を使う</text>
+		<text>DX10を使用</text>
 	</string>
 	<string id="ui_mm_lst_atest_msaa_dx10_1">
-		<text>DX10.1を使う</text>
+		<text>DX10.1を使用</text>
 	</string>
 	<string id="ui_mm_lst_volumetric">
 		<text>ボリュメトリック</text>
@@ -319,7 +319,7 @@
 		<text>両方</text>
 	</string>
 	<string id="ui_mm_video_advanced_ai_torch">
-		<text>ストーカーのヘッドランプを描画</text>
+		<text>ストーカーのヘッドランプ表示</text>
 	</string>
 	<string id="ui_mm_video_advanced_v_sync">
 		<text>垂直同期</text>
@@ -331,35 +331,35 @@
 		<text>フレームレート制限</text>
 	</string>
 	<string id="ui_mm_video_advanced_framelimit_desc">
-		<text>このスライダーで任意のフレームレート制限を設定できます。
-		\n「0」は無制限を意味します。</text>
+		<text>フレームレートの上限を設定します。
+		\n「0」に設定すると無制限になります。</text>
 	</string>
 	<string id="ui_mm_header_rendering_dist">
 		<text>描画距離</text>
 	</string>
 	<string id="ui_mm_video_advanced_vis_distance">
-		<text>世界</text>
+		<text>世界の描画距離</text>
 	</string>
 	<string id="ui_mm_video_advanced_vis_distance_desc">
-		<text>値を低くすると世界の描画距離が短くなりますが、フレームレートが向上します。</text>
+		<text>世界の描画距離を調整します。値を低くすると描画距離が短くなり、フレームレートが向上します。</text>
 	</string>
 	<string id="ui_mm_video_advanced_optimize_static_geom">
-		<text>静的オブジェクト</text>
+		<text>静的オブジェクトの描画距離</text>
 	</string>
 	<string id="ui_mm_video_advanced_optimize_static_geom_desc">
-		<text>値を低くするとプレイヤーから離れた場所に配置されたオブジェクトの描画が省略され、フレームレートが向上します。</text>
+		<text>プレイヤーから離れた静的オブジェクトの描画を調整します。値を低くすると描画が省略され、フレームレートが向上します。</text>
 	</string>
 	<string id="ui_mm_video_advanced_optimize_dynamic_geom">
-		<text>動的オブジェクト</text>
+		<text>動的オブジェクトの描画距離</text>
 	</string>
 	<string id="ui_mm_video_advanced_optimize_dynamic_geom_desc">
-		<text>値を低くするとプレイヤーから離れたNPCやミュータントの描画が省略され、フレームレートが向上します。</text>
+		<text>プレイヤーから離れたNPCやミュータントの描画を調整します。値を低くすると描画が省略され、フレームレートが向上します。</text>
 	</string>
 	<string id="ui_mm_video_advanced_optimize_shadow_geom">
-		<text>遠方の影を除去</text>
+		<text>遠方の影の最適化</text>
 	</string>
 	<string id="ui_mm_video_advanced_optimize_shadow_geom_desc">
-		<text>遠くの影（通常は視認できない影）を非表示にすることで、パフォーマンスが向上します。ただし、日の出や日没時などでは長い影が消えることがあります。</text>
+		<text>遠くの影（通常は視認できない影）を非表示にすることで、パフォーマンスが向上します。ただし、日の出や日没時には長い影が消える場合があります。</text>
 	</string>
 	<string id="ui_mm_header_rendering_quality">
 		<text>レンダリング品質</text>
@@ -374,7 +374,7 @@
 		<text>遠方に表示されるテクスチャの品質と鮮明さを調整します。</text>
 	</string>
 	<string id="ui_mm_video_advanced_geometry_lod">
-		<text>物体の詳細</text>
+		<text>オブジェクトの詳細度</text>
 	</string>
 	<string id="ui_mm_video_advanced_detail_textures">
 		<text>テクスチャの詳細</text>
@@ -485,7 +485,7 @@
 		<text>モーションブラーの強さ</text>
 	</string>
 	<string id="ui_mm_video_advanced_dynamic_wet_surfaces">
-		<text>表面の濡れ描写</text>
+		<text>濡れた表面の表現</text>
 	</string>
 	<string id="ui_mm_video_advanced_volumetric_smoke">
 		<text>ボリュメトリックスモーク</text>
@@ -507,7 +507,7 @@
 		<text>動的なクロスヘア</text>
 	</string>
 	<string id="ui_mm_video_hud_crosshair_clr_a">
-		<text>クロスヘアの色（透過度）</text>
+		<text>クロスヘアの透過度</text>
 	</string>
 	<string id="ui_mm_video_hud_crosshair_clr_r">
 		<text>クロスヘアの色（赤）</text>
@@ -519,19 +519,19 @@
 		<text>クロスヘアの色（青）</text>
 	</string>
 	<string id="ui_mm_video_hud_show_wpn">
-		<text>武器の描画</text>
+		<text>武器の表示</text>
 	</string>
 	<string id="ui_mm_video_hud_tips_desc">
-		<text>NPCにカーソルを合わせると名前が表示されます。名前の色でプレイヤーとの関係（友好度）が分かり、敵か味方かを簡単に判別できるようになります。</text>
+		<text>NPCにカーソルを合わせると名前が表示されます。名前の色はプレイヤーとの関係（友好度）を示し、敵味方の判別に役立ちます。</text>
 	</string>
 	<string id="ui_mm_video_hud_show_tracers">
-		<text>銃弾の軌跡の描画</text>
+		<text>銃弾の軌跡の表示</text>
 	</string>
 	<string id="ui_mm_video_hud_show_hud">
 		<text>HUDの表示</text>
 	</string>
 	<string id="ui_mm_video_hud_show_slots">
-		<text>装備中のベルトアイテムの表示</text>
+		<text>装備中のベルトアイテムを表示</text>
 	</string>
 	<string id="ui_mm_video_hud_show_minimap">
 		<text>ミニマップの表示</text>
@@ -543,7 +543,7 @@
 		<text>NPCの名前と派閥名の表示</text>
 	</string>
 	<string id="ui_mm_video_hud_autohide_stamina_bar">
-		<text>スタミナバーを自動的に隠す</text>
+		<text>スタミナバーの自動非表示</text>
 	</string>
 	<string id="ui_mm_video_hud_ironsights_zoom_factor">
 		<text>アイアンサイト時のズーム倍率</text>
@@ -552,7 +552,7 @@
 		<text>移動時の画面揺れの強さ</text>
 	</string>
 	<string id="ui_mm_video_hud_3d_pda">
-		<text>PDAを3Dで表示する</text>
+		<text>PDAの3D表示</text>
 	</string>
 	
 	<!-- Video - Visual effects -->
@@ -575,13 +575,13 @@
 		<text>呼吸時にマスクが曇る演出</text>
 	</string>
 	<string id="ui_mm_video_player_radiation_effect">
-		<text>放射線障害の演出</text>
+		<text>放射線被曝時の演出</text>
 	</string>
 	<string id="ui_mm_video_player_blood_splash">
-		<text>出血中の演出</text>
+		<text>出血時の画面演出</text>
 	</string>
 	<string id="ui_mm_video_player_bleed_effect">
-		<text>低体力時の画面ブラー</text>
+		<text>低体力時の画面ぼかし演出</text>
 	</string>
 	<string id="ui_mm_video_player_item_swap_animation">
 		<text>装備の持ち替えアニメーション</text>
@@ -596,7 +596,7 @@
 		<text>動的な霧</text>
 	</string>
 	<string id="ui_mm_video_player_rain_droplets">
-		<text>雨によるしずくの演出</text>
+		<text>雨粒の演出</text>
 	</string>
 	<string id="ui_mm_video_player_visor_reflection">
 		<text>バイザーの反射の演出</text>
@@ -609,7 +609,7 @@
 		<text>低い</text>
 	</string>
 	<string id="ui_mm_lst_regular">
-		<text>定期的</text>
+		<text>普通</text>
 	</string>
 	<string id="ui_mm_lst_3h">
 		<text>3h</text>
@@ -653,13 +653,13 @@
 		<text>夜の設定</text>
 	</string>
 	<string id="ui_mm_lst_dark_night">
-		<text>暗い</text>
+		<text>非常に暗い</text>
 	</string>
 	<string id="ui_mm_lst_slight_night">
-		<text>少し明るい</text>
+		<text>やや明るい</text>
 	</string>
 	<string id="ui_mm_lst_medium_night">
-		<text>適度に明るい</text>
+		<text>標準の明るさ</text>
 	</string>
 	<string id="ui_mm_lst_bright_night">
 		<text>非常に明るい</text>
@@ -698,13 +698,13 @@
 		<text>夜の明るさ</text>
 	</string>
 	<string id="ui_mm_video_night_moon_cycle">
-		<text>月の周期の長さ</text>
+		<text>月の満ち欠け周期</text>
 	</string>
 	<string id="ui_mm_video_night_moon_phase_state">
-		<text>月の見た目を固定する</text>
+		<text>月の満ち欠けを固定</text>
 	</string>
 	<string id="ui_mm_video_night_moon_phase">
-		<text>月の見た目</text>
+		<text>月の満ち欠け</text>
 	</string>
 
 
@@ -734,7 +734,7 @@
 		<text>EAX</text>
 	</string>
 	<string id="ui_mm_sound_general_snd_targets">
-		<text>サウンド対象</text>
+		<text>サウンド出力対象</text>
 	</string>
 	<string id="ui_mm_sound_general_dynamic_music">
 		<text>ダイナミックニュース</text>
@@ -751,7 +751,7 @@
 		<text>環境音の音量</text>
 	</string>
 	<string id="ui_mm_sound_environment_ambient_volume_desc">
-		<text>コオロギやカラス、鳥、叫び声などの環境音の音量を調整します。</text>
+		<text>コオロギやカラス、鳥の鳴き声、遠くの叫び声など、周囲の環境音の音量を調整します。</text>
 	</string>
 	<string id="ui_mm_sound_environment_wind_sound">
 		<text>風の音</text>
@@ -760,7 +760,7 @@
 		<text>防護マスク（ヘルメット）の呼吸音</text>
 	</string>
 	<string id="ui_mm_sound_environment_helmet_rain_sound">
-		<text>防護マスク（ヘルメット）に響く雨粒の音</text>
+		<text>防護マスク（ヘルメット）に当たる雨の音</text>
 	</string>
 
 	<!-- Sounds - Radio/Zone FM -->
@@ -774,10 +774,10 @@
 		<text>有効にすると、ゾーン内のラジオから音楽が流れるようになります。</text>
 	</string>
 	<string id="ui_mm_sound_radio_access">
-		<text>ラジオの設定メニューにアクセスするためのボタン</text>
+		<text>ラジオ設定メニューを開くボタン</text>
 	</string>
 	<string id="ui_mm_sound_radio_access_call">
-		<text>ラジオのsettings.txtメニューを呼び出すためのボタン</text>
+		<text>ラジオのsettings.txtメニューを開くボタン</text>
 	</string>
 	<string id="ui_mm_sound_radio_1_play">
 		<text>ラジオの再生／停止</text>
@@ -801,10 +801,10 @@
 		<text>次のチャンネル／プレイリスト</text>
 	</string>
 	<string id="ui_mm_sound_radio_emission_intereferences">
-		<text>光熱放射中の電波障害</text>
+		<text>光熱放射発生時の電波干渉</text>
 	</string>
 	<string id="ui_mm_sound_radio_underground_intereferences">
-		<text>地下での電波障害</text>
+		<text>地下での電波干渉</text>
 	</string>
 	<string id="ui_mm_sound_radio_display_tracks">
 		<text>HUDに再生中の曲名を表示</text>
@@ -870,22 +870,22 @@
 		<text>エイム状態の切り替え</text>
 	</string>
 	<string id="ui_mm_control_general_pickup_mode">
-		<text>複数アイテムの同時取得</text>
+		<text>複数アイテムの一括取得</text>
 	</string>
 	<string id="ui_mm_control_general_pickup_mode_desc">
-		<text>有効にすると、複数のアイテムを一度に拾うことができます。無効にすると、アイテムを一つずつ拾います。</text>
+		<text>有効にすると、複数のアイテムを一度に拾えるようになります。無効にすると、アイテムを一つずつ拾います。</text>
 	</string>
 	<string id="ui_mm_control_general_simple_pda_mode">
 		<text>PDAシンプルモード</text>
 	</string>
 	<string id="ui_mm_control_general_simple_pda_mode_desc">
-		<text>有効にすると、PDAは特定のキー（リロード）を押して覗き込んだときにのみ操作できます。無効にすると、覗き込んでいない状態でもPDAの操作ができます。</text>
+		<text>有効にすると、PDAは特定のキー（リロード）を押して覗き込んだときにのみ操作できます。無効にすると、覗き込んでいない状態でもPDAを操作できます。</text>
 	</string>
 	<string id="ui_mm_control_general_disassembly_warning">
 		<text>Altキーを押しながら分解</text>
 	</string>
 	<string id="ui_mm_control_general_disassembly_warning_desc">
-		<text>間違ってアイテムを分解してしまうことを防ぐため、左Altキーを押していないと分解できないようにします。</text>
+		<text>誤ってアイテムを分解してしまうのを防ぐため、左Altキーを押していないと分解できないようにします。</text>
 	</string>
 	
 	
@@ -897,13 +897,13 @@
 		<text>ハードコアAIエイム</text>
 	</string>
 	<string id="ui_mm_gameplay_general_show_tip_reputation">
-		<text>友好度の通知</text>
+		<text>友好度変化の通知</text>
 	</string>
 	<string id="ui_mm_gameplay_general_show_tip_reputation_desc">
-		<text>タスクの完了（または失敗）後、派閥の友好度の変化をプレイヤーに通知します。</text>
+		<text>タスクの完了（または失敗）後、派閥の友好度変化をプレイヤーに通知します。</text>
 	</string>
 	<string id="ui_mm_gameplay_general_mechanic_feature">
-		<text>技術者による修理の遅れ</text>
+		<text>技術者による修理の遅延</text>
 	</string>
 	<string id="ui_mm_gameplay_general_mechanic_feature_desc">
 		<text>有効にすると、技術者がアイテムの修理を完了するまで一日以上かかるようになります。修理が完了するとアイテムは返却されます。</text>
@@ -912,34 +912,34 @@
 		<text>プレイヤー名</text>
 	</string>
 	<string id="ui_mm_gameplay_general_outfit_portrait">
-		<text>スーツを見た目に反映</text>
+		<text>着用スーツをポートレートに反映</text>
 	</string>
 	<string id="ui_mm_gameplay_general_outfit_portrait_desc">
 		<text>着用しているスーツに応じてプレイヤーの見た目（ポートレート）が変わります。無効にすると、ニューゲーム時に選択したデフォルトの見た目に戻ります。</text>
 	</string>
 	<string id="ui_mm_gameplay_general_char_portrait">
-		<text>デフォルトの見た目</text>
+		<text>デフォルトポートレート</text>
 	</string>
 	<string id="ui_mm_gameplay_general_release_dropped_items">
-		<text>古いドロップアイテムの消滅</text>
+		<text>古いドロップアイテムの自動消滅</text>
 	</string>
 	<string id="ui_mm_gameplay_general_corpse_max_count">
 		<text>死体の消去を開始する数</text>
 	</string>
 	<string id="ui_mm_gameplay_general_corpse_max_count_desc">
-		<text>死体が積み重なることで発生するパフォーマンス低下やA-Lifeの負荷を避けるため、一定数を超えると死体は消去されます。\n消去処理は、死体の数・プレイヤーとの距離・消去タイマーが上限を超えたときに開始されます。</text>
+		<text>死体が積み重なることによるパフォーマンス低下やA-Lifeの負荷を避けるため、一定数を超えると死体が消去されます。\n死体の消去は、死体の数、プレイヤーとの距離、消去タイマーが上限を超えたときに開始されます。</text>
 	</string>
 	<string id="ui_mm_gameplay_general_corpse_min_dist">
 		<text>死体の消去を開始する距離［メートル］</text>
 	</string>
 	<string id="ui_mm_gameplay_general_corpse_min_dist_desc">
-		<text>死体が積み重なることで発生するパフォーマンス低下やA-Lifeの負荷を避けるため、一定距離以上離れた死体は自動的に消去されます。\n消去処理は、死体の数・プレイヤーとの距離・消去タイマーが上限を超えたときに開始されます。</text>
+		<text>死体が積み重なることによるパフォーマンス低下やA-Lifeの負荷を避けるため、一定距離以上離れた死体は自動的に消去されます。\n死体の消去は、死体の数、プレイヤーとの距離、消去タイマーが上限を超えたときに開始されます。</text>
 	</string>
 	<string id="ui_mm_gameplay_general_npc_loot_distance">
 		<text>死体が略奪される距離［メートル］</text>
 	</string>
 	<string id="ui_mm_gameplay_general_npc_loot_distance_desc">
-		<text>プレイヤーがこの距離以上離れている場合のみ、他のストーカーが死体を漁ります。\nこれにより、NPCがプレイヤーの戦利品を横取りするのを防ぎます。</text>
+		<text>プレイヤーがこの距離以上離れている場合にのみ、他のストーカーが死体を漁ります。\nこれにより、NPCがプレイヤーの戦利品を横取りするのを防ぎます。</text>
 	</string>
 	<string id="ui_mm_gameplay_general_max_tasks">
 		<text>NPCから受注できるタスクの最大数</text>
@@ -956,7 +956,7 @@
 		<text>ゲームプレイ難易度</text>
 	</string>
 	<string id="ui_mm_desc_gameplay_diff">
-		<text>ゲームプレイ難易度の設定変更は、現在プレイ中のセーブデータにのみ適用されます。</text>
+		<text>ゲームプレイ難易度の設定は、現在プレイ中のセーブデータにのみ適用されます。</text>
 	</string>
 	<string id="ui_mm_prst_gameplay_easy">
 		<text>イージー</text>
@@ -983,14 +983,14 @@
 		<text>プレイヤーの防御力</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_actor_immunities_desc">
-		<text>あらゆるダメージに対するプレイヤーの耐性を調整します。
-		\n防御力が高いほど、多くのダメージに耐えられます。</text>
+		<text>プレイヤーがあらゆるダメージに対して受ける耐性を調整します。
+		\n防御力が高いほど、より多くのダメージに耐えられます。</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_hit_power">
 		<text>銃弾のダメージ倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_hit_power_desc">
-		<text>銃弾が与えるダメージ量の倍率。
+		<text>プレイヤーが発射する銃弾のダメージ量を調整します。
 		\n\n%c[pda_yellow]注意：%c[ui_gray_1]
 		\nこの設定はプレイヤーが発射した銃弾にのみ適用され、NPCが発射した銃弾には影響しません。</text>
 	</string>
@@ -998,14 +998,14 @@
 		<text>敵の射撃精度（基準値）</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_dispersion_base_desc">
-		<text>敵の武器の射撃精度の基準値。
+		<text>敵の武器の射撃精度を調整します。
 		\n値が高いほど、遠距離での敵の命中精度が低下します。</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_dispersion_factor">
 		<text>敵の射撃精度（倍率）</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_dispersion_factor_desc">
-		<text>敵の武器の射撃精度の倍率。
+		<text>敵の武器の射撃精度に対する倍率を調整します。
 		\n値が高いほど、遠距離での敵の武器の反動が大きくなります。</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_power_loss_bias">
@@ -1024,20 +1024,20 @@
 		<text>昼間の大気中の放射線量</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_radiation_day_desc">
-		<text>有効にすると、日中に屋外にいると常に放射線ダメージを受け、地下エリアではより高い放射線を受けます。放射線耐性の高いスーツやヘルメットは、この効果から身を守るのに役立ちます。</text>
+		<text>有効にすると、日中に屋外にいると常に放射線ダメージを受けます。地下エリアではさらに高い放射線に晒されます。放射線耐性の高いスーツやヘルメットは、この効果から身を守るのに役立ちます。</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_notify_geiger">
-		<text>放射線のクリック音を再生（ガイガーカウンター使用時）</text>
+		<text>ガイガーカウンター使用時の放射線クリック音</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_notify_geiger_desc">
 		<text>%c[ui_gray_1]無効:%c[ui_gray_1] 放射能汚染地帯に近づくとクリック音が鳴ります。
-		\n\n%c[ui_gray_1]有効:%c[ui_gray_1] プレイヤーがガイガーカウンターを所持し、かつバッテリー残量がある場合のみクリック音が鳴ります。</text>
+		\n\n%c[ui_gray_1]有効:%c[ui_gray_1] プレイヤーがガイガーカウンターを所持し、バッテリー残量がある場合にのみクリック音が鳴ります。</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_notify_anomaly">
 		<text>アノマリーの警告音</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_notify_anomaly_desc">
-		<text>有効にすると、アノマリーに近づいた際に警告音が鳴ります。</text>
+		<text>有効にすると、アノマリーに近づいた際に警告音が鳴るようになります。</text>
 	</string>
 	
 	
@@ -1046,7 +1046,7 @@
 		<text>ゲーム進行難易度</text>
 	</string>
 	<string id="ui_mm_desc_economy_diff">
-		<text>ゲーム進行難易度の設定変更は、現在プレイ中のセーブデータにのみ適用されます。</text>
+		<text>ゲーム進行難易度の設定は、現在プレイ中のセーブデータにのみ適用されます。</text>
 	</string>
 	<string id="ui_mm_prst_economy_easy">
 		<text>ツーリスト（イージー）</text>
@@ -1064,58 +1064,58 @@
 		<text>友好度の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_goodwill_desc">
-		<text>タスクを完了した際にプレイヤーが獲得する友好度の倍率。</text>
+		<text>タスク完了時にプレイヤーが獲得する友好度の倍率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_rewards">
 		<text>報酬金額の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_rewards_desc">
-		<text>タスクを完了した際にプレイヤーが獲得する現金の倍率。</text>
+		<text>タスク完了時にプレイヤーが獲得する現金の倍率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_repair">
 		<text>修理費用の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_repair_desc">
-		<text>技術者による修理の費用の倍率。</text>
+		<text>技術者による修理費用の倍率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_upgrade">
 		<text>アップグレード費用の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_upgrade_desc">
-		<text>技術者によるアップグレードの費用の倍率。</text>
+		<text>技術者によるアップグレード費用の倍率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_buy">
-		<text>取引価格（売却）の倍率</text>
+		<text>アイテム売却価格の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_buy_desc">
-		<text>プレイヤーがトレーダーに売却するアイテムの価格の倍率。</text>
+		<text>プレイヤーがトレーダーにアイテムを売却する際の価格倍率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_sell">
-		<text>取引価格（購入）の倍率</text>
+		<text>アイテム購入価格の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_sell_desc">
-		<text>プレイヤーがトレーダーから購入するアイテムの価格の倍率。</text>
+		<text>プレイヤーがトレーダーからアイテムを購入する際の価格倍率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_loots">
 		<text>戦利品（アイテム）の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_loots_desc">
-		<text>死体からアイテムを発見する確率の倍率。</text>
+		<text>死体からアイテムを発見する確率の倍率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_money_loots">
 		<text>戦利品（現金）の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_money_loots_desc">
-		<text>死体から得られる現金の倍率。</text>
+		<text>死体から得られる現金の倍率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_wpn_condition">
 		<text>略奪できる武器の平均的な耐久値</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_stash_chance">
-		<text>スタッシュを発見するチャンス</text>
+		<text>スタッシュ情報の発見確率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_stash_chance_desc">
-		<text>死体からスタッシュの場所を示すPDAを略奪できる確率。</text>
+		<text>死体から回収したPDAにスタッシュの情報が含まれている確率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_max_medkit_uses">
 		<text>医療キットの使用可能回数</text>
@@ -1125,20 +1125,20 @@
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_weapon_degradation_desc">
 		<text>武器は発砲するたびに劣化します。劣化量は武器と使用する弾薬によって異なります。
-		\nこの設定は、それら個別の値にかかる倍率として作用し、全体の劣化速度を調整します。</text>
+		\nこの設定は、個別の劣化量に倍率として作用し、全体の劣化速度を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_battery_consumption">
 		<text>バッテリー消費電力の倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_battery_consumption_desc">
 		<text>電子機器は使用中にバッテリーを消費します。消費速度は機器によって異なります。
-		\nこの設定は、それら個別の値にかかる倍率として作用し、全体の消耗速度を調整します。</text>
+		\nこの設定は、個別の消費速度に倍率として作用し、全体の消耗速度を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_limited_bolts">
 		<text>ボルトの所持制限</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_limited_bolts_desc">
-		<text>有効にすると、ボルトが無限ではなくなります。ボルトが尽きた場合は購入するか探索で入手する必要があります。\n
+		<text>有効にすると、ボルトの所持数が制限されます。ボルトが尽きた場合は購入するか探索で入手する必要があります。\n
 		%c[pda_white]ヒント:%c[ui_gray_1] 投げたボルトは、アノマリーで損傷していない限り回収できます。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_arty_degradation">
@@ -1148,31 +1148,31 @@
 		<text>バックパックの劣化</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_percentage_parts">
-		<text>部品のフルパーセンテージシステム</text>
+		<text>部品の耐久値表示（詳細）</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_percentage_parts_desc">
-		<text>有効にすると、分解で得られる部品は1~100%の耐久値スケールで表示されます。
-		\n無効の場合、部品は25%、50%、75%、100%の4段階で表されます。</text>
+		<text>有効にすると、分解で得られる部品の耐久値が1～100%のスケールで表示されます。
+		\n無効の場合、耐久値は25%、50%、75%、100%の4段階で表示されます。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_restock">
-		<text>トレーダーの補充サイクル［h］</text>
+		<text>トレーダーの在庫補充間隔［h］</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_restock_desc">
-		<text>トレーダーの在庫が完全に補充されるまでの時間を決定します（時間単位）。</text>
+		<text>トレーダーの在庫が完全に補充されるまでの時間を設定します（時間単位）。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_arty_chance">
-		<text>アーティファクトのリスポーンの確率</text>
+		<text>アーティファクトの再生成確率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_arty_chance_desc">
-		<text>アーティファクトは通常、光熱放射時（または稀に精神波の嵐時）にアノマリーフィールド内で形成されます。
-		\nこの設定は、アノマリーフィールドがアーティファクトを形成する確率を制御します。</text>
+		<text>アーティファクトは通常、光熱放射時（または稀に精神波の嵐時）にアノマリーフィールド内で生成されます。
+		\nこの設定は、アノマリーフィールドがアーティファクトを生成する確率を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_outfit_drops">
 		<text>死体から得られるスーツの倍率</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_outfit_drops_desc">
-		<text>死体からスーツが見つかる可能性を調整します。
-		\n\n「ゲームの進行に合わせる」は、スーツのドロップがプレイヤーの進行度に応じて決まることを意味します。ランクが高いほど、より良いスーツが戦利品として見つかるようになります。</text>
+		<text>死体からスーツが見つかる確率を調整します。
+		\n\n「ゲームの進行に合わせる」を選択すると、スーツのドロップはプレイヤーの進行度に応じて決定されます。ランクが高いほど、より良いスーツが戦利品として見つかるようになります。</text>
 	</string>
 	
 <!-- Gameplay - Disguise -->
@@ -1180,96 +1180,96 @@
 		<text>変装システムの設定</text>
 	</string>
 	<string id="ui_mm_desc_disguise">
-		<text>プレイヤーは他の派閥のメンバーに変装し、正体を隠したまま行動できます。盗みや暗殺など様々な目的に利用可能です。
-		\n以下の項目で変装システムの挙動を調整できます。詳しい説明はPDAの百科事典に記載されています。</text>
+		<text>プレイヤーは他の派閥のメンバーに変装し、正体を隠したまま行動できます。盗みや暗殺など、様々な目的に利用可能です。
+		\n以下の項目で変装システムの挙動を調整できます。詳しい説明はPDAの百科事典をご確認ください。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_state">
 		<text>変装システムを有効化</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_active_item">
-		<text>手に持っているアイテムを考慮</text>
+		<text>手持ちのアイテムを考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_active_item_desc">
-		<text>有効にすると、プレイヤーが手に持っているアイテムの種類と耐久値が、NPCの視線に入った際に考慮されます。
-		\n\nこの要素は、全体の「疑われやすさ」を計算する際の重要度を決定します。</text>
+		<text>有効にすると、NPCはプレイヤーが現在手に持っているアイテムの種類や状態を注視します。
+		\n\nこの係数は、全体の不審度を算出する際の手持ちアイテムの影響力を制御します。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_active_item_factor">
-		<text>手に持っているアイテムに対する疑心度の係数</text>
+		<text>手持ちアイテムに対する疑心度の係数</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_weapon">
-		<text>装備中の武器を考慮</text>
+		<text>メインスロットの武器を考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_weapon_desc">
-		<text>プレイヤーがメインスロットに装備している武器の種類と耐久値が、NPCの視線に入った際に考慮されます。
-		\n\nこの要素は、全体の「疑われやすさ」を計算する際の重要度を決定します。</text>
+		<text>有効にすると、NPCはプレイヤーのメインスロットに装備されている武器の種類や耐久値を注視します。
+		\n\nこの係数は、全体の不審度を算出する際の装備武器の影響力を制御します。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_weapon_factor">
 		<text>装備中の武器に対する疑心度の係数</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_outfit">
-		<text>装備中のスーツを考慮</text>
+		<text>装備中のスーツを考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_outfit_desc">
-		<text>プレイヤーが装備しているスーツの種類と耐久値が、NPCの視線に入った際に考慮されます。この要素は、全体の「疑われやすさ」を計算する際の重要度を決定します。
+		<text>有効にすると、NPCはプレイヤーが着用しているスーツの種類や耐久値を注視します。この係数は、全体の不審度を算出する際のスーツの影響力を制御します。
 		\n%c[pda_white]ヒント:%c[ui_gray_1] スーツの耐久値は変装システムにおいて特に重要です。損傷したスーツはNPCに強い疑念を抱かせます。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_outfit_factor">
 		<text>装備中のスーツに対する疑心度の係数</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_helmet">
-		<text>装備中のヘルメットを考慮</text>
+		<text>装備中のヘルメットを考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_helmet_desc">
-		<text>プレイヤーが着用しているヘルメット（統合型も含む）の種類と耐久値が、NPCの視線に入った際に考慮されます。この要素は、全体の「疑われやすさ」を計算する際の重要度を決定します。
-		\n%c[pda_white]ヒント:%c[ui_gray_1] ヘルメットは顔と正体を隠すため、変装システムで極めて重要な要素です。</text>
+		<text>有効にすると、NPCはプレイヤーが着用しているヘルメット（スーツ一体型も含む）の種類や耐久値を注視します。
+		\n%c[pda_white]ヒント:%c[ui_gray_1] ヘルメットは顔や身元を隠すため、変装システムにおいて極めて重要な役割を果たします。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_helmet_factor">
 		<text>装備中のヘルメットに対する疑心度の係数</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_backpack">
-		<text>装備中のバックパックを考慮</text>
+		<text>装備中のバックパックを考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_backpack_desc">
-		<text>プレイヤーが装備しているバックパックの種類と耐久値が、NPCの視線に入った際に考慮されます。この要素は、全体の「疑われやすさ」を計算する際の重要度を決定します。
-		\n%c[pda_white]ヒント:%c[ui_gray_1] 大きなバックパックはより注意を引きますが、この要素が全体に与える影響はわずかです。</text>
+		<text>有効にすると、NPCはプレイヤーのバックパックスロットにあるバックパックの種類や状態を注視します。この係数は、全体の不審度を算出する際のバックパックの影響力を制御します。
+		\n%c[pda_white]ヒント:%c[ui_gray_1] 大きなバックパックは注目を集めやすいですが、全体的な影響力はわずかです。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_backpack_factor">
 		<text>装備中のバックパックに対する疑心度の係数</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_inventory">
-		<text>プレイヤーのインベントリを考慮</text>
+		<text>プレイヤーの所持品の量・重さを考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_inventory_desc">
-		<text>プレイヤーのインベントリにあるアイテムの数、重さ、サイズがNPCに観察された際に考慮されます。この要素は、全体の「疑われやすさ」を計算する際の重要度を決定します。
-		\n%c[pda_white]ヒント:%c[ui_gray_1] 武器のような大きなアイテムを多く所持しているとNPCは疑念を抱きますが、この要素が全体に与える影響はわずかです。</text>
+		<text>有効にすると、NPCはプレイヤーのインベントリ内にあるアイテムの数、重量、サイズを注視します。この係数は、全体の不審度を算出する際の所持品の影響力を制御します。
+		\n%c[pda_white]ヒント:%c[ui_gray_1] 大量のアイテムや武器のような大きな物体を多数持ち運ぶことはNPCに不審がられますが、全体的な影響力はわずかです。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_inventory_factor">
-		<text>プレイヤーのインベントリに対する疑心度の係数</text>
+		<text>プレイヤーの所持品に対する疑心度の係数</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_speed">
-		<text>プレイヤーの行動を考慮</text>
+		<text>プレイヤーの行動を考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_speed_desc">
-		<text>プレイヤーの移動や速度がNPCに観察された際に考慮されます。この要素は、全体の「疑われやすさ」を計算する際の重要度を決定します。
+		<text>有効にすると、NPCはプレイヤーの動きや速度を注視します。この係数は、全体の不審度を算出する際の移動要素の影響力を制御します。
 		\n%c[pda_white]ヒント:%c[ui_gray_1] 周囲に溶け込むように行動しましょう。NPCが近くにいるときは走ったりジャンプしたりしないように。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_speed_factor">
 		<text>プレイヤーの行動に対する疑心度の係数</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_distance">
-		<text>NPCとの距離を考慮</text>
+		<text>NPCとの距離を考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_distance_desc">
-		<text>プレイヤーとNPCの距離が考慮されます。この設定は、疑心度が計算され始めるまでの安全な距離を決定します。</text>
+		<text>有効にすると、NPCとの距離が考慮されます。この数値は、疑心度が計算され始めるまでの安全な距離を決定します。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_distance_factor">
 		<text>安全距離［メートル］</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_stay_time">
-		<text>プレイヤーがNPCの近くにいる時間を考慮</text>
+		<text>プレイヤーがNPCの近くにいる時間を考慮する</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_stay_time_desc">
-		<text>NPCに対する安全距離内でプレイヤーが過ごした時間の長さが考慮されます。この設定は、「疑われやすさ」が計算されるまでの許容される最大時間を決定します。
+		<text>有効にすると、NPCの安全距離内にプレイヤーが留まっている時間が考慮されます。この数値は、疑心度が計算され始めるまでの許容される最大時間を決定します。
 		\n%c[pda_white]ヒント:%c[ui_gray_1] 会話に費やした時間も含まれるため、長居しすぎないように注意しましょう。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_stay_time_factor">
@@ -1278,7 +1278,7 @@
 	
 <!-- Gameplay - Fast Travel -->
 	<string id="ui_mm_desc_fast_travel">
-		<text>PDAのマップ上にあるトラベルマーカーをクリックすることで、ゾーン内の多くの場所にファストトラベルできます。\nトラベルマーカーは、その場所を初めて訪れたときに解禁されます。\n以下の設定でファストトラベルの要素を調整できます。</text>
+		<text>PDAのマップ上にあるトラベルマーカーをクリックすることで、ゾーン内の多くの場所にファストトラベルできます。\nトラベルマーカーは、その場所を初めて訪れたときに利用可能になります。\n以下の設定でファストトラベルの要素を調整できます。</text>
 	</string>
 	<string id="ui_mm_lst_disabled">
 		<text>許可しない</text>
@@ -1308,7 +1308,7 @@
 		<text>長い地名を表示</text>
 	</string>
 	<string id="ui_mm_gameplay_fast_travel_visit_message">
-		<text>新しい場所を発見した際にメッセージを表示</text>
+		<text>新しい場所を発見したときにメッセージを表示</text>
 	</string>
 	<string id="ui_mm_gameplay_fast_travel_time">
 		<text>移動時に時間が経過しない</text>
@@ -1316,7 +1316,7 @@
 
 <!-- Gameplay - Backpack Travel -->
 	<string id="ui_mm_desc_backpack_travel">
-		<text>ゾーン内で作成したスタッシュにPDAのマップから直接ファストトラベルできます。
+		<text>ゾーン内で作成したスタッシュに、PDAのマップから直接ファストトラベルできます。
 		\n以下の設定でバックパックトラベルの挙動を調整できます。</text>
 	</string>
 	<string id="ui_mm_gameplay_backpack_travel_state">
@@ -1352,17 +1352,17 @@
 		<text>ストーカー人口の倍率</text>
 	</string>
 	<string id="ui_mm_alife_general_alife_stalker_pop_desc">
-		<text>ゾーン内のストーカー生成数の倍率である。この値が大きいほど、より多くの分隊が生み出される。
+		<text>ゾーン内のストーカー生成数の倍率です。この値が大きいほど、より多くの分隊が生み出されます。
 
-\n\nこの設定は、新しいゲームを開始するときに最も効果を発揮する。進行中のゲームでこの値を変更しても、既にゾーン内には分隊が存在しているため、人口の変化は非常に緩やかなものになる。</text>
+\n\nこの設定は、新しいゲームを開始するときに最も効果を発揮します。進行中のゲームでこの値を変更しても、既にゾーン内には分隊が存在しているため、人口の変化は非常に緩やかなものになります。</text>
 	</string>
 	<string id="ui_mm_alife_general_alife_mutant_pop">
 		<text>ミュータント人口の倍率</text>
 	</string>
 	<string id="ui_mm_alife_general_alife_mutant_pop_desc">
-		<text>ゾーン内のミュータント生成数の倍率である。この値が大きいほど、より多くのミュータントが生み出される。
+		<text>ゾーン内のミュータント生成数の倍率です。この値が大きいほど、より多くのミュータントが生み出されます。
 
-\n\nこの設定は、新しいゲームを開始するときに最も効果を発揮する。進行中のゲームでこの値を変更しても、既にゾーン内にはミュータントが存在しているため、人口の変化は非常に緩やかなものになる。</text>
+\n\nこの設定は、新しいゲームを開始するときに最も効果を発揮します。進行中のゲームでこの値を変更しても、既にゾーン内にはミュータントが存在しているため、人口の変化は非常に緩やかなものになります。</text>
 	</string>
 	<string id="ui_mm_alife_general_offline_combat">
 		<text>オフライン戦闘</text>
@@ -1372,28 +1372,28 @@
 		\n\n%c[pda_white]注意：%c[ui_gray_1]
 		\n•%c[ui_gray_1] 「動的な派閥関係」が有効な場合、派閥間の戦闘が続くため、オフラインでの戦闘が関係の変化に大きな役割を果たすようになります。
 		\n•%c[ui_gray_1] この機能は、派閥戦争を含むすべてのゲームモードで動作します。
-		\n•%c[ui_gray_1] この機能は、ゾーン全体のストーカーの人口を減少させる可能性がある。ゾーンを賑やかに保ちたい場合は無効にしてください。</text>
+		\n•%c[ui_gray_1] この機能は、ゾーン全体のストーカーの人口を減少させる可能性があります。ゾーンを賑やかに保ちたい場合は無効にしてください。</text>
 	</string>
 	<string id="ui_mm_alife_general_excl_dist">
 		<text>オンライン除外半径</text>
 	</string>
 	<string id="ui_mm_alife_general_excl_dist_desc">
-		<text>分隊の生み出される地点（名称のある地形）がプレイヤーを中心とした除外半径の内側に位置する場合、分隊は出現しません。
+		<text>分隊が生成される地点（名称のある地形）がプレイヤーを中心とした除外半径の内側に位置する場合、分隊は出現しません。
 		\nこれにより、プレイヤーのすぐ近くで不自然かつ不公平な分隊のスポーン処理が発生するのを防ぎます。</text>
 	</string>
 	<string id="ui_mm_alife_general_dynamic_anomalies">
 		<text>動的なアノマリー</text>
 	</string>
 	<string id="ui_mm_alife_general_dynamic_anomalies_desc">
-		<text>有効にすると、光熱放射発生時にゾーン内に新しいアノマリーが形成されます。
-		\n光熱放射ごとに、アノマリーが出現・消滅する場合があります。</text>
+		<text>有効にすると、光熱放射発生時にゾーン内に新しいアノマリーが生成されます。
+		\n光熱放射ごとに、アノマリーが出現したり消滅したりする場合があります。</text>
 	</string>
 	<string id="ui_mm_alife_general_dynamic_relations">
 		<text>動的な派閥関係</text>
 	</string>
 	<string id="ui_mm_alife_general_dynamic_relations_desc">
 		<text>有効にすると、ゾーン内で起こった戦闘によって派閥間の関係が変化します。
-		\n共通の敵の死が関係改善に繋がり、逆の場合は悪化します。
+		\n共通の敵を倒すと関係が改善し、逆に味方が倒されると関係が悪化します。
 		\n関係変化の度合いは、倒されたNPCの重要度によって決まります。</text>
 	</string>
 	<string id="ui_mm_alife_general_war_goodwill_reset">
@@ -1444,7 +1444,7 @@
 		<text>破裂する</text>
 	</string>
 	<string id="ui_mm_lst_unhurt">
-		<text>殺さない</text>
+		<text>死亡させない</text>
 	</string>
 	<string id="ui_mm_lst_siren_radio">
 		<text>サイレンとラジオ</text>
@@ -1462,31 +1462,31 @@
 		<text>光熱放射を有効にする</text>
 	</string>
 	<string id="ui_mm_alife_event_emission_frequency">
-		<text>周期</text>
+		<text>光熱放射の発生頻度</text>
 	</string>
 	<string id="ui_mm_alife_event_emission_fate">
 		<text>ストーカーの運命</text>
 	</string>
 	<string id="ui_mm_alife_event_emission_warning">
-		<text>警告</text>
+		<text>光熱放射の警告</text>
 	</string>
 	<string id="ui_mm_alife_event_emission_task">
-		<text>光熱放射のときに避難場所を探すタスクを自動的に与える</text>
+		<text>光熱放射発生時に避難タスクを自動付与</text>
 	</string>
 	<string id="ui_mm_alife_event_psi_storm_state">
 		<text>精神波の嵐を有効にする</text>
 	</string>
 	<string id="ui_mm_alife_event_psi_storm_frequency">
-		<text>周期</text>
+		<text>精神波の嵐の発生頻度</text>
 	</string>
 	<string id="ui_mm_alife_event_psi_storm_fate">
 		<text>ストーカーの運命</text>
 	</string>
 	<string id="ui_mm_alife_event_psi_storm_warning">
-		<text>警告</text>
+		<text>精神波の嵐の警告</text>
 	</string>
 	<string id="ui_mm_alife_event_psi_storm_task">
-		<text>精神波の嵐のときに避難場所を探すタスクを自動的に与える</text>
+		<text>精神波の嵐発生時に避難タスクを自動付与</text>
 	</string>
 	
 <!-- Alife - Warfare - General -->
@@ -1497,172 +1497,172 @@
 		<text>遅い</text>
 	</string>
 	<string id="ui_mm_title_warfare">
-		<text>派閥戦争モードの全般の設定</text>
+		<text>派閥戦争モード: 全般設定</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_all_out_war">
 		<text>全面戦争</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_all_out_war_desc">
-		<text>有効にすると、すべての派閥が互いに敵対状態になります。「全般」設定の「動的な派閥関係」が有効になっている場合は、ニューゲーム開始時にのみ適用されます。</text>
+		<text>有効にすると、すべての派閥が敵対状態になります。「動的な派閥関係」が有効な場合、この設定はニューゲーム開始時にのみ適用されます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_random_starting_locations">
-		<text>ランダムな場所からゲーム開始</text>
+		<text>開始地点をランダムにする</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_random_starting_locations_desc">
-		<text>有効にすると、プレイヤーはゾーン内のランダムな拠点からスタートします。その他の拠点は「ランダムなストーカーの発生確率」と「ランダムなミュータントの発生確率」の設定に基づいて配置されます。</text>
+		<text>有効にすると、プレイヤーはゾーン内のランダムな拠点からゲームを開始します。他の拠点は「ランダムなストーカーの出現確率」と「ランダムなミュータントの出現確率」の設定に従って配置されます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_random_starting_character">
-		<text>ランダムなキャラクターでゲーム開始</text>
+		<text>開始キャラクターをランダムにする</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_random_starting_character_desc">
-		<text>有効にすると、ニューゲーム開始時にプレイヤーの名前と所属派閥がランダムに決定されます。「ランダムな場所からゲーム開始」と併用するのが最適です。</text>
+		<text>有効にすると、ニューゲーム開始時にプレイヤーの名前と所属派閥がランダムに決定されます。「開始地点をランダムにする」と併用するのがおすすめです。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_random_stalker_chance">
-		<text>ランダムなストーカーの発生確率</text>
+		<text>ランダムなストーカーの出現確率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_random_stalker_chance_desc">
-		<text>「ランダムな場所からゲーム開始」が有効なとき、拠点や資源ポイントにストーカーの分隊が出現する確率を0~100の範囲で設定します。
-		\nこれは単一の分隊が出現する確率です。例えば、拠点の最大人口が2で、この設定が50の場合、最初の分隊が出現する確率が50%、2番目の分隊が出現する確率が50%になります。</text>
+		<text>「開始地点をランダムにする」が有効な場合、拠点や資源ポイントにストーカーの分隊が出現する確率を0～100%の間で設定します。
+		\nこの数値は、単一の分隊が出現する確率です。例えば、拠点の最大人口が2で、この設定が50の場合、最初の分隊と2番目の分隊がそれぞれ50%の確率で出現します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_random_monster_chance">
-		<text>ランダムなミュータントの発生確率</text>
+		<text>ランダムなミュータントの出現確率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_random_monster_chance_desc">
-		<text>「ランダムな場所からゲーム開始」が有効なとき、支配対象地点へミュータントの群れが出現する確率を0~100の範囲で設定します。1つの地点につき、1体のミュータントが出現します。</text>
+		<text>「開始地点をランダムにする」が有効な場合、支配対象地点へミュータントの群れが出現する確率を0～100%の間で設定します。1つの地点につき、最大1体のミュータントが出現します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_auto_capture">
-		<text>自動占領の有効化</text>
+		<text>自動占領を有効化</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_auto_capture_desc">
-		<text>有効にすると、「自動占領の最大距離」で指定された距離内に所定時間（自動占領の待機時間）留まることで地点を占領できます。複数の地点が近くにある場合は、最寄りの拠点から優先的に占領され、最後に資源地点が対象となります。支配対象地点は自動占領できません。</text>
+		<text>有効にすると、「自動占領の最大距離」内で「自動占領の待機時間」が経過すると、プレイヤーがその地点を自動的に占領できます。複数の地点が近くにある場合、最も近い拠点から優先的に占領され、最後に資源地点が対象となります。支配対象地点は自動占領の対象外です。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_auto_capture_max_distance">
 		<text>自動占領の最大距離</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_auto_capture_max_distance_desc">
-		<text>この距離内にある地点は自動占領されます。プレイヤーがこの距離から離れると占領は中断されます。</text>
+		<text>この距離内にいる間、地点の自動占領が進行します。プレイヤーがこの距離から離れると、占領は中断されます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_auto_capture_wait_time">
 		<text>自動占領の待機時間</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_auto_capture_wait_time_desc">
-		<text>地点を手動で占領するのに必要な時間（ゲーム内分）。</text>
+		<text>地点を自動占領するのに必要な時間（ゲーム内分）。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_fog_of_war">
 		<text>戦場の霧</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_fog_of_war_desc">
-		<text>有効にすると、「戦場の霧の距離」の範囲外にいるプレイヤーや同じ派閥の分隊が見えなくなります。
-		\n%c[pda_white]注意:%c[ui_gray_1] 「非友好的な分隊をPDAに表示しない」や「名称のある地点をPDAに表示しない」の設定は、PDAに表示される対象に引き続き影響します。</text>
+		<text>有効にすると、「戦場の霧の距離」の範囲外にいるプレイヤーや、同じ派閥の分隊がPDAに表示されなくなります。
+		\n%c[pda_white]注意:%c[ui_gray_1] 「非友好的な分隊をPDAに非表示」や「名称のある地点をPDAに非表示」の設定は、PDAに表示される対象に影響を与えます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_fog_of_war_distance">
 		<text>戦場の霧の距離</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_fog_of_war_distance_desc">
-		<text>「戦場の霧」が有効な場合、この範囲外のプレイヤーや同じ派閥の分隊がPDAに表示されなくなります。
-		\n%c[pda_white]注意:%c[ui_gray_1] 「非友好的な分隊をPDAに表示しない」や「名称のある地点をPDAに表示しない」の設定は、PDAに表示される対象に引き続き影響します。</text>
+		<text>「戦場の霧」が有効な場合、この距離の範囲外にいるプレイヤーや、同じ派閥の分隊がPDAに表示されなくなります。
+		\n%c[pda_white]注意:%c[ui_gray_1] 「非友好的な分隊をPDAに非表示」や「名称のある地点をPDAに非表示」の設定は、PDAに表示される対象に影響を与えます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_hide_unfriendly_squads">
-		<text>非友好的な分隊をPDAに表示しない</text>
+		<text>非友好的な分隊をPDAに非表示</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_hide_unfriendly_squads_desc">
-		<text>有効にすると、中立分隊と敵分隊はPDAに表示されなくなります。</text>
+		<text>有効にすると、中立分隊と敵分隊がPDAに表示されなくなります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_hide_smarts">
-		<text>名称のある地点をPDAに表示しない</text>
+		<text>名称のある地点をPDAに非表示</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_hide_smarts_desc">
 		<text>有効にすると、名称のある地点のアイコンがPDAに表示されなくなります。ただし、プレイヤーの所属派閥の目標地点は引き続き表示されます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_hide_underground_smarts">
-		<text>名称のある地点をPDAに表示しない（地下）</text>
+		<text>名称のある地点をPDAに非表示（地下）</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_hide_underground_smarts_desc">
-		<text>有効にすると、地下の名称のある地点はPDAに表示されなくなります。</text>
+		<text>有効にすると、地下の名称のある地点がPDAに表示されなくなります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_enemy_new_game_bonus">
-		<text>敵の初期分隊を増やす</text>
+		<text>敵派閥の初期分隊を増やす</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_enemy_new_game_bonus_desc">
 		<text>有効にすると、敵派閥の初期分隊の数がわずかに多くなり、中立・友好派閥の初期分隊の数はわずかに少なくなります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_enemy_base_boost">
-		<text>敵の所有拠点数を増やす</text>
+		<text>敵派閥の所有拠点数を増やす</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_enemy_base_boost_desc">
 		<text>プレイヤーの派閥と敵対するすべての派閥は、実際に所有している拠点数に加えて、指定された数の拠点を所有しているかのように扱われます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_enemy_resource_boost">
-		<text>敵の資源を増やす</text>
+		<text>敵派閥の資源を増やす</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_enemy_resource_boost_desc">
-		<text>プレイヤーの派閥と敵対するすべての派閥は、実際に所有している資源数に加えて、指定された数の資源を所有しているかのように扱われます。資源が多いほど、防衛・攻撃・巡回分隊のリスポーン時間が短縮され、より強力な分隊がスポーンするようになります。</text>
+		<text>プレイヤーの派閥と敵対するすべての派閥は、実際に所有している資源数に加えて、指定された数の資源を所有しているかのように扱われます。資源が多いほど、防衛・攻撃・巡回分隊のリスポーン時間が短縮され、より強力な分隊が出現しやすくなります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_actor_influence_weight">
-		<text>影響力ポイントの優先度</text>
+		<text>プレイヤーの影響力ポイント優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_actor_influence_weight_desc">
-		<text>影響力ポイントが目標に追加する優先度を調整します。通常、優先度の数値は1から10の間で、この数値が高いほど、影響力ポイントを標的に加える可能性が高くなります。</text>
+		<text>影響力ポイントが目標に与える優先度を調整します。通常、優先度の数値は1～10の間で、この数値が高いほど、影響力ポイントが目標に与える影響が大きくなります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_novice_squad_price">
-		<text>下級分隊の価格</text>
+		<text>下級分隊の購入費用</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_novice_squad_price_desc">
-		<text>この金額以上の所持金がある状態で、自分の派閥の拠点を右クリックすると、下級分隊を購入するメニューが表示されます。選択すると即座に分隊が拠点に出現し、同行NPCとして扱われます。</text>
+		<text>この金額以上の所持金がある状態で、自分の派閥の拠点を右クリックすると、下級分隊の購入メニューが表示されます。選択すると、分隊が即座に拠点に出現し、同行NPCとして扱われます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_advanced_squad_price">
-		<text>中級分隊の価格</text>
+		<text>中級分隊の購入費用</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_advanced_squad_price_desc">
-		<text>この金額以上の所持金がある状態で、自分の派閥の拠点を右クリックすると、中級分隊を購入するメニューが表示されます。選択すると即座に分隊が拠点に出現し、同行NPCとして扱われます。</text>
+		<text>この金額以上の所持金がある状態で、自分の派閥の拠点を右クリックすると、中級分隊の購入メニューが表示されます。選択すると、分隊が即座に拠点に出現し、同行NPCとして扱われます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_veteran_squad_price">
-		<text>上級分隊の価格</text>
+		<text>上級分隊の購入費用</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_veteran_squad_price_desc">
-		<text>この金額以上の所持金がある状態で、自分の派閥の拠点を右クリックすると、上級分隊を購入するメニューが表示されます。選択すると即座に分隊が拠点に出現し、同行NPCとして扱われます。</text>
+		<text>この金額以上の所持金がある状態で、自分の派閥の拠点を右クリックすると、上級分隊の購入メニューが表示されます。選択すると、分隊が即座に拠点に出現し、同行NPCとして扱われます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_heli_price">
-		<text>ヘリコプターの値段</text>
+		<text>ヘリコプターの購入費用</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_heli_price_desc">
-		<text>この金額以上の所持金がある状態で、自分の派閥の拠点を右クリックすると、ヘリコプターを購入するメニューが表示されます。各マップにつき、1つの派閥が配備できるヘリコプターは1機のみです。</text>
+		<text>この金額以上の所持金がある状態で、自分の派閥の拠点を右クリックすると、ヘリコプターの購入メニューが表示されます。各マップで、1つの派閥が配備できるヘリコプターは1機のみです。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_actor_support_enemy_rank_weight">
-		<text>敵を殺した報酬（敵ランクの乗数）</text>
+		<text>敵撃破報酬: 敵ランク乗数</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_actor_support_enemy_rank_weight_desc">
-		<text>敵を倒すと「敵を殺した報酬（現金）」 + 「敵のランク」 × 「この設定値」の報酬を得ます。</text>
+		<text>敵を倒すと、「敵撃破報酬：現金」 + 「敵のランク」 × 「この設定値」の報酬を得られます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_actor_support_reward_money">
-		<text>敵を殺した報酬（現金）</text>
+		<text>敵撃破報酬: 現金</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_actor_support_reward_money_desc">
-		<text>敵を倒すと「この設定値」 + 「敵のランク」 × 「敵を殺した報酬（敵ランクの乗数）」の報酬を得ます。</text>
+		<text>敵を倒すと、「この設定値」 + 「敵のランク」 × 「敵撃破報酬：敵ランク乗数」の報酬を得られます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_actor_support_reward_influence">
-		<text>敵を殺した報酬（影響力ポイント）</text>
+		<text>敵撃破報酬: 影響力ポイント</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_actor_support_reward_influence_desc">
-		<text>敵を倒すたびに、この値の影響力ポイントを獲得します。</text>
+		<text>敵を倒すたびに、この値の影響力ポイントを獲得できます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_monster_max_squads_per_level">
 		<text>マップごとのミュータント分隊の最大数</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_monster_max_squads_per_level_desc">
-		<text>マップ内のミュータント分隊数がこの値を下回ると、そのマップは他のミュータント分隊から標的にされ、占領されていない地点や巣に新しい分隊がスポーンします。リスポーン間隔は「ミュータントのリスポーンの最小値」と「ミュータントのリスポーンの最大値」に基づきます。</text>
+		<text>マップ内のミュータント分隊数がこの値を下回ると、そのマップは他のミュータント分隊から狙われ、占領されていない地点や巣に新しい分隊が出現します。出現間隔は「ミュータントの出現時間: 最小値」と「ミュータントの出現時間: 最大値」に基づきます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_monster_min_faction_respawn">
-		<text>ミュータントのリスポーンの最小値</text>
+		<text>ミュータントの出現時間: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_monster_min_faction_respawn_desc">
-		<text>マップ内のミュータント分隊数が「マップごとのミュータント分隊の最大数」未満のとき、巣や占領されていない拠点・資源対象地点から分隊がスポーンするまでの最短時間を調整します。</text>
+		<text>マップ内のミュータント分隊数が「マップごとのミュータント分隊最大数」未満の場合、巣や占領されていない拠点・資源地点から分隊が出現するまでの最短時間を調整します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_monster_max_faction_respawn">
-		<text>ミュータントのリスポーンの最大値</text>
+		<text>ミュータントの出現時間: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_monster_max_faction_respawn_desc">
-		<text>マップ内のミュータント分隊数が「マップごとのミュータント分隊の最大数」未満のとき、巣や占領されていない拠点・資源対象地点から分隊がスポーンするまでの最長時間を調整します。</text>
+		<text>マップ内のミュータント分隊数が「マップごとのミュータント分隊最大数」未満の場合、巣や占領されていない拠点・資源地点から分隊が出現するまでの最長時間を調整します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_zombies_act_as_faction">
 		<text>ゾンビ派閥の追加</text>
@@ -1675,7 +1675,7 @@
 	</string>
 	<string id="ui_mm_alife_warfare_general_enable_mutant_offline_combat_desc">
 		<text>有効にすると、ミュータントがオフライン戦闘に参加します。
-		\n無効にすると、ミュータントはゾーン内でより存在感を持つようになります。</text>
+		\n無効にすると、ミュータントはゾーン内でより活発になります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_disable_smart_pop_cap">
 		<text>名称のある地点の人口上限を無効化</text>
@@ -1684,30 +1684,30 @@
 		<text>有効にすると、名称のある地点は人口上限を超えた分隊を自動的に削除しなくなります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_purge_zone_on_emission">
-		<text>光熱放射による「ゾーン」の粛清</text>
+		<text>光熱放射によるゾーンの粛清</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_purge_zone_percentage">
-		<text>粛清する「ゾーン」の割合</text>
+		<text>粛清するゾーンの割合</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_debug_logging">
 		<text>デバッグログ（ログファイルが肥大化します）</text>
 	</string>
 	<string id="ui_mm_alife_warfare_general_debug_logging_desc">
-		<text>有効にすると、派閥戦争はデバッグログを記録します。ほとんどの処理の開始と終了が記録されるため、ログファイルのサイズが大きくなります。</text>
+		<text>有効にすると、派閥戦争のデバッグログが記録されます。ほとんどの処理の開始と終了が記録されるため、ログファイルのサイズが大きくなります。</text>
 	</string>
 	
 <!-- Alife - Warfare - Faction -->
 	<string id="ui_mm_title_warfare_faction">
-		<text>派閥戦争の派閥ごとの設定</text>
+		<text>派閥戦争: 派閥ごとの設定</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_participate_in_warfare">
 		<text>派閥戦争に参加</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_spawn_on_new_game">
-		<text>ニューゲーム開始時にスポーン</text>
+		<text>ニューゲーム開始時に出現</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_random_spawn_entries">
-		<text>ランダムにスポーン</text>
+		<text>ランダムに出現</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_linked_level_targeting">
 		<text>隣接マップを狙う</text>
@@ -1719,13 +1719,13 @@
 		<text>オフライン戦闘時のダメージ倍率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_offline_power_multiplier_desc">
-		<text>オフライン戦闘で分隊が与えるダメージに掛かる倍率。例: 値を2にすると、この派閥の分隊は通常の2倍のダメージを与えるようになります。</text>
+		<text>オフライン戦闘で分隊が与えるダメージの倍率です。例: 値を2に設定すると、この派閥の分隊は通常の2倍のダメージを与えるようになります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_expansion_aggression">
 		<text>拡張行動の積極性</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_expansion_aggression_desc">
-		<text>基地の目標地点の数が許容値以下で、process_targets関数が呼ばれるたびに、0~100の間の乱数が生成されます。その乱数がこの値以下の場合、派閥は新しい目標地点を選択します。それ以外の場合、派閥は新しい目標地点を選びません。</text>
+		<text>拠点の目標地点の数が許容値以下で、`process_targets`関数が呼び出されるたびに、0～100の乱数が生成されます。その乱数がこの値以下の場合、派閥は新しい目標地点を選択します。それ以外の場合は、新しい目標地点を選びません。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_night_activity_chance">
 		<text>夜間パトロールの確率</text>
@@ -1734,196 +1734,196 @@
 		<text>派閥が夜間（PM 20:00~AM 6:00）に侵攻分隊や巡回分隊を派遣する確率。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_faction_respawn">
-		<text>リスポーン時間の最小値</text>
+		<text>拠点防衛分隊の出現時間: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_faction_respawn_desc">
-		<text>拠点が防衛分隊をリスポーンするまでに必要な最短時間。この時間と拠点の資源状況によって防衛リスポーン時間が決定されます。
+		<text>拠点が防衛分隊を出現させるまでの最短時間です。この時間と拠点の資源状況によって、防衛分隊の出現時間が決定されます。
 		\ntotal_resource = global_resources + (regional_resources × 2) + (local_resources × 3)
-		\n基地のリスポーン時間は、派閥のリスポーン時間の最小値と最大値の間にresource_count / warfare.resource_countの倍率を加えた値を選択することで決定されます。
+		\n拠点の出現時間は、「拠点防衛分隊の出現時間: 最小値」と「拠点防衛分隊の出現時間: 最大値」の間に、`resource_count / warfare.resource_count`の倍率を加えた値を選択することで決定されます。
 		\nリスポーン時間 = (100% - owned_resource_percentage) × min_faction_respawn + (owned_resource_percentage × max_faction_respawn)</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_faction_respawn">
-		<text>リスポーン時間の最大値</text>
+		<text>拠点防衛分隊の出現時間: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_faction_respawn_desc">
-		<text>拠点が防衛分隊をリスポーンするまでに必要な最長時間。この時間と拠点の資源状況によって防衛リスポーン時間が決定されます。
+		<text>拠点が防衛分隊を出現させるまでの最長時間です。この時間と拠点の資源状況によって、防衛分隊の出現時間が決定されます。
 		\ntotal_resource = global_resources + (regional_resources × 2) + (local_resources × 3)
-		\n基地のリスポーン時間は、派閥のリスポーン時間の最小値と最大値の間にresource_count / warfare.resource_countの倍率を加えた値を選択することで決定されます。
+		\n拠点の出現時間は、「拠点防衛分隊の出現時間: 最小値」と「拠点防衛分隊の出現時間: 最大値」の間に、`resource_count / warfare.resource_count`の倍率を加えた値を選択することで決定されます。
 		\nリスポーン時間 = (100% - owned_resource_percentage) × min_faction_respawn + (owned_resource_percentage × max_faction_respawn)</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_keep_last_base">
-		<text>最後の基地を守る</text>
+		<text>最後の拠点を防衛する</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_invasion_size">
-		<text>侵攻人口の倍率の最小値</text>
+		<text>侵攻分隊規模: 最小倍率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_invasion_size_desc">
-		<text>侵攻サイズの倍率の最小値。これは、max_invasion_sizeと派閥が所有する基地の数とともに、最終的な侵攻サイズを計算するために使用される。これは名称のある地点の最大人口に対する倍率なので、ゲーム設定にある「ストーカー人口の倍率」が最終的な侵攻サイズに影響する。現在の侵攻サイズ = (100% - owned_base_percentage) * min_invasion_size + (own_base_percentage * max_invasion_size)。現在の侵攻人口 = min(1, target.max_population * 現在の侵攻サイズ)</text>
+		<text>侵攻分隊の規模倍率の最小値です。この値は、「侵攻分隊規模: 最大倍率」と派閥が所有する拠点の数とともに、最終的な侵攻分隊の規模を計算するために使用されます。これは名称のある地点の最大人口に対する倍率であるため、ゲーム設定の「ストーカー人口の倍率」が最終的な侵攻分隊の規模に影響します。現在の侵攻サイズ = (100% - owned_base_percentage) * min_invasion_size + (own_base_percentage * max_invasion_size)。現在の侵攻人口 = min(1, target.max_population * 現在の侵攻サイズ)</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_invasion_size">
-		<text>侵攻人口の倍率の最大値</text>
+		<text>侵攻分隊規模: 最大倍率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_invasion_size_desc">
-		<text>侵攻サイズの倍率の最大値。これは、max_invasion_sizeと派閥が所有する基地の数とともに、最終的な侵攻サイズを計算するために使用される。これは名称のある地点の最大人口に対する倍率なので、ゲーム設定にある「ストーカー人口の倍率」が最終的な侵攻サイズに影響する。現在の侵攻サイズ = (100% - owned_base_percentage) * min_invasion_size + (own_base_percentage * max_invasion_size)。現在の侵攻人口 = min(1, target.max_population * 現在の侵攻サイズ)</text>
+		<text>侵攻分隊の規模倍率の最大値です。この値は、「侵攻分隊規模: 最小倍率」と派閥が所有する拠点の数とともに、最終的な侵攻分隊の規模を計算するために使用されます。これは名称のある地点の最大人口に対する倍率であるため、ゲーム設定の「ストーカー人口の倍率」が最終的な侵攻分隊の規模に影響します。現在の侵攻サイズ = (100% - owned_base_percentage) * min_invasion_size + (own_base_percentage * max_invasion_size)。現在の侵攻人口 = min(1, target.max_population * 現在の侵攻サイズ)</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_invasion_depart_time">
-		<text>侵攻離脱時間の最小値</text>
+		<text>侵攻出発時間: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_invasion_depart_time">
-		<text>侵攻離脱時間の最大値</text>
+		<text>侵攻出発時間: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_squads">
-		<text>パトロール人口の倍率の最小値</text>
+		<text>パトロール分隊規模: 最小倍率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_squads_desc">
-		<text>パトロール分隊人口の倍率の最小値。派閥が基地を所有していない場合、各基地は（所有していないので理論的には）min_patrol_squads * max_populationのパトロール分隊を持つことになる。現在のパトロール分隊の倍率 = (100% - owned_base_percentage) * min_patrol_squds + (owned_base_percentage * max_patrol_squads)。現在の許可されているパトロール分隊 = base.max_population * 現在のパトロール分隊の倍率。</text>
+		<text>パトロール分隊の規模倍率の最小値です。派閥が拠点を所有していない場合、各拠点（理論上）は「パトロール分隊規模: 最小倍率」×最大人口のパトロール分隊を持つことになります。現在のパトロール分隊の倍率 = (100% - owned_base_percentage) * min_patrol_squds + (owned_base_percentage * max_patrol_squads)。現在の許可されているパトロール分隊 = base.max_population * 現在のパトロール分隊の倍率。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_squads">
-		<text>パトロール人口の倍率の最大値</text>
+		<text>パトロール分隊規模: 最大倍率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_squads_desc">
-		<text>パトロール分隊人口の倍率の最大値。派閥が基地を所有していない場合、各基地は（所有していないので理論的には）min_patrol_squads * max_populationのパトロール分隊を持つことになる。現在のパトロール分隊の倍率 = (100% - owned_base_percentage) * min_patrol_squds + (owned_base_percentage * max_patrol_squads)。現在の許可されているパトロール分隊 = base.max_population * 現在のパトロール分隊の倍率。</text>
+		<text>パトロール分隊の規模倍率の最大値です。派閥が拠点を所有していない場合、各拠点（理論上）は「パトロール分隊規模: 最小倍率」×最大人口のパトロール分隊を持つことになります。現在のパトロール分隊の倍率 = (100% - owned_base_percentage) * min_patrol_squds + (owned_base_percentage * max_patrol_squads)。現在の許可されているパトロール分隊 = base.max_population * 現在のパトロール分隊の倍率。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_time">
-		<text>パトロール時間の最小値</text>
+		<text>パトロール出現時間: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_time_desc">
-		<text>基地がパトロール分隊を生成するために必要な時間の最小値。これと、基地の利用可能な資源によって、基地のパトロール分隊のリスポーン時間が決まる。基地の利用可能な資源は次のように決定される。total_resources = global_resources + (regional_resources * 2) + (local_resources * 3)。基地のパトロールのリスポーン時間は、min_patrol_timeとmax_patrol_timeの間で、resource_count / warfare.resource_countの倍率で決定される。リスポーン時間 = (100% - owned_resource_percentage) * min_patrol_time + (owned_resource_percentage * max_patrol_time。</text>
+		<text>拠点がパトロール分隊を生成するのに必要な最短時間です。この時間と拠点の利用可能な資源によって、拠点のパトロール分隊の出現時間が決定されます。拠点の利用可能な資源は、以下の計算式で決定されます。`total_resources = global_resources + (regional_resources * 2) + (local_resources * 3)`。拠点のパトロール出現時間は、「パトロール出現時間: 最小値」と「パトロール出現時間: 最大値」の間で、`resource_count / warfare.resource_count`の倍率によって決定されます。リスポーン時間 = (100% - owned_resource_percentage) * min_patrol_time + (owned_resource_percentage * max_patrol_time。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_time">
-		<text>パトロール時間の最大値</text>
+		<text>パトロール出現時間: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_time_desc">
-		<text>基地がパトロール分隊を生成するために必要な時間の最大値。これと、基地の利用可能な資源によって、基地のパトロール分隊のリスポーン時間が決まる。基地の利用可能な資源は次のように決定される。total_resources = global_resources + (regional_resources * 2) + (local_resources * 3)。基地のパトロールのリスポーン時間は、min_patrol_timeとmax_patrol_timeの間で、resource_count / warfare.resource_countの倍率で決定される。リスポーン時間 = (100% - owned_resource_percentage) * min_patrol_time + (owned_resource_percentage * max_patrol_time.</text>
+		<text>拠点がパトロール分隊を生成するのに必要な最長時間です。この時間と拠点の利用可能な資源によって、拠点のパトロール分隊の出現時間が決定されます。拠点の利用可能な資源は、以下の計算式で決定されます。`total_resources = global_resources + (regional_resources * 2) + (local_resources * 3)`。拠点のパトロール出現時間は、「パトロール出現時間: 最小値」と「パトロール出現時間: 最大値」の間で、`resource_count / warfare.resource_count`の倍率によって決定されます。リスポーン時間 = (100% - owned_resource_percentage) * min_patrol_time + (owned_resource_percentage * max_patrol_time。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_patrol_hunt_chance">
-		<text>パトロール分隊が狩りをする確率</text>
+		<text>パトロール分隊の索敵確率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_patrol_hunt_chance_desc">
-		<text>基地のパトロール分隊が新しいターゲットを探しているとき、かつ、現在のマップまたは隣のマップに敵パトロール分隊が存在しているとき、基地のパトロール分隊が敵パトロール分隊をターゲットとして割り当てる確率。敵パトロール分隊を目標にしない場合は、基地近くの支配対象地点を割り当てられ、通常通りパトロールを行う。</text>
+		<text>拠点のパトロール分隊が新しい目標を探している際に、現在または隣接マップに敵パトロール分隊が存在する場合、その敵パトロール分隊を目標として割り当てる確率です。敵パトロール分隊を目標にしない場合、拠点近くの支配対象地点が割り当てられ、通常通りパトロールを行います。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_rest_time">
-		<text>パトロールの休憩時間の最小値</text>
+		<text>パトロール待機時間: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_rest_time_desc">
-		<text>パトロール分隊が支配対象地点で待機する時間の最小値。夜間活動の確率は、新しい支配対象地点に派遣されるかどうかにも影響する。</text>
+		<text>パトロール分隊が支配対象地点で待機する最短時間です。「夜間パトロールの確率」は、新しい支配対象地点に派遣されるかどうかに影響を与えます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_rest_time">
-		<text>パトロール休憩時間の最大値</text>
+		<text>パトロール待機時間: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_rest_time_desc">
-		<text>パトロール分隊が支配対象地点で待機する時間の最大値。夜間活動の確率は、新しい支配対象地点に派遣されるかどうかにも影響する。</text>
+		<text>パトロール分隊が支配対象地点で待機する最長時間です。「夜間パトロールの確率」は、新しい支配対象地点に派遣されるかどうかに影響を与えます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_resurgence_wait_time">
-		<text>リスポーン時間の最小値</text>
+		<text>再出現待機時間: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_resurgence_wait_time">
-		<text>リスポーン時間の最大値</text>
+		<text>再出現待機時間: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_random_squad_count">
-		<text>ランダムな分隊数</text>
+		<text>分隊数をランダムにする</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_random_squad_count_desc">
-		<text>有効にすると、派閥の各分隊には、「ランダムな分隊数の最小値」と「ランダムな分隊数の最大値」の間のランダムな数のNPCが配置される。</text>
+		<text>有効にすると、派閥の各分隊には、「ランダムな分隊数: 最小値」と「ランダムな分隊数: 最大値」の間でランダムな数のNPCが配置されます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_random_squad_count">
-		<text>ランダムな分隊数の最小値</text>
+		<text>ランダムな分隊数: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_random_squad_count_desc">
-		<text>「ランダムな分隊数」が有効なとき、派閥の分隊が有するNPC数の最小値。</text>
+		<text>「分隊数をランダムにする」が有効な場合、派閥の分隊が持つNPCの最小数です。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_random_squad_count">
-		<text>ランダムな分隊数の最大値</text>
+		<text>ランダムな分隊数: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_random_squad_count_desc">
-		<text>「ランダムな分隊数」が有効なとき、派閥の分隊が有するNPC数の最大値。</text>
+		<text>「分隊数をランダムにする」が有効な場合、派閥の分隊が持つNPCの最大数です。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_random_patrols">
-		<text>ランダムなパトロール</text>
+		<text>パトロールをランダムにする</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_random_patrols">
-		<text>ランダムなパトロールの最大値</text>
+		<text>ランダムパトロール: 最大数</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_random_patrol_time">
-		<text>ランダムなパトロール時間の最大値</text>
+		<text>ランダムパトロール時間: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_random_patrol_time">
-		<text>ランダムなパトロール時間の最大値</text>
+		<text>ランダムパトロール時間: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_invasion_departure_chance">
-		<text>侵攻出発の確率</text>
+		<text>侵攻分隊の出発確率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_invasion_departure_chance_desc">
-		<text>現在のprocess_targets関数を更新中に、侵攻分隊が出発する確率。これはゲーム内で1分から5分ごとに呼び出される。</text>
+		<text>`process_targets`関数が更新される際に、侵攻分隊が出発する確率です。この関数はゲーム内で1～5分ごとに呼び出されます。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_base_priority">
-		<text>基地の優先度</text>
+		<text>拠点の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_base_priority_desc">
-		<text>派閥がどれだけ基地を優先するか。典型的な優先度の数値は0~10。</text>
+		<text>派閥が拠点をどれだけ優先するかを設定します。推奨される優先度の数値は0～10です。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_resource_priority">
-		<text>資源の優先度</text>
+		<text>資源地点の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_resource_priority_desc">
-		<text>派閥が資源対象地点をどれだけ優先するか。典型的な優先度の数値は0~10。</text>
+		<text>派閥が資源地点をどれだけ優先するかを設定します。推奨される優先度の数値は0～10です。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_territory_priority">
-		<text>領地の優先度</text>
+		<text>支配対象地点の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_territory_priority_desc">
-		<text>派閥がどれだけ支配対象地点を優先するか。典型的な優先度の数値は0~10。</text>
+		<text>派閥が支配対象地点をどれだけ優先するかを設定します。推奨される優先度の数値は0～10です。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_flag_priority">
-		<text>派閥フラッグの優先度</text>
+		<text>派閥旗の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_flag_priority_desc">
-		<text>gamedata/configs/misc/simulation_objects_props.ltxファイルで、所属派閥の旗印が立っている地点を基地がどれだけ優先するか。例えば、クリアスカイが支配対象地点を見ている場合、ファイルで地点にcsky=1が定義されていれば、その地点の優先順位を2上げることになる。</text>
+		<text>`gamedata/configs/misc/simulation_objects_props.ltx`ファイルで、所属派閥の旗印が立っている地点を拠点がどれだけ優先するかを設定します。例えば、Clear Sky派閥が支配対象地点を目標としている場合、ファイル内で地点に`csky=1`が定義されていれば、その地点の優先順位が2上昇します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_is_being_targeted_priority">
-		<text>狙われている場合の優先度</text>
+		<text>目標にされている場合の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_is_being_targeted_priority_desc">
-		<text>ある基地が他の基地に狙われている場合、その基地にこれだけの優先度を加えて侵攻に対抗しようとする。</text>
+		<text>拠点が他の拠点に目標にされている場合、その拠点に対する優先度をこれだけ高めて侵攻に対抗します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_weaker_priority">
-		<text>ターゲットの優先度が低い場合</text>
+		<text>弱い目標の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_weaker_priority_desc">
-		<text>強力ではない分隊が存在する地点をどれだけ優先するか。</text>
+		<text>弱い分隊が存在する地点をどれだけ優先するかを設定します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_stronger_priority">
-		<text>ターゲットの優先度が高い場合</text>
+		<text>強い目標の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_stronger_priority_desc">
-		<text>強力な分隊が存在する地点をどれだけ優先するか。</text>
+		<text>強い分隊が存在する地点をどれだけ優先するかを設定します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_on_same_level_priority">
-		<text>ターゲットが同一マップの場合の優先度</text>
+		<text>目標が同一マップにある場合の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_on_same_level_priority_desc">
-		<text>基地と同一マップの地点を基地がどの程度優先するか。</text>
+		<text>拠点と同一マップ内の地点を拠点がどの程度優先するかを設定します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_smart_targets_per_base">
-		<text>基地あたりの目標地点の最大数</text>
+		<text>拠点ごとの目標地点最大数</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_smart_targets_per_base_desc">
-		<text>基地が一度に狙える地点の数。</text>
+		<text>拠点が一度に目標にできる地点の数を設定します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_resource_count_modifier">
-		<text>資源数の調整値</text>
+		<text>資源ポイント調整</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_resource_count_modifier_desc">
-		<text>各基地の利用可能な資源対象地点に追加される資源対象地点の数。これはマイナスになることもある。数字が大きいほどリスポーン時間が短くなる。</text>
+		<text>各基地で利用可能な資源ポイントの数を調整します。マイナス値も設定でき、値を大きくすると資源のリスポーン間隔が短くなります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_base_count_modifier">
-		<text>基地数の調整値</text>
+		<text>基地数調整</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_base_count_modifier_desc">
-		<text>各派閥の所有基地数に追加される基地の数。これはマイナスになることもある。数字が大きいほど、パトロールが多くなり、侵攻分隊も大きくなる。</text>
+		<text>各派閥が所有する基地の数を調整します。マイナス値も設定でき、値を大きくするとパトロールや侵攻分隊の規模が拡大します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_enemy_faster_respawn">
-		<text>敵の高速リスポーンを有効にする</text>
+		<text>敵のリスポーン速度を上げる</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_manual_capture_wait_time">
 		<text>手動占領の待機時間</text>
@@ -1932,31 +1932,31 @@
 		<text>オフライン戦闘距離</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_disable_offline_combat">
-		<text>オフライン戦闘を無効にする</text>
+		<text>オフライン戦闘を無効化</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_disable_offline_combat_desc">
-		<text>有効にすると、分隊はオフライン戦闘に参加しない。これにより、派閥戦争はあなたが実際に近づくと展開されるようになる。派閥戦争は減速し、あなたとあなたの周りの分隊を中心に展開されるようになる。</text>
+		<text>有効にすると、分隊はオフラインでの戦闘を行わなくなります。派閥戦争は、プレイヤーが接近したエリアでのみ進行するようになり、ゾーン全体の派閥戦争の進行が緩やかになります。プレイヤーとその周辺の分隊の動きが中心となります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_simulate_offline_combat_at_smarts">
-		<text>名称のある地点においてオフライン戦闘をシミュレートする</text>
+		<text>特定の重要地点でのオフライン戦闘をシミュレート</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_simulate_offline_combat_at_smarts_desc">
-		<text>有効にすると、分隊は目標地点を防御しているときにのみオフライン戦闘をシミュレートする。2つの分隊が近くにいるが、別々の名称のある地点で待機している場合、オフライン戦闘は行われない。</text>
+		<text>有効にすると、分隊は目標地点を防衛している場合にのみ、オフライン戦闘をシミュレートします。2つの分隊が近くにいても、それぞれが異なる重要地点で待機している場合は、オフライン戦闘は発生しません。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_enable_offline_news">
-		<text>オフラインニュースを有効にする</text>
+		<text>オフラインニュースを有効化</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_enable_offline_news_desc">
-		<text>有効にすると、味方の分隊がオフラインでの戦闘に参加したり、オンラインでの戦闘に参加したり、味方分隊が基地を奪ったり、失ったりしたときに、最新のニュースを受け取ることができる。</text>
+		<text>有効にすると、味方分隊がオフライン／オンライン戦闘に参加したり、基地を奪取／喪失したりした際に、最新のニュースを受信できるようになります。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_offline_news_display_percentage">
 		<text>オフラインニュースの表示割合</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_offline_news_display_percentage_desc">
-		<text>0~100の間の数値。派閥戦争では、オフラインニュースのメッセージをこの割合で表示する。</text>
+		<text>0から100までの値を設定します。派閥戦争に関するオフラインニュースのメッセージを、設定した割合で表示します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_randomize_squad_count">
-		<text>分隊メンバー数をランダム化する</text>
+		<text>分隊メンバー数をランダム化</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_squad_count">
 		<text>分隊メンバー数の最小値</text>
@@ -1965,19 +1965,19 @@
 		<text>分隊メンバー数の最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_factions_keep_last_base">
-		<text>派閥は最後の基地を守る</text>
+		<text>派閥が最後の基地を保持する</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_zombie_mode">
 		<text>ゾンビモード</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_faction_stronger_priority">
-		<text>ターゲットとする派閥の優先度を高くする</text>
+		<text>より強力な派閥を優先的にターゲットにする</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_faction_weaker_priority">
-		<text>ターゲットとする派閥の優先度を低くする</text>
+		<text>より弱い派閥を優先的にターゲットにする</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_target_resource_priority">
-		<text>ターゲットとする派閥の資源の優先度</text>
+		<text>資源の多い派閥を優先的にターゲットにする</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_lvl_k00_marsh_priority">
 		<text>沼地の優先度</text>
@@ -2061,7 +2061,7 @@
 	
 <!-- Alife - Warfare - Azazel Mode  -->
 	<string id="ui_mm_title_warfare_azazel">
-		<text>派閥戦争のアザゼルモードの設定</text>
+		<text>派閥戦争: アザゼルモードの設定</text>
 	</string>
 	<string id="ui_mm_alife_warfare_azazel_state">
 		<text>アザゼルモード</text>
@@ -2135,14 +2135,14 @@
 	
 <!-- Alife - Dynamic News -->
 	<string id="ui_mm_desc_dynamic_news">
-		<text>任務報告や死亡通知から、日々の冗談や雑談まで、ストーカーたちは様々な理由で連絡を取り合います。
-		\n以下の設定で、PDAが受信するメッセージの種類を絞り込むことができます。</text>
+		<text>任務報告や死亡通知から、日々の冗談や雑談まで、ストーカーたちは様々な理由で連絡を取り合っています。
+		\n以下の設定で、PDAが受信するメッセージの種類を絞り込めます。</text>
 	</string>
 	<string id="ui_mm_alife_dynamic_news_message_duration">
 		<text>HUDメッセージの表示時間（秒）</text>
 	</string>
 	<string id="ui_mm_alife_dynamic_news_death_stalker_news">
-		<text>SOS／死亡報告（敵対する人間による襲撃）</text>
+		<text>SOS／死亡報告（敵対ストーカーによる襲撃）</text>
 	</string>
 	<string id="ui_mm_alife_dynamic_news_death_mutant_news">
 		<text>SOS／死亡報告（ミュータントによる襲撃）</text>
@@ -2154,10 +2154,10 @@
 		<text>死亡報告（訃報）</text>
 	</string>
 	<string id="ui_mm_alife_dynamic_news_tips_news">
-		<text>ヒントになるニュース</text>
+		<text>ヒント情報</text>
 	</string>
 	<string id="ui_mm_alife_dynamic_news_kill_wounded_news">
-		<text>殺害や負傷</text>
+		<text>殺害／負傷報告</text>
 	</string>
 	<string id="ui_mm_alife_dynamic_news_found_artifact_news">
 		<text>アーティファクトの発見</text>
@@ -2184,7 +2184,7 @@
 		<text>近くの活動の噂話</text>
 	</string>
 	<string id="ui_mm_alife_dynamic_news_dumb_zombie_news">
-		<text>ゾンビとの意思疎通を試みる</text>
+		<text>ゾンビとの交信</text>
 	</string>
 	<string id="ui_mm_alife_dynamic_news_bounty_news">
 		<text>懸賞金の噂</text>
@@ -2228,8 +2228,8 @@
 		<text>Discordのステータス</text>
 	</string>
 	<string id="ui_mm_other_discord_desc">
-		<text>このオプションを有効にしてDiscordに接続すると、プレイ状況がプロフィールに表示され、他の人から見えるようになります。
-		\n表示情報: マップ、進行中のタスク、所属派閥、体力、ゲームモード</text>
+		<text>このオプションを有効にしてDiscordと連携すると、プレイ状況がDiscordのプロフィールに表示され、他のユーザーに共有されます。
+		\n表示される情報: マップ、進行中のタスク、所属派閥、体力、ゲームモード</text>
 	</string>
 	<string id="ui_mm_other_important_save">
 		<text>マップ移動時のオートセーブ</text>
@@ -2247,23 +2247,23 @@
 		<text>デバッグ用HUD</text>
 	</string>
 	<string id="ui_mm_other_debug_map_hud">
-		<text>マップ スポットのデバッグ表示</text>
+		<text>マップ上のスポットのデバッグ表示</text>
 	</string>
 	<string id="ui_mm_other_debug_map_hud_desc">
-		<text>ゾーン内の全分隊のマップマーカーを表示し、デバッグ情報を追加する。</text>
+		<text>ゾーン内の全分隊のマップマーカーとデバッグ情報を表示します。</text>
 	</string>
 	<string id="ui_mm_other_debug_error">
 		<text>エラー通知のデバッグ表示</text>
 	</string>
 	<string id="ui_mm_other_debug_error_desc">
-		<text>コンソールにエラーが記録された場合、HUDに通知を表示する。</text>
+		<text>コンソールにエラーが記録された際に、HUDに通知を表示します。</text>
 	</string>
 	<string id="st_sk_desc">
-		<text>こちらに気づいていないNPCに対してステルスキルが可能になる実験的な機能です。
-		\nステルスキルを行うには、対象のNPCに対して適切な武器（デフォルトでは「スペツナズ用折りたたみナイフ」またはサプレッサー付きの銃でのヘッドショット）を使用する必要があります。
-		\nこの際、プレイヤーと対象NPCが他のNPCに見られていないことが条件になります。
-		\n成功すると、NPCは周囲の仲間に気づかれずに死亡します。ただし、死体の近くにいるところを他のNPCに見られた場合、NPCはプレイヤーが殺したことに気づき、通常通り反応します。
-		\nこの機能は開発途中でゲームバランスに大きく影響するため、デフォルトでは無効になっています（友好的なNPCを容易に暗殺できたり、変装状態で敵拠点を一掃することができるため）。</text>
+		<text>プレイヤーに気づいていないNPCに対し、ステルスキルを可能にする実験的な機能です。
+		\nステルスキルを行うには、対象のNPCに対して適切な武器（デフォルトでは「スペツナズ用折りたたみナイフ」またはサプレッサー付きの銃でのヘッドショット）を使用します。
+		\nプレイヤーと対象NPCが他のNPCから視認されていないことが条件です。
+		\n成功した場合、NPCは周囲の仲間に気づかれることなく死亡します。ただし、死体の近くにいるところを他のNPCに発見された場合、プレイヤーが犯人だと認識され、通常通り敵対行動を取られます。
+		\nこの機能は開発途中のため、ゲームバランスに大きく影響する可能性があります（友好的なNPCを容易に暗殺したり、変装状態で敵拠点を一掃したりできるため）。そのため、デフォルトでは無効になっています。</text>
 	</string>
 	<string id="ui_mm_menu_silent_kills">
 		<text>ステルスキル</text>
@@ -2278,7 +2278,7 @@
 		<text>すべての近接武器によるステルスキルを許可</text>
 	</string>
 	<string id="ui_mm_gameplay_silent_kills_sk_all_melee_ok_desc">
-		<text>オフの場合、設定値（can_stealth_stab）が「true」の近接武器でのみステルスキルが可能になります。デフォルトでは「スペツナズ用折りたたみナイフ」が対応しています。</text>
+		<text>無効にすると、設定値（can_stealth_stab）が「true」の近接武器でのみステルスキルが可能です。デフォルトでは「スペツナズ用折りたたみナイフ」が対応しています。</text>
 	</string>
 	<string id="ui_mm_gameplay_silent_kills_sk_gun_enabled">
 		<text>サプレッサー付き銃によるステルスキルを許可</text>
@@ -2290,7 +2290,7 @@
 		<text>ステルスキルが発見されるまでの猶予時間</text>
 	</string>
 	<string id="ui_mm_gameplay_silent_kills_sk_fresh_time_desc">
-		<text>NPCをステルスキルした後、死体の近くにいられる時間（これを過ぎると犯人と見なされます）。</text>
+		<text>NPCをステルスキルした後、死体の近くにいられる猶予時間です（この時間を過ぎると犯人と見なされます）。</text>
 	</string>
 	<string id="ui_mm_gameplay_silent_kills_sk_suspect_dist">
 		<text>発見された死体とプレイヤーとの距離</text>
@@ -2299,21 +2299,21 @@
 		<text>他のNPCが死体を発見した際、プレイヤーがこの距離内にいると犯人と見なされます。</text>
 	</string>
 	<string id="ui_mm_gameplay_silent_kills_sk_melee_hear_dist">
-		<text>近接ステルスキルの目撃距離の最小値</text>
+		<text>近接ステルスキルの発見距離の最小値</text>
 	</string>
 	<string id="ui_mm_gameplay_silent_kills_sk_melee_hear_dist_desc">
-		<text>この距離（メートル）以内に他のNPCがプレイヤーまたは犠牲者の近くにいる場合、ナイフでのステルスキルは必ず失敗します（雨天時はこの距離が短くなります）。</text>
+		<text>この距離（メートル）以内に他のNPCがプレイヤーまたは犠牲者の近くにいる場合、ナイフでのステルスキルは失敗します（雨天時はこの距離が短くなります）。</text>
 	</string>
 	<string id="ui_mm_gameplay_silent_kills_sk_gun_hear_dist">
-		<text>銃撃ステルスキルの目撃距離の最小値</text>
+		<text>銃撃ステルスキルの発見距離の最小値</text>
 	</string>
 	<string id="ui_mm_gameplay_silent_kills_sk_gun_hear_dist_desc">
-		<text>この距離（メートル）以内に他のNPCがプレイヤーまたは犠牲者の近くにいる場合、銃でのステルスキルは必ず失敗します（雨天時はこの距離が短くなります）。</text>
+		<text>この距離（メートル）以内に他のNPCがプレイヤーまたは犠牲者の近くにいる場合、銃でのステルスキルは失敗します（雨天時はこの距離が短くなります）。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_condition_buy_override">
-		<text>売却できるアイテムの耐久値</text>
+		<text>アイテム売却に必要な耐久値</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_condition_buy_override_desc">
-		<text>アイテムをトレーダーに買い取ってもらうためには、アイテムの耐久値がこの値［%］以上でなければならない。この値が0に設定されている場合、買い取ってもらえる耐久値は各トレーダーの設定ファイルによって決定される。</text>
+		<text>アイテムをトレーダーに買い取ってもらうには、アイテムの耐久値がこの値［%］以上である必要があります。この値が0に設定されている場合、買い取り可能な耐久値は各トレーダーの設定ファイルによって決定されます。</text>
 	</string>
 </string_table>

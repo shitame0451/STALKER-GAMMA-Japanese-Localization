@@ -7,27 +7,27 @@
 		<text>フリーズーム (Free Zoom)</text>
 	</string>
 	<string id="ui_mcm_free_zoom_key_bind_toggle_desc">
-        <text>画面をズームします。この間、移動速度は遅くなります。</text>
+        <text>視界をズームインさせ、遠くの対象をより詳細に確認できます。この間、移動速度が低下します。</text>
 	</string>
 	<string id="ui_mcm_free_zoom_pistol_mult">
-		<text>ピストルの基本FOV値の倍率</text>
+		<text>ピストル使用時の視野角倍率</text>
 	</string>
 	<string id="ui_mcm_free_zoom_pistol_mult_desc">
-        <text>ピストルのみに適用される視野角を調整します。ピストルをカメラから遠ざけるには数値を増やしてください。</text>
+        <text>ピストル使用時に適用される視野角の倍率を設定します。値を大きくするとカメラからの距離が遠くなります。</text>
 	</string>
 	<string id="ui_mcm_free_zoom_ads_mult">
-		<text>ADSの倍率</text>
+		<text>ADS時のズーム倍率</text>
 	</string>
 	<string id="ui_mcm_free_zoom_ads_mult_desc">
-        <text>照準器を覗いたときに視界がどれだけズームするかを定義します。倍率を減少させると、ズームが強まります。</text>
+        <text>照準器を覗き込んだ際のズーム倍率を設定します。値を小さくするほど、ズームが強くなります。</text>
 	</string>
 	<string id="ui_mcm_free_zoom_free_zoom_mult">
-		<text>フリーズームの倍率</text>
+		<text>フリーズーム時の倍率</text>
 	</string>
 	<string id="ui_mcm_free_zoom_free_zoom_mult_desc">
-        <text>フリーズームキーを押したときに視野がどれだけズームするかを定義します。倍率を減少させると、ズームが強まります。</text>
+        <text>フリーズームキーを押した際のズーム倍率を設定します。値を小さくするほど、ズームが強くなります。</text>
 	</string>
 	<string id="ui_mcm_free_zoom_freezoom_toggleable">
-		<text>フリーズームの切り替え</text>
+		<text>フリーズームのトグル切り替え</text>
 	</string>
 </string_table>

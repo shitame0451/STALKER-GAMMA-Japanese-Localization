@@ -13,11 +13,11 @@
 	</string>
 	
 	<string id="ui_mcm_lst_switch_mode_transition">
-		<text>指定エリア以外のエリアに侵入した時</text>
+		<text>指定エリア外への移動時</text>
 	</string>
 	
 	<string id="ui_mcm_lst_switch_mode_local">
-		<text>指定エリアに侵入した時</text>
+		<text>指定エリアへの移動時</text>
 	</string>
 	
 	<string id="ui_mcm_lst_switch_mode_never">
@@ -45,7 +45,7 @@
 	</string>
 	
 	<string id="ui_mcm_lst_switch_mode_auto_unpack">
-		<text>パッケージの回収時に自動的に開封</text>
+		<text>パッケージ回収時に自動開封</text>
 	</string>
 	
 </string_table>

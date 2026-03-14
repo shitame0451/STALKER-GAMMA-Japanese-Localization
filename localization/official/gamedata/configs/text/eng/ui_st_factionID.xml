@@ -5,68 +5,68 @@
 	</string>
 
 	<string id="ui_mcm_targetID_deadID">
-		<text>死亡したストーカーを識別する</text>
+		<text>死亡したストーカーの識別表示</text>
 	</string>
 
 	<string id="ui_mcm_targetID_nameID">
-		<text>ストーカーの名前を識別する</text>
+		<text>名前の識別表示</text>
 	</string>
 
 	<string id="ui_mcm_targetID_timeID">
-		<text>距離に応じて識別を遅延させる</text>
+		<text>距離に応じた識別遅延</text>
 	</string>
 	<string id="ui_mcm_targetID_timeID_desc">
-		<text>有効にすると、ストーカーを識別するまでに時間がかかるようになります。この時間は距離によって変わります。</text>
+		<text>有効にすると、ストーカーの識別表示に時間がかかるようになります。識別にかかる時間は対象との距離に応じて変化します。</text>
 	</string>
 
 	<string id="ui_mcm_targetID_rankID">
-		<text>ストーカーのランクを識別する</text>
+		<text>ランクの識別表示</text>
 	</string>
 
 	<string id="ui_mcm_targetID_talkName">
-		<text>接触するまでは識別しない</text>
+		<text>会話／調査するまで名前とランクを非表示</text>
 	</string>
 	<string id="ui_mcm_targetID_talkName_desc">
-		<text>有効にすると、プレイヤーはストーカーと話したり、その死体を調べることで初めて名前とランクがわかるようになります。</text>
+		<text>有効にすると、一度会話するか死体を漁るまで、名前とランクが表示されなくなります。</text>
 	</string>
 
 	<string id="ui_mcm_targetID_speedID">
-		<text>識別の早さ</text>
+		<text>識別速度</text>
 	</string>
 	
 	<string id="ui_mcm_targetID_xo">
-		<text>位置 X</text>
+		<text>表示位置 X軸 (全体)</text>
 	</string>
 	<string id="ui_mcm_targetID_yo">
-		<text>位置 Y</text>
+		<text>表示位置 Y軸 (全体)</text>
 	</string>
 	
 	<string id="ui_mcm_targetID_xp">
-		<text>派閥パッチ オフセット X</text>
+		<text>派閥パッチ表示位置 オフセットX</text>
 	</string>
 	<string id="ui_mcm_targetID_yp">
-		<text>派閥パッチ オフセット Y</text>
+		<text>派閥パッチ表示位置 オフセットY</text>
 	</string>
 	
 	<string id="ui_mcm_targetID_xn">
-		<text>名前 オフセット X</text>
+		<text>名前表示位置 オフセットX</text>
 	</string>
 	<string id="ui_mcm_targetID_yn">
-		<text>名前 オフセット Y</text>
+		<text>名前表示位置 オフセットY</text>
 	</string>
 	
 	<string id="ui_mcm_targetID_xr">
-		<text>ランク オフセット X</text>
+		<text>ランク表示位置 オフセットX</text>
 	</string>
 	<string id="ui_mcm_targetID_yr">
-		<text>ランク オフセット Y</text>
+		<text>ランク表示位置 オフセットY</text>
 	</string>
 	
 	<string id="ui_mcm_targetID_flipAlign">
-		<text>文字の整列を反転させる</text>
+		<text>テキストの右揃え</text>
 	</string>
 	<string id="ui_mcm_targetID_flipAlign_desc">
-		<text>名前とランクが右揃えになり、HUDを画面の右側に配置できるようになります。</text>
+		<text>名前とランクの表示が右揃えになり、HUDを画面右側に配置したい場合に便利です。</text>
 	</string>
 	
 	<string id="ui_mcm_targetID_colorR">
@@ -90,10 +90,10 @@
 	</string>
 	
 	<string id="ui_mcm_targetID_targL">
-		<text>ターゲットの識別範囲</text>
+		<text>エイム判定の許容誤差</text>
 	</string>
 	<string id="ui_mcm_targetID_targL_desc">
-		<text>ターゲットの識別に必要な照準の正確さを調整します。\n値が高いほど識別範囲が狭くなり、値が低いほどターゲットを簡単に識別できるようになります。\n値が1.0の場合、ターゲットを画面の中心で正確に捉える必要があります。</text>
+		<text>対象を識別するために必要な照準の正確さを調整します。\n値が高いほど照準の許容範囲が狭まり、正確に狙う必要があります。値を低くすると、より広範囲で対象を識別しやすくなります。\n例えば、値を1.0に設定した場合、対象を画面中央で正確に捉える必要があります。</text>
 	</string>
 	
 	<string id="ui_mcm_targetID_unknown">

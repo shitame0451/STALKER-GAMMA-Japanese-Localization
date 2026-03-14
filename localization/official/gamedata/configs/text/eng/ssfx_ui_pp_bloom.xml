@@ -17,11 +17,11 @@
 
 	<!-- Bloom Settings -->
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_use_weather_mcm">
-		<text>天候プリセットの使用</text>
+		<text>天候プリセットの値を使用</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_use_weather_mcm_desc">
-		<text>「しきい値」「露光」「空の明るさ」を天候プリセットで設定された値に上書きします。</text>
+		<text>有効にすると、「しきい値」「露光」「空の明るさ」が天候プリセットで設定された値に自動的に調整されます。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_threshold_mcm">
@@ -70,7 +70,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_lens_mcm_desc">
-		<text>ガスマスク使用時のレンズフレア効果の強さを調整します。</text>
+		<text>ガスマスク装着時のレンズフレア効果の強さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_dirt_mcm">
@@ -78,7 +78,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_dirt_mcm_desc">
-		<text>ガスマスク使用時の汚れ効果の強さを調整します。</text>
+		<text>ガスマスク装着時の画面の汚れ効果の強さを調整します。</text>
 	</string>
 
 </string_table>

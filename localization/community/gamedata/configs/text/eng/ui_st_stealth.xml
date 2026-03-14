@@ -14,72 +14,72 @@
 	</string>
 
 	<string id="ui_mcm_stealth_memory">
-		<text>記憶</text>
+		<text>NPCの記憶力</text>
 	</string>
 	<string id="ui_mcm_stealth_memory_desc">
-		<text>記憶の倍率を設定します。(NPCが既にターゲットを視認した場合、そのターゲットに対する視力の上昇を受け取ります。\n時間経過とともに減少し、初期値1.0の場合は、このターゲットに対してNPCの視覚が0になるまでには現実で100秒程度かかります。) \n初期値: 1.0</text>
+		<text>NPCが一度プレイヤーを視認した場合、その情報を保持する時間の倍率を設定します。この値が高いほど、NPCはプレイヤーを見失っても長く記憶に留めます。初期値1.0の場合、NPCがプレイヤーを視認しなくなってから約100秒で記憶が失われます。\n初期値: 1.0</text>
 	</string>
 
 	<string id="ui_mcm_stealth_luminocity">
-		<text>光源</text>
+		<text>明るさの影響</text>
 	</string>
 	<string id="ui_mcm_stealth_luminocity_desc">
-		<text>光源（オブジェクトが出す光）の倍率を設定します。\n初期値: 1.0</text>
+		<text>周囲の明るさがステルスに与える影響度を調整します。値が高いほど、明るい場所での発見リスクが増加します。\n初期値: 1.0</text>
 	</string>
 
 	<string id="ui_mcm_stealth_distance">
-		<text>距離</text>
+		<text>発見距離</text>
 	</string>
 	<string id="ui_mcm_stealth_distance_desc">
-		<text>距離（オブジェクトからオブジェクトまでの距離、レンジ、FOV）の倍率を設定します。\n初期値: 1.0</text>
+		<text>NPCがプレイヤーを発見する距離の倍率を調整します。値が高いほど、遠距離から発見される可能性が高まります。\n初期値: 1.0</text>
 	</string>
 
 	<string id="ui_mcm_stealth_velocity">
-		<text>速度</text>
+		<text>移動速度の影響</text>
 	</string>
 	<string id="ui_mcm_stealth_velocity_desc">
-		<text>速度（オブジェクトの速度）の倍率を設定します。\n初期値: 1.0</text>
+		<text>プレイヤーの移動速度がステルスに与える影響度を調整します。値が高いほど、素早く移動した際の発見リスクが増加します。\n初期値: 1.0</text>
 	</string>
 
 	<string id="ui_mcm_stealth_weight">
-		<text>重量</text>
+		<text>所持重量の影響</text>
 	</string>
 	<string id="ui_mcm_stealth_weight_desc">
-		<text>重量（アクターの重量）の倍率を設定します。\n初期値: 1.0</text>
+		<text>プレイヤーの所持重量がステルスに与える影響度を調整します。値が高いほど、所持重量が多い際の発見リスクが増加します。\n初期値: 1.0</text>
 	</string>
 
 	<string id="ui_mcm_stealth_crouch">
-		<text>しゃがみ</text>
+		<text>しゃがみ移動</text>
 	</string>
 	<string id="ui_mcm_stealth_crouch_desc">
-		<text>しゃがみの倍率を設定します。\n初期値: 0.4</text>
+		<text>しゃがみ移動中の発見されにくさの倍率を調整します。値が低いほど、しゃがみ移動中の発見リスクが減少します。\n初期値: 0.4</text>
 	</string>
 
 	<string id="ui_mcm_stealth_low_crouch">
-		<text>匍匐</text>
+		<text>匍匐移動</text>
 	</string>
 	<string id="ui_mcm_stealth_low_crouch_desc">
-		<text>匍匐の倍率を設定します。\n初期値: 0.25</text>
+		<text>匍匐移動中の発見されにくさの倍率を調整します。値が低いほど、匍匐移動中の発見リスクが減少します。\n初期値: 0.25</text>
 	</string>
 
 	<string id="ui_mcm_stealth_icon">
-		<text>アイコンを表示</text>
+		<text>光度アイコンの表示</text>
 	</string>
 	<string id="ui_mcm_stealth_icon_desc">
-		<text>光度のアイコンを表示します。(アクターが照らされている光を可視化）</text>
+		<text>プレイヤーが受けている光の量をアイコンで表示します。現在の明るさがステルスにどう影響しているか視覚的に確認できます。</text>
 	</string>
 
 	<string id="ui_mcm_stealth_michiko_patch">
-		<text>Michiko Weather パッチ</text>
+		<text>Michiko Weatherとの互換性</text>
 	</string>
 	<string id="ui_mcm_stealth_michiko_patch_desc">
-		<text>Michiko's Weatherを使用している場合は、有効にすることを推奨します。</text>
+		<text>Michiko's Weatherを導入している場合は、有効にすることをおすすめします。</text>
 	</string>
 
 	<string id="ui_mcm_stealth_debugx">
-		<text>デバッグ</text>
+		<text>デバッグ情報表示</text>
 	</string>
 	<string id="ui_mcm_stealth_debugx_desc">
-		<text>方程式変数の表示します。（正しいしきい値を得るためには、カーソルを常に対象物に合わせておく必要があります）:\nコンソール: すべての変数 \nダイナミックニュース: 対象物がアクターを見ているかどうか \n画面下部メッセージ: 対象物の可視性のしきい値 (およびMCMで変更可能な変数)</text>
+		<text>ステルス計算式に関するデバッグ情報を表示します。正確な情報を得るには、常にカーソルを対象物に合わせる必要があります。\n表示内容:\nコンソール: すべての変数\nダイナミックニュース: 対象物がプレイヤーを視認しているか\n画面下部のメッセージ: 対象物の可視性のしきい値 (MCMで変更可能な変数を含む)</text>
 	</string>
 </string_table>

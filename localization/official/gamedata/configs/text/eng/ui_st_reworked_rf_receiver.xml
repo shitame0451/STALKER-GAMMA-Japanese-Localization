@@ -12,27 +12,27 @@
 	</string>
 
 	<string id="ui_mcm_reworked_rf_receiver_custom_beep_volume">
-		<text>通知音の音量</text>
+		<text>ビープ音量のカスタマイズ</text>
 	</string>
 	<string id="ui_mcm_reworked_rf_receiver_custom_beep_volume_desc">
-		<text>通知音の音量を変更できるようにしたい場合はこの項目を有効にしてください。</text>
+		<text>有効にすると、RF受信機の反応音（ビープ音）を個別に調整できるようになります。</text>
 	</string>
 	
 	<string id="ui_mcm_reworked_rf_receiver_beep_volume">
-		<text>通知音量</text>
+		<text>ビープ音の音量</text>
 	</string>
 	
 	<string id="ui_mcm_reworked_rf_receiver_update_sources_on_frequency_change">
-		<text>周波数の変更ごとにRFソースを更新する</text>
+		<text>周波数変更時に発信源を更新 (高負荷)</text>
 	</string>
 	<string id="ui_mcm_reworked_rf_receiver_update_sources_on_frequency_change_desc">
-		<text>マイクロスタッターを引き起こし、動作が重くなります。</text>
+		<text>有効にすると、周波数を変えるたびに微小なカクつき（マイクロスタッター）が発生する可能性があります。</text>
 	</string>
 	
 	<string id="ui_mcm_reworked_rf_receiver_only_equip_rf">
-		<text>RF受信機を取り出さなくてもいいようにする</text>
+		<text>RF受信機を手に持たずに使用</text>
 	</string>
 	<string id="ui_mcm_reworked_rf_receiver_only_equip_rf_desc">
-		<text>有効にすると、RF受信機は手に持っている必要がなくなり、装備しているだけで機能するようになります。</text>
+		<text>有効にすると、RF受信機を手に持つ必要がなくなり、装備しているだけでその機能を利用できるようになります。</text>
 	</string>
 </string_table>

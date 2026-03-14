@@ -6,7 +6,7 @@
     <text>Useful Idiots</text>
   </string>
   <string id="ui_mcm_menu_idiots_options">
-    <text>オプション</text>
+    <text>設定</text>
   </string>
   <string id="ui_mcm_menu_idiots_ui">
     <text>UI設定</text>
@@ -15,10 +15,10 @@
     <text>キー設定</text>
   </string>
   <string id="ui_mcm_menu_idiots_point">
-    <text>ポイント</text>
+    <text>地点指定</text>
   </string>
   <string id="ui_mcm_menu_idiots_movement">
-    <text>移動</text>
+    <text>行動モード</text>
   </string>
   <string id="ui_mcm_menu_idiots_light">
     <text>ヘッドランプ</text>
@@ -30,7 +30,7 @@
     <text>姿勢</text>
   </string>
   <string id="ui_mcm_menu_idiots_distance">
-    <text>距離</text>
+    <text>追従距離</text>
   </string>
   <string id="ui_mcm_menu_idiots_combat">
     <text>戦闘スタイル</text>
@@ -45,7 +45,7 @@
     <text>隊形</text>
   </string>
   <string id="ui_mcm_menu_idiots_weapon">
-    <text>武器種別</text>
+    <text>武器選択</text>
   </string>
 
   <!-- General Options -->
@@ -56,64 +56,64 @@
     <text>全体設定</text>
   </string>
   <string id="ui_mcm_idiots_options_splitSquads">
-    <text>コンパニオンを個別の分隊に分離</text>
+    <text>仲間を分隊として独立</text>
   </string>
   <string id="ui_mcm_idiots_options_splitSquads_desc">
-    <text>コンパニオンをマップ間で個別に移動させます。このオプションを無効にすると、マップ切り替え時にコンパニオンが正しく待機・追従しなかったり、遠くにテレポートすることがあります。一度分離した分隊は元に戻せません。</text>
+    <text>有効にすると、仲間がマップ移動時に個別の分隊として管理されるようになります。無効の場合、マップ切り替え時に追従しなかったり、遠方にテレポートしてしまう場合があります。一度独立させた分隊は、元に戻せません。</text>
   </string>
   <string id="ui_mcm_idiots_options_autoSneak">
-    <text>自動しゃがみを有効化</text>
+    <text>しゃがみ状態の自動連動</text>
   </string>
   <string id="ui_mcm_idiots_options_autoSneak_desc">
-    <text>プレイヤーがしゃがんだとき、コンパニオンも自動でしゃがむようにします。無効にすると、コンパニオンは自動でしゃがみません。</text>
+    <text>プレイヤーがしゃがむと、仲間も自動的にしゃがむようになります。無効にすると、仲間は自動でしゃがみません。</text>
   </string>
   <string id="ui_mcm_idiots_options_autoProne">
-    <text>自動伏せを有効化</text>
+    <text>伏せ状態の自動連動</text>
   </string>
   <string id="ui_mcm_idiots_options_autoProne_desc">
-    <text>プレイヤーが伏せたとき、コンパニオンも自動で伏せるようにします。無効にすると、コンパニオンは自動で伏せません。</text>
+    <text>プレイヤーが伏せると、仲間も自動的に伏せるようになります。無効にすると、仲間は自動で伏せません。</text>
   </string>
   <string id="ui_mcm_idiots_options_autoSprint">
-    <text>自動ダッシュを有効化</text>
+    <text>ダッシュの自動連動</text>
   </string>
   <string id="ui_mcm_idiots_options_autoSprint_desc">
-    <text>プレイヤーがダッシュするとき、コンパニオンも自動でダッシュするようにします。無効にすると、コンパニオンは自動でダッシュしません。</text>
+    <text>プレイヤーがダッシュすると、仲間も自動的にダッシュするようになります。無効にすると、仲間は自動でダッシュしません。</text>
   </string>
   <string id="ui_mcm_idiots_options_autoLight">
-    <text>自動ヘッドランプを有効化</text>
+    <text>ヘッドランプの自動連動</text>
   </string>
   <string id="ui_mcm_idiots_options_autoLight_desc">
-    <text>プレイヤーがヘッドランプを操作した際に、コンパニオンのヘッドランプも連動してオン／オフされるのを無効にします。</text>
+    <text>プレイヤーがヘッドランプを操作すると、仲間も自動的にヘッドランプを点灯／消灯するようになります。無効にすると、仲間は自動でライトを点灯／消灯しません。</text>
   </string>
   <string id="ui_mcm_idiots_options_autoWait">
-    <text>「ポイントへ移動」後に「待機」に切り替える</text>
+    <text>「ポイントへ移動」後に「待機」へ移行</text>
   </string>
   <string id="ui_mcm_idiots_options_autoWait_desc">
-    <text>「ポイントへ移動」コマンド使用後、自動的にコンパニオンを「待機」状態に切り替え、指示があるまでその場にとどまらせます。無効にすると、目的地到達後に元の行動に戻ります。</text>
+    <text>「ポイントへ移動」コマンド使用後、仲間が自動的に「待機」状態に切り替わり、指示があるまでその場に留まります。オフにすると、目的地到達後に元の行動に戻ります。</text>
   </string>
   <string id="ui_mcm_idiots_options_autoGuard">
-    <text>「ポイントへ移動」後に「防衛行動」戦闘スタイルへ切り替える</text>
+    <text>「ポイントへ移動」後に「防衛行動」戦闘スタイルへ移行</text>
   </string>
   <string id="ui_mcm_idiots_options_autoGuard_desc">
-    <text>「ポイントへ移動」コマンド使用後、自動的にコンパニオンを「防衛型」戦闘スタイルに切り替え、指示があるまでその場にとどまらせます。無効にすると、目的地到達後に元の戦闘スタイルへ戻ります。</text>
+    <text>「ポイントへ移動」コマンド使用後、仲間が自動的に「防衛行動」戦闘スタイルに切り替わり、指示があるまでその場に留まり防衛態勢を取ります。オフにすると、目的地到達後に元の戦闘スタイルへ戻ります。</text>
   </string>
   <string id="ui_mcm_idiots_options_autoDeselect">
     <text>「ポイントへ移動」や「ポイントを注視」後に選択を解除</text>
   </string>
   <string id="ui_mcm_idiots_options_autoDeselect_desc">
-    <text>「ポイントへ移動」や「ポイントを注視」コマンド実行後、自動的にコンパニオンの選択をすべて解除します。</text>
+    <text>「ポイントへ移動」や「ポイントを注視」コマンド実行後、自動的にすべての仲間の選択を解除します。</text>
   </string>
   <string id="ui_mcm_idiots_options_autoReloadAll">
-    <text>待機中に全武器をリロード</text>
+    <text>自動リロード（全武器）</text>
   </string>
   <string id="ui_mcm_idiots_options_autoReloadAll_desc">
-    <text>有効にすると、セーブデータの読み込み後／プレイヤーへの合流時／戦闘終了後に、コンパニオンが所持しているすべての武器を自動でリロードします。無効にすると、使用中の武器のみをリロードします。</text>
+    <text>有効にすると、セーブデータのロード後、プレイヤーへの合流時、または戦闘終了時に、仲間が所持しているすべての武器を自動でリロードするようになります。無効の場合、使用中の武器のみをリロードします。</text>
   </string>
   <string id="ui_mcm_idiots_options_manualReloadAll">
-    <text>ボタン／キー入力で全武器をリロード</text>
+    <text>手動リロード（全武器）</text>
   </string>
   <string id="ui_mcm_idiots_options_manualReloadAll_desc">
-    <text>有効にすると、リロードボタンやキー操作で、コンパニオンが所持しているすべての武器をリロードします。無効にすると、使用中の武器のみをリロードします。</text>
+    <text>有効にすると、リロードキーを押した際に、仲間が所持しているすべての武器をリロードするようになります。無効の場合、使用中の武器のみをリロードします。</text>
   </string>
 
   <!-- Combat Options -->
@@ -121,28 +121,28 @@
     <text>戦闘関連の設定</text>
   </string>
   <string id="ui_mcm_idiots_options_defendMode">
-    <text>「防衛」態勢中は攻撃されたときのみ反撃</text>
+    <text>「防衛」態勢時の反撃条件</text>
   </string>
   <string id="ui_mcm_idiots_options_defendMode_desc">
-    <text>「防衛」態勢であっても、プレイヤーが攻撃されたときは必ず反応します。ただし、敵が自分や他のコンパニオンを攻撃した場合にも反応することがあります。</text>
+    <text>仲間は「防衛」態勢の間、通常はプレイヤーへの攻撃にのみ反応しますが、自分自身や他の仲間が攻撃された際にも反撃することがあります。</text>
   </string>
   <string id="ui_mcm_idiots_options_camperCombat">
-    <text>旧式「待ち伏せ」戦闘スタイルを有効化</text>
+    <text>旧式「待ち伏せ」戦闘スタイル</text>
   </string>
   <string id="ui_mcm_idiots_options_camperCombat_desc">
-    <text>コンパニオンに「待ち伏せ」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、コンパニオンには無効化されています。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
+    <text>仲間に「待ち伏せ」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、仲間には無効化されています。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
   </string>
   <string id="ui_mcm_idiots_options_monolithCombat">
-    <text>旧式「モノリス流」戦闘スタイルを有効化</text>
+    <text>旧式「モノリス流」戦闘スタイル</text>
   </string>
   <string id="ui_mcm_idiots_options_monolithCombat_desc">
-    <text>コンパニオンに「モノリス流」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、コンパニオンには無効化されています。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
+    <text>仲間に「モノリス流」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、仲間には無効化されています。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
   </string>
   <string id="ui_mcm_idiots_options_zombiedCombat">
-    <text>「ゾンビ風」戦闘スタイルを有効化</text>
+    <text>「ゾンビ風」戦闘スタイル</text>
   </string>
   <string id="ui_mcm_idiots_options_zombiedCombat_desc">
-    <text>コンパニオンに「ゾンビ風」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、人間NPC向けには設計されていません。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
+    <text>仲間に「ゾンビ風」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、人間NPC向けには設計されていません。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
   </string>
 
   <!-- Surge Options -->
@@ -150,19 +150,19 @@
     <text>エミッション関連の設定</text>
   </string>
   <string id="ui_mcm_idiots_options_dynamicSurgeCover">
-    <text>コンパニオンの自動避難行動を有効化</text>
+    <text>エミッションの避難行動の動作</text>
   </string>
   <string id="ui_mcm_idiots_options_dynamicSurgeCover_desc">
-    <text>エミッション発生時、コンパニオンが自動で安全な場所へ避難するようになります。これは「Dynamic Emission Cover」アドオンに似た機能ですが、コンパニオン専用に動作します。プレイヤーとコンパニオンの両方に適用（推奨）、コンパニオンのみに適用、または完全に無効化が可能です。</text>
+    <text>エミッション発生時、仲間が自動で安全な場所へ避難します。これは「Dynamic Emission Cover」アドオンに似た機能ですが、仲間専用に動作します。プレイヤーと仲間の両方に適用（推奨）、仲間のみに適用、または完全に無効化が可能です。</text>
   </string>
   <string id="ui_mcm_idiots_options_surgesKillCompanions">
-    <text>エミッションでコンパニオンが死亡する</text>
+    <text>エミッションによる仲間の死亡</text>
   </string>
-  <string id="ui_mcm_idiots_options_dynamicSurgeCover_desc">
-    <text>エミッション発生時、コンパニオンが自動で安全な場所へ避難するようになります。これは「Dynamic Emission Cover」アドオンに似た機能ですが、コンパニオン専用に動作します。プレイヤーとコンパニオンの両方に適用（推奨）、コンパニオンのみに適用、または完全に無効化が可能です。</text>
+  <string id="ui_mcm_idiots_options_surgesKillCompanions_desc">
+    <text>通常、Anomalyのエミッションで仲間は死にますが、GAMMAではダメージを与えません。このオプションは現在の環境に合わせて自動で設定されます。有効化を推奨しますが、新機能のため仲間に予期せぬリスクが生じる可能性がある点に注意してください。</text>
   </string>
   <string id="ui_mcm_idiots_options_surge_note">
-    <text>※互換性について:「NPCs Die in Emissions for Real」と併用可能です（コンパニオンには本アドオンの挙動が優先されます）。「TB Coordinate Based Safe Zones」とも併用できますが、コンパニオンはこのアドオンが追加する遮蔽ポイントは使用しません。「Dynamic Emission Cover」も併用可能で、プレイヤー側の挙動にのみ影響します（コンパニオンには影響しません）。</text>
+    <text>※互換性について:「NPCs Die in Emissions for Real」と併用可能です（仲間には本アドオンの挙動が優先されます）。「TB Coordinate Based Safe Zones」とも併用できますが、仲間はこのアドオンが追加する遮蔽ポイントは使用しません。「Dynamic Emission Cover」も併用可能で、プレイヤー側の挙動にのみ影響します（仲間には影響しません）。</text>
   </string>
 
   <!-- Jobs Options -->
@@ -170,13 +170,13 @@
     <text>回収／収集の設定</text>
   </string>
   <string id="ui_mcm_idiots_options_noNpcLooting">
-    <text>コンパニオンのみアイテム回収を許可</text>
+    <text>仲間のみアイテム回収を許可</text>
   </string>
   <string id="ui_mcm_idiots_options_noNpcLooting_desc">
-    <text>コンパニオン以外のNPCによるアイテム回収や収集を有効／無効にします。\nGAMMAではオン、Anomalyではオフにすることで、従来の挙動を維持できます。</text>
+    <text>有効にすると、仲間以外のNPCはアイテムを回収しなくなります。\nGAMMA環境ではオンに、Anomaly環境ではオフにすることで、従来の挙動を維持できます。</text>
   </string>
   <string id="ui_mcm_idiots_options_jobs_note">
-    <text>※注意: GAMMA環境では「311 NPC Stop Looting Dead Bodies」が有効になっていると、アイテム回収が正常に機能しません。</text>
+    <text>※注意: GAMMA環境で「311 NPC Stop Looting Dead Bodies」が有効になっていると、アイテム回収が正常に機能しません。</text>
   </string>
 
   <!-- Cheats -->
@@ -190,13 +190,13 @@
     <text>アーティファクト収集コマンドを有効化</text>
   </string>
   <string id="ui_mcm_idiots_options_artifacts_desc">
-    <text>コンパニオンにアーティファクトを回収させるUIコマンドを有効／無効にします。※NPCがアノマリーでダメージを受けるMODを使用していない場合、この設定は実質的にチートになります。</text>
+    <text>仲間にアーティファクトを回収させるUIコマンドを有効／無効にします。※NPCがアノマリーでダメージを受けるMODを使用していない場合、この設定は実質的なチート行為となります。</text>
   </string>
   <string id="ui_mcm_idiots_options_showAllItems">
-    <text>コンパニオンの所持品をすべて表示</text>
+    <text>仲間の所持品をすべて表示</text>
   </string>
   <string id="ui_mcm_idiots_options_showAllItems_desc">
-    <text>コンパニオンが拾得・収集したものだけでなく、所持しているすべてのアイテムを表示します。※この設定を有効にすると、コンパニオンの装備を不当に入手できてしまうためチート的挙動となります。不要品の整理や、MODの不具合でアイテムが取得できない場合などに限定して使用してください。</text>
+    <text>仲間が拾得・収集したものだけでなく、所持しているすべてのアイテムを表示します。※この設定を有効にすると、不正にアイテムを入手できてしまうため、チート行為とみなされる可能性があります。不要品の整理や、MODの不具合でアイテムが消失した場合の復旧など、限定的な状況での使用を推奨します。</text>
   </string>
 
   <!-- UI Options -->
@@ -204,34 +204,34 @@
     <text>UI設定</text>
   </string>
   <string id="ui_mcm_idiots_ui_indexers">
-    <text>コンパニオンの頭上にインジケーターを表示</text>
+    <text>仲間の頭上にインジケーターを表示</text>
   </string>
   <string id="ui_mcm_idiots_ui_indexers_desc">
-    <text>UIを開いた際に、コンパニオンの頭上にタブ番号のインジケーターを表示するかどうかを切り替えます。</text>
+    <text>UIを開いた際に、仲間の頭上にタブ番号のインジケーターを表示するかどうかを切り替えます。</text>
   </string>
   <string id="ui_mcm_idiots_ui_showReload">
     <text>リロードボタンを表示</text>
   </string>
   <string id="ui_mcm_idiots_ui_showReload_desc">
-    <text>コンパニオンの所持武器すべてを手動でリロードさせるボタンをUIに追加します。</text>
+    <text>仲間の所持武器すべてを手動でリロードさせるボタンをUIに追加します。</text>
   </string>
   <string id="ui_mcm_idiots_ui_showRetreat">
     <text>退避ボタンを表示</text>
   </string>
   <string id="ui_mcm_idiots_ui_showRetreat_desc">
-    <text>「追従＋急ぎ足＋戦闘を無視＋近距離維持」の状態に切り替える退避ボタンをUIに追加します。</text>
+    <text>仲間を「追従＋急ぎ足＋戦闘を無視＋近距離維持」の状態へ一括で切り替える退避ボタンをUIに追加します。</text>
   </string>
   <string id="ui_mcm_idiots_ui_showUnstick">
     <text>スタック解除ボタンを表示</text>
   </string>
   <string id="ui_mcm_idiots_ui_showUnstick_desc">
-    <text>動かなくなったコンパニオンをその場でテレポートさせる手動ボタンをUIに追加します。\n反応しないコンパニオンに対して「コンパニオンをテレポート」キーの代用として使用できます。</text>
+    <text>動かなくなった仲間をその場でテレポートさせるボタンをUIに追加します。\n反応しない仲間をテレポートさせるキーの代替としても使用できます。</text>
   </string>
   <string id="ui_mcm_idiots_ui_showTooltips">
     <text>ツールチップを表示</text>
   </string>
   <string id="ui_mcm_idiots_ui_showTooltips_desc">
-    <text>コンパニオン用UI内のアイコンボタンにマウスを重ねたとき、ツールチップを表示します。</text>
+    <text>仲間用UI内のアイコンボタンにカーソルを合わせると、ツールチップが表示されます。</text>
   </string>
 
   <!-- UI Customization -->
@@ -257,7 +257,7 @@
     <text>カラースキーム</text>
   </string>
   <string id="ui_mcm_idiots_scheme_desc">
-    <text>コンパニオン用UIのアクセントカラーを設定します。</text>
+    <text>仲間用UIのアクセントカラーです。</text>
   </string>
   <string id="ui_mcm_idiots_ui_font">
     <text>フォントサイズ</text>
@@ -274,10 +274,10 @@
     <text>進路から退避</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_point_select">
-    <text>コンパニオンを選択</text>
+    <text>仲間を選択</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_point_deselect">
-    <text>選択中のコンパニオンをすべて解除</text>
+    <text>選択中の仲間をすべて解除</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_point_addWaypoint">
     <text>ウェイポイントを追加</text>
@@ -289,7 +289,7 @@
     <text>インベントリを開く</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_point_inventory_note">
-    <text>※SHIFTキーの組み合わせは、GAMMA UIが有効な場合は使用できません。</text>
+    <text>※SHIFTキーとの同時押しは、GAMMA UIが有効な場合は使用できません。</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_point_reset">
     <text>状態を再同期</text>
@@ -313,7 +313,7 @@
     <text>入力タイプ</text>
   </string>
   <string id="ui_mcm_idiots_keybinds_toggle">
-    <text>押して切り替え</text>
+    <text>トグル</text>
   </string>
 
   <!-- Movement Keys -->
@@ -414,7 +414,7 @@
 
   <!-- Weapon Keys -->
   <string id="ui_mcm_idiots_subtitle_cycle_weapon">
-    <text>武器種別を順送り</text>
+    <text>武器選択を順送り</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_best">
     <text>最適な武器</text>
@@ -488,10 +488,10 @@
     <text>プレイヤーが攻撃されたときのみ</text>
   </string>
   <string id="ui_mcm_lst_idiots_self">
-    <text>プレイヤーまたはコンパニオン自身が攻撃されたとき</text>
+    <text>プレイヤーまたは仲間自身が攻撃されたとき</text>
   </string>
   <string id="ui_mcm_lst_idiots_anyone">
-    <text>プレイヤーまたは別のコンパニオンが攻撃されたとき</text>
+    <text>プレイヤーまたは別の仲間が攻撃されたとき</text>
   </string>
   <string id="ui_mcm_lst_mod_none">
     <text>なし</text>
@@ -581,10 +581,10 @@
     <text>Loner</text>
   </string>
   <string id="ui_mcm_lst_idiots_both">
-    <text>プレイヤーとコンパニオンの両方</text>
+    <text>プレイヤーと仲間</text>
   </string>
   <string id="ui_mcm_lst_idiots_companions">
-    <text>コンパニオンのみ</text>
+    <text>仲間のみ</text>
   </string>
   <string id="ui_mcm_lst_idiots_neither">
     <text>無効</text>

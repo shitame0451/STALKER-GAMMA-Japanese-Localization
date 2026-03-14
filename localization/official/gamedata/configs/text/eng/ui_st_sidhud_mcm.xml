@@ -9,73 +9,70 @@
 		<text>SidHUD</text>
 	</string>
 	<string id="ui_mm_video_hud_sidslide">
-		<text>SidHUD Options</text>
+		<text>SidHUD 設定</text>
 	</string>
 
 
 
 	<string id="ui_mcm_sidhud_armorbar">
-		<text>Armor Condition Bar</text>
+		<text>スーツの耐久値バーを表示</text>
 	</string>
 	<string id="ui_mcm_sidhud_armorbar_desc">
-		<text>Shows the Armor Condition bar.</text>
+		<text>スーツの耐久値を示すバーを表示します。</text>
 	</string>
 	<string id="ui_mcm_sidhud_armortext">
-		<text>Armor Condition Text</text>
+		<text>スーツの耐久値（数値）</text>
 	</string>
 	<string id="ui_mcm_sidhud_armortext_desc">
-		<text>Shows armor condition as a percentage in cyan text.\n
-		Has no effect if the bar is disabled.</text>
+		<text>スーツの耐久値をシアン色の%数値で表示します。\nこの設定は、耐久値のバーが非表示になっている場合は適用されません。</text>
 	</string>
 	<string id="ui_mcm_sidhud_weaponshow">
-		<text>Weapon Condition Bar</text>
+		<text>銃の耐久値バーを表示</text>
 	</string>
 	<string id="ui_mcm_sidhud_weaponshow_desc">
-		<text>Shows the weapon condition bar.</text>
+		<text>現在装備している銃の耐久値を示すバーを表示します。</text>
 	</string>
 	<string id="ui_mcm_sidhud_weapontext">
-		<text>Weapon Condition Text</text>
+		<text>銃の耐久値（数値）</text>
 	</string>
 	<string id="ui_mcm_sidhud_weapontext_desc">
-		<text>Shows weapon condition as a percentage in orange text.\n
-		Has no effect if the bar is disabled.</text>
+		<text>銃の耐久値をオレンジ色の%数値で表示します。\nこの設定は、耐久値バーが無効になっている場合は適用されません。</text>
 	</string>
 	<string id="ui_mcm_sidhud_weaponbarhide">
-		<text>Hide On Unequip</text>
+		<text>非装備時に耐久値バーを非表示</text>
 	</string>
 	<string id="ui_mcm_sidhud_weaponbarhide_desc">
-		<text>Makes the weapon condition bar disappear when a weapon is unequipped.\n
-		Has no effect if the bar is disabled.</text>
+		<text>銃をしまっている間、銃の耐久値バーを非表示にします。\nこの設定は、耐久値のバーが非表示になっている場合は適用されません。</text>
 	</string>
 	<string id="ui_mcm_sidhud_ammoshow">
-		<text>Total Ammo Counter</text>
+		<text>総弾薬数を表示</text>
 	</string>
 	<string id="ui_mcm_sidhud_ammoshow_desc">
-		<text>Shows total ammo.</text>
+		<text>現在所持している総弾薬数を表示します。</text>
 	</string>
 	<string id="ui_mcm_sidhud_oldammoshow">
-		<text>Old Ammo</text>
+		<text>古い弾薬を表示</text>
 	</string>
 	<string id="ui_mcm_sidhud_oldammoshow_desc">
-		<text>Makes the Old Ammo appear where relevant.</text>
+		<text>必要に応じて古い弾薬の情報を表示します。</text>
 	</string>
 	<string id="ui_mcm_sidhud_radhealthshow">
-		<text>放射線被曝バー</text>
+		<text>放射線被曝のバーを表示</text>
 	</string>
 	<string id="ui_mcm_sidhud_radhealthshow_desc">
-		<text>体力バーに受けた放射線の量を左から右に表示します。</text>
+		<text>蓄積された放射線量を、体力バーの上に左から右へ重なるように表示します。</text>
 	</string>
 	<string id="ui_mcm_sidhud_bleedingbarshow">
-		<text>Bleeding Bar</text>
+		<text>出血量のバーを表示</text>
 	</string>
 	<string id="ui_mcm_sidhud_bleedingbarshow_desc">
-		<text>Shows amount of bleeding on the stamina bar, from left to right.</text>
+		<text>現在の出血による損失量を、スタミナバーの上に左から右へ重なるように表示します。</text>
 	</string>
 	<string id="ui_mcm_sidhud_healingbar">
-		<text>Health Prediction Bar</text>
+		<text>回復予測のバーを表示</text>
 	</string>
 	<string id="ui_mcm_sidhud_healingbar_desc">
-		<text>Enables an additional bar on the health bar that shows the exact amount of healing receive when using a healing item.</text>
+		<text>回復アイテムを使用した際、最終的にどこまで体力が回復するかを体力バー上に予測表示します。</text>
 	</string>
 	
 </string_table>

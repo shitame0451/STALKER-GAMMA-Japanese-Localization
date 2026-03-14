@@ -4,9 +4,9 @@
 		<text>Drop Item</text>
 	</string>
 	<string id="ui_mcm_drop_item_key_drop">
-		<text>アイテムを地面に落とす (Drop Item)</text>
+		<text>アイテムをその場に落とす (Drop Item)</text>
 	</string>
 	<string id="ui_mcm_drop_item_key_drop_desc">
-        <text>インベントリ上でこのキーを押した時、マウスカーソルの位置にあるアイテムを地面に落とします。</text>
+        <text>インベントリ画面でこのキーを押すと、カーソル下のアイテムをその場に落とします。</text>
 	</string>
 </string_table>

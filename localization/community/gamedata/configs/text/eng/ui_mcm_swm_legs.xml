@@ -9,96 +9,96 @@
 		<text>SWM Visible Body</text>
 	</string>
 	<string id="ui_mcm_swm_legs_hide_legs_low_crouch">
-		<text>匍匐状態のときに体を非表示にする</text>
+		<text>匍匐時に身体を非表示にする</text>
 	</string>
 	<string id="ui_mcm_swm_legs_legs_offset">
-		<text>体の表示位置 (近/遠)</text>
+		<text>身体の表示位置（前後）</text>
 	</string>
 	<string id="ui_mcm_swm_legs_legs_offset_side">
-		<text>体の表示位置 (左/右)</text>
+		<text>身体の表示位置（左右）</text>
 	</string>
 	<string id="ui_mcm_swm_legs_toggle_turn_step_sound">
-		<text>振り向くときにステップ音を再生する</text>
+		<text>旋回時に足音を再生する</text>
 	</string>	
 	<string id="ui_mcm_swm_legs_toggle_turn_step_sound_exo">
-		<text>振り向くときにエグゾスーツのステップ音を再生する</text>
+		<text>旋回時にエグゾスーツの足音を再生する</text>
 	</string>	
 	<string id="ui_mcm_swm_legs_turn_step_sound_volume">
-		<text>ステップ音の音量</text>
+		<text>足音の音量</text>
 	</string>
 	<string id="ui_mcm_swm_legs_use_hd_models">
-		<text>HDモデルを使用する (HD Modelsアドオンが必要)</text>
+		<text>HDモデルを適用する（HD Modelsアドオンが必要）</text>
 	</string>
 	<string id="ui_mcm_swm_legs_disabled">
-		<text>SWM Visible Bodyを無効にする (アンインストール用)</text>
+		<text>SWM Visible Bodyを無効化（アンインストール用）</text>
 	</string>
 	<string id="ui_mcm_swm_legs_use_combat_state">
-		<text>戦闘態勢/非戦闘態勢を有効にする</text>
+		<text>戦闘／非戦闘状態の切り替えを有効化</text>
 	</string>
 	<string id="ui_mcm_swm_legs_use_slow_down_state">
-		<text>スロー状態を有効にする</text>
+		<text>移動速度に応じた身体アニメーションを有効化</text>
 	</string>
 	<string id="ui_mcm_swm_legs_enable_blood">
-		<text>（実験的機能）体に血の跡が付く</text>
+		<text>（実験的機能）身体に血痕を表示</text>
 	</string>
 	<string id="ui_mcm_swm_legs_enable_dirt">
-		<text>（実験的機能）体に汚れの跡が付く</text>
+		<text>（実験的機能）身体に汚れを表示</text>
 	</string>
 	<string id="ui_mcm_swm_legs_enable_idle_anims">
-		<text>ランダムな待機アニメーションを有効にする</text>
+		<text>ランダムな待機アニメーションを有効化</text>
 	</string>
 	<string id="ui_mcm_swm_legs_idle_anim_min_cooldown">
-		<text>待機アニメーション間の最小ポーズ（秒）</text>
+		<text>待機アニメーションの最小間隔（秒）</text>
 	</string>
  	<string id="ui_mcm_swm_legs_idle_anim_max_cooldown">
-		<text>待機アニメーション間の最大ポーズ（秒）</text>
+		<text>待機アニメーションの最大間隔（秒）</text>
 	</string>
  	<string id="ui_mcm_swm_legs_use_special_noncombat_shift">
-		<text>非戦闘態勢時に特別な体の表示位置を使用する</text>
+		<text>非戦闘時に専用の身体表示位置を使用する</text>
 	</string>
 	<string id="ui_mcm_swm_legs_legs_offset_noncombat">
-		<text>非戦闘態勢時の体の表示位置（近/遠）</text>
+		<text>非戦闘時の身体表示位置（前後）</text>
 	</string>
  	<string id="ui_mcm_swm_legs_visual_upg_enabled">
-		<text>視覚的なスーツアップグレードを有効にする</text>
+		<text>スーツの視覚的なアップグレードを有効化</text>
 	</string>
  	<string id="ui_mcm_swm_legs_enable_debug_warnings">
-		<text>デバッグ警告を有効にする</text>
+		<text>デバッグ警告を有効化</text>
 	</string>
 
 	<string id="ui_mcm_swm_legs_disabled_desc">
-		<text>このオプションを有効にすると、アドオンを安全にアンインストールできます。\n1) このオプションを有効にする\n2) 体のモデルが見えなくなったことを確認する\n3) ゲームをセーブし、ゲームを終了してこのアドオンを無効にする</text>
+		<text>本アドオンを安全にアンインストールするためのオプションです。以下の手順で実行してください。\n1) このオプションを有効にする\n2) 身体モデルが非表示になったことを確認する\n3) ゲームをセーブし、終了してから本アドオンを無効化する</text>
 	</string>
 	<string id="ui_mcm_swm_legs_use_combat_state_desc">
-		<text>有効にすると、プレイヤーが“戦闘状況”でない場合（銃を持っていない、銃が下がっていない、またはプレイヤーが戦闘中でない場合）、一部のボディアニメーションが新しいものと置き換えられます。\n無効にすると、デフォルトのアニメーションのみが再生されます。</text>
+		<text>有効にすると、プレイヤーが非戦闘状態（武器を構えていない、または戦闘中でない場合）の際に、一部の身体アニメーションが専用のものに置き換わります。\n無効にすると、常にデフォルトのアニメーションが再生されます。</text>
 	</string>
 	<string id="ui_mcm_swm_legs_use_slow_down_state_desc">
-		<text>有効にすると、プレイヤーの速度に基づいていくつかのボディアニメーションが切り替わります。例えば、走る速度が遅い場合、標準の走るアニメーションの代わりに“ジョギング”アニメーションが再生されます。</text>
+		<text>有効にすると、プレイヤーの移動速度に基づいて身体アニメーションが自動的に切り替わります。例えば、低速で走っている場合は、通常の走行アニメーションの代わりに「ジョギング」アニメーションが再生されます。</text>
 	</string>
 	<string id="ui_mcm_swm_legs_enable_blood_desc">
-		<text>プレイヤーが十分に強い物理的な打撃を受けると、体に血の跡が現れます。エンジンの制約により、常に表示されるわけではなく、長続きすることがありません。このため、まだ完全にカスタマイズ可能ではありません。</text>
+		<text>プレイヤーが大きなダメージを受けると、身体に血痕が表示されます。エンジンの制約上、常に表示されるわけではなく、持続時間も短めです。そのため、現時点では詳細なカスタマイズはできません。</text>
 	</string>
 	<string id="ui_mcm_swm_legs_enable_dirt_desc">
-		<text>地面や水などで汚れた表面を歩くと、体に汚れたデカールが現れる可能性があります。エンジンの制約により、常に表示されるわけではなく、長続きすることがありません。このため、まだ完全にカスタマイズ可能ではありません。</text>
+		<text>汚れた地面や水辺などを歩くと、身体に汚れが付着する場合があります。エンジンの制約上、常に表示されるわけではなく、持続時間も短めです。そのため、現時点では詳細なカスタマイズはできません。</text>
 	</string>
 	<string id="ui_mcm_swm_legs_enable_idle_anims_desc">
-		<text>プレイヤーが立って何もしていないとき、待機アニメーションが再生され、一時停止します。視線を下に向けているときにのみ再生され、微かな動作音も再生されます。\n注意:\n1) 戦闘態勢/非戦闘態勢オプションが有効になっている場合に動作するように設計されているため、それが有効のときに見栄えが良くなります。\n2) 一時停止時間の変更が反映されるまでには時間がかかる場合があります。</text>
+		<text>プレイヤーが静止している間、ランダムな待機アニメーションを再生します。視線を下に向けている場合にのみ再生され、微かな動作音も伴います。\n注意:\n1) 本機能は「戦闘／非戦闘状態の切り替え」オプションが有効な場合に最適に動作するように設計されています。\n2) 待機アニメーションの間隔を変更した場合、反映されるまでに時間がかかることがあります。</text>
 	</string>
  	<string id="ui_mcm_swm_legs_visual_upg_enabled_desc">
-		<text>スーツにアップグレードがある場合、アーマーベストが表示されます。\n現在は一部のジャケットとSSP-99スーツにのみ実装されています。</text>
+		<text>スーツにアップグレードが適用されている場合、視覚的にアーマーベストが表示されます。現在、この機能は一部のジャケットとSSP-99スーツにのみ対応しています。</text>
 	</string>
  	<string id="ui_mcm_swm_legs_toggle_turn_step_sound_exo_desc">
-		<text>通常の足音に強化外骨格のサーボモーターの音を重ねます。\nこれはExo Servo Soundsアドオンがインストールされている場合のみ機能します。\nこれらの音のボリュームは、Exo Servo Soundsのステップ音オプションで設定されています。</text>
+		<text>旋回時の足音に、強化外骨格のサーボモーター音を追加します。\n本機能は「Exo Servo Sounds」アドオンがインストールされている場合にのみ有効です。音量は「Exo Servo Sounds」の足音設定で調整できます。</text>
 	</string>
 
 	<string id="st_visbody_no_sec_msg">
-		<text>VISIBLE BODY: 警告: Outfit-Bodyの構成セクションが見つかりません: </text>
+		<text>[VISIBLE BODY] 警告: Outfit-Body構成セクションが見つかりません:</text>
 	</string>
 	<string id="st_visbody_no_model_msg">
-		<text>VISIBLE BODY: 警告: モデルが見つかりません: </text>
+		<text>[VISIBLE BODY] 警告: モデルが見つかりません:</text>
 	</string>
 	<string id="st_visbody_no_model_msg_2">
-		<text>VISIBLE BODY: 前回セーブをロードした際にそれが発生しなかった場合、スーツを再度装備してセーブしてください。</text>
+		<text>[VISIBLE BODY] 前回セーブデータ読み込み時に問題が発生しなかった場合、スーツを一度装備し直してセーブしてください。</text>
 	</string>
 
 </string_table>

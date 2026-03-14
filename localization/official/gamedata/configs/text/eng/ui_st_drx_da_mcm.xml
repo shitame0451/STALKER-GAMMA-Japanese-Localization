@@ -13,7 +13,7 @@
 		<text>プリセット</text>
 	</string>
 	<string id="ui_mcm_drx_da_presets_desc">
-		<text>リストから定義済みの設定を選択します。</text>
+		<text>リストから、あらかじめ用意された設定を選択できます。</text>
 	</string>
 	<string id="ui_mcm_lst_drx_da_preset_easy">
 		<text>イージー</text>
@@ -26,91 +26,91 @@
 	</string>
 
 	<string id="ui_mcm_drx_da_anomaly_zone_spawn_chance">
-		<text>アノマリーフィールドの生成確率</text>
+		<text>アノマリーフィールドの発生確率</text>
 	</string>
 	<string id="ui_mcm_drx_da_anomaly_zone_spawn_chance_desc">
-		<text>あらかじめ設定されたスマートテラインにアノマリーフィールドを発生させる確率を設定します。</text>
+		<text>特定のエリア（スマートテレイン）にアノマリーフィールドが発生する確率を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_anomaly_zone_anomalies_distance_max">
-		<text>アノマリーフィールド半径</text>
+		<text>アノマリーフィールドの半径</text>
 	</string>
 	<string id="ui_mcm_drx_da_anomaly_zone_anomalies_distance_max_desc">
-		<text>スマートテラインの中心からアノマリーフィールドに設定可能な最大距離を設定します。</text>
+		<text>エリアの中心からアノマリーが配置される最大距離を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_anomaly_zone_anomalies_distance_min">
 		<text>アノマリー間の最小距離</text>
 	</string>
 	<string id="ui_mcm_drx_da_anomaly_zone_anomalies_distance_min_desc">
-		<text>ゾーン内のアノマリー間の最小距離を設定します。\n負の値はアノマリーが重なり合うことを許可します。</text>
+		<text>アノマリー同士の最小距離を調整します。負の値を設定するとアノマリーが重なり合って出現するようになります。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_anomaly_amount_modifier">
-		<text>アノマリー量倍率</text>
+		<text>アノマリーの出現量倍率</text>
 	</string>
 	<string id="ui_mcm_drx_da_anomaly_amount_modifier_desc">
-		<text>各アノマリーフィールドに出現するアノマリーの量を変更します。</text>
+		<text>各アノマリーフィールド内に生成されるアノマリーの量を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_max_artefacts_per_zone">
-		<text>ゾーンごとの最大アーティファクト数</text>
+		<text>アノマリーフィールドごとのアーティファクト数</text>
 	</string>
 	<string id="ui_mcm_drx_da_max_artefacts_per_zone_desc">
-		<text>アノマリーフィールドに生成可能なアーティファクトの最大量を設定します。</text>
+		<text>1つのアノマリーフィールドに出現するアーティファクトの最大数を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_artefacts_spawn_chance">
-		<text>アーティファクト生成確率</text>
+		<text>アーティファクトの出現確率</text>
 	</string>
 	<string id="ui_mcm_drx_da_artefacts_spawn_chance_desc">
-		<text>アーティファクトが生成される確率を設定します。</text>
+		<text>設定された数に基づき、それぞれの出現判定を行う際の確率を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_random_artefact_spawn_chance">
 		<text>ランダムアーティファクト確率</text>
 	</string>
 	<string id="ui_mcm_drx_da_random_artefact_spawn_chance_desc">
-		<text>どのアーティファクトが出現するかはエリアによって決まります。南側には弱いアーティファクトが出現し、地下と北側には強いアーティファクトが出現します。この値を変更すると、アノマリーフィールドがユニークなアーティファクトを含むすべてのアーティファクトを出現できる可能性が生まれます。</text>
+		<text>この値を変更すると、アノマリーフィールドで特殊アーティファクトを含む、あらゆる種類のアーティファクトが出現するようになります。通常、出現するアーティファクトの種類はエリアによって決定され、南側には弱いアーティファクトが、地下や北側には強いアーティファクトが出現します。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_gravitational_shake_modifier">
-		<text>重力アノマリーの視界揺らし強度</text>
+		<text>重力アノマリーによる視界の揺れ強度</text>
 	</string>
 	<string id="ui_mcm_drx_da_gravitational_shake_modifier_desc">
-		<text>重力アノマリー付近での画面の揺れを調整します。</text>
+		<text>重力アノマリー付近で発生する画面の揺れの強さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_electric_field_modifier">
-		<text>エレクトロアノマリーダメージ倍率</text>
+		<text>エレクトロアノマリーのダメージ倍率</text>
 	</string>
 	<string id="ui_mcm_drx_da_electric_field_modifier_desc">
-		<text>エレクトロアノマリーのダメージを修正します。電子機器の故障には影響を与えません。</text>
+		<text>エレクトロアノマリーによるダメージを調整します。電子機器へのノイズには影響しません。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_enable_anomalies_behaviour">
-		<text>アノマリーの動的挙動を有効化する</text>
+		<text>アノマリーの動的な挙動を有効化</text>
 	</string>
 	<string id="ui_mcm_drx_da_enable_anomalies_behaviour_desc">
-		<text>ダイナミックアノマリーに特別な動作をさせ、ゾーン内で出現/消滅できるようにするかどうかを定義します。</text>
+		<text>有効にすると、DAOが特殊な挙動をし、アノマリーがゾーン内で出現したり消滅したりするようになります。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_save_after_cleanup">
-		<text>アノマリー除去後のゲーム保存</text>
+		<text>アノマリー再配置後のオートセーブ</text>
 	</string>
 	<string id="ui_mcm_drx_da_save_after_cleanup_desc">
-		<text>光熱放射や精神波の嵐の後、ダイナミックアノマリーがエリアから取り除かれたときにゲームをセーブします。</text>
+		<text>光熱放射や精神波の嵐の後、アノマリーが再配置（削除・生成）されたタイミングでオートセーブを行います。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_disable_new_anomalies">
-		<text>新しいアノマリーの無効化</text>
+		<text>追加アノマリーの無効化</text>
 	</string>
 	<string id="ui_mcm_drx_da_disable_new_anomalies_desc">
-		<text>新しい種類のアノマリーを発生させないようにします。このオプションは、次回の光熱放射、精神波の嵐、または新しいゲーム開始時に有効になります。</text>
+		<text>このアドオンで追加された新しい種類のアノマリーが出現しなくなります。設定は次回の光熱放射、精神波の嵐、またはニューゲーム開始時に適用されます。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_choose_help">
-		<text>以下の項目では、出現するアノマリーを選択式で有効にできます。</text>
+		<text>以下の項目で、出現させるアノマリーを個別に選択できます。</text>
 	</string>
 
 	 <string id="ui_mcm_drx_da_zone_mine_radar_enable">
@@ -145,17 +145,17 @@
 	 </string>
 
 	<string id="ui_mcm_drx_da_delete_dynamic_anomalies">
-		<text>ダイナミックアノマリーを無効化する</text>
+		<text>ダイナミックアノマリーを完全に削除する</text>
 	</string>
 	<string id="ui_mcm_drx_da_delete_dynamic_anomalies_desc">
-		<text>生成されたすべてのアノマリーフィールドをゲームから削除します。\nこのオプションは、MODを安全に削除するためのものです。\nオプションを有効にしてから、ゲームに戻り、ゲームを保存し、ゲームを終了してMODを削除してください。</text>
+		<text>生成されたすべてのアノマリーをゲームから削除します。\nこのオプションは、アドオンを安全にアンインストールする際に使用してください。\nオプションを有効にした後、一度ゲームに戻ってセーブし、ゲームを終了してからアドオンを削除してください。</text>
 	</string>
 
 	<string id="ui_mcm_drx_da_debug_mode">
 		<text>デバッグモード</text>
 	</string>
 	<string id="ui_mcm_drx_da_debug_mode_desc">
-		<text>コンソール上にとてつもない量のログを垂れ流します。</text>
+		<text>コンソールに詳細なログを出力します。</text>
 	</string>
 	
 </string_table>

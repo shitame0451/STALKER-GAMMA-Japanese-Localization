@@ -60,16 +60,16 @@
 		<text>部品の交換に成功: </text>
 	</string>
 	<string id="st_news_parts_fail">
-		<text>%c[ui_red]既により高い耐久値の部品が取り付けられている</text>
+		<text>%c[ui_red]すでに耐久値の高い部品が取り付けられている</text>
 	</string>
 	<string id="st_news_parts_incompatible">
-		<text>%c[ui_red]部品が銃に対応していない</text>
+		<text>%c[ui_red]この部品は銃に対応していない</text>
 	</string>
 	<string id="st_news_parts_barrel">
-		<text>%c[ui_red]バレルはその場で交換することができない</text>
+		<text>%c[ui_red]バレルは交換できない</text>
 	</string>
 	<string id="st_news_parts_rusty">
-		<text>%c[ui_red]銃が錆びすぎていて野外で分解することができない</text>
+		<text>%c[ui_red]銃の錆がひどく、野外で分解できない</text>
 	</string>
 	<string id="st_news_dis_items">
 		<text>%c[ui_red]適切な分解ツールが必要</text>
@@ -95,16 +95,16 @@
 		<text>弾詰まり時の悪態</text>
 	</string>
 	<string id="ui_mcm_wpo_profanity_desc">
-		<text>弾詰まりが発生したときに悪態をつくようになります。</text>
+		<text>弾詰まりが発生したときにキャラクターが悪態をつくようになります。</text>
 	</string>
 	<string id="ui_mcm_wpo_profanity_timeout">
 		<text>悪態の無効化</text>
 	</string>
 	<string id="ui_mcm_wpo_profanity_timeout_desc">
-		<text>有効化すると悪態の発生に間隔を追加します。</text>
+		<text>有効にすると、悪態の発生に一定の間隔を設けます。</text>
 	</string>
 	<string id="ui_mcm_wpo_profanity_language">
-		<text>悪態の言語</text>
+		<text>悪態の言語設定</text>
 	</string>
 	<string id="ui_mcm_wpo_jamchance">
 		<text>弾詰まりの発生確率</text>
@@ -119,34 +119,34 @@
 		<text>深刻な弾詰まりが発生すると、装填中のマガジンを外すまで弾詰まりを解消できなくなります。</text>
 	</string>
 	<string id="ui_mcm_wpo_simplejam">
-		<text>深刻な弾詰まり時のマガジン解除</text>
+		<text>深刻な弾詰まり時のマガジン排出</text>
 	</string>
 	<string id="ui_mcm_wpo_simplejam_desc">
-		<text>有効化すると深刻な弾詰まり発生後のリロードでマガジンを外します。そのため、インベントリでの操作の必要がなくなります。</text>
+		<text>有効にすると、深刻な弾詰まり発生後のリロードでマガジンを外します。これにより、インベントリでの操作が不要になります。</text>
 	</string>
 	<string id="ui_mcm_wpo_threshold">
-		<text>部品が損傷する銃の耐久値</text>
+		<text>部品が損傷し始める銃の耐久値</text>
 	</string>
 	<string id="ui_mcm_wpo_threshold_desc">
-		<text>銃自体の耐久値がこの値を下回ると発砲時に部品が損傷する可能性があります。設定が低いほど部品にかかる負担が少なくなります。</text>
+		<text>銃の耐久値がこの値を下回ると、発砲時に部品が損傷する可能性があります。設定値が低いほど部品にかかる負担が軽減されます。</text>
 	</string>
 	<string id="ui_mcm_wpo_cleancoef">
-		<text>技術者の銃クリーニング価格</text>
+		<text>技術者による銃クリーニング価格の調整</text>
 	</string>
 	<string id="ui_mcm_wpo_cleancoef_desc">
-		<text>技術者の銃クリーニングの価格調整。</text>
+		<text>技術者による銃クリーニングの価格を調整します。</text>
 	</string>
 	<string id="ui_mcm_wpo_verbosity">
 		<text>弾詰まりメッセージの頻度</text>
 	</string>
 	<string id="ui_mcm_wpo_verbosity_desc">
-		<text>弾詰まり時にHUDに表示されるメッセージの頻度を設定します。3つのレベルがあります:\nなし: 条件ベースの弾詰まりのみ警告されます（そうしないと混乱するため）\n通常 (推奨): 銃の弾詰まり時と弾詰まり解除が成功したときに通知されます。\nフル: 「通常」と基本的には同じですが、弾詰まりを解除するためにアンロードが必要なほどの深刻な弾詰まりが発生したときや、銃の部品にダメージを受けたときにも通知されます。</text>
+		<text>弾詰まり時にHUDに表示されるメッセージの頻度を設定します。以下の3段階から選択できます:\nなし: 条件に基づく弾詰まりのみ警告されます。それ以外は表示されません。\n通常 (推奨): 銃の弾詰まり時と弾詰まり解除が成功したときに通知されます。\nフル: 「通常」に加え、マガジン排出が必要な深刻な弾詰まり発生時や、銃の部品が損傷した際にも通知されます。</text>
 	</string>
 	<string id="ui_mcm_wpo_minpart">
 		<text>販売に必要な部品の最低条件</text>
 	</string>
 	<string id="ui_mcm_wpo_minpart_desc">
-		<text>販売対象となる銃の全部品の最低条件を設定します。この条件を下回る部品が1つでもある場合、その銃は販売対象から除外されます。\n0に設定すると無効になります。</text>
+		<text>販売対象となる銃の全部品の最低耐久値を設定します。この値を下回る部品が1つでもある場合、その銃は販売できなくなります。\n0に設定すると無効になります。</text>
 	</string>
 	<string id="ui_mcm_wpo_fun">
 		<text>Fun Level (弾詰まりを解除した時に音声を再生する確率)</text>
@@ -179,31 +179,31 @@
 		<text>Freedom</text>
 	</string>
 	<string id="ui_mcm_wpo_debug">
-		<text>デバッグ情報をログに記載する</text>
+		<text>デバッグ情報をログに出力する</text>
 	</string>
 	<string id="ui_mcm_wpo_debug_desc">
-		<text>デバッグログ機能により、コンソールログに様々な情報を追加することができます。</text>
+		<text>デバッグログ機能により、コンソールログに様々な情報が出力されます。</text>
 	</string>
 	<string id="ui_mcm_wpo_babymode">
 		<text>ビッチモード</text>
 	</string>
 	<string id="ui_mcm_wpo_babymode_desc">
-		<text>部品由来の弾詰まりを完全に無効にする。これにチェックを入れる必要があるなら、なぜこのMODをインストールする必要があるのでしょうか？</text>
+		<text>部品に起因する弾詰まりを完全に無効にします。この項目を有効にする必要がある場合、なぜこのアドオンを導入したのでしょうか？</text>
 	</string>
 	<string id="ui_mcm_wpo_newdrops">
-		<text>新しい部品の抽選方法の有効化</text>
+		<text>新しい部品の抽選方式を有効化</text>
 	</string>
 	<string id="ui_mcm_wpo_newdrops_desc">
-		<text>新しい計算式で部品を抽選します。以下の良い部品の確率は、銃の耐久値とさらに隠されたウェイトによって調整されます。ウェイトが低いとゲームが難しくなります。古い方式を使うには、これを無効にしてください。</text>
+		<text>新しい計算式に基づき部品が抽選されます。部品の品質は、銃の耐久値と隠されたウェイトによって調整されます。ウェイトが低いほどゲームの難易度が上がります。以前の方式を使用するには、この項目を無効にしてください。</text>
 	</string>
 	<string id="ui_mcm_wpo_newdropschance">
-		<text>新しい部品の抽選（良い部品になる確率）</text>
+		<text>新しい部品の抽選方式（良質な部品の出現率）</text>
 	</string>
 	<string id="ui_mcm_wpo_degradation">
-		<text>降雨による劣化</text>
+		<text>降雨による劣化倍率</text>
 	</string>
 	<string id="ui_mcm_wpo_degradation_desc">
-		<text>雨天時に銃の劣化が早くなる割合。</text>
+		<text>雨天時に武器の耐久値が低下する速さを調整します。</text>
 	</string>
 
 	<string id="st_field_strip">
@@ -227,28 +227,28 @@
 		<text>
 		%c[pda_green]Q&amp;A
 		\n%c[pda_white]Q: 銃の耐久値が100%なのに弾詰まりが起きるのは何故？
-		\n%c[pda_white]A: %c[ui_gray_1]部品が破損しています。耐久値を確認してください。
+		\n%c[pda_white]A: %c[ui_gray_1]部品が破損しています。部品の耐久値をご確認ください。
 		\n%c[pda_white]Q: どうやって弾詰まりを解除する？
-		\n%c[pda_white]A: %c[ui_gray_1]リロードキー、もしくはインベントリ内の銃を右クリックし、%c[pda_white]弾詰まりを解消する%c[ui_gray_1]コマンドを出します。
+		\n%c[pda_white]A: %c[ui_gray_1]リロードキーを押すか、インベントリ内の銃を右クリックして%c[pda_white]弾詰まりを解消%c[ui_gray_1]コマンドを実行してください。
 		\n%c[pda_white]Q: なぜ部品を交換すると耐久値が落ちるの？
-		\n%c[pda_white]A: %c[ui_gray_1]銃に注油する必要があります。これは60%以下では起こりません。ツールキットを使って量を減らすか、作業台を使って完全になくすことができます。
+		\n%c[pda_white]A: %c[ui_gray_1]銃に注油が必要です。本体の耐久値が60%以下の場合には発生しません。ツールキットを使用するか、作業台で完全に解消できます。
 		\n%c[pda_white]Q: 技術者は部品を修理してくれないの？
-		\n%c[pda_white]A: %c[ui_gray_1]部品は調達しなければなりません。技術者から部品を買うか、修理キットを使うことができます。これはWPOの核となる長所です。Weapon Parts OverhaulはAnomalyでの銃のメンテナンスの仕組みを大きく変えます。このガイドをよく読んで、すべてを理解してください。
+		\n%c[pda_white]A: %c[ui_gray_1]部品は調達する必要があります。技術者から購入するか、修理キットを使用してください。これがWPOの重要な要素です。Weapon Parts OverhaulはAnomalyにおける銃のメンテナンスシステムを大きく変化させます。このガイドをよく読み、すべてをご理解ください。
 
 		\n \n%c[pda_green]部品とメンテナンス
-		\n%c[pda_white]• %c[ui_gray_1]銃の全体的な耐久値(コンディションバー)が維持しやすくなりました。技術者は60%安い費用でこれを回復し、各修理アイテムの効果は増加しました。
+		\n%c[pda_white]• %c[ui_gray_1]銃全体の耐久値が従来より維持しやすくなっています。修理費は60%軽減され、各修理アイテムの効果も大幅に強化されています。
 
-		\n \n%c[pda_white]• %c[ui_gray_1]銃の部品にはメンテナンスが必要です。マウスオーバーで銃の部品の耐久値を確認でき、耐久値を示す文字の色が変わります。%c[ui_red]部品がない%c[ui_gray_1]、%c[d_orange]破損している%c[ui_gray_1]、%c[pda_yellow]汚れている%c[ui_gray_1]。
+		\n \n%c[pda_white]• %c[ui_gray_1]重要なのは部品のメンテナンスです。インベントリで銃にカーソルを合わせると各部品の耐久値が表示されます。文字の色は状態を示しています。%c[ui_red]部品がない%c[ui_gray_1]、%c[d_orange]破損している%c[ui_gray_1]、%c[pda_yellow]汚れている%c[ui_gray_1]。
 
-		\n \n%c[pda_white]• %c[ui_gray_1]銃の部品はフィールドストリップで取り外すことができます。これにより、銃身以外のすべての部品を取り外すことができます。銃身を取り外すには、適切な修理キットを持つ作業台を使用する必要があります。
+		\n \n%c[pda_white]• %c[ui_gray_1]銃の部品はフィールドストリップで取り外せます。これにより、銃身以外のすべての部品を取り外すことができます。銃身を取り外すには、適切な修理キットを持つ作業台を使用する必要があります。
 
 		\n \n%c[ui_red]注意
-		\n%c[pda_white]• %c[ui_gray_1]銃の部品はドラッグ＆ドロップでも交換できますが、60%以上の場合、銃の耐久値が悪くなるのでご注意ください。この影響を軽減するためにツールキットを用意してください。
+		\n%c[pda_white]• %c[ui_gray_1]銃の部品はドラッグ＆ドロップでも交換できますが、耐久値が60%以上の場合、銃の耐久値が悪化する場合がありますのでご注意ください。この影響を軽減するためにツールキットを用意しておきましょう。
 
-		\n \n%c[pda_white]• %c[ui_gray_1]適した修理キットを所持していれば、作業台で銃の部品をキットの使用回数を消費せずに交換することもできます。
+		\n \n%c[pda_white]• %c[ui_gray_1]適した修理キットを所持していれば、作業台で銃の部品をキットの使用回数を消費せずに交換できます。
 
 		\n \n%c[pda_green]弾詰まりと部品の損傷
-		\n%c[pda_white]部品は5段階の耐久値に分けられます。:
+		\n%c[pda_white]部品は以下の5段階の耐久値に分けられます:
 		\n%c[pda_white]• %c[ui_red]破損した
 		\n%c[pda_white]• %c[ui_red]傷ついた
 		\n%c[pda_white]• %c[d_orange]擦り切れた
@@ -257,21 +257,21 @@
 
 		\n \n%c[ui_gray_1]部品が損傷すればするほど、故障に見舞われる可能性は高くなります。
 		\n%c[pda_white]• 誤作動には、発射不良、弾詰まり、深刻な弾詰まりの3種類があります。
-		\n%c[pda_white]• 発射不良と弾詰まりは、弾詰まりを解除するだけで解除できます。
+		\n%c[pda_white]• 発射不良と弾詰まりは、弾詰まりを解除するだけで解消できます。
 		\n%c[pda_white]• 深刻な弾詰まりは、弾詰まりを解除する前に銃からマガジンを取り出す必要があります。
 
-		\n \n%c[ui_gray_1]銃身は弾詰まり確率に影響しません。ただし、銃身が汚れていると銃のダメージが最大50%減少します。
+		\n \n%c[ui_gray_1]銃身は弾詰まりの発生確率に影響しません。ただし、銃身が汚れていると銃のダメージが最大50%減少します。
 		\n%c[ui_gray_1]耐久値が85%以下の銃を発射すると、銃の部品にダメージを与える可能性があります。
-		\n%c[ui_gray_1]大雨の中で銃を撃つと、銃の劣化が早くなります。
-		\n%c[ui_gray_1]銃を長く撃ち続けるとオーバーヒートして、弾詰まりが多くなり、劣化が早くなります。
+		\n%c[ui_gray_1]大雨の中で銃を撃つと、銃の劣化が早まります。
+		\n%c[ui_gray_1]銃を長く撃ち続けるとオーバーヒートして、弾詰まりの頻度が増え、劣化が早まります。
 
 		\n \n%c[pda_green]経済の変更
-		\n%c[pda_white]• %c[ui_gray_1]クリーニングキットを持っていると、汚れた銃の部品（60%以上）のクリーニングが可能になります。また、耐久値が10%回復します。
+		\n%c[pda_white]• %c[ui_gray_1]クリーニングキットを持っていると、汚れた銃の部品（耐久値60%以上）のクリーニングが可能です。また、耐久値が10%回復します。
 		\n%c[pda_white]• %c[ui_gray_1]修理キットを持っていると、右クリックメニューから部品を交換できます。これは使用回数を消費し、耐久値を10%回復します。
-		\n%c[pda_white]• %c[ui_gray_1]技術者は銃の部品をランダムで高値で販売します。
+		\n%c[pda_white]• %c[ui_gray_1]技術者は銃の部品をランダムで高値で販売しています。
 
-		\n \n%c[ui_gray_1]60%以上の銃の部品は、やすり、ラムロッド、マルチツールで修理できます。
-		\n%c[ui_gray_1]10%以上60%未満の銃の部品は、トレーダーで入手できる非常に高価なツールキットで修理できます。
+		\n \n%c[ui_gray_1]耐久値60%以上の銃の部品は、やすり、ラムロッド、マルチツールで修理できます。
+		\n%c[ui_gray_1]耐久値10%以上60%未満の銃の部品は、トレーダーで入手できる非常に高価なツールキットで修理できます。
 		</text>
 	</string>
 
@@ -369,7 +369,7 @@
 		<text>パーツリペアキット</text>
 	</string>
 	<string id="st_partskit_descr">
-		<text>非常に高度なツールセットで、精密ヤスリ、冷間溶接用エポキシ、電解液、大量の潤滑油、石油留分、その他の溶剤が含まれている。このキットを組み立てるのは非常に難しいため、ゾーンの技術者によってごく少量しか販売されていない。\n\n
+		<text>非常に高度なツールセット。精密ヤスリ、冷間溶接用エポキシ、電解液、大量の潤滑油、石油留分、その他の溶剤が含まれている。このキットの組み立ては非常に難しいため、ゾーンの技術者によってごく少量しか販売されていない。\n\n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]10%以上60%未満の銃の部品を修理できる\n
 		</text>

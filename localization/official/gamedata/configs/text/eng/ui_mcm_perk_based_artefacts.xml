@@ -12,25 +12,25 @@
 		<text>デバッグモード</text>
 	</string>
 	<string id="ui_mcm_perk_based_artefacts_debug_mode_desc">
-		<text>コンソールでのメッセージスパムを有効にします。</text>
+		<text>デバッグ用のメッセージをコンソールに表示します。</text>
 	</string>
 	<string id="ui_mcm_perk_based_artefacts_allow_arty_containers">
-		<text>完全隔離容器内のアーティファクトを利用する</text>
+		<text>完全隔離容器内の特殊アーティファクトの効果を利用する</text>
 	</string>
 	<string id="ui_mcm_perk_based_artefacts_allow_arty_containers_desc">
-		<text>アーティファクト完全隔離容器に入っているアーティファクトの特殊能力を利用できるようになります。特殊能力の説明文を見るには隔離容器から取り出す必要があります。</text>
+		<text>アーティファクト完全隔離容器に入っているアーティファクトの特殊能力を利用できるようになります。ただし、特殊能力の説明文を確認するには隔離容器から取り出す必要があります。</text>
 	</string>
 	<string id="ui_mcm_perk_based_artefacts_treasure_chance">
-		<text>スタッシュにアーティファクトが入っている頻度</text>
+		<text>スタッシュに特殊アーティファクトが入っている確率</text>
 	</string>
 	<string id="ui_mcm_perk_based_artefacts_treasure_chance_desc">
-		<text>数値が低いほど、スタッシュ内での特殊能力付きのアーティファクトの出現頻度が低くなります。</text>
+		<text>この数値が低いほど、スタッシュから特殊能力付きアーティファクトが見つかる確率が減少します。</text>
 	</string>
 	<string id="ui_mcm_perk_based_artefacts_timed_degradation">
-		<text>耐久値の劣化率</text>
+		<text>特殊アーティファクトの耐久値の劣化率</text>
 	</string>
 	<string id="ui_mcm_perk_based_artefacts_timed_degradation_desc">
-		<text>特殊能力付きのアーティファクトは、20秒ごとにこの割合分の耐久値を失います。</text>
+		<text>特殊能力付きアーティファクトが20秒ごとに失う耐久値の割合を設定します。</text>
 	</string>
 	
 </string_table>

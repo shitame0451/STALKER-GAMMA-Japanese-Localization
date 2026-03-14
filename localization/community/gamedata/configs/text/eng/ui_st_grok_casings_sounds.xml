@@ -7,7 +7,7 @@
 		<text>GAMMA Weapon Sounds</text>
 	</string>
 	<string id="ui_mcm_grok_casings_sounds_enabled">
-		<text>薬莢の落下音を有効にする</text>
+		<text>薬莢の落下音を有効化</text>
 	</string>
 	<string id="ui_mcm_grok_casings_sounds_ubgl_enabled">
 		<text>アンダーバレルグレネード弾の落下音</text>
@@ -29,29 +29,29 @@
 		<text>武器を下げる/上げる時の音を有効化</text>
 	</string>
 	<string id="ui_mcm_grok_casings_sounds_volume_aim_rattle">
-		<text>照準を覗く/覗き解除時の音量</text>
+		<text>照準を覗く/覗き解除時の音の音量</text>
 	</string>
 	<string id="ui_mcm_grok_casings_sounds_volume_lower_raise_rattle">
-		<text>武器を下げる/上げる時の音量</text>
+		<text>武器を下げる/上げる時の音の音量</text>
 	</string>
 
 	<string id="ui_mcm_grok_casings_sounds_enabled_sprint_rattle">
-		<text>走行時の武器の音を有効化</text>
+		<text>走行時の武器の揺れ音を有効化</text>
 	</string>
 	<string id="ui_mcm_grok_casings_sounds_enabled_sprint_rattle_lowered">
 		<text>武器を下げた状態での走行音を有効化</text>
 	</string>
 	<string id="ui_mcm_grok_casings_sounds_enabled_sprint_rattle_lowered_desc">
-		<text>装備中の武器を下げている状態でも、装備品が揺れる音を再生します。</text>
+		<text>装備中の武器を下げている状態でも、装備品の揺れ音を再生します。</text>
 	</string>
 	<string id="ui_mcm_grok_casings_sounds_volume_sprint_rattle">
-		<text>走行時の武器の音量</text>
+		<text>走行時の武器の揺れ音の音量</text>
 	</string>
 
 	<string id="ui_mcm_grok_casings_sounds_enabled_reload_hint">
-		<text>残弾が少ない時の音を有効化</text>
+		<text>残弾が少ない時のクリック音を有効化</text>
 	</string>
 	<string id="ui_mcm_grok_casings_sounds_volume_reload_hint">
-		<text>残弾が少ない時の音量</text>
+		<text>残弾が少ない時のクリック音の音量</text>
 	</string>
 </string_table>

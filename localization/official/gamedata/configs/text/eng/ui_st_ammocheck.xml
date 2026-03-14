@@ -61,7 +61,7 @@
         <text>Ammo Check</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_usecolor">
-        <text>メッセージに色を使用する</text>
+        <text>残弾表示に色を使用する</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_hidecounter">
         <text>弾薬のカウンターを隠す</text>
@@ -73,16 +73,16 @@
         <text>Busy Hands修正</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_busy_hands_fix_desc">
-        <text>Ammo Checkの“アニメーション”が動かなくなった場合、このボックスをチェックしてください。FDDAがインストールされている場合に起こりやすいです。</text>
+        <text>残弾確認のアニメーションが正常に動作しなくなった場合に、この項目を有効にしてください。FDDAがインストールされている環境で発生しやすい問題です。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_keybind">
         <text>残弾を確認する（Ammo Check）</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_keybind_desc">
-        <text>このキー設定は競合を回避するために、追加の修飾キーを必要とするように設定することができます。</text>
+        <text>他のキーとの競合を避けるため、このキー設定には追加の修飾キーを組み合わせることができます。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_update_mcm">
-        <text>MCMを更新し、ここでキー設定を変更してください。Tキーがデフォルトとして設定されています。</text>
+        <text>MCMを更新後、ここでキー設定を変更してください。デフォルトではTキーに割り当てられています。</text>
     </string>
 
 </string_table>

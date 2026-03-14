@@ -16,19 +16,19 @@
 
 	<!-- Gloss Settings -->
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_min_gloss_mcm">
-		<text>光沢度の最小値</text>
+		<text>光沢の最小値</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_min_gloss_mcm_desc">
-		<text>光沢の基本値を調整します。「光沢の自動調整」が無効の場合、この値が光沢を決定します。</text>
+		<text>「光沢の自動調整」を無効にしている場合、この値が光沢の基本となります。光沢の最小値を調整できます。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_max_gloss_mcm">
-		<text>光沢度の最大値</text>
+		<text>光沢の最大値</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_max_gloss_mcm_desc">
-		<text>「光沢の自動調整」が有効の場合、この値は潤い度が100%のときの光沢の最大値となります。</text>
+		<text>「光沢の自動調整」を有効にしている場合、水濡れ度が最大（100%）になったときの光沢の最大値を設定します。</text>
 	</string>
 
 
@@ -37,15 +37,15 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_mcm_desc">
-		<text>潤い度に基づく光沢の自動調整を有効または無効にします。固定の光沢値を手動で設定する場合は、このオプションを無効にし、「光沢度の最小値」オプションを使用して光沢を定義します。</text>
+		<text>水濡れ度に応じて光沢が自動で変化するように設定します。光沢を固定値にしたい場合は、この設定を無効にし、「光沢の最小値」で手動調整してください。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm">
-		<text>光沢の自動調整の値</text>
+		<text>光沢自動調整の最大値</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm_desc">
-		<text>この値は、潤い度が最大値に達したときの光沢の最大値を制御するために使用されます。（0 = 0% | 1 = 100%）</text>
+		<text>水濡れ度が最大になったときの光沢の最大値を設定します。（0 = 0% | 1 = 100%）</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_int_mcm">
@@ -53,7 +53,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_int_mcm_desc">
-		<text>鏡面反射の強度を調整します。</text>
+		<text>鏡面反射の強さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_color_mcm">
@@ -61,7 +61,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_color_mcm_desc">
-		<text>鏡面反射色の割合を調整します。（0 = 0% | 1 = 100%）</text>
+		<text>鏡面反射に反映される色の割合を調整します。（0 = 0% | 1 = 100%）</text>
 	</string>
 
 

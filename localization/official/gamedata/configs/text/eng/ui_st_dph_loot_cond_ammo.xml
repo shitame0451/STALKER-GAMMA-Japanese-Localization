@@ -10,7 +10,7 @@
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_ammo_factor">
-		<text>弾薬の量</text>
+		<text>弾薬の出現量</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_ammo_disable_bad">
 		<text>古い弾薬を出現させない</text>

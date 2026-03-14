@@ -3,15 +3,15 @@
         <text>Dynamic Despawner</text>
     </string>
 	<string id="ui_mcm_grok_dd_title">
-        <text>Dynamic Despawner</text>
+        <text>Grok Dynamic Despawner</text>
     </string>
     <string id="ui_mcm_grok_dd_npc_threshold">
         <text>オンラインNPCの最大生存数</text>
     </string>
     <string id="ui_mcm_grok_dd_enabled">
-        <text>Dynamic Despawnerの有効化</text>
+        <text>Grok Dynamic Despawnerの有効化</text>
     </string>
     <string id="ui_mcm_grok_dd_check_tasks">
-        <text>タスクを与えてくれるNPCを削除しないようにする</text>
+        <text>タスク関連NPCを削除しないようにする</text>
     </string>
 </string_table>

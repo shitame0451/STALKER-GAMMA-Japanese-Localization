@@ -19,124 +19,123 @@
 
 
 	<string id="ui_mcm_beef_nvg_nvg_gain_max_mcm">
-		<text>NVGに適用可能な最大ゲイン</text>
+		<text>NVGの最大ゲイン</text>
 	</string>
 	<string id="ui_mcm_beef_nvg_nvg_gain_max_mcm_desc">
-		<text>値を高くすると、より多くの“明るさ”が得られますが、最終的には上限が設定されます。真夜中のcloudly_dark_2天候に基づいてこれを設定することをおすすめします。</text>
+		<text>値を大きくするとNVGが明るくなりますが、上限があります。この設定は「cloudy_dark_2」天候の深夜時間に合わせて調整することをおすすめします。</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gain_min_mcm">
-		<text>NVGに適用可能な最小ゲイン</text>
+		<text>NVGの最小ゲイン</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gain_min_mcm_desc">
-		<text>低い値では、NVGをより小さくすることができます。非常に低い値では、日中もNVGを使用することができます。</text>
+		<text>値を小さくするとNVGが暗くなります。非常に低い値に設定すると、昼間でもNVGを使用できます。</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gain_offset_mcm">
-		<text>ワールドの輝度に適用されるオフセット</text>
+		<text>ワールドの明るさのオフセット</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gain_offset_mcm_desc">
-		<text>1.0は世界の明るさをそのまま、それ以上の値はワールドの明るさを倍増させます（光源は倍増しません）。</text>
+		<text>1.0に設定すると、ワールドの明るさがそのまま維持されます。値を大きくするとワールドの明るさが増加します（光源には影響しません）。</text>
 	</string>
 
 
 	<string id="ui_mcm_beef_nvg_nvg_washout_thresh_mcm">
-		<text>光源ウォッシュアウトのしきい値</text>
+		<text>光源によるウォッシュアウトしきい値</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_washout_thresh_mcm_desc">
-		<text>一般的には0.1を維持することをおすすめしますが、光源でのウォッシュアウトを若干減らすために増やすことができます。
-		この値はNVGのゲインに比例し、高いゲインはより多くのウォッシュアウトを、低いゲインはより少ないウォッシュアウトを持つようになります。</text>
+		<text>通常は0.1のままにすることを推奨しますが、ウォッシュアウトを軽減したい場合は値を増やしてください。この値はNVGゲインと連動しており、ゲインが高いほどウォッシュアウトが増加し、低いほど減少します。</text>
 	</string>
 	
 	
 	<string id="ui_mcm_beef_nvg_nvg_view_through_scope_mcm">
-		<text>ADS中にNVGを使用可能</text>
+		<text>ADS中もNVGを使用</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_view_through_scope_mcm_desc">
-		<text>このボックスをオンにすると、ADS中にNVGをオンにしたままにすることができます。チェックを外すと、銃を構えている間、NVGは無効となります。</text>
+		<text>オンにすると、ADS中もNVGを点灯したままにできます。オフにすると、銃を構えた際にNVGが自動的に消灯します。</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_stays_pda_mcm">
-		<text>PDA閲覧時にNVGをつけたままにする</text>
+		<text>PDA閲覧時にNVGを点灯したままにする</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_stays_pda_mcm_desc">
-		<text>このボックスのチェックが外れていると、PDAを見るときにNVGが自動的に無効になります。</text>
+		<text>オフにすると、PDAを開いた際にNVGが自動的に消灯します。</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen1_tubes_mcm">
-		<text>Gen 1 チューブのセットアップ: (初期値=シングルチューブセンター)</text>
+		<text>第1世代ナイトビジョンのチューブ構成（デフォルト：シングルチューブ（中央））</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen1_tubes_mcm_desc">
-		<text>Gen 1 NVGのチューブの本数を選択します。</text>
+		<text>第1世代ナイトビジョンのチューブ数を選択します。</text>
 	</string>
 
 	<string id="ui_mcm_beef_nvg_nvg_gen2_tubes_mcm">
-		<text>Gen 2 チューブのセットアップ: (初期値=デュアルチューブセンター)</text>
+		<text>第2世代ナイトビジョンのチューブ構成（デフォルト：デュアルチューブ（中央））</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen2_tubes_mcm_desc">
-		<text>Gen 2 NVGのチューブの本数を選択します。</text>
+		<text>第2世代ナイトビジョンのチューブ数を選択します。</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen3_tubes_mcm">
-		<text>Gen 3 チューブのセットアップ: (初期値=クアッドチューブセンター)</text>
+		<text>第3世代ナイトビジョンのチューブ構成（デフォルト：クアッドチューブ（中央））</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen3_tubes_mcm_desc">
-		<text>Gen 3 NVGのチューブの本数を選択します。</text>
+		<text>第3世代ナイトビジョンのチューブ数を選択します。</text>
 	</string>
 
 	
 	<string id="ui_mcm_lst_single_centered">
-		<text>シングルチューブ、センター</text>
+		<text>シングルチューブ（中央）</text>
 	</string>
 	
 	<string id="ui_mcm_lst_single_left">
-		<text>シングルチューブ、左</text>
+		<text>シングルチューブ（左）</text>
 	</string>
 	
 	<string id="ui_mcm_lst_single_right">
-		<text>シングルチューブ、右</text>
+		<text>シングルチューブ（右）</text>
 	</string>
 	
 	<string id="ui_mcm_lst_dual_centered">
-		<text>デュアルチューブ、センター</text>
+		<text>デュアルチューブ（中央）</text>
 	</string>
 	
 	<string id="ui_mcm_lst_quad_centered">
-		<text>クアッドチューブ、センター</text>
+		<text>クアッドチューブ（中央）</text>
 	</string>
 	
 	
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen1_mode_mcm">
-		<text>Gen 1 オーバーレイの背景: (初期値=オーバーレイなし)</text>
+		<text>第1世代ナイトビジョンのオーバーレイ背景（デフォルト：オーバーレイなし）</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen1_mode_mcm_desc">
-		<text>どのような背景のオーバーレイを使用するかを選択します。</text>
+		<text>背景オーバーレイの種類を選択します。</text>
 	</string>
 
 	<string id="ui_mcm_beef_nvg_nvg_gen2_mode_mcm">
-		<text>Gen 2 オーバーレイの背景: (初期値=ぼかしオーバーレイ)</text>
+		<text>第2世代ナイトビジョンのオーバーレイ背景（デフォルト：ぼかしオーバーレイ）</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen2_mode_mcm_desc">
-		<text>どのような背景のオーバーレイを使用するかを選択します。</text>
+		<text>背景オーバーレイの種類を選択します。</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen3_mode_mcm">
-		<text>Gen 3 オーバーレイの背景: (初期値=ぼかしオーバーレイ)</text>
+		<text>第3世代ナイトビジョンのオーバーレイ背景（デフォルト：ぼかしオーバーレイ）</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_nvg_gen3_mode_mcm_desc">
-		<text>どのような背景のオーバーレイを使用するかを選択します。</text>
+		<text>背景オーバーレイの種類を選択します。</text>
 	</string>
 	
 	
@@ -145,24 +144,24 @@
 	</string>
 	
 	<string id="ui_mcm_lst_black_background">
-		<text>黒背景</text>
+		<text>黒オーバーレイ</text>
 	</string>
 	
 	<string id="ui_mcm_lst_image_overlay">
-		<text>(未実装) 画像オーバーレイ</text>
+		<text>（未実装）画像オーバーレイ</text>
 	</string>
 	
 	<string id="ui_mcm_lst_clear_vision">
-		<text>オーバーレイなし（鮮明な視界）</text>
+		<text>オーバーレイなし（クリアな視界）</text>
 	</string>
 	
 	
 	<string id="ui_mcm_beef_nvg_shader_scope_compat">
-		<text>Shader Based 2D Scopeとの互換性</text>
+		<text>Shader Based 2D Scopesとの互換性</text>
 	</string>
 	
 	<string id="ui_mcm_beef_nvg_shader_scope_compat_desc">
-		<text>Shader Based 2D Scopesを使用している場合は、このボックスにチェックを入れる必要があります。そうでない場合は、このボックスをチェックしないでください。</text>
+		<text>シェーダーの仕様により、Shader Based 2D Scopesを使用している場合はこの設定をオンにする必要があります。使用していない場合はオフにしてください。</text>
 	</string>
 	
 </string_table>

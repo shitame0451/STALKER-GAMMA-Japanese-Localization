@@ -14,32 +14,32 @@
 		<text>New Item Highlight</text>
 	</string>
 	<string id="ui_mcm_new_item_highlight_clear_type">
-		<text>ハイライトクリア方式</text>
+		<text>ハイライトの解除方法</text>
 	</string>
 	<string id="ui_mcm_new_item_highlight_clear_type_desc">
-		<text>マウスオーバー＋キーの場合、左シフトを押したままマウスオーバーする必要があります。</text>
+		<text>「キーを押しながらカーソルを合わせた時」を選択した場合、左Shiftキーを押しながらアイテムにカーソルを合わせると強調表示が解除されます。</text>
 	</string>
 	<string id="ui_mcm_new_item_highlight_highlight_clr_a">
-		<text>ハイライト不透明度</text>
+		<text>ハイライトの不透明度</text>
 	</string>
 	<string id="ui_mcm_new_item_highlight_highlight_clr_r">
-		<text>ハイライト赤</text>
+		<text>ハイライトの色（赤）</text>
 	</string>
 	<string id="ui_mcm_new_item_highlight_highlight_clr_g">
-		<text>ハイライト緑</text>
+		<text>ハイライトの色（緑）</text>
 	</string>
 	<string id="ui_mcm_new_item_highlight_highlight_clr_b">
-		<text>ハイライト青</text>
+		<text>ハイライトの色（青）</text>
 	</string>
 
 	<string id="ui_mcm_lst_rax_nih_focus">
-		<text>マウスオーバーで消す</text>
+		<text>カーソルを合わせた時</text>
 	</string>
 	<string id="ui_mcm_lst_rax_nih_key_focus">
-		<text>マウスオーバー＋キー</text>
+		<text>キーを押しながらカーソルを合わせた時</text>
 	</string>
 	<string id="ui_mcm_lst_rax_nih_inv_close">
-		<text>インベントリを閉じた瞬間</text>
+		<text>インベントリを閉じた時</text>
 	</string>
 
 

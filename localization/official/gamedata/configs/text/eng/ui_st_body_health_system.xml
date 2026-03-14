@@ -14,65 +14,65 @@
 	</string>
 
 	<string id="ui_mcm_body_health_system_TEXT_BASED_PATCH">
-		<text>テキストHUDに置き換え</text>
+		<text>HUDをテキスト表示に変更</text>
 	</string>
 	<string id="ui_mcm_body_health_system_TEXT_BASED_PATCH_desc">
-		<text>(ゲームのリロードが必要) HUDをテキスト版に置き換えます。</text>
+		<text>(ゲームの再起動が必要) HUDの表示をテキスト形式に変更します。</text>
 	</string>
 
 	<string id="ui_mcm_body_health_system_NEW_LIMB_PENALTIES_FEATURE">
-		<text>四肢の新ペナルティ機能</text>
+		<text>新しい部位ペナルティ機能</text>
 	</string>
 	<string id="ui_mcm_body_health_system_NEW_LIMB_PENALTIES_FEATURE_desc">
-		<text>(ゲームのリロードが必要) これを有効にすると、新しいペナルティ機能が有効になります。無効にすると、古いBHSのペナルティが戻ります。</text>
+		<text>(ゲームの再起動が必要) 有効にすると、部位損傷時の新しいペナルティ効果が適用されます。無効にすると、従来のBHSペナルティに戻ります。</text>
 	</string>
 	<string id="ui_mcm_body_health_system_new_voice_sounds">
-		<text>ペナルティの新しい声</text>
+		<text>負傷時の新しいボイス演出</text>
 	</string>
 	<string id="ui_mcm_body_health_system_new_voice_sounds_desc">
-		<text>有効にすると、脚を損傷した状態で走ったときに新しい音声が有効になります。無効化すると元のボイスに戻ります。</text>
+		<text>有効にすると、脚を負傷した状態で走った際に新しい音声が再生されます。無効にすると、元のボイスに戻ります。</text>
 	</string>
 	<string id="ui_mcm_body_health_system_leg_penalty_minimum_hp">
-		<text>カメラの揺れに対するペナルティを考慮した最小限の脚部HP</text>
+		<text>脚: 視界揺れが発生するしきい値</text>
 	</string>
 	<string id="ui_mcm_body_health_system_leg_penalty_minimum_hp_desc">
-		<text>少なくとも片方の脚のHPがこの値以下でなければ、エフェクトは再生されません。\nスライダーのデフォルト値である5は、HPが4以下でも効果が発揮されることを意味します。(移動速度のペナルティは今のところ残っています。）</text>
+		<text>片方の脚のHPがこの値を下回ると、視界が揺れる演出が発生します。\nデフォルト値の5は、脚のHPが4以下で演出が発生することを意味します。(移動速度へのペナルティは別途適用されます)</text>
 	</string>
 	<string id="ui_mcm_body_health_system_leg_limping_damage_minimum_hp">
-		<text>走ったときにダメージを受ける脚部の最低HP</text>
+		<text>脚: ダッシュでダメージを受けるしきい値</text>
 	</string>
 	<string id="ui_mcm_body_health_system_leg_limping_damage_minimum_hp_desc">
-		<text>脚にダメージを受けた状態で走るとダメージを受けることがあります。このスライダはこの効果を発揮するために必要な脚のHPの最小値を設定します。\n例えば、スライダが4で脚のHPが4であれば、この効果は有効になります。\n値を-1にすると、この機能は無効になります。</text>
+		<text>負傷した脚で強引に走った際、追加ダメージを受ける確率が発生します。この設定はその条件となる最小HPを設定します。\n4に設定した場合、脚のHPが4以下で演出が発生することを意味します。\n-1に設定すると、この機能は無効化されます。</text>
 	</string>
 	<string id="ui_mcm_body_health_system_leg_animation_power">
-		<text>脚部損傷のカメラの揺れの強さ</text>
+		<text>脚: 視界揺れの強度</text>
 	</string>
 	<string id="ui_mcm_body_health_system_leg_animation_power_desc">
-		<text>脚に怪我を負った際のカメラの揺れの乗数を調整します。\nデフォルト: 1.0。</text>
+		<text>脚の負傷による視界の揺れ効果の強さを調整します。\nデフォルト値: 1.0。</text>
 	</string>
 	<string id="ui_mcm_body_health_system_arm_penalty_minimum_hp">
-		<text>ペナルティを受ける最小限の腕HP</text>
+		<text>腕: ペナルティが発生するしきい値</text>
 	</string>
 	<string id="ui_mcm_body_health_system_arm_penalty_minimum_hp_desc">
-		<text>腕のHPがこの値以下でないと、エフェクトが再生されません。\nスライダーのデフォルト値である10は、両腕のHPが9以下の場合に効果を発揮することを意味します。</text>
+		<text>両腕の合計HPがこの値を下回ると、エイムのブレなどのデバフが発生します。\nデフォルト値の10は、両腕のHPが9以下でペナルティが発生することを意味します。</text>
 	</string>
 	<string id="ui_mcm_body_health_system_arm_animation_power">
-		<text>腕のエフェクトの強さ</text>
+		<text>腕: ペナルティの強度</text>
 	</string>
 	<string id="ui_mcm_body_health_system_arm_animation_power_desc">
-		<text>腕のペナルティ効果の倍率を指定します。\nデフォルト: 1.0</text>
+		<text>腕の負傷によるペナルティ（手ブレ等）の強さを設定します。\nデフォルト値: 1.0。</text>
 	</string>
 	<string id="ui_mcm_body_health_system_head_penalty_minimum_hp">
-		<text>ペナルティの最小ヘッドダメージ</text>
+		<text>頭: ペナルティが発生するしきい値</text>
 	</string>
 	<string id="ui_mcm_body_health_system_head_penalty_minimum_hp_desc">
-		<text>エフェクトを再生するために必要なダメージを設定します。\n例えば、スライダーのデフォルト値が2の場合、各ヘッドショットのダメージは2以上のHPである必要があることを意味します。</text>
+		<text>頭部のHPがこの値を下回ると、ペナルティ効果が発生します。\nデフォルト値の2は、一度に2以上のダメージを頭部に受けるとペナルティが発生します。</text>
 	</string>
 	<string id="ui_mcm_body_health_system_head_animation_power">
-		<text>ヘッドのエフェクトの強さ</text>
+		<text>頭: ペナルティの強度</text>
 	</string>
 	<string id="ui_mcm_body_health_system_head_animation_power_desc">
-		<text>ヘッドペナルティ効果の倍率を指定します。\nデフォルト: 1.0。</text>
+		<text>頭部負傷時の画面演出（フラッシュや揺れ）の強さを設定します。\nデフォルト値: 1.0。</text>
 	</string>
 
 

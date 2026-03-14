@@ -3,22 +3,22 @@
 <string_table>
 
 	<string id="ui_mcm_item_artefact_title">
-		<text>Artefact Condition（変更しないでください）</text>
+		<text>Artefact Condition（変更禁止）</text>
 	</string>
 	<string id="ui_mcm_menu_item_artefact">
 		<text>Artefact Condition\n(変更禁止)</text>
 	</string>
 	<string id="ui_mcm_item_artefact_enable_condition_bar">
-		<text>耐久値のバーを有効にする (有効のままにしてください)</text>
+		<text>耐久値のバーを有効化 (有効のままにしてください)</text>
 	</string>
 	<string id="ui_mcm_item_artefact_enable_degraded_drops">
-		<text>劣化したアーティファクト/アタッチメント/皮の戦利品ドロップを有効にする (有効のままにしてください)</text>
+		<text>劣化したアーティファクト／アタッチメント／皮のドロップを有効化\n(有効のままにしてください)</text>
 	</string>
 	<string id="ui_mcm_item_artefact_mutant_part_condition_min">
-		<text>剥ぎ取れるミュータントの部位の最大耐久値</text>
+		<text>剥ぎ取れるミュータント部位の最小耐久値</text>
 	</string>
 	<string id="ui_mcm_item_artefact_mutant_part_condition_max">
-		<text>剥ぎ取れるミュータントの部位の最小耐久値</text>
+		<text>剥ぎ取れるミュータント部位の最大耐久値</text>
 	</string>
 
 </string_table>

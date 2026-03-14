@@ -7,35 +7,35 @@
 		<text>メイン設定</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_persist_info_mm">
-		<text>あなたは現在、インゲーム中ではありません。今行った変更はニューゲームを開始する際に適用されますが、セーブデータを読み込んだ場合、そのデータの設定に上書きされます。</text>
+		<text>現在ゲームプレイ中ではありません。\nここでの変更はニューゲーム時に適用されますが、既存のセーブデータをロードした場合はそのデータ内の設定が優先されます。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_persist_info_level">
-		<text>現在ゲーム中です。変更した内容はセーブファイルと一緒に保存され、読み込まれます。</text>
+		<text>現在ゲームプレイ中です。\nここでの変更は現在のセーブデータに保存され、次回ロード時にも引き継がれます。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_tooltip_info">
-		<text>ほとんどのオプションにはツールチップがあります。\n何をするオプションか分からない場合は、その名前の上にマウスカーソルを置くと説明が表示されます。</text>
+		<text>ほとんどの項目にはツールチップが用意されています。\n各項目の機能が不明な場合は、項目名にマウスカーソルを合わせると説明が表示されます。</text>
 	</string>
 	<!-- GENERAL -->
 	<string id="st_smr_glitched_pda_text">
-		<text>FATAL ERROR: INTERNAL MEMORY CORRUPTION DETECTED</text>
+		<text>致命的なエラー: 内部メモリの破損を検出しました</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_smr_enabled">
-		<text>ZCPを有効にする</text>
+		<text>ZCPを有効化</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_smr_debug_log">
-		<text>デバッグログを有効にする</text>
+		<text>デバッグログを有効化</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_smr_debug_log_desc">
-		<text>デバッグログを有効にします。警告：これは、あなたのログファイルおよび独立したログファイル「dph_zcp.log」を非常に速く増大させるでしょう。</text>
+		<text>デバッグログを出力します。警告: 通常のログファイルと「dph_zcp.log」が非常に速く肥大化する可能性があります。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_smr_persist_override">
-		<text>セーブファイルから設定を読み込まないようにする</text>
+		<text>セーブデータからの設定読み込みを無効化</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_smr_persist_override_desc">
-		<text>セーブファイルからの設定読み込みを無効にする。保存されたデータが破損しているなど、無効であると思われる場合に有効です。</text>
+		<text>セーブデータに保存されている設定を無視し、現在のMCM設定を強制適用します。セーブデータが破損しているなど、設定が意図しない状態になっている場合に有効です。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_respawn_idle">
-		<text>リスポーンタイム</text>
+		<text>リスポーン間隔</text>
 	</string>
 	<string id="ui_mcm_lst_smr_amain_respawn_idle_10800">
 		<text>3時間</text>
@@ -62,24 +62,24 @@
 		<text>2週間</text>
 	</string>
 	<string id="ui_mcm_lst_smr_amain_respawn_idle_1">
-		<text>しない</text>
+		<text>リスポーンなし</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_pop_factor_info">
-		<text>ZCPが有効な場合、これらの設定は、Anomaly内蔵のものよりも優先されます。</text>
+		<text>ZCPが有効な間、以下の人口密度設定はAnomaly本体の設定を上書きします。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_monster_pop_factor">
-		<text>ミュータントの人口係数</text>
+		<text>ミュータントの人口密度係数</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_stalker_pop_factor">
-		<text>ストーカーの人口係数</text>
+		<text>ストーカーの人口密度係数</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_respawn_idle_desc">
-		<text>すべてのストーカー、ミュータント、ゾンビのリスポーンタイマーを変更します。</text>
+		<text>ストーカー、ミュータント、ゾンビのリスポーン間隔を一括変更します。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_glitched_pda">
-		<text>壊れたPDA</text>
+		<text>PDAの故障をシミュレート</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_amain_glitched_pda_desc">
-		<text>便利なPDAを文鎮に変え、素敵なエラーメッセージを表示します。</text>
+		<text>便利なPDAをただの「エラーメッセージが出る文鎮」に変貌させます。</text>
 	</string>
 </string_table>

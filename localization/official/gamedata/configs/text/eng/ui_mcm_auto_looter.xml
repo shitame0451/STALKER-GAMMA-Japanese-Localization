@@ -5,14 +5,14 @@
 		<text>Auto Looter</text>
 	</string>
 	<string id="ui_mcm_auto_looter_base_description">
-		<text>Auto Looterは以下の順序で動作します: 分解 → 部品／アタッチメントの取り外し → インベントリに移動 → 削除。スーツの分解と部品の自動回収を有効にしている場合、取り出された部品は耐久値の条件を満たすかどうかがチェックされ、その上で取得されます。</text>
+		<text>Auto Looterは、分解 → 部品／アタッチメントの取り外し → インベントリへの移動 → 削除の順に実行されます。\nスーツの分解や部品の自動回収を有効にしている場合、耐久値の条件を満たしている部品のみが取得されます。</text>
 	</string>
 
 	<string id="ui_mcm_auto_looter_looter_key_title">
 		<text>キー設定</text>
 	</string>
 	<string id="ui_mcm_auto_looter_looter_key_description">
-		<text>一部のMODはインベントリ画面上で特定のキー入力をブロックします。左Altキーは通常ブロックされないため、下記のキー設定は変更しないことを推奨します。</text>
+		<text>一部のアドオンはインベントリ画面での特定のキー入力をブロックする場合があります。左Altキーは通常ブロックされないため、下記のキー設定は変更しないことをおすすめします。</text>
 	</string>
 	<string id="ui_mcm_auto_looter_looter_key">
 		<text>戦利品の自動回収 (Auto Looter)</text>
@@ -22,7 +22,7 @@
 		<text>遠距離回収</text>
 	</string>
 	<string id="ui_mcm_auto_looter_remote_looting_description">
-		<text>遠隔でアイテム回収を実行できる最大距離を設定します。0に設定すると遠距離回収は無効になります。注意: 死体やボックスのインベントリを開く際に追加スクリプトを実行するMODを使用している場合、遠距離回収は使用しないでください。GAMMA環境のプレイヤーは常にオフにすることを推奨します。</text>
+		<text>遠隔でアイテムを回収できる最大距離を設定します。0に設定するとこの機能は無効になります。\n注意: 死体やボックスのインベントリを開く際に追加スクリプトを実行するアドオンを使用している場合、遠距離回収は使用しないでください。GAMMA環境のプレイヤーは常に無効にすることを推奨します。</text>
 	</string>
 	<string id="ui_mcm_auto_looter_remote_looting_distance">
 		<text>最大距離</text>
@@ -32,7 +32,7 @@
 		<text>実験的機能: 近距離回収</text>
 	</string>
 	<string id="ui_mcm_auto_looter_proximity_looting_description">
-		<text>遠距離回収と似た動作をしますが、自動で一定間隔ごとに再実行され、指定範囲内のすべての回収可能な死体を処理します（インベントリボックスは除外され、スタッシュから誤って回収するのを防ぎます）。範囲を0に設定するとこの機能は無効になります。注意: 死体インベントリを開くときに追加スクリプトを実行するMODと併用する場合、近距離回収は使用しないでください。GAMMA環境のプレイヤーは常にオフにすることを推奨します。</text>
+		<text>遠距離回収と似た動作をしますが、自動で一定間隔ごとに再実行され、指定範囲内のすべての回収可能な死体を処理します（インベントリボックスは除外され、スタッシュからの誤回収を防ぎます）。範囲を0に設定するとこの機能は無効になります。注意: 死体インベントリを開くときに追加スクリプトを実行するMODと併用する場合、近距離回収は使用しないでください。GAMMA環境のプレイヤーは常にオフにすることを推奨します。</text>
 	</string>
 	<string id="ui_mcm_auto_looter_proximity_looting_distance">
 		<text>近距離回収の範囲</text>
@@ -45,39 +45,39 @@
 		<text>自動分解の設定</text>
 	</string>
 	<string id="ui_mcm_auto_looter_disassemble_ammo">
-		<text>弾薬を分解する</text>
+		<text>弾薬の自動分解</text>
 	</string>
 	<string id="ui_mcm_auto_looter_disassemble_armor">
-		<text>スーツ／ヘッドギアを分解する</text>
+		<text>スーツ／ヘッドギアの自動分解</text>
 	</string>
 	<string id="ui_mcm_auto_looter_disassemble_armor_desc">
-		<text>耐久値が50%以上、またはクラフトレシピで使用可能なスーツ部品のみが対象です。</text>
+		<text>耐久値が50%以上、またはクラフトレシピで使用可能なスーツ部品のみが対象となります。</text>
 	</string>
 	<string id="ui_mcm_auto_looter_disassemble_weapon">
-		<text>武器を分解する</text>
+		<text>武器の自動分解</text>
 	</string>
 	<string id="ui_mcm_auto_looter_disassemble_misc_title">
 		<text>その他アイテムの分解</text>
 	</string>
 	<string id="ui_mcm_auto_looter_disassemble_misc_description">
-		<text>一部のジャンクアイテムは分解しても価値がほとんどなく、未分解のまま納品したほうが報酬が高い場合があります（例: メタル雑誌）。以下で、どのアイテムを分解対象にするかを設定できます。なお、リストの最後にあるPDAは、スタッシュの情報を得られるストーカーのPDAのみを指します。</text>
+		<text>一部のジャンクアイテムは分解してもほとんど価値がなく、未分解のまま納品したほうがより高い報酬が得られる場合があります（例: メタル雑誌）。どのアイテムを分解対象にするか、以下で設定できます。なお、リストの最後にあるPDAは、スタッシュの情報を得られるストーカーのPDAのみを指します。</text>
 	</string>
 
 	<string id="ui_mcm_auto_looter_strip_title">
 		<text>部品／アタッチメントの自動取り外し設定</text>
 	</string>
 	<string id="ui_mcm_auto_looter_strip_attachments">
-		<text>アタッチメントを取り外す</text>
+		<text>アタッチメントの自動取り外し</text>
 	</string>
 	<string id="ui_mcm_auto_looter_strip_weapon">
-		<text>銃の部品を取り外す</text>
+		<text>銃部品の自動取り外し</text>
 	</string>
 
 	<string id="ui_mcm_auto_looter_loot_title">
 		<text>自動回収の設定</text>
 	</string>
 	<string id="ui_mcm_auto_looter_loot_description">
-		<text>どの種類のアイテムを（条件付きで）回収するかを設定します。スーツと武器は自動的に除外されます。以下に明記されていないアイテム（アップグレードキット、武器アタッチメント、修理アイテム、未分解のジャンクアイテムなど）は、自動的に取得されるよう設計されています。</text>
+		<text>どの種類のアイテムを（条件付きで）回収するかを設定します。スーツと武器は自動的に除外されます。以下に明記されていないアイテム（アップグレードキット、武器アタッチメント、修理アイテム、未分解のジャンクアイテムなど）は、自動的に取得されるように設計されています。</text>
 	</string>
 	<string id="ui_mcm_auto_looter_loot_ammo">
 		<text>弾薬</text>
@@ -95,7 +95,7 @@
 		<text>スーツの部品</text>
 	</string>
 	<string id="ui_mcm_auto_looter_loot_armor_parts_desc">
-		<text>耐久値が50%以上、またはクラフトレシピで使用可能なスーツ部品のみが対象です。</text>
+		<text>耐久値が50%以上、またはクラフトレシピで使用可能なスーツ部品のみが対象となります。</text>
 	</string>
 	<string id="ui_mcm_auto_looter_loot_weapon_parts">
 		<text>銃の部品</text>
@@ -108,32 +108,32 @@
 		<text>削除の設定</text>
 	</string>
 	<string id="ui_mcm_auto_looter_delete_description">
-		<text>死体が溜まるのは迫力がありますが、パフォーマンスに影響を与えることもあります。以下の設定では、すでに回収済みの死体や、拾う予定のない不要アイテムを自動的に削除できます。「残りを削除」は、Auto Looterによって取得されなかった武器やスーツ部品などに該当します。</text>
+		<text>死体が積み上がる光景は雰囲気がありますが、パフォーマンスを低下させる原因にもなります。以下の設定では、回収済みの死体や、拾う予定のない不要なアイテムを自動的に削除できます。これらを削除することで、スタッシュ内に残ったアイテムによる処理負荷を軽減します。「その他のアイテムを自動削除」は、通常、回収されなかった武器やスーツの部品などが対象です。</text>
 	</string>
 	<string id="ui_mcm_auto_looter_delete_body">
-		<text>死体を丸ごと削除する</text>
+		<text>死体の自動削除</text>
 	</string>
 	<string id="ui_mcm_auto_looter_delete_armor">
-		<text>スーツ／ヘッドギアを削除する</text>
+		<text>スーツ／ヘッドギアの自動削除</text>
 	</string>
 	<string id="ui_mcm_auto_looter_delete_weapon">
-		<text>武器を削除する</text>
+		<text>武器の自動削除</text>
 	</string>
 	<string id="ui_mcm_auto_looter_delete_misc">
-		<text>残りを削除する</text>
+		<text>その他のアイテムを自動削除</text>
 	</string>
 
 	<string id="ui_mcm_auto_looter_misc_options_title">
 		<text>その他の設定</text>
 	</string>
 	<string id="ui_mcm_auto_looter_no_valid_tool_messaging">
-		<text>有効な分解ツールがないときにメッセージを表示</text>
+		<text>有効な分解ツールがない場合にメッセージを表示</text>
 	</string>
 	<string id="ui_mcm_auto_looter_usable_armor_part_condition_treshold">
-		<text>スーツ部品の有用判定／耐久値のしきい値</text>
+		<text>スーツ部品の有用判定（耐久値のしきい値）</text>
 	</string>
 	<string id="ui_mcm_auto_looter_usable_weapon_part_condition_treshold">
-		<text>銃部品の有用判定／耐久値のしきい値</text>
+		<text>銃部品の有用判定（耐久値のしきい値）</text>
 	</string>
 	<string id="ui_mcm_auto_looter_always_treat_recipe_part_as_usable">
 		<text>レシピ素材の部品は常に有用とみなす</text>

@@ -10,28 +10,28 @@
 		<text>すべてのアイテム（1）</text>
 	</string>
 	<string id="ui_st_tab_weapons">
-		<text>武器、爆発物（2）</text>
+		<text>武器・爆発物（2）</text>
 	</string>
 	<string id="ui_st_tab_armor">
-		<text>スーツ、ヘルメット、バックパック、ベルトアタッチメント（3）</text>
+		<text>スーツ・ヘルメット・バックパック・ベルトアタッチメント（3）</text>
 	</string>
 	<string id="ui_st_tab_ammo">
 		<text>弾薬（4）</text>
 	</string>
 	<string id="ui_st_tab_artefact">
-		<text>アーティファクト、ミュータントの身体部位（5）</text>
+		<text>アーティファクト・ミュータントの身体部位（5）</text>
 	</string>
 	<string id="ui_st_tab_tools">
-		<text>デバイス、ツール、修理用アイテム（6）</text>
+		<text>デバイス・ツール・修理用アイテム（6）</text>
 	</string>
 	<string id="ui_st_tab_food">
-		<text>飲料、食料、調理用アイテム、タバコ（7）</text>
+		<text>飲料・食料・調理用アイテム・タバコ（7）</text>
 	</string>
 	<string id="ui_st_tab_meds">
 		<text>医薬品（8）</text>
 	</string>
 	<string id="ui_st_tab_upgrades">
-		<text>アップグレードキット（銃&amp;スーツ）（9）</text>
+		<text>アップグレードキット（銃・スーツ）（9）</text>
 	</string>
 	<string id="ui_st_tab_misc">
 		<text>その他のアイテム（10）</text>
@@ -131,7 +131,7 @@
 		<text>サプレッサーの取り付け</text>
 	</string>
 	<string id="st_base_cost">
-		<text>値段</text>
+		<text>価格</text>
 	</string>
 	<string id="st_community">
 		<text>グループ: </text>
@@ -368,7 +368,7 @@
 
 	<string id="st_ui_health_sensor_inv">
 		<text>%c[pda_white]体力
-    \n \n%c[ui_gray_1]総合的な体力を表しており、銃撃や環境ダメージ、ミュータントの攻撃を受けることで減少する。体力を回復するには医療キットや包帯などの医薬品、または食料が必要となる。GAMMAでは「Body Health System」における「全身の健康状態」に相当するパラメータであり、これがゼロになると死亡する。
+    \n \n%c[ui_gray_1]総合的な体力を表し、銃撃や環境ダメージ、ミュータントの攻撃を受けることで減少する。体力を回復するには医療キットや包帯などの医薬品、または食料が必要となる。GAMMAでは「Body Health System」における「全身の健康状態」に相当するパラメータであり、これがゼロになると死亡する。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_blue] • %c[pda_white]医療キット
     \n%c[d_blue] • %c[pda_white]スティムパック
@@ -377,7 +377,7 @@
 
 	<string id="ui_inv_power_restore">
 		<text>%c[pda_white]スタミナ
-    \n \n%c[ui_gray_1]ダッシュ、ジャンプ、重い物を持つ際に、スタミナがどれだけ早く回復するかを表す。空腹状態や最大所持重量、アーティファクトの効果によって回復の速さが変わる。
+    \n \n%c[ui_gray_1]ダッシュ、ジャンプ、重い物を運搬した後にスタミナが回復する速さを表す。空腹状態や所持重量、アーティファクトの効果によって回復の速さが変わる。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_blue] • %c[pda_white]カフェイン錠剤
     \n%c[d_blue] • %c[pda_white]エピネフリン注射
@@ -388,8 +388,8 @@
 
 	<string id="st_ui_main_sensor">
 		<text>%c[pda_white]放射線障害
-    \n \n%c[ui_gray_1]放射能汚染区域に曝されることで蓄積していく有害な効果。放置すると徐々に体力が減少していく。抗放射能薬や特定のアーティファクト、医療処置によって除去できる。
-    \n放射線量の基本単位はミリシーベルト（mSv）。
+    \n \n%c[ui_gray_1]放射線汚染地帯での被曝により蓄積する有害な効果。速やかな処置を行わない限り、体力が低下し続ける。抗放射能薬や特定のアーティファクト、または適切な医療処置によって除去可能。
+    \n基本単位はミリシーベルト（mSv）。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]抗放射線薬
     \n%c[d_cyan] • %c[pda_white]シスタミン
@@ -402,7 +402,7 @@
 
 	<string id="ui_inv_radiation_protection">
 		<text>%c[pda_white]放射線耐性
-    \n \n%c[ui_gray_1]この耐性が高いほど、放射能汚染区域に曝された際に放射線が蓄積する速度が低下する。治療を受ける必要なく汚染区域でより長く生き延びることができる。
+    \n \n%c[ui_gray_1]放射線汚染地帯やアーティファクトから受ける放射線の蓄積速度を抑制する。耐性が高いほど、除染治療が必要になるまでの時間を延ばし、高線量地帯での長時間生存が可能となる。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]抗放射線薬
     \n%c[d_cyan] • %c[pda_white]シスタミン
@@ -423,7 +423,7 @@
 	</string>
 	<string id="ui_inv_chemical_burn_protection">
 		<text>%c[pda_white]化学耐性
-    \n \n%c[ui_gray_1]化学アノマリーや毒性環境など、有毒物質によるダメージを軽減する。
+    \n \n%c[ui_gray_1]化学アノマリーや有害環境などの毒性物質から受けるダメージを軽減する。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]クロルテトラサイクリン
     \n%c[d_cyan] • %c[pda_white]スルファジメトキシン
@@ -435,7 +435,7 @@
 
 	<string id="ui_inv_shock_protection">
 		<text>%c[pda_white]電気耐性
-    \n \n%c[ui_gray_1]電気アノマリーや電気ダメージに対する耐性を表す。耐性が高いほど、ゾーン内の電気的危険から受けるダメージを軽減できる。
+    \n \n%c[ui_gray_1]電気アノマリーや電気ダメージに対する耐性を表す。耐性が高いほど、ゾーン内の電気的危険から受けるダメージが減少する。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]防護スーツ
     \n%c[d_cyan] • %c[pda_white]マスク / 呼吸器
@@ -444,7 +444,7 @@
 
 	<string id="ui_inv_telepatic_protection">
 		<text>%c[pda_white]精神耐性
-    \n \n%c[ui_gray_1]精神波を発するミュータントやアノマリーによる精神攻撃から身を守り、ダメージを受けた際に生じる混乱効果を軽減する。
+    \n \n%c[ui_gray_1]精神波を放つミュータントやアノマリーによる精神攻撃から身を守り、ダメージを受けた際に生じる混乱効果を軽減する。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]ジョイント（大麻）
     \n%c[d_cyan] • %c[pda_white]エタペラジン
@@ -456,9 +456,9 @@
 
 	<string id="ui_inv_fire_wound_protection">
 		<text>%c[pda_white]銃弾耐性
-    \n \n%c[ui_gray_1]装甲の種類と品質に応じて銃弾や飛翔体によるダメージを軽減する。
-    \nより強固な装甲や補強プレートほど、敵の銃撃から受ける被害を抑えられる。
-    \n評価には国際的に認められたアメリカの国立司法省研究所が制定したNIJ規格を使用する:
+    \n \n%c[ui_gray_1]銃弾によるダメージを軽減する。軽減率はスーツの種類と品質に依存する。
+    \n強力なスーツや強化プレートを装備することで、敵の銃撃から受ける被害を抑えられる。
+    \n評価には国際的に認知されているアメリカの国立司法省研究所が制定したNIJ規格を使用する:
     \n \n%c[pda_white]ボディーアーマーの防弾性能:
     \n%c[d_cyan] • %c[pda_white]なし:
     \n%c[ui_gray_1]9x18mm / .45 ACP / 12x70 バックショット
@@ -485,8 +485,8 @@
 
 	<string id="ui_inv_wound_protection">
 		<text>%c[pda_white]裂傷耐性
-    \n \n%c[ui_gray_1]ミュータントの引っかきや噛みつきによるダメージを軽減し、肉弾戦を生き延びやすくする。防護スーツや特定のアーティファクトで耐性をさらに高められる。
-    \n対象となる攻撃には刺突、切り裂き、噛みつき、念力で飛ばされた破片などが含まれるが、これらに限らない。
+    \n \n%c[ui_gray_1]ミュータントの爪や牙によるダメージを軽減し、肉弾戦での生存性を高める。防護スーツや特定のアーティファクトによって耐性を強化できる。
+    \n対象となる攻撃には刺突、切り裂き、噛みつき、念力で飛ばされた破片などが含まれる。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]防護スーツ
     </text>
@@ -494,7 +494,7 @@
 
 	<string id="ui_inv_strike_protection">
 		<text>%c[pda_white]衝撃耐性
-    \n \n%c[ui_gray_1]近接攻撃による打撃ダメージ、たとえばミュータントの攻撃や重力異常・衝撃波などによる物理的な衝突への耐性を表す。重量級の防具や専用スーツを装備することで、耐打撃性能を高めることができる。
+    \n \n%c[ui_gray_1]ミュータントによる近接攻撃や、重力・衝撃波を伴う物理的衝撃によるダメージへの耐性を表す。重装スーツや特殊スーツによって耐性を強化できる。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]アーティファクト
     \n%c[d_cyan] • %c[pda_white]ミュータントの皮
@@ -504,7 +504,7 @@
 
 	<string id="ui_inv_explosion_protection">
 		<text>%c[pda_white]爆発耐性
-    \n \n%c[ui_gray_1]手榴弾や地雷などの爆発物によるダメージを軽減する。戦術用アーマーやエグゾスーツは爆風に対する防御力をさらに高めることができる。
+    \n \n%c[ui_gray_1]手榴弾や地雷などの爆発物によるダメージを軽減する。タクティカルスーツやエグゾスーツは爆風に対して高い防御力を発揮する。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]アーティファクト
     \n%c[d_cyan] • %c[pda_white]ミュータントの皮
@@ -514,7 +514,7 @@
 
 	<string id="st_ui_bleeding_sensor">
 		<text>%c[pda_white]出血
-    \n \n%c[ui_gray_1]銃創やミュータントの攻撃、飛び散った破片が原因で発生するステータス異常。時間経過とともに体力が継続的に減少する。止血には包帯や医療キット、特定のアーティファクトが必要となる。
+    \n \n%c[ui_gray_1]銃創やミュータントの攻撃、破片によって引き起こされる状態異常。速やかな処置を行わない限り、体力が低下し続ける。止血には包帯や医療キット、特定のアーティファクトが必要となる。
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]包帯
     \n%c[d_cyan] • %c[pda_white]止血帯
@@ -524,13 +524,13 @@
 
 	<string id="ui_inv_br_protection">
 		<text>%c[pda_white]BRクラス
-    \n \n%c[ui_gray_1]ボディアーマーとヘルメットの、弾丸貫通に対する耐性を表す。
-    \nこの数値は着弾した弾丸の貫通力（AP）の値と直接比較され、アーマーによって弾丸が止められた場合、衝撃ダメージのみが与えられる。
-    \nBRクラスが弾丸のAP値より高い場合、着弾する弾丸のダメージは以下の式で軽減される:
-    \nダメージ軽減 = （スーツのBRクラス x1.3 + スーツの銃弾耐性 x0.2） + ベルト装備品 + 医薬品
+    \n \n%c[ui_gray_1]スーツやヘルメットの「弾丸貫通に対する耐性」を表す。
+    \nこの数値は着弾した弾丸の貫通力（AP）の値と直接比較され、スーツによって弾丸が止められた場合、衝撃ダメージのみが与えられる。
+    \nBRクラスが弾丸のAP値を上回る場合、被ダメージは以下の計算式で軽減される:
+    \nダメージ軽減 = （スーツのBRクラス x 1.3 + スーツの銃弾耐性 x 0.2） + ベルト装備品 + 医薬品の効果
 
     \n \nBRクラスが弾丸のAP値を下回る場合、弾丸はスーツを貫通し、通常のダメージが適用される:
-    \nダメージ軽減 = スーツの銃弾耐性 x1.0 + ベルト装備品 + 医薬品
+    \nダメージ軽減 = スーツの銃弾耐性 x 1.0 + ベルト装備品 + 医薬品の効果
 
     \n \n%c[pda_white]有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]ジクロフェナクナトリウム
@@ -849,7 +849,7 @@
 		<text>キャンセル</text>
 	</string>
 	<string id="ui_inv_cant_buy_item">
-		<text>武器は買えない</text>
+		<text>武器は購入できない</text>
 	</string>
 	<string id="ui_inv_count_restr">
 		<text>命中精度</text>
@@ -873,13 +873,13 @@
 		<text>重火器</text>
 	</string>
 	<string id="ui_inv_last_buy">
-		<text>前に購入した装備を買う</text>
+		<text>前回購入した装備を買う</text>
 	</string>
 	<string id="ui_inv_last_buy(F4)">
-		<text>前に購入した装備を買う（F4）</text>
+		<text>前回購入した装備を買う（F4）</text>
 	</string>
 	<string id="ui_inv_money">
-		<text>お金</text>
+		<text>所持金</text>
 	</string>
 	<string id="ui_inv_need">
 		<text>要求されるもの</text>
@@ -921,7 +921,7 @@
 		<text>ライフル用光学スコープを購入する（S）</text>
 	</string>
 	<string id="ui_inv_sell_items(X)">
-		<text>バックパック内のアイテムをすべて売却する（X）</text>
+		<text>バックパック内のすべてのアイテムを売却する（X）</text>
 	</string>
 	<string id="ui_inv_shotguns">
 		<text>ライフル</text>
@@ -933,7 +933,7 @@
 		<text>ライフル用サプレッサーを購入する（F）</text>
 	</string>
 	<string id="ui_inv_sniper_rifles">
-		<text>狙撃兵</text>
+		<text>スナイパーライフル</text>
 	</string>
 	<string id="ui_inv_time">
 		<text>時間</text>
@@ -1006,7 +1006,7 @@
 		<text>%c[ui_red]適切な分解ツールが必要</text>
 	</string>
 	<string id="st_ui_need_charger">
-		<text>%sは電気を通す必要がある</text>
+		<text>%sには電力が必要だ</text>
 	</string>
 	<string id="st_new_anomaly_map">
 		<text>新しいアノマリーマップを発見した</text>
@@ -1036,13 +1036,13 @@
 		<text>ストレロックを殺せ</text>
 	</string>
 	<string id="ui_st_battery_more_power">
-		<text>この機器には電力がもっと必要</text>
+		<text>バッテリー残量: 高</text>
 	</string>
 	<string id="st_lamp_disconnected">
-		<text>ヘッドランプが外れている</text>
+		<text>ヘッドランプを取り外した</text>
 	</string>
 	<string id="st_lamp_equipped">
-		<text>ヘッドランプ装備</text>
+		<text>ヘッドランプを装備した</text>
 	</string>
 	<string id="st_lamp_power_left">
 		<text>ヘッドランプのバッテリー残量%s%</text>
@@ -1124,7 +1124,7 @@
 		<text>情報</text>
 	</string>
 	<string id="st_ui_inventory_unpack">
-		<text>開梱する</text>
+		<text>開ける</text>
 	</string>
 	<string id="st_ui_inventory_attach">
 		<text>取り付ける</text>
@@ -1214,9 +1214,9 @@
 	</string>
 	
 	<string id="st_ui_workshop_info_state_intro">
-		<text>作業台ではツールキットを使用し、アイテムの修理、アップグレード、クラフトをすることができる。
-\nツールの所持状況は上部に表示されている。ツールを持っていれば、高度な装備の調整が可能になる。
-\n続行するにはタブを選択する。</text>
+		<text>作業台では、ツールキットを使ってアイテムの修理、アップグレード、クラフトができる。
+\nツールの所持状況は上部で確認できる。適切なツールがあれば、より高度な装備の調整が可能になる。
+\nタブを選択して作業を開始できる。</text>
 	</string>
 	<string id="st_ui_workshop_owner">
 		<text>この作業台の所有者は%s。</text>
@@ -1226,7 +1226,7 @@
 	</string>
 	
 	<string id="st_ui_workshop_info_repair_intro">
-		<text>交換部品と適切なツールキットを使用して銃やスーツの損傷箇所を修理することができる。
+		<text>交換部品と適切なツールキットがあれば、銃やスーツの損傷箇所を修理できる。
 \n修理をするには、インベントリからアイテムを選択する。
 </text>
 	</string>

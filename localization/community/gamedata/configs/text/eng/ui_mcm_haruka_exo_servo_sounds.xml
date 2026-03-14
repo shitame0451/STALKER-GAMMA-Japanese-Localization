@@ -8,33 +8,33 @@
 		<text>Exo Servo Sounds</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_volume_walk">
-		<text>音量 (歩行)</text>
+		<text>歩行時の音量</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_volume_walk_desc">
-		<text>歩行時の音量を設定します。</text>
+		<text>歩行する際のエグゾスーツ音の音量を設定します。</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_volume_land">
-		<text>音量 (着地)</text>
+		<text>着地時の音量</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_volume_land_desc">
-		<text>着地時の音量を設定します。</text>
+		<text>着地する際のエグゾスーツ音の音量を設定します。</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_volume_jump">
-		<text>音量 (ジャンプ)</text>
+		<text>ジャンプ時の音量</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_volume_jump_desc">
-		<text>ジャンプ時の音量を設定します。</text>
+		<text>ジャンプする際のエグゾスーツ音の音量を設定します。</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_discharge">
-		<text>放電</text>
+		<text>放電量</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_discharge_desc">
-		<text>エレクトロアノマリーに当たった後に失われる充電の量を設定します。</text>
+		<text>エレクトロアノマリーに接触した際に失われる、エグゾスーツのエネルギー量を設定します。</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_scale_freq">
-		<text>周波数のスケーリング</text>
+		<text>駆動音の周波数調整</text>
 	</string>
 	<string id="ui_mcm_exo_servo_sounds_scale_freq_desc">
-		<text>プレイヤーの状態（歩行、匍匐、走行など）に基づいて音の周波数を変更します。</text>
+		<text>移動状態（歩行、匍匐、走行など）に応じて、エグゾスーツ音の高さ（周波数）を変化させます。</text>
 	</string>
 </string_table>

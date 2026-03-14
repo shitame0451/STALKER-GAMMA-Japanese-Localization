@@ -7,24 +7,24 @@
 	</string>
 	
 	<string id="ui_mcm_safe_af_craft_empty_lead_absorb_enabled">
-		<text>空のアーティファクト完全隔離容器が放射線を吸収する</text>
+		<text>空の完全隔離容器による放射線吸収</text>
 	</string>
 	<string id="ui_mcm_safe_af_craft_empty_lead_absorb_enabled_desc">
-		<text>空のアーティファクト完全隔離容器と隔離容器に入っていないアーティファクトがインベントリにある場合、それらの放射線は吸収されます。\n携帯型作業台でも機能します。</text>
+		<text>インベントリに空の完全隔離容器と未収納のアーティファクトがある場合、空の隔離容器がアーティファクトから放出される放射線を吸収し、被曝を軽減します。\n携帯型作業台を使用している場合も有効です。</text>
 	</string>
 	
 	<string id="ui_mcm_safe_af_craft_empty_lead_absorb_wshop_only">
-		<text>アーティファクトメルターが入った作業台を開いた時のみにする</text>
+		<text>作業台使用中のみ吸収（要アーティファクトメルター）</text>
 	</string>
 	<string id="ui_mcm_safe_af_craft_empty_lead_absorb_wshop_only_desc">
-		<text>アーティファクトメルター付きの作業台が開かれている場合にのみ、空のアーティファクト完全隔離容器で放射線を吸収するようにします。</text>
+		<text>アーティファクトメルターを備えた作業台を開いている間のみ、空の完全隔離容器が放射線を吸収するようになります。</text>
 	</string>
 	
 	<string id="ui_mcm_safe_af_craft_melter_absorb_enabled">
-		<text>アーティファクトメルターを開いている時はすべての放射線を吸収する</text>
+		<text>アーティファクトメルター使用時の全放射線吸収</text>
 	</string>
 	<string id="ui_mcm_safe_af_craft_melter_absorb_enabled_desc">
-		<text>アーティファクトメルターを使用している場合、すべての放射線が吸収されます。（空のアーティファクト完全隔離容器は無視されます）</text>
+		<text>アーティファクトメルター使用中に発生するすべての放射線が吸収され、被曝を防ぎます。この際、空の完全隔離容器の有無は影響しません。</text>
 	</string>
 
 	

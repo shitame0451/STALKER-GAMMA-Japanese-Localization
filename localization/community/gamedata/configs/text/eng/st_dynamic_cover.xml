@@ -7,61 +7,57 @@
 		<text>Dynamic Emission Cover</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_distance_factor">
-		<text>必要な遮蔽物の係数</text>
+		<text>遮蔽判定の基準値</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_distance_factor_desc">
-		<text>値を高くすると、遮蔽物を見つけるのが難しくなります。</text>
+		<text>この値を高く設定すると、遮蔽物として認識されにくくなります。</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_north_cover_bonus">
-		<text>北向きの遮蔽物ボーナス</text>
+		<text>北側遮蔽ボーナス</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_north_cover_bonus_desc">
-		<text>北向きの遮蔽物は、エミッション中により効果的になります。</text>
+		<text>エミッション発生時、北側に壁や遮蔽物がある場所での生存率が向上します。</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_show_cover_bar">
-		<text>遮蔽物のインジケーターを表示</text>
+		<text>遮蔽インジケーターの表示</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_show_cover_bar_desc">
-		<text>エミッション中にどの程度遮蔽物にいるかを示すインジケーターを表示します。
-\n安全な場所にいる場合は非表示になります。</text>
+		<text>エミッション中に現在の遮蔽度を示すバーを表示します。\n完全に避難できている間は非表示になります。</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_cover_range">
 		<text>遮蔽物を検出する範囲</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_cover_range_desc">
-		<text>ここで設定した範囲内（プレイヤーの周辺）で、遮蔽物として有効かどうかをチェックします。</text>
+		<text>プレイヤー周辺の指定範囲内で、有効な遮蔽物を判定します。</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_rays_per_update">
-		<text>遮蔽物をチェックするレイの数（フレーム毎）</text>
+		<text>1フレームあたりの遮蔽物判定レイ数</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_rays_per_update_desc">
-		<text>FPSが低下する問題がある場合はこの値を下げてください。
-\nより迅速かつ安定した遮蔽物のチェックを行うには、この値を上げてください。</text>
+		<text>FPSが低下する場合はこの値を下げてください。\n遮蔽物判定の精度と速度を向上させるには、この値を上げてください。</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_debug_mode">
 		<text>デバッグモード</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_debug_mode_desc">
-		<text>テスト目的で使用します！
-\nこれを有効にすると、エミッション以外でも遮蔽物のチェックが行えるようになり（北向きの遮蔽物ボーナスを含む）、遮蔽物のチェックに使用されるレイキャストの終点にパーティクルが生成されます。</text>
+		<text>テスト目的の機能です。\n有効にすると、エミッション時以外でも遮蔽物判定が有効になり（北側遮蔽物ボーナスを含む）、判定に使用されるレイキャストの終点にパーティクルが表示されます。</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_protect_companions">
-		<text>仲間を保護する範囲</text>
+		<text>仲間の保護範囲</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_protect_companions_desc">
-		<text>プレイヤーが遮蔽物内にいる場合、この範囲内（メートル）の仲間も保護されます。
-\n0に設定すると無効になります。</text>
+		<text>プレイヤーが遮蔽内にいる際、指定した範囲（メートル）内にいる仲間も保護されます。\n0に設定するとこの機能は無効になります。</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_grace_period">
-		<text>遮蔽物猶予期間</text>
+		<text>遮蔽保護の猶予時間</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_grace_period_desc">
-		<text>遮蔽物を離れた後、一定時間だけ保護が継続する秒数を設定します。</text>
+		<text>遮蔽場所を離れた後、保護効果が持続する秒数を設定します。</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_hud_show_delay">
-		<text>インジケーターの遅延</text>
+		<text>インジケーター表示の遅延時間</text>
 	</string>
 	<string id="ui_mcm_dynamic_cover_hud_show_delay_desc">
-		<text>インジケーターが表示されるまでの時間を設定します。</text>
+		<text>遮蔽インジケーターが表示されるまでの時間を設定します。</text>
 	</string>
 </string_table>

@@ -11,7 +11,7 @@
 
 	<!-- Button -->
 	<string id="ui_mcm_ssfx_module_inter_grass">
-		<text>草の接触判定</text>
+		<text>草の接触反応</text>
 	</string>
 
 	<!-- Interactive Grass Settings -->
@@ -20,115 +20,115 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_enable_mcm">
-		<text>有効</text>
+		<text>有効化</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_enable_mcm_desc">
-		<text>[再起動が必要] 草の接触判定を有効/無効にします。</text>
+		<text>[再起動が必要] 草の接触反応を有効／無効にします。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_max_entities_mcm">
-		<text>接触判定の最大数</text>
+		<text>接触反応の最大数</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_max_entities_mcm_desc">
-		<text>[再起動が必要] 同時に行う接触判定の最大数を調整します。高い値はパフォーマンスを低下させる可能性があります。</text>
+		<text>[再起動が必要] 同時に処理する草の接触反応の最大数を調整します。値を高くすると、パフォーマンスが低下する場合があります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_max_distance_mcm">
-		<text>最大距離</text>
+		<text>接触反応の描写距離</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_max_distance_mcm_desc">
-		<text>草の接触判定を描写する最大距離を調整します。</text>
+		<text>草の接触反応が描写される最大距離を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_enable_player_mcm">
-		<text>プレイヤーとの接触判定</text>
+		<text>プレイヤーによる草の反応</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_enable_player_mcm_desc">
-		<text>プレイヤーによる草との接触判定を有効/無効にします。</text>
+		<text>プレイヤーが草に触れた際の反応を有効／無効に設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_enable_mutants_mcm">
-		<text>ミュータントの衝撃波</text>
+		<text>ミュータントの衝撃波による草の反応</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_enable_mutants_mcm_desc">
-		<text>スードウジャイアントおよびバーラーの衝撃波効果を有効/無効にします。</text>
+		<text>スードウジャイアントやバーラーによる衝撃波効果を有効／無効に設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_radius_mcm">
-		<text>草を曲げる効果の大きさ</text>
+		<text>プレイヤーによる草の変位範囲</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_radius_mcm_desc">
-		<text>キャラクターが草の上を歩くときに草が曲がる効果の半径を調整します。</text>
+		<text>キャラクターが草の上を歩いた際に、草が変位する範囲の半径を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_horizontal_str_mcm">
-		<text>水平強度</text>
+		<text>水平方向の変位強度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_horizontal_str_mcm_desc">
-		<text>キャラクターが草の上を歩くときの水平変位の強度を調整します。</text>
+		<text>キャラクターが草の上を歩いた際の、水平方向への草の変位強度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_vertical_str_mcm">
-		<text>垂直強度</text>
+		<text>垂直方向の変位強度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_vertical_str_mcm_desc">
-		<text>キャラクターが草の上を歩くときの垂直変位の強度を調整します。</text>
+		<text>キャラクターが草の上を歩いた際の、垂直方向への草の変位強度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_explosions_str_mcm">
-		<text>爆発の強度</text>
+		<text>爆発による草の変位強度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_explosions_str_mcm_desc">
-		<text>衝撃波に対する草の強度を調整します。</text>
+		<text>爆発の衝撃波によって草が変位する強度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_explosions_speed_mcm">
-		<text>爆発の速度</text>
+		<text>爆発による草の変位速度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_explosions_speed_mcm_desc">
-		<text>衝撃波に対する草の伝達速度を調整します。</text>
+		<text>爆発の衝撃波が草に伝わる速度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_shooting_str_mcm">
-		<text>銃撃の強度</text>
+		<text>銃撃による草の変位強度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_shooting_str_mcm_desc">
-		<text>銃撃によって生成される変位の強度を調整します。</text>
+		<text>銃撃によって草が変位する強度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_shooting_range_mcm">
-		<text>銃撃の範囲</text>
+		<text>銃撃による草の変位範囲</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_shooting_range_mcm_desc">
-		<text>銃撃によって引き起こされる変位の範囲を調整します。</text>
+		<text>銃撃によって草が変位する範囲を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_enable_anomalies_mcm">
-		<text>アノマリーの相互作用</text>
+		<text>アノマリーによる草の反応</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_enable_anomalies_mcm_desc">
-		<text>草とアノマリーとの相互作用を有効/無効にします。</text>
+		<text>アノマリーによる草の反応を有効／無効に設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_inter_grass_anomalies_distance_mcm">
-		<text>アノマリーの最大距離</text>
+		<text>アノマリーによる接触反応の描写距離</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_inter_grass_anomalies_distance_mcm_desc">
-		<text>アノマリーと草の相互作用を描写する最大距離を調整します。</text>
+		<text>アノマリーによる草の反応が描写される最大距離を調整します。</text>
 	</string>
 
 </string_table>

@@ -1,15 +1,15 @@
 <string_table>
 	<string id="ui_mcm_skill_system_exp_multiplier_strength">
-        <text>筋力スキル経験値取得倍率</text>
+        <text>ストレングススキルの経験値倍率</text>
     </string>
     <string id="ui_mcm_skill_system_exp_multiplier_endurance">
-        <text>持久力スキル経験値取得倍率</text>
+        <text>エンデュランススキルの経験値倍率</text>
     </string>
     <string id="ui_mcm_skill_system_exp_multiplier_scavenging">
-        <text>スカベンジスキル経験値取得倍率</text>
+        <text>スカベンジスキルの経験値倍率</text>
     </string>
     <string id="ui_mcm_skill_system_exp_multiplier_survival">
-        <text>サバイバル経験値取得倍率</text>
+        <text>サバイバルスキルの経験値倍率</text>
     </string>
     <string id="ui_mcm_skill_system_title">
         <text>Skill System</text>
@@ -24,9 +24,9 @@
         <text>スキルメニューを表示 (Skill System)</text>
     </string>
 	<string id="ui_mcm_skill_system_ui_keybind_desc">
-        <text>スキルの進捗を確認できるメニューを開きます。</text>
+        <text>スキル習熟度を確認できるメニューを開きます。</text>
     </string>
 	<string id="ui_mcm_skill_system_update_mcm">
-		<text>MCMをアップデートすると、この機能が表示されます。\nデフォルトのキーはKに設定されています。</text>
+		<text>この機能を表示するにはMCMを更新してください。\nデフォルトのキーはKに設定されています。</text>
 	</string>
 </string_table>

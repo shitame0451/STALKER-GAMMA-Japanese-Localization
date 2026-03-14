@@ -13,28 +13,28 @@
 		<text>Speed</text>
 	</string>
 	<string id="ui_mcm_menu_speed_title">
-		<text>スーツ/武器の移動速度への影響度</text>
+		<text>スーツ／武器が移動速度に与える影響の設定</text>
 	</string>
 	<string id="ui_mcm_speed_title">
-		<text>スーツ/武器の移動速度への影響度</text>
+		<text>スーツ／武器が移動速度に与える影響の設定</text>
 	</string>
 	<string id="ui_mcm_speed_encumbrance">
-		<text>所持重量は移動速度に影響する</text>
+		<text>所持重量が移動速度に影響</text>
 	</string>
 	<string id="ui_mcm_speed_encumbrance_desc">
-		<text>この機能は、所持重量が軽い時（総負荷量の25%未満）にはボーナスを、重い時（総負荷量の70%以上）にはペナルティを与えます。\nこのオプションを有効にすると、軽装時に非現実的な速度で移動することになりますのでご注意ください。</text>
+		<text>有効にすると、所持重量に応じて移動速度が変化します。\n総所持可能重量の25%未満でスピードボーナスが得られ、70%以上で移動速度が低下します。\n非常に速く移動できるようになるため、ゲームバランスにご注意ください。</text>
 	</string>
 	<string id="ui_mcm_speed_weapon">
-		<text>武器が走る速度に影響を与える</text>
+		<text>武器の種類／重量がダッシュ時の移動速度に影響</text>
 	</string>
 	<string id="ui_mcm_speed_weapon_desc">
-		<text>有効にすると、武器の種類と重量に応じて、走る速度に補正がかかります。</text>
+		<text>有効にすると、装備している武器の種類と重量に応じて、ダッシュ時の移動速度に補正が適用されます。</text>
 	</string>
 	<string id="ui_mcm_speed_debug">
-		<text>(開発者向け) 追加コンソールログ</text>
+		<text>(開発者向け) デバッグログを出力</text>
 	</string>
 	<string id="ui_mcm_speed_debug_desc">
-		<text>デバッグに使えるログを出力します。</text>
+		<text>コンソールに開発用の細かな情報を出力します。</text>
 	</string>
 
 </string_table>

@@ -2,64 +2,64 @@
 
 <string_table>
 	<string id ="ui_mcm_dii_scale">
-		<text>大きさ</text>
+		<text>アイコンの大きさ</text>
 	</string>
 	<string id ="ui_mcm_dii_scale_desc">
-		<text>すべてのアイコンの大きさを調整します。</text>
+		<text>すべてのアイコンの表示サイズを設定します。</text>
 	</string>
 	<string id ="ui_mcm_dii_show">
-		<text>表示する</text>
+		<text>アイコンの表示</text>
 	</string>
 	<string id ="ui_mcm_dii_show_desc">
-		<text>アイコンの表示をオンまたはオフに切り替えます。</text>
+		<text>アイコンの表示／非表示を切り替えます。</text>
 	</string>
 	<string id ="ui_mcm_dii_anchor_x">
 		<text>横方向の表示位置</text>
 	</string>
 	<string id ="ui_mcm_dii_anchor_x_desc">
-		<text>アイコンが配置される位置を設定します（左/右）。</text>
+		<text>アイコンの配置を設定します（左/右）。</text>
 	</string>
 	<string id ="ui_mcm_dii_anchor_y">
 		<text>縦方向の表示位置</text>
 	</string>
 	<string id ="ui_mcm_dii_anchor_y_desc">
-		<text>アイコンが配置される位置を設定します（上/下）。</text>
+		<text>アイコンの配置を設定します（上/下）。</text>
 	</string>
 	<string id ="ui_mcm_dii_offset_x">
-		<text>水平オフセット</text>
+		<text>横方向オフセット</text>
 	</string>
 	<string id ="ui_mcm_dii_offset_x_desc">
-		<text>アイコンの端からのオフセットを調整します（ピクセル単位）。他のアドオンがアイコンに情報を追加している場合に便利です。</text>
+		<text>アイコンの表示位置を水平方向にずらします（ピクセル単位）。他のアドオンがアイコンに追加情報を表示する場合に調整すると便利です。</text>
 	</string>
 	<string id ="ui_mcm_dii_offset_y">
-		<text>垂直オフセット</text>
+		<text>縦方向オフセット</text>
 	</string>
 	<string id ="ui_mcm_dii_offset_y_desc">
-		<text>アイコンの端からのオフセットを調整します（ピクセル単位）。耐久値や使用回数のバーがあるアイテムに適しています。</text>
+		<text>アイコンの表示位置を垂直方向にずらします（ピクセル単位）。耐久値や使用回数を示すバーがあるアイテムの表示調整に役立ちます。</text>
 	</string>
 	<string id ="ui_mcm_dii_spacing_x">
-		<text>水平間隔</text>
+		<text>横方向の間隔</text>
 	</string>
 	<string id ="ui_mcm_dii_spacing_x_desc">
-		<text>各アイコンの間（横）のピクセル数を調整します。</text>
+		<text>アイコン同士の横方向（列間）の表示間隔をピクセル単位で設定します。</text>
 	</string>
 	<string id ="ui_mcm_dii_spacing_y">
-		<text>垂直間隔</text>
+		<text>縦方向の間隔</text>
 	</string>
 	<string id ="ui_mcm_dii_spacing_y_desc">
-		<text>各アイコンの間（縦）のピクセル数を調整します。</text>
+		<text>アイコン同士の縦方向（行間）の表示間隔をピクセル単位で設定します。</text>
 	</string>
 	<string id ="ui_mcm_dii_limit">
-		<text>表示するアイコンの数を制限する</text>
+		<text>アイコン表示数の制限</text>
 	</string>
 	<string id ="ui_mcm_dii_limit_desc">
-		<text>表示するアイコンの数を、最大表示数に制限する機能を有効にします。</text>
+		<text>有効にすると、「最大表示数」の設定に従って、表示されるアイコンの数を制限します。</text>
 	</string>
 	<string id ="ui_mcm_dii_amount">
 		<text>最大表示数</text>
 	</string>
 	<string id ="ui_mcm_dii_amount_desc">
-		<text>このカテゴリのアイテムに表示されるアイコンの最大数を設定します。そのアイテムがここで設定した数値以上のアイコンを持っている場合、それらは表示されません。これにより、多くのステータスを持つアイテムに対する視覚的な混乱を減らすことができます。</text>
+		<text>表示するアイコンの最大数を設定します。この数を超えるとアイコンは表示されなくなり、多くのステータスを持つアイテムで見た目が煩雑になるのを防ぎます。</text>
 	</string>
 	<string id ="ui_mcm_lst_dii_right">
 		<text>右</text>

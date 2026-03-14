@@ -24,7 +24,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_distance_mcm_desc">
-		<text>高品質な地形描画の最大距離を調整します。</text>
+		<text>地形の高品質な描画が適用される最大距離を設定します。</text>
 	</string>
 
 
@@ -33,23 +33,23 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_quality_mcm_desc">
-		<text>視差効果の品質を設定します。高い設定では結果を滑らかにするためのサンプル数が増加します。</text>
+		<text>視差効果の品質を設定します。設定値を高くするとサンプル数が増加し、より滑らかな視差表現になります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_refine_mcm">
-		<text>視差効果の繊細化</text>
+		<text>視差効果の精度向上</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_refine_mcm_desc">
-		<text>視差効果を改善するための繊細化の工程を追加します。このオプションを有効にすることで、パフォーマンスを犠牲に視差効果の品質を向上させることができます。</text>
+		<text>視差効果の描画精度を向上させるための追加処理を有効にします。パフォーマンスは低下しますが、視差効果の品質が向上します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_range_mcm">
-		<text>視差効果の距離</text>
+		<text>視差効果の描画距離</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_range_mcm_desc">
-		<text>視差効果の最大描画距離を調整します。</text>
+		<text>視差効果が適用される最大描画距離を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_height_mcm">
@@ -57,24 +57,24 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_height_mcm_desc">
-		<text>視差効果の高さの最大値を調整します。</text>
+		<text>視差効果による隆起表現の最大高さを設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_water_level_mcm">
-		<text>視差の水位</text>
+		<text>水たまりの深さ</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_pom_water_level_mcm_desc">
-		<text>水たまりの深さの最大値を調整します。</text>
+		<text>水たまりの表現における最大深さを設定します。</text>
 	</string>
 
 
 	<string id="ui_mcm_ssfx_module_terrain_grass_align_mcm">
-		<text>草の地形整列（マップの再読み込みが必要）</text>
+		<text>草の地形追従（マップの再読み込みが必要）</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_grass_align_mcm_desc">
-		<text>草を地形の傾斜に沿わせます。</text>
+		<text>草が地形の傾斜に沿って表示されるようにします。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_grass_slope_mcm">
@@ -82,7 +82,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_terrain_grass_slope_mcm_desc">
-		<text>この値を超える角度の地形では、草を配置しないようにします。</text>
+		<text>設定した値を超える急な傾斜の地形には、草が表示されなくなります。</text>
 	</string>
 
 </string_table>

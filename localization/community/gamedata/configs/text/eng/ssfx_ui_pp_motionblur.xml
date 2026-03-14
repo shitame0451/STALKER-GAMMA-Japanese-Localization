@@ -21,15 +21,15 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_quality_mcm_desc">
-		<text>モーションブラー効果を生成する際に使用するサンプル数を設定します。 [ 4 - 6 - 8 - 12 ]</text>
+		<text>モーションブラーを生成する際に使用するサンプル数を設定します。 [ 4 - 6 - 8 - 12 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_intensity_mcm">
-		<text>効果の全体的な強さ</text>
+		<text>効果の強さ</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_intensity_mcm_desc">
-		<text>モーションブラー効果の強さを設定します。0にすると無効になります。</text>
+		<text>モーションブラーの全体的な強さを調整します。0に設定すると効果が無効になります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_camera_mcm">
@@ -37,7 +37,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_camera_mcm_desc">
-		<text>視点の動きによって発生するモーションブラーの強さを調整します。完全に無効化することも可能です。</text>
+		<text>視点の動きによって発生するモーションブラーの強さを調整します。完全に無効にすることも可能です。</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_hudonly_mcm">
@@ -45,7 +45,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_motionblur_hudonly_mcm_desc">
-		<text>手や武器など、HUD要素のみにモーションブラーを適用します。</text>
+		<text>手や武器といったHUD要素にのみ、モーションブラーを適用します。</text>
 	</string>
 
 </string_table>

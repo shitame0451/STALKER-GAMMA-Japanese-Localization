@@ -14,7 +14,23 @@
 	</string>
 
 	<string id="ui_mcm_3d_scopes_nvg_blur">
-		<text>Beefs NVGのナイトビジョンゴーグル使用時にスコープをぼかす</text>
+		<text>Beefs NVG使用時のスコープをぼかす</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_parallax_shadow">
+		<text>視差影を表示</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_see_through">
+		<text>レティクルと射出瞳を常に表示</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_thermal_pixelation">
+		<text>ズーム時にサーマルスコープをピクセル化</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_chromatism">
+		<text>スコープの色収差</text>
 	</string>
 
 </string_table>

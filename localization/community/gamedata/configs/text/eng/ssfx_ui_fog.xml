@@ -24,7 +24,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_fog_height_mcm_desc">
-		<text>霧の高さを調整します。数値を上げるほど、霧がより自然で滑らかに表示されます。</text>
+		<text>霧の高さを調整します。数値を高くするほど、霧がより自然で滑らかに表現されます。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_fog_density_mcm">
@@ -32,7 +32,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_fog_density_mcm_desc">
-		<text>霧の濃さを調整します。基本の設定値は天候のプリセットに依存します。</text>
+		<text>霧の濃さを調整します。この設定の基本値は、現在の天候プリセットに依存します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_fog_suncolor_mcm">
@@ -40,7 +40,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_fog_suncolor_mcm_desc">
-		<text>霧に太陽光の色味をどの程度反映させるかを調整します。</text>
+		<text>霧に太陽光の色合いがどの程度反映されるかを調整します。</text>
 	</string>
 
 
@@ -49,7 +49,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_fog_scattering_mcm_desc">
-		<text>霧の散乱効果（スキャッタリング）の量・強さを調整します。この効果により、視覚的に霧がより濃く見えるようになります。</text>
+		<text>霧の散乱効果（スキャッタリング）の量や強さを調整します。この効果を適用すると、霧が視覚的により濃く見えるようになります。</text>
 	</string>
 
 

@@ -4,7 +4,7 @@
 		<text>New Tasks Addon</text>
 	</string>
 	<string id="ui_mcm_new_tasks_addon_replayability_title">
-		<text>繰り返すタスクを設定する</text>
+		<text>繰り返し受注可能なタスク設定</text>
 	</string>
 	<string id="ui_mcm_new_tasks_addon_repl_esc_m_trader_task_new_tasks_addon_dead_night">
 		<text>デッドナイト</text>
@@ -70,10 +70,10 @@
 		<text>モノリスの計画書</text>
 	</string>
 	<string id="ui_mcm_new_tasks_addon_auto_assignment_title">
-		<text>タスクの自動割り当て</text>
+		<text>タスクの自動受注設定</text>
 	</string>
 	<string id="ui_mcm_new_tasks_addon_auto_assignment_desc">
-		<text>これらのタスクはほとんどの場合、自動割り当てによってのみ受注可能です。\nそのため、無効にすると一切受注できなくなる可能性があります。</text>
+		<text>以下のタスクは、基本的に自動で割り当てられることでしか受注できません。\nこの設定を無効にすると、これらのタスクを受注できなくなる可能性があります。</text>
 	</string>
 	<string id="ui_mcm_new_tasks_addon_auto_assignment_urgent_orders">
 		<text>緊急指令</text>

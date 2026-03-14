@@ -13,12 +13,12 @@
     </string>
 
     <string id="ui_mcm_serious_the_job_can_wait_scan_mode_override_help">
-        <text>以下の設定が適用されるのは、次のカテゴリに限られます（その他のタスクには大規模な変更が必要なため未対応です）:
-\n諜報員救出、襲撃、アノマリー計測</text>
+        <text>以下の設定は「諜報員救出」「襲撃」「アノマリー計測」のタスクにのみ適用されます。
+\n（他のタスクは大規模な改修が必要なため、現時点では対象外となります）</text>
     </string>
 
     <string id="ui_mcm_serious_the_job_can_wait_scan_mode_override">
-        <text>タスク探索範囲の上書き:</text>
+        <text>タスク検索範囲の変更:</text>
     </string>
 
     <string id="ui_mcm_lst_off">
@@ -26,15 +26,15 @@
     </string>
 
     <string id="ui_mcm_lst_same">
-        <text>現在のマップのみ</text>
+        <text>現在のマップ</text>
     </string>
 
     <string id="ui_mcm_lst_same_near">
-        <text>現在のマップ＋近隣マップ</text>
+        <text>現在のマップと近隣マップ</text>
     </string>
 
     <string id="ui_mcm_lst_near">
-        <text>近隣マップのみ</text>
+        <text>近隣マップ</text>
     </string>
 
     <string id="ui_mcm_lst_far">
@@ -42,6 +42,6 @@
     </string>
 
     <string id="ui_mcm_lst_anywhere">
-        <text>全域（進行状況に応じて）</text>
+        <text>全域（ストーリーの進行状況に応じて）</text>
     </string>
 </string_table>

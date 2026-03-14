@@ -21,7 +21,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_enabled_mcm_desc">
-		<text>テンポラルアンチエイリアス（TAA）を有効または無効にします。</text>
+		<text>テンポラルアンチエイリアス（TAA）の有効／無効を切り替えます。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_jitter_mcm">
@@ -29,7 +29,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_jitter_mcm_desc">
-		<text>静止しているオブジェクトのジャギーを軽減しますが、場合によってはちらつきが発生することがあります。</text>
+		<text>静止しているオブジェクトのジャギーを軽減します。値を上げすぎると、画面がちらつくことがあります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_sharpness_mcm">
@@ -37,7 +37,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_sharpness_mcm_desc">
-		<text>TAAの後に適用される鮮明化フィルターの強さを調整します。</text>
+		<text>TAA適用後に画面に適用される、鮮明化フィルターの強さを調整します。</text>
 	</string>
 
 

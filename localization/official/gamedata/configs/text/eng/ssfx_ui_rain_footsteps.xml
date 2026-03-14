@@ -20,40 +20,40 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_main_vol_mcm_desc">
-		<text>足音の全体の音量を調整します。</text>
+		<text>足音全体の音量を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_vol_rnd_mcm">
-		<text>音量の変動値</text>
+		<text>音量のランダム性</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_vol_rnd_mcm_desc">
-		<text>足音の音量にランダムな変動（設定値）を追加します。</text>
+		<text>足音の音量にランダムな変化を加えます。設定値が高いほど、音量の変動幅が大きくなります。</text>
 	</string>
 
 	
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_multi_no_rain_mcm">
-		<text>雨が降っていない時の音量倍率</text>
+		<text>雨上がり時の音量倍率</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_multi_no_rain_mcm_desc">
-		<text>雨が降っていないが地面がまだ濡れているときの足音の音量倍率を調整します。</text>
+		<text>雨が止んだ後、地面が濡れている場合の足音の音量倍率を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_multi_walk_mcm">
-		<text>歩いている時の音量倍率</text>
+		<text>歩行時の音量倍率</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_multi_walk_mcm_desc">
-		<text>プレイヤーが歩いているときの音量倍率を調整します。</text>
+		<text>プレイヤーが歩いている際の足音の音量倍率を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_multi_run_mcm">
-		<text>走っている時の音量倍率</text>
+		<text>走行時の音量倍率</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_multi_run_mcm_desc">
-		<text>プレイヤーが走っているときの音量倍率を調整します。</text>
+		<text>プレイヤーが走っている際の足音の音量倍率を調整します。</text>
 	</string>
 
 
@@ -62,7 +62,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_jump_vol_mcm_desc">
-		<text>ジャンプの効果音の音量を調整します。</text>
+		<text>ジャンプ時の音量を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_land_vol_mcm">
@@ -70,7 +70,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_footsteps_land_vol_mcm_desc">
-		<text>着地の効果音の音量を調整します。</text>
+		<text>着地時の音量を調整します。</text>
 	</string>
 
 

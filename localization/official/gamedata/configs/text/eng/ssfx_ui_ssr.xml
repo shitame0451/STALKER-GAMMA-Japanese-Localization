@@ -20,11 +20,11 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_quality_mcm">
-		<text>品質 ( ステップ数 )</text>
+		<text>品質 (ステップ数)</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_quality_mcm_desc">
-		<text>[再起動が必要] 反射のレンダリングに使用するステップ数。このオプションはパフォーマンスに大きく影響します。[ 8, 16, 24, 32, 48, 64 ]</text>
+		<text>[再起動が必要] 反射の描画に用いるステップ数を設定します。この設定はパフォーマンスに大きく影響します。[ 8, 16, 24, 32, 48, 64 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_render_scale_mcm">
@@ -32,7 +32,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_render_scale_mcm_desc">
-		<text>SSRレンダリングのスケール。このオプションは、エフェクトの視覚的な品質を低下させますが、パフォーマンスを向上させます。レンダリングのスケールを下げる場合は、SSRの低画質を隠すためにブラーの強度を上げることを検討してください。</text>
+		<text>SSRの描画スケールを設定します。この設定は、エフェクトの視覚的な品質を低下させる代わりに、パフォーマンスを向上させます。レンダリングスケールを下げて画質が粗くなる場合は、ブラーの強度を上げて目立たなくすることをおすすめします。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_blur_mcm">
@@ -40,7 +40,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_blur_mcm_desc">
-		<text>すべての反射をどの程度ぼかすかを設定するオプション。</text>
+		<text>すべての反射をどの程度ぼかすかを設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_temporal_mcm">
@@ -48,15 +48,15 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_temporal_mcm_desc">
-		<text>反射を安定させるためにどれだけ古いフレームを使用するかを調整します。このオプションはノイズを減らし、一般的にSSRの結果を改善するのに役立ちますが、高い値はゴーストを生成する可能性があります。</text>
+		<text>反射を安定させるため、過去のフレームをどの程度利用するかを調整します。この設定はノイズを軽減し、SSRの品質を向上させる効果がありますが、値を高くしすぎるとゴースト（残像）が発生する場合があります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_use_noise_mcm">
-		<text>ノイズを使用</text>
+		<text>ノイズ処理</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_use_noise_mcm_desc">
-		<text>SSRの再構成を改善するためにノイズを有効/無効にする。このオプションは、ブラーの値を高くして使用することをおすすめします。</text>
+		<text>SSRの再構成を改善するため、ノイズ処理を有効にします。この設定は、ブラーの値を高く設定した場合に効果的です。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_general_int_mcm">
@@ -68,11 +68,11 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_sky_int_mcm">
-		<text>空の反射強度</text>
+		<text>空（スカイボックス）の反射強度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_sky_int_mcm_desc">
-		<text>スカイボックスの反射の強さを調整します。</text>
+		<text>空（スカイボックス）の反射の強さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_weapon_int_mcm">
@@ -84,7 +84,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_weapon_int_max_mcm">
-		<text>武器の最大強度</text>
+		<text>武器の反射最大強度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssr_weapon_int_max_mcm_desc">

@@ -12,43 +12,43 @@
 		<text>スーツ／ヘッドギアの分解にスイスナイフを必要とする</text>
 	</string>
     <string id="ui_mcm_dit_outfit_knife_desc">
-        <text>この設定により、スーツやヘッドギアの分解にグルーミングキットが使用されるのを防ぐことができます。</text>
+        <text>有効にすると、スーツやヘッドギアの分解にグルーミングキットが使用されるのを防ぐことができます。</text>
 	</string>
 	<string id="ui_mcm_dit_consume_warning">
 		<text>アイテムを消費する前に警告メッセージを表示</text>
 	</string>
     <string id="ui_mcm_dit_consume_warning_desc">
-        <text>分解用アイテムを使用する際に警告メッセージを表示して防止します。</text>
+        <text>分解用アイテムの誤った消費を防ぐため、使用時に警告メッセージを表示します。</text>
 	</string>
 	<string id="ui_mcm_dit_leatherman_limit">
-		<text>マルチツールの警告メッセージを出す耐久値</text>
+		<text>マルチツールの警告メッセージを表示する耐久値</text>
 	</string>
     <string id="ui_mcm_dit_leatherman_limit_desc">
-        <text>マルチツールの警告メッセージが出る条件を設定します。</text>
+        <text>マルチツールの耐久値が設定値以下になった場合に、警告メッセージを表示します。</text>
 	</string>
 	<string id="ui_mcm_dit_swiss_limit">
-		<text>スイスナイフの警告メッセージを出す耐久値</text>
+		<text>スイスナイフの警告メッセージを表示する耐久値</text>
 	</string>
 	<string id="ui_mcm_dit_swiss_limit_desc">
-		<text>スイスナイフの警告メッセージが出る条件を設定します。</text>
+		<text>スイスナイフの耐久値が設定値以下になった場合に、警告メッセージを表示します。</text>
 	</string>
     <string id="ui_mcm_dit_grooming_limit">
-		<text>グルーミングキットの警告メッセージを出す耐久値</text>
+		<text>グルーミングキットの警告メッセージを表示する耐久値</text>
 	</string>
     <string id="ui_mcm_dit_grooming_limit_desc">
-		<text>グルーミングキットの警告メッセージが出る条件を設定します。</text>
+		<text>グルーミングキットの耐久値が設定値以下になった場合に、警告メッセージを表示します。</text>
 	</string>
     <string id="ui_mcm_dit_d_key">
 		<text>アイテムの分解に必要な修飾キー</text>
 	</string>
     <string id="ui_mcm_dit_d_key_desc">
-		<text>アイテムを分解するための修飾キーの設定します。</text>
+		<text>アイテムを分解する際に、同時に押す修飾キーを設定します。</text>
 	</string>
     <string id="ui_mcm_dit_b_key">
 		<text>アイテムの消費に必要な修飾キー</text>
 	</string>
     <string id="ui_mcm_dit_b_key_desc">
-		<text>アイテムを消費するための修飾キーの設定します。</text>
+		<text>アイテムを消費する際に、同時に押す修飾キーを設定します。</text>
 	</string>
 </string_table>
 

@@ -30,17 +30,17 @@
     </string>
 
     <string id="ui_mcm_dotmarks_dmarkmods_hf_add_primary_pickup">
-        <text>家具アイテムを拾うメイン操作を追加</text>
+        <text>家具アイテムを拾う操作を追加</text>
     </string>
     <string id="ui_mcm_dotmarks_dmarkmods_hf_add_primary_pickup_desc">
-        <text>Hideout Furnitureのアイテムの多く（ベッドや照明など）には、すでにメイン操作が割り当てられています。このオプションを有効にすると、家具にメイン操作が設定されていない場合、Dot Marksによって即座に拾えるメイン操作が追加されます。これにより、長押しでメニューを開かなくても拾うことができます。</text>
+        <text>有効にすると、Hideout Furnitureのアイテムを長押しでメニューを開く手間なく、メイン操作で直接拾えるようになります。多くのHideout Furnitureアイテム（ベッドや照明など）にはすでにメイン操作が割り当てられていますが、この設定により、メイン操作が設定されていない家具にもDot Marksの「拾う」操作が追加されます。</text>
     </string>
 
     <string id="ui_mcm_dotmarks_dmarkmods_hf_show_default_secmenu">
         <text>Hideout Furnitureの標準メニューの操作を表示</text>
     </string>
     <string id="ui_mcm_dotmarks_dmarkmods_hf_show_default_secmenu_desc">
-        <text>この設定を有効にすると、Dot Marksによってサブ操作が追加されていないアイテムに対して、Hideout Furnitureの標準メニュー（通常はメイン操作キーの長押しで開く）にアクセスするためのサブ操作ガイドを表示します。</text>
+        <text>有効にすると、Dot Marksがサブ操作を追加していないHideout Furnitureのアイテムに、標準メニュー（通常はメイン操作キーの長押しで開く）へのアクセスをサブ操作ガイドとして表示します。</text>
     </string>
 
 </string_table>

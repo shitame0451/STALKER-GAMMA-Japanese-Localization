@@ -24,7 +24,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_quality_mcm_desc">
-		<text>[再起動が必要] アンビエントオクルージョンのレンダリングに使用するサンプルの量を設定します。「高」設定はパフォーマンスに大きく影響します。 [ 2, 4, 8 ]</text>
+		<text>[再起動が必要] アンビエントオクルージョンの描画に使用するサンプル数を設定します。「高」設定はパフォーマンスへの影響が大きくなります。 [ 2, 4, 8 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_res_mcm">
@@ -32,7 +32,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_res_mcm_desc">
-		<text>アンビエントオクルージョンのレンダリング解像度を調整します。</text>
+		<text>アンビエントオクルージョンの描画解像度を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_distance_mcm">
@@ -40,7 +40,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_distance_mcm_desc">
-		<text>アンビエントオクルージョンがレンダリングされる最大距離を調整します。</text>
+		<text>アンビエントオクルージョンが適用される最大距離を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_blur_mcm">
@@ -48,47 +48,47 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_blur_mcm_desc">
-		<text>アンビエントオクルージョンの結果をぼかすため、基本となるブラーの強度を調整します。</text>
+		<text>アンビエントオクルージョンを滑らかにするブラーの強度を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_radius_mcm">
-		<text>全般的な半径の大きさ</text>
+		<text>アンビエントオクルージョンの距離</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_radius_mcm_desc">
-		<text>ピクセルに対するオクルージョンの最大距離を調整します。拡大する場合は、効果の強度を調整する必要があります。</text>
+		<text>ピクセル単位でのオクルージョンの最大距離を設定します。距離を増やす場合はアンビエントオクルージョンの強度も調整が必要になる場合があります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_max_occ_mcm">
-		<text>オクルージョンの最大値</text>
+		<text>アンビエントオクルージョンの最大値</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_max_occ_mcm_desc">
-		<text>ピクセルに対するオクルージョンの最大値 [ 0.0 = 真っ黒 ]</text>
+		<text>ピクセル単位でのアンビエントオクルージョンの最大値を設定します。 [ 0.0 = 完全な黒 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_global_int_mcm">
-		<text>全般的なアンビエントオクルージョンの強さ</text>
+		<text>アンビエントオクルージョンの強度（全体）</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_global_int_mcm_desc">
-		<text>アンビエントオクルージョンの強度を調整します。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
+		<text>アンビエントオクルージョン全体の強度を設定します。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_hud_int_mcm">
-		<text>HUDの強度</text>
+		<text>HUD要素に対する強度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_hud_int_mcm_desc">
-		<text>HUD要素（武器や腕など）にかかるエフェクトの強度を調整します。この設定は全般的なアンビエントオクルージョンの強さに対しての割合となります。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
+		<text>HUD要素（武器や腕など）に適用されるアンビエントオクルージョンの強度を設定します。この値は、全体のアンビエントオクルージョン強度に対する割合で適用されます。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_flora_int_mcm">
-		<text>植物類の強度</text>
+		<text>植物に対する強度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ao_flora_int_mcm_desc">
-		<text>植物（草や木など）にかかるエフェクトの強度を調整します。この設定は全般的なアンビエントオクルージョンの強さに対しての割合となります。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
+		<text>植物（草や木など）に適用されるアンビエントオクルージョンの強度を設定します。この値は、全体のアンビエントオクルージョン強度に対する割合で適用されます。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
 	</string>
 
 </string_table>

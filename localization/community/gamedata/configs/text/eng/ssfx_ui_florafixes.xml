@@ -33,7 +33,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_sss_color_mcm_desc">
-		<text>植物のサブサーフェススキャッタリングに追加される太陽の色の割合を調整します。1.0は太陽の色を100%反映します。</text>
+		<text>植物のサブサーフェススキャッタリングに、太陽光の色をどの程度反映させるかを設定します。値を1.0にすると、太陽光の色が100%適用されます。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_grass_specular_mcm">
@@ -41,7 +41,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_grass_specular_mcm_desc">
-		<text>草が乾いている時の鏡面反射の値を調整します。値を調整する際は注意が必要で、小さな変更を試して結果を確認してください。</text>
+		<text>草が乾いているときの鏡面反射の強さを調整します。値を変更する際は少しずつ調整し、見た目の変化を確認しながら慎重に行ってください。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_grass_specular_wet_mcm">
@@ -49,23 +49,23 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_grass_specular_wet_mcm_desc">
-		<text>草が濡れている時の鏡面反射の値を調整します。値を調整する際は注意が必要で、小さな変更を試して結果を確認してください。</text>
+		<text>草が濡れているときの鏡面反射の強さを調整します。値を変更する際は少しずつ調整し、見た目の変化を確認しながら慎重に行ってください。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_trees_specular_mcm">
-		<text>木/低木の鏡面反射度</text>
+		<text>木／茂みの鏡面反射度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_trees_specular_mcm_desc">
-		<text>木や低木が乾いている時の鏡面反射の値を調整します。値を調整する際は注意が必要で、小さな変更を試して結果を確認してください。</text>
+		<text>木や茂みが乾いているときの鏡面反射の強さを調整します。値を変更する際は少しずつ調整し、見た目の変化を確認しながら慎重に行ってください。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_trees_specular_wet_mcm">
-		<text>濡れた木/低木の鏡面反射度</text>
+		<text>濡れた木／茂みの鏡面反射度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_florafixes_trees_specular_mcm_desc">
-		<text>木や低木が濡れている時の鏡面反射の値を調整します。値を調整する際は注意が必要で、小さな変更を試して結果を確認してください。</text>
+		<text>木や茂みが濡れているときの鏡面反射の強さを調整します。値を変更する際は少しずつ調整し、見た目の変化を確認しながら慎重に行ってください。</text>
 	</string>
 
 

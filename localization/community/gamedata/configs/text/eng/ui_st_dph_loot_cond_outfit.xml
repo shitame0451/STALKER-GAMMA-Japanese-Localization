@@ -13,89 +13,89 @@
 		<text>ゾンビストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_zombied_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_zombied_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_outfit_novice_header">
 		<text>初級ストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_novice_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_novice_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_outfit_trainee_header">
 		<text>訓練されたストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_trainee_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_trainee_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_outfit_experienced_header">
 		<text>経験豊富なストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_experienced_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_experienced_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_outfit_professional_header">
 		<text>プロストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_professional_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_professional_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_outfit_veteran_header">
 		<text>ベテランストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_veteran_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_veteran_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_outfit_expert_header">
 		<text>エキスパートストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_expert_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_expert_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_outfit_master_header">
 		<text>マスターストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_master_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_master_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 	<!-- //// -->
 	<string id="ui_mcm_dph_loot_cond_outfit_legend_header">
 		<text>レジェンドストーカー</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_legend_min">
-		<text>最小コンディション</text>
+		<text>最小耐久値</text>
 	</string>
 	<string id="ui_mcm_dph_loot_cond_outfit_legend_max">
-		<text>最大コンディション</text>
+		<text>最大耐久値</text>
 	</string>
 </string_table>

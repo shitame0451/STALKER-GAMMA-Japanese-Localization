@@ -10,19 +10,19 @@
 	</string>
 
 	<string id="ui_mcm_smooth_prog_tier1">
-		<text>Tier 1 アップグレード価格倍率</text>
+		<text>ティア1アップグレード価格倍率</text>
 	</string>
 	<string id="ui_mcm_smooth_prog_tier2">
-		<text>Tier 2 アップグレード価格倍率</text>
+		<text>ティア2アップグレード価格倍率</text>
 	</string>
 	<string id="ui_mcm_smooth_prog_tier3">
-		<text>Tier 3 アップグレード価格倍率</text>
+		<text>ティア3アップグレード価格倍率</text>
 	</string>
 	<string id="ui_mcm_smooth_prog_wpn_upgr_mult">
 		<text>銃のアップグレード価格倍率</text>
 	</string>
 	<string id="ui_mcm_desc_smooth">
-		<text>変更を適用するにはゲームを保存してから読み込んでください！</text>
+		<text>変更を適用するにはゲームをセーブしてからロードし直してください！</text>
 	</string>
 
 </string_table>

@@ -20,27 +20,27 @@
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_size_1_mcm">
-		<text>近距離カスケードサイズ</text>
+		<text>近距離カスケードのサイズ</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_size_1_mcm_desc">
-		<text>太陽が落とす影の品質を向上させるためには、より低い値を使用してみてください。</text>
+		<text>値を下げることで、太陽光による近距離の影の品質が向上します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_shw_cascades_size_2_mcm">
-		<text>中距離カスケードサイズ</text>
+		<text>中距離カスケードのサイズ</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_shw_cascades_size_2_mcm_desc">
-		<text>太陽が落とす影の品質を向上させるためには、より低い値を使用してみてください。</text>
+		<text>値を下げることで、太陽光による中距離の影の品質が向上します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_shw_cascades_size_3_mcm">
-		<text>遠距離カスケードサイズ</text>
+		<text>遠距離カスケードのサイズ</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_size_3_mcm_desc">
-		<text>このカスケードは太陽が落とす影の最終的なレンダリング距離を定義します。低い値はパフォーマンスを向上させますが、高い値は遠くの影の品質を向上させ、その代わりにパフォーマンスが低下します。</text>
+		<text>太陽光による影の最終的な描画距離を設定します。値を下げるほどパフォーマンスは向上しますが、遠景の影の品質は低下します。逆に、値を上げると遠景の影の品質は向上しますが、パフォーマンスに影響します。</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_quality_mcm">
@@ -48,11 +48,11 @@
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_quality_mcm_desc">
-		<text>[低] 近距離のみ影を投影します。Anomalyのデフォルトの動作。\n[中] 近距離と中距離のみ影を投影します。\n[高] すべての距離で影を投影し、太陽のボリュメトリックレイによる影響も受けます。\n[ウルトラ] すべての光源が草の影を投影します。</text>
+		<text>[低] 近距離のみ草の影を描画します。Anomalyの標準動作です。\n[中] 近距離と中距離の草の影を描画します。\n[高] すべての距離で草の影を描画し、太陽のボリュメトリックレイの影響も受けます。\n[ウルトラ] すべての光源が草の影を描画します。</text>
 	</string>
 	
 	<string id="ui_mcm_lst_shw_cascades_low">
-		<text>低 (バニラAnomalyと同じ)</text>
+		<text>低 (Anomalyの標準動作)</text>
 	</string>
 	
 	<string id="ui_mcm_lst_shw_cascades_medium">
@@ -64,23 +64,23 @@
 	</string>
 	
 	<string id="ui_mcm_lst_shw_cascades_ultra">
-		<text>ウルトラ (大きくパフォーマンスに影響)</text>
+		<text>ウルトラ (パフォーマンスに大きな影響)</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_distance_mcm">
-		<text>草の影のレンダリング距離 (太陽光)</text>
+		<text>草の影の描画距離 (太陽光)</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_distance_mcm_desc">
-		<text>この値は太陽による草の影のレンダリング距離を調整します。低い値はパフォーマンスを向上させます。</text>
+		<text>太陽光による草の影の描画距離を調整します。パフォーマンスを向上させたい場合は、値を下げてください。</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_nondir_maxdistance_mcm">
-		<text>草の影の最大レンダリング距離</text>
+		<text>非指向性ライトによる草の影の描画距離</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_nondir_maxdistance_mcm_desc">
-		<text>[ウルトラ設定のみ] この値は非方向性のライトによる草の影のレンダリング距離を調整します。低い値はパフォーマンスを向上させますが、視覚的な問題を引き起こす可能性があります。</text>
+		<text>[ウルトラ設定のみ] 非指向性ライトによる草の影の描画距離を調整します。パフォーマンスを向上させるには値を下げてください。ただし、視覚的な不具合が発生する場合があります。</text>
 	</string>
 	
 </string_table>

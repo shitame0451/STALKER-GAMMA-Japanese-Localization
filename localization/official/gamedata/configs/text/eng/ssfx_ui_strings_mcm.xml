@@ -20,7 +20,7 @@
 
 	<!-- Rain Module Buttons -->
 	<string id="ui_mcm_menu_ssfx_rain_module">
-		<text>雨の改善</text>
+		<text>雨の表現</text>
 	</string>
 
 	<string id="ui_mcm_menu_ssfx_rain_main">
@@ -32,7 +32,7 @@
 	</string>
 
 	<string id="ui_mcm_menu_ssfx_rain_hud_raindrops">
-		<text>HUDの雨粒</text>
+		<text>HUD要素</text>
 	</string>
 	
 	<!-- PP Modules Buttons -->
@@ -55,7 +55,7 @@
 	<!-- -->
 
 	<string id="ui_mcm_menu_ssfx_wetness">
-		<text>濡れたオブジェクト</text>
+		<text>濡れ表現</text>
 	</string>
 
 	<string id="ui_mcm_menu_ssfx_gloss">

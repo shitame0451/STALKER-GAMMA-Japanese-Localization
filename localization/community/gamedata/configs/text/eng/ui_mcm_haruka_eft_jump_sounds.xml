@@ -11,6 +11,6 @@
 		<text>音量</text>
 	</string>
 	<string id="ui_mcm_eft_jump_sounds_volume_desc">
-		<text>ジャンプ/着地の音量を設定します。</text>
+		<text>ジャンプや着地時の効果音の音量を調整します。</text>
 	</string>
 </string_table>

@@ -16,19 +16,19 @@
 
 	<!-- Gloss Settings -->
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_buildup_speed_mcm">
-		<text>潤い度 - 蓄積速度</text>
+		<text>水濡れ度 - 蓄積速度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_buildup_speed_mcm_desc">
-		<text>値が高いほど、潤い度の蓄積が速くなります。（水たまりや湿った表面など）</text>
+		<text>水たまりや湿った表面などが濡れていく速度を調整します。値を高くすると、より速く水濡れ度が蓄積されます。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_dry_speed_mcm">
-		<text>潤い度 - 乾燥速度</text>
+		<text>水濡れ度 - 乾燥速度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_dry_speed_mcm_desc">
-		<text>乾燥時間。数値が高いほど、潤い度の乾燥が速くなります。（水たまりや湿った表面など）</text>
+		<text>水たまりや湿った表面などが乾燥する速度を調整します。値を高くすると、より速く乾燥します。</text>
 	</string>
 
 
@@ -37,7 +37,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_size_mcm_desc">
-		<text>雨の波紋の大きさを調整します。値が高いほど、雨の波紋のサイズが大きくなります。</text>
+		<text>雨が降った際にできる波紋の大きさを調整します。値を高くすると、波紋がより大きく表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_speed_mcm">
@@ -45,7 +45,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_speed_mcm_desc">
-		<text>雨の波紋アニメーションの速度を調整します。（雨の強度が基本速度を定義します）</text>
+		<text>雨の波紋のアニメーション速度を調整します。（雨の強度によって基本速度が決まります）</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_min_speed_mcm">
@@ -53,7 +53,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_min_speed_mcm_desc">
-		<text>雨の波紋アニメーションの最小速度を調整します。</text>
+		<text>雨の波紋のアニメーションの最小速度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_intensity_mcm">
@@ -61,57 +61,57 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_ripples_intensity_mcm_desc">
-		<text>雨の波紋の強度を調整します。</text>
+		<text>雨の波紋の視覚的な強度を調整します。</text>
 	</string>
 
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_size_mcm">
-		<text>流れる水の大きさ</text>
+		<text>流れる雨水の大きさ</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_size_mcm_desc">
-		<text>雨水が流れ落ちていく効果の大きさを調整します。値が高いほど、サイズが大きくなります。</text>
+		<text>壁面などを伝って流れ落ちる雨水の表現の大きさを調整します。値を高くすると、より大きく表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_speed_mcm">
-		<text>流れる水の速度</text>
+		<text>流れる雨水の速度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_speed_mcm_desc">
-		<text>雨水が流れ落ちていく効果の落下速度を調整します。（雨の強度が基本速度を定義します）</text>
+		<text>壁面などを伝って流れ落ちる雨水の表現の落下速度を調整します。（雨の強度によって基本速度が決まります）</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_min_speed_mcm">
-		<text>流れる水の最小速度</text>
+		<text>流れる雨水の最小速度</text>
 	</string>
 	
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_min_speed_mcm_desc">
-		<text>雨水が流れ落ちていく効果の最小速度を調整します。</text>
+		<text>壁面などを伝って流れ落ちる雨水の表現の最小速度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_intensity_mcm">
-		<text>流れる水の強度</text>
+		<text>流れる雨水の強度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_waterfall_intensity_mcm_desc">
-		<text>雨水が流れ落ちていく効果の強度を定義します。</text>
+		<text>壁面などを伝って流れ落ちる雨水の表現の視覚的な強度を調整します。</text>
 	</string>
 
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_cover_res_mcm">
-		<text>雨による被覆効果の解像度</text>
+		<text>水濡れ表現の解像度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_cover_res_mcm_desc">
-		<text>雨による被覆効果のレンダリング解像度を定義します。値が高いほど鮮明になりますが、パフォーマンスに影響を与えます。</text>
+		<text>水濡れ表現のレンダリング解像度を調整します。値を高くするとより鮮明になりますが、パフォーマンスに影響を与える場合があります。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_cover_distance_mcm">
-		<text>雨による被覆効果の描写距離</text>
+		<text>水濡れ表現の描画距離</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_wet_surf_cover_distance_mcm_desc">
-		<text>雨による被覆効果のレンダリング距離を定義します。高い値はパフォーマンスに影響を与えます。</text>
+		<text>水濡れ表現のレンダリング距離を調整します。値を高くするとより遠くまで描画されますが、パフォーマンスに影響を与える場合があります。</text>
 	</string>
 
 	<!-- Resolution Combobox -->
@@ -120,7 +120,7 @@
 	</string>
 
 	<string id="ui_mcm_lst_ssfx_cover_128">
-		<text>128 (推奨)</text>
+		<text>128（推奨）</text>
 	</string>
 
 	<string id="ui_mcm_lst_ssfx_cover_256">

@@ -4,7 +4,7 @@
 		<text>%sするには焚き火の近くにいる必要がある</text>
 	</string>
 	<string id="st_ui_no_save_campfire_base">
-		<text>%sするには焚き火の近くや友好的な拠点にいる必要がある</text>
+		<text>%sするには焚き火の近くか友好的な拠点にいる必要がある</text>
 	</string>
 	<string id="st_ui_no_save_campfire_unlit">
 		<text>薪に火がついていなければ%sはできない</text>
@@ -28,31 +28,31 @@
 		<text>キャンプファイヤーセーブを有効化</text>
 	</string>
 	<string id="ui_mcm_yasc_enableCampfireSaving_desc">
-		<text>火のついた焚き火の近くや友好的な基地内でのみセーブすることができます。</text>
+		<text>火のついた焚き火の近くや友好的な派閥の拠点内でのみセーブが可能になります。</text>
 	</string>
 	<string id="ui_mcm_yasc_allowNeutralBases">
-		<text>中立基地の有効化</text>
+		<text>中立拠点でのセーブを許可</text>
 	</string>
 	<string id="ui_mcm_yasc_allowNeutralBases_desc">
-		<text>好感度次第で、他の派閥の拠点でセーブすることができます。</text>
+		<text>友好度に応じて、他派閥の拠点内でのセーブが可能になります。</text>
 	</string>
 	<string id="ui_mcm_yasc_allowSanctuaries">
-		<text>聖域の有効化</text>
+		<text>聖域でのセーブを許可</text>
 	</string>
 	<string id="ui_mcm_yasc_allowSanctuaries_desc">
-		<text>特定の影響力のある個人は、良好な関係であれば、彼らの住居内でセーブを許可します。</text>
+		<text>良好な関係を築いている場合に限り、特定の重要人物の拠点内でのセーブが可能になります。</text>
 	</string>
 	<string id="ui_mcm_yasc_enableNotifications">
-		<text>トークン通知を有効化</text>
+		<text>セーブトークンの通知を有効化</text>
 	</string>
 	<string id="ui_mcm_yasc_enableNotifications_desc">
-		<text>無料セーブトークンが付与されるまでの残り時間が通知されます。</text>
+		<text>無料セーブトークンが付与されるまでの残り時間を通知します。</text>
 	</string>
 	<string id="ui_mcm_yasc_isNotMommy">
-		<text>マミーじゃない</text>
+		<text>Mommyではない</text>
 	</string>
 	<string id="ui_mcm_yasc_isNotMommy_desc">
-		<text>あなたは「ダディ」として認識されます。</text>
+		<text>あなたは「Daddy」として認識されます。</text>
 	</string>
 	<string id="mommy_true">
 		<text>Mommy</text>

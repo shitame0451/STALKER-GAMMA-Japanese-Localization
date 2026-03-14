@@ -20,7 +20,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_quality_mcm_desc">
-		<text>低: 基本的な屈折のレンダリング\n中: 基本的なレンダリングに誤った屈折の破棄を追加\n高: 余分な反射サンプルを含む完全な屈折</text>
+		<text>低: 基本的な屈折効果\n中: 基本的な屈折効果に加え、不要な屈折処理を削減\n高: より多くの反射サンプルを含む、完全な屈折効果</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_max_drops_mcm">
@@ -28,15 +28,15 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_max_drops_mcm_desc">
-		<text>雨のエフェクトを作成するために使用されるパーティクルの最大量を調整します。バニラ: 2500</text>
+		<text>雨のエフェクトを構成するパーティクルの最大数を調整します。バニラ: 2500</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_radius_mcm">
-		<text>雨の範囲</text>
+		<text>雨の表示範囲</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_radius_mcm_desc">
-		<text>雨のエミッターの範囲を調整します。バニラ: 15</text>
+		<text>雨が降る範囲を調整します。バニラ: 15</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_speed_mcm">
@@ -60,7 +60,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_width_mcm_desc">
-		<text>雨粒の横幅を調整します。</text>
+		<text>雨粒の幅を調整します。</text>
 	</string>
 
 
@@ -69,7 +69,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_alpha_mcm_desc">
-		<text>効果の全体的な透明度を調整します。</text>
+		<text>雨全体の透明度を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_brightness_mcm">

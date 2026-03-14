@@ -5,18 +5,18 @@
 	</string>
 
     <string id="ui_mcm_menu_npc_wounded_anim_fix">
-        <text>NPC負傷時の修正</text>
+        <text>NPC負傷時の挙動調整</text>
     </string>
 	<string id="ui_mcm_tmmr_npc_wounded_anim_fix_title">
-		<text>NPC負傷時の修正</text>
+		<text>NPC負傷時の挙動調整設定</text>
 	</string>
 	<string id="ui_mcm_tmmr_npc_wounded_anim_fix_handle_weapon">
-		<text>NPCの武器に対する処理</text>
+		<text>負傷時の武器の扱い</text>
 	</string>
     <string id="ui_mcm_tmmr_npc_wounded_anim_fix_handle_weapon_desc">
-		<text>インベントリ - NPCのインベントリに転送する
-\nドロップ - 地面に落とす
-\nアドオンに適応 - 「Weapons Drop on Bodies」がインストールされている場合、NPCのインベントリに転送する</text>
+		<text>インベントリ - NPCのインベントリに武器を移動させます。
+\nドロップ - 武器をその場に落とします。
+\nアドオンに適応 - 「Weapons Drop on Bodies」アドオンが導入されている場合、そのアドオンの挙動に従い、NPCのインベントリに武器を移動させます。</text>
 	</string>
 	
     <string id="ui_mcm_lst_tmmr_inv_weapon">

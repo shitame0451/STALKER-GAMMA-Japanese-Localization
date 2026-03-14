@@ -48,143 +48,142 @@
 		<text>その他の設定</text>
 	</string>
 	<string id="ui_mcm_liz_inex_lean_l_power">
-		<text>左リーン時のアニメーションの大きさ</text>
+		<text>左リーン時のアニメーション強度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_lean_r_power">
-		<text>右リーン時のアニメーションの大きさ</text>
+		<text>右リーン時のアニメーション強度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_lean_crouch_power">
-		<text>しゃがみ時のアニメーションの大きさ</text>
+		<text>しゃがみ時のアニメーション強度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_jumpland_jump_speed">
 		<text>ジャンプアニメーションの速度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_jumpland_jump_speed_desc">
-		<text>ジャンプ時のアニメーションの速度です。
-\n値が高いほどアニメーションが速くなります。</text>
+		<text>ジャンプ時のアニメーション速度を調整します。
+\n値を高くすると、アニメーションが速くなります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_jumpland_jump_power">
 		<text>ジャンプアニメーションの振幅</text>
 	</string>
 	<string id="ui_mcm_liz_inex_jumpland_jump_power_desc">
-		<text>ジャンプ時のアニメーションがどの程度強く表現されるかを設定します。
-\n値が高いほど、アニメーションの振幅が大きくなります。
-\n値が0の場合、ジャンプアニメーションはオフになります。</text>
+		<text>ジャンプ時のアニメーションの動きの強さを調整します。
+\n値を高くすると、アニメーションの振幅が大きくなります。
+\n値を0にすると、ジャンプアニメーションは無効になります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_jumpland_land_speed">
 		<text>着地アニメーションの速度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_jumpland_land_speed_desc">
-		<text>着地時のアニメーションの速度です。
-\n値が高いほどアニメーションが速くなります。</text>
+		<text>着地時のアニメーション速度を調整します。
+\n値を高くすると、アニメーションが速くなります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_jumpland_land_power">
 		<text>着地アニメーションの振幅</text>
 	</string>
 	<string id="ui_mcm_liz_inex_jumpland_land_power_desc">
-		<text>着地アニメーションがどの程度強く表現されるかを設定します。
-\n値が高いほど、アニメーションの振幅が大きくなります。
-\n値が0の場合、着地アニメーションはオフになります。</text>
+		<text>着地時のアニメーションの動きの強さを調整します。
+\n値を高くすると、アニメーションの振幅が大きくなります。
+\n値を0にすると、着地アニメーションは無効になります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_crouch_jitter_blocket_by_aim">
-		<text>エイム中のしゃがみ揺れを無効にする</text>
+		<text>エイム中のしゃがみ揺れを停止</text>
 	</string>
 	<string id="ui_mcm_liz_inex_crouch_jitter_blocket_by_aim_desc">
-		<text>しゃがみ時に武器がわずかに揺れるため、エイムに支障をきたすことがあります。
-\nこのオプションを使用すると、エイム中にしゃがみ時の揺れアニメーションを再生しないようにできます。</text>
+		<text>しゃがみ時に武器がわずかに揺れることで、エイムに影響を与える場合があります。
+\nこのオプションを有効にすると、エイム中はしゃがみ時の揺れアニメーションが再生されなくなります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_crouch_jitter_speed">
 		<text>しゃがみ揺れの速度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_crouch_jitter_speed_desc">
-		<text>しゃがみ時に武器がどの程度速く揺れるかを調整します。
-\n値が高いほどアニメーションが速くなります。</text>
+		<text>しゃがみ時に武器が揺れる速度を調整します。
+\n値を高くすると、アニメーションが速くなります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_crouch_jitter_power">
 		<text>しゃがみ揺れの振幅</text>
 	</string>
 	<string id="ui_mcm_liz_inex_crouch_jitter_power_desc">
-		<text>しゃがみ時の揺れアニメーションがどの程度強く表現されるかを設定します。
-\n値が高いほど、アニメーションの振幅が大きくなります。
-\n値が0の場合、しゃがみ揺れアニメーションはオフになります。</text>
+		<text>しゃがみ時の揺れアニメーションの動きの強さを調整します。
+\n値を高くすると、アニメーションの振幅が大きくなります。
+\n値を0にすると、しゃがみ揺れアニメーションは無効になります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_noise_only_for_weapon">
-		<text>武器を使用している時のみ揺れアニメーションを再生する</text>
+		<text>武器使用時のみ手の揺れアニメーションを再生</text>
 	</string>
 	<string id="ui_mcm_liz_inex_noise_only_for_weapon_desc">
-		<text>手の揺れアニメーションは、PDAを使用しているときに煩わしい場合があります。
-\nこのオプションを有効にすると、武器のみにこのアニメーションを再生し、PDAやその他のデバイスを使用している際に干渉しないようにします。</text>
+		<text>手の揺れアニメーションは、PDAなどのデバイスを使用している際に邪魔になる場合があります。
+\nこのオプションを有効にすると、武器使用時のみこのアニメーションが再生され、他のデバイス使用時には再生されないようにします。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_noise_speed">
 		<text>ランダムな揺れの速度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_noise_speed_desc">
-		<text>人間は完全に静止することはできません。このアニメーションはキャラクターの腕にわずかな揺れを加えます。
-\nこのオプションでは、揺れアニメーションの速度を設定します。
-\n値が高いほど、アニメーションが速くなります。</text>
+		<text>人間は完全に静止することはできません。
+\nこのオプションでは、キャラクターの腕にわずかな揺れを表現するアニメーションの速度を調整します。
+\n値を高くすると、アニメーションが速くなります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_noise_power">
 		<text>ランダムな揺れの振幅</text>
 	</string>
 	<string id="ui_mcm_liz_inex_noise_power_desc">
-		<text>人間は完全に静止することはできません。このアニメーションはキャラクターの腕にわずかな揺れを加えます。
-\nこのオプションでは、揺れアニメーションがどの程度強く表現されるかを設定します。
-\n値が高いほど、アニメーションの振幅が大きくなります。
-\n値を0にすると、このアニメーションはオフになります。</text>
+		<text>人間は完全に静止することはできません。
+\nこのオプションでは、キャラクターの腕にわずかな揺れを表現するアニメーションの動きの強さを調整します。
+\n値を高くすると、アニメーションの振幅が大きくなります。
+\n値を0にすると、このアニメーションは無効になります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_only_for_weapon">
-		<text>武器を使用している時のみ呼吸の揺れアニメーションを再生する</text>
+		<text>武器使用時のみ呼吸による揺れアニメーションを再生</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_only_for_weapon_desc">
-		<text>呼吸に伴う腕の揺れアニメーションは、PDAを使用しているときに煩わしい場合があります。
-\nこのオプションを有効にすると、武器のみにこのアニメーションを再生し、PDAやその他のデバイスを使用している際に干渉しないようにします。</text>
+		<text>呼吸に伴う腕の揺れアニメーションは、PDAなどのデバイスを使用している際に邪魔になる場合があります。
+\nこのオプションを有効にすると、武器使用時のみこのアニメーションが再生され、他のデバイス使用時には再生されないようにします。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_speed_min">
-		<text>休息時の呼吸速度</text>
+		<text>落ち着いた状態での呼吸速度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_speed_min_desc">
-		<text>落ち着いた状態での呼吸アニメーションの速度です。
-\n値が高いほどアニメーションが速くなります。</text>
+		<text>落ち着いた状態での呼吸アニメーションの速度を調整します。
+\n値を高くすると、アニメーションが速くなります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_speed_max">
-		<text>スタミナが低い時の呼吸速度</text>
+		<text>スタミナが低い状態での呼吸速度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_speed_max_desc">
-		<text>スタミナが低い時の呼吸アニメーションの速度です。
-\n値が高いほど、アニメーションが速くなります。</text>
+		<text>スタミナが低い状態での呼吸アニメーションの速度を調整します。
+\n値を高くすると、アニメーションが速くなります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_power_min">
-		<text>休息時の呼吸振幅</text>
+		<text>落ち着いた状態での呼吸の振幅</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_power_min_desc">
-		<text>落ち着いた状態で呼吸アニメーションがどの程度強く表現されるかを設定します。
-\n値が高いほど、アニメーションの振幅が大きくなります。
-\n値を0にすると、キャラクターのスタミナが満タンの時に呼吸アニメーションがオフになります。</text>
+		<text>落ち着いた状態での呼吸アニメーションの動きの強さを調整します。
+\n値を高くすると、アニメーションの振幅が大きくなります。
+\n値を0にすると、スタミナが満タンの時に呼吸アニメーションは無効になります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_power_max">
-		<text>スタミナが低い時の呼吸振幅</text>
+		<text>スタミナが低い状態での呼吸の振幅</text>
 	</string>
 	<string id="ui_mcm_liz_inex_breathing_power_max_desc">
-		<text>スタミナが低い時に呼吸アニメーションがどの程度強調されるかを設定します。
-\n値が高いほど、アニメーションの振幅が大きくなります。
-\n値を0にすると、スタミナが低い時に呼吸アニメーションがオフになります。</text>
+		<text>スタミナが低い状態での呼吸アニメーションの動きの強さを調整します。
+\n値を高くすると、アニメーションの振幅が大きくなります。
+\n値を0にすると、スタミナが低い時に呼吸アニメーションは無効になります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_look_up_enabled">
-		<text>上を向いた時に武器を下げる</text>
+		<text>見上げた際に武器を下ろす</text>
 	</string>
 	<string id="ui_mcm_liz_inex_look_up_trigger_at">
-		<text>上を向くアニメーションが始まる角度</text>
+		<text>武器を下ろすアニメーションが始まる角度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_look_up_trigger_at_desc">
-		<text>武器モデルが下がり始めるためにどの程度上を向く必要があるかを設定します。
-\n値が高いほど、アニメーションを開始するためにさらに上を向く必要があります。</text>
+		<text>武器モデルが下がり始めるまでに、どの程度見上げる必要があるかを調整します。
+\n値を高くすると、アニメーションを開始するためにより大きく見上げる必要があります。</text>
 	</string>
 	<string id="ui_mcm_liz_inex_look_up_power">
-		<text>上を向いた時のアニメーション強度</text>
+		<text>見上げた際の武器アニメーション強度</text>
 	</string>
 	<string id="ui_mcm_liz_inex_other_device_lean_enable">
-		<text>リーン時に武器と一緒に検出器が動く
-</text>
+		<text>リーン時に検出器が武器に追従する</text>
 	</string>
 	<string id="ui_mcm_liz_inex_other_hit_anm_enable">
 		<text>ダメージを受けた際の反応アニメーション</text>
@@ -199,11 +198,11 @@
     </string>
 
     <string id="ui_mcm_liz_inex_other_crawl_can_shoot_desc">
-        <text>一部の武器（例: ポンプアクションショットガンやスナイパーライフル）には射撃時に排莢動作のアニメーションがあります。匍匐中にこうした武器を射撃すると不自然に見える可能性があります。
-\nこの問題を解決するためにいくつかのオプションを用意しました:
-\n- 匍匐中に武器を撃つことができる
-\n- 特定のポンプアクションショットガンやスナイパーライフルのみ匍匐中に撃つことができる
-\n- 匍匐中に武器を撃つことができない</text>
+        <text>一部の武器（例：ポンプアクションショットガンやスナイパーライフル）は、射撃時に排莢動作のアニメーションがあります。匍匐中にこれらの武器を射撃すると、不自然な動きになる場合があります。
+\nこの問題を解決するため、以下のオプションから選択できます：
+\n- 匍匐中でもすべての武器で発砲可能
+\n- 一部の武器（特定のポンプアクションショットガンやスナイパーライフル）のみ発砲可能
+\n- 匍匐中は発砲不可</text>
     </string>
 
     <string id="ui_mcm_liz_inex_crawl_shoot_handle_type_all">
@@ -215,7 +214,7 @@
     </string>
 
     <string id="ui_mcm_liz_inex_crawl_shoot_handle_type_none">
-        <text>匍匐中は発砲できない</text>
+        <text>匍匐中は発砲不可</text>
     </string>
 
 

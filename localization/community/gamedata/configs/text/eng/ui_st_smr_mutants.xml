@@ -101,7 +101,7 @@
 		<text>未使用のミュータント</text>
 	</string>
 	<string id="ui_mcm_smr_mutants_unused_info">
-		<text>以下では、ゲームファイルには存在するが、どこにも使用されていないミュータントを有効にすることができます。\n有効にすると、ランダムなミュータントの群れとしてゾーンに出現します。</text>
+		<text>以下では、ゲームファイルには存在するが、使用されていないミュータントを有効にすることができます。\n有効にすると、ランダムなミュータントの群れとしてゾーンに出現します。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_mutants_bibliotekarp">
 		<text>ビブリオテカス</text>
@@ -110,7 +110,7 @@
 		<text>ボリャス</text>
 	</string>
 	<string id="ui_mcm_smr_mutants_unused_types_info">
-		<text>以下では、ゲームファイルには存在するが、どこにも使用されていないミュータントのバリエーションを有効にすることができます。\n有効にすると、使用されているバリエーションと一緒にゾーンに出現します。</text>
+		<text>以下では、ゲームファイルには存在するが、使用されていないミュータントのバリエーションを有効にすることができます。\n有効にすると、使用されているバリエーションと一緒にゾーンに出現します。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_mutants_unused_types_chance">
 		<text>未使用のミュータントバリエーションの出現確率</text>

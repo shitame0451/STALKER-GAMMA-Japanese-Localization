@@ -14,65 +14,65 @@
 	</string>
 
 	<string id="ui_mcm_companion_anti_awol_enable_companion_anti_awol">
-		<text>プレイヤーの距離に応じてコンパニオンに戦闘を無視させる</text>
+		<text>プレイヤーとの距離に応じて仲間が戦闘を無視する</text>
 	</string>
 	<string id="ui_mcm_companion_anti_awol_enable_companion_anti_awol_desc">
-		<text>有効にすると、コンパニオンは以下のスライダーで設定した値に基づいて戦闘を無視します。</text>
+		<text>有効にすると、仲間は以下のスライダーで指定された距離に基づいて、戦闘への参加・不参加を判断するようになります。</text>
 	</string>
 
 	<string id="ui_mcm_companion_anti_awol_companion_ignore_combat_player_distance">
-		<text>戦闘を無視する距離（追従）</text>
+		<text>戦闘を無視する距離（プレイヤー追従時）</text>
 	</string>
 	<string id="ui_mcm_companion_anti_awol_companion_ignore_combat_player_distance_desc">
-		<text>コンパニオンはプレイヤーから指定された距離（メートル）になると戦闘を無視するようになります。</text>
+		<text>プレイヤーとの距離がこの値（メートル）以上になると、仲間は戦闘を無視して追従を優先します。</text>
 	</string>
 
 
 	<string id="ui_mcm_companion_anti_awol_companion_allow_combat_player_distance">
-		<text>戦闘に参加する距離（追従）</text>
+		<text>戦闘に参加する距離（プレイヤー追従時）</text>
 	</string>
 	<string id="ui_mcm_companion_anti_awol_companion_allow_combat_player_distance_desc">
-		<text>プレイヤーから指定された距離（メートル）に到達すると、コンパニオンが再び戦闘に参加するようになります。</text>
+		<text>プレイヤーとの距離がこの値（メートル）以内に戻ると、仲間は再び戦闘行動を開始します。</text>
 	</string>
 
 
 	<string id="ui_mcm_companion_anti_awol_companion_ignore_combat_goto_distance">
-		<text>戦闘を無視する距離（マーカー移動）</text>
+		<text>戦闘を無視する距離（地点移動時）</text>
 	</string>
 	<string id="ui_mcm_companion_anti_awol_companion_ignore_combat_goto_distance_desc">
-		<text>移動マーカーから指定された距離（メートル）に達すると、コンパニオンが戦闘を無視するようになります。</text>
+		<text>移動指示地点との距離がこの値（メートル）以上になると、仲間は道中の敵を無視して移動を優先します。</text>
 	</string>
 
 
 	<string id="ui_mcm_companion_anti_awol_companion_allow_combat_goto_distance">
-		<text>戦闘に参加する距離（マーカー移動）</text>
+		<text>戦闘に参加する距離（地点移動時）</text>
 	</string>
 	<string id="ui_mcm_companion_anti_awol_companion_allow_combat_goto_distance_desc">
-		<text>移動マーカーから指定された距離（メートル）に達すると、コンパニオンが再び戦闘に参加するようになります。</text>
+		<text>移動指示地点との距離がこの値（メートル）以内になると、仲間は再び周囲の敵と交戦します。</text>
 	</string>
 
 	
 	<string id="ui_mcm_companion_anti_awol_enable_companion_anti_awol_enemy">
-		<text>敵との距離に応じてコンパニオンが戦闘を無視するようにする</text>
+		<text>敵との距離に応じて仲間が戦闘を無視する</text>
 	</string>
 	<string id="ui_mcm_companion_anti_awol_enable_companion_anti_awol_enemy_desc">
-		<text>有効にすると、コンパニオンは以下のスライダーで設定した値に基づいて戦闘を無視します。</text>
+		<text>有効にすると、仲間は以下のスライダーで指定された距離に基づいて、戦闘への参加・不参加を判断するようになります。</text>
 	</string>
 
 
 	<string id="ui_mcm_companion_anti_awol_companion_ignore_combat_enemy_distance">
-		<text>戦闘を無視する距離（追従）</text>
+		<text>戦闘を無視する距離（プレイヤー追従時）</text>
 	</string>
 	<string id="ui_mcm_companion_anti_awol_companion_ignore_combat_enemy_distance_desc">
-		<text>敵がプレイヤーから指定した距離（メートル）外にいる場合、コンパニオンは戦闘を無視するようになります。</text>
+		<text>敵がプレイヤーからこの距離（メートル）より外側にいる場合、仲間はその敵を無視します。</text>
 	</string>
 
 
 	<string id="ui_mcm_companion_anti_awol_companion_ignore_combat_goto_enemy_distance">
-		<text>戦闘を無視する距離（マーカー移動）</text>
+		<text>戦闘を無視する距離（地点移動時）</text>
 	</string>
 	<string id="ui_mcm_companion_anti_awol_companion_ignore_combat_goto_enemy_distance_desc">
-		<text>移動マーカーから指定した距離（メートル）外に敵がいる場合、コンパニオンは戦闘を無視するようになります。</text>
+		<text>敵が移動指示地点からこの距離（メートル）より外側にいる場合、仲間はその敵を無視します。</text>
 	</string>
 
 </string_table>

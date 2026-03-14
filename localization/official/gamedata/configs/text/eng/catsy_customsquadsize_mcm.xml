@@ -9,11 +9,11 @@
 	</string>
 
 	<string id="ui_mcm_customsquadsize_maxsquadsize">
-		<text>通常時のコンパニオンの最大人数</text>
+		<text>通常の仲間の最大人数</text>
 	</string>
 
 	<string id="ui_mcm_customsquadsize_maxsquadsize_folkhero">
-		<text>実績「みんなの英雄」の報酬で連れていけるコンパニオンの最大人数</text>
+		<text>実績「みんなの英雄」達成時の仲間の最大人数</text>
 	</string>
 
 </string_table>

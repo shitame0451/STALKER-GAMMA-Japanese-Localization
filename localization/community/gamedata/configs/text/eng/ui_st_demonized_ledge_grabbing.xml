@@ -19,31 +19,31 @@
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_enable">
-		<text>有効</text>
+		<text>有効化</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_alternativeClimbDetection">
-		<text>別の方法で段差を検出する</text>
+		<text>代替判定方式を使用</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_alternativeClimbDetection_desc">
-		<text>別の方法では、プレイヤーのクロスヘアに近い位置の段差を検出します。標準的な方法は、事前に指定された高さで段差を検出します。</text>
+		<text>有効にすると、クロスヘアに近い段差を優先的に検出する方式に切り替わります。標準的な方式の場合は、あらかじめ決められた高さから段差を検出します。</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_playerWidthCheck">
-		<text>プレイヤーの制限チェック</text>
+		<text>プレイヤーの幅をチェック</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_playerWidthCheck_desc">
-		<text>有効にすると、プレイヤーが段差にフィットするかどうかを確認するために追加のレイキャストを実行します。登れる段差が限定される可能性があります。</text>
+		<text>有効にすると、その段差にプレイヤーが通り抜けるスペースがあるかを確認するため、追加の判定を行います。これにより、よじ登れる段差が制限される場合があります。</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_unstuckCheck">
-		<text>スタックチェック</text>
+		<text>スタック防止チェック</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_unstuckCheck_desc">
-		<text>有効にすると、よじ登りが正しく行われなかった場合、プレーヤーのスタックを解除しようとするようになります。</text>
+		<text>有効にすると、よじ登り動作が正しく行われずプレイヤーが地形にスタックした際に、自動的に位置を修正します。</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_hardcoreMode">
@@ -51,54 +51,54 @@
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_hardcoreMode_desc">
-		<text>有効にすると、よじ登りに追加の制限が加わります: \n1. 重量が90kgを超えている場合はよじ登りができない \n2. プレイヤーの体力が60%以下の場合はよじ登りができない \n3. スタミナ消費量の増加</text>
+		<text>有効にすると、よじ登りに制限が追加されます: \n1. 重量90kg以上の時はよじ登り不可\n2. 体力60%未満の時はよじ登り不可\n3. スタミナ消費量の増加</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_BHSMode">
-		<text>BHSの機能と組み合わせる</text>
+		<text>Body Health System連携</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_BHSMode_desc">
-		<text>有効にすると、Body Health Systemでプレイヤーの片腕が使えなくなった場合、よじ登ることができなくなります。</text>
+		<text>有効にすると、Body Health Systemでどちらかの腕が負傷（骨折）している場合、よじ登ることができなくなります。</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_throttleCheck">
-		<text>よじ登りのチェックの遅延時間</text>
+		<text>よじ登りチェック間隔</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_throttleCheck_desc">
-		<text>チェック間の時間（ミリ秒）。数字を大きくすると検出の精度は下がりますが、パフォーマンスは向上します。</text>
+		<text>段差の判定を行う頻度を設定します。数値を上げるとパフォーマンスは改善されますが、探知の精度は低下します。</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_climbTriggerDistance">
-		<text>最大距離</text>
+		<text>よじ登り可能最大距離</text>
 	</string>
 	<string id="ui_mcm_demonized_ledge_grabbing_climbTriggerDistance_desc">
-		<text>よじ登りを実行する最大距離を設定します。</text>
+		<text>よじ登りを実行できる段差との最大距離を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_raySteps">
-		<text>よじ登りの精度</text>
+		<text>よじ登り検出精度</text>
 	</string>
 	<string id="ui_mcm_demonized_ledge_grabbing_raySteps_desc">
-		<text>数字が大きいほど掴む位置と検出の質が良くなりますが、パフォーマンスに少し影響があります。</text>
+		<text>数値を大きくすると、複雑な形状の段差も正確に登れるようになりますが、わずかに負荷が増加します。</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_jumpTriggerTime">
-		<text>長押しする時間</text>
+		<text>長押し判定時間</text>
 	</string>
 	<string id="ui_mcm_demonized_ledge_grabbing_jumpTriggerTime_desc">
-		<text>この時間より長い間キーを押し続けると、よじ登りが発動します。</text>
+		<text>設定した時間以上キーを長押しすると、よじ登りが実行されます。</text>
 	</string>
 
 	<string id="ui_mcm_demonized_ledge_grabbing_soundVolume">
-		<text>音の大きさ</text>
+		<text>効果音の音量</text>
 	</string>
 	<string id="ui_mcm_demonized_ledge_grabbing_gruntVolume">
-		<text>唸り声の大きさ</text>
+		<text>苦悶の声の音量</text>
 	</string>
 	<string id="ui_mcm_demonized_ledge_grabbing_gruntProbability">
-		<text>唸り声が出る確率</text>
+		<text>苦悶の声の発生確率</text>
 	</string>
 	<string id="ui_mcm_demonized_ledge_grabbing_staminaDrain">
 		<text>スタミナ消費量</text>
@@ -124,8 +124,7 @@
 		<text>アニメーションのランダム化</text>
 	</string>
 	<string id="ui_mcm_demonized_ledge_grabbing_animationRandomization_desc">
-		<text>カメラの動きをランダムにします。</text>
+		<text>よじ登り時のカメラの揺れ方にランダム性を加えます。</text>
 	</string>
 
 </string_table>
-                        

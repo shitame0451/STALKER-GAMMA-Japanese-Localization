@@ -18,7 +18,7 @@
     </string>
 
     <string id="ui_mcm_menu_pickup">
-        <text>アイテム取得アニメーション</text>
+        <text>アイテム拾得アニメーション</text>
     </string>
 
     <string id="ui_mcm_menu_nvg">
@@ -40,15 +40,15 @@
 
 
     <string id="ui_mcm_fddar_backpack_speed_type_mcm">
-        <text>すべてのバックパックで同じ速度を使用</text>
+        <text>すべてのバックパックに同じ速度を適用する</text>
     </string>
 
     <string id="ui_mcm_fddar_backpack_speed_type_load">
-        <text>積載量に応じて速度が変化</text>
+        <text>積載量に応じて速度が変動する</text>
     </string>
 
     <string id="ui_mcm_fddar_backpack_speed_type_config">
-        <text>バックパックの種類に応じて速度が変化</text>
+        <text>バックパックの種類に応じて速度が変動する</text>
     </string>
 
 
@@ -72,11 +72,11 @@
     </string>
 
     <string id="ui_mcm_liz_qht_icon_state_enabled">
-        <text>ヘッドギア装備時に表示</text>
+        <text>ヘッドギア装備時に表示する</text>
     </string>
 
     <string id="ui_mcm_liz_qht_icon_state_inverted">
-        <text>ヘッドギア非装備時に表示</text>
+        <text>ヘッドギア非装備時に表示する</text>
     </string>
 
 
@@ -100,31 +100,31 @@
     </string>
 
     <string id="ui_mcm_fddar_consumables_allow_skip_abuse">
-        <text>効果適用後のアニメーションをスキップ可能にする</text>
+        <text>効果適用後のアニメーション省略を許可する</text>
     </string>
 
     <string id="ui_mcm_fddar_consumables_strict_sprinting">
-        <text>ダッシュ中の使用を無効化</text>
+        <text>ダッシュ中のアイテム使用を禁止する</text>
     </string>
 
     <string id="ui_mcm_fddar_consumables_unequip_helmet">
-        <text>使用時に自動でヘルメットを外す</text>
+        <text>使用前にヘルメットを自動的に脱ぐ</text>
     </string>
 
     <string id="ui_mcm_fddar_consumables_auto_cancel">
-        <text>自動キャンセルを有効化</text>
+        <text>アニメーションの自動キャンセルを有効化</text>
     </string>
 
     <string id="ui_mcm_fddar_consumables_ac_wound">
-        <text>ミュータントからの攻撃でアニメーションをキャンセル</text>
+        <text>ミュータントからの攻撃でアニメーションをキャンセルする</text>
     </string>
 
     <string id="ui_mcm_fddar_consumables_ac_fire_wound">
-        <text>被弾時にアニメーションをキャンセル</text>
+        <text>被弾時にアニメーションをキャンセルする</text>
     </string>
 
     <string id="ui_mcm_fddar_consumables_ac_explosion">
-        <text>爆発ダメージ時にアニメーションをキャンセル</text>
+        <text>爆発ダメージ時にアニメーションをキャンセルする</text>
     </string>
 
 
@@ -134,11 +134,11 @@
     </string>
 
     <string id="ui_mcm_fddar_backpack_type">
-        <text>速度の基準：</text>
+        <text>開閉速度の設定</text>
     </string>
 
     <string id="ui_mcm_fddar_backpack_max_speed">
-        <text>最大アニメーション速度</text>
+        <text>アニメーションの最大速度</text>
     </string>
 
     <string id="ui_mcm_fddar_backpack_min_weight_multiplier">
@@ -152,11 +152,11 @@
     </string>
 
     <string id="ui_mcm_fddar_skinning_auto_loot_all">
-        <text>常にすべてのミュータントの部位を回収（選択画面をスキップ）</text>
+        <text>常にすべてのミュータントの部位を自動で回収する（選択画面をスキップ）</text>
     </string>
 
     <string id="ui_mcm_fddar_skinning_every_part_pickup">
-        <text>部位ごとに剥ぎ取りアニメーションを再生</text>
+        <text>部位ごとに剥ぎ取りアニメーションを再生する</text>
     </string>
 
 
@@ -166,15 +166,15 @@
     </string>
     
     <string id="ui_mcm_fddar_pickup_multipickup">
-        <text>複数アイテムを同時に拾う</text>
+        <text>複数のアイテムを同時に拾う</text>
     </string>
 
     <string id="ui_mcm_fddar_pickup_speed">
-        <text>拾得アニメーション速度</text>
+        <text>拾得アニメーションの速度</text>
     </string>
 
     <string id="ui_mcm_fddar_pickup_use_attachments">
-        <text>拾得中にアイテムを手に表示</text>
+        <text>拾い上げるアイテムを手に表示する</text>
     </string>
 
 
@@ -194,7 +194,7 @@
     </string>
 
     <string id="ui_mcm_fddar_update_mcm">
-        <text>使用中のMCMバージョンが古すぎます。最新版にアップグレードしてください。</text>
+        <text>MCMのバージョンが古いため、最新版にアップデートしてください。</text>
     </string>
 
     <!-- <string id="ui_mcm_fddar_headgear_anm_modifier">
@@ -214,11 +214,11 @@
     </string>
 
     <string id="ui_mcm_fddar_headgear_anm_strict_helmets">
-        <text>厳格なヘルメットモードを有効化</text>
+        <text>ヘルメット制限モードを有効化</text>
     </string>
 
     <string id="ui_mcm_fddar_headgear_anm_icon_state">
-        <text>ヘッドギア状態アイコンを表示</text>
+        <text>ヘッドギアの状態アイコンを表示する</text>
     </string>
 
     <string id="ui_mcm_fddar_headgear_anm_icon_type">
@@ -256,7 +256,7 @@
     </string>
 
     <string id="ui_mcm_fddar_outfit_anm_allow_movement">
-        <text>アニメーション中の移動を許可</text>
+        <text>アニメーション中の移動を許可する</text>
     </string>
 
     <string id="ui_mcm_fddar_outfit_anm_enable_outfit_equip">
@@ -264,7 +264,7 @@
     </string>
 
     <string id="ui_mcm_fddar_outfit_anm_always_short">
-        <text>常に短い装備アニメーションを使用</text>
+        <text>常に短い装備アニメーションを使用する</text>
     </string>
 
     <string id="ui_mcm_fddar_outfit_anm_enable_backpack_equip">
@@ -280,7 +280,7 @@
     </string>
 
     <string id="ui_mcm_fddar_outfit_anm_enable_patches_inventory">
-        <text>非装備状態のスーツにもパッチアニメーションを適用</text>
+        <text>非装備状態のスーツにもパッチアニメーションを適用する</text>
     </string>
 
 
@@ -290,31 +290,31 @@
     </string>
 
     <string id="ui_mcm_fddar_body_search_ui_open_delay">
-        <text>インベントリ表示までの遅延</text>
+        <text>インベントリが表示されるまでの遅延</text>
     </string>
 
     <string id="ui_mcm_fddar_body_search_wpn_lower_mode">
-        <text>調査中に武器を下げる</text>
+        <text>回収中に武器を下ろす</text>
     </string>
 
     <string id="ui_mcm_fddar_body_search_enable_anm_for_containers">
-        <text>コンテナにもアニメーションを適用</text>
+        <text>コンテナを開ける際にアニメーションを再生する</text>
     </string>
 
     <string id="ui_mcm_fddar_body_search_enable_crouch">
-        <text>しゃがみを有効化</text>
+        <text>自動的にしゃがむ</text>
     </string>
 
     <string id="ui_mcm_fddar_body_search_disable_walk">
-        <text>調査中の移動を無効化</text>
+        <text>回収中の移動を禁止する</text>
     </string>
 
     <string id="ui_mcm_fddar_body_search_enable_random_search_time">
-        <text>インベントリ表示前にランダムな遅延を追加</text>
+        <text>インベントリ表示までの時間をランダム化</text>
     </string>
 
     <string id="ui_mcm_fddar_body_search_random_search_time_max">
-        <text>遅延時間の範囲</text>
+        <text>ランダム遅延時間の最大範囲</text>
     </string>
 
 

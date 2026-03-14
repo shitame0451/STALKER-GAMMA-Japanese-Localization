@@ -5,61 +5,61 @@
 		<text>軽装ヘルメットのドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_helmet_light_chance_desc">
-		<text>死体から軽装ヘルメットがドロップする確率を設定します。</text>
+		<text>倒した敵の死体から軽装ヘルメットがドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_helmet_medium_chance">
 		<text>中装ヘルメットのドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_helmet_medium_chance_desc">
-		<text>死体から中装ヘルメットがドロップする確率を設定します。</text>
+		<text>倒した敵の死体から中装ヘルメットがドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_helmet_heavy_chance">
 		<text>重装ヘルメットのドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_helmet_heavy_chance_desc">
-		<text>死体から重装ヘルメットがドロップする確率を設定します。</text>
+		<text>倒した敵の死体から重装ヘルメットがドロップする確率を調整します。</text>
 	</string>
 		<string id="ui_mcm_outfitdrop_helmet_exo_chance">
 		<text>エグゾヘルメットのドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_helmet_exo_chance_desc">
-		<text>死体からエグゾヘルメットがドロップする確率を設定します。</text>
+		<text>倒した敵の死体からエグゾヘルメットがドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_outfit_light_chance">
 		<text>軽装スーツのドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_outfit_light_chance_desc">
-		<text>死体から軽装スーツがドロップする確率を設定します。</text>
+		<text>倒した敵の死体から軽装スーツがドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_outfit_medium_chance">
 		<text>中装スーツのドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_outfit_medium_chance_desc">
-		<text>死体から中装スーツがドロップする確率を設定します。</text>
+		<text>倒した敵の死体から中装スーツがドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_outfit_heavy_chance">
 		<text>重装スーツのドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_outfit_heavy_chance_desc">
-		<text>死体から重装スーツがドロップする確率を設定します。</text>
+		<text>倒した敵の死体から重装スーツがドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_outfit_exo_chance">
 		<text>強化外骨格のドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_outfit_exo_chance_desc">
-		<text>死体から強化外骨格がドロップする確率を設定します。</text>
+		<text>倒した敵の死体から強化外骨格がドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_parts_chance">
 		<text>部品のドロップ確率</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_parts_chance_desc">
-		<text>死体からスーツがドロップしなかった場合、スーツの部品がドロップする確率を設定します。</text>
+		<text>倒した敵の死体からスーツがドロップしなかった場合、代わりにスーツの部品がドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_debug">
 		<text>デバッグログ</text>
 	</string>
 	<string id="ui_mcm_outfitdrop_parts_debug_desc">
-		<text>言わなずもがなの機能です。</text>
+		<text>開発者向けのデバッグ情報をログに出力します。</text>
 	</string>
 	<string id="ui_mcm_menu_outfitdrop">
 		<text>Outfit drops</text>

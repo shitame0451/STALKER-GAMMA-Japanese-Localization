@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <string_table>
 	<string id="ui_mm_desc_vis_distance">
-		<text>世界の描画距離は音にも影響します。\nスライダーを20%未満に設定すると、遠くの銃声が聞こえなくなります。</text>
+		<text>「世界の描画距離」は音の聞こえ方にも影響します。\nスライダーを20%未満に設定すると、遠くの銃声が聞こえなくなります。</text>
 	</string>
 	<string id="ui_mm_desc_master_volume">
-		<text>「効果音の音量」は、再生される効果音の「基本音量」に対する調整として機能します。
-			\n銃声のような「基本音量が最大に設定されている効果音」は、0.5より高い値にしても影響はありません。</text>
+		<text>「効果音の音量」は、各サウンドの「基準となる音量」を調整するものです。
+			\n基本音量が最大に設定されている効果音（例: 銃声）は、0.5より高い値にしても音量は変化しません。</text>
 	</string>
 	<string id="ui_mm_desc_zcp_settings_hint">
-		<text>ストーカーとミュータントの人口設定はMod設定メニューの「ZCP」で調整できます。</text>
+		<text>ストーカーやミュータントの出現数に関する設定は、Mod設定メニューの「ZCP」で調整してください。</text>
 	</string>
 	<string id="ui_mm_desc_ssfx_settings_hint">
-		<text>詳細なビジュアル設定はMod設定メニューの「SSS Settings」で調整できます。</text>
+		<text>より詳細なグラフィック設定は、Mod設定メニューの「SSS Settings」で調整してください。</text>
 	</string>
 	<string id="ui_mm_desc_fft_settings_hint">
-		<text>ファストトラベルに関する詳細な設定はMod設定メニューの「Fair Fast Travel」で調整できます。</text>
+		<text>ファストトラベルに関する詳細な設定は、Mod設定メニューの「Fair Fast Travel」で調整してください。</text>
 	</string>
 	<string id="ui_mm_desc_aa_3dss_settings_hint">
-		<text>ここで設定できるアンチエイリアスとSMAAは3D Shader Scopesと互換性がありません。
-			\n有効にすると、倍率サイトのレティクルが表示されなくなります。</text>
+		<text>この項目で設定できるアンチエイリアスとSMAAは、3D Shader Scopesと互換性がありません。
+			\nこれらを有効にすると、倍率サイトのレティクルが表示されなくなるためご注意ください。</text>
 		</string>
 	<string id="ui_mm_desc_adb_actor_immunities_settings_hint">
-		<text>「プレイヤーの防御力」設定は現在無効（GrokのActor Damage Balancerによって上書きされます）</text>
+		<text>「プレイヤーの防御力」設定は現在無効です。（GrokのActor Damage Balancerによって上書きされています）</text>
 	</string>
 	<string id="ui_mm_desc_gbo_hit_power_settings_hint">
-		<text>「銃弾が命中したときのダメージ倍率」設定は現在無効（GrokのBallistics Overhaulによって上書きされます）</text>
+		<text>「銃弾が命中したときのダメージ倍率」設定は現在無効です。（GrokのBallistics Overhaulによって上書きされています）</text>
 	</string>
 	<string id="ui_mm_desc_gbo_shoot_effects_hint">
-		<text>GrokのBallistics Overhaulには標準で反動効果が含まれています。\n以下の設定を有効にすると過剰となり、深刻なエラーを引き起こす可能性があります。</text>
+		<text>GrokのBallistics Overhaulには標準で反動効果が含まれています。\nそのため、以下の設定を有効にすると効果が過剰になり、深刻なエラーを引き起こす可能性があります。</text>
 	</string>
 </string_table>

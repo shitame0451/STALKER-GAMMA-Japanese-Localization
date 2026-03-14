@@ -27,89 +27,89 @@
 		<text>Sorting Plus</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_playerinv">
-		<text>プレイヤーのインベントリをソート</text>
+		<text>プレイヤーインベントリの自動ソート</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_playerinv_desc">
-		<text>トレードを除くすべての画面でプレイヤーのインベントリをソートします。</text>
+		<text>トレード画面を除く、すべてのインベントリ表示でプレイヤーのアイテムを自動的にソートします。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_playertrade">
-		<text>プレイヤーのインベントリをソート (トレード時)</text>
+		<text>プレイヤーインベントリの自動ソート (トレード時)</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_playertrade_desc">
-		<text>トレード画面でプレイヤーのインベントリをソートします。</text>
+		<text>トレード画面でプレイヤーのアイテムを自動的にソートします。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_npcinv">
-		<text>NPCのインベントリをソート</text>
+		<text>NPCインベントリの自動ソート</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_npcinv_desc">
-		<text>トレードを除くすべての画面でNPCのインベントリをソートします。</text>
+		<text>トレード画面を除く、すべてのインベントリ表示でNPCのアイテムを自動的にソートします。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_npctrade">
-		<text>NPCのインベントリをソート (トレード時)</text>
+		<text>NPCインベントリの自動ソート (トレード時)</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_npctrade_desc">
-		<text>トレード画面でNPCのインベントリをソートします。</text>
+		<text>トレード画面でNPCのアイテムを自動的にソートします。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_useltx">
-		<text>sortingplus.ltxを使用する</text>
+		<text>sortingplus.ltxの設定を使用</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_useltx_desc">
-		<text>以下の設定は無視され、より詳細な制御が可能なsortingplus.ltxの設定が優先されます。</text>
+		<text>有効にすると、以下のゲーム内設定は無視され、より詳細なカスタマイズが可能なsortingplus.ltxファイルの設定が優先されます。</text>
 	</string>
 
 	<string id="ui_mcm_SortingPlus_iconjunk">
-		<text>ジャンク品アイコン</text>
+		<text>ジャンク品にアイコンを表示</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_iconjunk_desc">
-		<text>ジャンク品として指定したアイテムにアイコンを付与します。</text>
+		<text>ジャンク品に指定したアイテムに専用のアイコンを表示します。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_hilitejunk">
-		<text>ジャンク品をハイライト</text>
+		<text>ジャンク品をハイライト表示</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_hilitejunk_desc">
-		<text>ジャンク品として指定したアイテムをハイライト表示します。</text>
+		<text>ジャンク品に指定したアイテムを、視覚的に分かりやすいようハイライト表示します。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_sortjunk">
-		<text>カテゴリ別にジャンク品をソート</text>
+		<text>ジャンク品を専用カテゴリにソート</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_sortjunk_desc">
-		<text>ジャンク品を一つのカテゴリとしてソートします。(デフォルトではインベントリの一番最後にソート)</text>
+		<text>ジャンク品を独立したカテゴリとしてソートします。(デフォルトではインベントリの一番最後にソート)</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_selljunk">
 		<text>ジャンク品を自動で売却予定に入れる</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_selljunk_desc">
-		<text>トレーダーに売却可能なジャンク品は自動で売却予定欄に移動します。この場合でも自分で確定しない限り売却しません。</text>
+		<text>有効にすると、トレーダーに売却可能なジャンク品が自動的に売却予定欄へ移動します。ただし、実際に売却されるのはプレイヤーが確定操作を行った後です。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_iconfavs">
-		<text>お気に入りアイコン</text>
+		<text>お気に入りにアイコンを表示</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_iconfavs_desc">
-		<text>お気に入りとして指定したアイテムにアイコンを付与します。</text>
+		<text>お気に入りに指定したアイテムに専用のアイコンを表示します。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_hilitefavs">
-		<text>お気に入りをハイライト</text>
+		<text>お気に入りをハイライト表示</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_hilitefavs_desc">
-		<text>お気に入りとして指定したアイテムをハイライト表示します。</text>
+		<text>お気に入りに指定したアイテムを、視覚的に分かりやすいようハイライト表示します。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_sortfavs">
-		<text>カテゴリ別にお気に入りをソート</text>
+		<text>お気に入りを専用カテゴリにソート</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_sortfavs_desc">
-		<text>お気に入りをカテゴリとしてソートします。(デフォルトではインベントリの一番上にソート)</text>
+		<text>お気に入りを独立したカテゴリとしてソートします。(デフォルトではインベントリの一番上にソート)</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_putallfavs">
-		<text>一括移動からお気に入りを除外</text>
+		<text>一括移動時にお気に入りを保護</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_putallfavs_desc">
-		<text>一括移動を選択した時にお気に入りはインベントリから移動されなくなります。</text>
+		<text>一括移動の操作を行った際、お気に入りに指定したアイテムがインベントリから移動されないように保護します。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_resort">
-		<text>マーキング時に再ソート</text>
+		<text>マーキング時の即時再ソート</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_resort_desc">
-		<text>お気に入り/ジャンク品を指定した際にインベントリを再ソートします。無効の場合は次にインベントリを開いた際にソートします。ハイライトが無効な場合に便利な機能です。</text>
+		<text>有効にすると、アイテムをお気に入りやジャンク品に指定した際、インベントリが即座に再ソートされます。無効にした場合は、次にインベントリを開いた時にソートが実行されます。ハイライト表示を無効にしている場合に特に便利な機能です。</text>
 	</string>
 
 	<string id="ui_mcm_SortingPlus_001loadout">

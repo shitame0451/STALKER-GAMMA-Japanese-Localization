@@ -14,65 +14,65 @@
 	</string>
 
 	<string id="ui_mcm_scop_iron_fov">
-		<text>アイアンサイトと一体型3Dサイト</text>
+		<text>アイアンサイト／統合型3Dサイト</text>
 	</string>
 	<string id="ui_mcm_scop_iron_fov_desc">
-		<text>低い値にするほどアイアンサイトや一体型3Dサイトを使用する際にスコープの表示が近くなります。</text>
+		<text>値を小さくすると、アイアンサイトや統合型3Dサイト使用時の表示位置が手前になります。</text>
 	</string>
 
 	<string id="ui_mcm_scop_scope_fov">
 		<text>3Dスコープ</text>
 	</string>
 	<string id="ui_mcm_scop_scope_fov_desc">
-		<text>低い値にするほど3Dスコープを使用する際にスコープの表示が近くなります。</text>
+		<text>値を小さくすると、3Dスコープ使用時の表示位置が手前になります。</text>
 	</string>
 
 	<string id="ui_mcm_scop_bad_scope_fov">
 		<text>一部の3D光学スコープ用設定</text>
 	</string>
 	<string id="ui_mcm_scop_bad_scope_fov_desc">
-		<text>技術的な制限のため、ACOGのような特定のスコープは、デフォルトではより遠くにないと正常に見えません。この設定はそのようなスコープのためのものです。</text>
+		<text>技術的な制約上、ACOGやSUSATなどの一部のスコープは取り付け位置を遠めにすることで見た目を正常にする必要があります。この設定はそのようなスコープの位置を調整するためのものです。</text>
 	</string>
 
 	<string id="ui_mcm_scop_pistol_fov">
 		<text>ピストル</text>
 	</string>
 	<string id="ui_mcm_scop_pistol_fov_desc">
-		<text>ピストルを表示する距離の設定です。</text>
+		<text>ピストルの表示位置の距離を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_scop_grenade_fov">
 		<text>グレネードランチャー</text>
 	</string>
 	<string id="ui_mcm_scop_grenade_fov_desc">
-		<text>数値が低いほど、付属のグレネードランチャーを使用する際にスコープが近くなります。</text>
+		<text>値を小さくすると、アンダーバレル・グレネードランチャー使用時の表示位置が手前になります。</text>
 	</string>
 	<string id="ui_mcm_scop_alt_fov">
-		<text>Alternate Aim sights</text>
+		<text>傾斜サイト</text>
 	</string>
 	<string id="ui_mcm_scop_alt_fov_desc">
-		<text>Lower values bring the scope closer when using attached grenade launchers.</text>
+		<text>値を小さくすると、傾斜サイト使用時の表示位置が手前になります。</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_add">
 		<text>武器をより遠くに表示 (Adjust Scope HUD)</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_add_desc">
-		<text>HUD FOVのズームを増加させることで、持っている武器をより遠くへ表示させます。</text>
+		<text>HUD FOVを増加させ、装備している武器の表示位置を遠くします。</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_subtract">
 		<text>武器をより近くに表示 (Adjust Scope HUD)</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_subtract_desc">
-		<text>HUD FOVのズームを減少させることで、持っている武器をより近くへ表示させます。</text>
+		<text>HUD FOVを減少させ、装備している武器の表示位置を近くします。</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_reset">
 		<text>現在の武器の表示位置をリセット (Adjust Scope HUD)</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_reset_desc">
-		<text>持っている武器のズーム値を通常に戻します。</text>
+		<text>装備している武器のHUD FOVを標準値に戻します。</text>
 	</string>
 
 	<string id="ui_mcm_scop_snk_update_mcm">
-		<text>MCMをアップデートしてこの機能を確認してください。キーのデフォルトはNumpadの+と-、持っている銃をリセットするキーはBackspaceに設定されています。</text>
+		<text>この機能を利用するにはMCMの更新が必要です。デフォルトのキーはテンキーの+と-、武器表示のリセットキーはBackspaceに設定されています。</text>
 	</string>
 </string_table>

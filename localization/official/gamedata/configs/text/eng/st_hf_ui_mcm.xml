@@ -6,7 +6,7 @@
 
 	<!-- Controls -->
 	<string id="ui_mcm_menu_controls">
-		<text>コントロール</text>
+		<text>操作設定</text>
 	</string>
 
 	<string id="ui_mcm_aol_hf_controls_bind_collision">
@@ -14,11 +14,11 @@
 	</string>
 
 	<string id="ui_mcm_aol_hf_controls_bind_alignment">
-		<text>アライメントモードの切り替え: プレーヤー、平面</text>
+		<text>アライメントモードの切り替え（プレイヤー／平面）</text>
 	</string>
 
 	<string id="ui_mcm_aol_hf_controls_bind_place_mode">
-		<text>配置モードの切り替え: ノーマル、アドバンス、プレビュー</text>
+		<text>配置モードの切り替え（ノーマル／アドバンス／プレビュー）</text>
 	</string>
 
 	<!-- Gameplay -->
@@ -27,11 +27,11 @@
 	</string>
 
 	<string id="ui_mcm_aol_hf_gameplay_uniform_trade_profiles">
-		<text>統一されたトレードプロファイルを使用する</text>
+		<text>トレードプロファイルを統一する</text>
 	</string>
 
 	<string id="ui_mcm_aol_hf_gameplay_use_ingame_time">
-		<text>ライトがゲーム内時間を表示する</text>
+		<text>ライトの挙動にゲーム内時間を反映する</text>
 	</string>
 
 	<!-- World Objects -->
@@ -40,11 +40,11 @@
 	</string>
 
 	<string id="ui_mcm_aol_hf_world_obj_flag_record_on_place">
-		<text>配置時にオブジェクトを記録する</text>
+		<text>オブジェクト配置時に自動記録する</text>
 	</string>
 
 	<string id="ui_mcm_aol_hf_world_obj_flag_record_on_keypress">
-		<text>キー操作によるオブジェクトの記録を有効にする</text>
+		<text>キー操作によるオブジェクト記録を有効にする</text>
 	</string>
 
 	<string id="ui_mcm_aol_hf_world_obj_bind_record">
@@ -57,7 +57,7 @@
 	</string>
 
 	<string id="ui_mcm_aol_hf_debug_bind_creative_mode">
-		<text>クリエイティブモード</text>
+		<text>クリエイティブモードの切り替え</text>
 	</string>
 
 	<string id="ui_mcm_aol_hf_debug_location_offset">
@@ -65,6 +65,6 @@
 	</string>
 
 	<string id="ui_mcm_aol_hf_update_mcm">
-		<text>キー設定を設定するにはMCMを更新してください。\n衝突判定の切り替えにはTAB、配置の切り替えにはCAPS LOCKがデフォルトで設定されています。</text>
+		<text>キー設定を反映するには、MCMを更新してください。\nデフォルトのキー設定は、TABキーで衝突判定の切り替え、CAPS LOCKキーで配置モードの切り替えです。</text>
 	</string>
 </string_table>

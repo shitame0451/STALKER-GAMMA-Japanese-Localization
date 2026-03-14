@@ -11,27 +11,27 @@
 	</string>
 
 	<string id="ui_mcm_extended_movement_sounds_enabled_stance_sounds">
-		<text>しゃがみ音を有効化</text>
+		<text>しゃがみ動作音を有効化</text>
 	</string>
 	<string id="ui_mcm_extended_movement_sounds_enabled_lookout_sounds">
-		<text>リーン音を有効化</text>
+		<text>リーン動作音を有効化</text>
 	</string>
 	<string id="ui_mcm_extended_movement_sounds_volume_stance_sounds">
-		<text>しゃがみ音の音量</text>
+		<text>しゃがみ動作音の音量</text>
 	</string>
 	<string id="ui_mcm_extended_movement_sounds_volume_lookout_sounds">
-		<text>リーン音の音量</text>
+		<text>リーン動作音の音量</text>
 	</string>
 
 	<string id="ui_mcm_extended_movement_sounds_enabled_jump_sounds">
-		<text>ジャンプ音を有効化</text>
+		<text>ジャンプ動作音を有効化</text>
 	</string>
 	<string id="ui_mcm_extended_movement_sounds_volume_jump_sounds">
-		<text>ジャンプ音の音量</text>
+		<text>ジャンプ動作音の音量</text>
 	</string>
 
 	<string id="ui_mcm_extended_movement_sounds_crawl_sounds_dependency">
-		<text>匍匐時の移動音を使用するには、MCM / Inertia Expanded / その他 / 匍匐アニメーションの有効化が必要です。</text>
+		<text>匍匐時の移動音を鳴らすには、MCM / Inertia Expanded / その他 / 匍匐アニメーションを有効にする必要があります。</text>
 	</string>
 	<string id="ui_mcm_extended_movement_sounds_enabled_crawl_sounds">
 		<text>匍匐時の移動音を有効化</text>

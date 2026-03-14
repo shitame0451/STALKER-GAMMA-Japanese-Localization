@@ -16,11 +16,11 @@
 
 	<!-- Main configs -->
 	<string id="ui_mcm_wepl_hit_effect_enable_stalker">
-		<text>プレイヤーが攻撃を受けた時にヒットサウンドを再生する</text>
+		<text>プレイヤーが被弾した際にヒットサウンドを再生</text>
 	</string>
 
 	<string id="ui_mcm_wepl_hit_effect_enable_npc">
-		<text>プレイヤーがNPCに攻撃した時にヒットサウンドを再生する</text>
+		<text>NPCに攻撃が命中した際にヒットサウンドを再生</text>
 	</string>
 
 	<string id="ui_mcm_wepl_hit_effect_volume">

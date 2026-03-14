@@ -13,37 +13,37 @@
 		<text>有効化</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_zoom_fov_enabled">
-		<text>ズームを有効化</text>
+		<text>会話時のズームを有効化</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_zoom_fov_modifier">
 		<text>ズーム倍率</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_min_zoom_fov">
-		<text>最小ズーム倍率</text>
+		<text>最小ズームFOV</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_min_zoom_fov_desc">
-		<text>ズームを有効にすると、FOVは少なくともこの値に変更されます。</text>
+		<text>会話時のズームを有効にした場合、視野角（FOV）がこの値以下にならないように調整されます。</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_distance_fov">
-		<text>距離基準のズーム</text>
+		<text>NPCとの距離に応じたズーム</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_distance_fov_desc">
-		<text>FOVを変更し、キャラクターがプレイヤーからどれだけ離れていても同じ大きさになるようにします。</text>
+		<text>NPCとの距離に合わせて視野角（FOV）を自動調整し、画面上でのキャラクターの大きさを一定に保ちます。</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_fov_smoothing">
 		<text>ズームの滑らかさ</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_track_npc">
-		<text>NPCへのカメラフォーカス</text>
+		<text>会話中のNPCを自動追尾</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_turn_modifier">
 		<text>カメラ回転係数</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_turn_modifier_desc">
-		<text>キャラクターの位置を調整するためのカメラ回転係数、0は回転なし、負の値はカメラを反対方向に回転させます。</text>
+		<text>会話中のキャラクターに合わせてカメラを調整する際の回転量を設定します。0で回転なし、負の値を設定するとカメラが逆方向に回転します。</text>
 	</string>
 	<string id="ui_mcm_demonized_dialog_fov_smoothing">
-		<text>カメラフォーカスの滑らかさ</text>
+		<text>カメラ追尾の滑らかさ</text>
 	</string>
 	
 </string_table>

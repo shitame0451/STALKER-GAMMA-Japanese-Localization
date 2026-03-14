@@ -24,7 +24,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_ssr_quality_mcm_desc">
-		<text>[再起動が必要] 反射のレンダリングに使用するサンプルの量を設定します。高い設定は、シェーダーキャッシュをクリアした後のパフォーマンスと最初のロード時間に大きな影響を与えます。 [ 8, 16, 24, 32, 64 ]</text>
+		<text>[再起動が必要] 反射のレンダリングに使用するサンプルの量を設定します。値を高く設定すると、反射の品質は向上しますが、シェーダーキャッシュクリア後のパフォーマンスや初回ロード時間への負荷が大きくなります。 [ 8, 16, 24, 32, 64 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_ssr_res_mcm">
@@ -32,7 +32,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_ssr_res_mcm_desc">
-		<text>SSRレンダリングの解像度を調整します。解像度を下げるとパフォーマンスが向上します。 [ 1.0 = 100% ~ 0.5 = 50% ]</text>
+		<text>SSRレンダリングの解像度を調整します。解像度を下げると、パフォーマンスが向上します。 [ 1.0 = 100% ～ 0.5 = 50% ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_parallax_quality_mcm">
@@ -40,7 +40,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_parallax_quality_mcm_desc">
-		<text>[再起動が必要] 水面の波のパララックス効果（視差）のレンダリングに使用するサンプルの量を調整します。値を低くするとパフォーマンスが向上します。 [ 8, 16, 32 ]</text>
+		<text>[再起動が必要] 水面の波のパララックス効果（視差）のレンダリングに使用するサンプルの量を設定します。値を低く設定すると、パフォーマンスが向上します。 [ 8, 16, 32 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_parallax_height_mcm">
@@ -64,7 +64,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_blur_pattern_mcm_desc">
-		<text>ブラーにどれだけのバリエーションを加えるかを設定します。 ( 0 = 無効化 )</text>
+		<text>ブラーに適用するバリエーションの量を調整します。（0 = 無効化）</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_distortion_mcm">
@@ -72,15 +72,15 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_distortion_mcm_desc">
-		<text>波の反射と屈折の歪みの強さを調整します。</text>
+		<text>波の反射と屈折による歪みの強さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_turbidity_mcm">
-		<text>水の汚さ</text>
+		<text>水の濁り</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_turbidity_mcm_desc">
-		<text>水がどれくらい濁っているかを調整します。 [ 0.0 = 澄んだ水 ]</text>
+		<text>水の濁りの程度を調整します。 [ 0.0 = 澄んだ水 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_softborder_mcm">
@@ -88,7 +88,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_softborder_mcm_desc">
-		<text>この値を使用して、水の境界線の柔らかさを調整します。</text>
+		<text>水の境界線の柔らかさを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_reflection_int_mcm">
@@ -112,7 +112,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_caustics_int_mcm_desc">
-		<text>コースティクス効果（光が反射、屈折して模様ができる現象）の強さを調整します。</text>
+		<text>コースティクス効果（光が反射・屈折して水底などに模様ができる現象）の強さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_water_ripples_int_mcm">

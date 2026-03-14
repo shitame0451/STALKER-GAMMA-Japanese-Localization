@@ -28,7 +28,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_reflection_str_mcm_desc">
-		<text>雨粒の反射の強度を調整します。</text>
+		<text>雨粒が光を反射する強さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_refraction_str_mcm">
@@ -36,7 +36,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_refraction_str_mcm_desc">
-		<text>雨粒の屈折の強度を調整します。</text>
+		<text>雨粒による光の屈折の強さを調整します。</text>
 	</string>
 
 
@@ -45,23 +45,23 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_animation_speed_mcm_desc">
-		<text>雨粒のアニメーション速度を調整します。</text>
+		<text>雨粒の動きの速さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_buildup_mcm">
-		<text>蓄積速度</text>
+		<text>蓄積する速度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_buildup_mcm_desc">
-		<text>HUD上の雨粒の蓄積速度を調整します。</text>
+		<text>雨粒が溜まっていく速さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_drying_mcm">
-		<text>乾燥速度</text>
+		<text>乾燥する速度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_drying_mcm_desc">
-		<text>HUD上の雨粒が乾く速度を調整します。</text>
+		<text>雨粒が乾いて消える速さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_size_mcm">
@@ -78,15 +78,15 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_gloss_mcm_desc">
-		<text>雨粒の光沢の強度を調整します。</text>
+		<text>雨粒の光沢の強さを調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_extra_gloss_mcm">
-		<text>追加の全体的な光沢（濡れている時）</text>
+		<text>降雨時の光沢の強調度</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_hud_raindrops_extra_gloss_mcm_desc">
-		<text>雨が降っているときのHUD上の要素の全体的な光沢度を調整します。</text>
+		<text>降雨時、HUD要素（マスクのバイザーや武器など）の全体的な光沢度を調整します。</text>
 	</string>
 
 </string_table>

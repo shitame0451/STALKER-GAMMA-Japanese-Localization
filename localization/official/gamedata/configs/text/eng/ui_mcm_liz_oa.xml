@@ -6,15 +6,15 @@
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_keybind">
-        <text>スーツのアニメーションを再生する (Outfit Animations)</text>
+        <text>スーツのアニメーションを再生 (Outfit Animations)</text>
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_keybind_desc">
-        <text>このキーには修飾キーの同時押しを必要とする設定が可能です。キーの競合を防ぐためにご利用ください。</text>
+        <text>修飾キー（Shift、Ctrl、Altなど）との組み合わせを設定できます。他のキーバインドとの競合を避けたい場合にご活用ください。</text>
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_update_mcm">
-        <text>使用中のMCMバージョンが古すぎます。最新版にアップグレードしてください。</text>
+        <text>MCMのバージョンが古いため、最新版にアップデートしてください。</text>
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_memory">
@@ -22,8 +22,7 @@
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_memory_desc">
-        <text>スーツ記憶を無効にすると、スーツを装備するたびに毎回フルの確認アニメーションが再生されます。
-\n有効にした場合、未記憶のスーツを初めて装備したときのみフルバージョンが再生され、それ以降は短縮版のアニメーションになります。</text>
+        <text>有効にすると、一度装備したスーツは記憶され、2回目以降の装備時には短縮アニメーションが再生されます。\n無効にすると、スーツを装備するたびに毎回フルアニメーションが再生されます。</text>
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_memory_size">
@@ -31,9 +30,7 @@
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_memory_size_desc">
-        <text>キャラクターが記憶する直近のスーツ数を設定します。「3」に設定すると、最後に使用した3種類までを記憶し、再装備時は短縮アニメーションが再生されます。
-\n新しいスーツを装備すると記憶リストに追加され、上限を超えた場合は最も古いものから削除されます。
-\n「-1」に設定すると、装備したすべてのスーツを記憶し、それぞれ初回装備時のみフルアニメーションが再生されるようになります。</text>
+        <text>キャラクターが記憶するスーツの最大数を設定します。「3」に設定すると、最後に使用した3種類までを記憶し、再装備時に短縮アニメーションが再生されます。\n新しいスーツを装備すると記憶リストに追加され、上限を超えると最も古い記憶から順に削除されます。\n「-1」に設定すると、装備したすべてのスーツを記憶し、初回装備時のみフルアニメーションが再生され、以降は短縮アニメーションになります。</text>
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_allow_movement">
@@ -41,7 +38,7 @@
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_always_short">
-        <text>常に短い装備アニメーションを使用</text>
+        <text>常に短縮アニメーションを使用する</text>
     </string>
 
     <string id="ui_mcm_liz_outfit_animations_enable_outfit_equip">

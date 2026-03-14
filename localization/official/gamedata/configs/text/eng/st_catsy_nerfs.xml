@@ -20,24 +20,24 @@
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_enable_rrfr">
-		<text>Reworked RF Receiverとの互換性を有効にする</text>
+		<text>Reworked RF Receiverとの互換性を有効化</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_enable_rrfr_desc">
-		<text>CoverdraveのReworked RF Receiverアドオンがインストールされている場合、このオプションをチェックすると、NERFSはそのアドオンのMCM設定（装備品、ビープ音、周波数変更）を使用します。その他のRRFRの改善点はすべてNERFSに含まれています。</text>
+		<text>Coverdrave氏の「Reworked RF Receiver」アドオンが導入されている場合、このオプションを有効にすると、NERFSはそのアドオンのMCM設定（装備品、ビープ音、周波数変更）を適用します。その他の「Reworked RF Receiver」による改善点は、すべてNERFSに含まれています。</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_debuglogs">
-		<text>デバッグログを有効にする</text>
+		<text>デバッグログを有効化</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_debuglogs_desc">
-		<text>有用なデバッグ情報が含まれています。問題を報告する場合は、以下の手順に従ってください:\n\n
-				1. この設定を有効化\n
-				2. 完全にゲームを終了する\n
-				3. “可能な限り他のアドオンを入れずに”ゲームを再びロードし、問題を再現する\n
+		<text>問題報告時に役立つデバッグ情報を記録します。問題を報告する際は、以下の手順に従ってください:\n\n
+				1. この設定を有効にする\n
+				2. ゲームを完全に終了する\n
+				3. 可能な限り他のアドオンを無効にした状態でゲームを再起動し、問題を再現する\n
 				4. ゲームを終了する\n
-				5. [Anomalyのインストールフォルダ]/appdata/logsにあるログファイルをZip形式に圧縮し、どこかにアップロードする</text>
+				5. [Anomalyのインストールフォルダ]/appdata/logs にあるログファイルをZip形式で圧縮し、アップロードする</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_max_freq">
@@ -45,31 +45,29 @@
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_max_freq_desc">
-		<text>RF受信機は最大3桁の数字を表示できるものの、VHF範囲（30-300MHz）までに制限されていました。しかし、バニラの信号源の中にはその範囲外のものもあります。この設定により、受信機の周波数の範囲と、受信機に関するタスクを生成する際に割り当てる範囲の両方が拡大されます。</text>
+		<text>RF受信機は最大3桁の数字を表示できますが、VHF帯（30-300MHz）に制限されていました。しかし、バニラの信号源にはこの範囲外のものも存在します。この設定を有効にすると、受信機の周波数範囲と、受信機関連タスクで割り当てられる周波数範囲の両方が拡張されます。</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_header_dar">
-		<text>「Devices of Anomaly Redone」を内包するための最小限のフレームワーク</text>
+		<text>「Devices of Anomaly Redone」に組み込まれた最小限のフレームワーク</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_header1">
-		<text>New Extensible RF SourcesはRF受信機を様々な方法で改善します:\n
+		<text>New Extensible RF Sourcesは、RF受信機を以下の様々な方法で改善します:\n
 			• 周波数の上限を300から999に拡張（以下で設定可能）\n
 			• 新しいRF信号源を追加\n
-			• すべてのRF信号源を改造が簡単で競合のないように設計されたLTXベースのフレームワークに移行\n
-			• 死んだストーカーからランダムに見つかるノート（百科事典の記事付き）を追加し、プレイヤーがゲームプレイを通じて有用な周波数について学ぶことができる\n
-			• アクセシビリティ用途や好みに応じて、信号強度を示すHUDインジケータをオプションとして追加\n
-			• Reworked RF ReceiverとTB's RF Tasksのサポート
-		</text>
+			• すべてのRF信号源を、改造が容易で競合しにくいLTXベースのフレームワークへ移行\n
+			• 死亡したストーカーからランダムに入手できるノート（百科事典の記事付き）を追加し、プレイヤーがゲームプレイを通じて有用な周波数を発見できるように\n
+			• アクセシビリティや好みに応じて、信号強度を示すHUDインジケーターをオプションで追加\n
+			• 「Reworked RF Receiver」および「TB's RF Tasks」に対応</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_header2">
-		<text>詳細の確認、もしくはNERFSのフルバージョンをダウンロードする場合はModdbのページをご覧ください:\nhttps://www.moddb.com/mods/stalker-anomaly/addons/new-extensible-rf-sources
-		</text>
+		<text>詳細情報やNERFSのフルバージョンをダウンロードするには、Moddbのページをご覧ください:\nhttps://www.moddb.com/mods/stalker-anomaly/addons/new-extensible-rf-sources</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_header1">
-		<text>アクセシビリティウィジェットは、RF信号強度を示すシンプルなHUDインジケータです。これは耳の不自由な方を対象としていますが、周囲の雑音と音声の区別が難しいと感じる人なら誰でも利用できます。インジケータの位置や色は、個々の好みや色覚異常に合わせてカスタマイズできます。このウィジェットは、プレイヤーがRF受信機を装備している場合にのみ表示されます。\n</text>
+		<text>アクセシビリティウィジェットは、RF信号強度を示すシンプルなHUDインジケーターです。聴覚に障がいのある方や、周囲の雑音と音声の区別が難しいと感じる方のために設計されています。インジケーターの位置や色は、個人の好みや色覚特性に合わせてカスタマイズ可能です。このウィジェットは、プレイヤーがRF受信機を装備している間のみ表示されます。\n</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_scrolldown">
@@ -81,18 +79,15 @@
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_lo_header">
-		<text>\n\n信号強度が低いとき、インジケータはこの色で点滅します。
-			\nデフォルト（グレー）: 255,50,50,50\n\n</text>
+		<text>\n\n信号強度が低い場合、インジケーターはこの色で点滅します。\nデフォルト（グレー）: 255,50,50,50\n\n</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_hi_header">
-		<text>\n\n信号強度が高いとき、インジケータはこの色で点滅します。
-			\nデフォルト（グリーン）: 255,0,250,0</text>
+		<text>\n\n信号強度が高い場合、インジケーターはこの色で点滅します。\nデフォルト（グリーン）: 255,0,250,0</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_em_header">
-		<text>\n\n光熱放射中、インジケータはこの色で点滅します。
-			\nデフォルト（レッド）: 128,200,0,0\n\n</text>
+		<text>\n\n光熱放射発生中、インジケーターはこの色で点滅します。\nデフォルト（レッド）: 128,200,0,0\n\n</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_clr_a">
@@ -113,8 +108,7 @@
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_headerxy_desc">
-		<text>0,0は左上、1024,768は右下を意味します。
-			\nゲームはこれを現在の解像度に変換します。デフォルト（中央下）は 491,670 です。</text>
+		<text>0,0は画面左上、1024,768は画面右下を示します。\nゲームはこれを現在の解像度に合わせて調整します。デフォルト（中央下）は 491,670 です。</text>
 	</string>
 	<string id="ui_mcm_nerfs_nerfwidget_pos_x">
 		<text>X（水平、左右）座標</text>
@@ -126,17 +120,15 @@
 <!-- Added in 1.2 -->
 
 	<string id="ui_mcm_nerfs_nerfmain_use_mwheel">
-		<text>マウスホイールで周波数を変更する</text>
+		<text>マウスホイールによる周波数変更を有効化</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_use_mwheel_desc">
-		<text>有効にすると、マウスホイールを上下にスクロールして周波数を変更できます。バニラと同じように、ShiftまたはAltを押したままにすると、増分がそれぞれ10または50に変更されます。これにより、スクロールでより素早く数値の変更が可能です！\n
-		この機能を使用するには、バージョン 20230701 以降のmoddedバイナリが必要です。現在GAMMAではサポートされていません。</text>
+		<text>有効にすると、マウスホイールの上下スクロールで周波数を変更できるようになります。バニラと同様に、ShiftキーまたはAltキーを押しながら操作すると、増分がそれぞれ10または50に変更され、より素早い数値調整が可能です！\nこの機能を利用するには、バージョン20230701以降のmoddedバイナリが必要です。</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_binaries">
-		<text>Modded binaries by demonized: https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/
-		</text>
+		<text>demonized氏によるmoddedバイナリ: https://github.com/themrdemonized/STALKER-Anomaly-modded-exes/</text>
 	</string>
 
 <!-- Added in 1.3 -->
@@ -150,7 +142,7 @@
 	</string>
 
 	<string id="ui_mcm_nerfpresets_header2">
-		<text>マウスホイールのサポートが有効になっている場合、Ctrlを押しながらスクロールすることで、以下のプリセットを循環させることもできます。</text>
+		<text>マウスホイールによる周波数変更が有効な場合、Ctrlキーを押しながらスクロールすることで、以下のプリセットを順に切り替えることも可能です。</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfpresets_preset1_freq">
@@ -232,17 +224,15 @@
 <!-- Added in 1.5 -->
 
 	<string id="ui_mcm_nerfs_nerfmain_loadfailed1">
-		<text>エラー: item_radio.scriptに問題があります。NERFSが正しくインストールされていません!\n</text>
+		<text>エラー: item_radio.scriptに問題が発生しています。NERFSが正しくインストールされていません！\n</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_loadfailed2">
-		<text>
-			\nNew Extensible RF Sourcesは、正しくないitem_radio.scriptのファイルがインストールされていることを検出しました。これは、NERFSの後にこのファイルを変更する別のアドオンを読み込んだことが原因である可能性が高いです。\n
+		<text>\n「New Extensible RF Sources」は、item_radio.script ファイルが正しくない状態で導入されていることを検出しました。これは、NERFSの後にこのファイルを変更する別のアドオンが読み込まれたことが原因である可能性が高いです。\n
 
-			\nitem_radio.scriptを変更する他のアドオンの後にNERFSをインストールする必要があります。Reworked RF Receiver、RF Tasks、Remote Controlled Explosives、またはBizarre Interferenceを使用している場合、NERFSにはこれらのアドオンが正常に動作するための互換性オプションがあります。\n
+			\nitem_radio.scriptを変更する他のアドオンよりも後にNERFSをインストールする必要があります。「Reworked RF Receiver」、「RF Tasks」、「Remote Controlled Explosives」、または「Bizarre Interference」を使用している場合、NERFSにはこれらのアドオンが正常に動作するための互換性オプションが用意されています。\n
 
-			\nDevices of Anomaly Redoneを使用する場合は先にそちらをロードし、その後でNERFSをロードしてください。これにより、Devices of Anomaly Redoneに含まれている簡略版の「NERFS」が上書きされます。
-		</text>
+			\n「Devices of Anomaly Redone」を使用する場合は、まずそちらをロードし、その後にNERFSをロードしてください。これにより、「Devices of Anomaly Redone」に含まれる簡略版のNERFSが上書きされます。</text>
 	</string>
 
 <!-- Added in 1.6 -->
@@ -268,20 +258,18 @@
 	</string>
 	
 	<string id="ui_mcm_nerfs_nerfmain_header_complex1">
-		<text>$clr_prpNew Extensible RF Sources$clr_defはRF受信機を様々な方法で改善します:\n
+		<text>$clr_prpNew Extensible RF Sources$clr_defは、RF受信機を以下の様々な方法で改善します:\n
 				 • $clr_gld周波数の上限$clr_defを$clr_lbl300$clr_defから$clr_lbl999$clr_defに拡張（以下で設定可能）\n
 				 • 新しい$clr_gldRF信号源$clr_defを追加\n
-				 • すべてのRF信号源を$clr_gld改造が簡単で競合のないように設計$clr_defされた$clr_gldLTXベースのフレームワーク$clr_defに移行\n
-				 $clr_def• 死んだストーカーからランダムに見つかる$clr_gldノート（百科事典の記事付き）$clr_defを追加し、\n   プレイヤーがゲームプレイを通じて$clr_gld有用な周波数について学ぶ$clr_defことができる\n
-				 • アクセシビリティ用途や好みに応じて、信号強度を示す$clr_gldHUDインジケータ$clr_defをオプションとして追加\n
-				 • $clr_gldReworked RF Receiver$clr_defと$clr_gldTB's RF Tasks$clr_defのサポート
-		</text>
+				 • すべてのRF信号源を、$clr_gld改造が容易で競合しにくいように設計$clr_defされた$clr_gldLTXベースのフレームワーク$clr_defへ移行\n
+				 $clr_def• 死亡したストーカーからランダムに入手できる$clr_gldノート（百科事典の記事付き）$clr_defを追加し、\n   プレイヤーがゲームプレイを通じて$clr_gld有用な周波数を発見$clr_defできるように\n
+				 • アクセシビリティや好みに応じて、信号強度を示す$clr_gldHUDインジケーター$clr_defをオプションで追加\n
+				 • $clr_gldReworked RF Receiver$clr_defと$clr_gldTB's RF Tasks$clr_defに対応</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_header_complex2">
 		<text>$clr_def
-			詳細については、Moddbのページをご覧ください:\n$clr_lblhttps://www.moddb.com/mods/stalker-anomaly/addons/new-extensible-rf-sources
-		</text>
+			詳細情報については、Moddbのページをご覧ください:\n$clr_lblhttps://www.moddb.com/mods/stalker-anomaly/addons/new-extensible-rf-sources</text>
 	</string>
 
 <!-- Added in 1.7 -->
@@ -295,50 +283,49 @@
     </string>
 
     <string id="encyclopedia_addons_nerfs_text">
-        <text>\n%c[255,137,48,225]New Extensible RF Sources%c[ui_gray_1]はRF受信機を様々な方法で改善します:
+        <text>\n%c[255,137,48,225]New Extensible RF Sources%c[ui_gray_1]は、RF受信機を以下の様々な方法で改善します:
 
 \n \n • %c[pda_yellow]周波数の上限%c[ui_gray_1]を%c[255,0,200,220]300%c[ui_gray_1]から%c[255,0,200,220]999%c[ui_gray_1]に拡張（MCMで設定可能）
 \n • ストーカーのPDAなど、新しい%c[pda_yellow]RF信号源%c[ui_gray_1]を追加
-\n • RF信号源を%c[pda_yellow]改造が簡単で競合のないように設計%c[ui_gray_1]された%c[pda_yellow]LTXベースのフレームワーク%c[ui_gray_1]に移行
-\n • 死んだストーカーからランダムに見つかる%c[pda_yellow]メモ（百科事典の記事付き）%c[ui_gray_1]を追加し、
-\n   プレイヤーがゲームプレイを通じて%c[pda_yellow]有用な周波数について学ぶ%c[ui_gray_1]ことができる
-\n • アクセシビリティ用途や好みに応じて、信号強度を示す%c[pda_yellow]HUDインジケータ%c[ui_gray_1]を追加
-\n • %c[pda_yellow]Reworked RF Receiver%c[ui_gray_1]、%c[pda_yellow]Remote Controlled Explosives%c[ui_gray_1]、%c[pda_yellow]TB's RF Tasks%c[ui_gray_1]のサポート
+\n • RF信号源を、%c[pda_yellow]改造が容易で競合しにくいように設計%c[ui_gray_1]された%c[pda_yellow]LTXベースのフレームワーク%c[ui_gray_1]へ移行
+\n • 死亡したストーカーからランダムに入手できる%c[pda_yellow]ノート（百科事典記事付き）%c[ui_gray_1]を追加し、
+\n   プレイヤーがゲームプレイを通じて%c[pda_yellow]有用な周波数を発見%c[ui_gray_1]できるように
+\n • アクセシビリティや好みに応じて、信号強度を示す%c[pda_yellow]HUDインジケーター%c[ui_gray_1]をオプションで追加
+\n • %c[pda_yellow]Reworked RF Receiver%c[ui_gray_1]、%c[pda_yellow]Remote Controlled Explosives%c[ui_gray_1]、%c[pda_yellow]TB's RF Tasks%c[ui_gray_1]に対応
 
 \n \n%c[pda_white]機能を紹介する動画はこちら: %c[ui_gray_1]https://www.youtube.com/watch?v=7sdVkImQS_Q
 \n%c[pda_white]Moddb: %c[ui_gray_1]https://www.moddb.com/mods/stalker-anomaly/addons/new-extensible-rf-sources
 
-\n \n%c[pda_white]設定は%c[pda_yellow]MCM > NERF Sources%c[pda_white]でカスタマイズできる:
-\n • %c[pda_yellow]メイン設定%c[pda_white]: 機能のオンオフ、デバッグ、互換性
-\n • %c[pda_yellow]プリセット%c[pda_white]: 周波数プリセットとホットキー
+\n \n%c[pda_white]設定は%c[pda_yellow]MCM > NERF Sources%c[pda_white]でカスタマイズ可能です:
+\n • %c[pda_yellow]メイン設定%c[pda_white]: 機能の有効／無効、デバッグ、互換性
+\n • %c[pda_yellow]プリセット設定%c[pda_white]: 周波数プリセットとホットキー
 \n • %c[pda_yellow]アクセシビリティ設定%c[pda_white]: アクセシビリティウィジェットの設定%c[ui_gray_1]
 
 \n \n-----------------------------------------------------------------
 
 \n \n%c[pda_red]トラブルシューティング%c[pda_white]
 
-\n\nこの記事が表示される場合、DLTXをサポートするバイナリの導入に成功しています。%c[ui_gray_1]
-\nおめでとうございます。modded exeを導入することは“戦い”の半分です。
-\n残りは最新のアドオンと正しいオプションをインストールすることにかかっています。%c[ui_gray_1]
+\n\nこの記事が表示される場合、DLTXをサポートするバイナリの導入に成功したことを意味します。%c[ui_gray_1]
+\nおめでとうございます！modded実行ファイルを導入することは、問題解決の半分に過ぎません。
+\n残りの半分は、最新のアドオンと適切なオプションをインストールすることにかかっています。%c[ui_gray_1]
 
-\n \nこの「NERFS」が%c[pda_white]Devices of Anomaly Redone%c[ui_gray_1]に含まれているものの場合、
-\nフルバージョンの「NERFS」をダウンロードしてインストールしてください。
-\n埋め込み版ではすべての機能が利用できない可能性があります。
+\n \nこのNERFSが%c[pda_white]Devices of Anomaly Redone%c[ui_gray_1]に含まれている場合、
+\nフルバージョンのNERFSをダウンロードしてインストールしてください。
+\n埋め込み版では、すべての機能が利用できない場合があります。
 
 \n \n%c[pda_red]重要: バグを報告するには、以下の手順に従ってください:
 
 \n \n%c[pda_white] 1. %c[pda_yellow]MCM > NERF Sources > メイン設定%c[pda_white]を開く
 \n%c[pda_white] 2. %c[pda_yellow]デバッグログ%c[pda_white]オプションを有効にする
 \n%c[pda_white] 3. ゲームを終了して再度起動する
-\n%c[pda_white] 4. できるだけ簡単な方法で問題を再現する
+\n%c[pda_white] 4. 可能な限り簡単な手順で問題を再現する
 \n%c[pda_white] 5. %c[pda_yellow](Anomalyフォルダ)\appdata\logs%c[pda_white]にあるログをどこかにアップロードして共有する
 
-\n\n%c[ui_gray_1]手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
+\n\n%c[ui_gray_1]手順通りに行わないと、ログに十分な情報が含まれない可能性があります。
 
-\n\nModdbのコメントには気が付けないため、通常はGAMMA Discord内の
+\n\nModdbのコメントは確認しづらいため、通常はGAMMA Discord内の
 \nAnomalous RF Signals / New Extensible RF Sourcesのチャンネルで
-\n連絡していただくと素早く対応できます。なお、未承諾のDMに対応することはありません。\n
-        </text>
+\nご連絡いただけると、より迅速に対応できます。なお、未承諾のDMには対応しておりません。\n</text>
     </string>
 
 <!-- Added in 1.7.1 -->
@@ -348,7 +335,7 @@
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_pointer_desc">
-		<text>このオプションとアクセシビリティウィジェットの両方が有効な場合、ウィジェットは色の変化に加えて、最も強い信号の方向を示すインジケーターを表示します。</text>
+		<text>このオプションとアクセシビリティウィジェットの両方が有効な場合、ウィジェットは色の変化に加え、最も強い信号の方向を示すインジケーターを表示します。</text>
 	</string>
 
 </string_table>

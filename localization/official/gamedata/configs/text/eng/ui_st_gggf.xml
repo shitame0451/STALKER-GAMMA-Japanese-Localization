@@ -7,22 +7,22 @@
 
 
 	<string id="ui_mcm_gggf_title">
-		<text>Actor Speed Config</text>
+		<text>プレイヤーの移動速度設定</text>
 	</string>
 	<string id="ui_mcm_menu_gggf">
 		<text>Grok Gotta Go Fast</text>
 	</string>
 	<string id="ui_mcm_gggf_gotta_go_fast_run">
-		<text>歩行スピードの倍率設定</text>
+		<text>歩行速度の倍率</text>
 	</string>
 	<string id="ui_mcm_gggf_gotta_go_fast_run_desc">
-		<text>指定された倍率でアクターの歩行速度（他のキーを押さずに移動する場合の速度）を増やします。</text>
+		<text>プレイヤーの歩行速度を設定した倍率で調整します。</text>
 	</string>
 	<string id="ui_mcm_gggf_gotta_go_fast_sprint">
-		<text>走行スピードの倍率設定</text>
+		<text>走行速度の倍率</text>
 	</string>
 	<string id="ui_mcm_gggf_gotta_go_fast_sprint_desc">
-		<text>指定した倍率でアクターの走行速度（「走る」キーを押して移動する場合の速度）を増やします。</text>
+		<text>プレイヤーの走行速度（「ダッシュ」キー入力時の移動）を設定した倍率で調整します。</text>
 	</string>
 
 

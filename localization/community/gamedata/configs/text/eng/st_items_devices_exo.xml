@@ -122,16 +122,16 @@
 	<string id="article_exo_text">
 		<text>
 %c[pda_white]強化外骨格の動力%c[ui_gray_1]
-\n強化外骨格は独自の動力源で稼働しており、効果的に運用するには継続的な電力供給が必要です。
+\n強化外骨格は独自の動力源で稼働しており、効率的な運用には継続的な電力供給が不可欠です。
 
 \n \n%c[pda_white]強化外骨格用バッテリー%c[ui_gray_1]
-\n強化外骨格の電力は、トレーダーから購入するか、ゾーン内で発見したバッテリーで充電することができます。バッテリーは使用すると電力を100%まで回復させるため、通常の強化外骨格の充電には十分です。
-\n電力は移動することで消費され、走行中はより消費量が高くなります。電力が0%になると、スーツを脱ぐまで移動速度が大きく低下します。
+\n強化外骨格の電力は、トレーダーから購入したり、ゾーン内で発見したバッテリーで充電できます。バッテリーを使用すると、電力を100%まで回復させます。通常の強化外骨格充電には十分な量です。
+\n電力は移動によって消費され、走行中は特に消費量が増加します。電力が0%になると、スーツを脱ぐまで移動速度が大幅に低下します。
 
 \n \n%c[pda_white]強化外骨格用補助電源%c[ui_gray_1]
-\n強化外骨格は補助電源で強化できます。これらはトレーダーから購入したり、クラフトや戦利品として入手することが可能です。
-\n補助電源はスーツにドラッグ&amp;ドロップするか、強化外骨格装着中に補助電源を右クリックして装備できます。
-\n補助電源を取り付けることで、電力の最大容量が100%以上に拡張され、上位モデルには特別なボーナスや追加機能が備わっています。</text>
+\n強化外骨格は補助電源を装着して強化できます。これらはトレーダーから購入したり、クラフトや戦利品として入手できます。
+\n補助電源は強化外骨格にドラッグ&amp;ドロップするか、装着中に補助電源を右クリックして装備できます。
+\n補助電源を取り付けることで、電力の最大容量が拡張されます。上位モデルには特別なボーナスや追加機能が備わっています。</text>
 	</string>
 	<string id="st_err_none">
 		<text>[SYSCTL]警告: 機能が見つかりません</text>
@@ -140,7 +140,7 @@
 		<text>[SYSCTL]警告: 電力が不足しています</text>
 	</string>
 	<string id="st_err_cooldown">
-		<text>[SYSCTL]警告: システム温度が安全値を超えています</text>
+		<text>[SYSCTL]警告: システム温度が安全値を超過しています</text>
 	</string>
 	<string id="st_ok_cooldown">
 		<text>[SYSCTL]情報: システム温度は正常です</text>
@@ -152,7 +152,7 @@
 		<text>[SYSCTL]情報: モーターオーバークロック作動中</text>
 	</string>
 	<string id="st_low_power">
-		<text>[SYSCTL]警告: 電力が残り僅かです</text>
+		<text>[SYSCTL]警告: 電力が残りわずかです</text>
 	</string>
 	<string id="ui_mcm_menu_exo">
 		<text>Powered Exos</text>
@@ -161,25 +161,25 @@
 		<text>Powered Exoskeletons</text>
 	</string>
 	<string id="ui_mcm_exo_drain">
-		<text>強化外骨格の電源消費量</text>
+		<text>強化外骨格の電力消費量</text>
 	</string>
 	<string id="ui_mcm_exo_sprint_drain">
-		<text>強化外骨格での走行時の電源消費量</text>
+		<text>強化外骨格走行時の電力消費量</text>
 	</string>
 	<string id="ui_mcm_exo_debug">
-		<text>デバッグのログ出力</text>
+		<text>デバッグログの出力</text>
 	</string>
 	<string id="ui_mcm_exo_drain_desc">
-		<text>強化外骨格の電源消費倍率を設定します。</text>
+		<text>強化外骨格の電力消費の倍率を設定します。</text>
 	</string>
 	<string id="ui_mcm_exo_sprint_drain_desc">
-		<text>強化外骨格での走行時の電源消費倍率を設定します。</text>
+		<text>強化外骨格走行時の電力消費の倍率を設定します。</text>
 	</string>
 	<string id="ui_mcm_exo_battery_chance">
 		<text>バッテリーのドロップ確率</text>
 	</string>
 	<string id="ui_mcm_exo_battery_chance_desc">
-		<text>ストーカーがバッテリーを落とす確率を設定します。強化外骨格を装着しているストーカーのみがバッテリーを落とします。</text>
+		<text>強化外骨格を装着したストーカーがバッテリーをドロップする確率を設定します。</text>
 	</string>
 	<string id="ui_mcm_exo_debug_desc">
 		<text>コンソールにデバッグログを出力します。</text>
@@ -191,6 +191,6 @@
 		<text>強化外骨格のアビリティ (Exo Power Keybind)</text>
 	</string>
 	<string id="ui_mcm_exo_power_keybind_desc">
-		<text>強化外骨格の補助電源に搭載されている機能を起動します。</text>
+		<text>強化外骨格の補助電源に搭載された特殊能力を起動します。</text>
 	</string>
 </string_table>

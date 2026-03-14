@@ -11,72 +11,72 @@
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_title_desc">
-		<text>使用／修理できない部品アイテムの処理を自動化します。</text>
+		<text>使用できない、または修理できない部品アイテムを自動で処理します。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_sell_parts">
-		<text>部品を売却</text>
+		<text>部品を売却／寄付</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_sell_parts_desc">
-		<text>耐久値が指定以下の部品アイテムを売却アイテムに移動し、耐久値0%の部品は寄付として扱います。
-\n売却アイテムへの移動は、各トレーダーが受け入れるアイテムに依存します（通常は技術者のみ部品を受け取ります）。</text>
+		<text>設定した耐久値を下回る部品アイテムを、自動で売却用ウィンドウへ移動します。耐久値が0%の部品は寄付品として処理されます。
+\n売却用ウィンドウへの移動は、各トレーダーが受け入れるアイテムに依存します。通常、部品は技術者のみが買い取ります。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_dump_parts">
-		<text>部品を死体に捨てる</text>
+		<text>部品を死体に戻す</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_dump_parts_desc">
-		<text>耐久値が指定以下の部品アイテムを、プレイヤーが調査中の死体に移動します。重要NPCの死体は対象外です。</text>
+		<text>設定した耐久値を下回る部品アイテムを、プレイヤーが漁っている死体へ自動で移動します。ただし、重要なNPCの死体は対象外となります。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_delete_parts">
 		<text>部品を削除</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_delete_parts_desc">
-		<text>耐久値が指定以下の部品アイテムを、インベントリに入った瞬間に削除します。</text>
+		<text>設定した耐久値を下回る部品アイテムを、インベントリに入った瞬間に自動で削除します。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_weapon_part_condition_threshold">
 		<text>銃部品の耐久値しきい値</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_weapon_part_condition_threshold_desc">
-		<text>この割合未満の耐久値を持つ銃部品のみが、自動処理の対象になります。</text>
+		<text>ここで設定した割合を下回る耐久値の銃部品のみが、自動処理の対象となります。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_outfit_part_condition_threshold">
 		<text>スーツ部品の耐久値しきい値</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_outfit_part_condition_threshold_desc">
-		<text>この割合未満の耐久値を持つスーツ部品のみが、自動処理の対象になります。</text>
+		<text>ここで設定した割合を下回る耐久値のスーツ部品のみが、自動処理の対象となります。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_never_handle_favorites">
 		<text>お気に入りは常に除外</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_never_handle_favorites_desc">
-		<text>耐久値にかかわらず、「お気に入り」に指定された部品は自動処理されません。</text>
+		<text>耐久値に関わらず、「お気に入り」に設定した部品は自動処理の対象外となります。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_always_handle_junk">
 		<text>ジャンク品は常に処理</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_always_handle_junk_desc">
-		<text>耐久値にかかわらず、「ジャンク品」に指定された部品は常に自動処理されます。</text>
+		<text>耐久値に関わらず、「ジャンク品」に設定した部品は常に自動処理されます。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_ignore_recipe_materials">
 		<text>クラフト素材を除外</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_ignore_recipe_materials_desc">
-		<text>クラフトレシピに使用されているスーツ部品は自動処理の対象外にします。</text>
+		<text>クラフトレシピの素材として必要なスーツ部品は自動処理の対象外となります。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_ignore_fabrics">
 		<text>布類を除外</text>
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_ignore_fabrics_desc">
-		<text>通常および合成の布シート、丈夫な織物、ミルスペック繊維などの繊維素材を処理対象から除外します。
-\nこのオプションは上記の設定と重複する可能性があります。</text>
+		<text>通常の布や合成布シート、丈夫な織物、ミルスペック繊維といった布素材を、自動処理の対象外とします。
+\nこの設定は、他のオプションと処理が重複する場合があります。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_handle_useless_ammo_parts">
@@ -84,7 +84,7 @@
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_handle_useless_ammo_parts_desc">
 		<text>箱やカラスから見つかることがある、用途のない弾薬部品を自動処理します。
-\n設定に応じて売却または削除されます。</text>
+\n設定に応じて売却または削除が行われます。</text>
 	</string>
 
 	<string id="ui_mcm_unusable_parts_handler_announce_handled_part">
@@ -92,7 +92,7 @@
 	</string>
 	<string id="ui_mcm_unusable_parts_handler_announce_handled_part_desc">
 		<text>削除または寄付された部品アイテムの名前をPDAメッセージで通知します。
-\n「売却アイテム」に移動されたアイテムは、インベントリで確認できるため通知されません。</text>
+\n売却用ウィンドウへ移動されたアイテムは、インベントリで確認できるため通知されません。</text>
 	</string>
 
 </string_table>

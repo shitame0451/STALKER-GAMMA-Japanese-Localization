@@ -6,7 +6,7 @@
 	</string>
 	<string id="st_pda_mil_descr">
 		<text>PDA（Personal Digital Assistant）はストーカーに必要不可欠なデバイスで、ゾーンでの移動や通信をサポートする機能を備えている。マップや任務ログ、メッセージ機能が搭載されており、行動の管理や目標の把握に役立つ。コンパクトで持ち運びやすく、日々の活動に欠かせない存在だ。
-\nこの高性能モデルは正体不明の組織によって開発されたもので、秘密作戦を遂行する軍やNGOの要員向けに設計されている。暗号化モジュールを内蔵しており、ゾーン内の暗号化されたプライベートネットワークに侵入し、周辺で活動する敵部隊のおおよその位置を特定することができる。\n \n
+\nこの高性能モデルは正体不明の組織が開発したもので、秘密作戦に従事する軍やNGOの要員向けに設計されている。暗号化モジュールを内蔵し、ゾーン内のプライベートネットワークに侵入することで、周辺の敵部隊のおおよその位置を特定することができる。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]近くにいるすべての分隊の位置を表示する\n
 		</text>
@@ -15,52 +15,52 @@
 		<text>Milspec PDA</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_uninstall">
-		<text>Milspec PDAをアンインストールする</text>
+		<text>Milspec PDAを削除</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_uninstall_desc">
-		<text>チェックを入れると、プレイヤーのインベントリ内にあるすべてのミルスペックPDAが削除されます。</text>
+		<text>有効にすると、プレイヤーのインベントリ内にあるすべてのミルスペックPDAが削除されます。</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_enabled">
-		<text>以下で設定したブラックリストを有効化</text>
+		<text>派閥のブラックリストを有効化</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_army">
-		<text>Militaryのストーカーを表示しない</text>
+		<text>Militaryのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_bandit">
-		<text>Banditのストーカーを表示しない</text>
+		<text>Banditのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_csky">
-		<text>Clear Skyのストーカーを表示しない</text>
+		<text>Clear Skyのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_dolg">
-		<text>Dutyのストーカーを表示しない</text>
+		<text>Dutyのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_ecolog">
-		<text>Ecologistのストーカーを表示しない</text>
+		<text>Ecologistのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_freedom">
-		<text>Freedomのストーカーを表示しない</text>
+		<text>Freedomのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_killer">
-		<text>Mercenaryのストーカーを表示しない</text>
+		<text>Mercenaryのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_monolith">
-		<text>Monolithのストーカーを表示しない</text>
+		<text>Monolithのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_zombied">
-		<text>Zombifiedのストーカーを表示しない</text>
+		<text>Zombifiedのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_greh">
-		<text>Sinのストーカーを表示しない</text>
+		<text>Sinのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_isg">
-		<text>UNISGのストーカーを表示しない</text>
+		<text>UNISGのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_renegade">
-		<text>Renegadeのストーカーを表示しない</text>
+		<text>Renegadeのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_milpda_facblacklist_stalker">
-		<text>Lonerのストーカーを表示しない</text>
+		<text>Lonerのストーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_menu_milpdagen">
 		<text>設定</text>
@@ -84,7 +84,7 @@
 		<text>KilTrakを有効化</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_kiltrak_desc">
-		<text>IshmaeelのKill Trackerアドオンに基づいたキルトラッキング機能のサポートを有効にします。</text>
+		<text>キルトラッキング機能を有効にします。この機能はIshmaeelの「Kill Tracker」アドオンをベースとしています。</text>
 	</string>
 	<string id="ui_mcm_milpda_cfg_device_pda_1_enabled">
 		<text>位置情報の表示設定を有効化（PDA 1.0）</text>
@@ -99,25 +99,25 @@
 		<text>位置情報の表示設定を有効化（ミルスペックPDA）</text>
 	</string>
 	<string id="ui_mcm_milpda_show_f">
-		<text>友好派閥のストーカーの位置を表示する</text>
+		<text>友好派閥のストーカーの位置を表示</text>
 	</string>
 	<string id="ui_mcm_milpda_show_n">
-		<text>中立派閥のストーカーの位置を表示する</text>
+		<text>中立派閥のストーカーの位置を表示</text>
 	</string>
 	<string id="ui_mcm_milpda_show_e">
-		<text>敵対派閥のストーカーの位置を表示する</text>
+		<text>敵対派閥のストーカーの位置を表示</text>
 	</string>
 	<string id="ui_mcm_milpda_show_k">
-		<text>死体の位置を表示する</text>
+		<text>死体の位置を表示</text>
 	</string>
 	<string id="ui_mcm_milpda_obeybl">
-		<text>派閥のブラックリストを使用する</text>
+		<text>派閥のブラックリストを適用する</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_debuglogs">
-		<text>デバッグログを有効にする</text>
+		<text>デバッグログを有効化</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_debuglogs_desc">
-		<text>この設定を有効にすると、スクリプトが行っている動作の詳細が大量にコンソールに出力されます。通常は無効にしておくべきですが、問題を報告する際にはデバッグログを有効にして再現する必要があります。</text>
+		<text>スクリプトの動作ログをコンソールに詳細に出力します（通常は無効を推奨）。不具合報告の際は、この項目をオンにして現象を再現させてください。</text>
 	</string>
 <!-- Added in 1.4 -->
 	<string id="st_kiltrak_bodyof">
@@ -154,21 +154,21 @@
 	</string>
 <!-- Added in 1.7 -->
 	<string id="ui_mcm_milpda_milpdagen_autoclear">
-		<text>インタラクト時に自動的に死体マーカーを消去する</text>
+		<text>インタラクト時に死体マーカーを自動消去</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_autoclear_desc">
-		<text>有効にすると、Kill Trackerは死体からアイテムを取得したり、その他の方法でインタラクトした際に自動的に死体マーカーを消去します。これを無効にすると、死体マーカーは手動で消去するか、死体が消滅するまでマップ上に残ります。</text>
+		<text>Kill Trackerは、死体からアイテムを取得したり、その他の方法でインタラクトすると自動的に死体マーカーを消去します。無効にすると、手動で消去するか死体が消滅するまでマーカーがマップ上に残ります。</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_tracking_mode">
 		<text>Kill Trackerのモード選択</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_tracking_mode_desc">
-		<text>殺したストーカーに対するKill Trackerの動作を設定します。
+		<text>死亡したストーカーに対するKill Trackerの動作を設定します。
 \n-------------------------------------
 \nオフ: 何もしない
-\nプレイヤー: プレイヤーのキルのみを表示する
-\nプレイヤーの分隊: プレイヤーに加えて味方のキルも表示する
-\nすべて: 誰が、または何が殺したかに関係なく死体を表示する</text>
+\nプレイヤー: プレイヤーが倒したストーカーのみ表示
+\nプレイヤーの分隊: プレイヤーと分隊メンバーが倒したストーカーを表示
+\nすべて: 誰が倒したかに関わらず、すべてのストーカーの死体を表示</text>
 	</string>
 	<string id="ui_mcm_lst_milpda_trkmode_all">
 		<text>すべて</text>
@@ -193,7 +193,7 @@
 		<text>プレイヤー以外が倒した敵の死体を表すアイコン</text>
 	</string>
 	<string id="ui_mcm_lst_milpda_upaw">
-		<text>PAWのアイコンを使用</text>
+		<text>PAWのアイコンを使用する</text>
 	</string>
 	<string id="st_kiltrak_deadbody">
 		<text>死体</text>
@@ -209,7 +209,7 @@
 		<text>すべての死体マーカーを消去</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_wipe_all_desc">
-		<text>すべての死体マーカーをマップから消去し、Kill Trackerが記録しているデータを削除します。これは元に戻せません。</text>
+		<text>すべての死体マーカーをマップから消去し、Kill Trackerが記録しているデータを削除します。この操作は元に戻せません。</text>
 	</string>
 
 <!-- Added in 1.8 -->
@@ -217,16 +217,16 @@
 		<text>プログレッション</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_enabled">
-		<text>分隊の位置情報を段階的に開放する（推奨）</text>
+		<text>分隊の位置情報を段階的にアンロックする（推奨）</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_enabled_desc">
-		<text>この機能が有効な場合、プレイヤーは各派閥の分隊の位置を表示するために、その派閥のストーカーが持っているPDAを集め、プライベートネットワークに接続する必要があります。デフォルト設定では、階級が高いストーカーのPDAの方がネットワーク接続の進捗に大きな影響を与えます。
+		<text>有効にすると、プレイヤーは各派閥のストーカーからPDAを入手してネットワークへのアクセス権を獲得し、各派閥の分隊の位置表示を個別にアンロックする必要があります。デフォルトでは、ランクの高いストーカーのPDAほどアクセス進行度が多く得られます。
 \n-------------------------------------
-\n友好的、中立的、または敵対的な派閥の位置情報を表示できるPDAが必要です。</text>
+\n友好的、中立的、または敵対的な派閥の位置情報を表示するには、対応するPDAが必要です。</text>
 	</string>
 	<string id="ui_mcm_prog_comm_descr">
-		<text>このメニューでは、各派閥の分隊の位置表示を解除するために必要なPDAデータの収集量や、
-\n各ランクのNPCのPDAを入手した際に得られる進捗の幅をカスタマイズできます。</text>
+		<text>このメニューでは、各派閥の分隊の位置表示をアンロックするために必要なPDAデータの収集量や、
+\n各ランクのNPCのPDAを入手した際に得られる進行度をカスタマイズできます。</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_army">
 		<text>Military</text>
@@ -265,7 +265,7 @@
 		<text>Loner</text>
 	</string>
 	<string id="ui_mcm_prog_rank_descr">
-		<text>PDAを持っていたストーカーのランクに基づく進捗の幅:</text>
+		<text>PDAをドロップしたストーカーのランクに応じた進行度:</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_novice">
 		<text>ルーキー</text>
@@ -293,7 +293,7 @@
 	</string>
 	<string id="st_mapspot_access_prog">
 		<text>ストーカー（%s）のPDAデータを解析中･･････
-\n%sのGPS情報への接続が進行しました - 進捗状況: %.2f%% (%s/%s)</text>
+\n%sのGPS情報へ接続しています - 進行度: %.2f%% (%s/%s)</text>
 	</string>
 	<string id="st_mapspot_access_unlock">
 		<text>ストーカー（%s）のPDAデータを解析中･･････
@@ -304,29 +304,29 @@
 
 	<string id="st_mapspot_access_lost">
 		<text>%sがネットワークのアクセスコードを変更しました
-\n現在は分隊の位置を表示できません - GPS情報への再接続には新しい%sのPDAデータが必要です</text>
+\n現在は分隊の位置を表示できません - GPS情報に再接続するには新しい%sのPDAデータが必要です</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_access_resets">
-		<text>ネットワークへのアクセス権限が一時的なものになる</text>
+		<text>ネットワークアクセス権限を一時的にする</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_access_resets_desc">
-		<text>この機能が有効な場合、他の派閥のネットワークへの侵入は一時的なものになります。一定時間が経過すると相手側は侵入に気付き、アクセスコードを変更するため、再度同じ方法で接続を確立し直さなければなりません。この機能を低い解除値と組み合わせることで、定期的なゲームプレイのループを生み出すことができます。</text>
+		<text>有効にすると、他の派閥のネットワークへの侵入は一時的になります。一定時間が経過すると相手側が侵入に気づき、アクセスコードを変更するため、再度接続を確立する必要があります。この機能を低いアンロック値と組み合わせることで、定期的なゲームプレイの繰り返しを楽しめます。</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_only_enemy_resets">
-		<text>敵派閥のみがアクセスコードを変更する</text>
+		<text>敵対派閥のみアクセスコードを変更する</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_only_enemy_resets_desc">
-		<text>この機能が有効な場合、中立派閥はプレイヤーをネットワークから追い出すことはありませんが、敵派閥は引き続き追い出すようになります。
+		<text>有効にすると、中立派閥はプレイヤーをネットワークから追い出すことはありませんが、敵対派閥は引き続き追い出します。
 
-\n \n無効の場合、プレイヤーの派閥以外のすべての派閥は最終的にアクセスコードを変更します。
+\n \n無効にすると、プレイヤーの派閥以外の全派閥がアクセスコードを変更します。
 
-\n \nこの設定は、中立派閥のネットワークへのアクセスに特別な手続きを必要としない場合には影響しません。</text>
+\n \n中立派閥がアンロックを必要としない場合、この設定は効果がありません。</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_access_time">
 		<text>取得したアクセス権限の有効期間</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_access_unit">
-		<text>アクセス権限の有効期間に使用される時間単位</text>
+		<text>アクセス権限の有効期間の時間単位</text>
 	</string>
 	<string id="ui_mcm_lst_timeunit_day">
 		<text>日</text>
@@ -356,73 +356,73 @@
 <!-- Added in 1.10 -->
 
 	<string id="ui_mcm_milpda_progressive_only_enemy_unlock">
-		<text>敵対派閥のみ解除が必要</text>
+		<text>敵対派閥のみアンロックが必要</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_only_enemy_unlock_desc">
-		<text>有効にすると、中立派閥は進行状況から除外され、解除する必要なくデバイスの可視性設定に従います。</text>
+		<text>有効にすると、中立派閥は進行度システムから除外され、アンロックなしでデバイスの表示設定に従います。</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_gain_mode">
-		<text>進捗状況が進む条件:</text>
+		<text>進行度を獲得する条件:</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_gain_mode_desc">
-		<text>取得した時: プレイヤーがストーカーのPDAを入手するだけで進捗状況が進みます。ロックされている場合は、まず解除する必要があります。その後、次にそれを拾うか、任意の収納ボックスから取り出すと進捗状況が進みます。
+		<text>取得時: ストーカーのPDAを入手すると進行度を獲得します。ロックされている場合は、まず解除が必要です。その後、再度拾うか、収納ボックスから取り出すと進行度を獲得します。
 \n-------------------------------------
-\n読んだ時: プレイヤーがストーカーのPDAを読んだときにのみ進捗状況が進みます。ロックされている場合は、まず解除する必要があります。
+\n読んだ時: ストーカーのPDAを読んだときにのみ進行度を獲得します。ロックされている場合は、まず解除が必要です。
 \n-------------------------------------
-\n分解した時: プレイヤーがPDAを分解することで進捗状況が進みます。この設定ではPDAのロックを解除する必要はありません。</text>
+\n分解時: PDAを分解することで進行度を獲得します。この設定では、PDAのロック解除は不要です。</text>
 	</string>
 	<string id="ui_mcm_lst_milpda_gain_on_pickup">
-		<text>PDAを取得した時</text>
+		<text>取得時</text>
 	</string>
 	<string id="ui_mcm_lst_milpda_gain_on_read">
-		<text>PDAを読んだ時</text>
+		<text>読んだ時</text>
 	</string>
 	<string id="ui_mcm_lst_milpda_gain_on_scrap">
-		<text>PDAを分解した時</text>
+		<text>分解時</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_verbose">
 		<text>詳細なデバッグログ</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_verbose_desc">
-		<text>有効にすると、スクリプトのデバッグログがコンソールに詳細な情報を大量に出力します。デバッグログが有効でない場合には影響しませんが、問題を報告する際には有効にしてください。</text>
+		<text>スクリプトのデバッグログが詳細な情報をコンソールに大量に出力します。「デバッグログ」オプションが無効の場合、効果はありませんが、問題を報告する際には有効にしてください。</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_must_decrypt">
-		<text>暗号化されたPDAの解除を必要とする</text>
+		<text>暗号化されたPDAの解除を必須にする</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_must_decrypt_desc">
-		<text>有効にすると、取得したり読むだけでは暗号化されたPDAから進捗状況を得ることができません。PDAはまず暗号化を解除する必要があります。</text>
+		<text>有効にすると、暗号化されたPDAからは進行度を獲得できません。先にPDAの暗号化を解除する必要があります。</text>
 	</string>
 
 <!-- Added in 1.11 -->
 
 	<string id="ui_mcm_milpda_progmult">
-		<text>進行状況の獲得倍率</text>
+		<text>進行度の獲得倍率</text>
 	</string>
 	<string id="ui_mcm_milpda_progmult_desc">
-		<text>このPDAを装備している間にプレイヤーが得た進捗状況のデータは、ここで設定した数値によって乗算されます。0に設定すると、このPDAでの進捗状況の獲得が実質的に無効になります。</text>
+		<text>このPDAを装備している間にプレイヤーが獲得する進行度は、ここで設定した数値によって乗算されます。0に設定すると、このPDAでの進行度の獲得が実質的に無効になります。</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_victim_text_mode">
-		<text>ツールチップに被害者を表示</text>
+		<text>ツールチップに被害者名を表示</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_victim_text_mode_desc">
 		<text>有効にすると、死体の詳細がマップ上のツールチップに表示されます。</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_killer_text_mode">
-		<text>ツールチップに殺害者を表示</text>
+		<text>ツールチップに殺害者名を表示</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_killer_text_mode_desc">
 		<text>有効にすると、死体を殺害した者の詳細がマップ上のツールチップに表示されます。</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_noblacklist">
-		<text>ブラックリストに登録された派閥はデータを取得できなくなる</text>
+		<text>ブラックリストに登録された派閥の進行度を獲得しない</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_noblacklist_desc">
-		<text>この設定と派閥のブラックリストが両方とも有効になっている場合、ブラックリストに登録された派閥はデータや進捗状況を得ることができなくなります。</text>
+		<text>この設定と派閥のブラックリストの両方が有効な場合、ブラックリストに登録された派閥はデータや進行度を獲得できません。</text>
 	</string>
 	<string id="st_mapspot_access_unlock_nopda">
-		<text>派閥のネットワークに侵入するためのストーカー（%s）のPDAデータが集まりました
-\nしかし、現在のPDAでは%sの分隊の位置情報を表示できません
-\n位置情報を表示するにはPDAのアップグレードが必要です</text>
+		<text>ストーカー（%s）のPDAにより、派閥ネットワークの侵入に必要なデータが集まりました
+\nただし、現在のPDAでは%sの分隊の位置を表示できません
+\n位置を表示するにはPDAのアップグレードが必要です</text>
 	</string>
 
 <!-- Added in 1.12 -->
@@ -433,16 +433,16 @@
 	<string id="ui_mcm_milpda_milpdagen_monster_tracking_mode_desc">
 		<text>ミュータントの死体がマップに表示される条件を設定します。
 \n-------------------------------------
-\nオフ: ミュータントに対してKill Trackerが無効になる
-\nプレイヤー: プレイヤーが殺したミュータントを表示する
-\nプレイヤーの分隊: プレイヤーまたは仲間が殺したミュータントを表示する
-\nすべて: 誰が、または何が殺したかに関係なくミュータントの死体が表示される</text>
+\nオフ: ミュータントに対するKill Trackerを無効にする
+\nプレイヤー: プレイヤーが倒したミュータントのみ表示
+\nプレイヤーの分隊: プレイヤーと分隊メンバーが倒したミュータントを表示
+\nすべて: 誰が倒したかに関わらず、すべてのミュータントの死体を表示</text>
 	</string>
 	<string id="ui_mcm_milpda_header_main_plaintext">
 		<text>• PDAの種類ごとにストーカーや死体の位置情報の表示設定をカスタマイズ
 \n• ミルスペックPDAを追加: クラフトでのみ手に入る新しいデバイス
 \n• Kill Trackerを搭載: PAWマップアイコンのサポートを備えたカスタマイズ可能な死体追跡機能
-\n• 進捗システムにより、ストーカーのPDAを取得することで派閥のGPSデータへ接続できる
+\n• 進行度システムにより、ストーカーのPDAを取得することで派閥のGPSデータへ接続できる
 \n• 特定の派閥をPDAに表示しないようにするブラックリストも搭載
 
 \n \nすべての機能はオプションであり、MCMでカスタマイズが可能です。
@@ -454,7 +454,7 @@
 		<text>$clr_def • $clr_whtPDAの種類ごとに$clr_gldストーカーや死体の位置情報の表示設定をカスタマイズ
 \n$clr_def • $clr_milミルスペックPDA$clr_whtを追加: クラフトでのみ手に入る$clr_gld新しいデバイス$clr_wht
 \n$clr_def • $clr_milKill Tracker$clr_whtを搭載: PAWマップアイコンのサポートを備えた$clr_gldカスタマイズ可能な死体追跡機能$clr_wht
-\n$clr_def • $clr_mil進捗システム$clr_whtにより、$clr_gldストーカーのPDAを取得することで派閥のGPSデータへ接続できる$clr_wht
+\n$clr_def • $clr_mil進行度システム$clr_whtにより、$clr_gldストーカーのPDAを取得することで派閥のGPSデータへ接続できる$clr_wht
 \n$clr_def • $clr_gld特定の派閥をPDAに表示しない$clr_whtようにする$clr_milブラックリスト$clr_whtも搭載</text>
 	</string>
 	<string id="ui_mcm_milpda_header_main_complex2">
@@ -464,24 +464,24 @@
 	</string>
 	<string id="ui_mcm_milpda_header_prog_plaintext">
 		<text>通常、ゲームは派閥があなたに対して中立か、仲間か、敵対関係かによって、
-\nマップ上で分隊を見られるかどうかを判断します。
+\nマップ上で分隊が表示されるかを判断します。
 \nより高度なPDAを購入すると、そのPDAが対応するすべての派閥を即座に表示できます。
 \n-------------------------------------
 \nこれは特に敵対派閥に対して大きなアドバンテージとなります。
-\nプログレッシブ機能は、倒れたストーカーからPDAを入手し、そのデータを使って派閥のネットワークに侵入し、
+\n進行度機能は、倒れたストーカーからPDAを入手し、そのデータを使って派閥のネットワークに侵入し、
 \n分隊のGPSデータにアクセスすることでこのアドバンテージを獲得する必要があります。
-\n以下で設定を細かく調整することができます。</text>
+\n以下で設定を細かく調整できます。</text>
 	</string>
 	<string id="ui_mcm_milpda_header_prog_complex1">
 		<text>$clr_def通常、ゲームは派閥があなたに対して$clr_gld中立$clr_defか、$clr_grn仲間$clr_defか、$clr_red敵対関係$clr_defかによって、
-\nマップ上で分隊を見られるかどうかを判断します。
+\nマップ上で分隊が表示されるかを判断します。
 \nより高度なPDAを購入すると、そのPDAが対応するすべての派閥を即座に表示できます。</text>
 	</string>
 	<string id="ui_mcm_milpda_header_prog_complex2">
 		<text>$clr_defこれは特に敵対派閥に対して大きなアドバンテージとなります。
-\n$clr_milプログレッシブ機能$clr_defは、$clr_gld倒れたストーカーからPDAを入手$clr_defし、そのデータを使って$clr_gld派閥のネットワークに侵入$clr_defし、
+\n$clr_mil進行度機能$clr_defは、$clr_gld倒れたストーカーからPDAを入手$clr_defし、そのデータを使って$clr_gld派閥のネットワークに侵入$clr_defし、
 \n$clr_gld分隊のGPSデータにアクセス$clr_defすることでこのアドバンテージを獲得する必要があります。
-\n以下で設定を細かく調整することができます。</text>
+\n以下で設定を細かく調整できます。</text>
 	</string>
 	<string id="ui_mcm_milpda_header_bl_plaintext">
 		<text>UNISGやMonolithはマップに表示されるべきではないと考えるかもしれません。
@@ -497,20 +497,20 @@
 	</string>
 	<string id="ui_mcm_milpda_header_bl_complex2">
 		<text>$clr_def理由は何であれ、$clr_milブラックリスト$clr_defを有効にすると、$clr_gld通常PDAで表示できる派閥でも$clr_defマップに表示されなくなります。
-\nデフォルトでは、$clr_milプログレッシブ機能$clr_defでブラックリストに登録された派閥の$clr_gldデータを取得することも防止$clr_defされます。</text>
+\nデフォルトでは、$clr_mil進行度機能$clr_defでブラックリストに登録された派閥の$clr_gldデータを取得することも防止$clr_defされます。</text>
 	</string>
 	<string id="ui_mcm_milpda_header_pda_plaintext">
 		<text>このPDAの機能をカスタマイズできます。
-\nこれらの設定は、一番上のオプションを有効にした場合にのみ反映されます。</text>
+\nこれらの設定は、一番上のオプションを有効にした場合にのみ適用されます。</text>
 	</string>
 
 <!-- Added in 1.13 -->
 
 	<string id="ui_mcm_milpda_milpdagen_squadmate_mapspots">
-		<text>分隊のすべてのメンバーの位置をマップに表示</text>
+		<text>分隊メンバー全員の位置をマップに表示</text>
 	</string>
 	<string id="ui_mcm_milpda_milpdagen_squadmate_mapspots_desc">
-		<text>通常、Anomalyでは分隊のリーダーのみがマップに表示されます。この設定を有効にすると、すべての分隊メンバーの位置をわずかに異なるアイコンで表示します。これは過去作をプレイしたことがある方には見覚えがあるかもしれません。</text>
+		<text>通常、Anomalyでは分隊のリーダーのみがマップに表示されます。この設定を有効にすると、すべての分隊メンバーの位置がわずかに異なるアイコンで表示されます。これは過去作をプレイしたことがある方には見覚えがあるかもしれません。</text>
 	</string>
 	<string id="encyclopedia_addons">
 		<text>アドオン</text>
@@ -519,112 +519,110 @@
 		<text>Milspec PDA</text>
 	</string>
 	<string id="encyclopedia_addons_milspec_pda_text">
-		<text>\n%c[255,130,180,130]Milspec PDA%c[ui_gray_1]アドオンは複数の便利な機能を提供します:%c[pda_white]
+		<text>\n%c[255,130,180,130]Milspec PDA%c[ui_gray_1]アドオンは以下の便利な機能を提供します:%c[pda_white]
 \n • PDAの種類ごとに%c[pda_yellow]ストーカーや死体の位置情報の表示設定をカスタマイズ%c[pda_white]
 \n • %c[255,130,180,130]ミルスペックPDA%c[pda_white]を追加: クラフトでのみ手に入る%c[pda_yellow]新しいデバイス%c[pda_white]
 \n • %c[255,130,180,130]Kill Tracker%c[pda_white]を搭載: PAWアイコンのサポートを備えた%c[pda_yellow]カスタマイズ可能な死体追跡機能%c[pda_white]
 \n • ストーカーのPDAを取得して%c[pda_yellow]派閥のGPSデータに接続%c[pda_white]する%c[255,130,180,130]プログレッシブ機能%c[pda_white]
 \n • %c[pda_yellow]特定の派閥をPDAに表示しない%c[pda_white]ようにする%c[255,130,180,130]ブラックリスト%c[pda_white]も搭載
 
-\n\n%c[ui_gray_1]すべての機能はMCMメニューでお好みに合わせてカスタマイズできます。
-\n%c[pda_white]何かが気に入らない場合は、まずMCMを確認してください！関連する設定があるはずです。
+\n\n%c[ui_gray_1]これらの機能はすべて、MCMメニューから詳細にカスタマイズ可能です。
+\n%c[pda_white]初期設定に不満がある場合は、MCMメニューで調整できる項目がないかご確認ください。
 
 \n\n%c[pda_yellow]Mod設定メニュー &gt; Milspec PDA%c[pda_white]:
-\n %c[pda_yellow]設定%c[pda_white]: Kill Tracker、UI、およびアドオン全体の設定
-\n %c[pda_yellow]ブラックリスト%c[pda_white]: PDAに表示されないようにする派閥を選択
-\n %c[pda_yellow]プログレッション%c[pda_white]: プログレッシブ機能の設定
+\n %c[pda_yellow]設定%c[pda_white]: Kill Tracker、UI、およびアドオン全体の基本設定
+\n %c[pda_yellow]ブラックリスト%c[pda_white]: PDAに表示させたくない派閥の選択
+\n %c[pda_yellow]プログレッション%c[pda_white]: プログレッシブ機能に関する設定
 \n %c[pda_yellow]PDA設定: 1.0%c[pda_white]: PDA 1.0で表示する位置情報の設定
-\n %c[pda_yellow]PDA設定: 2.0%c[pda_white]: PDA 2.0用の同様の設定
-\n %c[pda_yellow]PDA設定: 3.1%c[pda_white]: PDA 3.1用の同様の設定
-\n %c[pda_yellow]PDA設定: ミルスペック%c[pda_white]: ミルスペックPDA用の同様の設定
+\n %c[pda_yellow]PDA設定: 2.0%c[pda_white]: PDA 2.0で表示する位置情報の設定
+\n %c[pda_yellow]PDA設定: 3.1%c[pda_white]: PDA 3.1で表示する位置情報の設定
+\n %c[pda_yellow]PDA設定: ミルスペック%c[pda_white]: ミルスペックPDAで表示する位置情報の設定
 
-\n\n%c[pda_red]問題がある場合は、下にスクロールしてトラブルシューティング情報を確認してください。
+\n\n%c[pda_red]問題が発生した場合は、下にスクロールしてトラブルシューティング情報をご確認ください。
 
 \n\n%c[pda_green]高度な死体追跡機能%c[ui_gray_1]
-\nPDA 1.0を除くすべてのPDAにおいて、デフォルトで%c[pda_yellow]Kill Tracker%c[ui_gray_1]がサポートされています。
-\n内部的には常にすべての死体を追跡していますが、表示するかどうかは設定に従います。
+\nPDA 1.0を除くすべてのPDAで、デフォルトで%c[pda_yellow]Kill Tracker%c[ui_gray_1]が利用可能です。
+\nゲーム内部では常にすべての死体を追跡していますが、マップ上での表示は設定によって制御されます。
 
-\n\nデフォルト設定ではマップ上に%c[pda_yellow]あなたや仲間が倒したすべての敵にマーカーを表示%c[ui_gray_1]します。
-\n対象はストーカーとミュータントの両方が含まれますが、
-\nあなたや仲間以外が倒した敵にはマーカーは表示されません。
+\n\nデフォルトでは、マップ上に%c[pda_yellow]プレイヤーや仲間が倒したすべての敵にマーカーが表示%c[ui_gray_1]されます。
+\nストーカーとミュータントの両方が対象ですが、
+\nプレイヤーや仲間以外が倒した敵にはマーカーは表示されません。
 
-\n\nKill Trackerのこの機能は、他のすべての機能と同様に%c[pda_yellow]MCMで完全にカスタマイズ可能%c[ui_gray_1]です。
+\n\nKill Trackerのこの機能は、他の機能と同様に%c[pda_yellow]MCMメニューで自由にカスタマイズ可能%c[ui_gray_1]です。
 
 \n\n%c[pda_green]新しいPDA%c[pda_yellow]
 \nミルスペックPDA%c[ui_gray_1]は、PDA 3.1よりも高い電力を消費しますが、
-\nマップ上に%c[pda_yellow]敵の位置を表示する%c[ui_gray_1]というユニークな機能を備えています。
+\nマップ上に%c[pda_yellow]敵の位置を表示する%c[ui_gray_1]というユニークな機能を持っています。
 
 \n\n非常に強力なため、%c[pda_yellow]プログレッシブ機能%c[ui_gray_1]を使用してバランスを調整することをおすすめします。
 \n詳細は以下に記載されています。
 
 \n\nこの新しいPDAは購入することができず、ストーカーがドロップすることもありません。
-\nデフォルトでは、%c[pda_yellow]エキスパートツール%c[ui_gray_1]を使用してクラフトする必要があります。
-\n『電子工学ハンドブック』を見つけて読むことと、希少なクラフト材料を必要とします。
+\nデフォルトでは、%c[pda_yellow]エキスパートツール%c[ui_gray_1]を使用してクラフトでのみ入手可能です。
+\nクラフトには『電子工学ハンドブック』の発見、そして希少なクラフト材料が必要です。
 
-\n\nこれらの要件はスクリプトや設定ファイルに手を加えて変更できますが、
-\nそれが得意でない場合や、ミルスペックPDAを手に入れるための手間をかけたくない場合は、
-\nデバッグコンソールを使用することもできます。あなたの判断に委ねます。
+\n\nこれらの要件はスクリプトや設定ファイルを編集して変更できますが、
+\nもしそれが難しい場合や、ミルスペックPDAを手に入れる手間を省きたい場合は、
+\nデバッグコンソールを使用することも可能です。あなたの判断に委ねます。
 
 \n\n%c[pda_green]プログレッシブ機能%c[ui_gray_1]
-\n有効にすると、高度なPDAを手に入れるだけでは派閥の位置情報が表示されなくなります。
+\n有効にすると、高性能なPDAを入手しただけでは派閥の位置情報は表示されなくなります。
 \n代わりにストーカーのPDAを取得し、その派閥のアクセス権限を獲得する必要があります。%c[pda_yellow]
 
-\n\n特定の派閥のPDAを一定数取得%c[ui_gray_1]することで、その派閥の無線ネットワークに侵入するための
-\nデータを取得し、マップ上で分隊の位置情報を確認できるようになります。
+\n\n特定の派閥のPDAを一定数入手%c[ui_gray_1]すると、その派閥の無線ネットワークに侵入するための
+\nデータを取得し、マップ上でその派閥の分隊の位置情報を確認できるようになります。
 \nただし、ほとんどの派閥は最終的にこの侵入に気づき、
-\nしばらくすると%c[pda_yellow]アクセスコードを変更%c[ui_gray_1]します。アクセス可能な間に活用しましょう。
+\nしばらくすると%c[pda_yellow]アクセスコードを変更%c[ui_gray_1]します。アクセス可能な期間中に最大限活用しましょう。
 
-\n\nプログレッシブ機能は%c[pda_yellow]自由に設定を調整%c[ui_gray_1]できます。「アクセス解除が簡単すぎる」
-\n「難しすぎる」と感じる場合、条件をお好みに合わせて調整できます。
-\nまた、中立派閥のアクセス権も必要にするか、派閥がアクセス権を取り消すかどうか、
-\nその取り消しまでの時間も設定可能です。
+\n\nプログレッシブ機能は%c[pda_yellow]MCMで自由に設定を調整%c[ui_gray_1]できます。「アクセス解除が簡単すぎる」
+\nあるいは「難しすぎる」と感じる場合は、条件を好みに合わせて調整できます。
+\nまた、中立派閥へのアクセス権限も必要とするか、派閥がアクセス権を取り消すかどうか、
+\nそしてその取り消しまでの時間も設定可能です。
 
-\n\n解除期間も数週間、もしくは数秒・数分単位で設定できます。
-\n低い解除条件と短い解除期間を組み合わせることで、PDAのドロップが一時的なバフとして
-\n機能するようになります。また、長い時間をかけて安定した優位性を得る方法として活用
-\nすることも、調整次第で可能になります。%c[pda_yellow]
+\n\nアクセス解除期間は、数週間から数秒・数分単位まで細かく設定できます。
+\n解除の条件を低く、期間を短く設定すれば、PDAのドロップが一時的なバフとして機能します。
+\n設定次第では、長い時間をかけて安定した優位性を得るための手段としても活用できます。%c[pda_yellow]
 
-\n\nこれはあなたのゲームです。好きなようにプレイしてください。%c[pda_green]
+\n\nこれはあなたのゲームです。お好みのプレイスタイルに合わせて設定してください。%c[pda_green]
 
 \n\nブラックリスト機能%c[ui_gray_1]
-\n確かに、DutyやFreedomのネットワークに侵入する必要があるのは納得がいきます。
-\nBanditのセキュリティが優れている時というのは、ネットワークのパスワードが
-\n単なる連番や「汚い言葉」を少し変えたようなものではない場合です。
-\nしかし、MonolithやUNISGについてはどうでしょうか？
+\nDutyやFreedomのネットワークにハッキングできるというのは筋が通っています。
+\nまた、Banditのネットワークセキュリティが「マシ」な部類だとしても、
+\nそのパスワードは単純な連番や俗語の組み合わせ程度のものでしょう。
+\nしかし、MonolithやUNISGが相手となると、一体どうなるのでしょうか？
 
-\n\nもし特定の派閥がマップに表示されるべきではないと考える場合でも安心してください。
-\n%c[pda_yellow]ブラックリスト%c[ui_gray_1]機能を使えば、表示させたくない派閥を選んでチェックを入れるだけで、
-\nマップにその派閥が表示されなくなります。
+\n\n特定の派閥をマップに表示させたくない場合でも、ご安心ください。
+\n%c[pda_yellow]ブラックリスト%c[ui_gray_1]機能で派閥にチェックを入れるだけで、マップに表示されなくなります。
 
 \n\n-----------------------------------------------------------------
 
 \n\n%c[pda_red]トラブルシューティング%c[pda_white]
 
 \n\nこの記事が表示される場合、DLTXをサポートするバイナリの導入に成功しています。%c[ui_gray_1]
-\nおめでとうございます。modded exeを導入することは“戦い”の半分です。
-\n残りは最新のアドオンと正しいオプションをインストールすることにかかっています。%c[pda_red]
+\nおめでとうございます。modded exeの導入は成功への第一歩です。
+\nあとは最新のアドオンと適切なオプションをインストールするだけです。%c[pda_red]
 
 \n\n問題を報告する前に: %c[pda_yellow]Milspec PDAがModパックの一部としてインストールされている場合%c[ui_gray_1]、
 \nそれは旧バージョンである可能性や、すべての機能がインストールされていない可能性、
 \nあるいはMCMのデフォルト設定が変更されている可能性があります。
-\n特に、すべてのクラフトレシピがあるにもかかわらずミルスペックPDAが作成できない場合や、
-\nプログレッシブ機能が正しく動作していない場合が当てはまります。
+\n特に、クラフトレシピが揃っているにもかかわらずミルスペックPDAが作成できない場合や、
+\nプログレッシブ機能が正しく動作しない場合に当てはまります。
 
-\n\nその場合、%c[pda_yellow]FOMODでこのアドオンを再インストール%c[ui_gray_1]し、目的に合わせて
-\n正しいインストールオプションが選択されているか確認する必要があるかもしれません。
+\n\nその場合は、%c[pda_yellow]FOMODでこのアドオンを再インストール%c[ui_gray_1]し、目的に合った
+\nインストールオプションが選択されているかご確認ください。
 
-\n\n%c[pda_red]重要: バグを報告するには、以下の手順に従ってください:%c[pda_white]
+\n\n%c[pda_red]重要: バグを報告する際は、以下の手順に従ってください:%c[pda_white]
 \n\n 1. %c[pda_yellow]MCM &gt; Milspec PDA &gt; 設定%c[pda_white]を開く
 \n 2. %c[pda_yellow]デバッグログ%c[pda_white]と%c[pda_yellow]詳細なデバッグログ%c[pda_white]を有効にする
 \n 3. ゲームを終了して再度起動する
 \n 4. できるだけ簡単な方法で問題を再現する
 \n 5. %c[pda_yellow](Anomalyフォルダ)\appdata\logs%c[pda_white]にあるログをどこかにアップロードして共有する
 
-\n\n%c[ui_gray_1]手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
+\n\n%c[ui_gray_1]これらの手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
 
-\n\nModdbのコメントには気が付けないため、通常はGAMMA Discord内の
-\nMilspec PDAのチャンネルで連絡していただくと素早く対応できます。
-\nなお、未承諾のDMに対応することはありません。\n</text>
+\n\nModdbのコメントは見落とす可能性があるため、通常はGAMMA Discord内の
+\nMilspec PDAチャンネルでご連絡いただけると迅速に対応できます。
+\nなお、未承諾のDMには対応しておりません。\n</text>
 	</string>
 
 <!-- Added in 1.14 -->

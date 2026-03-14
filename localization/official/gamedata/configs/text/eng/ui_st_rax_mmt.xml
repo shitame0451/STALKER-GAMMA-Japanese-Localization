@@ -11,12 +11,12 @@
 	</string>
 
 	<string id="ui_mcm_rax_mmt_keybind_desc">
-		<text>このキー設定は競合を回避するために、追加の修飾キーを必要とするように設定することができます。</text>
+		<text>他のキーと競合しないよう、修飾キー（Shift、Ctrlなど）と組み合わせて設定できます。</text>
 	</string>
 
 
 	<string id="ui_mcm_rax_mmt_update_mcm">
-		<text>この機能を表示するためにMCMを更新してください。キーはデフォルトでスラッシュに設定されています。[/]</text>
+		<text>この機能を利用するには、MCMの更新が必要です。キーはデフォルトで「スラッシュ (/)」に設定されています。</text>
 	</string>
 
 

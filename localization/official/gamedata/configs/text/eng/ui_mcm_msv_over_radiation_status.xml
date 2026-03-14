@@ -11,25 +11,25 @@
 	</string>
 
 	<string id="ui_mcm_rad_status_icon_msv_title_desc">
-		<text>ステータスインジケーター上にプレイヤーの放射線被曝量（mSv）を表示します。</text>
+		<text>放射能汚染ステータスアイコンの上にプレイヤーが受けている放射線量をミリシーベルト単位で表示します。</text>
 	</string>
 
 	<string id="ui_mcm_rad_status_icon_msv_faster_refresh_rate">
-		<text>更新頻度を高速化</text>
+		<text>数値表示の更新頻度を高速化</text>
 	</string>
 	<string id="ui_mcm_rad_status_icon_msv_faster_refresh_rate_desc">
-		<text>ステータスインジケーター全体の更新頻度とは別に、数値表示をより高速に更新できるようにします。</text>
+		<text>数値の更新頻度を、通常のステータスアイコンよりも速くします。</text>
 	</string>
 
 	<string id="ui_mcm_rad_status_icon_msv_icon_msv_requirement">
 		<text>表示条件</text>
 	</string>
 	<string id="ui_mcm_rad_status_icon_msv_icon_msv_requirement_desc">
-		<text>mSv数値を表示するために必要な条件を設定します。</text>
+		<text>数値を表示するために必要な条件を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_lst_rad_status_icon_msv_no_requirement_label">
-		<text>条件なし</text>
+		<text>常に表示</text>
 	</string>
 	<string id="ui_mcm_lst_rad_status_icon_msv_geiger_in_inv_label">
 		<text>ガイガーカウンター所持時</text>

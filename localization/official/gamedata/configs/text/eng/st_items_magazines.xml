@@ -91,37 +91,36 @@
 		<text>
 %c[pda_green]Mags Redux
 
-\n\n%c[ui_gray_1]Mags Reduxへようこそ。このガイドでは、アドオンの主な機能について説明します。
+\n\n%c[ui_gray_1]Mags Reduxへようこそ。このガイドでは、本アドオンの主な機能をご紹介します。
 
-\n\n%c[pda_green]リロードのやり方
-\n%c[pda_white]• %c[ui_gray_1]現実世界でマガジンを使用する銃は、マガジンを使用して弾を装填する必要があります。
-\nマガジンを必要としない銃（ショットガン、一部のボルトアクションライフル、リボルバーなど）は、バニラ（アドオン未導入の状態）と同様に動作します。
+\n\n%c[pda_green]リロード方法
+\n%c[pda_white]• %c[ui_gray_1]実銃と同様に、マガジンを使用する銃は、弾薬を装填するためにマガジンが必要です。
+\nショットガン、一部のボルトアクションライフル、リボルバーなど、マガジンを必要としない銃は、バニラ（アドオン未導入の状態）と同様に動作します。
 
 \n\n%c[pda_white]• %c[ui_gray_1]弾薬は手動でマガジンに装填する必要があります。
-\nマガジンの名称に対応する弾薬の種類が示されています。
-\n弾薬を装填するには、弾薬をマガジンにドラッグします。これにより、弾薬が1発ずつ装填される装填手順が開始されます。この動作をキャンセルする場合は、任意の場所をクリックします。
+\nマガジンの名称には、対応する弾薬の種類が示されています。
+\n弾薬をマガジンにドラッグすると、1発ずつ装填が開始されます。この動作をキャンセルするには、任意の場所をクリックしてください。
 
-\n\n%c[pda_white]• %c[ui_gray_1]マガジンを「%c[pda_white]右クリック%c[ui_gray_1]」し、「%c[pda_white]マガジンポーチに追加%c[ui_gray_1]」を選択して装備します。
-\nマガジンの背景色が変わり、アイコンが追加されます。
-\nこれはマガジンがスーツのマガジンポーチに追加されたことを意味します。
-\n対象の銃を持っている場合、リロードするとマガジンポーチ内のマガジンが使用されます。
+\n\n%c[pda_white]• %c[ui_gray_1]マガジンを%c[pda_white]右クリック%c[ui_gray_1]し、「%c[pda_white]マガジンポーチに追加%c[ui_gray_1]」を選択すると、装備できます。
+\nマガジンの背景色とアイコンが変わり、スーツのマガジンポーチに装備されたことを示します。
+\n装備中の銃をリロードする際、マガジンポーチ内のマガジンが使用されます。
 
-\n\n%c[pda_white]• %c[ui_gray_1]リロードの際、このアドオンは一番多く弾が入っているマガジンを選択します。
-\nさらに、直近に装填されたマガジンの弾薬タイプと等しいマガジンが優先的に選択されます。
-\nまた、マガジンは手動で挿入および取り外しを行うこともできます。
-\n取り外すには、銃を「%c[pda_white]右クリック%c[ui_gray_1]」して「%c[pda_white]マガジンを外す%c[ui_gray_1]」メニューを選択します。
-\n弾薬切り替えホイールでもマガジンの入れ替えが可能です。
-\nマガジンの一番上にある弾薬がそのマガジンの弾薬タイプとして分類されます。
+\n\n%c[pda_white]• %c[ui_gray_1]リロード時、本アドオンは最も多くの弾薬が装填されているマガジンを優先的に選択します。
+\nさらに、直近に装填されたマガジンと同じ弾薬タイプを持つマガジンも優先されます。
+\nまた、マガジンは手動で挿入・取り外しすることも可能です。
+\n取り外すには、銃を%c[pda_white]右クリック%c[ui_gray_1]し、「%c[pda_white]マガジンを外す%c[ui_gray_1]」を選択してください。
+\n弾薬切り替えホイールからもマガジンの入れ替えが可能です。
+\nマガジンの一番上にある弾薬が、そのマガジンの弾薬タイプとして認識されます。
 
-\n\n%c[pda_green]マガジンの入手方法
-\n%c[pda_white]• %c[ui_gray_1]トレーダーがマガジンを販売しています。
-\n%c[pda_white]• %c[ui_gray_1]NPC（特に高ランク）は改良マガジンをドロップする可能性があります。このようなマガジンはリロード時間が速くなったり、装填数が通常より大きい特性を持っています。
+\n\n%c[pda_green]マガジンの入手
+\n%c[pda_white]• %c[ui_gray_1]トレーダーからマガジンを購入できます。
+\n%c[pda_white]• %c[ui_gray_1]NPC（特に高ランクの敵）は、改良マガジンをドロップすることがあります。これらはリロード速度が向上したり、装弾数が通常より多いなどの特性を持ちます。
 
 \n\n%c[pda_green]MCMで調整できる設定
 \n%c[pda_white]• ドロップ品の調整: %c[ui_gray_1]NPCが落とすマガジンの量、装填数、改良マガジンの出現確率
 \n%c[pda_white]• 装填／取り出し速度の調整: %c[ui_gray_1]弾込め／取り出し速度の倍率を調整
-\n%c[pda_white]• 高速装填: %c[ui_gray_1]スタッシュ内で操作するときのみ、マガジンの装填／取り出しを即座に行う
-\n%c[pda_white]• 薬室に弾を保持: %c[ui_gray_1]マガジンを交換する際、現実の銃と同じように薬室内の弾を保持
+\n%c[pda_white]• 高速装填: %c[ui_gray_1]スタッシュ内でのみ、マガジンの装填／取り出しを即座に行う
+\n%c[pda_white]• 薬室に弾を保持: %c[ui_gray_1]マガジンを交換する際、実銃と同様に薬室内の弾薬を保持
 		</text>
 	</string>
 	
@@ -136,7 +135,7 @@
 		<text>マガジン管理</text>
 	</string>
 	<string id="ui_mcm_menu_hud">
-		<text>マガジンのHUD</text>
+		<text>マガジンHUD</text>
 	</string>
 	<string id="ui_mcm_menu_gameplay">
 		<text>ゲームプレイ</text>
@@ -154,16 +153,16 @@
 		<text>弾の装填速度</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_mag_loadtime_factor_desc">
-		<text>マガジンに弾を込める速度の倍率を調整します。</text>
+		<text>マガジンに弾薬を装填する速度の倍率を調整します。</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_mag_unloadtime_factor">
 		<text>弾の取り出し速度</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_mag_unloadtime_factor_desc">
-		<text>マガジンから弾を抜く速度の倍率を調整します。</text>
+		<text>マガジンから弾薬を取り出す速度の倍率を調整します。</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_mag_tooltip">
-		<text>マガジンの情報ウィンドウに表示する弾薬情報</text>
+		<text>マガジンツールチップの弾薬情報表示</text>
 	</string>
 	<string id="ui_mcm_lst_topround">
 		<text>一番上の弾薬のみ</text>
@@ -175,7 +174,7 @@
 		<text>すべての情報</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_mag_tooltip_desc">
-		<text>マガジンにカーソルを合わせた際の情報ウィンドウに表示する弾薬情報の詳細度を設定します。</text>
+		<text>マガジンにカーソルを合わせた際に表示される情報ウィンドウで、弾薬情報の詳細度を設定します。</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_debug">
 		<text>デバッグログ</text>
@@ -184,29 +183,29 @@
 		<text>コンソールにデバッグ情報を出力します。</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_empty_mags_stack">
-		<text>空のマガジンをまとめる</text>
+		<text>空マガジンのスタック化</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_empty_mags_stack_desc">
-		<text>有効にすると、インベントリ内にある空のマガジンは別々に表示されず、まとめて表示されるようになります。</text>
+		<text>有効にすると、インベントリ内の空のマガジンが個別に表示されず、まとめてスタック表示されます。</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_sort_inv">
-		<text>マガジンに弾が込められたときにインベントリを整理する</text>
+		<text>マガジン装填時のインベントリ整理</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_sort_inv_desc">
-		<text>マガジンに弾を装填するたびにインベントリのアイテムが移動するのが気になる場合、このチェックを外してください。</text>
+		<text>マガジンに弾薬を装填するたびにインベントリのアイテムが移動するのが気になる場合は、このオプションを無効にしてください。</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_highlight_color">
 		<text>装備中のマガジンの背景色</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_highlight_color_desc">
-		<text>マガジンポーチに設定されたマガジンの背景色を設定します。</text>
+		<text>マガジンポーチに装備されているマガジンの背景色を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_magazines_mgmt_highlight_clr_a">
 		<text>マガジンの背景色の不透明度</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_highlight_clr_a_desc">
-		<text>背景色の不透明度を調整します。数値を小さくするほど、より透明になります。</text>
+		<text>背景色の不透明度を調整します。数値を小さくするほど透明度が増します。</text>
 	</string>
 
 	<string id="ui_mcm_lst_ram_orange">
@@ -251,7 +250,7 @@
 		<text>弾薬タイプでグループ化</text>
 	</string>
 	<string id="ui_mcm_magazines_hud_group_by_ammo_desc">
-		<text>有効にすると、マガジンは一番上の弾薬タイプに基づいてグループに分けられます。</text>
+		<text>有効にすると、マガジンは一番上の弾薬タイプに基づいてグループ分けされます。</text>
 	</string>
 	<string id="ui_mcm_magazines_hud_show_hud">
 		<text>マガジンHUDを表示</text>
@@ -276,7 +275,7 @@
 		<text>「薬室に弾を保持」機能を有効化</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_retain_round_desc">
-		<text>有効にすると、マガジンを抜いても薬室内の弾は残ります。</text>
+		<text>有効にすると、マガジンを抜いても薬室内の弾薬は保持されます。</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_loadstash_behavior">
 		<text>スタッシュ内でのマガジンの装填動作</text>
@@ -288,23 +287,23 @@
 		<text>マガジンの高速装填</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_quick_loading_desc">
-		<text>有効にすると、インベントリでの弾込めが高速になり、一度に1箱分ずつ行います。</text>
+		<text>有効にすると、インベントリでの弾込めが高速になり、一度に1箱分ずつ行われます。</text>
 	</string>
 
 	<string id="ui_mcm_magazines_gameplay_load_behavior">
 		<text>マガジン装填時の動作</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_load_behavior_desc">
-		<text>インベントリや戦利品ウィンドウでマガジンに弾を装填する際の動作のスタイル
+		<text>インベントリや戦利品ウィンドウでマガジンに弾薬を装填する際の挙動を設定します。
 			\n\n注意:
-			\n - 高速化オプションを選択すると、異なる弾薬の種類をずらすなど、いくつかの機能が無効になります。
-			\n - 弾薬箱は、1つの「弾薬」アイテムに含まれる量で、バックショット用の10発はハンドガン用の14～16発分です。</text>
+			\n - 高速化オプションを選択すると、異なる弾薬の種類を混ぜて装填する機能など、一部の機能が無効になります。
+			\n - 「弾薬箱」とは、1つの「弾薬」アイテムに含まれる量を指します。例えば、バックショット用は10発、ハンドガン用は14～16発分です。</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_unload_behavior">
 		<text>マガジン弾薬取り出し動作</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_unload_behavior_desc">
-		<text>マガジンから弾が取り出されたときの動作を選択します。なお、利便性を考慮して、マガジンは常にスタッシュ内で操作した場合、即座にすべての弾薬が取り出されます。</text>
+		<text>マガジンから弾薬を取り出す際の動作を選択します。なお、利便性を考慮し、スタッシュ内で操作する場合は常に即座にすべての弾薬が取り出されます。</text>
 	</string>
 
 	<string id="ui_mcm_lst_ind">
@@ -318,10 +317,10 @@
 	</string>
 
 	<string id="ui_mcm_magazines_gameplay_ejection">
-		<text>空になったマガジンの動作</text>
+		<text>空マガジンの排出動作</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_ejection_desc">
-		<text>撃ち切ったマガジンの動作をどうするか設定します。</text>
+		<text>撃ち切ったマガジンをどのように処理するか設定します。</text>
 	</string>
 
 	<string id="ui_mcm_lst_ruck">
@@ -329,49 +328,48 @@
 	</string>
 
 	<string id="ui_mcm_lst_loadout">
-		<text>マガジンポーチに設定したまま</text>
+		<text>マガジンポーチに保持</text>
 	</string>
 
 	<string id="ui_mcm_magazines_gameplay_mag_unequip_trs">
-		<text>マガジンを空として扱う%</text>
+		<text>マガジンを空と見なす残弾率（%）</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_mag_unequip_trs_desc">
-		<text>この%以下の場合、そのマガジンは空として扱われます。</text>
+		<text>この残弾率以下の場合、そのマガジンは空として扱われます。</text>
 	</string>
 	<string id="ui_mcm_magazines_rant">
-		<text>コンバットリロード（インベントリを閉じた状態でのリロード）の仕組みの説明:\n \n
-		• マガジンポーチとは、ベストに付いているポケットのことです。例えば、4つのポケットがある場合、それぞれのポケットに1つずつ、4つのマガジンを持ち運んでいて、銃に5つ目のマガジンが装填されています。\n
-		• リロードしようとしたとき、片手に銃を持ち、もう片方の手で銃の中のマガジンを掴んで取り出します。\n
+		<text>コンバットリロード（インベントリを閉じた状態でのリロード）の仕組み:\n \n
+		• マガジンポーチとは、ベストに付いているポケットのことです。例えば、4つのポケットがある場合、それぞれに1つずつ、合計4つのマガジンを携行しており、銃には5つ目のマガジンが装填されているとします。\n
+		• リロードしようとすると、片手に銃を持ち、もう片方の手で銃に装填されているマガジンを取り出します。\n
 		これで片手に銃、もう片方の手にマガジンを持つことになります。\n
-		4つのポケットすべてにマガジンが入っているので、手に持っているマガジンをポケットに入れることはできないし、両手がふさがっているのでポケットからマガジンを取り出すこともできない。あなたはどうしますか？\n
-		• この状況では、マガジンはバックパック/インベントリに入れられ、空いた手を使ってポケットからマガジンを取り出し、銃に挿入します。\n
-		リロード完了！\n
-		• リロードを開始する際に、マガジンポーチに空きがある場合、銃から取り出したマガジンはそのポケットに入れられます。ただし、マガジンが空の場合は、バックパック/インベントリに入ります。これは、MCM内で空のマガジンをマガジンポーチスロットに入れるか、地面にドロップするように変更できます。\n
-		</text>
+		しかし、4つのポケットすべてにマガジンが入っているため、手に持っているマガジンをポケットに入れることはできません。両手が塞がっているため、ポケットから新しいマガジンを取り出すこともできません。このような状況で、あなたはどうしますか？\n
+		• この場合、使用済みマガジンはバックパック／インベントリに収納され、空いた手でポケットから新しいマガジンを取り出し、銃に装填します。\n
+		これでリロード完了です！\n
+		• リロード開始時にマガジンポーチに空きがある場合、銃から取り出したマガジンはその空きポケットに収納されます。ただし、マガジンが空の場合は、バックパック/インベントリに収納されます。この空マガジンの処理は、MCM設定でマガジンポーチスロットに入れるか、地面にドロップするように変更できます。\n</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_three_hands">
-			<text>コンバットリロードで「第3の手」を使用する</text>
+			<text>コンバットリロード時の「第三の手」使用</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_three_hands_desc">
-			<text>コンバットリロードの後、排出されたマガジンをマガジンポーチに戻すために、第3の手を使用する。Ravenはとても訝しんでいる...</text>
+			<text>コンバットリロード後、排出されたマガジンをマガジンポーチに戻すために、架空の「第三の手」を使用します。Ravenは非常に怪しんでいます...</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_deathquality">
-		<text>NPCが所持するマガジンの品質</text>
+		<text>NPCがドロップするマガジンの品質</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_deathquality_desc">
 		<text>倒したNPCから入手できるマガジンの品質を調整します。</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_deathmags">
-		<text>NPCのマガジンドロップ率</text>
+		<text>NPCがマガジンをドロップする確率</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_deathmags_desc">
-		<text>NPCがマガジンを落とす確率を調整します。</text>
+		<text>NPCがマガジンをドロップする確率を調整します。</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_deathammo">
-		<text>NPCの弾薬ドロップ率</text>
+		<text>NPCがドロップするマガジンの装填弾数</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_deathammo_desc">
-		<text>NPCが落とすマガジンにどれくらい弾薬が装填されているかの倍率を調整します。</text>
+		<text>NPCがドロップするマガジンに装填されている弾薬の量の倍率を調整します。</text>
 	</string>
 
 </string_table>

@@ -10,27 +10,27 @@
     </string>
 
     <string id="ui_mcm_liz_qht_keybind_desc">
-        <text>このキーには修飾キーの同時押しを必要とする設定が可能です。キーの競合を防ぐためにご利用ください。</text>
+        <text>このキーには、修飾キー（Shift、Ctrl、Altなど）との同時押しを設定できます。他の操作とのキー競合を防ぐ際にご活用ください。</text>
     </string>
 
     <string id="ui_mcm_liz_qht_update_mcm">
-        <text>使用中のMCMバージョンが古すぎます。最新版にアップグレードしてください。</text>
+        <text>MCMのバージョンが古いため、最新版にアップデートしてください。</text>
     </string>
 
     <string id="ui_mcm_liz_qht_strict_helmets">
-        <text>厳格なヘルメット制限を有効化</text>
+        <text>ヘルメット制限モードを有効化</text>
     </string>
 
     <string id="ui_mcm_liz_qht_strict_helmets_desc">
-        <text>このオプションを有効にすると、ヘッドギア（ヘルメット）を装着中は飲食・薬の服用・喫煙ができなくなります。統合型ヘルメット付きのスーツも含まれます。一部、口元を覆わないヘッドギアは例外となります。</text>
+        <text>このオプションを有効にすると、ヘッドギア（ヘルメット）を装着している間は、飲食、薬の服用、喫煙ができなくなります。ヘルメット一体型のスーツも対象です。ただし、口元を覆わない一部のヘッドギアは例外となります。</text>
     </string>
 
     <string id="ui_mcm_liz_qht_icon_state">
-        <text>ヘッドギア状態アイコンを表示</text>
+        <text>ヘッドギアの状態アイコンを表示する</text>
     </string>
     
     <string id="ui_mcm_liz_qht_icon_state_desc">
-        <text>ヘッドギア状態アイコンの表示モードを設定します。このアイコンはステータスインジゲーターに表示され、ヘッドギアの装備状態を示します（選択内容に応じて装備時または非装備時に表示）。</text>
+        <text>ヘッドギア状態アイコンの表示モードを設定します。このアイコンはステータスインジケーターに表示され、ヘッドギアの装備状態を示します。</text>
     </string>
 
     <string id="ui_mcm_liz_qht_icon_state_none">

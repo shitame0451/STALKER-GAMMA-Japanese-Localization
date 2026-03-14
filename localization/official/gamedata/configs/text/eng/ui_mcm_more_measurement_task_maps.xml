@@ -11,35 +11,35 @@
 	</string>
 
 	<string id="ui_mcm_more_measurement_task_maps_title_desc">
-		<text>このMODを使用すると、「測定タスク」が現在のマップか隣接したマップでのみ発生するようになります。
-\nまた、使用禁止にされている特定のマップを許可することも可能です。</text>
+		<text>このアドオンを導入すると、「測定タスク」の発生場所を現在のマップか隣接マップに限定できます。
+\nまた、通常は対象外となっている特定のマップを、測定タスクの対象として許可することも可能です。</text>
 	</string>
 
 	<string id="ui_mcm_more_measurement_task_maps_override_eligible_map_distances_parameter">
-		<text>対応マップ距離を上書き</text>
+		<text>対象マップの距離設定を上書き</text>
 	</string>
 	<string id="ui_mcm_more_measurement_task_maps_override_eligible_map_distances_parameter_desc">
-		<text>以下の機能を有効にします。</text>
+		<text>以下の「対象マップの距離範囲」機能を有効にします。</text>
 	</string>
 
 	<string id="ui_mcm_more_measurement_task_maps_eligible_map_distances_parameter">
-		<text>有効なマップ距離の範囲</text>
+		<text>対象マップの距離範囲</text>
 	</string>
 	<string id="ui_mcm_more_measurement_task_maps_eligible_map_distances_parameter_desc">
-		<text>測定タスクに使用可能なマップと、どれだけ距離が離れていても対象とするかを設定します。</text>
+		<text>測定タスクの対象となるマップを、現在地からの距離に応じて設定します。</text>
 	</string>
 
 	<string id="ui_mcm_lst_more_measurement_task_maps_same_level_label">
 		<text>同一マップのみ</text>
 	</string>
 	<string id="ui_mcm_lst_more_measurement_task_maps_same_or_nearby_levels_label">
-		<text>同一または近くのマップ</text>
+		<text>同一または隣接のマップ</text>
 	</string>
 	<string id="ui_mcm_lst_more_measurement_task_maps_nearby_levels_only_label">
-		<text>近くのマップのみ</text>
+		<text>隣接のマップのみ</text>
 	</string>
 	<string id="ui_mcm_lst_more_measurement_task_maps_far_levels_label">
-		<text>遠くのマップ</text>
+		<text>遠方のマップ</text>
 	</string>
 	<string id="ui_mcm_lst_more_measurement_task_maps_all_levels_label">
 		<text>すべてのマップ</text>
@@ -51,31 +51,31 @@
 		<text>南部マップを許可</text>
 	</string>
 	<string id="ui_mcm_more_measurement_task_maps_allow_more_southern_maps_desc">
-		<text>コルドン、ロストク、ガーベジを計測タスクで使用可能にします。</text>
+		<text>コルドン、ロストク、ガーベジを測定タスクの対象に追加します。</text>
 	</string>
 
 	<string id="ui_mcm_more_measurement_task_maps_allow_more_northern_maps">
 		<text>北部マップを許可</text>
 	</string>
 	<string id="ui_mcm_more_measurement_task_maps_allow_more_northern_maps_desc">
-		<text>プリピャチ、荒廃した病院、レーダーを計測タスクで使用可能にします。</text>
+		<text>プリピャチ、荒廃した病院、レーダーを測定タスクの対象に追加します。</text>
 	</string>
 
 	<string id="ui_mcm_more_measurement_task_maps_allow_very_northern_maps">
 		<text>最北部マップを許可</text>
 	</string>
 	<string id="ui_mcm_more_measurement_task_maps_allow_very_northern_maps_desc">
-		<text>ジェネレーター、CNPP（南）、CNPP（北）を計測タスクで使用可能にします。</text>
+		<text>ジェネレーター、CNPP（南）、CNPP（北）を測定タスクの対象に追加します。</text>
 	</string>
 
 	<string id="ui_mcm_more_measurement_task_maps_allow_underground_maps">
 		<text>地下マップを許可</text>
 	</string>
 	<string id="ui_mcm_more_measurement_task_maps_allow_underground_maps_desc">
-		<text>地下マップを計測タスクで使用可能にします。
-\n「南部マップを許可」が有効な場合: アフロプロム地下、ラボX16、ラボX18
-\n「北部マップを許可」が有効な場合: ジュピター地下、ブレイン・スコーチャー、ラボX8
-\n「最北部マップを許可」が有効な場合: モノリス制御室、石棺、モノリス戦争研究所</text>
+		<text>地下マップを測定タスクの対象に追加します。
+\n「南部マップを許可」を有効にしている場合: アフロプロム地下、ラボX16、ラボX18
+\n「北部マップを許可」を有効にしている場合: ジュピター地下、ブレイン・スコーチャー、ラボX8
+\n「最北部マップを許可」を有効にしている場合: モノリス制御室、石棺、モノリス戦争研究所</text>
 	</string>
 
 </string_table>

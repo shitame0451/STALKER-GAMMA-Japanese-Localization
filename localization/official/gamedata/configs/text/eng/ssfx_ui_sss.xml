@@ -21,19 +21,19 @@
 
 
 	<string id="ui_mcm_ssfx_module_sss_quality_dir_mcm">
-		<text>指向性ライトの品質</text>
+		<text>指向性ライトの影の品質</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_quality_dir_mcm_desc">
-		<text>指向性の光（太陽光や月明かり）の影を生成するために使用されるサンプル数を設定します。サンプル数が多いほど影の定義が向上します。[ 6 - 12 - 18 - 24 ]</text>
+		<text>太陽光や月光などの指向性ライトによる影の描画品質に影響するサンプル数を設定します。サンプル数を増やすと、影の表現がより鮮明になります。[ 6 - 12 - 18 - 24 ]</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_quality_point_mcm">
-		<text>全方位ライトの品質</text>
+		<text>全方位ライトの影の品質</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_quality_point_mcm_desc">
-		<text>全方位の光源（電球や焚き火など）の影を生成するために使用されるサンプル数を設定します。サンプル数が多いほど影の定義が向上します。[ 2 - 4 - 6 - 8 ]</text>
+		<text>電球や焚き火などの全方位ライトによる影の描画品質に影響するサンプル数を設定します。サンプル数を増やすと、影の表現がより鮮明になります。[ 2 - 4 - 6 - 8 ]</text>
 	</string>
 
 
@@ -42,7 +42,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_enable_dir_mcm_desc">
-		<text>指向性の光（太陽光や月明かり）のスクリーンスペースシャドウを有効または無効にします。</text>
+		<text>太陽光や月光などの指向性ライトによるスクリーンスペースシャドウを有効にします。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_enable_point_mcm">
@@ -50,7 +50,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_enable_point_mcm_desc">
-		<text>全方位の光源（電球、焚き火など）のスクリーンスペースシャドウを有効または無効にします。</text>
+		<text>電球や焚き火などの全方位ライトによるスクリーンスペースシャドウを有効にします。</text>
 	</string>
 
 
@@ -59,7 +59,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_len_dir_mcm_desc">
-		<text>指向性ライトの影の長さの最大値を調整します。</text>
+		<text>指向性ライトの影が描画される最大距離を調整します。</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_len_point_mcm">
@@ -67,7 +67,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_sss_len_point_mcm_desc">
-		<text>全方位ライトの影の長さの最大値を調整します。</text>
+		<text>全方位ライトの影が描画される最大距離を調整します。</text>
 	</string>
 
 </string_table>

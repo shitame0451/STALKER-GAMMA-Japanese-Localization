@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <string_table>
     <string id="st_hf_holding_msg">
-		<text>$key_interact - 置く
+		<text>$key_interact - 設置する
 \n$key_collision - 衝突判定の切り替え
 \n$key_align - 設置面の切り替え
 \n$key_mode - アドバンスドモードに切り替え
-\nEscape - 置くのをやめる
+\nEscape - 設置をキャンセル
         </text>
 	</string>
 
     <string id="st_hf_advanced_msg">
-		<text>$key_interact - 置く
+		<text>$key_interact - 設置する
 
 \n\n移動:
 \n左クリック - 水平方向に移動
@@ -26,8 +26,8 @@
 	</string>
 
     <string id="st_hf_preview_msg">
-		<text>$key_interact - 置く
-\nEscape - 置くのをやめる
+		<text>$key_interact - 設置する
+\nEscape - 設置をキャンセル
 \n$key_mode - アドバンスドモードに切り替え
         </text>
 	</string>

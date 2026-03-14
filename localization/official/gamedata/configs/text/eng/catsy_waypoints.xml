@@ -52,7 +52,7 @@
 	</string>
 
 	<string id ="ui_mcm_pawsys_pawgen_uninstall_desc">
-		<text>このオプションを有効にすると、現在の目的地データがクリアされ、すべての目的地マップマーカーが削除され、アクティブな目的地タスクがキャンセルされます。</text>
+		<text>このオプションを有効にすると、現在の目的地データとすべての目的地マップマーカーがクリアされ、アクティブな目的地タスクがキャンセルされます。</text>
 	</string>
 
 	<string id ="ui_mcm_pawsys_pawgen_milpda">
@@ -120,7 +120,7 @@
 	</string>
 
 	<string id ="ui_mcm_pawsys_pawpins_use_custom_pin_icon_desc">
-		<text>有効にすると、PAWはピンのアイコンに指定されたマップスポットIDを使用します。有効なマップスポットはmap_spots.xml内か、このModに含まれています。ここに無効なものを入れるとゲームがクラッシュする可能性があります。自己責任で使用してください。</text>
+		<text>有効の場合、PAWはピンのアイコンに指定されたマップスポットIDを使用します。有効なマップスポットはmap_spots.xml内か、このModに含まれています。ここに無効なものを入れるとゲームがクラッシュする可能性があります。自己責任で使用してください。</text>
 	</string>
 
 	<string id ="ui_mcm_pawsys_pawpins_custom_pin_icon">
@@ -309,7 +309,7 @@
 	</string>
 
 	<string id="ui_mcm_pawsys_pawmenu_headertxt">
-		<text>このメニューでは、PAWのゲーム内コンテキストメニューをカスタマイズできます。各オプションを無効にしてメニューを整理したり、それぞれを常に表示させるか、カートグラフィーモードがアクティブな場合のみ、または通常のPDAビューの場合のみに表示させるかを選択することができます。</text>
+		<text>このメニューでは、PAWのゲーム内コンテキストメニューをカスタマイズできます。各オプションを無効にしてメニューを整理したり、メニューの表示を「常に」、「カートグラフィーモード時のみ」、「通常のPDAモードのみ」のいずれかに設定可能です。</text>
 	</string>
 	<string id="ui_mcm_pawsys_pawmenu_wp_set">
 		<text>目的地を設置</text>
