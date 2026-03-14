@@ -67,11 +67,11 @@
     </string>
 
     <string id="ui_fft_tut_ftunlocked_01_clicknext">
-        <text>をクリックして仕組みの概要を確認できる</text>
+        <text>をクリックして仕組みの概要を確認</text>
     </string>
 
     <string id="ui_fft_tut_ftunlocked_02_clicknext">
-        <text>をクリックして現在の設定に応じたアドバイスを確認できる</text>
+        <text>をクリックして現在の設定に応じたアドバイスを確認</text>
     </string>
 
     <string id="ui_fft_tut_ftunlocked_ft_cfg_mcm">
@@ -162,7 +162,7 @@
     </string>
 
     <string id="ui_fft_tut_ftunlocked_ft_survival_stats">
-        <text>\n長距離移動のあとには、$clr_gld空腹や疲労$ui_gray_1が発生することもある。</text>
+        <text>\n長距離移動の直後は、$clr_gld空腹や疲労$ui_gray_1が発生することがある。</text>
     </string>
 
     <string id="ui_fft_tut_ftunlocked_ft_enable_gear">
