@@ -60,13 +60,6 @@ utils_ui.UIInfoItem.Update = function(self, obj, sec, flags)
 				ele.comp:SetWndPos(vector2():set(pos.x - 30, pos.y))
 				moved_stats_comp[ele.comp] = true
 			end
-
-			-- アイコンを下にずらす
-			if ele.icon and ele.icon:IsShown() and not moved_stats_icon[ele.icon] then
-				local pos = ele.icon:GetWndPos()
-				ele.icon:SetWndPos(vector2():set(pos.x, pos.y + 2))
-				moved_stats_icon[ele.icon] = true
-			end
 		end
 	end
 

@@ -13,12 +13,12 @@
 
 	<btn_accept_task x="670" y="35" width="20" height="20" stretch="1">
 		<texture>ui_inGame2_pda_taskboard_accept</texture>
-		<text x="25" y="-1" font="letterica16" r="170" g="170" b="170" align="l">st_pda_accept_task</text>
+		<text x="25" font="letterica16" r="170" g="170" b="170" align="l">st_pda_accept_task</text>
 	</btn_accept_task>
 
 	<btn_task_limit_reached x="670" y="35" width="20" height="20" stretch="1">
 		<texture>ui_inGame2_pda_taskboard_task_limit_reached</texture>
-		<text x="25" y="-1" font="letterica16" align="l">st_pda_task_limit_reached</text>
+		<text x="25" font="letterica16" align="l">st_pda_task_limit_reached</text>
 		<text_color>
 				<t r="220" g="0" b="0"/>
 				<d r="220" g="0" b="0"/>
@@ -29,17 +29,17 @@
 
 	<btn_next_task x="670" y="75" width="20" height="20" stretch="1">
 		<texture>ui_inGame2_pda_taskboard_next</texture>
-		<text x="25" y="-1" font="letterica16" r="170" g="170" b="170" align="l">st_pda_next_task</text>
+		<text x="25" font="letterica16" r="170" g="170" b="170" align="l">st_pda_next_task</text>
 	</btn_next_task>
 	
 	<btn_previous_task x="670" y="115" width="20" height="20" stretch="1">
 		<texture>ui_inGame2_pda_taskboard_previous</texture>
-		<text x="25" y="-1" font="letterica16" r="170" g="170" b="170" align="l">st_pda_previous_task</text>
+		<text x="25" font="letterica16" r="170" g="170" b="170" align="l">st_pda_previous_task</text>
 	</btn_previous_task>
 
 	<btn_refresh_tasks x="658" y="96" width="20" height="20" stretch="1">
 		<texture>ui_inGame2_pda_taskboard_refresh</texture>
-		<text x="25" y="-1" font="letterica16" r="170" g="170" b="170" align="l">st_pda_refresh_tasks</text>
+		<text x="25" font="letterica16" r="170" g="170" b="170" align="l">st_pda_refresh_tasks</text>
 	</btn_refresh_tasks>
 
 	<task_category x="0" y="10" width="764">

@@ -49,7 +49,7 @@
 		<putall_button x="10" y="735" width="140" height="24" stretch="1" hint="ui_st_put_all_hint">
 			<window_name>putall_button</window_name>
 			<texture>ui_inGame2_big_inventory_button</texture>
-			<text font="graffiti22" y="2" align="c">ui_st_put_all</text>
+			<text font="graffiti22" align="c" y="3" >ui_st_put_all</text>
 			<text_color>
 				<e color ="ui_6"/>
 				<t color ="ui_white"/>
@@ -61,10 +61,10 @@
 		<!-- trade info -->
 		<trade_delimiter x="0" y="226" width="375" height="163" stretch="1">
 			<texture>ui_inGame2_center_trade_devider_16</texture>
-			<trade_caption x="118" y="81" width="48" height="16">
+			<trade_caption x="118" y="82" width="48" height="16">
 				<text align="r" font="letterica18" color="ui_3">ui_total_price</text>
 			</trade_caption>
-			<trade_price x="186" y="81" width="40" height="16">
+			<trade_price x="186" y="82" width="40" height="16">
 				<text align="l" font="letterica18"/>
 			</trade_price>
 			<trade_weight_max x="206" y="82" width="40" height="16">
@@ -460,7 +460,7 @@
 				<state_progress x="0" y="1" width="70" height="18" horz="1" min="0" max="1" pos="0">
 				</state_progress>
 				
-				<stats x="17" y="0" width="80" height="18">
+				<stats x="18" y="1" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
 				<stats_bonus x="0" y="2" width="80" height="18">
@@ -476,7 +476,7 @@
 				<state_progress x="0" y="1" width="70" height="18" horz="1" min="0" max="1" pos="0">
 				</state_progress>
 				
-				<stats x="17" y="0" width="80" height="18">
+				<stats x="18" y="1" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
 				<stats_bonus x="43" y="2" width="80" height="18">
@@ -491,7 +491,7 @@
 				<state_progress x="0" y="1" width="70" height="18" horz="1" min="0" max="1" pos="0">
 				</state_progress>
 				
-				<stats x="17" y="0" width="80" height="18">
+				<stats x="18" y="1" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
 				<stats_bonus x="43" y="2" width="80" height="18">
@@ -506,7 +506,7 @@
 				<state_progress x="0" y="1" width="70" height="18" horz="1" min="0" max="1" pos="0">
 				</state_progress>
 				
-				<stats x="17" y="0" width="80" height="18">
+				<stats x="18" y="1" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
 				<stats_bonus x="43" y="2" width="80" height="18">
@@ -524,10 +524,10 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="17" y="1" width="80" height="18">
+				<stats x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats_bonus>
 				<stats_bonus_regen x="5" y="2" width="80" height="18">
@@ -542,10 +542,10 @@
 						<texture r="100" g="100" b="100">ui_inGame2_inventory_progress_bar</texture>
 					</progress>
 				</state_progress>
-				<stats x="17" y="1" width="80" height="18">
+				<stats x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus>
 				<stats_bonus_regen x="5" y="2" width="80" height="18">
@@ -560,10 +560,10 @@
 					</progress>
 				</state_progress>
 
-				<stats x="17" y="1" width="80" height="18">
+				<stats x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus>
 				<stats_bonus_regen x="5" y="2" width="80" height="18">
@@ -578,10 +578,10 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="17" y="1" width="80" height="18">
+				<stats x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus>
 				<stats_bonus_regen x="5" y="2" width="80" height="18">
@@ -596,10 +596,10 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="17" y="1" width="80" height="18">
+				<stats x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus>
 				<stats_bonus_regen x="5" y="2" width="80" height="18">
@@ -614,10 +614,10 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="17" y="1" width="80" height="18">
+				<stats x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus>
 				<stats_bonus_regen x="5" y="2" width="80" height="18">
@@ -632,10 +632,10 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="17" y="1" width="80" height="18">
+				<stats x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus>
 				<stats_bonus_regen x="5" y="2" width="80" height="18">
@@ -650,10 +650,10 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="17" y="1" width="80" height="18">
+				<stats x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus>
 				<stats_bonus_regen x="5" y="2" width="80" height="18">
@@ -668,16 +668,16 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="17" y="-55" width="80" height="18">
+				<stats x="18" y="-54" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
-				<stats_bonus x="42" y="1" width="80" height="18">
+				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus>
-				<stats_bonus2 x="42" y="-55" width="80" height="18">
+				<stats_bonus2 x="43" y="-54" width="80" height="18">
 					<text align="l" font="graffiti22" color="ui_3"> </text>
 				</stats_bonus2>
-				<stats_bonus_regen x="17" y="1" width="80" height="18">
+				<stats_bonus_regen x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats_bonus_regen>
 			</fire_wound_sensor>
@@ -689,13 +689,13 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="17" y="-55" width="80" height="18">
+				<stats x="18" y="-54" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
 				<stats_bonus x="20" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats_bonus>
-				<stats_bonus_regen x="17" y="1" width="80" height="18">
+				<stats_bonus_regen x="18" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats_bonus_regen>
 			</br_class_sensor>
@@ -749,7 +749,7 @@
 		</weight_max>
 		
 		<!-- take all -->
-		<takeall_button x="11" y="734" width="140" height="24" stretch="1" hint="ui_st_take_all_hint">
+		<takeall_button x="11" y="735" width="140" height="24" stretch="1" hint="ui_st_take_all_hint">
 			<window_name>takeall_button</window_name>
 			<text font="graffiti22" align="c" y = "3">ui_st_take_all</text>
 			<text_color>
@@ -763,10 +763,10 @@
 		<!-- trade info -->
 		<trade_delimiter x="0" y="226" width="375" height="163" stretch="1">
 			<texture>ui_inGame2_center_trade_devider_16</texture>
-			<trade_caption x="118" y="81" width="48" height="16">
+			<trade_caption x="118" y="82" width="48" height="16">
 				<text align="r" font="letterica18" color="ui_3">ui_total_price</text>
 			</trade_caption>
-			<trade_price x="186" y="81" width="40" height="16">
+			<trade_price x="186" y="82" width="40" height="16">
 				<text align="l" font="letterica18"/>
 			</trade_price>
 			<trade_weight_max x="206" y="82" width="40" height="16">

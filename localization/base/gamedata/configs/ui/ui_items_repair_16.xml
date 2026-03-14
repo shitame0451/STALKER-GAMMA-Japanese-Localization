@@ -33,7 +33,7 @@
 			<text complex_mode="1" r="150" g="150" b="150" align="c" vert_align="c" font="letterica16"/>
 		</text_item_1>
 		
-		<con_item_1 x="329" y="481" width="57" height="18">
+		<con_item_1 x="329" y="482" width="57" height="18">
 			<text complex_mode="1" r="150" g="150" b="150" align="c" vert_align="c" font="letterica16"/>
 		</con_item_1>
 		
@@ -59,15 +59,15 @@
 			<text complex_mode="1" r="150" g="150" b="150" align="c" vert_align="c" font="letterica16"/>
 		</text_item_2>
 		
-		<con_item_2 x="146" y="481" width="100" height="18">
+		<con_item_2 x="146" y="482" width="100" height="18">
 			<text complex_mode="1" r="150" g="150" b="150" align="c" vert_align="c" font="letterica16"/>
 		</con_item_2>
 		
 		<!-- Rest -->
-		<con_item_base x="256" y="481" width="57" height="18">
+		<con_item_base x="256" y="482" width="57" height="18">
 			<text complex_mode="1" r="150" g="150" b="150" align="c" vert_align="c" font="letterica16"/>
 		</con_item_base>
-		<con_item_1_new x="442" y="481" width="57" height="18">
+		<con_item_1_new x="442" y="482" width="57" height="18">
 			<text complex_mode="1" r="150" g="150" b="150" align="c" vert_align="c" font="letterica16"/>
 		</con_item_1_new>
 		<pic_item_main x="318" y="559" width="182" height="98" stretch="1"/>

@@ -7,7 +7,7 @@
 		</background>
 
 		
-	    <clock_wnd x="0.73" y="0.8" width="39" height="16" alignment="c">
+	    <clock_wnd x="0.73" y="0.805" width="39" height="16" alignment="c">
 	        <text x="0" y="0" font="letterica16" r="223" g="223" b="223" align="c" vert_align="c"/>
 	    </clock_wnd>
 
