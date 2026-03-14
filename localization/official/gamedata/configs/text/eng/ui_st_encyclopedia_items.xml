@@ -145,14 +145,14 @@
 	</string>
 	
 	<string id="encyclopedia_items_army_bowler">
-		<text>軍用飯ごう</text>
+		<text>軍用飯盒</text>
 	</string>
 	<string id="encyclopedia_items_army_bowler_text">
 		<text>
-		%c[pda_white]「軍用飯ごう」%c[ui_gray_1]
+		%c[pda_white]「軍用飯盒」%c[ui_gray_1]
 		\nミュータントの肉を調理することができる。
 		\n \n%c[pda_green]情報%c[ui_gray_1]
-		\n食材を加熱するのに便利な飯ごう。蓋に付いている取っ手はフライパンとしても使えるように設計されている。また、取っ手の特殊な穴にはスプーンが差し込めるようになっている。
+		\n食材を加熱するのに便利な飯盒。蓋に付いている取っ手はフライパンとしても使えるように設計されている。また、取っ手の特殊な穴にはスプーンが差し込めるようになっている。
 		\n木炭はゾーンで安価に入手可能で比較的軽いため、ゾーン深部への旅には向いている。
 		\n \n%c[pda_blue]詳細%c[ui_gray_1]
 		\n高温を必要としない調理法で調理されたミュータント肉は「低レベル」、高温を必要とするものは「高レベル」と区分される。

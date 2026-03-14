@@ -29,10 +29,10 @@
  </text>
   </string>
   <string id="st_army_bowler">
-    <text>軍用飯ごう</text>
+    <text>軍用飯盒</text>
   </string>
   <string id="st_army_bowler_descr">
-    <text>軍用に設計された丈夫な飯ごう。焚き火などを利用してお湯を沸かしたり、簡単な食事を作るのに適している。頑丈な構造で高い信頼性がある。持ち手には特殊な穴があり、スプーンが差し込まれている。\n \n
+    <text>軍用に設計された丈夫な飯盒。焚き火などを利用してお湯を沸かしたり、簡単な食事を作るのに適している。頑丈な構造で高い信頼性がある。持ち手には特殊な穴があり、スプーンが差し込まれている。\n \n
     %c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]燃料: %c[ui_gray_1]木炭\n
     %c[d_orange] • %c[pda_white]調理対象: %c[ui_gray_1]低ランクのミュータント肉\n
