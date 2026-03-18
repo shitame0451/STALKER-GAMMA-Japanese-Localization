@@ -1,0 +1,27 @@
+-- ui_options.script
+
+-- ===================================================================
+--  言語設定に "jpn" を追加
+-- ===================================================================
+local function add_japanese()
+	for _, group in ipairs(ui_options.options or {}) do
+		for _, entry in ipairs(group.gr or {}) do
+			if entry.id == "localization" then
+				for _, lang in ipairs(entry.content or {}) do
+					if lang[1] == "jpn" then return end
+				end
+				table.insert(entry.content, {"jpn"})
+				return
+			end
+		end
+	end
+end
+
+function on_mcm_load()
+	local base = ui_options.init_opt_base
+	ui_options.init_opt_base = function()
+		base()
+		add_japanese()
+	end
+	add_japanese()
+end
