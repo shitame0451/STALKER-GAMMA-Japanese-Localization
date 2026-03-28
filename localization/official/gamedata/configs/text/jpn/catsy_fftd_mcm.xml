@@ -803,7 +803,7 @@
 <!-- Added in 2.16 -->
 
 	<string id="encyclopedia_addons_fair_fast_travel_psyblocked">
-		<text>プサイフィールドがファストトラベルを制限する</text>
+		<text>プサイフィールドによるFT制限</text>
 	</string>
 
 	<string id="encyclopedia_addons_fair_fast_travel_psyblocked_text">

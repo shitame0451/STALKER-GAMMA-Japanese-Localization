@@ -22,7 +22,7 @@
     </string>
 
     <string id="ui_mcm_npe_module_fft_tutorial_fft_tut_travel_unlocked">
-        <text>ファストトラベルのチュートリアル</text>
+        <text>ファストトラベル</text>
     </string>
 
     <string id="ui_fft_tutorial_unlocked_title">
@@ -205,6 +205,10 @@
 
     <string id="ui_fft_tut_ftunlocked_ft_goodhunting">
         <text>$clr_gldグッドハンティング、ストーカー！</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_fft_tutorial_fft_tut_travel_psyblocked">
+        <text>プサイフィールドによるファストトラベル制限</text>
     </string>
 
 </string_table>

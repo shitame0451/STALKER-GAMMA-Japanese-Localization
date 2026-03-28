@@ -1,0 +1,27 @@
+<!-- ====================================================================
+	Timed Tutorial Prompt
+    Author: Catspaw
+    Updated: 20260128
+    Permission granted to freely translate this file into any language.
+===================================================================== -->
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	
+	<string id="ui_st_catsy_new_tutorial">
+		<text>新しいチュートリアル</text>
+	</string>
+
+	<string id="ui_st_catsy_view_tutorial">
+		<text>　キーを押して表示</text>
+	</string>
+
+	<string id="ui_st_catsy_dismiss_prompt">
+		<text>　長押しで閉じる</text>
+	</string>
+
+	<string id="ui_st_catsy_ignored_offer_later">
+		<text>$clr_lblチュートリアルは必要に応じて再表示されます。
+			\n$clr_def設定はMCMの「$clr_gldNPE Modules$clr_def」から変更可能です。</text>
+	</string>
+			
+</string_table>
