@@ -4,7 +4,7 @@
         <texture>ui_qaw_wheel_bg</texture>
     </bg>
 
-    <tab_icon x="320" y="410" width="24" height="24" stretch="1">
+    <tab_icon x="320" y="400" width="36" height="36" stretch="1">
         <texture>ui_qaw_tab_icon</texture>
     </tab_icon>
     
@@ -12,7 +12,7 @@
         <text complex_mode="1" r="240" g="240" b="240" align="c" vert_align="t" font="letterica25"/>
     </title>
 
-    <tab_category x="149" y="149" width="128" height="128" stretch="1"/>
+    <tab_category x="402" y="307" width="77" height="77" stretch="1"/>
 
     <cursor x="0" y="0" width="426" height="213" stretch="1">
         <texture>ui_qaw_cursor</texture>
