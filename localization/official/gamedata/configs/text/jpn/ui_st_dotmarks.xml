@@ -1,11 +1,11 @@
 <!-- ====================================================================
 	Interaction Dot Marks
     Author: Catspaw
-    Updated: 20250716
     Permission granted to freely translate this file into any language.
 ===================================================================== -->
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <string_table>
+	
 	<string id="st_paw_unknown">
 		<text>不明</text>
 	</string>
@@ -13,7 +13,7 @@
 	<string id="st_paw_stash">
 		<text>スタッシュ</text>
 	</string>
-
+	
 	<string id="st_unknown_contents">
 		<text>中身不明</text>
 	</string>
@@ -280,7 +280,7 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_near_scan_interval_desc">
-		<text>近くのオブジェクトをスキャンする間隔（ミリ秒単位）。値が小さいほど更新頻度が高くなります。</text>
+		<text>近くのオブジェクトをスキャンする間隔をミリ秒単位で設定します。値を小さくすると、更新頻度が高まります。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_early_scan_interval">
@@ -288,7 +288,7 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_early_scan_interval_desc">
-		<text>遠くのオブジェクトを対象とする集中的なスキャンの間隔（ミリ秒単位）。値が小さいほど更新頻度は高くなりますが、パフォーマンスに影響する可能性があります。</text>
+		<text>遠くのオブジェクトをスキャンする間隔をミリ秒単位で設定します。値を小さくすると更新頻度が高まりますが、パフォーマンスに影響する可能性があります。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_near_scan_radius">
@@ -296,7 +296,7 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_near_scan_radius_desc">
-		<text>近くのオブジェクトをスキャンする半径（メートル単位）。マーカーのフェードアウト距離やサイズ変更距離など多くの動作に影響します。この値の変更は控えめに行うことを推奨します。</text>
+		<text>近くのオブジェクトをスキャンする半径をメートル単位で設定します。この設定は、マーカーのフェードアウト距離やサイズ変更距離など、多くの動作に影響します。変更は慎重に行うことを推奨します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_early_scan_radius">
@@ -304,9 +304,9 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_early_scan_radius_desc">
-		<text>遠くのオブジェクトを事前に検出するためのスキャン半径（メートル単位）。この距離を超えたマーカーは削除されます。
+		<text>遠くのオブジェクトを事前に検出するスキャン半径をメートル単位で設定します。この距離を超えたマーカーは表示されなくなります。
 
-\n\nこの値は近距離スキャンの端から測定されます。パフォーマンスに影響があるため、近距離半径より5m以上大きくするメリットはほとんどありません。</text>
+\n\nこの値は近距離スキャンの範囲外から測定されます。パフォーマンスへの影響を考慮すると、近距離半径より5m以上大きく設定するメリットはほとんどありません。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_skill_upd_interval">
@@ -314,7 +314,7 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_use_skill_system">
-		<text>スキルレベルで感知距離を拡張</text>
+		<text>スキルレベルに応じて感知距離を拡張する</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_haru_skill_name">
@@ -326,62 +326,62 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_haru_skill_coef_desc">
-		<text>スキルシステム連携が有効な場合、この設定は近距離スキャンの半径に適用されるスキルレベルごとの倍率を制御し、ドットマーカーが表示される「感知」範囲を拡大します。
+		<text>スキルシステム連携を有効にしている場合、この設定はスキルレベルに応じて近距離スキャン半径に適用される倍率を調整し、ドットマーカーが表示される「感知」範囲を拡大します。
 
-\n\nたとえば、スカベンジレベル15、倍率0.2、初期半径4の場合、最終的な近距離のスキャン半径は7mになります。高すぎる設定はパフォーマンスに影響する可能性があります。</text>
+\n\nスカベンジレベル15、倍率0.2、初期半径4の場合、最終的な近距離スキャン半径は7mになります。値を高くしすぎると、パフォーマンスに影響する可能性があります。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_bind_sec_interact">
-		<text>サブ操作のキー設定</text>
+		<text>サブ操作のキー割り当て</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_bind_sec_interact_desc">
-		<text>操作が正しく認識されない場合は、メイン操作と異なるキーに割り当てることを試してください。
+		<text>操作が正しく認識されない場合は、メイン操作とは異なるキーを割り当ててみてください。
 
-\n\nメイン操作キーのダブルタップは信頼性が低く、推奨されません。</text>
+\n\nメイン操作キーのダブルタップは信頼性が低いため、推奨しません。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_debuglogs">
 		<text>デバッグログの有効化</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_debuglogs_desc">
-		<text>有効にすると、Dot Marksが重要なイベントをログに記録します。問題が一度だけ発生し、この設定が有効でなかった場合、ログには関連情報がほとんど残らないことがあります。
+		<text>有効にすると、Dot Marksが重要なイベントをログに記録します。問題が一度きりしか発生せず、この設定が無効だった場合、ログには関連情報がほとんど残りません。
 
-\n\n問題の追跡が必要な場合は、プレイ中も有効にしておくと良いでしょう。</text>
+\n\n問題の追跡が必要な場合は、プレイ中も有効にしておくことを推奨します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_verbose">
 		<text>詳細なデバッグログの有効化</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_verbose_desc">
-		<text>問題の再現を試みる際は、この設定も有効にしてください。Dot Marksの内部処理のほとんどがログに記録され、詳細なトラブルシュートに役立ちます。
+		<text>問題の再現を試す際は、この設定も有効にしてください。Dot Marksの内部処理のほとんどがログに記録され、詳細なトラブルシューティングに役立ちます。
 
-\n\nこの設定は非常に大量のログを出力するため、通常のプレイ時は無効を推奨します。</text>
+\n\nこの設定は非常に大量のログを出力するため、通常のプレイ時は無効にすることを推奨します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_interaction_dots">
-		<text>ドットマーカーの無効化</text>
+		<text>ドットマーカーを非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_interaction_dots_desc">
-		<text>有効にすると、ドットマーカーは非表示になりますが、操作自体は機能します。</text>
+		<text>有効にすると、ドットマーカーは非表示になりますが、操作自体は引き続き利用できます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_pri_interact_ui">
-		<text>メイン操作ガイドの無効化</text>
+		<text>メイン操作ガイドを非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_pri_interact_ui_desc">
-		<text>有効にすると、Dot Marksのメイン操作ガイドが表示されなくなります。ただし、バニラの「使う」機能と操作は通常通り動作します。</text>
+		<text>有効にすると、Dot Marksのメイン操作ガイドが表示されなくなります。ただし、バニラの「使う」機能と操作は通常通り利用できます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_sec_interact_ui">
-		<text>サブ操作ガイドの無効化</text>
+		<text>サブ操作ガイドを非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_sec_interact_ui_desc">
-		<text>有効にすると、Dot Marksのサブ操作ガイドが表示されなくなり、サブ操作も使用できなくなります。</text>
+		<text>有効にすると、Dot Marksのサブ操作ガイドが表示されなくなり、サブ操作も利用できなくなります。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_van_interact_ui">
-		<text>バニラのインタラクトUIの無効化</text>
+		<text>バニラの操作UIを非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_van_interact_ui_desc">
 		<text>有効にすると、Dot Marksに置き換えられたバニラの操作ガイド（画面下部のテキスト）が非表示になります。
@@ -390,17 +390,17 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_pickup_item_names">
-		<text>バニラのアイテム名表示の無効化</text>
+		<text>バニラのアイテム名表示を非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_pickup_item_names_desc">
-		<text>有効にすると、「使う」キーを押し続けたときに表示されるテキスト（アイテム名）が非表示になります。この設定はmodded exesのg_draw_pickup_item_namesを制御します。</text>
+		<text>有効にすると、「使う」キーを長押ししたときに表示されるアイテム名が非表示になります。この設定は、modded exesのg_draw_pickup_item_namesを制御します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_connecting_line">
-		<text>白い線の無効化</text>
+		<text>ドットと操作ガイドの接続線を非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_connecting_line_desc">
-		<text>有効にすると、ドットと操作ガイドをつなぐ白いラインが表示されなくなります。</text>
+		<text>有効にすると、ドットと操作ガイドをつなぐ白い線が表示されなくなります。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_show_prompt_during_anim">
@@ -408,22 +408,22 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_prompt_busy_during_anim">
-		<text>FDDAアニメーションの再生中は操作を無効化</text>
+		<text>FDDAアニメーション中は操作を無効にする</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_show_prompt_during_anim_desc">
-		<text>有効にすると、FDDAアニメーション中も操作ガイドが表示されます。次の設定で使用可能かどうかを制御できます。アニメーション中は完全に非表示にしたい場合、このオプションを無効にしてください。</text>
+		<text>有効にすると、FDDAアニメーションの再生中も操作ガイドが表示されます。次の設定で、その操作が可能かどうかを制御できます。アニメーション中は操作ガイドを完全に非表示にしたい場合は、このオプションを無効にしてください。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_prompt_busy_during_anim_desc">
-		<text>有効にすると、FDDAアニメーション中は操作が無効となり、「実行できない」メッセージが表示されます。アニメ終了まで操作はできません。
+		<text>有効にすると、FDDAアニメーション中は操作が無効になり、「実行できません」というメッセージが表示されます。アニメーションが終了するまで操作はできません。
 
-\n\nオリジナルFDDAでこの設定を無効にすると「アニメーションのキャンセル」が可能になり、現在のアニメーションをスキップして次の操作へ即座に移行できます（効果音は再生されます）。</text>
+\n\nこの設定を無効にすると、オリジナルのFDDAでは「アニメーションのキャンセル」が可能になり、現在のアニメーションをスキップして次の操作に即座に移行できます（効果音は再生されます）。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_offsets_desc">
-		<text>操作ガイドの表示位置を調整できます。
-\n座標は1024x768のキャンバス基準で、解像度とは異なります。一部の設定の変更には再起動が必要です。</text>
+		<text>操作ガイドの表示位置を調整します。
+\n座標は1024x768のキャンバスを基準としており、実際の画面解像度とは異なります。一部の設定変更にはゲームの再起動が必要です。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_pri_use_x_offset">
@@ -432,7 +432,7 @@
 	<string id="ui_mcm_dotmarks_dmarkadv_pri_use_x_offset_desc">
 		<text>操作ガイドの水平方向の表示位置を調整します。設定可能範囲: -512 ～ 1024
 
-\n\nデフォルト: -13	</text>
+\n\nデフォルト: -13</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_pri_use_y_offset">
@@ -466,25 +466,25 @@
 		<text>固定座標を使用する（再起動が必要）</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_fixed_screen_pos_desc">
-		<text>有効にすると、上記のオフセットに基づいた固定座標で操作ガイドを表示します。基準は画面左上になります。
+		<text>有効にすると、上記のオフセットに基づいた固定座標で操作ガイドが表示されます。基準は画面左上です。
 
 \n\nデフォルトでは、操作ガイドはドットマーカーの位置に追従し、そのドットからのオフセットで表示されます。
 
-\n\nこの設定を反映させるにはゲームの再起動またはセーブ&amp;ロードが必要です。</text>
+\n\nこの設定を反映させるには、ゲームの再起動またはセーブデータのロードが必要です。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmain_interact_drop_alpha">
 		<text>影の透明度</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmain_interact_drop_alpha_desc">
-		<text>操作ガイドや他のUI要素の下に表示される影の透明度（アルファ値）を設定します。0に設定すると影を無効化できます。</text>
+		<text>操作ガイドやその他のUI要素の下に表示される影の透明度（アルファ値）を設定します。0に設定すると影を無効にできます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_keybind_bg_style">
 		<text>キーバインドアイコンのスタイル</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_keybind_bg_style_desc">
-		<text>操作ガイドに表示されるキーバインドのアイコンのスタイルを設定します。アイコンを非表示にすることも可能です。</text>
+		<text>操作ガイドに表示されるキーバインドアイコンのスタイルを設定します。アイコンを非表示にすることも可能です。</text>
 	</string>
 
 	<string id="ui_mcm_lst_dmarks_kbstyle_s2">
@@ -504,26 +504,26 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_dot_marker_size">
-		<text>ドットマーカーの大きさ</text>
+		<text>ドットマーカーのサイズ</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_dot_marker_size_desc">
-		<text>ワールド内のオブジェクトに表示されるドットマーカーの大きさを調整します。1が標準サイズで、0にするとマーカーが非表示になります。他の機能（ラベルやサブ操作など）には影響しません。</text>
+		<text>ワールド内のオブジェクトに表示されるドットマーカーのサイズを調整します。1が標準サイズで、0に設定するとマーカーが非表示になります。この設定は、ラベルやサブ操作などの他の機能には影響しません。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_sp_hide_junk_items">
-		<text>Sorting Plusでジャンク品に指定されたアイテムを非表示する</text>
+		<text>Sorting Plusでジャンク品に指定されたアイテムを非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_sp_hide_junk_items_desc">
-		<text>Sorting Plusアドオンがインストールされており、アイテムが「ジャンク品」に分類されている場合、そのアイテムにマーカーが表示されなくなります。</text>
+		<text>Sorting Plusアドオンがインストールされており、アイテムが「ジャンク品」に分類されている場合、そのアイテムのマーカーは表示されなくなります。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_hidden_show_prompts">
-		<text>非表示のアイテムにも操作ガイドを表示する</text>
+		<text>非表示のアイテムにも操作ガイドを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hidden_show_prompts_desc">
-		<text>何らかの理由でマーカーが非表示になっていても、操作ガイドは表示されます。
+		<text>何らかの理由でマーカーが非表示になっている場合でも、操作ガイドは表示されます。
 
-\n\n※このオプションを無効にすると、非表示のマーカーには操作ガイドも表示されなくなります。「取る」こと自体は可能です。</text>
+\n\n※このオプションを無効にすると、非表示のマーカーには操作ガイドも表示されなくなります。ただし、「取る」こと自体は可能です。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_bodies_use_paw_patches">
@@ -534,7 +534,7 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_disable_all_sounds">
-		<text>UI効果音の無効化</text>
+		<text>UI効果音を無効にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_disable_all_sounds_desc">
 		<text>マウスホイール操作などで再生されるUIの「ピッ」という効果音を無効にします。</text>
@@ -544,39 +544,39 @@
 		<text>死体マーカーにMilspec PDAのルールを適用</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_bodies_use_mpda_rules_desc">
-		<text>Milspec PDAアドオンが導入されている場合、その可視設定に従って死体マーカーの表示可否が決まります。マップ上でマーカーが可視になっている死体のみにマーカーが表示されます。</text>
+		<text>Milspec PDAアドオンが導入されている場合、その可視設定に従って死体マーカーの表示／非表示が決定されます。マップ上でマーカーが可視になっている死体のみにマーカーが表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_boom">
-		<text>爆発物に専用アイコンを使用</text>
+		<text>爆発物に専用アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_boom_desc">
 		<text>有効にすると、爆発物は通常のドットマーカーの代わりに専用の「爆発注意」アイコンで表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_butcher">
-		<text>ミュータントの解体に専用アイコンを使用</text>
+		<text>ミュータント解体に専用アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_butcher_desc">
 		<text>有効にすると、ミュータント解体用の操作ガイドは通常のドットマーカーの代わりに専用アイコンで表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_stash">
-		<text>スタッシュに専用アイコンを使用</text>
+		<text>スタッシュに専用アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_stash_desc">
 		<text>有効にすると、スタッシュは通常のドットマーカーの代わりにクラシックなスタッシュアイコンで表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_box">
-		<text>破壊可能な箱に専用アイコンを使用</text>
+		<text>破壊可能な箱に専用アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_box_desc">
 		<text>有効にすると、破壊可能な箱は通常のドットマーカーの代わりに専用の「破壊対象」アイコンで表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_talk">
-		<text>NPCとの会話に専用アイコンを使用</text>
+		<text>NPCとの会話に専用アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_talk_desc">
 		<text>このオプションを有効にすると、ストーカーに話しかける際、通常のドットマーカーの代わりに吹き出し型の専用アイコンが表示されます。\n
@@ -584,45 +584,45 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_services">
-		<text>サービスNPCに専用アイコンを使用</text>
+		<text>サービスNPCに専用アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_services_desc">
-		<text>このオプションを有効にすると、サービスNPCとの主なやり取りが可能なときに、通常のドットマーカーの代わりにサービス内容に応じた専用アイコンが表示されます。</text>
+		<text>このオプションを有効にすると、サービスNPCとの主なインタラクトが可能になった際、通常のドットマーカーの代わりに、サービス内容に応じた専用アイコンを表示します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_door">
-		<text>ドアに専用アイコンを使用</text>
+		<text>ドアに専用アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_door_desc">
-		<text>このオプションを有効にすると、ドアに対する主なやり取りが可能なときに、通常のドットマーカーの代わりに専用のドアイコンが表示されます。</text>
+		<text>このオプションを有効にすると、ドアとの主なインタラクトが可能になった際、通常のドットマーカーの代わりに専用アイコンを表示します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_tasks">
-		<text>タスク目標に専用アイコンを使用</text>
+		<text>タスク目標に専用アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_enable_icon_tasks_desc">
-		<text>このオプションを有効にすると、現在のアクティブタスクの対象オブジェクトに、通常のドットマーカーの代わりに高解像度のタスクマーカーアイコンが表示されます。</text>
+		<text>このオプションを有効にすると、現在アクティブなタスクの目標オブジェクトに、通常のドットマーカーの代わりに高解像度のタスクマーカーアイコンを表示します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_prompt_fade_in_time">
-		<text>操作ガイドのフェードイン時間</text>
+		<text>操作ガイドのフェードイン時間（ミリ秒）</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_prompt_fade_in_time_desc">
-		<text>操作ガイドがフェードインするまでの時間（ミリ秒）を設定します。</text>
+		<text>操作ガイドが表示される際のフェードインにかかる時間をミリ秒で設定します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_prompt_fade_out_time">
-		<text>操作ガイドのフェードアウト時間</text>
+		<text>操作ガイドのフェードアウト時間（ミリ秒）</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_prompt_fade_out_time_desc">
-		<text>操作ガイドがフェードアウトするまでの時間（ミリ秒）を設定します。</text>
+		<text>操作ガイドが非表示になる際のフェードアウトにかかる時間をミリ秒で設定します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmain_show_item_card">
-		<text>アイテムの情報を表示</text>
+		<text>アイテム情報カードを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmain_show_item_card_desc">
-		<text>有効にすると、インタラクトUIの横に小さな情報カードが表示され、重さや価格、銃／スーツ部品の耐久値を示すドット（Utjanのアドオン導入時）も表示されます。</text>
+		<text>有効にすると、インタラクトUIの横にアイテム情報カードが表示され、重量や価格、さらにUtjan's Item UI Improvements導入時には銃やスーツ部品の耐久値を示すドットも表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmain_show_gun_condition">
@@ -631,11 +631,11 @@
 	<string id="ui_mcm_dotmarks_dmarkmain_show_gun_condition_desc">
 		<text>有効にすると、銃の耐久値がアイテム名の後ろに表示されます。
 
-\n\nこのオプションは、銃本体の耐久値を使用しないGAMMA環境ではデフォルトで無効になっています。</text>
+\n\nGAMMA環境など、銃本体の耐久値を使用しない設定では、このオプションはデフォルトで無効になっています。</text>
 	</string>
 		
 	<string id="ui_mcm_dotmarks_dmarkmain_show_item_condition">
-		<text>アイテムの耐久値を表示</text>
+		<text>非武器アイテムの耐久値を表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmain_show_item_condition_desc">
 		<text>有効にすると、スーツやヘッドギアなどの非武器アイテムの耐久値がアイテム名の後ろに表示されます。</text>
@@ -649,33 +649,33 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmain_show_condition_color">
-		<text>耐久値／バッテリー残量を色で表示</text>
+		<text>耐久値／バッテリー残量を色分け表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmain_show_condition_color_desc">
-		<text>有効にすると、耐久値とバッテリー残量の数値が値に応じた色で表示されます。</text>
+		<text>有効にすると、耐久値とバッテリー残量の数値が、その値に応じて色分けして表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmain_sp_flag_favejunk">
 		<text>お気に入り／ジャンク品アイコンを表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmain_sp_flag_favejunk_desc">
-		<text>有効にすると、Sorting Plusで「お気に入り」や「ジャンク品」に分類されたアイテムに、それぞれのアイコンが情報カード上に表示されます。</text>
+		<text>有効にすると、Sorting Plusで「お気に入り」または「ジャンク品」に分類されたアイテムに、それぞれのアイコンがアイテム情報カード上に表示されます。</text>
 	</string>	
 
 	<string id="ui_mcm_dotmarks_dmarkadv_font_main_prompt">
-		<text>メイン操作ガイドに使用するフォント</text>
+		<text>メイン操作ガイドのフォント</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_font_main_prompt_desc">
-		<text>Anomalyではテキストサイズの扱いに一貫性がないため、解像度によっては一部のフォントのほうが見やすく表示されることがあります。デフォルトの操作ガイド用フォントは「Letterica 16」ですが、見やすいものを自由に選んでください。</text>
+		<text>Anomalyではテキストサイズの扱いに一貫性がないため、解像度によっては一部のフォントが見やすく表示されることがあります。デフォルトの操作ガイド用フォントは「Letterica 16」ですが、お好みのフォントを自由に選択してください。</text>
 	</string>	
 
 	<string id="ui_mcm_dotmarks_dmarkadv_font_item_card">
-		<text>アイテムカードに使用するフォント</text>
+		<text>アイテム情報カードのフォント</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_font_item_card_desc">
-		<text>Anomalyではテキストサイズの扱いに一貫性がないため、解像度によっては一部のフォントのほうが見やすく表示されることがあります。デフォルトのアイテムカード用フォントは「Small Print」ですが、見やすいものを自由に選んでください。
+		<text>Anomalyではテキストサイズの扱いに一貫性がないため、解像度によっては一部のフォントが見やすく表示されることがあります。デフォルトのアイテム情報カード用フォントは「Small Print」ですが、お好みのフォントを自由に選択してください。
 
-\n\nアドオンはテキストサイズに応じてUIの調整を試みますが、フォントによってはアイテムカードや他の要素の表示位置を手動で調整する必要があるかもしれません。</text>
+\n\nこのアドオンはテキストサイズに応じてUIの調整を試みますが、フォントによってはアイテム情報カードや他の要素の表示位置を手動で調整する必要がある場合があります。</text>
 	</string>	
 
 	<string id="ui_mcm_lst_dmarks_font_graf32">
@@ -694,43 +694,43 @@
 		<text>Letterica 18</text>
 	</string>
 	<string id="ui_mcm_lst_dmarks_font_let16">
-		<text>Letterica 16（デフォルト）</text>
+		<text>Letterica 16（メイン操作ガイドのデフォルト）</text>
 	</string>
 	<string id="ui_mcm_lst_dmarks_font_medium">
 		<text>Medium Print</text>
 	</string>
 	<string id="ui_mcm_lst_dmarks_font_small">
-		<text>Small Print</text>
+		<text>Small Print（アイテム情報カードのデフォルト）</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_itemcard_desc">
-		<text>アイテムカードは重量や価格などの重要なデータを表示する情報ウィンドウです。
+		<text>アイテム情報カードは、重量や価格などの重要なデータを表示する情報ウィンドウです。
 \nまた、Sorting PlusやUtjan's Item UI Improvementsなどの他のアドオンとも連携します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_sz">
-		<text>アイテムカードのアイコンサイズ</text>
+		<text>アイテム情報カードのアイコンサイズ</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_sz_desc">
-		<text>重量や価格などの属性に使用される、アイテムカード内のアイコンのサイズを変更します。
+		<text>重量や価格などの属性に使用される、アイテム情報カード内のアイコンサイズを調整します。
 
 \n\nデフォルト値: 7.5</text>
 	</string>	
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_pos_x">
-		<text>アイテムカードのXオフセット</text>
+		<text>アイテム情報カードのXオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_pos_x_desc">
-		<text>アイテムカードの表示位置を水平方向にどれだけずらすかを調整します。
+		<text>アイテム情報カードの表示位置を水平方向に調整します。
 
 \n\nデフォルト値: -5</text>
 	</string>	
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_pos_y">
-		<text>アイテムカードのYオフセット</text>
+		<text>アイテム情報カードのYオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_pos_y_desc">
-		<text>アイテムカードの表示位置を垂直方向にどれだけずらすかを調整します。
+		<text>アイテム情報カードの表示位置を垂直方向に調整します。
 
 \n\nデフォルト値: -2</text>
 	</string>	
@@ -740,7 +740,7 @@
 		<text>部品の耐久値ドットのXオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_pos_x_desc">
-		<text>Utjan's Item UI Improvementsアドオンによって追加される、部品の耐久値ドットの水平方向のオフセットを調整します。この位置はメイン操作ガイドの末尾を基準にしています。
+		<text>Utjan's Item UI Improvementsアドオンによって追加される、部品の耐久値ドットの水平方向のオフセットを調整します。位置はメイン操作ガイドの末尾を基準とします。
 
 \n\nデフォルト値: -2</text>
 	</string>
@@ -749,7 +749,7 @@
 		<text>部品の耐久値ドットのYオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_pos_y_desc">
-		<text>Utjan's Item UI Improvementsアドオンによって追加される、部品の耐久値ドットの垂直方向のオフセットを調整します。この位置はメイン操作ガイドの末尾を基準にしています。
+		<text>Utjan's Item UI Improvementsアドオンによって追加される、部品の耐久値ドットの垂直方向のオフセットを調整します。位置はメイン操作ガイドの末尾を基準とします。
 
 \n\nデフォルト値: 9</text>
 	</string>	
@@ -758,7 +758,7 @@
 		<text>Sorting PlusアイコンのXオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_sp_icon_pos_x_desc">
-		<text>Sorting Plusによって追加される「お気に入り／ジャンク品」アイコンの水平方向のオフセットを調整します。この位置は、アイテムカードの右端（最も長いテキスト項目、重量または価格）を基準にしています。
+		<text>Sorting Plusによって追加される「お気に入り／ジャンク品」アイコンの水平方向のオフセットを調整します。位置はアイテム情報カードの右端（最も長いテキスト項目、重量または価格）を基準とします。
 
 \n\nデフォルト値: 10</text>
 	</string>	
@@ -767,7 +767,7 @@
 		<text>Sorting PlusアイコンのYオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_sp_icon_pos_y_desc">
-		<text>Sorting Plusによって追加される「お気に入り／ジャンク品」アイコンの垂直方向のオフセットを調整します。この位置は、アイテムカードの右端（最も長いテキスト項目、重量または価格）を基準にしています。
+		<text>Sorting Plusによって追加される「お気に入り／ジャンク品」アイコンの垂直方向のオフセットを調整します。位置はアイテム情報カードの右端（最も長いテキスト項目、重量または価格）を基準とします。
 
 \n\nデフォルト値: 1</text>
 	</string>
@@ -780,7 +780,7 @@
 \n$clr_cmg3. $clr_gldできるだけ早く、簡潔に$clr_wht問題を再現する
 \n$clr_cmg4. $clr_gldすぐに$clr_whtゲームを終了してログを送る
 
-\n\n$clr_redこれらを行わない、または問題を再現できない場合、解決の支援はほぼ不可能です。</text>
+\n\n$clr_redこれらの手順を踏まない場合、または問題を再現できない場合、解決の支援はほぼ不可能です。</text>
 	</string>
 
 
@@ -802,7 +802,7 @@
 
 	<string id="ui_mcm_dotmarks_header_main">
 		<text>$clr_gldInteraction Dot Marks$clr_whtへようこそ。このアドオンはAnomalyのインタラクトUIを現代的に再設計したものです。
-\nSTALKER 2のQoL機能の再現に加え、さまざまな新機能も追加しています。
+\nSTALKER 2のQoL機能の再現に加え、さまざまな新機能を追加します。
 
 \n\nプレイヤーごとに好みが異なるため、Dot Marksは$clr_lblカスタマイズ性$clr_whtを重視して設計されています。
 \n以下のオプションでお探しの設定が見つからない場合は、他のタブもご確認ください。</text>
@@ -810,7 +810,7 @@
 
 	<string id="ui_mcm_dotmarks_header_oldexes">
 		<text>$clr_red警告: お使いのmodded binariesは古くなっています！
-\n$clr_whtInteraction Dot Marksは、正常に動作するために$clr_gldmodded binaries $clr_grn20250306$clr_gld以降$clr_whtが必要です。現在のバージョンは$clr_red%s$clr_whtです。
+\n$clr_whtInteraction Dot Marksの正常な動作には、$clr_gldmodded binaries $clr_grn20250306$clr_gld以降$clr_whtが必要です。現在のバージョンは$clr_red%s$clr_whtです。
 
 \n\nこのアドオンを使用する前に、demonized版の最新modded binariesをクリーンインストールしてください:
 
@@ -819,31 +819,31 @@
 
 	<string id="ui_mcm_dotmarks_header_notmodded">
 		<text>$clr_red警告: お使いの環境ではmodded binariesが使われていません！
-\n$clr_whtInteraction Dot Marksは、正常に動作するためにmodded binaries 20250306以降が必要です。このアドオンを使用する前に、demonized版の最新modded binariesをクリーンインストールしてください:
+\n$clr_whtInteraction Dot Marksの正常な動作には、modded binaries 20250306以降が必要です。このアドオンを使用する前に、demonized版の最新modded binariesをクリーンインストールしてください:
 
 \nhttps://github.com/themrdemonized/xray-monolith</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_adv_desc">
 		<text>$clr_gld上級設定
-\n$clr_wht以下の設定の多くは通常必要ありませんが、UIを細かく調整したい方向けに用意されています。
+\n$clr_wht以下の設定の多くは通常変更する必要はありませんが、UIを細かく調整したい方向けに用意されています。
 
-\n\n下にスクロールすると、さらに多くのオプションを見ることができます。</text>
+\n\n下にスクロールすると、さらに多くのオプションが表示されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_addons_desc">
 		<text>$clr_gld他アドオンとの連携
-\n$clr_whtDotMarksには、Sorting Plus、Utjan's Item UI、Milspec PDA、PAWとの連携機能があります。
-\n一部の連携機能はここでオプションを設定することができます。</text>
+\n$clr_whtDotMarksは、Sorting Plus、Utjan's Item UI Improvements、Milspec PDA、PAWとの連携機能を備えています。
+\n一部の連携機能は、ここでオプションを設定できます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_scanmenu">
-		<text>$clr_wht以下のチェックボックスは、$clr_gld各種オブジェクトのドットマーカーを表示するかどうか$clr_whtを制御します。
-\n表示が気になる、または不要な場合はチェックを外すことで非表示にできます。
+		<text>$clr_wht以下のチェックボックスで、$clr_gld各種オブジェクトのドットマーカーの表示／非表示$clr_whtを切り替えます。
+\n表示が気になる、または不要な場合はチェックを外して非表示にしてください。
 \nオブジェクトに対する操作は通常通り可能です。
 
-\n\n$clr_redここで設定を変更しても、すでに表示しているオブジェクトには効果が出ない場合があります。
-\nその場合はオブジェクトから離れるかセーブ&amp;ロードしてください。</text>
+\n\n$clr_redここで設定を変更しても、すでに表示されているオブジェクトには効果が出ない場合があります。
+\nその場合はオブジェクトから離れるか、セーブ&amp;ロードをお試しください。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_alti_desc">
@@ -851,48 +851,48 @@
 \nたとえば、銃から弾薬を取り出したり、食料アイテムをその場で消費したりできます。
 \nFDDA Redoneの導入を強く推奨します。
 
-\n\n初期設定では“使う”キーを長押しすることで機能が実行されますが、ここでお好みのキーに変更可能です。</text>
+\n\n初期設定では「使う」キーの長押しで機能が実行されますが、ここでお好みのキーに変更可能です。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmain_show_multi_uses">
-		<text>複数回使用できるアイテムの使用回数を表示</text>
+		<text>複数回使用できるアイテムの残り回数を表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmain_show_multi_uses_desc">
-		<text>有効にすると、複数回使用可能なアイテムで残り回数が2回以上ある場合に、操作ガイドの横にその回数が表示されます。</text>
+		<text>有効にすると、複数回使用可能なアイテムで残り回数が2回以上ある場合、操作ガイドの横にその回数を表示します。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmain_wheel_cycles_pickups">
-		<text>マウスホイールで取るアイテムを切り替える</text>
+		<text>マウスホイールで拾得アイテムを切り替える</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmain_wheel_cycles_pickups_desc">
 		<text>有効にすると、近くに複数の拾得可能アイテムがある場合、マウスホイールのスクロールでフォーカスが順番に切り替わるようになります（通常のホイール動作の代わりに機能します）。
 
-\n\nFDDA Redoneの複数拾得オプションが無効になっている場合、Dot Marksはこの設定を尊重し、基本的にフォーカスされているアイテムのみを拾得できるようにしますが、常に完全には適用できるとは限りません。</text>
+\n\nFDDA Redoneの複数拾得オプションが無効になっている場合、Dot Marksはこの設定を尊重し、基本的にフォーカスされているアイテムのみを拾得できるようにしますが、常に完全に適用できるとは限りません。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_long_press_delay">
-		<text>長押し後の入力無視時間</text>
+		<text>長押し後の入力無視時間（ミリ秒）</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarksec_long_press_delay_desc">
-		<text>長押し（ホールド）動作が完了したあと、同じキーからの入力を何ミリ秒間無視するかを設定します。これは、キーを完全に離すまでにわずかな時間がかかるため、ホールド後すぐに誤って単押しとして処理されるのを防ぐために必要です。
+		<text>長押し（ホールド）動作が完了した後、同じキーからの入力を何ミリ秒間無視するかを設定します。これは、キーを完全に離すまでにわずかな時間がかかるため、ホールド後すぐに誤って単押しとして処理されるのを防ぐために必要です。
 
-\n\n複数のアイテムを素早く拾おうとしたときにキーが反応しないと感じる場合は、この値を下げてみてください。設定範囲は50～2000です。</text>
+\n\n複数のアイテムを素早く拾おうとしたときにキーが反応しないと感じる場合は、この値を下げてみてください。設定範囲は50～2000ミリ秒です。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_item_use_delay">
-		<text>アイテムのサブ操作遅延</text>
+		<text>アイテムのサブ操作遅延（秒）</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_item_use_delay_desc">
-		<text>アイテムに対してサブ操作を使うとき、その実行までに何秒遅延させるかを指定します。
+		<text>アイテムに対してサブ操作を実行する際、その実行までに何秒遅延させるかを指定します。
 
 \n\nFDDAを使用している場合、拾得アニメーションが完了するまでの時間を確保するために必要です。この設定はFDDAがインストールされていない環境では影響しません。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_popin_anim_dur">
-		<text>マーカーのアニメーション演出時間</text>
+		<text>マーカーのポップインアニメーション時間</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_popin_anim_dur_desc">
-		<text>視点がマーカーにフォーカスしたときに再生される弾むようなアニメーションの再生時間（最大2000ミリ秒）。0に設定するとこの機能は無効になります。</text>
+		<text>視点がマーカーにフォーカスしたときに再生される、弾むようなポップインアニメーションの再生時間（最大2000ミリ秒）を設定します。0に設定するとこの機能は無効になります。</text>
 	</string>
 
 	<string id="st_dotmarks_epicfail_error">
@@ -902,13 +902,13 @@
 
 	<string id="st_dotmarks_fail_reason_nocfg">
 		<text>
-\n$clr_lblInteraction Dot Marks$clr_def は設定ファイルの初期化に完全に失敗しました！これは非常に重大な問題で、インストールに何らかの致命的な不具合がある可能性があります。DotMarksを最新バージョンから再ダウンロードし、他のアドオンよりも後に読み込まれるようにして、クリーンインストールを試みてください。
+\n$clr_lblInteraction Dot Marks$clr_def は設定ファイルの初期化に失敗しました。これは非常に重大な問題であり、インストールに致命的な不具合がある可能性があります。DotMarksを最新バージョンから再ダウンロードし、他のアドオンよりも後に読み込まれるようにして、クリーンインストールをお試しください。
 \n</text>
 	</string>
 
 	<string id="st_dotmarks_fail_reason_noexes">
 		<text>
-\n$clr_lblInteraction Dot Marks$clr_def の初期化に失敗しました。理由は、$clr_gld最新のmodded exes$clr_def が必要だからです（TheMrDemonized による Anomaly 1.5.3 バイナリがベース）。これらのバイナリはバニラのバグ修正、数多くのエンジン機能追加、グラフィック改善などが含まれており、すべての面でバニラを上回る体験を提供します。</text>
+\n$clr_lblInteraction Dot Marks$clr_def の初期化に失敗しました。$clr_gld最新のmodded exes$clr_def が必要です（TheMrDemonized による Anomaly 1.5.3 バイナリがベース）。これらのバイナリには、バニラのバグ修正、多数のエンジン機能追加、グラフィック改善などが含まれており、あらゆる面でバニラを上回る体験を提供します。</text>
 	</string>
 
 	<string id="st_dotmarks_fail_reason_oldexes">
@@ -927,7 +927,7 @@
 
 	<string id="st_dotmarks_fail_reason_oldmcm">
 		<text>
-\n$clr_gldInteraction Dot Marks$clr_def の初期化に失敗しました。必要なMCMバージョンは $clr_grn1.7.0$clr_def 以上ですが、お使いのバージョンは $clr_red%s$clr_def でした。また、UIファンクターサポートの存在もチェックされます（検出結果: %s）。両方が必須です。
+\n$clr_gldInteraction Dot Marks$clr_def の初期化に失敗しました。必要なMCMバージョンは $clr_grn1.7.0$clr_def 以上ですが、お使いのバージョンは $clr_red%s$clr_def でした。UIファンクターサポートの存在もチェックされます（検出結果: %s）。両方が必須です。
 
 \n\n$clr_def</text>
 	</string>
@@ -941,7 +941,7 @@
 
 	<string id="st_dotmarks_fail_reason_staledbs">
 		<text>
-\n$clr_gldInteraction Dot Marks$clr_def の初期化に失敗しました。理由は、$clr_gldactor_on_update_pickup$clr_def コールバックが必要であり、それはexesバージョン $clr_grn20250306$clr_def で追加されたものだからです。お使いのmodded exesはリリース版 $clr_gld%s$clr_def ですが、該当のコールバックが見つかりません！
+\n$clr_gldInteraction Dot Marks$clr_def の初期化に失敗しました。$clr_gldactor_on_update_pickup$clr_def コールバック（exesバージョン $clr_grn20250306$clr_def で追加）が必要です。お使いのmodded exesはリリース版 $clr_gld%s$clr_def ですが、該当のコールバックが見つかりません。
 
 \n\nこのメッセージが表示された場合、exeファイルは更新されているものの、古いDBファイルが使用されている可能性があります。modded exesを完全にクリーンインストールし直してください。</text>
 	</string>
@@ -950,7 +950,7 @@
 		<text>
 \n$clr_gldInteraction Dot Marks$clr_def の初期化に失敗しました。HUD Mark Manager が見つからなかったため、処理を続行できません。
 
-\n\n$clr_gldutils_catspaw_hudmarks$clr_def が完全に壊れている可能性があります。以下のURLからコアユーティリティスクリプトの最新版をダウンロードしてください:
+\n\n$clr_gldutils_catspaw_hudmarks$clr_def が破損している可能性があります。以下のURLからコアユーティリティスクリプトの最新版をダウンロードしてください:
 
 \n$clr_lblhttps://github.com/CatspawMods/Anomaly-Addon-Archive/tree/main/Modding%20Tools/Catsy%20Utils</text>
 	</string>
@@ -964,8 +964,7 @@
 
 	<string id="st_catsy_failmessage_in_log_or_pda">
 		<text>
-
-\n\nこのメッセージは、$clr_gldPDAの「メッセージ」タブ$clr_def に再表示されるほか、Anomaly\appdata\logs にあるゲームログにも $clr_gldプレーンテキスト形式$clr_defで記録されています。</text>
+\n\nこのメッセージは、$clr_gldPDAの「メッセージ」タブ$clr_def に再表示されるほか、Anomaly\appdata\logs にあるゲームログにも $clr_gldプレーンテキスト形式$clr_defで記録されます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_action_text_pos_x">
@@ -990,7 +989,7 @@
 		<text>キー表示のXオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_bind_text_pos_x_desc">
-		<text>アイコンボックス内に表示されるキー（例:「T」など）の水平方向の位置を調整します。
+		<text>アイコンボックス内に表示されるキー（例:「T」など）の水平方向の表示位置を調整します。
 
 \n\nデフォルト値: 3</text>
 	</string>	
@@ -999,7 +998,7 @@
 		<text>キー表示のYオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_bind_text_pos_y_desc">
-		<text>アイコンボックス内に表示されるキー（例:「T」など）の垂直方向の位置を調整します。
+		<text>アイコンボックス内に表示されるキー（例:「T」など）の垂直方向の表示位置を調整します。
 
 \n\nデフォルト値: 3.5</text>
 	</string>	
@@ -1013,7 +1012,7 @@
 
 	<string id="ui_mcm_dotmarks_header_icons">
 		<text>以下の各設定の横にある$clr_gld歯車アイコン$clr_defをクリックすると、$clr_gldARGBコントロール$clr_defが開きます。
-\nここでは透明度（アルファ）・赤・緑・青を個別に調整できます。
+\nここでは透明度（アルファ）、赤、緑、青を個別に調整できます。
 \n調整内容は対応するアイコンにプレビュー表示され、いつでも$clr_redキャンセル$clr_defまたは$clr_grn適用$clr_defできます。</text>
 	</string>
 
@@ -1070,62 +1069,62 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_mute_stalkers">
-		<text>会話できないストーカーのマーカーの無効化</text>
+		<text>会話できないストーカーのマーカーを非表示</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_mute_stalkers_desc">
 		<text>有効にすると、会話ができないストーカーにはマーカーが一切表示されなくなります。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_text_y">
-		<text>アイテムカードのテキストYオフセット</text>
+		<text>アイテム情報カードのテキストYオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_text_y_desc">
-		<text>重量および価格の数値テキストの垂直位置を調整します。
+		<text>重量および価格の数値テキストの垂直方向の表示位置を調整します。
 
 \n\nデフォルト値: 1</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_x">
-		<text>アイテムカードのアイコンXオフセット</text>
+		<text>アイテム情報カードのアイコンXオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_x_desc">
-		<text>重量および価格のアイコンの水平方向の位置を調整します。
+		<text>重量および価格のアイコンの水平方向の表示位置を調整します。
 
 \n\nデフォルト値: 4</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_y">
-		<text>アイテムカードのアイコンYオフセット</text>
+		<text>アイテム情報カードのアイコンYオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_icon_y_desc">
-		<text>重量および価格のアイコンの垂直方向の位置を調整します。
+		<text>重量および価格のアイコンの垂直方向の表示位置を調整します。
 
 \n\nデフォルト値: 2</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_x">
-		<text>アイテムカードの要素Xオフセット</text>
+		<text>アイテム情報カードの要素Xオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_x_desc">
-		<text>アイテムカード内にある重量および価格の要素の水平方向の位置を調整します。
+		<text>アイテム情報カード内にある重量および価格の要素の水平方向の表示位置を調整します。
 
 \n\nデフォルト値: 7.5</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_y">
-		<text>アイテムカードの要素Yオフセット</text>
+		<text>アイテム情報カードの要素Yオフセット</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_y_desc">
-		<text>アイテムカード内にある重量および価格の要素の垂直方向の位置を調整します。
+		<text>アイテム情報カード内にある重量および価格の要素の垂直方向の表示位置を調整します。
 
 \n\nデフォルト値: 0</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_h">
-		<text>アイテムカードの要素の高さ</text>
+		<text>アイテム情報カードの要素の高さ</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_item_card_elem_h_desc">
-		<text>アイテムカード内にある重量および価格の要素の高さを調整します。この値は行間のスペースにも影響します。
+		<text>アイテム情報カード内にある重量および価格の要素の高さを調整します。この値は行間のスペースにも影響します。
 
 \n\nデフォルト値: 12</text>
 	</string>
@@ -1166,12 +1165,12 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_hijack_autoloot_keybind">
-		<text>自動回収のキー設定を上書き</text>
+		<text>自動回収のキーバインドを上書き</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_hijack_autoloot_keybind_desc">
-		<text>iTheon's Auto Looterがインストールされていて、このメニュー内の自動回収関連の2つのオプションが有効な場合、Dot Marksは自動回収のキー設定を完全に無効化しようとします。
+		<text>iTheon's Auto Looterがインストールされていて、このメニュー内の自動回収関連の2つのオプションが有効な場合、Dot Marksは自動回収のキーバインドを完全に無効化しようとします。
 
-\n\n自動回収はAltキーをデフォルトで占有しますが、Altのような基本的な修飾キーを奪うのは好ましくありません。このオプションを有効にすると、そのキー設定を解放し、サブ操作経由でのみ自動回収を実行できるようになります。</text>
+\n\n自動回収はAltキーをデフォルトで占有しますが、Altのような基本的な修飾キーを奪うのは好ましくありません。このオプションを有効にすると、そのキーバインドを解放し、サブ操作経由でのみ自動回収を実行できるようになります。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_use_act">
@@ -1194,7 +1193,7 @@
 	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_takeall_act_desc">
 		<text>コンテナからすべてのアイテムを一括で取得できるサブ操作を有効にします。
 
-\n\niTheonのAuto Looterアドオンがインストールされている場合、アドオンメニュー内に同様の自動回収オプションがあり、それはデフォルトで有効になっています。</text>
+\n\niTheonのAuto Looterアドオンがインストールされている場合、アドオンメニュー内に同様の自動回収オプションがあり、デフォルトで有効になっています。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_heal_act">
@@ -1221,7 +1220,7 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_scale">
-		<text>部品の耐久値ドットの大きさ</text>
+		<text>部品の耐久値ドットのサイズ</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_scale_desc">
 		<text>Dot Marksにおける部品の耐久値ドットのサイズを調整します。1が標準サイズで、0に設定すると完全に非表示になります。</text>
@@ -1238,7 +1237,7 @@
 		<text>簡易爆弾設置モードの初期設定</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarksec_sec_mode_setupthebomb_desc">
-		<text>簡易爆弾をサブ操作で設置する際の初期モードを設定します。もしくはそのアクション自体を無効化することもできます。
+		<text>簡易爆弾をサブ操作で設置する際の初期モードを設定します。または、このアクション自体を無効化することも可能です。
 
 \n\nその場に置いてある簡易爆弾を拾得対象として認識しているとき、射撃モードを切り替えるキーで設置モードを切り替え、マウスホイールでタイマーの時間を調整できます。
 
@@ -1246,19 +1245,19 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_all_squad_members_talk">
-		<text>全隊員を会話可能扱いにする</text>
+		<text>全分隊員を会話可能にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_all_squad_members_talk_desc">
-		<text>バニラのAnomalyでは分隊の隊長のみが会話対象です。この設定を有効にすると、Modular Miscellaneous Tweaksの「Talk to Everyone」オプションなどのアドオンを前提に、全員を会話対象として扱います。
+		<text>バニラのAnomalyでは分隊の隊長のみが会話対象です。この設定を有効にすると、Modular Miscellaneous Tweaksの「Talk to Everyone」オプションなどのアドオンを前提に、すべての分隊員を会話対象として扱います。
 
 \n\nこの設定はGAMMA環境ではデフォルトで有効になっています。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_font_scale_w">
-		<text>フォント幅の許容量を調整</text>
+		<text>フォント幅の許容値を調整</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_font_scale_w_desc">
-		<text>DotMarksが使用するフォントに対して、必要と想定される横幅の量を調整できます。
+		<text>DotMarksが使用するフォントに対して、必要と想定される横幅の許容値を調整できます。
 
 \n\nAnomalyではフォントはテクスチャであり、縦長や横長なフォントも存在します。解像度が1920x1080以外だったり、カスタムフォントを使っている場合、この設定を調整する必要があります。</text>
 	</string>
@@ -1267,23 +1266,23 @@
 		<text>フォント高さの許容量を調整</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_font_scale_h_desc">
-		<text>DotMarksが使用するフォントに対して、必要と想定される縦方向のスペース量を調整できます。
+		<text>Dot Marksで使用されるフォントに必要な縦方向のスペースを調整します。
 
-\n\nAnomalyではフォントはテクスチャであり、縦長や横長なフォントも存在します。解像度が1920x1080以外だったり、カスタムフォントを使っている場合、この設定を調整する必要があります。</text>
+\n\nAnomalyではフォントがテクスチャとして扱われるため、縦長や横長のフォントも存在します。1920x1080以外の解像度やカスタムフォントを使用している場合は、この設定で表示を調整してください。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkadv_ui_scale">
 		<text>UI要素のスケーリング</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_ui_scale_desc">
-		<text>このスライダーでUIのグラフィック要素（キーアイコンなど）のサイズを調整します。フォントサイズには影響しませんが、解像度やフォントに合わせてUIの見た目を微調整する際に役立ちます。</text>
+		<text>キーアイコンなどのUIグラフィック要素のサイズを調整します。フォントサイズには影響しませんが、解像度やフォントに合わせてUIの見た目を微調整する際に役立ちます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_orientation">
 		<text>部品ドットの配置方向</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkmods_parts_dot_orientation_desc">
-		<text>デフォルトでは部品ドットは円形に密集して表示されます。代わりに水平方向や垂直方向に直線的に配置することも可能ですが、その場合は位置の微調整が必要になる可能性があります。</text>
+		<text>部品ドットの表示方向を設定します。デフォルトでは円形にまとめて表示されますが、水平または垂直に直線的に配置することも可能です。その際は位置の微調整が必要になる場合があります。</text>
 	</string>
 
 	<string id="ui_mcm_lst_dmarks_pdot_style_h">
@@ -1317,47 +1316,47 @@
 \n\n人それぞれ好みが違うのは当然ですよね。Dot Marksは%c[pda_blue]徹底的なカスタマイズが可能%c[ui_gray_1]です。
 \nほとんどの機能はMCMで個別に有効／無効の切り替えが可能で、詳しい説明も載っています。
 
-\n\nHUDをすっきりさせたい場合は、表示マーカーをすべてオフにすることもできます。
-\nその場合でも、洗練された操作ガイドやサブ操作機能はそのまま使えます。
+\n\nHUDをすっきりとさせたい場合は、すべての表示マーカーをオフにすることも可能です。
+\nその場合でも、洗練された操作ガイドやサブ操作機能は引き続き利用できます。
 
-\n\n%c[pda_yellow]これはあなたのゲームです。好きなようにプレイしてください。
+\n\n%c[pda_yellow]これはあなたのゲームです。自由にカスタマイズしてプレイしてください。
 
 \n\n%c[ui_gray_1]MCMの %c[pda_yellow]Interaction Dot Marks%c[ui_gray_1] からアクセスできる設定項目:
 \n%c[pda_white]• %c[pda_blue]基本設定%c[ui_gray_1]:
-\nインタラクトUIの主要要素の表示／非表示、どのように表示するかを制御します。
-\n画面に表示したくないHUD要素があれば、まずここを確認してください。
+\nインタラクトUIの主要要素の表示／非表示、および表示方法を制御します。
+\n画面に表示したくないHUD要素がある場合は、まずこの項目を確認してください。
 \n%c[pda_white]• %c[pda_blue]サブ操作%c[ui_gray_1]:
-\nサブ操作機能とそのキー設定に関する設定項目です。
-\n各アクションを個別に有効化／無効化できます。
+\nサブ操作機能と、そのキー設定に関する設定項目です。
+\n各アクションを個別に有効／無効に設定できます。
 \n%c[pda_white]• %c[pda_blue]アイコン設定%c[ui_gray_1]:
-\n状況に応じた各種アイコンを表示するかどうか、またそのサイズ・色・透明度を調整できます。
+\n状況に応じた各種アイコンの表示設定、サイズ、色、透明度を調整できます。
 \n%c[pda_white]• %c[pda_blue]オブジェクト設定%c[ui_gray_1]:
-\n各オブジェクトカテゴリに対し、マーカーを表示するかどうかを個別に制御できます。
+\n各オブジェクトカテゴリに対し、マーカーの表示／非表示を個別に制御できます。
 \n%c[pda_white]• %c[pda_blue]他のアドオン%c[ui_gray_1]:
 \nSorting PlusやUtjan's Item UIなど、他のアドオンとの統合や互換性に関する設定です。
 \n%c[pda_white]• %c[pda_blue]詳細設定%c[ui_gray_1]:
-\nフォント、サイズ、画面上の表示位置などを細かく調整できます。
-\n大型モニターやワイド画面環境での調整や、UIへのこだわりが強い方に最適です。
+\nフォント、サイズ、画面上の表示位置などを詳細に調整できます。
+\n大型モニターやワイド画面環境での調整、UIにこだわりたい方に最適です。
 
-\n\n%c[pda_white]いろいろ試してみてください。設定を失敗しても大丈夫。
-\nMCM内の %c[pda_yellow]初期化 %c[pda_white]ボタンを押せば元に戻せます。
+\n\n%c[pda_white]様々な設定を試してみてください。設定に失敗しても問題ありません。
+\nMCM内の %c[pda_yellow]初期化 %c[pda_white]ボタンを押すことで、いつでも初期設定に戻せます。
 
-\n\n%c[pda_red]まだ困っている？それなら、MCMの %c[pda_yellow]詳細設定%c[pda_red] タブを確認しましょう。%c[ui_gray_1]
+\n\n%c[pda_red]まだ困っている場合は、MCMの %c[pda_yellow]詳細設定%c[pda_red] タブを確認してください。%c[ui_gray_1]
 
 \n\n-----------------------------------------------------------------
 
-\n\n%c[pda_red]••• 重要: バグ報告を行うには、以下の手順を踏んでください •••
+\n\n%c[pda_red]••• 重要: バグ報告を行うには、以下の手順でご報告ください •••
 
 \n\n%c[ui_gray_1]1. %c[pda_white]MCM %c[pda_yellow]&gt; %c[pda_white]Interaction Dot Marks %c[pda_yellow]&gt; %c[pda_white]上級設定 にアクセス
 \n%c[ui_gray_1]2. %c[pda_white]%c[pda_yellow]デバッグログ%c[pda_white]と%c[pda_yellow]詳細なデバッグログ%c[pda_white]を有効にする
 \n%c[ui_gray_1]3. %c[pda_white]ゲームを終了して完全に再起動する
-\n%c[ui_gray_1]4. %c[pda_white]問題をできるだけ簡潔かつ素早く再現する
+\n%c[ui_gray_1]4. %c[pda_white]問題をできるだけ簡潔かつ迅速に再現する
 \n%c[ui_gray_1]5. %c[pda_yellow](Anomalyフォルダ)\appdata\logs%c[pda_white]）にあるログをどこかにアップロードして共有する
 
-\n\n%c[ui_gray_1]手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
+\n\n%c[ui_gray_1]これらの手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
 
-\n\nModdbのコメント欄では通知が届きません。最も迅速な対応が必要な場合は、GAMMA Discordの #mods-posting 内「Interaction Dot Marks」チャンネルをご利用ください。
-\n無断DMには対応できません。\n
+\n\nModdbのコメント欄では通知が届きません。最も迅速な対応が必要な場合は、GAMMA Discordの #mods-posting 内にある「Interaction Dot Marks」チャンネルをご利用ください。
+\n無断でのDMには対応できません。\n
 		</text>
 	</string>
 
@@ -1376,28 +1375,28 @@
 	<!-- Added in 1.1.0 -->
 
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_shift">
-		<text>Shift押下を単独入力として扱う</text>
+		<text>Shiftキーを単独入力として扱う</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_shift_desc">
-		<text>この設定を有効にすると、Shiftキーを押している間でもDot Marksは単独キー入力として認識します。ダッシュなど別の操作にShiftを割り当てている場合、その操作を単独で使えるようになります。
+		<text>有効にすると、Shiftキーを押している間もDot Marksは単独のキー入力として認識します。ダッシュなど、別の操作にShiftキーを割り当てている場合に、その操作を単独で実行できるようになります。
 
-\n\n無効にした場合、Shiftを押しながらでも単独キーとして動作します。これにより、Shiftとのキーコンボを使用しても、意図しない重複動作を防ぐことができます。</text>
+\n\n無効にすると、Shiftキーを押しながらでも単独キーとして動作します。これにより、Shiftキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_ctrl">
-		<text>Ctrl押下を単独入力として扱う</text>
+		<text>Ctrlキーを単独入力として扱う</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_ctrl_desc">
-		<text>この設定を有効にすると、Ctrlキーを押しながらでもDot Marksは単独キー入力として認識します。しゃがみなどにCtrlを割り当てている場合、その操作を単独で使えるようになります。
-\n\n無効にした場合、Ctrlを押しながらでも単独キーとして動作します。これにより、Ctrlとのキーコンボを使用しても、意図しない重複動作を防ぐことができます。</text>
+		<text>有効にすると、Ctrlキーを押している間もDot Marksは単独のキー入力として認識します。しゃがみなど、別の操作にCtrlキーを割り当てている場合に、その操作を単独で実行できるようになります。
+\n\n無効にすると、Ctrlキーを押しながらでも単独キーとして動作します。これにより、Ctrlキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_alt">
-		<text>Alt押下を単独入力として扱う</text>
+		<text>Altキーを単独入力として扱う</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_alt_desc">
-		<text>この設定を有効にすると、Altキーを押しながらでもDot Marksは単独キー入力として認識します。Altを自動回収（Auto Looter）などに割り当てている場合、その操作を単独で使えるようになります。
-\n\n無効にした場合、Altを押しながらでも単独キーとして動作します。これにより、Altとのキーコンボを使用しても、意図しない重複動作を防ぐことができます。</text>
+		<text>有効にすると、Altキーを押している間もDot Marksは単独のキー入力として認識します。自動回収（Auto Looter）など、別の操作にAltキーを割り当てている場合に、その操作を単独で実行できるようになります。
+\n\n無効にすると、Altキーを押しながらでも単独キーとして動作します。これにより、Altキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
 	</string>
 
 <!-- Added in 1.2.0 -->
@@ -1406,7 +1405,7 @@
 		<text>キー表示を非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkadv_hide_keybind_element_desc">
-		<text>有効にすると、どのキーを押すかを示すアイコンやテキストが非表示になります。</text>
+		<text>有効にすると、操作に必要なキーを示すアイコンやテキストが非表示になります。</text>
 	</string>
 
 <!-- Added in 1.2.1 -->
@@ -1431,7 +1430,7 @@
 		<text>未発見のスタッシュのマーカーを非表示にする</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarkicons_must_discover_stashes_desc">
-		<text>有効にすると、プレイヤーが作成していないスタッシュのマーカーは表示されなくなり、スタッシュに対するインタラクトの表示を発生させて「発見」すると表示されるようになります。</text>
+		<text>有効にすると、プレイヤーが作成していないスタッシュのマーカーは表示されません。スタッシュにインタラクトして「発見」すると、マーカーが表示されるようになります。</text>
 	</string>
 
 <!-- Added in 1.4.0 -->
@@ -1442,7 +1441,113 @@
 	<string id="ui_mcm_dotmarks_dmarkadv_write_to_save_desc">
 		<text>有効にすると、Dot Marksはスタッシュの発見状況などの情報をセーブデータに保存します。
 
-\n\nこの設定に関係なく、Dot Marksはプレイ中いつでも安全に導入・削除できます。</text>
+\n\nこの設定に関わらず、Dot Marksはプレイ中にいつでも安全に導入／削除が可能です。</text>
+	</string>
+
+<!-- Added in 1.5.0 -->
+
+	<string id="ui_mcm_dotmarks_dmarkadv_bind_toggle_marks">
+		<text>キー長押しでマーカー表示／非表示</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_bind_toggle_marks_desc">
+		<text>このキーを長押ししている間、「インタラクションドットを隠す」設定（詳細メニュー内）が、一時的に通常とは反対の値に切り替わります。
+
+		\nつまり、「インタラクションドットを隠す」設定が有効（すべてのマーカーを隠す）な場合、このキーを長押しすると一時的にマーカーが表示され、無効な場合はマーカーが一時的に非表示になります。</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_toggle_revert_delay">
+		<text>設定が通常に戻るまでの遅延</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_toggle_revert_delay_desc">
+		<text>デフォルトではこの遅延はゼロに設定されています。つまり、表示／非表示キーを離すと、上記の設定はすぐに元の状態に戻ります。
+
+		\nオプションで、キーを離してから設定が元の値に戻るまでの遅延を、最大10000ms（10秒）まで設定できます。これにより、キーを押し続けることなく、ホールドキーを一度タップするだけで設定を一時的に切り替えることが可能になります。</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_addons_wpo">
+		<text>$clr_gldWeapon Parts Overhaul</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_usable_cnd">
+		<text>フィールドストリップ可能な部品の最低耐久値</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_parts_usable_cnd_desc">
+		<text>銃の部品をセカンダリアクションでフィールドストリップするには、少なくともこの耐久値が必要です。
+
+		\nWeapon Parts Overhaul（WPO）のデフォルト設定では、耐久値60%以上が必要です。</text>
+	</string>
+
+	<string id="st_alti_field_strip">
+		<text>使用可能な部品をフィールドストリップ</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_ignore_hud_state">
+		<text>AnomalyのHUD状態 (hud_draw) を無視</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_ignore_hud_state_desc">
+		<text>デフォルトでは、Dot Marksは`hud_draw`コンソール変数を尊重し、この設定が無効の場合はすべてのUI要素を非表示にします。
+
+		\nこのオプションを有効にすると、Dot Marksは`hud_draw`の設定を完全に無視します。これにより、AnomalyのHUDを完全にオフにしていても、IDMのHUDマーカーやインタラクションプロンプトを表示できるようになります。</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkmods_sec_enable_strip_act">
+		<text>WPO「フィールドストリップ」アクションを有効化</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkmods_sec_enable_strip_act_desc">
+		<text>地面に置かれた弾薬なしの銃をフィールドストリップできるセカンダリアクションを有効にします。この機能にはWeapon Parts Overhaulアドオンが必要です。</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_aspect_correction">
+		<text>アスペクト補正乗数</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_aspect_correction_desc">
+		<text>デフォルトでは、Dot Marksはディスプレイ解像度を検出し、アスペクト比に応じた適切な幅補正を自動的に適用します。ほとんどのユーザーはこの設定を意識する必要はありません。
+
+		\n非常に珍しいウルトラワイドディスプレイ解像度を使用している場合や、Dot Marksのデフォルトのアスペクト補正が気に入らない場合は、ここで調整してください。この数値は、すべてのグラフィック要素の幅を微調整するのに役立ちます。</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_replace_keybinds_icons">
+		<text>利用可能な場合はキーバインドテキストをアイコンに置き換える</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_replace_keybinds_icons_desc">
+		<text>有効にすると、一部のボタンや特殊キー（一般的な5つのマウスボタンなど）に、デフォルトのキーバインドテキストの代わりに専用のアイコンが使用されます。このオプションを無効にすると、これらのアイコンはすべて無効になり、すべてのキーバインドでデフォルトのキーバインドテキストが表示されるようになります。</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hint_refresh_interval">
+		<text>ヒントフィルター更新間隔</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hint_refresh_interval_desc">
+		<text>ヒントフィルターシステムの更新間隔をミリ秒単位で設定します。
+
+		\nヒントフィルターは、Anomalyがテキストプロンプトを表示しようとしたタイミングを検出し、Dot MarksのGUIプロンプトを直接制御します。簡単に言えば、Dot Marksはこのテキストボックスの変更を監視し、そのテキストを独自のプロンプトと照合して、どの代替表示をいつ表示するかを決定します。
+
+		\nこの処理には文字列比較が含まれるため、値を低く設定しすぎるとパフォーマンスに影響を与える可能性があります。値がゼロの場合、このチェックを制限しなかったIDM 1.4と同等の動作になります。
+
+		\n値を高く設定しすぎると、一部のインタラクションプロンプトが表示または更新されるまでに遅延が発生する場合があります。</text>
+	</string>
+
+<!-- Added in 1.7.0 -->
+
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_dropped_items">
+		<text>プレイヤーがドロップしたアイテムを隠す</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_hide_dropped_items_desc">
+		<text>有効にすると、プレイヤーがドロップしたアイテムのマーカーは表示されません。これは、それらのアイテムが不要であると判断されるためです。
+		\n基地などで不要な装備を大量に捨てる際に、パフォーマンスの向上が期待できます。ただし、不要なアイテムを完全に削除し、セーブデータの肥大化を防ぐには「Zone Recycle Bin」アドオンの使用を推奨します。
+		\nhttps://www.moddb.com/mods/stalker-anomaly/addons/zone-recycle-bin-10-for-anomaly-151-and-152
+		\nダメージを受けたりミュータントの攻撃で武器を落とす設定でプレイしている場合は、この設定を無効にすることをおすすめします。</text>
+	</string>
+
+	<string id="ui_mcm_dotmarks_dmarkadv_never_mark_bolts">
+		<text>ボルトをマークしない</text>
+	</string>
+	<string id="ui_mcm_dotmarks_dmarkadv_never_mark_bolts_desc">
+		<text>有効にすると、すべてのボルト（通常・弾丸型）がブラックリストに登録されます。マーカーやインタラクトプロンプトは表示されず、インタラクトできないオブジェクトとして扱われます。
+		\n「ボルト無限設定」でのプレイ時は、この設定が既に適用されています。「ボルト有限設定」でプレイしている際、ボルトのマーカーを非表示にしたい場合に有効にしてください。この設定でもボルトを拾うことは可能ですが、拾う際のプロンプトは表示されなくなります。</text>
+	</string>
+
+	<string id="st_addon_name_dotmarks">
+		<text>Interaction Dot Marks</text>
 	</string>
 
 </string_table>
