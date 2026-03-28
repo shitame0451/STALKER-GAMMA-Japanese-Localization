@@ -199,13 +199,13 @@
 		<text>エレベーターを使う ($$ACTION_USE$$)</text>
 	</string>
 	<string id="st_psy_danger">
-		<text>危険な精神波の放射レベル さらに進むには保護を強化する必要がある</text>
+		<text>危険な精神波の放射レベル 先へ進むには防護装備が必要だ</text>
 	</string>
 	<string id="st_helmet_countdown">
 		<text>防護機能の停止まで</text>
 	</string>
 	<string id="st_radiation_danger">
-		<text>危険な放射線レベル さらに進むには防護が必要だ</text>
+		<text>危険な放射線レベル 先へ進むには防護装備が必要だ</text>
 	</string>
 	<string id="st_search_helicopter">
 		<text>調査する ($$ACTION_USE$$)</text>
@@ -238,7 +238,7 @@
 		<text>ドアに電力が供給されていない</text>
 	</string>
 	<string id="tip_door_open">
-		<text>開ける</text>
+		<text>開ける ($$ACTION_USE$$)</text>
 	</string>
 	<string id="tip_gate_locked">
 		<text>入口は何かに塞がれている</text>

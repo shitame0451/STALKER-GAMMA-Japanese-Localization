@@ -436,7 +436,7 @@
     <text>ステルス</text>
   </string>
   <string id="st_sleep">
-    <text>寝る ($$ACTION_USE$$)</text>
+    <text>寝る</text>
   </string>
   <string id="st_ui_save">
     <text>セーブ</text>
