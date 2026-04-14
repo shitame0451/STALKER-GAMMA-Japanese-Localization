@@ -640,7 +640,7 @@
     <text>クリアスカイのためにバンディットの野営地を排除する</text>
   </string>
   <string id="sim_default_csky_trader_task_5_text">
-    <text>この地域内のバンディットの脅威を排除することを命じられた。仕事が終わったら、%s（%s）に報告する。</text>
+    <text>この地域内のバンディットの脅威を排除するよう命じられた。仕事が終わったら、%s（%s）に報告する。</text>
   </string>
   <string id="sim_default_csky_trader_task_5_about">
     <text>この地域ではバンディットが大問題になっている。人殺しの凶悪犯たちが、メイン基地の外で我々の野営地を待ち伏せし、支配地域を奪おうとしているのだ。彼らがいる限り、この地域の多くの安全な道を通ることができない。我々は、自分の手を汚すことを恐れない経験豊富なストーカーを必要としている。協力してくれないか？</text>
@@ -671,7 +671,7 @@
     <text>クリアスカイのために軍の野営地を排除する</text>
   </string>
   <string id="sim_default_csky_trader_task_7_text">
-    <text>この地域内で軍の脅威を排除することを命じられた。仕事が終わったら、%s（%s）に報告する。</text>
+    <text>この地域内で軍の脅威を排除するよう命じられた。仕事が終わったら、%s（%s）に報告する。</text>
   </string>
   <string id="sim_default_csky_trader_task_7_about">
     <text>この地域では、軍隊との間に大きな問題がある。その軍の連中は、メイン基地の外にある我々の野営地で奇襲して、この地域を占領しようとしている。奴らがいる限り、この地域の多くの安全な道を通ることができない。我々は、自分の手を汚すことを恐れない経験豊富なストーカーを必要としている。協力してくれないか？</text>
@@ -901,7 +901,7 @@
     <text>敵を制圧する</text>
   </string>
   <string id="sim_default_monolith_trader_task_1_text">
-    <text>全能のモノリス様のために地域を一掃することを命じられた。任務をこなしたらラビットに報告する。</text>
+    <text>全能のモノリス様のために地域を一掃するよう命じられた。任務をこなしたらラビットに報告する。</text>
   </string>
   <string id="sim_default_monolith_trader_task_1_about">
     <text>おまえには重要な任務がある。ゾーンに入り、我々の部隊が進出できるように、地域を一掃しろ。準備はいいか？</text>
@@ -1064,7 +1064,7 @@
     <text>エコロジストたちのために%sを見つける</text>
   </string>
   <string id="sim_default_ecolog_trader_task_2_text">
-    <text>%s（%s）に%sの回収を依頼された。</text>
+    <text>%s（%s）に%sの回収を頼まれた。</text>
   </string>
   <string id="sim_default_ecolog_trader_task_2_about">
     <text>我々は、ある種のアーティファクトを探している。もし興味があれば、必要なことをお教えよう。</text>
@@ -1081,7 +1081,7 @@
     <text>エコロジストたちのために%sを見つける</text>
   </string>
   <string id="sim_default_ecolog_trader_task_3_text">
-    <text>%s（%s）に、%sから組織サンプルを採取することを依頼された。</text>
+    <text>%s（%s）に、%sから組織サンプルを採取するよう頼まれた。</text>
   </string>
   <string id="sim_default_ecolog_trader_task_3_about">
     <text>経験豊富なストーカーかミュータントハンターが必要だ。その誰かとは君のことか？</text>
@@ -1279,7 +1279,7 @@
     <text>敵を制圧する</text>
   </string>
   <string id="sim_default_greh_trader_task_1_text">
-    <text>シンたちのために地域を一掃することを命じられた。任務をこなしたら報告しに戻る。</text>
+    <text>シンたちのために地域を一掃するよう命じられた。任務をこなしたら報告しに戻る。</text>
   </string>
   <string id="sim_default_greh_trader_task_1_about">
     <text>おまえには重要な任務がある。ゾーンに入り、我々の部隊が進出できるように、地域を一掃しろ。準備はいいか？</text>

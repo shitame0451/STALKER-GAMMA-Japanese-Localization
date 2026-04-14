@@ -56,12 +56,12 @@
                         \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
   </string>
   <string id="encyclopedia_features_options_debug_hud">
-    <text>デバックHUD／デバッグマップ</text>
+    <text>デバッグHUD／デバッグマップ</text>
   </string>
   <string id="encyclopedia_features_options_debug_hud_text">
     <text>
                         %c[d_cyan]「デバッグHUD」
-%c[ui_gray_2名称のある地点の情報と位置をマップ上に表示する。\n
+%c[ui_gray_1]名称のある地点の情報と位置をマップ上に表示する。\n
 
                         \n%c[d_cyan]「デバッグマップHUD」
                         \n%c[ui_gray_1]アーティファクトとスタッシュの位置と情報を表示する。マップ上でShift、Alt、Ctrlなどのキーを使用する必要がある。\n
@@ -158,8 +158,8 @@
                         %c[d_cyan]「苦痛モード」
 %c[ui_gray_1]特定の条件が満たされた時のみセーブできる。\n
 
-                        \n%c[d_green]情報%
-                        \nc[ui_gray_2]この機能は、ゲームのハードコア要素を増やし、サバイバル生活を体験できる。
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]この機能は、ゲームのハードコア要素を増やし、サバイバル生活を体験できる。
                         \n有効にすると、以下の条件に当てはまる場合は、メインメニューからのセーブやクイックセーブができなくなる。
                         \n・体力が少ない
                         \n・放射線を浴びている

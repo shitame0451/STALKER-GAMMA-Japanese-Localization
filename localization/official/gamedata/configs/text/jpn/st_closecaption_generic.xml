@@ -55,7 +55,7 @@
     <text>何か用事があるんなら、ボスのところに行きな。</text>
   </string>
   <string id="cc_generic-bandit-meet_use_no_weapon_1">
-    <text>今話す余裕がねぇんだ、見りゃ分かるだろうが！</text>
+    <text>今話す余裕がねぇんだ、見りゃわかるだろうが！</text>
   </string>
   <string id="cc_generic-bandit-meet_use_no_weapon_2">
     <text>まず銃をしまいな、話はそれからだ。</text>
@@ -718,7 +718,7 @@
     <text>これは沈黙大会かな？オーケーあんたの勝ちだ。</text>
   </string>
   <string id="cc_generic-stalker-meet_general_stop_3">
-    <text>あんたが知りたいのが何なのか分からん。</text>
+    <text>あんたが知りたいのが何なのかわからん。</text>
   </string>
   <string id="cc_generic-stalker-meet_general_start_1">
     <text>何か用があるならいいな、ほら。</text>

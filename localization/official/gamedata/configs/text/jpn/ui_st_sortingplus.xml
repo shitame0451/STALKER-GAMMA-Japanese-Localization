@@ -67,7 +67,7 @@
 		<text>ジャンク品をハイライト表示</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_hilitejunk_desc">
-		<text>ジャンク品に指定したアイテムを、視覚的に分かりやすいようハイライト表示します。</text>
+		<text>ジャンク品に指定したアイテムを、視覚的にわかりやすいようハイライト表示します。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_sortjunk">
 		<text>ジャンク品を専用カテゴリにソート</text>
@@ -91,7 +91,7 @@
 		<text>お気に入りをハイライト表示</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_hilitefavs_desc">
-		<text>お気に入りに指定したアイテムを、視覚的に分かりやすいようハイライト表示します。</text>
+		<text>お気に入りに指定したアイテムを、視覚的にわかりやすいようハイライト表示します。</text>
 	</string>
 	<string id="ui_mcm_SortingPlus_sortfavs">
 		<text>お気に入りを専用カテゴリにソート</text>

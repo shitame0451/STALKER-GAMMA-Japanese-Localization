@@ -284,8 +284,7 @@
 
     <string id="encyclopedia_addons_nerfs_text">
         <text>\n%c[255,137,48,225]New Extensible RF Sources%c[ui_gray_1]は、RF受信機を以下の様々な方法で改善します:
-
-\n \n • %c[pda_yellow]周波数の上限%c[ui_gray_1]を%c[255,0,200,220]300%c[ui_gray_1]から%c[255,0,200,220]999%c[ui_gray_1]に拡張（MCMで設定可能）
+\n • %c[pda_yellow]周波数の上限%c[ui_gray_1]を%c[255,0,200,220]300%c[ui_gray_1]から%c[255,0,200,220]999%c[ui_gray_1]に拡張（MCMで設定可能）
 \n • ストーカーのPDAなど、新しい%c[pda_yellow]RF信号源%c[ui_gray_1]を追加
 \n • RF信号源を、%c[pda_yellow]改造が容易で競合しにくいように設計%c[ui_gray_1]された%c[pda_yellow]LTXベースのフレームワーク%c[ui_gray_1]へ移行
 \n • 死亡したストーカーからランダムに入手できる%c[pda_yellow]ノート（百科事典記事付き）%c[ui_gray_1]を追加し、

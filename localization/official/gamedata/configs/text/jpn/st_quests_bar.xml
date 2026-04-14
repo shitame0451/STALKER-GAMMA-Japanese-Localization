@@ -17,7 +17,7 @@
 	</string>
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_default_task_about">
 		<text>知り合いが助けを必要としている。卑劣な人間だが、それでも支援する価値がある。
-\n彼のところに行って、何を望んでいるのか確認してくれ。</text>
+\n奴のところへ行って、何を望んでいるのか確認してくれ。</text>
 	</string>
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_default_task_finish">
 		<text>健闘を祈る、ストーカー。</text>
@@ -41,14 +41,14 @@
 	<!-- Petrenko (Duty Trader) Locate Brain Scorcher Equipment Storyline Task -->
 
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_2_name">
-		<text>ブレイン・スコーチャーの備品探し</text>
+		<text>ブレイン・スコーチャーの機材捜索</text>
 	</string>
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_2_text">
 		<text>あるストーカーがブレイン・スコーチャーの一部を盗み出し、ゾーンのどこかに隠した。それを見つけ出し、ペトレンコ大佐に届ける必要がある。</text>
 	</string>
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_2_about">
 		<text>ストーカーがブレイン・スコーチャーの機材を盗み、どこかに隠したという情報が入った。
-\nそれは強力な兵器の可能性があるため、決して悪意ある者の手に渡らせてはならない。
+\nそれは強力な兵器にもなりかねん。決して悪意ある者の手に渡らせてはならない。
 \n隠し場所の候補はいくつかあり、今は基地の半分を動員して捜索させているところだ。
 \nお前にはその候補地の一つを調べてきてもらいたい。見つけ次第、持ち帰ってくれ。</text>
 	</string>
@@ -65,9 +65,9 @@
 		<text>ある派閥のメンバーがペトレンコ大佐の最重要指名手配リストに載った。彼はその者の処刑を望んでいる。</text>
 	</string>
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_3_about">
-		<text>ゾーンの誰よりも俺を多くのトラブルに巻き込んだ、ある派閥のメンバーがいる。
-\n今のところ、俺の部下たちでは対処することができていない。
-\nもしお前が奴を始末してくれるなら、相応の報酬を支払おう。</text>
+		<text>ゾーンの誰よりも俺に多くの厄介事を持ち込んだ、ある派閥のメンバーがいる。
+\n今のところ、俺の部下たちでは対処しきれていない。
+\nもしお前が奴を始末してきてくれるなら、相応の報酬を約束しよう。</text>
 	</string>
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_3_finish">
 		<text>いいぞ、ようやくあのクソ野郎が片付いたか！
@@ -80,7 +80,7 @@
 		<text>ラボX19を調査する</text>
 	</string>
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_4_text">
-		<text>ペトレンコ大佐は、レーダーのラボX19内で見つかった文書に対して、多額の報酬を支払うことを約束した。</text>
+		<text>ペトレンコ大佐は、レーダーのラボX19内で見つかった文書に多額の報酬を出すと約束した。</text>
 	</string>
 	<string id="drx_sl_bar_dolg_general_petrenko_stalker_task_4_about">
 		<text>お前はレーダーにあるブレイン・スコーチャーへの潜入を計画しているそうだな。
@@ -100,7 +100,7 @@
 		<text>マンガンのところに戻り、次の仕事をしなくてはならない。</text>
 	</string>
 	<string id="drx_sl_bar_visitors_stalker_mechanic_default_task_about">
-		<text>俺の知り合いがあんたの手助けを必要としている。あいつに会いに行ってくれ。</text>
+		<text>俺の知り合いがあんたの手助けを求めている。あいつに会いに行ってくれ。</text>
 	</string>
 	<string id="drx_sl_bar_visitors_stalker_mechanic_default_task_finish">
 		<text>幸運を、ストーカー。</text>
@@ -224,7 +224,7 @@
 	</string>
 	<string id="bar_dolg_leader_task_4_msg_join">
 		<text>撃つな！俺はデューティーのスパイだ！
-\n撃ち返してすまなかったが、最悪の事態に備えてこうするしかなかったんだ。
+\n撃ち返して悪かったが、最悪の事態に備えてこうするしかなかったんだ。
 \n弾は当たってないよな？ロストクに戻ろう。一緒に行くのが一番だ。</text>
 	</string>
 	<string id="bar_dolg_leader_task_4_msg_leave">
@@ -262,7 +262,7 @@
 		<text>ロストク防衛作戦</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_1_text">
-		<text>ペトレンコ大佐から、デューティーを脅かすストーカーのグループの排除を依頼された。</text>
+		<text>ペトレンコ大佐から、デューティーを脅かすストーカーのグループの排除を頼まれた。</text>
 	</string>
 	<string id="bar_dolg_general_petrenko_stalker_task_1_about">
 		<text>ゾーンの各地で敵勢力が集結しつつあり、状況は次第に不利になってきている。
@@ -325,7 +325,7 @@
 		<text>マンガンのために%sを見つける</text>
 	</string>
 	<string id="bar_visitors_stalker_mechanic_task_1_text">
-		<text>マンガンは基本的な装備の改造のために%sを必要としている。</text>
+		<text>マンガンは基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="bar_visitors_stalker_mechanic_task_1_about">
 		<text>北にはフリーダム、南東にはバンディット、西には傭兵。俺たちには敵が多すぎる。
@@ -345,7 +345,7 @@
 		<text>マンガンのために%sを見つける</text>
 	</string>
 	<string id="bar_visitors_stalker_mechanic_task_2_text">
-		<text>マンガンは高度な装備の改造のために%sを必要としている。</text>
+		<text>マンガンは高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="bar_visitors_stalker_mechanic_task_2_about">
 		<text>前回持ってきてくれた物のおかげで、ちょっと野心が湧いてきてな。
@@ -362,7 +362,7 @@
 		<text>マンガンのために%sを見つける</text>
 	</string>
 	<string id="bar_visitors_stalker_mechanic_task_3_text">
-		<text>マンガンは専門的な装備の改造のために%sを必要としている。</text>
+		<text>マンガンは専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="bar_visitors_stalker_mechanic_task_3_about">
 		<text>ようストーカー、お前のおかげで信じられねえことが起きてるぞ！
@@ -408,7 +408,7 @@
 		<text>バーキープのために、あるストーカーを排除することになった。</text>
 	</string>
 	<string id="bar_visitors_barman_stalker_trader_task_2_about">
-		<text>とあるここの常連が、根っからの悪党だったことが分かった。奴が消え去れば、
+		<text>とあるここの常連が、根っからの悪党だったことがわかった。奴が消え去れば、
 \nロストク中が大喜びで奴の墓に花を供えるだろう。どうだ、やってくれるか？</text>
 	</string>
 	<string id="bar_visitors_barman_stalker_trader_task_2_finish">
@@ -483,7 +483,7 @@
 \nもちろん報酬は支払う。薬の種類を効率的に増やせれば、みんなの役に立つはずだ。</text>
 	</string>
 	<string id="bar_dolg_medic_task_1_fetch_finish">
-		<text>へえ、ついにきたか！ロストクの連中もきっと感謝するぞ、間違いない。</text>
+		<text>へえ、ついに来たか！ロストクの連中もきっと感謝するぞ、間違いない。</text>
 	</string>
 
 <!-- Snitch (100 Rads) -->

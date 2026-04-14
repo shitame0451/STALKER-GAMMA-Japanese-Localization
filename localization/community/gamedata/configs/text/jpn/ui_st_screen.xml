@@ -803,7 +803,7 @@
 \n敵のスナイパー部隊の位置を確認し、準備を進めている･･････</text>
 	</string>
 	<string id="st_lttz_yanov_invitation_message">
-		<text>お前がこのエリアにいるのは分かってる。ヤノフ駅に来て話をしないか？</text>
+		<text>お前がこのエリアにいるのはわかってる。ヤノフ駅に来て話をしないか？</text>
 	</string>
 	<string id="st_lttz_yanov_invitation2_message">
 		<text>やあ、ストーカー。私のところに来て話をしないか？</text>
@@ -819,7 +819,7 @@
 	</string>
 	<string id="st_lttz_pripyat_degtyarev_message">
 		<text>ストレロック、こちらはウクライナ保安庁のアレクサンダー・アレクサンドロビッチ・デグチャレフ大佐だ。
-\nお前がそこにいることは分かっているし、お前も我々がここにいる理由を知っているはずだ。
+\nお前がそこにいることはわかっているし、お前も我々がここにいる理由を知っているはずだ。
 \n武器を置いて、1人ずつゆっくり出てこい。応じてくれれば、暴力に頼らずに済む。</text>
 	</string>
 	<string id="st_lttz_pripyat_strelok_message2">

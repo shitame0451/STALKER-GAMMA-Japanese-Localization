@@ -244,7 +244,7 @@
 		<text>古い下着</text>
 	</string>
 	<string id="st_underwear_descr">
-		<text>替えの下着があれば、ずっと快適に過ごせるだろう。ただし、この下着がどこから来たものかは分からない。\n \n
+		<text>替えの下着があれば、ずっと快適に過ごせるだろう。ただし、この下着がどこから来たものかはわからない。\n \n
 		%c[pda_white]特性:\n
 		</text>
 	</string>
@@ -370,7 +370,7 @@
 		<text>愛する人の写真</text>
 	</string>
 	<string id="st_picture_woman_descr">
-		<text>親しい人との思い出の瞬間を捉えた大切な写真。写っている人物が誰なのかは分からない。\n \n
+		<text>親しい人との思い出の瞬間を捉えた大切な写真。写っている人物が誰なのかはわからない。\n \n
 		%c[pda_white]特性:\n
 		</text>
 	</string>

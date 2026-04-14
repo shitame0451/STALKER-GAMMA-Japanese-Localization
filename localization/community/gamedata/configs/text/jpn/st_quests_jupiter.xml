@@ -28,18 +28,18 @@
 		<text>トゥカレフの%sに関する実験</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_1_text">
-		<text>%sを採取してトゥカレフに渡す。</text>
+		<text>%sを採取し、トゥカレフに渡す。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_1_about">
-		<text>とあるミュータントを対象にした実験を行いたいんだ。
-\nそのために、君に狩ってきてもらいたい。</text>
+		<text>あるミュータントを対象に、実験をしたいと考えている。
+\n君には、そのミュータントを狩ってきてもらいたい。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_1_fetch_about">
-		<text>%sを持って来てくれ。成功したら相応の報酬を支払うよ。</text>
+		<text>%sを持ってきてくれ。成功したら相応の報酬を支払うよ。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_1_fetch_finish">
-		<text>よくやってくれた。これぞまさに私が探し求めていた物だ。
-\n報酬にこれを持って行ってくれ。</text>
+		<text>よくやってくれた。これこそ、私が探し求めていた物だ。
+\n報酬だ。これを受け取ってくれ。</text>
 	</string>
 
 	<!-- Tukarev  (Ecologist Mechanic) Find Missing Scientist Storyline Task -->
@@ -51,8 +51,8 @@
 		<text>行方不明の科学者を探す。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_2_about">
-		<text>科学者の1人が行方不明になっている。研究のために外出したまま戻ってこないんだ。
-\n彼が最後に調べていたのはおそらくここだ。行って彼に関する手がかりを探してきてくれ。</text>
+		<text>我々の科学者が行方不明になってしまった。研究のために外出したきり、戻ってこない。
+\n彼が調査していた場所はわかっている。そこへ向かい、手がかりがないか探してきてくれ。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_2_finish">
 		<text>感謝するよ、ストーカー。</text>
@@ -67,10 +67,10 @@
 		<text>トゥカレフは重要な研究データの入ったPDAを盗まれてしまった。見つけ出して彼に渡そう。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_3_about">
-		<text>Banditが我々の移動研究所の一つを襲撃し、物資を奪っていったんだ。
-\nその際にPDAも奪われてしまった。中には非常に重要な研究データが記録されていてね。
-\n私はそれが隠されているかもしれない場所について、有力な情報を得ることができた。
-\nそこを調べに行って、PDAを見つけたら持ち帰ってもらいたい。報酬は約束するよ。</text>
+		<text>Banditが我々の移動研究所を襲撃し、物資を奪っていったんだ。
+\nその際、極めて重要な研究データが記録されたPDAまで奪われてしまってね･･････
+\n幸い、隠し場所についての有力な情報を掴むことができた。
+\n現地を調査し、PDAを見つけたら回収してきてもらいたい。報酬は約束するよ。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_3_finish">
 		<text>素晴らしい！よくやってくれた。</text>
@@ -82,15 +82,15 @@
 		<text>ジュピター地下の探索</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_4_text">
-		<text>ジュピター地下で失われていた研究文書を回収する。</text>
+		<text>ジュピター地下で失われた研究文書を回収する。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_4_about">
-		<text>主任研究員の1人が、プリピャチから戻る途中に地下通路で殺害されてしまってね。
-\n困ったことに、彼は重要な研究資料を持ち歩いていて、そこに置き去りになっている。
-\n君にはその文書を回収し、私のところに持ってきてもらいたい。</text>
+		<text>主任研究員の1人が、プリピャチからの帰還途中に地下通路で殺害されてしまった。
+\n厄介なことに、彼が携行していた重要な研究資料が、遺体と共に置き去りになっている。
+\n君にはその資料を回収し、私の元へ届けてもらいたい。</text>
 	</string>
 	<string id="drx_sl_jup_b6_scientist_tech_task_4_finish">
-		<text>素晴らしい手際だ。よくやってくれたな。</text>
+		<text>素晴らしい手際だ。よくやってくれた。</text>
 	</string>
 
 	<!-- Loki  (Freedom Honcho) Default Storyline Task -->
@@ -102,7 +102,7 @@
 		<text>次のタスクを引き受ける。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_default_task_about">
-		<text>とあるストーカーを訪ねてやってほしい。そいつを手伝えば報酬を支払ってくれるだろう。</text>
+		<text>あるストーカーを訪ねてやってくれ。そいつを手伝えば報酬を支払ってくれるだろう。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_default_task_finish">
 		<text>幸運を祈るよ、ストーカー。</text>
@@ -124,7 +124,7 @@
 \nブレイン・スコーチャーを突破してそいつを調達してきてくれたら、報酬を支払おう。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_1_fetch_finish">
-		<text>よくやった。これだけ武器があれば安心して眠れるよ。報酬を受け取りな。</text>
+		<text>よくやった。これだけ武器があれば安心して眠れる。報酬を受け取れ。</text>
 	</string>
 
 	<!-- Loki  (Freedom Honcho) Clear Monolith Beachhead Storyline Task -->
@@ -136,7 +136,7 @@
 		<text>Freedomの主力部隊のため、指定されたエリアのMonolith兵を排除する。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_2_about">
-		<text>我々はMonolithの縄張りへ殴り込む準備をしている。
+		<text>我々はMonolithの縄張りへ殴り込みをかける準備を進めている。
 \n主力部隊が進軍できるよう、まずはお前に指定区域の制圧を頼みたい。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_2_finish">
@@ -154,7 +154,7 @@
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_3_about">
 		<text>部下の1人を特別な任務に送り出す予定だが、我々の最高のスーツ以上の防護が必要だ。
-\n彼を守るために、強力なアーティファクトを探している。</text>
+\n彼を守るため、強力なアーティファクトを探している。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_3_fetch_about">
 		<text>%sが必要だ。
@@ -192,7 +192,7 @@
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_default_task_about">
 		<text>ある人物がアンタに仕事を用意してるぞ。
-\n会いに行って、そいつの言う通りにするんだ。わかったか？</text>
+\n会いに行って、そいつの言う通りに動くんだ。わかったか？</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_default_task_finish">
 		<text>幸運を祈ってるぜ。</text>
@@ -205,7 +205,7 @@
 		<text>積み荷の武器を回収する</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_1_text">
-		<text>クレノフから、武器を見つけてジュピターのコンテナ倉庫に運ぶように頼まれた。</text>
+		<text>クレノフから、武器を見つけてジュピターのコンテナ倉庫に運ぶよう頼まれた。</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_1_about">
 		<text>今日は武器の積荷が届くはずだったんだが、スルタンの手下が軍のパトロールに
@@ -222,10 +222,10 @@
 		<text>敵の偵察隊を排除する</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_2_text">
-		<text>クレノフから、どんな犠牲を払っても敵の偵察隊を見つけて殺すように頼まれた。</text>
+		<text>クレノフから、どんな犠牲を払っても敵の偵察隊を見つけて殺すよう頼まれた。</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_2_about">
-		<text>敵の偵察がオレたちの襲撃計画をストーカーに知らせやがった。そのせいで3人やられた。
+		<text>敵の偵察がオレたちの襲撃計画をストーカーに漏らしやがった。そのせいで3人やられた。
 \nこんな失敗はもうごめんだ。あのクソ野郎を見つけてぶっ殺してこい。</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_2_finish">
@@ -239,23 +239,23 @@
 		<text>Banditのスパイを護衛する</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_3_text">
-		<text>敵地に潜入しているBanditを救出しなくてはならない。彼と一緒に行動している敵部隊を排除し、クレノフの元まで護衛する必要がある。そのBanditはSVDを持っているはずだ。</text>
+		<text>敵地に潜入しているBanditを救出しなくてはならない。彼と行動を共にしている敵部隊を排除し、クレノフの元まで護衛する必要がある。そのBanditはSVDを持っているはずだ。</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_3_about">
 		<text>よし聞け。敵部隊に仲間のスパイが潜り込んでる。
 \nそいつからずっとヤツらの動きについて情報を送らせてたんだが、
 \n最近ぱったり音沙汰がなくなった。どうやらヤバい状況になったらしいな。
 \nこのままだと正体がバレて始末されるかもしれねえ。だから、お前にそいつを無事に
-\n連れて帰ってきてもらう。だが注意しろ。そいつは他のストーカーたちと一緒にいる。
+\n連れて帰ってきてもらう。だが注意しろ。そいつは他のストーカーどもと一緒にいる。
 \nまずはその連中を片付けることだな。SVDを持ってる奴がオレたちの仲間だが、
-\nアイツは正体を隠し続けるために撃ち返してくるかもな。そこだけは注意しとけ。
-\nさあ、分かったら行け！</text>
+\nアイツは正体を隠すために撃ち返してくるかもしれねえ。そこだけは注意しとけ。
+\nさあ、わかったらとっとと行け！</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_3_finish">
 		<text>お前ら、揃って無事に戻ってきたのかよ。へっ、冗談だよ。ほら、報酬を受け取りな。</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_3_msg_join">
-		<text>クソッ･･････ 撃つな！撃つなって！もう全員死んでるぞ！
+		<text>クソッ･･････ 撃つな！撃つなって！もう全員死んでるだろ！
 \nこんな場所さっさとおさらばして、クレノフの所に戻ろうぜ。頼む、早く行くぞ。</text>
 	</string>
 	<string id="drx_sl_jup_cont_trader_bandit_task_3_msg_leave">
@@ -270,11 +270,11 @@
 		<text>Ecologistたちを護衛する</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_1_text">
-		<text>科学者たちに雇われ、研究対象となる場所まで護衛することになった。彼らの調査が終わるまで見守り、安全に基地に送り届けなくてはならない。</text>
+		<text>科学者たちに雇われ、研究対象の場所まで護衛することになった。彼らの調査が終わるまで見守り、安全に基地へ送り届けなくてはならない。</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_1_about">
 		<text>現地調査のため、我々の同僚数名を護衛してくれる経験豊富なストーカーが必要だ。
-\n君にその任務を頼みたいのだが、どうだろうか？</text>
+\n君にその任務を頼みたいのだが、引き受けてくれるか？</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_1_fetch_finish">
 		<text>君の護衛のおかげで助かったよ。感謝の印だ。これを受け取ってくれ。</text>
@@ -283,7 +283,7 @@
 		<text>%sを探す</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_2_text">
-		<text>%sを探してくるよう依頼された。手に入れたらトゥカレフのところに持っていこう。</text>
+		<text>%sを探してくるよう頼まれた。手に入れたらトゥカレフのところに持っていこう。</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_2_about">
 		<text>とあるアーティファクトを探していてね。
@@ -359,7 +359,7 @@
 	</string>
 	<string id="jup_b220_trapper_task_3_fetch_about">
 		<text>%sが必要だ。
-\nそいつを欲しがってる仲間には危険な仕事が控えててな。
+\nそいつを欲しがってる仲間には、危険な仕事が控えてるんだ。
 \n完璧に整備されていないとダメだそうだ。見つけてきたら、それなりの報酬を支払おう。</text>
 	</string>
 	<string id="jup_b220_trapper_task_3_fetch_finish">
@@ -393,7 +393,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_1_text">
-		<text>ニトロは基本的な装備の改造のために%sを必要としている。</text>
+		<text>ニトロは基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_1_about">
 		<text>新しい道具がいるんだよ、ストーカー。ゾーンではなかなかお目にかかれない代物がな。
@@ -411,7 +411,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_2_text">
-		<text>ニトロは高度な装備の改造のために%sを必要としている。</text>
+		<text>ニトロは高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_2_about">
 		<text>お前が持ってきてくれたこのツールは確かにすごいが、まだ必要な道具が足りないんだ。
@@ -429,14 +429,14 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_3_text">
-		<text>ニトロは専門的な装備の改造のために%sを必要としている。</text>
+		<text>ニトロは専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_3_about">
 		<text>お前が持ってきてくれたツールキットは確かに素晴らしいよ。
 \nだが、まだ完璧じゃない。もっと良いツールキットを探して持ってきてくれないか？</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_3_fetch_about">
-		<text>欲しいのは%sだ。どこで手に入るのかは分からない。
+		<text>欲しいのは%sだ。どこで手に入るのかはわからない。
 \nでも必要なんだ。どうにか見つけてくれ。</text>
 	</string>
 	<string id="jup_b217_stalker_tech_task_3_fetch_finish">
@@ -452,10 +452,10 @@
 		<text>特別な配達</text>
 	</string>
 	<string id="jup_b19_freedom_yar_task_1_text">
-		<text>伝言を届ける必要がある。どうしてこんな厄介事に巻き込まれたんだ？</text>
+		<text>伝言を届ける必要がある。しかし、どうしてこんな厄介事に巻き込まれたんだ？</text>
 	</string>
 	<string id="jup_b19_freedom_yar_task_1_about">
-		<text>よし。お前にできる簡単な仕事がある。仲間のアショットに伝言を届けてほしい。
+		<text>よし。お前に簡単な仕事がある。仲間のアショットに伝言を届けてほしい。
 \nあいつのPDAを修理しなきゃならんから、ここに持って来るように言ってくれ。</text>
 	</string>
 	<string id="jup_b19_freedom_yar_task_1_finish">
@@ -567,7 +567,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_text">
-		<text>ギャングのメカニックに%sを持ってくるように頼まれた。</text>
+		<text>ギャングのメカニックに%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_about">
 		<text>ストーカーどもが物資を根こそぎ奪って、ヤノフに防衛線を張りやがった･･････ クソどもめ。
@@ -584,7 +584,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_2_text">
-		<text>ギャングのメカニックに%sを持ってくるように頼まれた。</text>
+		<text>ギャングのメカニックに%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_2_about">
 		<text>なあ、あまり迷惑はかけたくねえんだけどさ、別のツールキットも探してきてくれねえか？
@@ -603,7 +603,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_text">
-		<text>ギャングのメカニックに%sを持ってくるように頼まれた。</text>
+		<text>ギャングのメカニックに%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_about">
 		<text>よう相棒、あんたが持ってきてくれた2つのツールにはマジで助かってるぜ。
@@ -630,13 +630,13 @@
 		<text>ボーンセッターは医薬品を作成するために%sを必要としている。</text>
 	</string>
 	<string id="jup_a6_stalker_medik_task_1_about">
-		<text>毎日大量の負傷者を治療しているせいで、物資がどんどん減ってるんだ。
-\nこのままだと包帯や医療キットが尽きてしまう。薬品製造ツールを探してきてくれ。
-\nそれがあればきっと役に立つはずだ。</text>
+		<text>連日、負傷者の治療に追われていてな･･････ 備蓄していた物資が底を突きかけている。
+\nこのままでは包帯一つ満足に巻けなくなる。薬品製造ツールを調達してきてくれ。
+\nそれさえあれば、多くの命を救えるはずだ。</text>
 	</string>
 	<string id="jup_a6_stalker_medik_task_1_fetch_about">
 		<text>%sを探してる。
-\n錠剤やアンプルが入っていて、医療物資を作るのに必要なんだ。
+\n錠剤やアンプルが入っていて、医療品を作るのに必要なんだ。
 \nそれを持ってきてくれたら報酬を渡すよ。</text>
 	</string>
 	<string id="jup_a6_stalker_medik_task_1_fetch_finish">

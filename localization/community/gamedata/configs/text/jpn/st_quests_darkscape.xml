@@ -6,15 +6,15 @@
     <text>技術者のために%sを見つける</text>
   </string>
   <string id="dasc_tech_mlr_task_1_text">
-    <text>製材所にいる技術者から、%sを持ってくるように頼まれた。</text>
+    <text>製材所にいる技術者から、%sを持ってくるよう頼まれた。</text>
   </string>
   <string id="dasc_tech_mlr_task_1_about">
-    <text>あんたもすでに知ってるだろうが、この辺はまるで現実とは思えないほど奇妙だ。
+    <text>あんたもすでに知ってるだろうが、この辺りは現実とは思えないほど奇妙な場所だ。
 \n元は製材所だったが、今じゃ丸太しか残っちゃいない。せめて作業用のキットがあればな。
 \nもしベーシックツールを見かけたら、ここまで持ってきてくれよ。</text>
   </string>
   <string id="dasc_tech_mlr_task_1_fetch_about">
-    <text>あんたもすでに知ってるだろうが、この辺はまるで現実とは思えないほど奇妙だ。
+    <text>あんたもすでに知ってるだろうが、この辺りは現実とは思えないほど奇妙な場所だ。
 \n元は製材所だったが、今じゃ丸太しか残っちゃいない。せめて作業用のキットがあればな。
 \nもしベーシックツールを見かけたら、ここまで持ってきてくれよ。</text>
   </string>
@@ -27,7 +27,7 @@
     <text>技術者のために%sを見つける</text>
   </string>
   <string id="dasc_tech_mlr_task_2_text">
-    <text>製材所にいる技術者から、%sを持ってくるように頼まれた。</text>
+    <text>製材所にいる技術者から、%sを持ってくるよう頼まれた。</text>
   </string>
   <string id="dasc_tech_mlr_task_2_about">
     <text>前にツールを見つけてもらったが、アドバンスドツールの在処は知らないかな？
@@ -45,7 +45,7 @@
     <text>技術者のために%sを見つける</text>
   </string>
   <string id="dasc_tech_mlr_task_3_text">
-    <text>製材所にいる技術者から、%sを持ってくるように頼まれた。</text>
+    <text>製材所にいる技術者から、%sを持ってくるよう頼まれた。</text>
   </string>
   <string id="dasc_tech_mlr_task_3_about">
     <text>こんな荒野で頼むのも酷かもしれないが、さらに高度なツールを探してくれないか？

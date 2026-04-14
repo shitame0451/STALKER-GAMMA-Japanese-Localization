@@ -135,7 +135,7 @@
 		<text>あいつは犬どもに追われていて、俺たちが追い払う寸前に食いつかれたんだ。</text>
 	</string>
 	<string id="st_msg_death_1_2_6">
-		<text>何が起こったのか、詳しいことは分からない。俺たちが見つけたときにはもう･･････</text>
+		<text>何が起こったのか、詳しいことはわからない。俺たちが見つけたときにはもう･･････</text>
 	</string>
 	<string id="st_msg_death_1_3_1">
 		<text>やれることはやったが、ひどい出血で死んじまった。止血は間に合わなかったよ。</text>
@@ -247,7 +247,7 @@
 \n前はアノマリーで塞がれてたが、今は通れそうだぜ。</text>
 	</string>
 	<string id="st_msg_map_1_4_1">
-		<text>絶対安全とは言えないが、今分かってるのはこれだけだ。
+		<text>絶対安全とは言えないが、今わかってるのはこれだけだ。
 \n俺はもっとマシな情報を持ってる奴がいないか聞いてみるつもりだ。</text>
 	</string>
 	<string id="st_msg_map_1_4_2">
@@ -332,7 +332,7 @@
 \n受信機を$rf_freqMHzに合わせると、ときどき聞こえてくるぞ。</text>
 	</string>
 	<string id="st_msg_rf_1_3_4">
-		<text>受信機を$rf_freqMHzに合わせてみろ。俺の言っていることが分かるはずだ。
+		<text>受信機を$rf_freqMHzに合わせてみろ。俺の言っていることがわかるはずだ。
 \n誰か･･････ いや、何かがあの音を出してる。とても正気のものとは思えないな。</text>
 	</string>
 	<string id="st_msg_rf_1_4_1">
@@ -470,7 +470,7 @@
 		<text>お前を待ってるからな。それまでは死ぬんじゃないぞ。</text>
 	</string>
 	<string id="st_msg_joke_1_3_3">
-		<text>手ぶらで帰ってきたら、お前とは縁を切るからな。分かったか？</text>
+		<text>手ぶらで帰ってきたら、お前とは縁を切るからな。わかったか？</text>
 	</string>
 	<string id="st_msg_joke_1_3_4">
 		<text>キャンプで待ってるからな、ストーカー！</text>
@@ -517,7 +517,7 @@
 	</string>
 	<string id="st_msg_mission_target_1_3_2">
 		<text>近くで$enemyを確認したが、大した問題にはならないだろう。
-\n今のところ、奴らとの関連性は分かっていない。</text>
+\n今のところ、奴らとの関連性はわかっていない。</text>
 	</string>
 	<string id="st_msg_mission_target_1_3_3">
 		<text>このエリアでは$enemyも目撃している。

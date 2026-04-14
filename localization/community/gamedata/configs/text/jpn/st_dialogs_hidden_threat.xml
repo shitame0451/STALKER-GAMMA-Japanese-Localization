@@ -14,7 +14,7 @@
 	    <text>落ち着け、兵士よ。</text>
 	</string>
 	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_1_1">
-        <text>よく聞いてくれ、Mercenaryの情報屋から情報提供があったんだ。デッドシティの基地に、見知らぬ人物が来たそうだ。情報提供者が訪問者の派閥を特定できない時点でおかしい。見た目は十分な装備と特殊な能力を備えているが、情報提供者はMercenaryではないと主張している。彼はダッシュマンからいくつかのケースを受け取り、部外者との接触を避けて去っていった。君の仕事は、この人物が何者で、ゾーンで何をしているかを突き止めることだ。分かったか？</text>
+        <text>よく聞いてくれ、Mercenaryの情報屋から情報提供があったんだ。デッドシティの基地に、見知らぬ人物が来たそうだ。情報提供者が訪問者の派閥を特定できない時点でおかしい。見た目は十分な装備と特殊な能力を備えているが、情報提供者はMercenaryではないと主張している。彼はダッシュマンからいくつかのケースを受け取り、部外者との接触を避けて去っていった。君の仕事は、この人物が何者で、ゾーンで何をしているかを突き止めることだ。わかったか？</text>
     </string>
 	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_2_1">
 	    <text>任務について質問があります。</text>
@@ -47,10 +47,10 @@
 	    <text>思うところはあるが、今は胸にしまっておこう。もし、君が見つけた情報が私の推測を裏づけるものであれば、徹底的に話し合おう。</text>
 	</string>	
 	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_13_1">
-	    <text>分かりました、大佐。</text>
+	    <text>わかりました、大佐。</text>
 	</string>
 	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_13_2">
-	    <text>分かりました。</text>
+	    <text>わかりました。</text>
 	</string>
 	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_13_3">
 	    <text>了解しました。</text>
@@ -411,7 +411,7 @@
 	    <text>なるほど、工作員が危険を冒してまで行ったのは正解だったようだ。ここには部下がいないので、この事件は君がやるしかない。アグロプロムの基地で会おう。頼んだぞ。</text>
 	</string>
 	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_5_1">
-	    <text>分かりました、同志大佐！</text>
+	    <text>わかりました、同志大佐！</text>
 	</string>
 	
 	<!-- D2 -->

@@ -210,7 +210,7 @@
 \nもし複数のブラッドサッカーに出くわすようなことがあったら、常に背後に気を配れよ。</text>
 	</string>
 	<string id="gonta_about_mutants_1116">
-		<text>分かった、もう大丈夫だ。</text>
+		<text>わかった、もう大丈夫だ。</text>
 	</string>
 	<string id="owl_story_0">
 		<text>この静かな港について教えてくれ。</text>
@@ -235,17 +235,17 @@
 	</string>
 	<string id="owl_story_3">
 		<text>ああ。俺は情報屋だ。
-\n見渡せば分かるだろうが、ここに来る連中の中には一攫千金を狙ってる奴もいる。
+\n見渡せばわかるだろうが、ここに来る連中の中には一攫千金を狙ってる奴もいる。
 \nだがな、ここには危険が山ほどある─カルト、ミュータント、ゾンビ･･････ 何でもありだ。
 \nこの辺の湿地じゃ、ストーカーが命を落とすなんてことは珍しくない。
 \nだから、まぁ･･････ もしどこかで、そういう連中の死体を“見つけたら”でいいんだが･･････
-\nそいつらのPDAを持ってきてくれれば、俺は金を払う。何も聞かずにな。分かったか？</text>
+\nそいつらのPDAを持ってきてくれれば、俺は金を払う。何も聞かずにな。わかったか？</text>
 	</string>
 	<string id="owl_story_4">
-		<text>ああ、言いたいことは分かった。</text>
+		<text>ああ、言いたいことはわかった。</text>
 	</string>
 	<string id="information_about_stash_owl_zat_0">
-		<text>隠し場所に関する情報は持ってるか？</text>
+		<text>隠し場所の情報は持ってるか？</text>
 	</string>
 	<string id="information_about_stash_owl_zat_1">
 		<text>情報なら何でも揃ってるぜ─金さえ払えば、だけどな。
@@ -335,7 +335,7 @@
 		<text>襲撃とは何だ？何の話をしている？</text>
 	</string>
 	<string id="noah_start_dialog1_12">
-		<text>化け物どもだ。昼も夜も、奴らにずっと見張られてる。お前には分からんだろうがな･･････
+		<text>化け物どもだ。昼も夜も、奴らにずっと見張られてる。お前にはわからんだろうがな･･････
 \n南の台地から来たスノークどもが、俺をこの方舟まで追ってきやがった！
 \n俺は熟練のハンター。あいつらがここまで執拗に獲物を追うなんて普通じゃない。
 \n何かがおかしい･･････ 奴らには“集団意識”のようなものがあるに違いない。
@@ -348,7 +348,7 @@
 		<text>なぜ人を信用しないんだ？</text>
 	</string>
 	<string id="noah_start_dialog1_14">
-		<text>そのうち、お前にも分かるだろう。</text>
+		<text>そのうち、お前にもわかるだろう。</text>
 	</string>
 	<string id="noah_start_dialog1_5">
 		<text>そろそろ行くよ。</text>
@@ -404,7 +404,7 @@
 		<text>ストーカーたちはここで何をしているんだ？</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_11111">
-		<text>それはお前自身がよく分かってることだろう。
+		<text>それはお前自身がよくわかってることだろう。
 \nストーカーたちはスカドフスクを出発して、アーティファクトを探しに行く。
 \n襲いかかってくる連中がいれば反撃し、ここへ戻っては酒を飲み、くっちゃべって･･････
 \n次のお出かけまでの間はだらだらと過ごしている。
@@ -442,7 +442,7 @@
 \n足を洗おうって考える奴が出てくるかもしれない･･････ ありえない話じゃないさ。</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_1115">
-		<text>あぁ、分かった。この話はやめよう。</text>
+		<text>あぁ、わかった。この話はやめよう。</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_actor_info_11151">
 		<text>そうしよう。</text>
@@ -488,7 +488,7 @@
 		<text>それなら、放射線の除去だけ頼む。怪我の方は自分でなんとかする。</text>
 	</string>
 	<string id="zat_b22_stalker_medic_need_health_care_1113">
-		<text>何を言ってるか分かってるのか、お医者さんよ？テメエ自身を治せよ！</text>
+		<text>何を言ってるかわかってるのか、お医者さんよ？テメエ自身を治せよ！</text>
 	</string>
 	<string id="zat_b22_stalker_medic_need_health_care_11111">
 		<text>少し待ってくれ･･････ よし、もう大丈夫だ。行っていいぞ。</text>
@@ -625,8 +625,8 @@
 		<text>アップグレードできる銃の種類を教えてくれ。</text>
 	</string>
 	<string id="nimble_rant_missing_gun_and_money">
-		<text>金も持たずに、しかも持ってもいない銃のアップグレードを頼みに来たってんなら、
-\n俺はルカシェンコになるべきだな。そしてあんたを逮捕してやるさ。</text>
+		<text>金もない、肝心の銃もないってのに、本気でアップグレードを頼みに来たのか？
+\n俺がルカシェンコなら、あんたを今すぐ逮捕してるところだぜ。</text>
 	</string>
 	<string id="nimble_rant_missing_gun">
 		<text>在庫があるわけじゃないんだ。銃を持ってきて出直してくれないか？</text>
@@ -635,6 +635,6 @@
 		<text>金がないなら、どうやって部品を調達しろってんだ？金を持ってこい、話はそれからだ。</text>
 	</string>
 	<string id="player_acknowledge">
-		<text>分かった。</text>
+		<text>わかった。</text>
 	</string>
 </string_table>

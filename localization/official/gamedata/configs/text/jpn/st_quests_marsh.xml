@@ -27,8 +27,8 @@
 		<text>クリアスカイの工作員が残した文書を回収し、レベデフに届ける。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_1_about">
-		<text>我々の工作員が引き渡し地点にいくつかの文書を残してくれている。
-\nそれを回収してくれ。誰にも尾行されるなよ。付けてくる者がいたら即座に排除しろ。</text>
+		<text>我々の工作員が引き渡し地点にいくつかの文書を残している。
+\nそれを回収してくれ。誰にも尾行されるなよ。付けてくる者がいたら、その場で始末しろ。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_1_finish">
 		<text>誰にも尾行されていないな？よくやった。</text>
@@ -40,12 +40,11 @@
 		<text>クリアスカイ基地の防衛</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_2_text">
-		<text>クリアスカイの基地が発見されないよう、このエリアの敵勢力を排除しなくては。</text>
+		<text>クリアスカイの基地が発見されないよう、このエリアの敵勢力を排除する。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_2_about">
-		<text>この沼地での敵の活動は増加傾向にある。
-\nそのうち我々の基地が見つかるリスクを潰しておかなくてはならない。
-\nクリアスカイに敵対する連中を排除してくれ。</text>
+		<text>沼地では敵の活動が増えている。このままでは、いずれ我々の基地が見つかるだろう。
+\nそのリスクを前もって潰しておきたい。クリアスカイに敵対する連中を排除してくれ。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_2_finish">
 		<text>よくやってくれた。ありがとう、ストーカー。</text>
@@ -63,11 +62,11 @@
 		<text>ストーカー、あるアーティファクトを持ってきてもらいたい。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_fetch_about">
-		<text>%sを探してきてくれ。研究のために調達する必要があってな。
+		<text>%sを探してきてくれ。研究に必要でな。
 \nこいつには、まだ解明されていない特性があるはずだ。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_fetch_finish">
-		<text>ああ、素晴らしい、よく見つけてくれた。上出来だ。</text>
+		<text>ああ、素晴らしい。よく見つけてくれた。上出来だ。</text>
 	</string>
 
 	<!-- Cold (Clear Sky Honcho) Search Agroprom Underground Storyline Task -->
@@ -97,9 +96,9 @@
 		<text>沼地からレネゲードを追い出す。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_5_about">
-		<text>我々は深刻な問題を抱えている。レネゲードどもが再びこの沼地に姿を現したのだ。
+		<text>我々は厄介な問題を抱えている。レネゲードどもが再びこの沼地に姿を現したのだ。
 \n結局のところ、長い年月を経て戻ってきたのは我々だけではなかったようだ。
-\n我々の勇敢な警備部隊が、お前に同行することになっている。
+\n我々の勇敢な警備部隊が、お前に同行する手筈になっている。
 \n何としても奴らを食い止めなければならない。幸運を祈る、ストーカー。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_5_finish">
@@ -143,7 +142,7 @@
 		<text>クリアスカイのために%sを手に入れる</text>
 	</string>
 	<string id="drx_sl_mar_base_stalker_barmen_task_2_text">
-		<text>ライブラリアンから%sを持ってくるように頼まれた。</text>
+		<text>ライブラリアンから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="drx_sl_mar_base_stalker_barmen_task_2_about">
 		<text>物資が少なくなってきていてな･･････
@@ -216,7 +215,7 @@
 	</string>
 	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_about">
 		<text>ミュータントが我々の基地に近づくことはほとんどないのだが、
-\n昨晩、北西の監視塔を担当していた部隊が巨大な獣に全滅させられたとの報告が入った。
+\n昨晩、北西の監視塔を担当していた部隊が巨大な獣に全滅させられたと報告が入った。
 \n4人の武装した隊員が無惨に散らばっていたそうだ。犬の仕業でないことは確かだ。
 \nお前は腕が立つから、現場に行ってその忌々しい奴を片付けてくれないか？</text>
 	</string>
@@ -231,7 +230,7 @@
 		<text>ポンプ場を防衛する</text>
 	</string>
 	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_4_descr">
-		<text>我々の巡回隊がポンプ場の周辺で数名のバンディットを捕まえた。
+		<text>我々の巡回隊がポンプ場の周辺で数名のバンディットを捕らえた。
 \n奴らを徹底的に尋問した結果、ようやく襲撃の準備を進めていることを自白した。
 \n襲撃がいつ行われるかは不明だが、すでに何人かを現場に派遣している。
 \nとはいえ、追加の支援は大歓迎だ。協力には報酬が支払われることを保証しよう。</text>
@@ -267,12 +266,12 @@
 		<text>カランチャ教授のために%sを見つける。</text>
 	</string>
 	<string id="mar_smart_terrain_base_doctor_task_2_about">
-		<text>アーティファクトは、私たちの研究にとって極めて貴重な情報源となる存在だ。
+		<text>アーティファクトは、私たちの研究にとって極めて貴重な情報源だ。
 \nだが、外は危険が多すぎて、隊員たちを採取に送り出す余裕がないのが現状でね。
 \nそこで、手を貸してもらえないだろうか？</text>
 	</string>
 	<string id="mar_smart_terrain_base_doctor_task_2_fetch_about">
-		<text>アーティファクトは、私たちの研究にとって極めて貴重な情報源となる存在だ。
+		<text>アーティファクトは、私たちの研究にとって極めて貴重な情報源だ。
 \nだが、外は危険が多すぎて、隊員たちを採取に送り出す余裕がないのが現状でね。
 \nそこで、手を貸してもらえないだろうか？%sを見つけてくれ。</text>
 	</string>
@@ -371,7 +370,7 @@
 		<text>ミュータントの脅威を排除する</text>
 	</string>
 	<string id="mar_base_stalker_barmen_task_1_text">
-		<text>この場所の近くでミュータントが目撃され、周辺の者たちにとって危険な状況となっている。このミュータントの脅威を排除する任務を与えられた。</text>
+		<text>この場所の近くでミュータントが目撃され、周辺の者たちにとって危険な状況だ。このミュータントの脅威を排除する任務を与えられた。</text>
 	</string>
 	<string id="mar_base_stalker_barmen_task_1_about">
 		<text>なあ、狩りの腕に自信あるか？仲間たちがよく使うルートにミュータントが出るもんでな。
@@ -428,7 +427,7 @@
 		<text>ノビコフのために%sを見つける</text>
 	</string>
 	<string id="mar_base_stalker_tech_task_1_text">
-		<text>ノビコフは基本的な装備の改造のために%sを必要としている。</text>
+		<text>ノビコフは基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="mar_base_stalker_tech_task_1_about">
 		<text>ゾーンでは工具を手に入れるのは本当に難しいんだ。
@@ -447,7 +446,7 @@
 		<text>ノビコフのために%sを見つける</text>
 	</string>
 	<string id="mar_base_stalker_tech_task_2_text">
-		<text>ノビコフは高度な装備の改造のために%sを必要としている。</text>
+		<text>ノビコフは高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="mar_base_stalker_tech_task_2_about">
 		<text>もっと良い工具が欲しい。
@@ -466,7 +465,7 @@
 		<text>ノビコフのために%sを見つける</text>
 	</string>
 	<string id="mar_base_stalker_tech_task_3_text">
-		<text>ノビコフは専門的な装備の改造のために%sを必要としている。</text>
+		<text>ノビコフは専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="mar_base_stalker_tech_task_3_about">
 		<text>もっと良い工具が欲しい。
@@ -493,7 +492,7 @@
 		<text>ありがとう、ストーカー。よくやってくれたな。これが君への支払いだ。</text>
 	</string>
 	<string id="ecolog_companion_task_1_actor_reply">
-		<text>分かった。</text>
+		<text>わかった。</text>
 	</string>
 
 		<!-- FIND SWAMP DOCTOR -->
@@ -509,7 +508,7 @@
 		<text>ホテル・ポリーシャ</text>
 	</string>
 	<string id="cit_doctor_task_1">
-		<text>ドクターが渡してくれた鍵と座標は、ストレロクがプリピャチのホテル・ポリーシャの部屋に情報を隠していたことが示されている。</text>
+		<text>ドクターが渡してくれた鍵と座標は、ストレロクがプリピャチのホテル・ポリーシャの部屋に情報を隠していたことを示している。</text>
 	</string>
 	<string id="cit_doctor_task_2">
 		<text>ホテルを見つけた。ここのどこかに、鍵に書かれた文字と一致する部屋があるはずだ。</text>

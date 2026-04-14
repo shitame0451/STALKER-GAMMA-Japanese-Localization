@@ -28,10 +28,10 @@
 		<text>ルーカッシュからの暗殺任務</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_text">
-		<text>ルーカッシュには、排除しなければならない標的がいる。</text>
+		<text>ルーカッシュには、始末すべき標的がいる。</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_about">
-		<text>やあ、来てくれて嬉しいよ。頼みたいことがあるんだ。
+		<text>おう、よく来てくれたな。頼みたいことがあるんだ。
 \n俺たちの共通の敵を排除してほしい。奴は危険だから、すぐに始末してくれ。</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
@@ -44,11 +44,11 @@
 		<text>FreedomのMonolith襲撃</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_text">
-		<text>ルーカッシュからFreedomを率いてMonolithを襲撃してほしいと頼まれた。</text>
+		<text>ルーカッシュからFreedomを率いてMonolithを襲撃するよう頼まれた。</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_about">
 		<text>Monolithの部隊が、封鎖線を何度も突破してきている。今度はこちらから仕掛ける番だ。
-\n突撃隊を編成したから、Monolithの支配地域への侵攻を率いてほしい。奴らを潰すんだ。</text>
+\n突撃隊を編成した。Monolithの支配地域への侵攻を率いてほしい。奴らを叩き潰すんだ。</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
 		<text>おお、やるじゃないか。お見事だ。</text>
@@ -60,7 +60,7 @@
 		<text>X-8研究所の調査</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_text">
-		<text>プリピャチ郊外にあるX-8研究所を調査し、Clear Skyがいた証拠を探す。</text>
+		<text>プリピャチ郊外にあるX-8研究所を調査し、Clear Skyの痕跡を探す。</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_about">
 		<text>しばらく前にClear Skyの隊員がX-8研究所を占拠していたという情報が入った。
@@ -83,13 +83,13 @@
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_about">
 		<text>ほう、Freedomの素晴らしさに興味があるんだな？よし、俺が手配してやろう。
-\nその前に一つだけ、自分に問いかけてみろ･･････「自分にその覚悟があるのか？」ってな。
-\n俺たちと一緒にやっていくには、«デスランプ»よりデカい肝っ玉が必要だ。
-\nここでの暮らしは楽しいことも多いが、一度事が起きれば、狂信者やファシストども、
-\nそして政府の連中に立ち向かって、仲間を守る覚悟がいるんだ･･････
+\nだがその前に、一つだけ自分に問いかけてみろ･･････「覚悟はできてるか？」ってな。
+\n俺たちと肩を並べてやっていくには、あの«デスランプ»よりデカい肝っ玉が必要だ。
+\nここでの暮らしは楽しいことも多いが、いざとなれば狂信者やファシスト、
+\nそして政府の連中を相手に、仲間を守り抜く覚悟がいるんだ･･････
 
-\n\n俺たちは、自由なゾーンを作り上げるために戦っている。
-\nもし本気でこの地に無政府主義者のユートピアを築きたいと思うなら、
+\n\n俺たちは、ゾーンを誰もが自由でいられる場所にするために戦っている。
+\nもし本気で、この地にアナーキストのユートピアを築きたいと思うなら、
 \n15,000ルーブルを用意してくれ。それで仲間に迎えてやろう。</text>
 	</string>
 	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_finish">
@@ -107,13 +107,13 @@
 	</string>
 	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_about">
 		<text>ほう、Freedomの素晴らしさに興味があるんだな？よし、俺が手配してやろう。
-\nその前に一つだけ、自分に問いかけてみろ･･････「自分にその覚悟があるのか？」ってな。
-\n俺たちと一緒にやっていくには、«デスランプ»よりデカい肝っ玉が必要だ。
-\nここでの暮らしは楽しいことも多いが、一度事が起きれば、狂信者やファシストども、
-\nそして政府の連中に立ち向かって、仲間を守る覚悟がいるんだ･･････
+\nだがその前に、一つだけ自分に問いかけてみろ･･････「覚悟はできてるか？」ってな。
+\n俺たちと肩を並べてやっていくには、あの«デスランプ»よりデカい肝っ玉が必要だ。
+\nここでの暮らしは楽しいことも多いが、いざとなれば狂信者やファシスト、
+\nそして政府の連中を相手に、仲間を守り抜く覚悟がいるんだ･･････
 
-\n\n俺たちは、自由なゾーンを作り上げるために戦っている。
-\nもし本気でこの地に無政府主義者のユートピアを築きたいと思うなら、
+\n\n俺たちは、ゾーンを誰もが自由でいられる場所にするために戦っている。
+\nもし本気で、この地にアナーキストのユートピアを築きたいと思うなら、
 \n15,000ルーブルを用意してくれ。それで仲間に迎えてやろう。</text>
 	</string>
 	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_finish">
@@ -141,7 +141,7 @@
 \n不法侵入したらどうなるのか、命を懸けた教訓として叩き込んでやる。やってくれるか？</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
-		<text>ああ、素晴らしい！これでやっと平和で静かな生活が送れるな。そうだろ？</text>
+		<text>ああ、よくやった！これでやっと平和で静かな生活が送れるな。そうだろ？</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_name">
 		<text>敵地を強襲する</text>
@@ -163,13 +163,13 @@
 		<text>Monolith改宗者の排除</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_text">
-		<text>FreedomのメンバーがMonolithによって改宗させられたようだ。ルーカッシュに彼を見つけて殺すように命じられている。</text>
+		<text>FreedomのメンバーがMonolithに洗脳されたようだ。彼を見つけ出して殺すよう、ルーカッシュに頼まれた。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_about">
 		<text>深刻な話がある。俺たちの仲間がMonolithに洗脳されてしまった。
 \nあいつは本当にいい奴だった。だが、異質な結晶に洗脳されて殺し屋になるとは･･････
-\nそんな結末は彼自身も望んでいないはずだ。どうか、彼を見つけて殺してやってくれ。
-\nそうしなければ、彼の昔の仲間たちがその役目を担うことになるだろう。</text>
+\nそんな結末はあいつも望んでいないはずだ。頼む、見つけ出して殺してやってくれ。
+\nそうしなければ、あいつの仲間がその役目を担うことになるだろう。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_finish">
 		<text>終わったのか？よかった。辛い任務だったな。
@@ -182,7 +182,7 @@
 		<text>ターゲットを暗殺する</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_text">
-		<text>ルーカッシュにターゲットを見つけて排除するよう命じられた。</text>
+		<text>ルーカッシュから、ターゲットを見つけて排除するよう命じられた。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_about">
 		<text>ここからそう遠くないところに、ある男がいる。
@@ -190,7 +190,7 @@
 \n奴を始末する仕事を引き受けてくれるか？報酬はちゃんと払う、心配するな。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_finish">
-		<text>よし、やったぞ！これで俺たちに手を出そうと考える奴は減るだろう。
+		<text>よし、やったぞ！これで俺たちに手を出そうと考える奴も減るだろう。
 \nこれが約束の報酬だ。よくやったな、ストーカー。</text>
 	</string>
 
@@ -200,7 +200,7 @@
 		<text>ルーカッシュのために%sを見つける</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_text">
-		<text>新品同様の銃を探すようにルーカッシュに頼まれた。</text>
+		<text>ルーカッシュから、新品同様の銃を探すよう頼まれた。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_about">
 		<text>Freedomの支援者のおかげで、仲間たちに必要な装備は一通り揃っている。
@@ -213,8 +213,8 @@
 \nもし状態の良いものを見つけたら、相当な報酬を払っても惜しくないと思っている。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_fetch_finish">
-		<text>よくやった。この新しい銃があれば、最悪の事態が起こったときに大いに役立つだろう。
-\nこれが約束の金だ。</text>
+		<text>よくやった。この新しい銃があれば、最悪の事態になっても切り抜けられるだろう。
+\nさあ、これが約束の金だ。</text>
 	</string>
 	
 	<!-- Lukash (Freedom Honcho) Decimate the Enemy Task -->
@@ -286,7 +286,7 @@
 		<text>軍の援軍を殲滅する</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_text">
-		<text>ルーカッシュから、コードンにあるMilitaryの装甲車を破壊するように頼まれた。爆発物が必要だ。</text>
+		<text>ルーカッシュから、コードンにあるMilitaryの装甲車を破壊するよう頼まれた。爆発物が必要だ。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_about">
 		<text>爆発物は持ってるか？もしあるなら、大きな仕事があるぞ。
@@ -327,7 +327,7 @@
 		<text>スキンフリントに鍵のかかったケースを届ける</text>
 	</string>
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_text">
-		<text>スキンフリントに配達物を回収するように頼まれた。</text>
+		<text>スキンフリントに配達物を回収するよう頼まれた。</text>
 	</string>
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_about">
 		<text>今日、仲間の運び屋が荷物を運んでくる予定だったんだが･･････
@@ -345,7 +345,7 @@
 		<text>暗闇に潜む幻影</text>
 	</string>
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_text">
-		<text>スキンフリントが、ブラッドサッカー村に出没する危険なミュータントを殺せば報酬をくれると話していた。警戒を怠らないようにしなくては。</text>
+		<text>スキンフリントが、ブラッドサッカー村に出没する危険なミュータントを殺せば報酬を出すと話していた。警戒を怠らないようにしなくては。</text>
 	</string>
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_about">
 		<text>最近、キャンプで眠れない奴が増えてきている。
@@ -369,7 +369,7 @@
 	
 	<!-- Skinflint (Freedom Trader) Scarce Supplies Task -->
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_name">
-		<text>不足した物資の調達</text>
+		<text>不足物資の調達</text>
 	</string>
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_text">
 		<text>スキンフリントはFreedomの衛生兵に補給するために%sを必要としている。</text>
@@ -388,7 +388,7 @@
 	</string>
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_fetch_finish">
 		<text>ああ、よくやった。
-\nこれは必要になるときまで、ソリッドの目に触れないようにしておこう。
+\nこれは必要になる時まで、ソリッドの目に触れさせないようにしておこう。
 \n本当にありがとう、ストーカー。</text>
 	</string>
 	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_5_name">
@@ -419,7 +419,7 @@
 		<text>スクリューのために%sを見つける</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_text">
-		<text>スクリューは基本的な装備の改造のために%sを必要としている。</text>
+		<text>スクリューは基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_about">
 		<text>よう！Banditがダークバレーから新しいツールを持ってくるはずなんだが、
@@ -436,7 +436,7 @@
 		<text>スクリューのために%sを見つける</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_text">
-		<text>スクリューは高度な装備の改造のために%sを必要としている。</text>
+		<text>スクリューは高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_about">
 		<text>なあ、おかしいと思わないか？ここは政府が昔使ってた倉庫なんだぜ。特殊部隊用の
@@ -457,7 +457,7 @@
 		<text>スクリューのために%sを見つける</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_text">
-		<text>スクリューは専門的な装備の改造のために%sを必要としている。</text>
+		<text>スクリューは専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_about">
 		<text>武器庫に保管されてた銃のほとんどは、もう手遅れで修理できそうにない。
@@ -486,7 +486,7 @@
 		<text>防衛線を守る</text>
 	</string>
 	<string id="barrier_defense_monolith_descr">
-		<text>FreedomがMonolithの襲撃を撃退するために協力を求めている。</text>
+		<text>FreedomがMonolithの襲撃を退けるために協力を求めている。</text>
 	</string>
 	<string id="barrier_defense_monolith_chatter_1">
 		<text>Monolithだって？俺はパスだな･･････</text>
@@ -548,7 +548,7 @@
 		<text>防衛線を守る</text>
 	</string>
 	<string id="barrier_defense_zombie_descr">
-		<text>Freedomは、ゾンビの襲撃を撃退するために協力を求めている。</text>
+		<text>Freedomは、ゾンビの襲撃を退けるために協力を求めている。</text>
 	</string>
 	<string id="barrier_defense_zombie_chatter_1">
 		<text>かわいそうな奴らだ･･････</text>
@@ -624,7 +624,7 @@
 		<text>ソリッドは医薬品を作成するために%sを必要としている。</text>
 	</string>
 	<string id="mil_freedom_medic_task_1_about">
-		<text>毎日これだけ多くの負傷者を治療していると、医薬品の在庫を維持できるのか心配だ。
+		<text>毎日これだけ多くの負傷者を治療してると、医薬品の在庫を維持できるか心配だ。
 \nそのうち包帯や医療キットが足りなくなるだろう。
 \n薬品製造ツールを探してくれないかな。きっと役に立つはずだ。</text>
 	</string>

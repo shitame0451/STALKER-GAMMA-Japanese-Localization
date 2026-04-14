@@ -23,7 +23,7 @@
 		<text>ブッチャーのために%sを見つける</text>
 	</string>
 	<string id="hunter_gar_trader_task_2_text">
-		<text>ブッチャーから%sを持ってくるように頼まれた。</text>
+		<text>ブッチャーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="hunter_gar_trader_task_2_about">
 		<text>ミュータントの肉に大金を払う奴らがいるぜ。</text>
@@ -51,7 +51,7 @@
 		<text>貴重なアーティファクトを探して報酬を得たいか？いい装備をいくつか提供できるぜ。</text>
 	</string>
 	<string id="baraholka_trader_night_task_1_fetch_about">
-		<text>珍しいアーティファクトを捜索して報酬を得ることに興味はあるか？
+		<text>珍しいアーティファクトを探して、報酬を得ることに興味はあるか？
 \n%sを持ってきたら報酬をやるぜ。</text>
 	</string>
 	<string id="baraholka_trader_night_task_1_fetch_finish">

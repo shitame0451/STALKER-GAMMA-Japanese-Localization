@@ -13,7 +13,7 @@
 \nまずは地下から聞こえる唸り声を聞いてみろ、お宝のことを考えるのはそれからだ。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_start_1b">
-		<text>ただの探索だ。こんなとこでも、何が見つかるか分からないからな。</text>
+		<text>ただの探索だ。こんな場所でも、何が見つかるかわからないからな。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_start_1b_1">
 		<text>ゾーンの中なら行ける場所は山ほどあるってのに、わざわざここを選ぶとはな･･････
@@ -23,20 +23,20 @@
 		<text>任務で来たんだ。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_start_1c_1">
-		<text>あー、そうか･･････ ここに来るとはツイてないな。俺らも似たようなもんさ。</text>
+		<text>あー、そうか･･････ ここに来るとはツイてねえな。俺らも似たようなもんさ。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_ask_0">
-		<text>それで、あんたは？どうしてここに来たんだ？</text>
+		<text>それで、あんたは？何しにここへ来たんだ？</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_ask_1">
 		<text>俺はリーファーだ。数日前に仲間とここに来たんだが･･････ 全部スルタンのせいさ。
 \n「安心しろよ、あそこはもう廃墟だ」とか、「怖いものなんて何もねえよ」って言われてな。
-\nどこが廃墟だよ？ふざけやがって･･････ 昨日の夜、どっから湧いたか分からねえ化け物に
+\nどこが廃墟だよ？ふざけやがって･･････ 昨日の夜、どっから湧いたかわからねえ化け物に
 \n襲われて、命からがら逃げてきた。ここまで引き返して、それっきり身動きが取れねえ。
 
 \n\n一応、この辺に落ちてる使えそうなブツを探せって指示なんだがな。
 \n噂じゃ、この辺にストレロックの隠れ家があって、ヤツの私物が残ってるんだとよ。
-\nスルタンがそれを欲しがってる理由は分からねえが･･････
+\nスルタンがそれを欲しがってる理由はわからねえが･･････
 \n手ぶらで帰ったらスードウドッグのエサにするって脅されたんだ。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_ask_2">
@@ -49,7 +49,7 @@
 		<text>様子を見ながら、一緒に探すのはどうだ？</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_ask_7">
-		<text>クソッ･･････ どうすりゃいいんだよ･･････ あんな奴ら、俺はもう二度と見たくねえんだ･･････</text>
+		<text>クソッ･･････ どうすりゃいいんだよ･･････ あんな化け物、もう二度と見たくねえんだ･･････</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_ask_72">
 		<text>･･････</text>
@@ -64,7 +64,7 @@
 		<text>ちょっと周りを見てくる。何か見つかったらあんたに知らせるさ。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_ask_81">
-		<text>お前、自分で何言ってるか分かってんのか？まあ、頑張って見つけろよ。</text>
+		<text>お前、自分で何言ってるかわかってんのか？まあ、頑張って見つけろよ。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_ask_3">
 		<text>そうか。無事に何か見つかるといいな。</text>
@@ -97,7 +97,7 @@
 		<text>おい、ふざけんなよ。こっちは忙しいんだ。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_give_docs_1">
-		<text>マジで･･････ 何て言ったらいいか分からねえ。
+		<text>マジで･･････ 何て言ったらいいかわからねえ。
 \nやっとこのクソったれな場所から出られる。俺はこれを持ってスルタンのところに戻る。
 \nここにいる仲間たちには、色々と片付けてから合流させよう。
 
@@ -137,7 +137,7 @@
 \nこんなクソみたいなことの後じゃ、酒が必要だろ？</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_dialog_arrived_4">
-		<text>分かったよ、元気でな。</text>
+		<text>わかったよ、元気でな。</text>
 	</string>
 	<string id="st_agr_u_bandit_boss_news_on_going">
 		<text>いいか、お前ら。俺はこの相棒と一緒にトンネルに潜る。ここをしっかり見張っとけ。</text>
@@ -149,7 +149,7 @@
 		<text>地下の探検</text>
 	</string>
 	<string id="agr_u_bandit_boss_task_1_desc_0">
-		<text>リーファーはアグロプロム地下にある文書の捜索に助けを必要としている。研究所の古い資料でも、ストレロックのような有名なストーカーのメモでも構わないそうだ。トンネルを隅々まで調べて、何か有用な情報を探そう。</text>
+		<text>リーファーはアグロプロム地下での文書捜索に助けを求めている。研究所の古い資料でも、ストレロックのような有名なストーカーのメモでも構わないそうだ。トンネルを隅々まで調べて、何か有用な情報を探そう。</text>
 	</string>
 	<string id="agr_u_bandit_boss_task_1_desc_1">
 		<text>見つけた文書をリーファーに渡す。</text>

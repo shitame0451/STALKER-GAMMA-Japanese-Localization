@@ -26,8 +26,8 @@
 		<text>遠距離から標的を排除する。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_about">
-		<text>最重要目標を発見したが、容易に接近できる相手ではない。
-\nそこで、非常に精密な長距離射撃が可能な人員を求めている。</text>
+		<text>最重要目標を捕捉した。だが、容易に接近できる相手ではない。
+\nそこで、精密な長距離射撃をこなせる人員を求めている。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_finish">
 		<text>素晴らしい腕前だ。よくやった。</text>
@@ -56,7 +56,7 @@
 		<text>軍の基地を防衛する</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_text">
-		<text>敵の攻撃から軍の基地を守る。</text>
+		<text>敵の攻撃から軍の基地を防衛する。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_about">
 		<text>この地域で敵の活動が確認された。我々の基地への攻撃を計画している可能性が高い。
@@ -72,7 +72,7 @@
 		<text>ウクライナの極秘任務</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_text">
-		<text>敵勢力に潜入している諜報員を救出しなくてはならない。彼と一緒に行動している敵分隊を排除し、基地まで護衛する必要がある。その諜報員はSVDを持っているはずだ。</text>
+		<text>敵勢力に潜入している諜報員を救出しなくてはならない。彼と行動を共にする敵分隊を排除し、基地まで護衛する必要がある。その諜報員はSVDを持っているはずだ。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_about">
 		<text>敵陣に潜入している我々の諜報員だが、どうやら疑いをかけられているらしい。
@@ -154,7 +154,7 @@
 		<text>ほう、今どきの若者にしては珍しく愛国心があるな。なかなか感心なことだ！
 \nそうだな･･････ お前は放射線を浴びすぎている。これでは、入隊前の身体検査に通らんぞ。
 \nとなると、軍所属のストーカーとして志願するつもりか？
-\n分かっているだろうが、誰彼かまわず入隊を許可するわけにはいかん。
+\nわかっているだろうが、誰彼かまわず入隊を許可するわけにはいかん。
 
 \n\nまずはゾーンで生き抜く力があることを証明してもらおうか･･････
 \n8,000ルーブルを持ってこい。それができれば話を進めてやろう。</text>
@@ -175,7 +175,7 @@
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_about">
 		<text>一つ、厄介な問題がある。
 \n我々の基地周辺に不法滞在者がいる現状は、今後の作戦遂行に支障をきたす恐れがある。
-\n任務はこうだ･･････ 指定された場所に向かい、正式な許可を得ていない者をすべて排除しろ。
+\n任務はこうだ･･････ 指定された場所へ向かい、正式な許可を得ていない者をすべて排除しろ。
 \n正式な許可を受けている者やデューティーの隊員は見逃して構わない。
 \nそれ以外の者は、どんな事情や合意があったとしても、例外なく始末しろ。理解したな？</text>
 	</string>
@@ -189,7 +189,7 @@
 		<text>犯罪集団に報復する</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_text">
-		<text>エコロジストが襲撃された現場に向かい、報復を行う必要がある。</text>
+		<text>エコロジストが襲撃された現場へ向かい、報復を行う必要がある。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_about">
 		<text>最近、ゾーン内でストーカーによる違法行為が増加している。
@@ -232,7 +232,7 @@
 	</string>
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_about">
 		<text>上層部にいる友人が非公式の取り組みを始めたんだが、参加してみないか？
-\nストーカーのクズどもを始末するのが目的だ。</text>
+\n目的は、ストーカーのクズどもを始末することだ。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_fetch_about">
 		<text>上層部にいる友人が、非公式の新しい取り組みを考案した。
@@ -248,7 +248,7 @@
 		<text>報告書の回収任務</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_5_text">
-		<text>クズネツォフ大佐の元に報告書を持ち帰る。</text>
+		<text>クズネツォフ大佐の元へ報告書を持ち帰る。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_5_about">
 		<text>コルドンにいる連絡員から、周辺地域でのストーカーの活動に関する重要な情報が届いた。
@@ -265,7 +265,7 @@
 		<text>キリロフ上級中尉のために%sを見つける</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_text">
-		<text>キリロフ上級中尉は基本的な装備の改造のために%sを必要としている。</text>
+		<text>キリロフ上級中尉は基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_about">
 		<text>ウクライナ保安庁の連中に基地の工具を持ち去られて、新しいものが必要な状況だ。
@@ -274,7 +274,7 @@
 \nお前も見つけたら拾ってきてくれないか？</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_fetch_about">
-		<text>今のところ、必要なのはシンプルなツールキットだ。分かるよな？
+		<text>今のところ、必要なのはシンプルなツールキットだ。わかるよな？
 \n高度なものは後回しといこう。気をつけて探してくれよ。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_fetch_finish">
@@ -285,12 +285,12 @@
 		<text>キリロフ上級中尉のために%sを見つける</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_text">
-		<text>キリロフ上級中尉は高度な装備の改造のために%sを必要としている。</text>
+		<text>キリロフ上級中尉は高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_about">
 		<text>新兵には十分な工具を用意できたが、スペツナズとなると話は別だ。
 \nだから、今度はもっと高度なツールキットが必要になる。
-\nそれ以下じゃ話にならないんだ、分かるよな？
+\nそれ以下じゃ話にならないんだ、わかるよな？
 \n前回と同じく、持ち帰ってくれれば相応の報酬を支払うぜ。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_fetch_about">
@@ -304,7 +304,7 @@
 		<text>キリロフ上級中尉のために%sを見つける</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_3_text">
-		<text>キリロフ上級中尉は専門的な装備の改造のために%sを必要としている。</text>
+		<text>キリロフ上級中尉は専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_3_about">
 		<text>司令部に必要な工具が一通り揃ったな。

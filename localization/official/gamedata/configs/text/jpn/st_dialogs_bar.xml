@@ -9,7 +9,7 @@
 		<text>何が必要だい、ストーカー？</text>
 	</string>
 	<string id="bar_visitors_barman_stalker_trader_start_dialog_13">
-		<text>へい、ストーカー。一杯飲むかい？その不機嫌な顔が治るかもしれないぞ。</text>
+		<text>よう、ストーカー。一杯どうだ？その不機嫌な面も晴れるかもしれないぞ。</text>
 	</string>
 	<string id="barkeep_100rads_0">
 		<text>この場所について教えてくれ。</text>
@@ -31,7 +31,7 @@
 \n7,000ルーブルで全部あんたのもんだ。</text>
 	</string>
 	<string id="information_about_stash_barmen1_0">
-		<text>わかった、ほらよ。%c[d_orange] [7,000ルーブル]</text>
+		<text>わかった、これで頼む。%c[d_orange] [7,000ルーブル]</text>
 	</string>
 	<string id="information_about_stash_barmen1_1">
 		<text>ありがたいね。</text>
@@ -41,7 +41,7 @@
 	</string>
 	<string id="devushka_4_help_1">
 		<text>ああ、なるほど。ヒップか。
-\nあんたはここで一杯やっててくれ、彼女に個人的な話があってな。</text>
+\nあんたはここで一杯やっててくれ。彼女とは個人的な話があるんでな。</text>
 	</string>
 	<string id="devushka_help_0">
 		<text>どうも。俺はここで待つとしよう･･････</text>
@@ -69,7 +69,7 @@
 
 <!-- Voronin (Duty Leader) -->
 	<string id="story_dolg_0">
-		<text>現在の状況はどのようになっていますか？</text>
+		<text>現在の状況はどうなっていますか？</text>
 	</string>
 	<string id="story_dolg_1">
 		<text>現在、我々の敵対勢力はフリーダム、モノリス、傭兵、バンディットの4つだ。
@@ -309,7 +309,7 @@
 		<text>あんたは何者だ？</text>
 	</string>
 	<string id="talk_to_inf_trader_1">
-		<text>俺はここの情報屋さ、色んなサービスを提供してやるぜ。
+		<text>俺はここの情報屋さ。色んなサービスを提供してやるぜ。
 \n今のところは、各地への道筋が載ってる地図とお役立ち情報って感じだな。
 \n俺の情報源はトップクラスに信頼できるが、秘密を守るためなら殺しも厭わない連中だ。
 \n情報の仕入れ先は詮索するなよ。知ったところで、いい気分にはなれないだろうしな。</text>
@@ -369,10 +369,10 @@
 		<text>聞こうじゃないか。</text>
 	</string>
 	<string id="buy_information_from_trader_11">
-		<text>知ってるかもしれんが、彼は沼地に住んでいる。
-\nだが、理由までは知らないだろう。彼は古い友人のストレロクを待っているんだ。
+		<text>知ってるかもしれんが、奴は沼地に住んでる。
+\nだが、理由までは知らないだろう。奴は古い友人のストレロクを待ってるんだよ。
 \nストレロクが戻ってきたという噂が広まって、ドクターに会いたがる連中が
-\n増えているみたいだが、実際に会えたという話はほとんど聞かないな。
+\n増えているみたいだが、実際に会えたって話はほとんど聞かないな。
 \nでも実は会うのは簡単でな、沼地の北西にフェンスが破れている場所がある。
 \nそこを探してみな。ただし、放射線とアノマリーには気をつけろよ。</text>
 	</string>
@@ -385,9 +385,9 @@
 	</string>
 	<string id="buy_information_from_trader_12">
 		<text>モノリスが再び動き出す前に、このストーカーは戦利品を求めて石棺を探索していた。
-\nそこで彼は、誰も見たことがない唯一無二のアーティファクトを見つけたんだ！
+\nそこで奴は、誰も見たことがない唯一無二のアーティファクトを見つけたんだ！
 \nどうやらそれは願望機の破片らしい。だが、モノリスはそれを気に入らなかったらしく、
-\n彼は奴らの追跡を逃れるためにその破片を置いていかざるを得なかったみたいだな。
+\n奴は奴らの追跡を逃れるためにその破片を置いていかざるを得なかったみたいだな。
 \nまぁ、その石っころにどんな価値があるかは疑問だがな･･････</text>
 	</string>
 	<string id="buy_information_from_trader_3">
@@ -399,7 +399,7 @@
 	</string>
 	<string id="buy_information_from_trader_13">
 		<text>ストレロクが最近新しいチームを結成したのは誰もが知っているだろうが、
-\n彼らが何者なのか知る奴はいないだろうな。一人ひとりが異なるスキルを持つ連中だ。
+\n奴らが何者なのか知る奴はいないだろうな。一人ひとりが異なるスキルを持つ連中だ。
 \nスティッチは衛生兵、パスファインダーは優れたガイド役、ローグは軍の脱走兵、
 \nそしてスコープは一流の狙撃手だ。今どこで何をしているのかは誰にもわからんがな。</text>
 	</string>
@@ -417,7 +417,7 @@
 \n映っていて、それがジェネレーターの名前の由来になったみたいだな。
 \nおそらくだが、そこはモノリスが重要な何かを実行する場所なんだろう。
 \nストレロクたちはすでにゾーンの中心に行ってきたからな、真剣にあそこに何かが
-\nあると睨んでいるのは間違いない。彼の動き次第ではゾーンに大きな影響を与えるかも
+\nあると睨んでいるのは間違いない。奴の動き次第ではゾーンに大きな影響を与えるかも
 \nしれないな。ちなみに、派閥のリーダーの何人かはこの情報に不安を示していたな。</text>
 	</string>
 	<string id="buy_information_from_trader_5">
@@ -506,7 +506,7 @@
 		<text>レーダーから移動ラボまで。%c[d_orange] [11,000ルーブル]</text>
 	</string>
 	<string id="inf_trader_buy_transitions_12">
-		<text>金は持ってきたよな？</text>
+		<text>金は持ってきたんだろうな？</text>
 	</string>
 	<string id="inf_trader_buy_transitions_13">
 		<text>もちろんだ。ほら。</text>
@@ -518,7 +518,7 @@
 		<text>金はあるんだろうな？</text>
 	</string>
 	<string id="inf_trader_buy_transitions_15">
-		<text>ああ、情報をくれ。</text>
+		<text>ああ。情報をくれ。</text>
 	</string>
 	<string id="inf_trader_buy_transitions_5">
 		<text>プリピャチ中心地からプリピャチ郊外まで。%c[d_orange] [9,000ルーブル]</text>
@@ -527,7 +527,7 @@
 		<text>その前に、金を払うんだな。</text>
 	</string>
 	<string id="inf_trader_buy_transitions_17">
-		<text>ああ、ここにある。</text>
+		<text>ああ。ここにある。</text>
 	</string>
 	<string id="inf_trader_buy_transitions_6">
 		<text>プリピャチからチョルノービリ原子力発電所まで。%c[d_orange] [30,000ルーブル]</text>
@@ -830,7 +830,7 @@
 		<text>5,000ルーブル必要だ。</text>
 	</string>
 	<string id="bar_arena_manager_game_141">
-		<text>分かった、金だ。</text>
+		<text>わかった、金だ。</text>
 	</string>
 	<string id="bar_arena_manager_game_145">
 		<text>金がない。</text>
@@ -955,7 +955,7 @@
 	</string>
 	<string id="bar_arena_manager_info_131">
 		<text>どこからって、強いて言えばいろんな場所からだな。
-\n俺はこの小さな僻地で金稼ぎができるってのが分かったからここにいるのさ。</text>
+\n俺はこの小さな僻地で金稼ぎができるってのがわかったからここにいるのさ。</text>
 	</string>
 	<string id="bar_arena_manager_rules_0">
 		<text>どんなルールがある？</text>

@@ -63,7 +63,7 @@
 	</string>
 	<string id="dushman_operation_afterglow_3">
 		<text>いいぞ。情報も金になるからな。この無線機を持っていけ。
-\nホグが改造して、高度な解読装置を取り付けたものだ。何か分かったら戻ってこい。</text>
+\nホグが改造して、高度な解読装置を取り付けたものだ。何かわかったら戻ってこい。</text>
 	</string>
 	<string id="dushman_operation_afterglow_transmission_report_0">
 		<text>ザトンに行ってきた。</text>
@@ -145,7 +145,7 @@
 	<string id="cold_operation_afterglow_1">
 		<text>ああ、お前に調査してほしいことがある。Ecologistから聞いた情報によると、
 \nザトンの「アイアンフォレスト」で妙な無線通信が行われているそうだ。
-\n･･････分かっている。あそこはここと同じ沼地だ。しかし、ゾーンの反対側にあるんだ。
+\n･･････わかっている。あそこはここと同じ沼地だ。しかし、ゾーンの反対側にあるんだ。
 \nチェルノブイリ原子力発電所の近くにあることを考えると、調べてみる価値はあるぞ。</text>
 	</string>
 	<string id="cold_operation_afterglow_2">
@@ -361,10 +361,10 @@
 	</string>
 	<string id="pri_a17_strelok_dialogue_1">
 		<text>助かった、まさか来てくれるとはな。
-\nこの場所は危険だ、コインランドリーに移動しよう。話がある。</text>
+\nこの場所は危険だ。コインランドリーに移動しよう、話がある。</text>
 	</string>
 	<string id="pri_a17_strelok_dialogue_2">
-		<text>わかった、行こう。</text>
+		<text>わかった。行こう。</text>
 	</string>
 	<string id="pri_a16_strelok_dialogue_0">
 		<text>それで、何があった？他の仲間はどうした？</text>
@@ -378,7 +378,7 @@
 \n頼む、周囲を捜索してあの二人を見つけ出してくれ。</text>
 	</string>
 	<string id="pri_a16_strelok_dialogue_2">
-		<text>わかった、あんたはここにいてくれ。俺が連れ戻してくる。</text>
+		<text>わかった。あんたはここにいてくれ。俺が連れ戻してくる。</text>
 	</string>
 	<string id="pri_a18_rogue_fallen_0">
 		<text>幼稚園でローグを見つけたが、奇妙な像に祈りを捧げていた。
@@ -571,7 +571,7 @@
 \n俺はまた身を隠さないとな。次はゾーンであまり開拓されていない拠点を探すつもりだ。
 
 \n\n次に会うのはずっと先になるだろう。
-\nドクターに会いに行って、一緒に身を潜めるべきかもな･･････ どうなるかは分からないが。
+\nドクターに会いに行って、一緒に身を潜めるべきかもな･･････ どうなるかはわからないが。
 \nさて、お別れだ･･････ また会おう。</text>
 	</string>
 	<string id="strelok_finale_fight_dialogue_4">
@@ -771,7 +771,7 @@
 		<text>死体を調べろ。隊長が持っているPDAだ、それを確認したい。</text>
 	</string>
 	<string id="degtyarev_rally_point_2">
-		<text>分かった。</text>
+		<text>わかった。</text>
 	</string>
 	<string id="degtyarev_rally_point_pda_0">
 		<text>隊長のPDAを見つけたぞ。</text>
@@ -825,7 +825,7 @@
 \n願わくば、このままそう思われていたいものだな。</text>
 	</string>
 	<string id="degtyarev_further_cooperation_special_delivery_4">
-		<text>そうなのか。しかし、なぜ俺にメッセージを送った？
+		<text>そうか。しかし、なぜ俺にメッセージを送った？
 \nあんたに旅の相棒が必要だとは思えないが。</text>
 	</string>
 	<string id="degtyarev_further_cooperation_special_delivery_5">
@@ -1034,7 +1034,7 @@
 \n最初からあんたを始末すべきだった。ここで終わらせてやる。</text>
 	</string>
 	<string id="degtyarev_finale_dialogue_600">
-		<text>ストレロックが大人しく従うはずがない、それはお互い分かってるだろう。
+		<text>ストレロックが大人しく従うはずがない、それはお互いわかってるだろう。
 \nなら、俺に交渉させてくれ。説得して妥協案を探るんだ。
 \n彼には秘密とともに身を隠してもらう。その代わり、あんたは手を引く。これでどうだ？</text>
 	</string>
@@ -1126,7 +1126,7 @@
 \n共通の知り合いから、この辺りのミュータントの活動について知らせるように言われてな。</text>
 	</string>
 	<string id="army_isg_spy_undercover_agent_2">
-		<text>ああ、そうなのか。それで、道中はどうだった？危険なものはいたか？</text>
+		<text>ああ、そうか。それで、道中はどうだった？危険なものはいたか？</text>
 	</string>
 	<string id="army_isg_spy_undercover_agent_3">
 		<text>ここに来る途中、ブラインドドッグの群れに襲われたんだ。</text>
@@ -1144,7 +1144,7 @@
 		<text>おい･･････ 本気で言ってるのか？</text>
 	</string>
 	<string id="army_isg_spy_undercover_agent_50">
-		<text>くそっ、この馬鹿野郎！これを持ってすぐに出ていけ！</text>
+		<text>くそっ、この馬鹿野郎！これを持ってすぐに逃げろ！</text>
 	</string>
 	<string id="army_isg_spy_undercover_agent_4">
 		<text>ふむ、そうか。気を付けるとしよう。これを受け取って、すぐに出ていってくれ。</text>

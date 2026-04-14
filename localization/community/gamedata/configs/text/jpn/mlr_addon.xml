@@ -26,10 +26,10 @@
     <text>あー･･････ 何か手伝うかい？</text>
   </string>
   <string id="look_for_cs_history_part_3_2_4">
-    <text>レッドフォレストで橋を守っているMercenaryたちと話をしてくれないか？私はリマンスクに行かなければならないんだ。それがとても難しい事は分かっているが、Mercenaryであるスカーの痕跡を探すって約束する。</text>
+    <text>レッドフォレストで橋を守っているMercenaryたちと話をしてくれないか？私はリマンスクに行かなければならないんだ。それがとても難しい事はわかっているが、Mercenaryであるスカーの痕跡を探すって約束する。</text>
   </string>
   <string id="look_for_cs_history_part_3_2_5">
-    <text>ふーむ。お前には俺が長い間組織に関わっていないことを分かってもらう必要があるな。橋のグループを誰が纏めているかさえ分からないんだ。俺はいくつかのコネを持っているが、それには金が必要だ。15万位、びた一文負からん。</text>
+    <text>ふーむ。お前には俺が長い間組織に関わっていないことをわかってもらう必要があるな。橋のグループを誰が纏めているかさえわからないんだ。俺はいくつかのコネを持っているが、それには金が必要だ。15万位、びた一文負からん。</text>
   </string>
   <string id="look_for_cs_history_part_1_1_0">
     <text>あんたらの組織の歴史について聞いたことがある。調べさせてくれ。</text>
@@ -76,7 +76,7 @@
     <text>%sを見つける。</text>
   </string>
   <string id="killer_bridge_trader_mlr_task_1_text">
-    <text>Mercenaryたちに%sを手に入れるように頼まれた。</text>
+    <text>Mercenaryたちに%sを手に入れて欲しいと頼まれた。</text>
   </string>
   <string id="killer_bridge_trader_mlr_task_1_about">
     <text>我々の兵士には装備が必要だ。我々のためにそれを手に入れてきてくれないか？</text>

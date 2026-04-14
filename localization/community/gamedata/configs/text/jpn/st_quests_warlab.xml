@@ -7,13 +7,13 @@
 		<text>モノリスの背後にいる何者かと対峙する。</text>
 	</string>
 	<string id="sar_perception_2">
-		<text>手記に記されていた研究所を見つけ出し、そこに隠されたものを突き止める。</text>
+		<text>手記に記されていたMonolithの拠点を見つけ出し、その奥に潜むものを突き止める。</text>
 	</string>
 	<string id="sar_perception_3">
 		<text>デコーダーを使って扉を開ける。</text>
 	</string>
 	<string id="sar_perception_4">
-		<text>守護者たちを倒して部屋に入る。</text>
+		<text>守護者を排除し、部屋に入る。</text>
 	</string>
 	<string id="sar_perception_5">
 		<text>文書から扉の暗証番号を突き止める。</text>
@@ -25,6 +25,6 @@
 		<text>未知なる存在と話す。</text>
 	</string>
 	<string id="warlab_kill_crazy_entity_2">
-		<text>ウォーラボ・エンティティが持つ3つの実体を倒し、扉を開ける。</text>
+		<text>ウォーラボ・エンティティが持つ3つの実体を排除し、扉を開ける。</text>
 	</string>
 </string_table>

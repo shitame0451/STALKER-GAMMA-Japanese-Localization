@@ -13,11 +13,11 @@
 		<text>次のタスクに進む</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_default_task_text">
-		<text>シドロヴィッチが仕事を用意しているという人物の連絡先を教えてくれた。</text>
+		<text>シドロヴィッチが、仕事を用意している人物の連絡先を教えてくれた。</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_default_task_about">
 		<text>今はお前にやらせる仕事はないが、仕事をくれそうな奴なら紹介できるぞ。
-\n地図に場所を入力しておこう。</text>
+\n居場所は地図に記してやろう。</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_default_task_finish">
 		<text>幸運を祈るぞ、ストーカー。</text>
@@ -29,15 +29,15 @@
 		<text>ミュータント動物園</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_task_1_text">
-		<text>観光客のグループを率いてミュータント狩りに行くように頼まれた。</text>
+		<text>観光客のグループを率いて、ミュータント狩りに連れていくよう頼まれた。</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_task_1_about">
-		<text>ミュータントを殺すところを見たいという観光客が来る。
+		<text>「ミュータントを殺すところが見たい」という観光客が来る。
 \nお前が連中を狩りに連れて行って、スリルを味わわせてやれ。
-\nただし、観光客が死なないように気をつけろよ。商売に悪影響だからな。</text>
+\nただし、観光客が死なないように気をつけろよ。商売に響くからな。</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_task_1_finish">
-		<text>狩りから戻ったのか？いいぞ。これが報酬だ。</text>
+		<text>狩りから戻ったのか？上出来だ。これが報酬だ。</text>
 	</string>
 
 	<!-- Sidorovich (Loner Trader) Rookie Initiation Storyline Task- -->
@@ -46,19 +46,19 @@
 		<text>新人研修</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_task_2_text">
-		<text>新人たちをゾーンに連れて行き、生き延びる方法を教えることになった。</text>
+		<text>ルーキーたちをゾーンへ連れていき、生き残る術を教えることになった。</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_task_2_about">
 		<text>この野営地に来たばかりのルーキーどもは、まだまだ青二才だ。
 \nゾーンで一日持ちこたえるのも難しいかもしれない。俺は心配なんだよ。
 \nあいつらが死んじまったら、ビジネスに悪影響が出かねないだろ、なあ？
 \n要するに、客が減るってことだ。そこでだ、お前にはあいつらを
-\nゾーン見学へ連れていってもらいたい。何に気をつけるべきかを教え、
-\nアノマリーを見せ、ゾーンで生き延びるコツを教えてやってくれ。</text>
+\nゾーン見学へ連れていってもらいたい。何に気を付けるべきか教え、
+\nアノマリーを見せ、ゾーンで生き残るコツを教えてやってくれ。</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_task_2_finish">
 		<text>おお、俺の客はまだ生きているな。
-\nそんで、あいつらは俺からさらに弾薬を買う必要ができたわけだ。
+\nそんで、あいつらは俺から弾薬を買い込む必要ができたってわけだ。
 \n助かったぜ、ストーカー。こいつはその礼だ。</text>
 	</string>
 
@@ -83,15 +83,15 @@
 		<text>行方不明のストーカーを救出する</text>
 	</string>
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_text">
-		<text>ゼノテックの野営地にいたストーカーが行方不明になっている。彼を見つけなければならない。</text>
+		<text>ゼノテックの野営地にいたストーカーが行方不明だ。彼を見つけなければならない。</text>
 	</string>
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_about">
-		<text>あんたの助けが必要だ。俺の野営地の仲間が物資を求めて出かけたが、まだ戻ってこない。
+		<text>あんたの助けが要る。俺の野営地の仲間が物資を求めて出かけたが、まだ戻ってこない。
 \n何かあったんじゃないかと心配でな。
 \n最後にあいつを確認した位置を地図に記しておくから、確かめてきてくれ。</text>
 	</string>
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_finish">
-		<text>あんた、あいつを救ってくれたのか！素晴らしい仕事だ、ストーカー。
+		<text>あんた、あいつを救ってくれたのか！素晴らしい働きだ、ストーカー。
 \nこれは俺の感謝の気持ちだ。</text>
 	</string>
 
@@ -101,7 +101,7 @@
 		<text>負傷者の追跡</text>
 	</string>
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_text">
-		<text>Militaryがゼノテックの野営地を襲撃してストーカーを虐殺した。逃げ延びた襲撃者の一人を追跡し、排除するように頼まれた。</text>
+		<text>Militaryがゼノテックの野営地を襲撃し、ストーカーを虐殺した。逃げ延びた襲撃者の一人を追跡し、排除するよう頼まれた。</text>
 	</string>
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_about">
 		<text>あんた、今までどこにいた？
@@ -110,7 +110,7 @@
 \n1人逃がしちまった。怪我をしてるから、血痕を辿ってみてくれ。逃げた方向を教えよう。</text>
 	</string>
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_finish">
-		<text>ありがとな、ストーカー。こいつはお礼だ、受け取ってくれ。</text>
+		<text>ありがとな、ストーカー。こいつは礼だ、受け取ってくれ。</text>
 	</string>
 
 	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
@@ -124,7 +124,7 @@
 		<text>燃える橋</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_cf_task_1_text">
-		<text>シドロヴィッチは、10,000ルーブルの手数料で現在の派閥から解放してくれると言っていた。</text>
+		<text>シドロヴィッチが、10,000ルーブルの手数料で現在の派閥から解放してくれると言っていた。</text>
 	</string>
 	<string id="drx_sl_esc_m_trader_cf_task_1_about">
 		<text>それなら、俺のところに来たのは正解だ。ゾーンにはコネがたくさんあってな。
@@ -183,7 +183,7 @@
 		<text>マフィア狩り</text>
 	</string>
 	<string id="esc_m_trader_task_3_text">
-		<text>シドロヴィッチはBanditのリーダーにメッセージを送りたいようだ。彼に協力し、%sを集めることにした。</text>
+		<text>シドロヴィッチはBanditのリーダーにメッセージを送りたいようだ。彼に協力し、%sを集めることになった。</text>
 	</string>
 	<string id="esc_m_trader_task_3_about">
 		<text>聞け、ストーカー。ここはルーキーがゾーンを学ぶための安全な場所のはずだ。
@@ -253,12 +253,12 @@
 		<text>動物園観光</text>
 	</string>
 	<string id="esc_2_12_stalker_wolf_task_3_text">
-		<text>ウルフから観光客をミュータント狩りに案内するように頼まれた。</text>
+		<text>ウルフから観光客をミュータント狩りに案内するよう頼まれた。</text>
 	</string>
 	<string id="esc_2_12_stalker_wolf_task_3_about">
 		<text>外から来た観光客の中には、シドロヴィッチに大金を払ってゾーンで軽い狩りを
 \n楽しみたいって連中がいる。射撃の腕は悪くないんだが、アノマリーやミュータントに
-\n関することはさっぱり分かってないんだ。まるで子守りをしてるみたいだよ。
+\n関することはさっぱりわかってないんだ。まるで子守りをしてるみたいだよ。
 
 \n\nあんた、彼らのガイドをやってくれないか？特別なことは必要ない、
 \nこういう連中はコードンを少し散策して、最後にちょっと銃を撃てれば満足するもんだ。
@@ -276,7 +276,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="esc_2_12_stalker_nimble_task_1_text">
-		<text>ニンブルから特定の銃を探してほしいと頼まれた。その銃は新品同様でなければならない。</text>
+		<text>ニンブルから特定の銃を探してほしいと頼まれた。新品同様の状態でなければならないらしい。</text>
 	</string>
 	<string id="esc_2_12_stalker_nimble_task_1_about">
 		<text>特定の銃を探している客がいるんだが、あんたにその銃を探す手伝いをしてもらいたい。
@@ -319,7 +319,7 @@
 		<text>ゼノテックのために%sを見つける</text>
 	</string>
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_text">
-		<text>ゼノテックは基本的な装備の改造のために%sを必要としている。</text>
+		<text>ゼノテックは基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_about">
 		<text>頼みがあるんだ。多くのストーカーがここに来て、武器をカスタマイズできないかって
@@ -331,7 +331,7 @@
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_fetch_about">
 		<text>まずはベーシックツールが必要だ。
 \nシドロヴィッチや他のトレーダーに売るよりも、はるかに高い値段で買い取るぜ。
-\n手に入れたら、えーと･･････ 俺の居場所は分かるよな？</text>
+\n手に入れたら、えーと･･････ 俺の居場所はわかるよな？</text>
 	</string>
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_fetch_finish">
 		<text>いよいよだな！まともな道具が手に入るのをずっと待ってたんだ。
@@ -341,7 +341,7 @@
 		<text>ゼノテックのために%sを見つける</text>
 	</string>
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_text">
-		<text>ゼノテックは高度な装備の改造のために%sを必要としている。</text>
+		<text>ゼノテックは高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_about">
 		<text>あんたが持ってきてくれた道具のおかげで、俺の商売は少しずつ軌道に乗り始めてきたが、
@@ -361,7 +361,7 @@
 		<text>ゼノテックのために%sを見つける</text>
 	</string>
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_text">
-		<text>ゼノテックは専門的な装備の改造のために%sを必要としている。</text>
+		<text>ゼノテックは専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_about">
 		<text>今、俺の商売は絶好調だ。多くのストーカーが銃を調整しにやってくる･･････
@@ -384,7 +384,7 @@
 		<text>コードンの取り締まり</text>
 	</string>
 	<string id="esc_3_16_military_trader_task_1_text">
-		<text>検問所の指揮官であるズーロフ少佐から、%sを持ってくるように頼まれた。これでストーカーたちに誰が支配しているか思い出させることができるだろう。</text>
+		<text>検問所の指揮官、ズーロフ少佐から%sの調達を命じられた。この一帯の支配者が誰であるか、ストーカーに思い知らせるための「見せしめ」が必要らしい。</text>
 	</string>
 	<string id="esc_3_16_military_trader_task_1_about">
 		<text>上層部が非公式の作戦を立ち上げた、お前も参加するか？
@@ -503,7 +503,7 @@
 		<text>トレーニング: «ジェリーフィッシュ»を鉛の容器に入れる</text>
 	</string>
 	<string id="task_fanat_training_1_descr">
-		<text>ファナティックは経験豊富なストーカーだ。彼がいくつかコツを教えてくれることになった。</text>
+		<text>ファナティックは経験豊富なストーカーだ。彼から、ゾーンを生き抜く術をいくつか教わることになった。</text>
 	</string>
 	<string id="task_fanat_training_2_1">
 		<text>トレーニング「挑戦」: スタッシュを見つける</text>

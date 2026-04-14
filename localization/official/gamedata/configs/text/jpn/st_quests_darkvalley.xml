@@ -50,12 +50,12 @@
 	</string>
 	<string id="drx_sl_zat_b7_bandit_boss_sultan_task_2_about">
 		<text>ネズミ野郎のストーカーが俺を裏切りやがった。
-\n俺を差し置いて、そいつが次の日の出を見るまでに生かしちゃおけねえ。
-\nクソ野郎を殺せ。お前にとってもやりがいがあるはずだ。</text>
+\nいいか、俺を敵に回して生き延びた奴は一人もいねえんだ。
+\nあのクソ野郎を殺せ。お前にとってもやりがいがあるはずだ。</text>
 	</string>
 	<string id="drx_sl_zat_b7_bandit_boss_sultan_task_2_finish">
-		<text>いいぞ。ヤツの頭を槍に刺して残すように言っておくべきだったな。
-\nまあいい、これでサルタンに舐めた真似をするとどうなるか、皆思い知っただろう。
+		<text>いいぞ。ヤツの首を槍に突き刺すように言っておくべきだったな。
+\nまあいい、これで俺を敵に回すとどうなるか、誰もが思い知ることになるだろう。
 \nさて、こいつが報酬だ。</text>
 	</string>
 
@@ -128,7 +128,7 @@
 	</string>
 	<string id="drx_sl_val_smart_terrain_7_4_bandit_trader_stalker_task_1_fetch_about">
 		<text>%sを回収してこい。
-\nあのクソガキの目を盗んで持ってこれたら、報酬は弾むぜ。</text>
+\nあのクソガキの目を盗んで持ってこれたら、礼は弾むぜ。</text>
 	</string>
 	<string id="drx_sl_val_smart_terrain_7_4_bandit_trader_stalker_task_1_fetch_finish">
 		<text>よくやったな。これが約束の取り分だ。</text>
@@ -144,7 +144,7 @@
 	</string>
 	<string id="drx_sl_val_smart_terrain_7_4_bandit_trader_stalker_task_2_about">
 		<text>軍にいるオレらのダチのことを覚えてるか？
-\nタバコのカートンを渡せば、武器の持ち込みを黙認してくれてたアイツだよ。
+\nタバコを恵んでやれば、武器の持ち込みを見逃してくれてたアイツだよ。
 \nそれがあのクソ野郎、今度は毎回取り分を寄こせだと？しかも払わなきゃ密告するってよ。
 \n野郎、誰に取引を持ちかけてるかわかってんのか？ヤツには死んでもらう必要があるな。
 \n･･････おい、聞いてるか？死だ！野郎の首を取って来い！</text>
@@ -171,7 +171,8 @@
 \nそうすりゃ、お前を陽気で頼れる連中の仲間にしてやるよ。</text>
 	</string>
 	<string id="drx_sl_zat_b7_bandit_boss_sultan_cf_task_1_finish">
-		<text>よし、これで周りの奴らも少しはお前を認めるかもな。まずはうちのろくでなしどもに挨拶してこいよ。そんなにビビる顔するなって。</text>
+		<text>よし、これで周りの奴らも少しはお前を認めるかもな。
+\nまずはうちのろくでなしどもに挨拶してこいよ。そんなにビビる顔するなって。</text>
 	</string>
 
 	<!-- DYNAMIC TASK TEXT  STRINGS -->
@@ -186,13 +187,13 @@
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_1_about">
 		<text>このリストが見えるか？全部、俺が始末しなきゃならねぇクソ野郎どもの名前だ･･････
-\n借金を払わず逃げ出したケチな野郎、うちの連中がパンを分けてくれって言ったら
-\n弾で返してきた守銭奴、ダークバレーを捨ててロストクやシドロヴィッチに尻尾を
-\n振った裏切り者までな。全員まとめて地獄行きだ。
-\nここに載ってる名前の一つをやる。始末したら、俺に知らせるんだ。</text>
+\n借金を踏み倒して逃げやがったケチな野郎、うちの連中がパンを分けてくれと頼んだら
+\n弾丸で返しやがった守銭奴、さらにはダークバレーを捨ててロストクやシドロヴィッチに
+\n尻尾を振りやがった裏切り者までな･･････ どいつもこいつも、まとめて地獄送りだ。
+\nここに載ってる名前の一つを教えてやる。始末したら、俺に知らせるんだ。</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_1_finish">
-		<text>ふう、復讐ってのは満足感があるぜ。うまく片付いたときは気分がいいもんだ。
+		<text>ふう、復讐ってのは実に気分がいいもんだ。うまく片付いたときはな。
 \nほら、これが礼だ。</text>
 	</string>
 
@@ -205,13 +206,13 @@
 		<text>サルタンは、近くにいる軍の巡回部隊を排除することを望んでいる。</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_2_about">
-		<text>また軍のクソどもがこの辺をうろついてやがる。
+		<text>また軍のクソどもがこの辺を嗅ぎ回ってやがる。
 \nどうせ俺たちへの嫌がらせか、近くの研究所で何か企んでんだろ･･････ バカどもめ。
-\n放っておいても死ぬような連中だが、仲間に被害が出る前に始末してきたら報酬をやるぞ。</text>
+\n放っておいても死ぬような連中だが、仲間に被害が出る前に始末してこい。礼はする。</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_2_finish">
 		<text>お前には感心したぜ、ストーカー。
-\nここの連中にもお前みたいな骨のある奴がいたらいいんだがな。</text>
+\nうちの連中にも、お前みたいな骨のある奴がいたらいいんだがな。</text>
 	</string>
 
 	<!-- Sultan (Bandit Honcho) Stalker Elimination Dynamic Task -->
@@ -223,7 +224,7 @@
 		<text>サルタンは、仲間を襲ったストーカーたちへの報復を望んでいる。</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_3_about">
-		<text>よく聞け。ついこの前、ストーカーの連中が俺の仲間を袋叩きにしようとしやがった。
+		<text>よく聞け。ついこの前、ストーカーの連中が俺の仲間を袋叩きにしやがった。
 \n運のいいことに、アイツはなんとか逃げ出して事なきを得たが、あんなことをされて
 \n黙っていられるわけがねえ。報復する前に仲間を集めたほうがいいかもしれんが、
 \n奴らは仲間を殺そうとした。その報いがどうなるか、クソ野郎どもに思い知らせてやれ。</text>
@@ -237,7 +238,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_4_text">
-		<text>サルタンから%sを集めるように頼まれた。</text>
+		<text>サルタンから%sを集めるよう頼まれた。</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_4_about">
 		<text>あの馬鹿どもに、本物のバンディットの恐ろしさを思い知らせる時が来たぞ。
@@ -280,7 +281,7 @@
 		<text>サルタンは、危険な化け物の駆除を望んでいる。</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_6_about">
-		<text>また一匹、悪夢のような奴があの研究所から這い出してきやがった。
+		<text>また一匹、悪夢のような奴があの研究所から這い出てきやがった。
 \nうちの若いのをズタズタにしやがって･･････ 奴が最後に目撃された場所を教えてやる。
 \nさっさと見つけて、ぶちのめしてこい。</text>
 	</string>
@@ -297,10 +298,10 @@
 		<text>オリビアスはミュータントを一掃したいと考えている。</text>
 	</string>
 	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_1_about">
-		<text>最近、ストーカーたちが寄りつかなくなってきてる。何故かって？
+		<text>最近、ストーカーどもが寄りつかなくなってきてる。何故かって？
 \nミュータントを見て、ビビって逃げ出すからさ。
-\nこのままじゃ家賃も取れねえし、物資の流れも止まっちまう･･････ 分かるよな？
-\nそういうことで、「ダークバレーで春の大掃除」といこうじゃねぇか。</text>
+\nこのままじゃ家賃も取れねえし、物資の流れも止まっちまう･･････ わかるよな？
+\nそういうことで、「ダークバレーの春の大掃除」といこうじゃねぇか。</text>
 	</string>
 	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_1_finish">
 		<text>最高だ！これが報酬だ。アンタの活躍をちゃんとボスに報告しといてやるよ。</text>
@@ -361,7 +362,7 @@
 		<text>リンピドのために%sを見つける</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_1_text">
-		<text>リンピドは基本的な装備の改造のために%sを必要としている。</text>
+		<text>リンピドは基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_1_about">
 		<text>なあ兄弟、新しいツールがどうしてもいるんだよ。今のじゃサビだらけで役に立たねえし、
@@ -381,7 +382,7 @@
 		<text>リンピドのために%sを見つける</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_2_text">
-		<text>リンピドは高度な装備の改造のために%sを必要としている。</text>
+		<text>リンピドは高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_2_about">
 		<text>前に持ってきてくれたツールは最高だったが、まだ足りないものがあるんだ。
@@ -401,7 +402,7 @@
 		<text>リンピドのために%sを見つける</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_3_text">
-		<text>リンピドは専門的な装備の改造のために%sを必要としている。</text>
+		<text>リンピドは専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="val_smart_terrain_7_3_bandit_mechanic_stalker_task_3_about">
 		<text>前に持ってきてくれたツールは最高だったが、まだ足りないものがあるんだ。
@@ -449,7 +450,7 @@
 	</string>
 	<string id="bandit_main_base_medic_mlr_task_1_fetch_about">
 		<text>%sをそこら中探し回ってんだ。
-\n薬を作るのに必要な錠剤やアンプルが入ってる。持ってきてくれたら、報酬は弾むぜ。</text>
+\n薬を作るのに必要な錠剤やアンプルが入ってる。持ってきてくれたら、礼は弾むぜ。</text>
 	</string>
 	<string id="bandit_main_base_medic_mlr_task_1_fetch_finish">
 		<text>いいぞ！デカい借りができたな。</text>

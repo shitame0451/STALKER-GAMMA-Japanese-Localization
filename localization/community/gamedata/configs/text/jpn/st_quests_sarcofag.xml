@@ -4,19 +4,19 @@
 		<text>北からの呼び声</text>
 	</string>
 	<string id="sar_monolith_0">
-		<text>願望機に話しかける。</text>
+		<text>願望機と対峙する。</text>
 	</string>
 	<string id="sar_monolith_1">
 		<text>北の方から自分を呼ぶ声がする･･････ 探しに行かなければ。</text>
 	</string>
 	<string id="sar_monolith_2">
-		<text>自分を呼ぶ声は願望機が発しているものに違いない。石棺のどこかで見つけられるはずだ。</text>
+		<text>この呼び声は、願望機が発しているものに違いない。石棺のどこかで見つけられるはずだ。</text>
 	</string>
 	<string id="sar_monolith_destroy">
 		<text>コンクリートの墓標</text>
 	</string>
 	<string id="sar_monolith_destroy_0">
-		<text>手記に記されていたMonolithの拠点を見つけ出し、そこに隠されたものを突き止める。</text>
+		<text>手記に記されていたMonolithの拠点を見つけ出し、その奥に潜むものを突き止める。</text>
 	</string>
 	<string id="sar_monolith_destroy_1">
 		<text>すべての投影体を殲滅し、願望機を破壊する。（全10ウェーブ）</text>

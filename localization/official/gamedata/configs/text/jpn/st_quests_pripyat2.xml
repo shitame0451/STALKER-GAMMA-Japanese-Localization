@@ -16,7 +16,7 @@
 		<text>次のタスクを引き受ける。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_default_task_about">
-		<text>モノリスの長老に会う必要がある。すぐに彼のところへ行かなくては。</text>
+		<text>モノリスの長老に会う必要がある。すぐに彼のところに行かなくては。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_default_task_finish">
 		<text>成功を祈る。</text>
@@ -31,11 +31,11 @@
 		<text>モノリスの襲撃を先導し、異教徒を排除する。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_about">
-		<text>時は来た、若者よ。お前は兄弟を率いて戦場に向かわねばならない。
-\n厳しく戦い、降伏を受け入れるな。モノリスのために異教徒を打ち倒すのだ。</text>
+		<text>時は来た、若者よ。お前は兄弟を率い、戦場へ向かうのだ。
+\n容赦なく戦い、降伏は許すな。モノリスのために異教徒を打ち倒せ。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_finish">
-		<text>素晴らしい働きだ。お前は優れた戦士だ。</text>
+		<text>見事な働きだ。お前は優れた戦士だ。</text>
 	</string>
 
 	<!-- Rabbit (Monolith Trader) Collect Supplies Storyline Task -->
@@ -47,11 +47,11 @@
 		<text>ラビットに%sを届ける。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_about">
-		<text>若者よ、兄弟たちは補給物資を必要としている。</text>
+		<text>若者よ、兄弟たちは物資を欲している。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_fetch_about">
-		<text>若者よ、兄弟たちは補給物資を必要としている。
-\n%sを持ってきてくれ。</text>
+		<text>若者よ、兄弟たちは物資を欲している。
+\n%sを持ってくるのだ。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_fetch_finish">
 		<text>よくやった。</text>
@@ -67,7 +67,7 @@
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_about">
 		<text>若者よ、お前は全能なるモノリスにその力を示さねばならない。
-\nゾーンの奥深くへ進み、待ち受ける試練に立ち向かえ。遭遇する敵はすべて排除するのだ。
+\nゾーンの深淵へ進み、待ち受ける試練に立ち向かえ。敵対する者はすべて排除するのだ。
 \nこれは、モノリスのために果たすべき使命である。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_finish">
@@ -100,7 +100,7 @@
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_1_about">
 		<text>ストーカーがブレイン・スコーチャーから重要な設備を盗み出した。
-\n全能なるモノリスのために、それを必ず取り戻さねばならない。</text>
+\n全能なるモノリスのため、それを必ず取り戻さねばならない。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_1_finish">
 		<text>よくやった。</text>
@@ -116,10 +116,10 @@
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_2_about">
 		<text>若者よ、我々は食料庫を補充しなければならない。
-\n兄弟たちが食事にありつけるように、狩りの指揮をとってくれないか？</text>
+\n兄弟たちが食事にありつけるよう、狩りの指揮をとってはくれないか？</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_2_finish">
-		<text>お前はモノリスに忠誠を尽くしている。持ち帰った肉は今夜の宴で供されるだろう。
+		<text>お前はモノリスに忠誠を尽くしている。持ち帰った肉は、今宵の宴で供されるだろう。
 \n褒美として、目玉はお前のために取っておこう。</text>
 	</string>
 
@@ -136,7 +136,7 @@
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_fetch_about">
 		<text>%sを持ってくるのだ。
-\n任務が成功すれば、モノリスの大義に大いに貢献できるだろう。</text>
+\n使命が成功すれば、モノリスの大義に大いに貢献できるだろう。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_fetch_finish">
 		<text>よくやった、若者よ。</text>
@@ -151,7 +151,7 @@
 		<text>次のタスクを引き受ける。</text>
 	</string>
 	<string id="drx_sl_trader_monolith_kbo_default_task_about">
-		<text>モノリスのリーダーに会う必要がある。すぐに彼のところへ行かなくては。</text>
+		<text>モノリスのリーダーに会う必要がある。すぐに彼のところに行かなくては。</text>
 	</string>
 	<string id="drx_sl_trader_monolith_kbo_default_task_finish">
 		<text>幸運を祈る。</text>
@@ -167,10 +167,10 @@
 		<text>侵入者を何としても排除しなければ。</text>
 	</string>
 	<string id="drx_sl_trader_monolith_kbo_task_1_about">
-		<text>侵入者の集団が目撃されている。彼らを生かしておくわけにはいかない。排除しろ。</text>
+		<text>侵入者の集団が目撃されている。彼らを生かしておくわけにはいかない。排除せよ。</text>
 	</string>
 	<string id="drx_sl_trader_monolith_kbo_task_1_finish">
-		<text>よくやった。お前は自分の力を証明した。</text>
+		<text>よくやった。己の力を証明したな。</text>
 	</string>
 	
 
@@ -231,10 +231,10 @@
 		<text>危険なミュータントの追跡</text>
 	</string>
 	<string id="drx_sl_merc_pri_grifon_mlr_task_1_text">
-		<text>グリフィンと彼の傭兵たちは、夜な夜な襲ってくるミュータントにうんざりしている。追跡し、始末しなくては。</text>
+		<text>グリフィンと傭兵たちは、夜な夜な襲い来るミュータントにうんざりしている。追跡し、始末しなくては。</text>
 	</string>
 	<string id="drx_sl_merc_pri_grifon_mlr_task_1_about">
-		<text>あのクソッタレな化け物は毎晩戻ってきて、我々の守備隊を襲撃している。
+		<text>あのクソッタレな化け物は、毎晩戻ってきては我々の守備隊を襲撃している。
 \nこれ以上放置するわけにはいかない。見つけ次第、確実に殺せ。</text>
 	</string>
 	<string id="drx_sl_merc_pri_grifon_mlr_task_1_finish">
@@ -252,7 +252,7 @@
 	</string>
 	<string id="drx_sl_merc_pri_grifon_mlr_task_2_about">
 		<text>我々がここに来たのは、北のユビレイニー・サービスセンターにあるラボX8から
-\n情報を回収するためだ。少なくとも、何か有用な情報を持ち帰れると思っていたんだがな。
+\n情報を回収するためだ。少なくとも、何か使える情報を持ち帰れると思っていたんだがな。
 \n再び仲間と共に向かうことも考えたが、生存者は少なく、手に負えそうにない。
 \nこれ以上、貴重な人員を失いたくはない。X-8へ行き、手がかりを探し出してきてくれ。</text>
 	</string>
@@ -326,7 +326,7 @@
 \n彼らは守護者であり、糧をもたらす者であり、また試練の象徴でもある。
 \n強さ、覚悟、そして戦いの技を証明するための道なのだ。
 \n行け、兄弟よ。強靭なハンターを討ち取るのだ。人と獣との戦いが待っている。
-\n%sを手に入れ、自分の価値を証明しろ。</text>
+\n%sを手に入れ、己の価値を証明しろ。</text>
 	</string>
 	<string id="monolith_eidolon_task_2_fetch_finish">
 		<text>素晴らしい戦利品だ。モノリスは誇りに思っている。そして私もだ。
@@ -365,7 +365,7 @@
 		<text>ゾーンの秘密が記された文書を回収し、エイドロンに渡す。</text>
 	</string>
 	<string id="monolith_eidolon_task_4_about">
-		<text>ある場所に、ゾーンの驚異について詳細に記された文書が存在する。秘められた知識だ。
+		<text>ある場所に、ゾーンの驚異について詳細に記された文書が存在する。秘められし知識だ。
 \n異教徒に知られてはならない。その文書を回収し、我に届ければ報酬を与えよう。</text>
 	</string>
 	<string id="monolith_eidolon_task_4_finish">
@@ -377,10 +377,10 @@
 		<text>敵を制圧する</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_1_text">
-		<text>全能なるモノリスのため、指定された区域を制圧することを命じられた。任務が終わったらラビットに報告しよう。</text>
+		<text>全能なるモノリスのため、指定された区域を制圧するよう命じられた。任務が終わったらラビットに報告しよう。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_1_about">
-		<text>重要な任務がある。お前はゾーンに赴き、その区域を制圧しなければならない。
+		<text>重要な使命がある。お前はゾーンに赴き、その区域を制圧しなければならない。
 \n我々の部隊が進軍できるようにするためだ。準備はいいな？</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_1_finish">
@@ -411,7 +411,7 @@
 		<text>ラビットに%sを持っていく</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_3_text">
-		<text>モノリスの武器庫を拡張するため、ラビットが新しいライフルを要求している。</text>
+		<text>モノリスの武器庫を拡張するため、ラビットが新しいライフルを求めている。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_3_about">
 		<text>我々は日々、力をつけている。
@@ -443,7 +443,7 @@
 \n終わったらその肉を持ってこい。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_4_fetch_finish">
-		<text>任務を成功させたな。よくやった。</text>
+		<text>使命を果たしたな。よくやった。</text>
 	</string>
 
 
@@ -455,7 +455,7 @@
 		<text>%sを手に入れ、ラビットに渡す。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_5_about">
-		<text>我々が偉大な使命を続けるためには、さらなる物資が必要だ。</text>
+		<text>我々が偉大な使命を続けるには、さらなる物資が必要だ。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_5_fetch_about">
 		<text>%sを回収して持ってこい。</text>
@@ -470,7 +470,7 @@
 		<text>ラビットのために%sを見つける</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_6_text">
-		<text>%sを見つける。それをラビットに渡せば、儀式の捧げ物として準備してくれるだろう。</text>
+		<text>%sを見つける。それをラビットに渡せば、儀式の供物として準備してくれるだろう。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_6_about">
 		<text>我々は供物として捧げるアーティファクトを探さねばならない。
@@ -481,7 +481,7 @@
 \nそれを持ってくれば、儀式を執り行うことができる。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_6_fetch_finish">
-		<text>お前はモノリスによく奉仕している。今夜の儀式に参加せよ。祈りの声が響き渡るだろう。</text>
+		<text>お前はモノリスによく奉仕している。今宵の儀式に参加せよ。祈りの声が響き渡るだろう。</text>
 	</string>
 
 	<!-- MECHANIC TASK TEXT  STRINGS -->
@@ -492,7 +492,7 @@
 		<text>クレリックのために%sを見つける</text>
 	</string>
 	<string id="pri_monolith_monolith_mechanic_stalker_task_1_text">
-		<text>クレリックは基本的な装備の改造のために%sを必要としている。</text>
+		<text>クレリックは基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="pri_monolith_monolith_mechanic_stalker_task_1_about">
 		<text>頼みがある。我々の武器を調整するための特別なツールが必要だ。</text>
@@ -507,7 +507,7 @@
 		<text>クレリックのために%sを見つける</text>
 	</string>
 	<string id="pri_monolith_monolith_mechanic_stalker_task_2_text">
-		<text>クレリックは高度な装備の改造のために%sを必要としている。</text>
+		<text>クレリックは高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="pri_monolith_monolith_mechanic_stalker_task_2_about">
 		<text>さらに良いツールが必要だ。私が求めるものを、もう一度探してくれないか？</text>
@@ -523,7 +523,7 @@
 		<text>クレリックのために%sを見つける</text>
 	</string>
 	<string id="pri_monolith_monolith_mechanic_stalker_task_3_text">
-		<text>クレリックは専門的な装備の改造のために%sを必要としている。</text>
+		<text>クレリックは専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="pri_monolith_monolith_mechanic_stalker_task_3_about">
 		<text>さらに特別なツールが必要だ。私が求めるものを、もう一度探してくれないか？</text>
@@ -539,7 +539,7 @@
 		<text>敵を殲滅する</text>
 	</string>
 	<string id="lider_monolith_haron_task_1_text">
-		<text>カロンから、ゾーンの重要なポジションを解放するように頼まれた。</text>
+		<text>カロンから、ゾーンの重要なポジションを解放するよう頼まれた。</text>
 	</string>
 	<string id="lider_monolith_haron_task_1_about">
 		<text>兄弟よ。異教徒を滅ぼすためにお前の助けが必要だ。</text>
@@ -551,7 +551,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="lider_monolith_haron_task_2_text">
-		<text>カロンから、%sを持ってくるように頼まれた。</text>
+		<text>カロンから、%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="lider_monolith_haron_task_2_about">
 		<text>偉大なるモノリスは、この聖地から異教徒を浄化する兄弟たちに報酬を与えてくださる。
@@ -570,7 +570,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_1_text">
-		<text>グリフィンから、%sを持ってくるように頼まれた。</text>
+		<text>グリフィンから、%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_1_about">
 		<text>狂信者どもが多すぎて、まともに仕事ができない。
@@ -591,7 +591,7 @@
 		<text>«ソウル»を見つける</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_text">
-		<text>グリフィンから、«ソウル»を見つけて持ってくるように頼まれた。</text>
+		<text>グリフィンから、«ソウル»を見つけてくるよう頼まれた。</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_fetch_about">
 		<text>ここには医者がいない。我々はどうにかして生き延びるしかないんだ。
@@ -625,7 +625,7 @@
 		<text>傭兵の技術者のために%sを見つける</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_1_text">
-		<text>プリピャチ郊外にいる傭兵の技術者から、%sを持ってくるように頼まれた。</text>
+		<text>プリピャチ郊外にいる傭兵の技術者から、%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_1_about">
 		<text>ここプリピャチで、俺たちは時間を無駄にしている･･････ グリフィンからも聞いただろう。
@@ -647,17 +647,15 @@
 		<text>傭兵の技術者のために%sを見つける</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_2_text">
-		<text>プリピャチ郊外にいる傭兵の技術者から、%sを持ってくるように頼まれた。</text>
+		<text>プリピャチ郊外にいる傭兵の技術者から、%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_2_about">
 		<text>いくつかの問題は解決したが、まだやるべきことが山積みだ。
-\n装備をアップグレードをするためには、もっと良いツールが必要なんだ。
-\nまた手伝ってくれるか？</text>
+\n装備を改良するには、もっと良いツールが必要なんだ。また手伝ってくれるか？</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_2_fetch_about">
 		<text>いくつかの問題は解決したが、まだやるべきことが山積みだ。
-\n装備をアップグレードをするためには、もっと良いツールが必要なんだ。
-\nまた手伝ってくれるか？</text>
+\n装備を改良するには、もっと良いツールが必要なんだ。また手伝ってくれるか？</text>
 	</string>
 	<string id="merc_pri_a18_mech_mlr_task_2_fetch_finish">
 		<text>よくやってくれた。これでツールが揃ったよ。そしてお前には割引を約束しよう。</text>
@@ -669,7 +667,7 @@
 		<text>モノリスの技術者のために%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_1_text">
-		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるように頼まれた。</text>
+		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_1_about">
 		<text>兄弟よ、力を貸してくれ。我々の装備を整えるためのツールが求められている。
@@ -681,14 +679,14 @@
 	</string>
 	<string id="mechanic_monolith_kbo_task_1_fetch_finish">
 		<text>素晴らしい働きだ、兄弟よ。
-\n今後の改良で得られる成果はすべて我々の慈善活動に使われるだろう。
-\nお前の貢献には少しばかりの割引を約束しよう。</text>
+\n今後の改良で得られる成果は、すべて我々の聖なる活動に使われるだろう。
+\nお前の貢献には、ささやかながら割引を約束しよう。</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_2_name">
 		<text>モノリスの技術者のために%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_2_text">
-		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるように頼まれた。</text>
+		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_2_about">
 		<text>以前に見つけてくれたツールでは不十分だった。
@@ -708,17 +706,17 @@
 		<text>モノリスの技術者のために%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_3_text">
-		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるように頼まれた。</text>
+		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_3_about">
-		<text>以前持ってきてくれたツールは･･････ 十分使えるものだった。
-\nしかし、現状に満足する必要はあるだろうか？もっと優れたツールを手に入れるべきだ。
-\n我々に必要なのはゾーンで最高のツールだ。力を貸してほしい、兄弟よ。最後の願いだ。</text>
+		<text>以前持ってきてくれたツールは･･････ 確かに十分使えるものだった。
+\nしかし、我々は現状に満足すべきだろうか？より優れたツールを手に入れるべきだ。
+\n我々に必要なのは、ゾーンで最高のツールだ。力を貸してほしい、兄弟よ。最後の願いだ。</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_3_fetch_about">
-		<text>以前持ってきてくれたツールは･･････ 十分使えるものだった。
-\nしかし、現状に満足する必要はあるだろうか？もっと優れたツールを手に入れるべきだ。
-\n我々に必要なのはゾーンで最高のツールだ。力を貸してほしい、兄弟よ。最後の願いだ。</text>
+		<text>以前持ってきてくれたツールは･･････ 確かに十分使えるものだった。
+\nしかし、我々は現状に満足すべきだろうか？より優れたツールを手に入れるべきだ。
+\n我々に必要なのは、ゾーンで最高のツールだ。力を貸してほしい、兄弟よ。最後の願いだ。</text>
 	</string>
 	<string id="mechanic_monolith_kbo_task_3_fetch_finish">
 		<text>驚くべき働きだ、兄弟よ。お前の貢献は仲間たちにしっかりと伝えよう。

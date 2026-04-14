@@ -362,7 +362,7 @@
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_1_text">
-		<text>仲間のストーカーから%sを持ってくるように頼まれた。</text>
+		<text>仲間のストーカーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_1_about">
 		<text>物資が切れそうなんだ。余ってるものがあれば、持ってきてくれると助かるよ。</text>
@@ -381,7 +381,7 @@
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_2_text">
-		<text>仲間のストーカーから%sを探してくるように頼まれた。</text>
+		<text>仲間のストーカーから%sを探してくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_2_about">
 		<text>ちくしょう、頼みを聞いてくれ。
@@ -447,7 +447,7 @@
 	<string id="simulation_task_5_fetch_about">
 		<text>我が兄弟よ、私は病を患っている。司祭殿は私のために祈祷を申し出てくれた。
 \nしかし、私は%sが病魔を追い払うと確信している。
-\n持って来てはくれないか？</text>
+\n持ってきてはくれないか？</text>
 	</string>
 	<string id="simulation_task_5_fetch_finish">
 		<text>感謝するぞ。兄弟よ。モノリスの光があなたを照らさんことを祈っている。</text>
@@ -521,7 +521,7 @@
 	</string>
 	<string id="simulation_task_9_about">
 		<text>聞きな。俺は足のつかないライフルが欲しいんだ。
-\n言ってる意味は分かるか？手伝ってくれるよな？</text>
+\n言ってる意味はわかるか？手伝ってくれるよな？</text>
 	</string>
 	<string id="simulation_task_9_fetch_about">
 		<text>%sが欲しい。買う、盗む、奪う、何だっていい。
@@ -582,7 +582,7 @@
 \nあんたが喜びそうな、素晴らしい報酬を用意しとくよ。</text>
 	</string>
 	<string id="simulation_task_12_fetch_finish">
-		<text>やっとか！俺がこいつをどれだけ探していたか、あんたには分からないだろうな･･････
+		<text>やっとか！俺がこいつをどれだけ探していたか、あんたにはわからないだろうな･･････
 \nこれを受け取ってくれ。報酬だ。</text>
 	</string>
 	
@@ -596,7 +596,7 @@
 	</string>
 	<string id="simulation_task_13_about">
 		<text>なあ、ちょっと聞いてくれ。
-\nこれが軍規違反に当たることは分かっているが･･････ 俺の任期はもうすぐ終わりだ。
+\nこれが軍規違反に当たることはわかっているが･･････ 俺の任期はもうすぐ終わりだ。
 \nだから、土産を持ち帰りたいと思ってる。アーティファクトを持ってきてくれないか？</text>
 	</string>
 	<string id="simulation_task_13_fetch_about">
@@ -677,7 +677,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_17_text">
-		<text>Freedomのメンバーから%sを集めるように頼まれた。</text>
+		<text>Freedomのメンバーから%sを集めるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_17_about">
 		<text>よう。クソDuty野郎の派閥パッチを集めてくれねえか？
@@ -696,7 +696,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_18_text">
-		<text>Dutyのメンバーから%sを集めるように頼まれた。</text>
+		<text>Dutyのメンバーから%sを集めるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_18_about">
 		<text>無政府主義者どもを何人か片付けてくれないか？最近、やたらと増えてきて困ってるんだ。
@@ -716,7 +716,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_19_text">
-		<text>ストーカーから%sを集めるように頼まれた。</text>
+		<text>ストーカーから%sを集めるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_19_about">
 		<text>やあ、兄弟。何人かクソ野郎の掃除でもしないか？
@@ -735,7 +735,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_20_text">
-		<text>Banditから%sを集めるように頼まれた。</text>
+		<text>Banditから%sを集めるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_20_about">
 		<text>おい、アンタに向いてる仕事があるぞ。俺たちの仕事を邪魔する連中が多すぎてな。
@@ -755,7 +755,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_21_text">
-		<text>ある人物から%sを持ってくるように頼まれた。</text>
+		<text>ある人物から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_21_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -773,7 +773,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_22_text">
-		<text>ある人物から%sを持ってくるように頼まれた。</text>
+		<text>ある人物から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_22_about">
 		<text>俺の分隊はゾーンの他の場所に向かう準備をしている。
@@ -793,7 +793,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_23_text">
-		<text>ある人物から%sを持ってくるように頼まれた。</text>
+		<text>ある人物から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_23_about">
 		<text>俺の装備を見てくれ。古くてボロボロだろ？放ったらかしにしてたらガタが来ちまった。
@@ -813,7 +813,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="simulation_task_24_text">
-		<text>ある人物が装備をアップグレードしたいと考えている。%sを見つけて持って来るように頼まれた。</text>
+		<text>ある人物が装備をアップグレードしたいと考えている。%sを見つけて持って来るよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_24_about">
 		<text>技術者は俺の装備を改造するために特別な品が必要だと言っていた。
@@ -836,7 +836,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="simulation_task_25_text">
-		<text>ある人物が装備をアップグレードしたいと考えている。%sを見つけて持って来るように頼まれた。</text>
+		<text>ある人物が装備をアップグレードしたいと考えている。%sを見つけて持って来るよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_25_about">
 		<text>ここに錆びついた銃があるだろ？そろそろ特別な手入れをしてやらなきゃならない。
@@ -856,7 +856,7 @@
 		<text>捜索と救助</text>
 	</string>
 	<string id="simulation_task_26_text">
-		<text>ストーカーから、Banditの集団に囚われた彼の相棒を救助するように頼まれた。</text>
+		<text>ストーカーから、Banditの集団に囚われた彼の相棒を救助するよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_26_about">
 		<text>頼むよ、助けてくれ。俺の友人がBanditに襲われて人質にされちまった。
@@ -873,7 +873,7 @@
 		<text>捜索と救助</text>
 	</string>
 	<string id="simulation_task_27_text">
-		<text>捕虜にされているDutyのメンバーを救助するように頼まれた。</text>
+		<text>捕虜にされているDutyのメンバーを救助するよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_27_about">
 		<text>俺たちの戦士が襲撃を受け、捕虜にされている！
@@ -890,7 +890,7 @@
 		<text>捜索と救助</text>
 	</string>
 	<string id="simulation_task_28_text">
-		<text>捕虜になっているFreedomのメンバーを救助するように頼まれた。</text>
+		<text>捕虜になっているFreedomのメンバーを救助するよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_28_about">
 		<text>俺らの仲間が襲われて人質にされちまった！
@@ -939,7 +939,7 @@
 		<text>復讐殺人</text>
 	</string>
 	<string id="simulation_task_31_text">
-		<text>ストーカーは戦友の死の復讐を望んでいる。</text>
+		<text>ストーカーが戦友の仇討ちを望んでいる。</text>
 	</string>
 	<string id="simulation_task_31_about">
 		<text>Banditが昨夜、俺たちの野営地に侵入し、冷酷にも友人を殺しやがった。
@@ -1053,7 +1053,7 @@
 		<text>研究対象地域の掃討</text>
 	</string>
 	<string id="simulation_task_38_text">
-		<text>地元の派閥が科学者を悩ませている。研究を行うために、彼らを排除するよう依頼された。</text>
+		<text>地元の派閥が科学者を悩ませている。研究を行うために、彼らを排除するよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_38_about">
 		<text>重要な研究を行わなければならないエリアがあるんだが、そこに居座ってる連中がいてね。
@@ -1227,10 +1227,10 @@
 		<text>小荷物の配達</text>
 	</string>
 	<string id="simulation_task_47_text_0">
-		<text>$commから、彼の友人に$item_1を届けるように頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
 	</string>
 	<string id="simulation_task_47_text_1">
-		<text>$commから、彼の友人に$item_1を届けるように頼まれた。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_47_about">
 		<text>友人に届ける大事な荷物があるんだが、仕事でここから離れられなくてな。
@@ -1250,10 +1250,10 @@
 		<text>小荷物の配達</text>
 	</string>
 	<string id="simulation_task_48_text_0">
-		<text>$commから、彼の友人に$item_1を届けるように頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
 	</string>
 	<string id="simulation_task_48_text_1">
-		<text>$commから、彼の友人に$item_1を届けるように頼まれた。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_48_about">
 		<text>この小さな荷物を同僚に届けてくれないか？
@@ -1273,10 +1273,10 @@
 		<text>小荷物の配達</text>
 	</string>
 	<string id="simulation_task_49_text_0">
-		<text>$commから、彼の友人に$item_1を届けるように頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
 	</string>
 	<string id="simulation_task_49_text_1">
-		<text>$commから、彼の友人に$item_1を届けるように頼まれた。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_49_about">
 		<text>いいか、この小包が見えるだろ？俺はこいつを、気まぐれな友人に届けたいんだ。
@@ -1355,22 +1355,22 @@
 		<text>$commから行方不明の分隊員を追跡する依頼を受けたが、捜索には$item_1が必要だ。</text>
 	</string>
 	<string id="simulation_task_52_text_1">
-		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるように頼まれた。$mapに向かわなければならない。</text>
+		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるよう頼まれた。$mapに向かわなければならない。</text>
 	</string>
 	<string id="simulation_task_52_text_2">
-		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるように頼まれた。$item_1を使って周波数を$freqMHzに設定し、見失った信号を探そう。</text>
+		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるよう頼まれた。$item_1を使って周波数を$freqMHzに設定し、見失った信号を探そう。</text>
 	</string>
 	<string id="simulation_task_52_text_3">
-		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるように頼まれた。見つけた$item_2を回収しなければならない。</text>
+		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるよう頼まれた。見つけた$item_2を回収しなければならない。</text>
 	</string>
 	<string id="simulation_task_52_text_4">
-		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるように頼まれた。発見したものを持って彼に報告しよう。</text>
+		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるよう頼まれた。発見したものを持って彼に報告しよう。</text>
 	</string>
 	<string id="simulation_task_52_about">
 		<text>急ぎで頼みたいことがある。
 \n数日前に仲間の分隊を任務に送り出したんだが、帰還中に消息を絶ってしまった。
 \n姿も痕跡も、跡形もなく消えちまったんだ！頼む、俺の仲間を探し出してくれ。
-\nせめて、何が起こったのか分かる手がかりだけでも見つけてほしい。
+\nせめて、何が起こったのかわかる手がかりだけでも見つけてほしい。
 
 \n\nRF受信機は持ってるだろ？俺たちはその装置で連絡を取り合っていたんだ。
 \nそれを使えば、分隊の最後の居場所を突き止められるはずだ。</text>
@@ -1406,7 +1406,7 @@
 	</string>
 	<string id="simulation_task_54_about">
 		<text>聞きな。俺は足のつかないライフルが欲しいんだ。
-\n言ってる意味は分かるか？手伝ってくれるよな？</text>
+\n言ってる意味はわかるか？手伝ってくれるよな？</text>
 	</string>
 	<string id="simulation_task_54_fetch_about">
 		<text>%sが欲しい。買う、盗む、奪う、何だっていい。
@@ -1552,7 +1552,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_62_text">
-		<text>Sinの信者から%sの回収を依頼された。</text>
+		<text>Sinの信者から%sの回収を頼まれた。</text>
 	</string>
 	<string id="simulation_task_62_about">
 		<text>ゾーンは、はびこる汚物どもから浄化されねばならない。
@@ -1616,7 +1616,7 @@
 		<text>夜の捕食者を追う</text>
 	</string>
 	<string id="simulation_task_66_text">
-		<text>夜に徘徊する危険な捕食者を探し出すのを手助けするように頼まれた。夜明け前に見つけなくてはならない。</text>
+		<text>夜間に徘徊する危険な捕食者の排除を頼まれた。夜が明ける前に探し出さなければならない。</text>
 	</string>
 	<string id="simulation_task_66_about">
 		<text>昨日の夜、捕食者がこの地域をうろついていた。そいつは仲間の一人を殺したんだ。
@@ -1629,7 +1629,7 @@
 		<text>獣退治</text>
 	</string>
 	<string id="simulation_task_67_text">
-		<text>夜間に徘徊する危険な生物の駆除を依頼された。さらなるストーカーの犠牲者が増える前に見つけなくてはならない。</text>
+		<text>夜間に徘徊する危険な化け物の駆除を頼まれた。さらなるストーカーの犠牲者が増える前に探し出さなければならない。</text>
 	</string>
 	<string id="simulation_task_67_about">
 		<text>聞いてくれ、ストーカー。俺たちは、危険な化け物を始末する任務を受けている。
@@ -1657,7 +1657,7 @@
 \nあんたが気に入りそうな報酬を用意して待ってるからさ。</text>
 	</string>
 	<string id="simulation_task_68_fetch_finish">
-		<text>ようやく見つけたな！俺がこいつをどれほど探してたか分かるか？
+		<text>ようやく見つけたな！俺がこいつをどれほど探してたかわかるか？
 \nほら、これが報酬だ。</text>
 	</string>
 
@@ -1714,7 +1714,7 @@
 \n報酬は用意してある。きっと気に入るはずだ。</text>
 	</string>
 	<string id="simulation_task_71_fetch_finish">
-		<text>やっとか！どれだけこいつを探し回ってたか、お前には分からないだろうな･･････
+		<text>やっとか！どれだけこいつを探し回ってたか、お前にはわからないだろうな･･････
 \nほら、約束の報酬だ。</text>
 	</string>
 	
@@ -1733,7 +1733,7 @@
 \nあんたが喜びそうな、素晴らしい報酬を用意しとくよ。</text>
 	</string>
 	<string id="simulation_task_72_fetch_finish">
-		<text>やっとか！俺がこいつをどれだけ探していたか、あんたには分からないだろうな･･････
+		<text>やっとか！俺がこいつをどれだけ探していたか、あんたにはわからないだろうな･･････
 \nこれを受け取ってくれ。報酬だ。</text>
 	</string>
 	
@@ -1746,7 +1746,7 @@
 	</string>
 	<string id="simulation_task_73_about">
 		<text>なあ、ちょっと聞いてくれ。
-\nこれが軍規違反に当たることは分かっているが･･････ 俺の任期はもうすぐ終わりだ。
+\nこれが軍規違反に当たることはわかっているが･･････ 俺の任期はもうすぐ終わりだ。
 \nだから、土産を持ち帰りたいと思ってる。アーティファクトを持ってきてくれないか？</text>
 	</string>
 	<string id="simulation_task_73_fetch_about">
@@ -2039,7 +2039,7 @@
 		<text>Ecologistのために%sを集める</text>
 	</string>
 	<string id="simulation_task_89_text">
-		<text>Ecologistから、%sの組織サンプルを持ってくるように頼まれた。</text>
+		<text>Ecologistから、%sの組織サンプルを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_89_about">
 		<text>経験豊富なストーカーかミュータントハンターを探している。
@@ -2090,7 +2090,7 @@
 		<text>Ecologistのために%sを集める</text>
 	</string>
 	<string id="simulation_task_92_text">
-		<text>Ecologistから、%sの組織サンプルを持ってくるように頼まれた。</text>
+		<text>Ecologistから、%sの組織サンプルを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_92_about">
 		<text>経験豊富なストーカーかミュータントハンターを探している。
@@ -2189,7 +2189,7 @@
 		<text>Ecologistのために%sを集める</text>
 	</string>
 	<string id="simulation_task_98_text">
-		<text>Ecologistから、%sの組織サンプルを持ってくるように頼まれた。</text>
+		<text>Ecologistから、%sの組織サンプルを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_98_about">
 		<text>経験豊富なストーカーかミュータントハンターを探している。
@@ -2207,7 +2207,7 @@
 		<text>Ecologistのために%sを集める</text>
 	</string>
 	<string id="simulation_task_99_text">
-		<text>Ecologistから、%sの組織サンプルを持ってくるように頼まれた。</text>
+		<text>Ecologistから、%sの組織サンプルを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_99_about">
 		<text>経験豊富なストーカーかミュータントハンターを探している。
@@ -2243,7 +2243,7 @@
 		<text>Lonerのために%sを集める</text>
 	</string>
 	<string id="simulation_task_101_text">
-		<text>Lonerから%sを持ってくるように頼まれた。</text>
+		<text>Lonerから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_101_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2259,7 +2259,7 @@
 		<text>Clear Skyのために%sを集める</text>
 	</string>
 	<string id="simulation_task_102_text">
-		<text>Clear Skyの隊員から%sを持ってくるように頼まれた。</text>
+		<text>Clear Skyの隊員から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_102_about">
 		<text>俺たちのチームはゾーンの遠征に向けて準備しているんだが、物資が足りないんだ。</text>
@@ -2275,7 +2275,7 @@
 		<text>Freedomのために%sを集める</text>
 	</string>
 	<string id="simulation_task_103_text">
-		<text>Freedomのメンバーから%sを持ってくるように頼まれた。</text>
+		<text>Freedomのメンバーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_103_about">
 		<text>俺らはゾーンの遠征に向けて準備中なんだが、物資が足りないんだ。</text>
@@ -2291,7 +2291,7 @@
 		<text>Banditのために%sを集める</text>
 	</string>
 	<string id="simulation_task_104_text">
-		<text>Banditから%sを持ってくるように頼まれた。</text>
+		<text>Banditから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_104_about">
 		<text>オレたちはゾーンの遠征に向けて準備してるんだが、物資が足りねえ。</text>
@@ -2307,7 +2307,7 @@
 		<text>Renegadeのために%sを集める</text>
 	</string>
 	<string id="simulation_task_105_text">
-		<text>Renegadeから%sを持ってくるように頼まれた。</text>
+		<text>Renegadeから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_105_about">
 		<text>俺たちはゾーンの遠征に向けて準備してるんだが、物資が足りねえんだ。</text>
@@ -2323,7 +2323,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_106_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_106_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2339,7 +2339,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_107_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_107_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2355,7 +2355,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_108_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_108_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2371,7 +2371,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_109_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_109_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2387,7 +2387,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_110_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_110_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2403,7 +2403,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_111_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_111_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2419,7 +2419,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_112_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_112_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2435,7 +2435,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_113_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_113_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2451,7 +2451,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_114_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_114_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2467,7 +2467,7 @@
 		<text>放浪者のために%sを集める</text>
 	</string>
 	<string id="simulation_task_115_text">
-		<text>放浪者から%sを持ってくるように頼まれた。</text>
+		<text>放浪者から%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_115_about">
 		<text>ゾーンでの長旅に向けて仲間と準備中なんだが、物資が少し足りなくてな。</text>
@@ -2485,7 +2485,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_116_text">
-		<text>仲間のストーカーから%sを持ってくるように頼まれた。</text>
+		<text>仲間のストーカーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_116_about">
 		<text>俺の分隊は遠征に向かう準備をしている。最悪の事態に備えて、予備の物資を用意したい。
@@ -2501,7 +2501,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_117_text">
-		<text>仲間のストーカーから%sを持ってくるように頼まれた。</text>
+		<text>仲間のストーカーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_117_about">
 		<text>俺の分隊は遠征に向かう準備をしている。最悪の事態に備えて、予備の物資を用意したい。
@@ -2517,7 +2517,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_118_text">
-		<text>仲間のストーカーから%sを持ってくるように頼まれた。</text>
+		<text>仲間のストーカーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_118_about">
 		<text>俺の分隊は遠征に向かう準備をしている。最悪の事態に備えて、予備の物資を用意したい。
@@ -2533,7 +2533,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_119_text">
-		<text>仲間のストーカーから%sを持ってくるように頼まれた。</text>
+		<text>仲間のストーカーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_119_about">
 		<text>俺の分隊は遠征に向かう準備をしている。最悪の事態に備えて、予備の物資を用意したい。
@@ -2549,7 +2549,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_120_text">
-		<text>仲間のストーカーから%sを持ってくるように頼まれた。</text>
+		<text>仲間のストーカーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_120_about">
 		<text>俺の分隊は遠征に向かう準備をしている。最悪の事態に備えて、予備の物資を用意したい。
@@ -2565,7 +2565,7 @@
 		<text>%sを集める</text>
 	</string>
 	<string id="simulation_task_121_text">
-		<text>仲間のストーカーから%sを持ってくるように頼まれた。</text>
+		<text>仲間のストーカーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_121_about">
 		<text>重要な任務のために、ゾーンの危険地帯に踏み込む準備を進めているところだ。
@@ -2585,7 +2585,7 @@
 		<text>Freedomのために%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_122_text">
-		<text>Freedomのメンバーから%sを持ってくるように頼まれた。</text>
+		<text>Freedomのメンバーから%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_122_about">
 		<text>よぉ、兄弟、%sを･･････ その･･････ 持ってきてくれないか？
@@ -2771,7 +2771,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="fetch_drugkit_task_text">
-		<text>%sを持ってくるように頼まれた。</text>
+		<text>%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="fetch_drugkit_task_about">
 		<text>毎日治療しなければならない怪我の数を考えると、医薬品を維持するのは大変だ。

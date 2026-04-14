@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <string_table>
-  <string id="encyclopedia__notes">
-    <text>メモ</text>
-  </string>
-  <string id="encyclopedia__notes__state">
-    <text>装備の耐久値</text>
-  </string>
-  <string id="encyclopedia__notes__state_text">
-    <text>装備品の耐久値リスト</text>
-  </string>
-  <string id="encyclopedia__notes__ironman">
-    <text>アイアンマンの状態</text>
-  </string>
-  <string id="encyclopedia__notes__ironman_text">
-    <text>アイアンマンの状態: </text>
-  </string>
-  <string id="encyclopedia__notes_mysteries_of_the_zone">
-    <text>ゾーンの謎</text>
-  </string>
-  <string id="encyclopedia__notes_mysteries_of_the_zone_text">
-    <text>
+	<string id="encyclopedia__notes">
+		<text>メモ</text>
+	</string>
+	<string id="encyclopedia__notes__state">
+		<text>装備の耐久値</text>
+	</string>
+	<string id="encyclopedia__notes__state_text">
+		<text>装備品の耐久値リスト</text>
+	</string>
+	<string id="encyclopedia__notes__ironman">
+		<text>アイアンマンの状態</text>
+	</string>
+	<string id="encyclopedia__notes__ironman_text">
+		<text>アイアンマンの状態: </text>
+	</string>
+	<string id="encyclopedia__notes_mysteries_of_the_zone">
+		<text>ゾーンの謎</text>
+	</string>
+	<string id="encyclopedia__notes_mysteries_of_the_zone_text">
+		<text>
 \nストレロクの古い友人がこの辺りに隠れている。彼に会って、ゾーンについてもっと知ることができる良い機会かもしれない。唯一の問題は、私が彼がどこにいるのか何の手がかりもないということだ。
 \n赤い森の老人「フォレスター」なら、誰がどこにいるかを知っているかもしれない。どうやら彼らはある種のつながりを持っているようだ。</text>
-  </string>
-  <string id="encyclopedia__notes_living_legend">
-    <text>ストレロクのバックにいる者？</text>
-  </string>
-  <string id="encyclopedia__notes_living_legend_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_living_legend">
+		<text>ストレロクが帰ってきた？</text>
+	</string>
+	<string id="encyclopedia__notes_living_legend_text">
+		<text>
 \n噂によると、最近、伝説のストーカーが帰ってきたらしい。彼はゾーンの中心まで行った数少ないひとりだ。
-                        \nみんな大騒ぎしている。たぶん俺に会いたいんだろうな。</text>
-  </string>
-  <string id="encyclopedia__notes_mortal_sin">
-    <text>新たな派閥？</text>
-  </string>
-  <string id="encyclopedia__notes_mortal_sin_text">
-    <text>
+												\nみんな大騒ぎしている。たぶん俺に会いたいんだろうな。</text>
+	</string>
+	<string id="encyclopedia__notes_mortal_sin">
+		<text>新たな派閥？</text>
+	</string>
+	<string id="encyclopedia__notes_mortal_sin_text">
+		<text>
 \n緊迫した空気が漂う。謎のストーカーが徘徊し、説教をしたり、自分の「一族」に加わるように説得したりしているのが目撃されているが、彼らの真の動機や目的についてはほとんど知られていない。
 \n嵐が来ているようだ。%sを見るべきだ。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_cooking_1">
-    <text>シェフのメモ</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_cooking_1_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_cooking_1">
+		<text>シェフのメモ</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_cooking_1_text">
+		<text>
 \nいくつかの手書きページには、特定の温度でアルコールによってミュータントの肉をマリネ調理にする詳細なレシピが書かれていた。ノートによると、それは照射して肉の害の影響を減らすことができる。書き手はやり手のゾーン住人のようだ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_memoirs_1_of_2">
-    <text>ストーカーの日記 #1</text>
-  </string>
-  <string id="encyclopedia__notes_letter_memoirs_1_of_2_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_1_of_2">
+		<text>ストーカーの日記 #1</text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_1_of_2_text">
+		<text>
 \n古くて色あせたノートをカードスリーブに入れて、傷むのを保護した。ただ、経年劣化に十分耐えることができず、テキストのほんの一部しか判読できない。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_memoirs_1_of_2_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_1_of_2_text2">
+		<text>
 
-                        \n \n俺はこれを書き留めなければならない。それによって、俺の負担を減らすことができると思う。そして、俺が死んだ後に俺の遺産が残り、誰も俺と同じ過ちを犯さないように、誰かがこれを読んでくれることを願うばかりだ。
+												\n \n俺はこれを書き留めなければならない。それによって、俺の負担を減らすことができると思う。そして、俺が死んだ後に俺の遺産が残り、誰も俺と同じ過ちを犯さないように、誰かがこれを読んでくれることを願うばかりだ。
 
-                        \n \n俺には友達があまりいない。ゾーンにも友達はいない。トレーダーたちは皆、俺を仲間はずれにするような目で見ている。ザトンの髭面の男は会うたびに皮肉な笑みを浮かべているし、ハワイの商人はのんびりした態度で俺を馬鹿にしている。俺が必要としているのは、弾薬と食料と水だけだ。
+												\n \n俺には友達があまりいない。ゾーンにも友達はいない。トレーダーたちは皆、俺を仲間はずれにするような目で見ている。ザトンの髭面の男は会うたびに皮肉な笑みを浮かべているし、ハワイの商人はのんびりした態度で俺を馬鹿にしている。俺が必要としているのは、弾薬と食料と水だけだ。
 
-                        \n \nこの文章を書き始めたのは、少なくとも誰かにあの夜、俺が何を経験したか、何が起こったかを知ってもらい、なぜ俺が常にひとりでいることを好むのかを理解してもらいたかったからだ。俺はひとりでここに来たのだが、すぐにある新入りとペアを組んだ。そいつは鉱石が好きな奴だった。
+												\n \nこの文章を書き始めたのは、少なくとも誰かにあの夜、俺が何を経験したか、何が起こったかを知ってもらい、なぜ俺が常にひとりでいることを好むのかを理解してもらいたかったからだ。俺はひとりでここに来たのだが、すぐにある新入りとペアを組んだ。そいつは鉱石が好きな奴だった。
 
-                        \n \n彼は石を集めるのが趣味で、いろいろな石を持っていたから、当然、ゾーン特有の奇妙な石である「アーティファクト」を次のステップにしていた。そのおかげで、お腹に太い腫瘍ができたのだと思われる。頻繁に吐いたり、下痢をしたり、ストレスがたまったりして、まるで妊婦のようだった。赤ちゃんの代わりにこの悪性の巨大な腫瘍ができてしまったのだ。最初に飼った子犬の名前にもなっていた。
+												\n \n彼は石を集めるのが趣味で、いろいろな石を持っていたから、当然、ゾーン特有の奇妙な石である「アーティファクト」を次のステップにしていた。そのおかげで、お腹に太い腫瘍ができたのだと思われる。頻繁に吐いたり、下痢をしたり、ストレスがたまったりして、まるで妊婦のようだった。赤ちゃんの代わりにこの悪性の巨大な腫瘍ができてしまったのだ。最初に飼った子犬の名前にもなっていた。
 
-                        \n \n俺は反対しかった。彼は良い仲間だったし、当時の俺にはそれが必要だった。俺たちはバンディットを襲うこともなく、ほとんどのミュータントを避け、ただアノマリーの周辺をぶらつき、面白い石を拾い、運が良ければいくつかのアーティファクトを手に入れた。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_memoirs_2_of_2">
-    <text>ストーカーの日記 #2</text>
-  </string>
-  <string id="encyclopedia__notes_letter_memoirs_2_of_2_text">
-    <text>
+												\n \n俺は反対しかった。彼は良い仲間だったし、当時の俺にはそれが必要だった。俺たちはバンディットを襲うこともなく、ほとんどのミュータントを避け、ただアノマリーの周辺をぶらつき、面白い石を拾い、運が良ければいくつかのアーティファクトを手に入れた。</text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_2_of_2">
+		<text>ストーカーの日記 #2</text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_2_of_2_text">
+		<text>
 \n古くて色あせたメモをカードスリーブに入れて、傷むのを保護した。ただ、経年劣化に十分耐えることができず、テキストのほんの一部しか判読できない。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_memoirs_2_of_2_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_memoirs_2_of_2_text2">
+		<text>
 
-                        \n \n洞窟や地割れの奥深くにあると言われるこのアノマリーについては、話題になっていた。膨大な量のアーティファクトがあるはずなのに、なぜか誰もそこに行こうとしない。
-                        
-                        \n \n臆病者や愚か者だと思っていたが、一攫千金のチャンスに飛びつき、悠々自適の生活を送ろうとする人がいるのだ。
-                        
-                        \n \nそれで、急に勇気が湧いてきて、荷物をまとめて洞窟に直行したんだ。洞窟の中を覗くこともできず、暗い影が俺たちの上に飛んできた。俺はつまずき、気がついたら頭を打っていて、そのまま気を失ってしまった。
-                        
-                        \n \nしばらくして気がつくと、何か、誰かのうめき声が聞こえてきた。最初は動物かと思ったが、目の前に倒れているのが友人だとわかった。全身の皮膚が破れ、筋肉が出血し、傷口から骨が突き出ているのが見えた。剥き出しになった内臓を不器用に手で押さえながら、洞窟の外に向かって這い出そうとしていた。その場で死ななかったのが奇跡だった。
-                        
-                        \n \nいったい何が起こったのか？俺は何もわからなかった。俺はまだ予備のピストルを持っていたので、何かの防衛手段として、洞窟の暗闇に向かって撃ち始めた。そのピストルには20発入っていて、単発に切り替えた。弾が7発残っていた時、何かが俺の手を掴み、引き金を引かせた。
-                        
-                        \n \nその時は、自分の銃がどこを向いているのか、どこを撃っているのかも分からなかったが、止めることはできなかった。しかし、あまりのショックに、弾倉が空になっても引き金を引き続けてしまった。もし止めていたら、友人にしたことを直視しなければならなかっただろうと思った。彼のドッグタグ（認識票）を取る勇気もなかった。ただ走っただけです。
-                        
-                        \n \n誰かに相談したり、他の友達を作ったりしても、ゾーンがそれを奪ってしまうかもしれない。ひとりの方がいい。友情には代償とリスクがつきものだ。束の間の温かい友情も、最悪の形で失うことになれば、価値はない。今、俺の頭にはそのことを思い出させてくれるこのコブがある。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_freedom_manual_1_of_2">
-    <text>尋問のテクニック: 基本編 #1</text>
-  </string>
-  <string id="encyclopedia__notes_letter_freedom_manual_1_of_2_text">
-    <text>
+												\n \n洞窟や地割れの奥深くにあると言われるこのアノマリーについては、話題になっていた。膨大な量のアーティファクトがあるはずなのに、なぜか誰もそこに行こうとしない。
+												
+												\n \n臆病者や愚か者だと思っていたが、一攫千金のチャンスに飛びつき、悠々自適の生活を送ろうとする人がいるのだ。
+												
+												\n \nそれで、急に勇気が湧いてきて、荷物をまとめて洞窟に直行したんだ。洞窟の中を覗くこともできず、暗い影が俺たちの上に飛んできた。俺はつまずき、気がついたら頭を打っていて、そのまま気を失ってしまった。
+												
+												\n \nしばらくして気がつくと、何か、誰かのうめき声が聞こえてきた。最初は動物かと思ったが、目の前に倒れているのが友人だとわかった。全身の皮膚が破れ、筋肉が出血し、傷口から骨が突き出ているのが見えた。剥き出しになった内臓を不器用に手で押さえながら、洞窟の外に向かって這い出そうとしていた。その場で死ななかったのが奇跡だった。
+												
+												\n \nいったい何が起こったのか？俺は何もわからなかった。俺はまだ予備のピストルを持っていたので、何かの防衛手段として、洞窟の暗闇に向かって撃ち始めた。そのピストルには20発入っていて、単発に切り替えた。弾が7発残っていた時、何かが俺の手を掴み、引き金を引かせた。
+												
+												\n \nその時は、自分の銃がどこを向いているのか、どこを撃っているのかもわからなかったが、止めることはできなかった。しかし、あまりのショックに、弾倉が空になっても引き金を引き続けてしまった。もし止めていたら、友人にしたことを直視しなければならなかっただろうと思った。彼のドッグタグ（認識票）を取る勇気もなかった。ただ走っただけです。
+												
+												\n \n誰かに相談したり、他の友達を作ったりしても、ゾーンがそれを奪ってしまうかもしれない。ひとりの方がいい。友情には代償とリスクがつきものだ。束の間の温かい友情も、最悪の形で失うことになれば、価値はない。今、俺の頭にはそのことを思い出させてくれるこのコブがある。</text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_1_of_2">
+		<text>尋問のテクニック: 基本編 #1</text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_1_of_2_text">
+		<text>
 \n右上に大きなフリーダムの記章があり、膝をついた人間にハンドガンを向けているシンプルな絵が描かれている説明用の小冊子である。タイトルは「尋問のテクニック」であり、派閥の典型的なゆったりとしたスラングで書かれている。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_freedom_manual_1_of_2_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_1_of_2_text2">
+		<text>
 
 \n \n当たり前のことだから言うべきですらなかったが、本当に、このマニュアルを広めない、見せない、売らないでほしい。
 
@@ -107,32 +107,32 @@
 \n \n誰もがスタッシュを持っている。どんなに貧しいバンディットでもゾーンでは食料や弾薬を隠し持っているものだ。それがここでのやり方だ。お金を集め、アーティファクトやミュータントの身体部位を売り、まだ温かい死体を略奪し、食料や武器を買う。そうして、窮地に立たされたとき、バカみたいにニヤニヤしながら凝視して煽るのではなく、自分の命を救えるようなネタを用意しておくのだ。
 
 \n \nここは過酷な時代であり、過酷な場所であり、ここで失敗しても誰も助けてはくれない。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_freedom_manual_2_of_2">
-    <text>尋問のテクニック: 基本編 #2</text>
-  </string>
-  <string id="encyclopedia__notes_letter_freedom_manual_2_of_2_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_2_of_2">
+		<text>尋問のテクニック: 基本編 #2</text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_2_of_2_text">
+		<text>
 \n右上に大きなフリーダムの記章があり、膝をついた人間にハンドガンを向けているシンプルな絵が描かれている説明用の小冊子である。タイトルは「尋問のテクニック」であり、派閥の典型的なゆったりとしたスラングで書かれている。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_freedom_manual_2_of_2_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_freedom_manual_2_of_2_text2">
+		<text>
 
 \n \nだが、その安全第一の姿勢を利用することもできる。誰かのスタッシュの情報を手に入れたいなら、被害者を慎重に選ぶことを忘れるな。
 
 \n \nそれが済んで、すべての準備が完了したら、場所や人がいないことなどを確認して、心理的にやり込めろ。足や腕を撃ち、ウンコを漏らし、おまえが世界で一番親しい友人だと思われるまで痛みを感じさせる。そしてある瞬間、彼らは武器を捨てておまえの前にひざまずくだろう。
 
 \n \n優しいが毅然とした態度で、親切だが説得的な態度で、彼らに話しかけろ。彼らは人間だし、ミュータントもたくさんいるし、ゾーンをこれ以上悪くしないために、彼らを殺すのはやめよう。それに、おまえはまだスタッシュが欲しいんだろう？顔を切り落としてやると言って、怖がらせて、これで終わりだと思わせれば、彼らはスタッシュを必要としなくなる。彼らはすぐにスタッシュをあきらめて逃げ出すだろう。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_1_of_2">
-    <text>回想録 #1</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_1_of_2_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_1_of_2">
+		<text>回想録 #1</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_1_of_2_text">
+		<text>
 \n手記の数ページを切り取ったもの。青いインクで手書きされているが、環境要因の影響でにじんでしまい、文字が非常に見づらくなっている。作者は不明。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_1_of_2_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_1_of_2_text2">
+		<text>
 
 \n \nあのアノマリーの熱をまだ背中に感じている。スカドフスクにいても、危険から遠く離れた安全な場所にいても、溶鉱炉から遠く離れた場所にいても、熱さを感じる。だから、俺が実際にアノマリーに近づいたときに、どんな目に合うか、お前は想像することができるだろう。
 \nああ、地獄だ、もちろんもっと燃えている。これは俺の有機的なアノマリー検出器なのだ。バーナーアノマリーに当たったり、毒性アノマリーに毒されたりすると、簡単には落ちないし、まったく落ちないんだ。まるでゾーンの一部を自分の中に取り込んでしまったかのように、一生を棒に振ることになる。「ゾーンの特徴」だな。
@@ -140,16 +140,16 @@
 \n \nしかし、悪夢は･･････ 最悪だ。物理的な法則を無視した悪夢を見ると、今までの自信を失ってしまう。
 \n想像してみろ。俺は真夜中に目の前に現れた10匹のブラッドサッカーを処理できる。鍛えられた戦士だから簡単なんだ。しかし、これらのアノマリーが、科学のあらゆる法則に違反しているという事実は、ただただ恐ろしい。そんなことが可能なのか？俺が知っている現実は、本当の現実なのか？ゾーンそのものが悪い夢で、目を覚ましたいと思うあまり、別の悪夢の中で目を覚まし、再びゾーンの中に入っていくということが繰り返される。それを何度か繰り返すうちに、心臓がドキドキしてきて、汗だくになって叫びながらベッドから飛び起きるのだ。
 \nおまえがこの理屈に従うと、ウサギの穴の奥に入ってしまうだろう。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_2_of_2">
-    <text>回想録 #2</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_2_of_2_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_2_of_2">
+		<text>回想録 #2</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_2_of_2_text">
+		<text>
 \n手記の数ページを切り取ったもの。青いインクで手書きされているが、環境要因の影響でにじんでしまい、文字が非常に見づらくなっている。作者は不明。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_2_of_2_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_2_of_2_text2">
+		<text>
 
 \n \n考えるたびに、背中が痛くて震えて、真っ赤になってしまう。
 \n俺はこの4か月間、アノマリーとは無縁で、狩猟で生計を立てようとしていたが、俺たちのような者には長い目で見れば決して選択肢がないことをおまえは知っているはず。
@@ -158,12 +158,12 @@
 
 \n \nたまにザトンの花火を見に行くんだけど、背中の皮膚が痛くてバックパックを持つのがやっとなんだよね。何かを置いてきたような気がして、時々呼びに来るからだ。背中の傷が痛くて火傷しそうだから、寝るときはうつ伏せか横向きで寝ている。
 \n俺は横向きで寝るのが嫌いで、ずっと後ろ向きで寝ていた。ゾーンはおまえに許可も得ず、変化を強要する。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_1_of_3">
-    <text>歩く死体の調査報告書39B改訂2版（パート1）</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_1_of_3_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_1_of_3">
+		<text>歩く死体の調査報告書39B改訂2版（パート1）</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_1_of_3_text">
+		<text>
 \nエコロジスト研究チームの記章が刻印された機械入力の文書だ。極秘扱いで署名されている。
 
 \n \nアルカディ ボエトコフスキー
@@ -174,9 +174,9 @@
 \n \n• 年月日: 2014年3月19日
 \n• パケット: 34
 \n• ページ : 3ページのうちの1ページ目</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_1_of_3_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_1_of_3_text2">
+		<text>
 
 \n \nこの「ゾンビ」とは、現地の人が使う言葉で、感覚があるどころか、ほとんど生きていない標本のことである。
 \n科学的なデータによると、彼らの脳は思考回路を持たず、神経活動もほとんどないため、基本的には脳死状態であるとされている。しかし、科学的に解明されていない理由で、単純な機械的反応（本能を連想させるが、論理的には大きく異なる）をすることが野外実験で証明されている。
@@ -185,12 +185,12 @@
 
 \n \n生理面では、体の一部を切り離しても、栄養がなくても機能するという、科学的にも興味深い自立能力を持っていることが実験で明らかになっている。肝臓と心臓は、他の臓器や血流に接続されていないにもかかわらず、3か月以上にわたって維持することができた。
 \nさらに分析しても、分子や原子レベルでの特異性は示唆されない。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_2_of_3">
-    <text>歩く死体の調査報告書39B改訂2版（パート2）</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_2_of_3_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_2_of_3">
+		<text>歩く死体の調査報告書39B改訂2版（パート2）</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_2_of_3_text">
+		<text>
 \nエコロジスト研究チームの記章が刻印された機械入力の文書だ。極秘扱いで署名されている。
 
 \n \nアルカディ ボエトコフスキー
@@ -201,9 +201,9 @@
 \n \n• 年月日: 2014年3月19日
 \n• パケット: 34
 \n• ページ : 3ページのうちの2ページ目</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_2_of_3_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_2_of_3_text2">
+		<text>
 
 \n \n手足や骨盤、末梢器官などを何度も撃たれても、ほとんど不自由なく機能することができるのは、私たちの発見が有効な説明の根拠となるからである。
 \n歩行には支障があり、走ることはまったくできないが、武器で狙いを定めて引き金を引くという反射には影響がないようだ。他の道具や、あまり複雑ではない装置の使用も同様である。
@@ -212,12 +212,12 @@
 \n非活性化のためには、物理的に運動システムとのリンクを切断する必要がある。そのためには、脳や脊髄にダメージを与える必要があり、できれば銃弾の外傷によって行う。
 
 \n \n科学チームのメンバーは、非活性化の後も手足が動くことを念頭に置き、特別な注意を払う必要がある。特に、頸椎や脳幹を外科器具や、それが使えない場合は鋭利なもので物理的に除去するのが効果的である。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_3_of_3">
-    <text>歩く死体の調査報告書39B改訂2版（パート3）</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_3_of_3_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_3_of_3">
+		<text>歩く死体の調査報告書39B改訂2版（パート3）</text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_3_of_3_text">
+		<text>
 \nエコロジスト研究チームの記章が刻印された機械入力の文書だ。極秘扱いで署名されている。
 
 \n \nアルカディ ボエトコフスキー
@@ -228,9 +228,9 @@
 \n \n• 年月日: 2014年3月19日
 \n• パケット: 34
 \n• ページ : 3ページのうちの3ページ目</text>
-  </string>
-  <string id="encyclopedia__notes_letter_ecologist_report_3_of_3_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_ecologist_report_3_of_3_text2">
+		<text>
 
 \n \n非常に稀なケースだが、ある「ゾンビ」は、より洗練された動物を思わせる行動を示す。
 \n彼らは武器を捨てたり、完全に戦闘を拒否したりする。これらの標本は我々の研究にとって非常に価値のあるものであるため、無効化することはおすすめできない。
@@ -241,128 +241,128 @@
 \n \n万が一、採取中にストーカーと遭遇した場合、戦闘の可能性を最小限に抑えるためには2つの行動がある。
 \nまず、経験の浅いストーカーには、標本の目を見せるのが効果的である。瞳孔がまったく反応せず、目玉が人間離れしているように見えるからだ。
 \n次に、経験豊富なストーカーは、感情を抑えることができるので、理性的に対応することができる。しかし、理性的なコミュニケーションが取れない場合もあるので、現地の人間を相手にする場合は心理学的な専門知識を活用することをおすすめする。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_1_of_3">
-    <text>モノリスへの祈り #1</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_1_of_3_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_1_of_3">
+		<text>モノリスへの祈り #1</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_1_of_3_text">
+		<text>
 \nいくつかの段落からなる無題の文書。モノリスに頻繁に言及していることから、書かれた文章が宗教的な性質を持っていることがわかる。紙の保存状態が非常に良いことから、状態が悪化しないように大切に扱われてきたことがうかがえる。祈りの文章はこうだ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_1_of_3_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_1_of_3_text2">
+		<text>
 
-                        \n \nああ、モノリス様！
-                        \n私たちはあなたに祈っています！
+												\n \nああ、モノリス様！
+												\n私たちはあなたに祈っています！
 
-                        \n \nああ、モノリス様！
-                        闇の中の唯一の光
+												\n \nああ、モノリス様！
+												闇の中の唯一の光
 
-                        \n \nああ、モノリス様！
-                        心に希望を持って、私たちは行進します！
-                        私たちは異教徒に向かって行進します！
+												\n \nああ、モノリス様！
+												心に希望を持って、私たちは行進します！
+												私たちは異教徒に向かって行進します！
 
-                         \n \nああ、モノリス様！
-                        私たちの罪を許してください！
+												 \n \nああ、モノリス様！
+												私たちの罪を許してください！
 
-                        \n \nああ、モノリス様！
-                        私たちの運命をお示しださい！
-                        
-                        \n \nああ、モノリス様！
-                        目的を果たすための力を与えてください！
+												\n \nああ、モノリス様！
+												私たちの運命をお示しださい！
+												
+												\n \nああ、モノリス様！
+												目的を果たすための力を与えてください！
 
-                        \n \nああ、モノリス様！
-                        あなたの敵を倒すための希望を与えてください！
+												\n \nああ、モノリス様！
+												あなたの敵を倒すための希望を与えてください！
 
-                        \n \nああ、モノリス様！
-                        あなたの光を私たちにおめぐみください！
+												\n \nああ、モノリス様！
+												あなたの光を私たちにおめぐみください！
 
-                        \n \nああ、モノリス様！
-                        私たちはあなたに祈ります！
+												\n \nああ、モノリス様！
+												私たちはあなたに祈ります！
 
-                        \n \nああ、モノリス様！
-                        私たちはあなたの子孫です！
+												\n \nああ、モノリス様！
+												私たちはあなたの子孫です！
 
-                        \n \nああ、モノリス様！
-                        私たちの唯一の希望である救済を！
+												\n \nああ、モノリス様！
+												私たちの唯一の希望である救済を！
 
-                        \n \nああ、モノリス様！
-                        あなたの名前は私たちの心の中にあります！</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_2_of_3">
-    <text>モノリスへの祈り #2</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_2_of_3_text">
-    <text>
+												\n \nああ、モノリス様！
+												あなたの名前は私たちの心の中にあります！</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_2_of_3">
+		<text>モノリスへの祈り #2</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_2_of_3_text">
+		<text>
 \nいくつかの段落からなる無題の文書。モノリスに頻繁に言及していることから、書かれた文章が宗教的な性質を持っていることがわかる。紙の保存状態が非常に良いことから、状態が悪化しないように大切に扱われてきたことがうかがえる。祈りの文章はこうだ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_2_of_3_text2">
-    <text>
-                        \n \nモノリスの戦士たちよ、私たちは立ち上がる！
-                        \n \nああ、モノリス様、私たちの光よ！
-                        \n私たちの魂、私たちの心をささげ
-                        \n奴らを浄化せよ！
-                        \n疑問や迷いを払拭せよ！
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_2_of_3_text2">
+		<text>
+												\n \nモノリスの戦士たちよ、私たちは立ち上がる！
+												\n \nああ、モノリス様、私たちの光よ！
+												\n私たちの魂、私たちの心をささげ
+												\n奴らを浄化せよ！
+												\n疑問や迷いを払拭せよ！
 
-                        \n \nああ、モノリス様、私たちの希望よ！
-                        \n私たちはあなたの兵士です！
-                        \n私たちはあなたのために命をささげたいのです
-                        \n私たちの魂をあなたにささげます
-                        \nそして、私たちはあなたとひとつになりたいのです
+												\n \nああ、モノリス様、私たちの希望よ！
+												\n私たちはあなたの兵士です！
+												\n私たちはあなたのために命をささげたいのです
+												\n私たちの魂をあなたにささげます
+												\nそして、私たちはあなたとひとつになりたいのです
 
-                        \n \nああ、モノリス様、私たちはあなたの道からすべての障害を取り除きます！
-                        \n心臓をささげよ！
-                        \n血をささげよ！
-                        \n魂をささげよ！
-                        \nそして、奴らを再び完全なものにせよ！
-                        \nあなたは私たちの中にいます、ああ、モノリス様。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_3_of_3">
-    <text>モノリスへの祈り #3</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_3_of_3_text">
-    <text>
+												\n \nああ、モノリス様、私たちはあなたの道からすべての障害を取り除きます！
+												\n心臓をささげよ！
+												\n血をささげよ！
+												\n魂をささげよ！
+												\nそして、奴らを再び完全なものにせよ！
+												\nあなたは私たちの中にいます、ああ、モノリス様。</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_3_of_3">
+		<text>モノリスへの祈り #3</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_3_of_3_text">
+		<text>
 \nいくつかの段落からなる無題の文書。モノリスに頻繁に言及していることから、書かれた文章が宗教的な性質を持っていることがわかる。紙の保存状態が非常に良いことから、状態が悪化しないように大切に扱われてきたことがうかがえる。祈りの文章はこうだ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolith_prayer_3_of_3_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolith_prayer_3_of_3_text2">
+		<text>
 
-                        \n \nああ、モノリス様！
-                        \nあなたは私たちの運命の人です。
-                        \nそして私たちは兄弟です。
-                        \n私たちはモノリス様の光の兄弟です。
-                        \n私たちはあなたの目的のために死にます。
-                        \n私たちはあなたの名の下に死にます。
-                        \n私たちはあなたの光のために死にます。
-                        \n死は始まりに過ぎません。
-                        \n私たちはあなたの名前を口にして行進します、ああ、モノリス様！</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolithian_thoughts">
-    <text>モノリス信者の日記</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolithian_thoughts_text">
-    <text>
+												\n \nああ、モノリス様！
+												\nあなたは私たちの運命の人です。
+												\nそして私たちは兄弟です。
+												\n私たちはモノリス様の光の兄弟です。
+												\n私たちはあなたの目的のために死にます。
+												\n私たちはあなたの名の下に死にます。
+												\n私たちはあなたの光のために死にます。
+												\n死は始まりに過ぎません。
+												\n私たちはあなたの名前を口にして行進します、ああ、モノリス様！</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolithian_thoughts">
+		<text>モノリス信者の日記</text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolithian_thoughts_text">
+		<text>
 \n手書きの一枚の紙。最初の方は、まるで重度の精神障害を患っているかのように、非常に雑然とした文字で書かれている。興味深いことに、用紙の下の方に行くほど、文章はより平易になり、文字はより鮮明になり、最後の言葉はほとんど完璧な、機械のような正確さで書かれている。そのメモの文章はこうだ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_monolithian_thoughts_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_monolithian_thoughts_text2">
+		<text>
 
-\n \n覚えている限りでは、俺の周りには暗闇が広がっていて、何も見えなかった。何も･･････ 何時間も。でも、突然、光が見えたんだ！とても明るい光、とても心地良い光･･････ 触ってみたい、感じてみたいと思った。それは、俺を救うために、俺を助けようとしているのだと思った。俺は分かった･･････ 
+\n \n覚えている限りでは、俺の周りには暗闇が広がっていて、何も見えなかった。何も･･････ 何時間も。でも、突然、光が見えたんだ！とても明るい光、とても心地良い光･･････ 触ってみたい、感じてみたいと思った。それは、俺を救うために、俺を助けようとしているのだと思った。俺はわかった･･････ 
 
 \n \nそして、その光に触れた後、俺はすべてを忘れてしまった。俺の後ろには命はなく、闇だけがあった。目の前には光しかなかった。
 \nその名はモノリス。モノリス様は俺を救ってくれた。俺は感謝している。
 \n時々、俺は顔を見ることがある、過去の顔を･･････ 女性と子供･･････ 俺の家族？白いオーバーオールを着ている･･････ 俺は科学者だったのかもしれない･･････ この奇妙な言葉･･････ レーダー･･････ いや！これはあの闇だ！俺を死なせたいんだ！俺を殺させはしない！
 \n帰り道はない！俺の目の前には光しかない！光に向かって！モノリスのために！</text>
-  </string>
-  <string id="encyclopedia__notes_letter_letter_to_outside">
-    <text>ナタリーへの手紙</text>
-  </string>
-  <string id="encyclopedia__notes_letter_letter_to_outside_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_letter_to_outside">
+		<text>ナタリーへの手紙</text>
+	</string>
+	<string id="encyclopedia__notes_letter_letter_to_outside_text">
+		<text>
 \nストーカーのひとりがゾーンの外の人に宛てたと思われる手紙。手に持っているということは、その手紙が相手に届かなかったということだ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_letter_to_outside_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_letter_to_outside_text2">
+		<text>
 
 \n \nやあ、ナタリー！
 
@@ -376,15 +376,15 @@
 
 \n \nたくさんの愛を込めて。
 \n君のミカエル。君の勇敢なストーカーより</text>
-  </string>
-  <string id="encyclopedia__notes_letter_military_stalker">
-    <text>軍のストーカーのメモ</text>
-  </string>
-  <string id="encyclopedia__notes_letter_military_stalker_text">
-    <text>隠し場所で見つけたメモ。退屈な夜を過ごしていた誰かが、その成果を焚き火に投げ込むのではなく、残しておこうと思ったようだ。メモの文面はこうだ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_military_stalker_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_stalker">
+		<text>軍のストーカーのメモ</text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_stalker_text">
+		<text>隠し場所で見つけたメモ。退屈な夜を過ごしていた誰かが、その成果を焚き火に投げ込むのではなく、残しておこうと思ったようだ。メモの文面はこうだ。</text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_stalker_text2">
+		<text>
 
 \n \n\nそうさ。望んでいたきれいな生活が手に入ったんだな。俺はついに軍のストーカーになったんだ。ゾーン内での活動を法的に認められたんだよ。
 \n数年間、この地獄で生き延びてきただけのことはある。俺を殺そうとした軍の間抜けどもは、俺に敬礼をしなければならなくなった。「はい、上官」「ということだ」「いいえ、上官。3つのバッグが満杯です」彼らは俺の言うことは何でも聞く。信じられないことだ。スペツナズやオモン（ロシア内務省に直属する特殊部隊）でさえ、俺に敬意を持って接してくれている。もし先週会ってたら、俺は迷わず彼らの眉間に弾をぶち込んでいただろうな。
@@ -392,53 +392,53 @@
 \n \nそして今は、最高のアーマーを着せてくれる。最高の武器。最高の道具と食料。今、俺は王様のように食べ、今日は久しぶりに体調不良を感じなかった。嫁さんに仕送りできるくらいの稼ぎもある。
 
 \n \nただ、一つだけ問題がある。仕事中に普通のストーカーを近づけてはいけないんだ。俺の指揮官が言うには、もし彼らが近づいてきたら、すぐに発砲しなければならないらしい。俺のストーカー仲間はみんな死んでしまったから、知り合いに銃を向けることはないが、ふと疑問に思うことがある。人々が俺を見たら、もうずいぶん昔に俺が見つからないように隠れていた、「同じ種類の鉄のブーツを履いた怪物」に見えるのではないだろうか。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_mercenary">
-    <text>傭兵のメモ</text>
-  </string>
-  <string id="encyclopedia__notes_letter_mercenary_text">
-    <text>\n
+	</string>
+	<string id="encyclopedia__notes_letter_mercenary">
+		<text>傭兵のメモ</text>
+	</string>
+	<string id="encyclopedia__notes_letter_mercenary_text">
+		<text>\n
 傭兵のひとりが書いたメモ。ゾーンでの活動について考えたことを書き留めたようだ。その目的は不明である。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_mercenary_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_mercenary_text2">
+		<text>
 
 \n \nつまり、俺が見る限り、ここには特別なものは何もない。
 \n俺たちは傭兵であり、幸運の兵士であることに変わりはない。でも、何をするか、何をしないかは自分で決められる。時には、仕事を引き受けないこともある。それは、俺たちにとってあまりにも「汚い」からだ。汗水たらして働く善良な人々を殺したいという顧客がいるならば、そんなクソ野郎をやっちまえ。奴らはゾーンに行って、自分たちで問題を解決することだってできるはずだ。
 \n襲撃者や脱走者、その他の卑劣な連中、常にやれるぜ。いつでも、どこでも。ただし、自分の身を守らなければならないときは別だ。だが、無実の人を殺したいなら、アメリカの傀儡どもに聞いてみるといい。奴らは見境なく殺す。
 
 \n \n俺たちは違う。今度、俺たちに金を渡すときには、このことを覚えておけ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_military_log">
-    <text>通信ログ／MSRC作戦／2014年5月4日 18:36:21</text>
-  </string>
-  <string id="encyclopedia__notes_letter_military_log_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_log">
+		<text>通信ログ／MSRC作戦／2014年5月4日 18:36:21</text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_log_text">
+		<text>
 \nゾーンに駐留する軍の部隊間の無線通信を印刷したもの。SKAT隊員のひとりが持っていたということは、おそらく調査データの持ち出しなどの秘密工作に関わっていたのだろう。書き出しはこうだ。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_military_log_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_military_log_text2">
+		<text>
 
-                        \n \n本部、こちらはMSRC 1-03です。我々はNIIの写真を持っています。沼地での写真が240枚、そこの本部基地の写真が約1400枚です。いつ戻りますか？
-                        \nMSRC 1-03、こちらは本部。今は戻ってくるな。軍事倉庫で問題が発生している。MSRC 4-07が助けを求めている。またしてもだ。しかし、今回はSOS信号が強いから、少なくとも生きていることはわかる。
-                        \nえー、了解です、本部。ヘリはどうですか？
-                        \nダメだ。NIIアフロプロムにはアノマリー発生場所が多すぎて、危険だ。ヤンターに行け。MI-24が迎えに来る。
-                        \n了解です。次の爆発についての情報はありますか？
-                        \nある。サチャロフによると、少なくとも2日間は残っているそうだ。とにかく急げ。彼らの情報は信用できない。
-                        \n分かりました。ヘリには7時間後にヤンターに到着するように伝えてください。MSRC 1-03、出動します。
-                        \n待て、1-03。N-2の地下はどうだった？何か見つけたか？
-                        \nはい。新しいアノマリーを見つけました。それはある種のテレポートのようです。プサイフィールドを測定しようとしたとき、検出器が壊れました。理由は不明ですが、おそらく電子波のせいだと思います。
-                        \n了解、MSRC 1 -03。頑張ってヤンターに行ってくれ。7時間後に連絡する。本部から、通信終了。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_3">
-    <text>ニコライへの手紙</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_3_text">
-    <text>
+												\n \n本部、こちらはMSRC 1-03です。我々はNIIの写真を持っています。沼地での写真が240枚、そこの本部基地の写真が約1400枚です。いつ戻りますか？
+												\nMSRC 1-03、こちらは本部。今は戻ってくるな。軍事倉庫で問題が発生している。MSRC 4-07が助けを求めている。またしてもだ。しかし、今回はSOS信号が強いから、少なくとも生きていることはわかる。
+												\nえー、了解です、本部。ヘリはどうですか？
+												\nダメだ。NIIアフロプロムにはアノマリー発生場所が多すぎて、危険だ。ヤンターに行け。MI-24が迎えに来る。
+												\n了解です。次の爆発についての情報はありますか？
+												\nある。サチャロフによると、少なくとも2日間は残っているそうだ。とにかく急げ。彼らの情報は信用できない。
+												\nわかりました。ヘリには7時間後にヤンターに到着するように伝えてください。MSRC 1-03、出動します。
+												\n待て、1-03。N-2の地下はどうだった？何か見つけたか？
+												\nはい。新しいアノマリーを見つけました。それはある種のテレポートのようです。プサイフィールドを測定しようとしたとき、検出器が壊れました。理由は不明ですが、おそらく電子波のせいだと思います。
+												\n了解、MSRC 1 -03。頑張ってヤンターに行ってくれ。7時間後に連絡する。本部から、通信終了。</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_3">
+		<text>ニコライへの手紙</text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_3_text">
+		<text>
 \nニコライに宛てた手書きの手紙。2人のストーカーの間で交わされた会話の一部と思われる。ゾーン内での手紙のやりとりは、主にPDAを使ったメッセージで行われるが、プライベートなことや友人同士の場合は、昔ながらの方法でやりとりをしたいという人もいる。これらの手紙は、ガイドのように最も困難で危険な仕事を任されている配達人に渡される。手紙が相手に届くまでには数日かかることが多いが、それでもメッセージを傍受される可能性はPDA通信の場合よりもはるかに低い。配達人という職業は、ストーカー仲間の間では非常に評価が高く、ストーカーコミュニティの中で重要な影響力を持つ立場にある。手紙にはこう書かれている。</text>
-  </string>
-  <string id="encyclopedia__notes_letter_stalker_letter_3_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_letter_stalker_letter_3_text2">
+		<text>
 \n \nニコライへ、
 
 \n \nゾーンの中心部への旅から戻ってきた。地獄だったよ。
@@ -449,92 +449,92 @@
 \n \n前に話したことに戻ると、俺たちの任務は安全になるまで延期しなければならないらしい。帰ってきてから一睡もできなかったけど、少なくとも身体的には大丈夫だと伝えたかったんだ。連絡を取り合おう。
 
 \n \n体に気を付けろよ、ルアより。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_basic_1_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_basic_1_text">
+		<text>
 \nこのガイドでは、基本的なサバイバルスキルについて詳しく説明し、一般的なサバイバルキットの概要が記載されている。後の章では、一般的な素材から基本的なギアを作成する方法について説明されている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_basic_2_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_basic_2_text">
+		<text>
 \nこのガイドでは、基本的なサバイバルスキルについて詳しく説明し、一般的なサバイバルキットの概要が記載されている。後の章では、一般的な素材から基本的なギアを作成する方法について説明されている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_basic_3_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_basic_3_text">
+		<text>
 \nこのガイドでは、基本的なサバイバルスキルについて詳しく説明し、一般的なサバイバルキットの概要が記載されている。後の章では、一般的な素材から基本的なギアを作成する方法について説明されている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_basic_4_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_basic_4_text">
+		<text>
 \nこのガイドでは、基本的なサバイバルスキルについて詳しく説明し、一般的なサバイバルキットの概要が記載されている。後の章では、一般的な素材から基本的なギアを作成する方法について説明されている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_advanced_1_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_advanced_1_text">
+		<text>
 \n機械工学のマニュアル。一部の人々はそのような本を読んで専門知識を広げ、ゾーン内の施設や工場についてさらに学習する。基本的な機械および電気機器に関する詳細が含まれている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_advanced_2_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_advanced_2_text">
+		<text>
 \n機械工学のマニュアル。一部の人々はそのような本を読んで専門知識を広げ、ゾーン内の施設や工場についてさらに学習する。基本的な機械および電気機器に関する詳細が含まれている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_advanced_3_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_advanced_3_text">
+		<text>
 \n機械工学のマニュアル。一部の人々はそのような本を読んで専門知識を広げ、ゾーン内の施設や工場についてさらに学習する。基本的な機械および電気機器に関する詳細が含まれている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_advanced_4_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_advanced_4_text">
+		<text>
 \n機械工学のマニュアル。一部の人々はそのような本を読んで専門知識を広げ、ゾーン内の施設や工場についてさらに学習する。基本的な機械および電気機器に関する詳細が含まれている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_expert_1_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_expert_1_text">
+		<text>
 \n産業工学のマニュアル。とてもにためになる。オペアンプ、半導体ダイオード、バイポーラ接合トランジスタ、電界効果トランジスタなど、最新の電子機器の動作について説明されている。このマニュアルの後半では、電気機器のトラブルシューティングを扱っている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_expert_2_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_expert_2_text">
+		<text>
 \n産業工学のマニュアル。とてもにためになる。オペアンプ、半導体ダイオード、バイポーラ接合トランジスタ、電界効果トランジスタなど、最新の電子機器の動作について説明されている。このマニュアルの後半では、電気機器のトラブルシューティングを扱っている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_expert_3_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_expert_3_text">
+		<text>
 \n産業工学のマニュアル。とてもにためになる。オペアンプ、半導体ダイオード、バイポーラ接合トランジスタ、電界効果トランジスタなど、最新の電子機器の動作について説明されている。このマニュアルの後半では、電気機器のトラブルシューティングを扱っている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_expert_4_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_expert_4_text">
+		<text>
 \n産業工学のマニュアル。とてもにためになる。オペアンプ、半導体ダイオード、バイポーラ接合トランジスタ、電界効果トランジスタなど、最新の電子機器の動作について説明されている。このマニュアルの後半では、電気機器のトラブルシューティングを扱っている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_drug_1_text">
-    <text>
-\n本から切り離された2、3ページ集。色々な外的要因の影響で汚い青インクで手書きされ、文章が非常に分かりにくい。文面は、一般的な医薬品を使用した様々な種類の薬物や医薬品の作成について説明がされている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_drug_2_text">
-    <text>
-\n本から切り離された2、3ページ集。色々な外的要因の影響で汚い青インクで手書きされ、文章が非常に分かりにくい。文面は、一般的な医薬品を使用した様々な種類の薬物や医薬品の作成について説明がされている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_drug_3_text">
-    <text>
-\n本から切り離された2、3ページ集。色々な外的要因の影響で汚い青インクで手書きされ、文章が非常に分かりにくい。文面は、一般的な医薬品を使用した様々な種類の薬物や医薬品の作成について説明がされている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_drug_4_text">
-    <text>
-\n本から切り離された2、3ページ集。色々な外的要因の影響で汚い青インクで手書きされ、文章が非常に分かりにくい。文面は、一般的な医薬品を使用した様々な種類の薬物や医薬品の作成について説明がされている。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_ammo_1_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_drug_1_text">
+		<text>
+\n本から切り離された2、3ページ集。色々な外的要因の影響で汚い青インクで手書きされ、文章が非常にわかりにくい。文面は、一般的な医薬品を使用した様々な種類の薬物や医薬品の作成について説明がされている。</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_drug_2_text">
+		<text>
+\n本から切り離された2、3ページ集。色々な外的要因の影響で汚い青インクで手書きされ、文章が非常にわかりにくい。文面は、一般的な医薬品を使用した様々な種類の薬物や医薬品の作成について説明がされている。</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_drug_3_text">
+		<text>
+\n本から切り離された2、3ページ集。色々な外的要因の影響で汚い青インクで手書きされ、文章が非常にわかりにくい。文面は、一般的な医薬品を使用した様々な種類の薬物や医薬品の作成について説明がされている。</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_drug_4_text">
+		<text>
+\n本から切り離された2、3ページ集。色々な外的要因の影響で汚い青インクで手書きされ、文章が非常にわかりにくい。文面は、一般的な医薬品を使用した様々な種類の薬物や医薬品の作成について説明がされている。</text>
+	</string>
+	<string id="encyclopedia__notes_recipe_ammo_1_text">
+		<text>
 \nあらゆるストーカーは、銃の選び方だけでなく、弾薬の選び方も知っておくべきである。この手引書では、様々な種類の弾薬についての情報と、カートリッジの基本的な構成要素についての詳細な見解を提供している。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_ammo_2_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_ammo_2_text">
+		<text>
 \nあらゆるストーカーは、銃の選び方だけでなく、弾薬の選び方も知っておくべきである。この手引書では、様々な種類の弾薬についての情報と、カートリッジの基本的な構成要素についての詳細な見解を提供している。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_ammo_3_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_ammo_3_text">
+		<text>
 \nあらゆるストーカーは、銃の選び方だけでなく、弾薬の選び方も知っておくべきである。この手引書では、様々な種類の弾薬についての情報と、カートリッジの基本的な構成要素についての詳細な見解を提供している。</text>
-  </string>
-  <string id="encyclopedia__notes_recipe_ammo_4_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_recipe_ammo_4_text">
+		<text>
 \nあらゆるストーカーは、銃の選び方だけでなく、弾薬の選び方も知っておくべきである。この手引書では、様々な種類の弾薬についての情報と、カートリッジの基本的な構成要素についての詳細な見解を提供している。</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_spirit">
-    <text>スピリットの取引に関するメモ</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_spirit_text">
-    <text>\nスピリットには妙な悪癖があるようだ･･････
+	</string>
+	<string id="encyclopedia__notes_note_from_spirit">
+		<text>スピリットの取引に関するメモ</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_spirit_text">
+		<text>\nスピリットには妙な悪癖があるようだ･･････
 \nウォッカと引き換えに軍需品を渡してくれるらしい。
 \n \nウォッカ（ネミロフ）5杯分:
 \n • 9x18mm FMJ弾を60発
@@ -554,76 +554,76 @@
 
 \n \nウォッカ（ネミロフ）20杯分:
 \n • ベーシックツール</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_aslan">
-    <text>アスランのメモ</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_aslan_text">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_note_from_aslan">
+		<text>アスランのメモ</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_aslan_text">
+		<text>
 \nアスランにはちょっとした趣味がある。彼は派閥パッチのコレクターで、「仲間が戦利品を得るための最適な方法だ」と言っている。
-                        \n以下はこれは彼が言ったことだ。
-                </text>
-  </string>
-  <string id="encyclopedia__notes_note_from_aslan_text2">
-    <text>
+												\n以下はこれは彼が言ったことだ。
+								</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_aslan_text2">
+		<text>
 
 \n \nストーカーのパッチを持ってくれば、部下が集めた戦利品に手を出すチャンスがあるってわけだ。良い取引だろ？派閥パッチを20枚で、アーティファクト隔離容器、医薬品、ツールキット、弾薬のクラフト素材、そしてアーティファクトのどれかが手に入る。より強く、より良い装備を持つ派閥のパッチは、より良い報酬と交換できる。例えば、デューティーのパッチはバンディットのパッチよりも高配当になる傾向がある。「なぜそんなに気前がいいのか」と思うかもしれないが･･････ なぜなら、多くの連中が戦闘の戦利品としてパッチを自分のものにしたいと思っているからだ。</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_trunk">
-    <text>「トランク」からのメモ</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_trunk_text">
-    <text>
-                        \n「トランク」は、他の種類の弾薬と交換で、俺に弾薬を提供できると言っている。余った弾薬を本当に必要とする弾薬と交換しているのだろう。
-                        \n彼は以下のことに関心がある。
+	</string>
+	<string id="encyclopedia__notes_note_from_trunk">
+		<text>「トランク」からのメモ</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_trunk_text">
+		<text>
+												\n「トランク」は、他の種類の弾薬と交換で、俺に弾薬を提供できると言っている。余った弾薬を本当に必要とする弾薬と交換しているのだろう。
+												\n彼は以下のことに関心がある。
 
-                        \n \n• 9x18mm +P+弾を100発なら、9x19mm FMJ弾を100発と交換する。
-                        \n• 5.45x39mm弾を100発なら、5.56x45mm弾を100発と交換する。
-                        \n• M203グレネード弾を20発なら、F1グレネード弾を10発と交換する。
-                        \n• RPG弾頭3発なら、RGD-5グレネード弾10発と交換する。</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_meeker">
-    <text>ミーカーのメモ</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_meeker_text">
-    <text>
-      \nグリフィンのグループが置かれている劣悪な状況にもかかわらず、ミーカーはいくつかの特別な装備を手に入れることができた。欲しいものを手に入れるためには、まず注文をしなければならない。
-      \n彼によると、一度に注文できるのは1つだけで、前払いなしで仕事をしているそうだ。発送の準備ができたら、彼からメッセージが届く。というわけで、私が注文できるものは以下の通りだ。
-    </text>
-  </string>
-  <string id="encyclopedia__notes_note_from_meeker_text2">
-        <text>
-        %c[pda_white] • [150,000ルーブル] ガウスライフル - 最強の兵器
-        \n• [11,000ルーブル] Carabiner - 軍用に改良されたSPAS-12
-        \n• [17,000ルーブル] Armsel Protecta - Strikerをベースにしたショットガン
-        \n• [14,000ルーブル] H&amp;K G36 - かつてない信頼性を誇るアサルトライフル
-        \n• [17,000ルーブル] FN F2000 - ベルギーでは希少なアサルトライフル
-        \n• [24,000ルーブル] OTs-03A SVU-A - SVDスナイパーライフルの珍しいコンパクトモデル
-        \n• [8,000ルーブル] «Steppe Eagle» - Desert Eagleをベースにした手作りのピストル
-        \n• [65,000ルーブル] «Alpine» - SIG P220の改良型
-        \n• [7,000ルーブル] «March» - UDP Compactの改良型
-        \n• [9,500ルーブル] «Frasier» - MP5をベースにした手作りのサブマシンガン
-        \n• [19,000ルーブル] «Storm» - OTs-14 Grozaの改良型
-        \n• [20,000ルーブル] «Tide» - VSS Vintorezの改良型
-        \n• [18,000ルーブル] «Lynx» - 軍用に改良されたSVD
-        \n• [100,000ルーブル] モノリス エクソスケルトン - モノリスのエクソスケルトン
-        \n• [75,000ルーブル] 傭兵用エクソスケルトン - 傭兵のエクソスケルトン
-        \n• [65,000ルーブル] バンディット エクソスケルトン - バンディットのエクソスケルトン
-        \n• [70,000ルーブル] 閉鎖循環型モノリススーツ
-        \n• [50,000ルーブル] 閉鎖循環型傭兵スーツ
-        \n
-        </text>
-  </string>
-  <string id="encyclopedia__notes_note_from_grifon">
-    <text>グリフィンのメモ</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_grifon_text">
-    <text>
+												\n \n• 9x18mm +P+弾を100発なら、9x19mm FMJ弾を100発と交換する。
+												\n• 5.45x39mm弾を100発なら、5.56x45mm弾を100発と交換する。
+												\n• M203グレネード弾を20発なら、F1グレネード弾を10発と交換する。
+												\n• RPG弾頭3発なら、RGD-5グレネード弾10発と交換する。</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_meeker">
+		<text>ミーカーのメモ</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_meeker_text">
+		<text>
+			\nグリフィンのグループが置かれている劣悪な状況にもかかわらず、ミーカーはいくつかの特別な装備を手に入れることができた。欲しいものを手に入れるためには、まず注文をしなければならない。
+			\n彼によると、一度に注文できるのは1つだけで、前払いなしで仕事をしているそうだ。発送の準備ができたら、彼からメッセージが届く。というわけで、私が注文できるものは以下の通りだ。
+		</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_meeker_text2">
+				<text>
+				%c[pda_white] • [150,000ルーブル] ガウスライフル - 最強の兵器
+				\n• [11,000ルーブル] Carabiner - 軍用に改良されたSPAS-12
+				\n• [17,000ルーブル] Armsel Protecta - Strikerをベースにしたショットガン
+				\n• [14,000ルーブル] H&amp;K G36 - かつてない信頼性を誇るアサルトライフル
+				\n• [17,000ルーブル] FN F2000 - ベルギーでは希少なアサルトライフル
+				\n• [24,000ルーブル] OTs-03A SVU-A - SVDスナイパーライフルの珍しいコンパクトモデル
+				\n• [8,000ルーブル] «Steppe Eagle» - Desert Eagleをベースにした手作りのピストル
+				\n• [65,000ルーブル] «Alpine» - SIG P220の改良型
+				\n• [7,000ルーブル] «March» - UDP Compactの改良型
+				\n• [9,500ルーブル] «Frasier» - MP5をベースにした手作りのサブマシンガン
+				\n• [19,000ルーブル] «Storm» - OTs-14 Grozaの改良型
+				\n• [20,000ルーブル] «Tide» - VSS Vintorezの改良型
+				\n• [18,000ルーブル] «Lynx» - 軍用に改良されたSVD
+				\n• [100,000ルーブル] モノリス エクソスケルトン - モノリスのエクソスケルトン
+				\n• [75,000ルーブル] 傭兵用エクソスケルトン - 傭兵のエクソスケルトン
+				\n• [65,000ルーブル] バンディット エクソスケルトン - バンディットのエクソスケルトン
+				\n• [70,000ルーブル] 閉鎖循環型モノリススーツ
+				\n• [50,000ルーブル] 閉鎖循環型傭兵スーツ
+				\n
+				</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_grifon">
+		<text>グリフィンのメモ</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_grifon_text">
+		<text>
 \nグリフィンたちはここしばらくプリピャチ郊外で立ち往生しており、手ぶらで帰るわけにはいかない。隠された研究所のひとつ「X-8」が北側のどこかにあり、傭兵たちはそこから重要な書類を見つけたいと思っている。そこにあるものを手に入れることができれば、いい報酬が得られるそうだ。</text>
-  </string>
-  <string id="encyclopedia__notes_note_from_grifon_text2">
-    <text>
+	</string>
+	<string id="encyclopedia__notes_note_from_grifon_text2">
+		<text>
 
 \n \n我々はこの地点の北側に位置するユビレイニー・サービスセンターの近くにあるラボX8の情報を得るためにここに来たんだ。施設に入った時に、「地下に繋がるエレベーター」を発見したんだが、くそったれ軍隊に邪魔されちまったんだ。奴等の熱烈なお出迎えのせいで命からがらここまで撤退して来たのさ。あの場所にはおそらくいくつかの書類が残っているはずだが･･････ とにかくドゥシュマンにぶっ殺される前にもう一度作戦を実行しようと思うんだが、奴等との戦闘で隊員を何名も失ったし、あのクソ共はウジャウジャいるときた。何とかしてこのクソッタレゾーンの中心から逃げるためにはこれ以上不必要な人員を増やしたくはないんだ。そこでだ、あんたはX-8に何かを探しにここに来たんだろうが、ついでに金稼ぎしないか？いずれにせよあそこに近づくには奴等とドンパチする必要があるしな。</text>
-  </string>
+	</string>
 </string_table>

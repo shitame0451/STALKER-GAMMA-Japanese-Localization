@@ -17,7 +17,7 @@
 		<text>X-8文書</text>
 	</string>
 	<string id="item_doc_x8_ll_desc">
-		<text>%c[pda_white]この文書には、正体不明の組織が行った大規模なプサイ研究の実験結果が簡潔に記されている。特に注目すべきは、地球を包み込む非接触型の情報フィールドの存在が確認されたこと、そしてこのフィールドに影響を与える可能性のある高度な機械についての簡単な記述だ。\n \nしかし、文書の大半は様々な周波数と強度のプサイ放射を浴びせられた被験者のリストで埋められている。多くの被験者は実験中に超人的な耐久力や知性、テレパシー能力を獲得したと記録されている。そのうちの一部は後に死亡し、また別の者は移送されたようだ。ほとんどの被験者は、まるで消え去るか脱走したかのように完全に行方不明になったと記録されている。\n \n文書の余白には「我々の理想のために、人間の形を大きく歪めてしまった！傲慢と罪が我々に報いをもたらすのはいつになるのだろうか？」というメモが走り書きされている。\n \nストレロクなら、間違いなくこの内容に興味を持つだろう。\n \n
+		<text>%c[pda_white]この文書には、正体不明の組織による大規模なプサイ研究の実験結果が簡潔にまとめられている。主な内容は、地球を覆う非接触型情報フィールドの存在、およびそのフィールドへ干渉し得る高度な機械装置に関する記述だ。\n \nしかし、文書の大半は、様々な周波数や強度のプサイ放射に曝された被験者のリストで埋め尽くされている。記録によれば、多くの被験者が実験中に超人的な耐久力、知性、テレパシー能力を獲得したという。その一部は後に死亡し、残りの者は他所へ移送されたと記されているが、ほとんどの被験者は、まるで消え失せたか脱走でもしたかのように、最終的には完全に消息不明となっている。\n \n文書の余白には「我々の理想のために、人間の形をこれほどまでに歪めてしまった！傲慢と罪が我々に報いをもたらすのは、一体いつになるのだろうか？」というメモが走り書きされている。\n \nストレロクであれば、この内容に間違いなく興味を抱くだろう。\n \n
 %c[pda_white]特性:\n
 %c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
 	</string>
@@ -26,7 +26,7 @@
 		<text>ストレロクのノート</text>
 	</string>
 	<string id="strelok_notes_desc">
-		<text>%c[pda_white]このノートはストレロクが使っていたものだ。ざっと読んでみると、かなり支離滅裂で不可解なメモが多い。どうやら彼は数年前に下した重大な決断について迷いを抱えていたようだ。その選択の正しさを確かめるため、ロストクで素早く補給を済ませ、北へ向かったことがわかる。\n \n
+		<text>%c[pda_white]これはストレロクが使っていたノートだ。ページをめくると、支離滅裂で不可解な記述が並んでいる。どうやら彼は、数年前に下した重大な決断に対し、激しい葛藤を抱えていたようだ。その選択の真実を確かめるため、ロストクで早急に補給を済ませ、北へと向かったことが記されている。\n \n
 %c[pda_white]特性:\n
 %c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
 	</string>
@@ -35,7 +35,7 @@
 		<text>ストレロクのフラッシュドライブ</text>
 	</string>
 	<string id="st_strelok_pendrive_descr">
-		<text>%c[pda_white]このフラッシュドライブには多くの暗号化されたデータが入っている。これは、ストレロクが長年にわたって行ってきた調査の成果をコピーしたものだ。ゾーンを作り出した極秘実験の貴重な証拠になるだろう。\n \n
+		<text>%c[pda_white]このフラッシュドライブには、多くの暗号化されたデータが収められている。これはストレロクが長年にわたり積み重ねてきた調査記録をコピーしたものだ。ゾーン誕生の裏に隠された極秘実験の、決定的な証拠となるだろう。\n \n
 %c[pda_white]特性:\n
 %c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
 	</string>
@@ -47,7 +47,7 @@
 		<text>生ける伝説: 旧友</text>
 	</string>
 	<string id="lttz_ll_find_doctor_task_descr">
-		<text>ストレロクの昔からの友人である「ドクター」は、沼地の北西の辺境にいる。彼に会い、ストレロクの手がかりを見つけなくては。</text>
+		<text>ストレロクの旧友「ドクター」は、沼地北西の辺境にいる。彼に会い、ストレロクの手がかりを見つけなくては。</text>
 	</string>
 
 	<!-- Living Legend Task 2 -->
@@ -55,26 +55,26 @@
 		<text>生ける伝説: 地下の隠れ家</text>
 	</string>
 	<string id="lttz_ll_visit_agro_ug_text">
-		<text>ドクターは、アフロプロム地下にあるストレロクの隠れ家に行き、彼の居場所の手がかりを見つけるよう提案した。</text>
+		<text>ドクターは、アフロプロム地下にあるストレロクの隠れ家へ向かい、彼の居場所の手がかりを探すよう提案した。</text>
 	</string>
 	<string id="lttz_ll_visit_agro_ug_text_2">
-		<text>ドクターのメモを読むと、ストレロクがアフロプロム地下に隠れていることがわかる。彼の居場所に関する手がかりを見つけるため、アフロプロム地下を調査するべきだろう。</text>
+		<text>ドクターのメモによれば、ストレロクはアフロプロム地下に身を潜めているらしい。彼の居場所の手がかりを掴むため、アフロプロム地下を調査すべきだ。</text>
 	</string>
 
 	<!-- Living Legend Task 3 -->
 	<string id="lttz_ll_visit_barkeep_task_title">
-		<text>生ける伝説: 手がかりををたどる</text>
+		<text>生ける伝説: 手がかりを辿る</text>
 	</string>
 	<string id="lttz_ll_visit_barkeep_task_descr">
-		<text>もしストレロクが補給のためにロストクを訪れていたのならば、バーキープが何か知っているかもしれない。彼に会いに行かなくては。</text>
+		<text>ストレロクがロストクに立ち寄ったのが本当なら、バーキープが何か知っているはずだ。彼に会って、話を聞く必要がある。</text>
 	</string>
 
 	<!-- Living Legend Task 3 -->
 	<string id="lttz_ll_visit_aslan_task_title">
-		<text>生ける伝説: 手がかりををたどる</text>
+		<text>生ける伝説: 手がかりを辿る</text>
 	</string>
 	<string id="lttz_ll_visit_aslan_task_descr">
-		<text>アスランはゾーン北部について豊富な知識を持っている。彼を訪ねよう。</text>
+		<text>アスランはゾーン北部について豊富な知識を持っている。彼を訪ねるべきだ。</text>
 	</string>
 
 	<!-- Living Legend Task 4 -->
@@ -82,10 +82,10 @@
 		<text>生ける伝説: 北の呼び声</text>
 	</string>
 	<string id="lttz_ll_call_north_task_descr">
-		<text>ブレイン・スコーチャーから身を守るために、プサイ防護装置を入手する。</text>
+		<text>ブレイン・スコーチャーから身を守るため、プサイ防護装置を入手する必要がある。</text>
 	</string>
 	<string id="lttz_ll_call_north_task_descr2">
-		<text>ゲートキーパーはバリアを守るベテランだ。彼はおそらくストレロクたちを最後に見た人物だろう。</text>
+		<text>ゲートキーパーはバリアを守り続けているベテランだ。彼なら、ストレロク一行の姿を目撃しているかもしれない。</text>
 	</string>
 
 	<!-- Living Legend Task 5 -->
@@ -93,10 +93,10 @@
 		<text>生ける伝説: 突破口</text>
 	</string>
 	<string id="lttz_ll_breakthrough_task_text">
-		<text>モノリスがバリアに侵入してきた。レーダーに向かうためには、奴らを倒す必要がある。</text>
+		<text>モノリスがバリアに侵入してきた。レーダーへ向かうには、奴らを排除するしかない。</text>
 	</string>
 	<string id="lttz_ll_talk_gatekeeper_task_descr">
-		<text>モノリスたちを撃退した。ゲートキーパーと話そう。</text>
+		<text>モノリスの襲撃を退けた。ゲートキーパーと話そう。</text>
 	</string>
 
 	<!-- Living Legend Task 6 -->
@@ -104,7 +104,7 @@
 		<text>生ける伝説: 虹の彼方に</text>
 	</string>
 	<string id="lttz_ll_deactivate_text">
-		<text>ゾーンの中心部へ向かうには、ブレイン・スコーチャーを無力化する必要がある。</text>
+		<text>ゾーンの中心部へ向かうには、ブレイン・スコーチャーを無力化しなければならない。</text>
 	</string>
 
 	<!-- Living Legend Task 7 -->
@@ -112,7 +112,7 @@
 		<text>生ける伝説: 孤立地域へ</text>
 	</string>
 	<string id="lttz_ll_visit_beard_task_descr">
-		<text>ゲートキーパーからビアードによろしく伝えてくれと言われた。ビアードならストレロクについて何か知っているかもしれない。</text>
+		<text>ゲートキーパーから、ビアードによろしく伝えてくれと頼まれた。ビアードなら、ストレロクについて何か知っているかもしれない。</text>
 	</string>
 
 	<!-- Living Legend Task 8 -->
@@ -120,7 +120,7 @@
 		<text>生ける伝説: ローグに会う</text>
 	</string>
 	<string id="lttz_ll_meet_rogue_task_descr">
-		<text>ストレロクの仲間のひとりであるローグは、現在スカドフスクにいる。彼と話して詳細を聞き出そう。</text>
+		<text>ストレロクの仲間のひとり、ローグは現在スカドフスクにいる。彼に会って、詳しい話を聞いてみるとしよう。</text>
 	</string>
 
 	<!-- Living Legend Task 9 -->
@@ -128,17 +128,17 @@
 		<text>生ける伝説: 実験兵器</text>
 	</string>
 	<string id="lttz_ll_fetch_gauss_task_descr">
-		<text>ローグから実験兵器を探すように頼まれた。それは放棄された軍事施設にあるという。</text>
+		<text>ローグから実験兵器の捜索を頼まれた。彼の話では、それは放棄された軍事施設にあるらしい。</text>
 	</string>
 	<string id="lttz_ll_fetch_gauss_task_descr2">
-		<text>実験兵器を見つけた。ローグの元へ戻ろう。</text>
+		<text>実験兵器を見つけた。ローグのところに戻ろう。</text>
 	</string>
 
 	<string id="lttz_ll_wpn_gauss_quest_name">
 		<text>«アイテム62»</text>
 	</string>
 	<string id="lttz_ll_wpn_gauss_quest_descr">
-		<text>アーティファクトを動力源とする実験的な武器。ゾーンで製造され、極めて精巧に作られている。通常の火薬の代わりに電磁力を利用し、レールガンのような原理で高速の弾丸を発射する。圧倒的な威力でありながら、その反動は驚くほど制御しやすい。同クラスの武器の中でも、その精度と火力は類を見ないものだ。\n \n
+		<text>アーティファクトを動力源とする実験兵器。ゾーンで製造された、極めて精巧な造りの武器だ。通常の火薬の代わりに電磁力を利用し、レールガンの原理で高速の弾丸を発射する。圧倒的な威力ながら、その反動は驚くほど制御しやすい。同クラスの武器の中でも、その精度と火力は類を見ない。\n \n
 %c[pda_white]特性:\n
 %c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
 %c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]/編集済み/\n</text>
@@ -152,7 +152,7 @@
 		<text>ローグと共にジュピター地下を移動する。</text>
 	</string>
 	<string id="lttz_ll_talk_rogue_underpass_task_descr">
-		<text>モノリスの待ち伏せを撃退した。現在の状況についてローグと話そう。</text>
+		<text>モノリスの待ち伏せを退けた。現在の状況についてローグと話そう。</text>
 	</string>
 	<string id="lttz_ll_reach_pripyat_task_descr">
 		<text>ローグと共にプリピャチにあるストレロクの隠れ家に行く。</text>
@@ -163,7 +163,7 @@
 		<text>生ける伝説: 医薬品</text>
 	</string>
 	<string id="lttz_ll_medical_supplies_text">
-		<text>ストレロクの衛生兵であるスティッチから%sを手に入れるように頼まれた。</text>
+		<text>ストレロクの衛生兵、スティッチから%sの調達を頼まれた。</text>
 	</string>
 
 	<!-- Living Legend Task 12 -->
@@ -171,10 +171,10 @@
 		<text>生ける伝説: 進撃の巨人</text>
 	</string>
 	<string id="lttz_ll_attack_on_titan_text">
-		<text>危険なシュードジャイアントがプリピャチをうろついている。致命的な混乱を避けるために、前もって駆除しておく必要がある。</text>
+		<text>危険なシュードジャイアントがプリピャチをうろついている。致命的な混乱を避けるため、前もって駆除しておく必要がある。</text>
 	</string>
 	<string id="lttz_ll_return_rogue_attack_on_titan_task_descr">
-		<text>シュードジャイアントを駆除した。ローグの元へ戻ろう。</text>
+		<text>シュードジャイアントを駆除した。ローグのところに戻ろう。</text>
 	</string>
 
 	<!-- Living Legend Task 13 -->
@@ -182,7 +182,7 @@
 		<text>生ける伝説: 極秘</text>
 	</string>
 	<string id="lttz_ll_find_documents_text">
-		<text>ラボX8にはゾーンに関する極秘情報があるという。その文書を見つけてストレロクに届けなくては。</text>
+		<text>ラボX8にはゾーンに関する極秘情報があるという。その文書を見つけ、ストレロクに届けなくては。</text>
 	</string>
 
 	<!-- Living Legend Task 14 -->
@@ -190,7 +190,7 @@
 		<text>生ける伝説: 先制攻撃</text>
 	</string>
 	<string id="lttz_ll_eidolon_start_task_descr">
-		<text>チームを編成し、エイドロンを倒すために出発する。</text>
+		<text>エイドロンを倒すため、チームを編成して出発しよう。</text>
 	</string>
 
 	<!-- Living Legend Task 15 -->
@@ -198,7 +198,7 @@
 		<text>生ける伝説: モノリスのチャンピオン</text>
 	</string>
 	<string id="lttz_ll_eidolon_task_descr">
-		<text>文化宮殿を襲撃してエイドロンを誘い出し、彼を倒す。</text>
+		<text>文化宮殿を襲撃してエイドロンを誘い出し、決着をつける。</text>
 	</string>
 
 	<!-- Living Legend Task 16 -->
@@ -211,10 +211,10 @@
 
 	<!-- Living Legend Task 17 -->
 	<string id="lttz_ll_chernobyl_raid_task_title">
-		<text>生ける伝説: チョルノービリ原子力発電所へ侵入</text>
+		<text>生ける伝説: チョルノービリ原子力発電所への侵入</text>
 	</string>
 	<string id="lttz_ll_chernobyl_raid_task_descr">
-		<text>チョルノービリ原子力発電所に到達し、そこを守っているモノリス部隊を倒す。</text>
+		<text>チョルノービリ原子力発電所に到達し、モノリス部隊を倒す。</text>
 	</string>
 
 	<!-- Living Legend Task 18 -->
@@ -222,14 +222,14 @@
 		<text>生ける伝説: 厳しい試練</text>
 	</string>
 	<string id="lttz_ll_crucible_task_descr">
-		<text>戦いながらモノリス中央制御室へ進み、ファントムを倒してモノリスの破片を見つける。</text>
+		<text>モノリス中央制御室へと進み、ファントムを倒してモノリスの破片を見つけ出す。</text>
 	</string>
 
 	<string id="item_monolith_shard_name">
 		<text>«モノリスの破片»</text>
 	</string>
 	<string id="item_monolith_shard_desc">
-		<text>伝説によるとこの物体は願望機から分離したもので、アーティファクトに似た特性を持っているという。不気味なエネルギーでパチパチと音を立てている。人類にはまだ知られていない悪意のある力が秘められているかもしれない。</text>
+		<text>伝説によれば、この物体は願望機から剥離した一部であり、アーティファクトに近い特性を持つという。不気味なエネルギーを纏い、絶えずパチパチと乾いた音を立てている。中には人類がいまだ知る由もない、悪意に満ちた力が宿っているのかもしれない。</text>
 	</string>
 
 	<!-- Living Legend Task 19 -->
@@ -237,7 +237,7 @@
 		<text>生ける伝説: 答え</text>
 	</string>
 	<string id="lttz_ll_answers_task_descr">
-		<text>モノリスの破片を手に入れた。真実を知る時がきた。</text>
+		<text>モノリスの破片を手に入れた。真実を知る時が来た。</text>
 	</string>
 
 	<!-- Living Legend Task 20 -->
@@ -246,22 +246,22 @@
 	</string>
 
 	<string id="lttz_ll_finish_csky_task_descr">
-		<text>コールドの元へ戻り、成功を報告する。</text>
+		<text>コールドのところに戻り、成功を報告する。</text>
 	</string>
 	<string id="lttz_ll_finish_stalker_task_descr">
-		<text>シドロヴィッチの元へ戻り、成功を報告する。</text>
+		<text>シドロヴィッチのところに戻り、成功を報告する。</text>
 	</string>
 	<string id="lttz_ll_finish_killer_task_descr">
-		<text>ドゥシュマンの元へ戻り、成功を報告する。</text>
+		<text>ドゥシュマンのところに戻り、成功を報告する。</text>
 	</string>
 	<string id="lttz_ll_finish_freedom_task_descr">
-		<text>ルカシュの元へ戻り、成功を報告する。</text>
+		<text>ルカシュのところに戻り、成功を報告する。</text>
 	</string>
 	<string id="lttz_ll_finish_dolg_task_descr">
-		<text>ヴォロニン将軍の元へ戻り、成功を報告する。</text>
+		<text>ヴォロニン将軍のところに戻り、成功を報告する。</text>
 	</string>
 	<string id="lttz_ll_finish_ecolog_task_descr">
-		<text>サハロフ教授の元へ戻り、成功を報告する。</text>
+		<text>サハロフ教授のところに戻り、成功を報告する。</text>
 	</string>
 
 	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->

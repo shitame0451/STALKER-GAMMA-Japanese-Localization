@@ -50,7 +50,7 @@
 		<text>中空の境界線: ヘルナンデス少佐のところに戻る</text>
 	</string>
 	<string id="lttz_hb_task_2_1_guarded_secrets_desc_1">
-		<text>ジュピター工場を調べ、ブリーフケースを見つける必要がある。目撃者はすべて排除しなければならない。</text>
+		<text>ジュピター工場を調査し、ブリーフケースを見つける必要がある。目撃者はすべて排除しなければならない。</text>
 	</string>
 	<string id="lttz_hb_task_2_1_guarded_secrets_desc_2">
 		<text>ブリーフケースをヘルナンデス少佐に渡す。</text>
@@ -104,7 +104,7 @@
 		<text>暴かれた謎</text>
 	</string>
 	<string id="lttz_hb_task_3_8_handle_docs_text">
-		<text>発見した証拠を持って少佐のもとに戻る。</text>
+		<text>発見した証拠を持って少佐のところに戻る。</text>
 	</string>
 
 	<!-- Hollow Boundaries Arc 4 -->
@@ -158,14 +158,14 @@
 		<text>マウスのために%sを見つける</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_1_text">
-		<text>マウスは基本的な装備の改造のために%sを必要としている。</text>
+		<text>マウスは基本的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_1_about">
 		<text>提案があるんだ。新しいツールを持ってきてくれたら、報酬を出すぜ。どうだ？</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_1_fetch_about">
-		<text>%sをあちこち探し回ってるんだがな。
-\n銃の修理に必要なもので、中にはオイルと工具が入ってるはずだ。
+		<text>%sを探してるんだが、なかなか見つからなくてな。
+\n銃の修理に必要で、オイルと工具が揃ってるはずだ。
 \n持ってきてくれたら、報酬は弾むぜ。</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_1_fetch_finish">
@@ -177,7 +177,7 @@
 		<text>マウスのために%sを見つける</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_2_text">
-		<text>マウスは高度な装備の改造のために%sを必要としている。</text>
+		<text>マウスは高度な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_2_about">
 		<text>もうひとつ提案があるんだ。
@@ -186,7 +186,7 @@
 	</string>
 	<string id="jup_depo_isg_tech_task_2_fetch_about">
 		<text>%sがどうしても必要なんだ。
-\nどこで手に入るか分からないが、もし手に入るなら、喉から手が出るほど欲しい。</text>
+\nどこで手に入るかわからないが、もし手に入るなら、喉から手が出るほど欲しい。</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_2_fetch_finish">
 		<text>必要なものが全部揃ってるな。助かったぜ。</text>
@@ -197,7 +197,7 @@
 		<text>マウスのために%sを見つける</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_3_text">
-		<text>マウスは専門的な装備の改造のために%sを必要としている。</text>
+		<text>マウスは専門的な装備の改造に%sを必要としている。</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_3_about">
 		<text>もうひとつ提案があるんだ。
@@ -206,7 +206,7 @@
 	</string>
 	<string id="jup_depo_isg_tech_task_3_fetch_about">
 		<text>%sがどうしても必要なんだ。
-\nどこで手に入るか分からないが、もし手に入るなら、喉から手が出るほど欲しい。</text>
+\nどこで手に入るかわからないが、もし手に入るなら、喉から手が出るほど欲しい。</text>
 	</string>
 	<string id="jup_depo_isg_tech_task_3_fetch_finish">
 		<text>必要なものが全部揃ってるな。助かったぜ。</text>
