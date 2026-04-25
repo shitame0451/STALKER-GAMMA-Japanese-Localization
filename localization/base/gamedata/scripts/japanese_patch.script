@@ -129,28 +129,26 @@ local function process_npc_name(se_obj)
 		local jp_name = milrank_name_patch(name)
 		if jp_name ~= name then
 			se_obj:set_character_name(jp_name)
-			--printf("[JP_PATCH] Replaced name: %s -> %s", name, jp_name)
+			--printf("[JP_PATCH] Replaced name: " .. tostring(name) .. " -> " .. tostring(jp_name))
 		end
 	end
 end
 
 -- ===================================================================
---  全NPCの名前を変換（言語変更時に実行）
+--  全NPCの名前を変換（初回・言語変更時に実行）
 -- ===================================================================
-local scan_counter = 0
-
 local function localize_all_npc_name()
 	local sim = alife()
-	if not sim then return end
+	if not sim then
+		return false
+	end
 
-	scan_counter = scan_counter + 1
 	local replaced = 0
-
 	for i = 1, 65534 do
 		local se_obj = sim:object(i)
 		if se_obj and IsStalker(nil, se_obj:clsid()) then
 			local name = se_obj:character_name()
-			if name and string.find(name, "%s") then
+			if name and string.find(name, " ") then
 				local jp_name = milrank_name_patch(name)
 				if jp_name ~= name then
 					se_obj:set_character_name(jp_name)
@@ -159,14 +157,39 @@ local function localize_all_npc_name()
 			end
 		end
 	end
+	--printf("[JP_PATCH] Replaced " .. tostring(replaced) .. " NPC names")
+	return true
+end
 
-	if replaced == 0 then
-		return true
-	else
-		CreateTimeEvent("jp_name_patch_scan_"..scan_counter, "scan_all_names_loop", 3, function()
-			return localize_all_npc_name()
-		end)
-		return true
+-- ===================================================================
+--  スキャン開始の共通処理
+-- ===================================================================
+local function start_localization_scan()
+	CreateTimeEvent("jp_name_patch_scan_start", "scan_all_names_loop", 3, function()
+		return localize_all_npc_name()
+	end)
+end
+
+local is_localized_in_save = false
+
+-- ===================================================================
+--  セーブデータへの状態保存
+-- ===================================================================
+function save_state(m_data)
+	m_data.japanese_patch_localized = is_localized_in_save
+end
+
+function load_state(m_data)
+	is_localized_in_save = m_data.japanese_patch_localized or false
+end
+
+-- ===================================================================
+--  初回ロードのチェック
+-- ===================================================================
+local function actor_on_first_update()
+	if not is_localized_in_save then
+		start_localization_scan()
+		is_localized_in_save = true
 	end
 end
 
@@ -177,11 +200,12 @@ function on_game_start()
 	RegisterScriptCallback("se_stalker_on_spawn", process_npc_name)
 	get_name_dictionary()
 
+	RegisterScriptCallback("save_state", save_state)
+	RegisterScriptCallback("load_state", load_state)
+	RegisterScriptCallback("actor_on_first_update", actor_on_first_update)
+
 	RegisterScriptCallback("on_localization_change", function()
 		get_name_dictionary()
-		scan_counter = 0
-		CreateTimeEvent("jp_name_patch_scan_0", "scan_all_names_loop", 3, function()
-			return localize_all_npc_name()
-		end)
+		start_localization_scan()
 	end)
 end
