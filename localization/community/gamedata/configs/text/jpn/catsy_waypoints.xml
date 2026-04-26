@@ -92,7 +92,7 @@
 	</string>
 
 	<string id = "ui_mcm_pawsys_pawbinds_bind_wptoggle">
-		<text>現在のアクティブなウェイポイントを切り替えるためのキー</text>
+		<text>現在のアクティブな目的地を切り替えるためのキー</text>
 	</string>
 
 	<string id = "ui_mcm_pawsys_pawbinds_bind_wptoggle_desc">
@@ -297,7 +297,7 @@
 	</string>
 
 	<string id="ui_mcm_pawsys_pawpins_pin_icon_group_desc">
-		<text>以下の各アイコンセット（例: ピンスタイル、ワッペン）には、現在ドロップダウンリストで選択されているアイコンがあります。このオプションは、新しいピンを配置する際にどのセットのアイコンを使用するかを設定します。\n\nお気に入りセットは常にリストの一番上に置かれ、どのアイコンを含むかは以下のファイルを編集することで自由に変更することができます:\n configs\scripts\paw\icon_set_faves.ltx.</text>
+		<text>以下の各アイコンセット（例: ピンスタイル、派閥パッチ）には、現在ドロップダウンリストで選択されているアイコンがあります。このオプションは、新しいピンを配置する際にどのセットのアイコンを使用するかを設定します。\n\nお気に入りセットは常にリストの一番上に置かれ、どのアイコンを含むかは以下のファイルを編集することで自由に変更することができます:\n configs\scripts\paw\icon_set_faves.ltx.</text>
 	</string>
 
 	<string id="ui_mcm_lst_pawsys_pg_pins">
@@ -473,7 +473,7 @@
 	</string>
 
 	<string id ="ui_mcm_pawsys_pawpins_milpda_body_icon_desc">
-		<text>このオプション機能はMilspec PDAのKill Tracker機能で使用される死体マーカーのアイコンを設定できます。\n\n無効: Milspec PDAの通常動作のままにする\n\n犠牲者の派閥パッチ: ストーカーの死体に所属している派閥のワッペンを表示する\n\n死体マーカーセット: Milspec PDAはすべての死体に対して死体マーカーのアイコンセットのデフォルトアイコンを使用する</text>
+		<text>このオプションはMilspec PDAのKill Tracker機能で使用される死体マーカーのアイコンを設定できます。\n\n無効: Milspec PDAの通常動作のままにする\n\n犠牲者の派閥パッチ: ストーカーの死体に所属している派閥のパッチを表示する\n\n死体マーカーセット: Milspec PDAはすべての死体に対して死体マーカーのアイコンセットのデフォルトアイコンを使用する</text>
 	</string>
 
 	<string id ="ui_mcm_pawsys_pawpins_get_milpda">
@@ -1486,7 +1486,7 @@
 	</string>
 
 	<string id="ui_mcm_pawsys_pawgen_wp_clear_dist_desc">
-		<text>プレイヤーがこの距離よりもマーカーに近付いた時、マーカーは自動的に削除されます。これを0にすると、マーカーは自動で削除されなくなります。</text>
+		<text>プレイヤーがこの距離よりもマーカーに近づいた時、マーカーは自動的に削除されます。これを0にすると、マーカーは自動で削除されなくなります。</text>
 	</string>
 
 <!-- Added in 2.1 -->

@@ -469,7 +469,7 @@
     <text>バッテリーはフル充電されている</text>
   </string>
   <string id="st_charging">
-    <text>現在の料金 :</text>
+    <text>現在の充電量:</text>
   </string>
   <string id="st_rad_level">
     <text>放射線レベル</text>

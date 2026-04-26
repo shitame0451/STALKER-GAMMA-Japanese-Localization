@@ -191,7 +191,7 @@
     </string>
 
     <string id="ui_fft_tut_ftunlocked_ft_travel_zones_campfire">
-        <text>また、$cld_gld焚き火のそばにいるとき$ui_gray_1にもファストトラベルを利用できる。</text>
+        <text>また、$clr_gld焚き火のそばにいるとき$ui_gray_1にもファストトラベルを利用できる。</text>
     </string>
 
     <string id="ui_fft_tut_ftunlocked_ft_guide_travel">

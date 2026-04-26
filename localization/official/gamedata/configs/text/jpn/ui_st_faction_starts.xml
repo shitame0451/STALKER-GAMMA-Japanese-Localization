@@ -1,209 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <string_table>
-  <string id="ui_st_abandoned_sawmill">
-    <text>ザトン [放棄された製材所]</text>
-  </string>
-  <string id="ui_st_abandoned_school">
-    <text>デッドシティ [放棄された学校]</text>
-  </string>
-  <string id="ui_st_abandoned_village">
-    <text>軍事倉庫 [放棄された村]</text>
-  </string>
-  <string id="ui_st_brain_scorcher">
-    <text>レーダー [ブレイン・スコーチャー]</text>
-  </string>
-  <string id="ui_st_car_park">
-    <text>コルドン [駐車場]</text>
-  </string>
-  <string id="ui_st_construction_site">
-    <text>荒廃領域 [建設現場]</text>
-  </string>
-  <string id="ui_st_container_warehouse">
-    <text>ジュピター [コンテナ倉庫]</text>
-  </string>
-  <string id="ui_st_cultural_center">
-    <text>プリピャチ [文化宮殿]</text>
-  </string>
-  <string id="ui_st_eastern_factory">
-    <text>ダークバレー [東部の工場]</text>
-  </string>
-  <string id="ui_st_factory_complex">
-    <text>アフロプロム [工業団地]</text>
-  </string>
-  <string id="ui_st_hermanns_bunker">
-    <text>ジュピター [ハーマンの移動ラボ]</text>
-  </string>
-  <string id="ui_st_hidden_base">
-    <text>沼地 [秘密基地]</text>
-  </string>
-  <string id="ui_st_kopachy_village">
-    <text>ジュピター [コパシー村]</text>
-  </string>
-  <string id="ui_st_lodging_house">
-    <text>ロストク [ロッジハウス]</text>
-  </string>
-  <string id="ui_st_makeshift_barracks">
-    <text>ロストク [仮設兵舎]</text>
-  </string>
-  <string id="ui_st_military_base">
-    <text>軍事倉庫 [軍の基地]</text>
-  </string>
-  <string id="ui_st_northern_factory">
-    <text>ダークバレー [北部の工場]</text>
-  </string>
-  <string id="ui_st_river_port">
-    <text>プリチャチ郊外 [河川港]</text>
-  </string>
-  <string id="ui_st_rookie_village">
-    <text>コルドン [ルーキー村]</text>
-  </string>
-  <string id="ui_st_research_institute">
-    <text>アフロプロム [研究所]</text>
-  </string>
-  <string id="ui_st_sakharovs_bunker">
-    <text>ヤンター [サハロフの移動ラボ]</text>
-  </string>
-  <string id="ui_st_skadovsk_shipwreck">
-    <text>ザトン [スカドフスク難破船]</text>
-  </string>
-  <string id="ui_st_southern_checkpoint">
-    <text>コルドン [南部の検問所]</text>
-  </string>
-  <string id="ui_st_sports_center">
-    <text>デッドシティ [スポーツセンター]</text>
-  </string>
-  <string id="ui_st_train_hangar">
-    <text>ガーベジ [列車格納庫]</text>
-  </string>
-  <string id="ui_st_tunnel_entrance">
-    <text>ジュピター [トンネル入口]</text>
-  </string>
-  <string id="ui_st_tunnel_refuge">
-    <text>アフロプロム地下 [トンネル避難所]</text>
-  </string>
-  <string id="ui_st_tuzla_outpost">
-    <text>沼地 [トゥズラ前哨基地]</text>
-  </string>
-  <string id="ui_st_yanov_station">
-    <text>ジュピター [ヤニフ駅]</text>
-  </string>
-  <string id="ui_st_pripyat_hospital">
-    <text>プリチャチ郊外 [病院]</text>
-  </string>
-  <string id="ui_st_red_forest_old_mine">
-    <text>赤い森 [坑道兵舎]</text>
-  </string>
+
+	<string id="ui_st_abandoned_sawmill">
+		<text>ザトン [放棄された製材所]</text>
+	</string>
+	<string id="ui_st_abandoned_school">
+		<text>デッドシティ [放棄された学校]</text>
+	</string>
+	<string id="ui_st_abandoned_village">
+		<text>軍事倉庫 [放棄された村]</text>
+	</string>
+	<string id="ui_st_brain_scorcher">
+		<text>レーダー [ブレイン・スコーチャー]</text>
+	</string>
+	<string id="ui_st_car_park">
+		<text>コルドン [駐車場]</text>
+	</string>
+	<string id="ui_st_construction_site">
+		<text>荒廃領域 [建設現場]</text>
+	</string>
+	<string id="ui_st_container_warehouse">
+		<text>ジュピター [コンテナ倉庫]</text>
+	</string>
+	<string id="ui_st_cultural_center">
+		<text>プリピャチ [文化宮殿]</text>
+	</string>
+	<string id="ui_st_eastern_factory">
+		<text>ダークバレー [東部の工場]</text>
+	</string>
+	<string id="ui_st_factory_complex">
+		<text>アフロプロム [工業団地]</text>
+	</string>
+	<string id="ui_st_hermanns_bunker">
+		<text>ジュピター [ハーマンの移動ラボ]</text>
+	</string>
+	<string id="ui_st_hidden_base">
+		<text>沼地 [秘密基地]</text>
+	</string>
+	<string id="ui_st_kopachy_village">
+		<text>ジュピター [コパシー村]</text>
+	</string>
+	<string id="ui_st_lodging_house">
+		<text>ロストク [宿泊所]</text>
+	</string>
+	<string id="ui_st_makeshift_barracks">
+		<text>ロストク [仮設兵舎]</text>
+	</string>
+	<string id="ui_st_military_base">
+		<text>軍事倉庫 [軍事基地]</text>
+	</string>
+	<string id="ui_st_northern_factory">
+		<text>ダークバレー [北部の工場]</text>
+	</string>
+	<string id="ui_st_river_port">
+		<text>プリピャチ郊外 [河川港]</text>
+	</string>
+	<string id="ui_st_rookie_village">
+		<text>コルドン [ルーキー村]</text>
+	</string>
+	<string id="ui_st_research_institute">
+		<text>アフロプロム [研究所]</text>
+	</string>
+	<string id="ui_st_sakharovs_bunker">
+		<text>ヤンター [サハロフの移動ラボ]</text>
+	</string>
+	<string id="ui_st_skadovsk_shipwreck">
+		<text>ザトン [スカドフスク難破船]</text>
+	</string>
+	<string id="ui_st_southern_checkpoint">
+		<text>コルドン [南部の検問所]</text>
+	</string>
+	<string id="ui_st_sports_center">
+		<text>デッドシティ [スポーツセンター]</text>
+	</string>
+	<string id="ui_st_train_hangar">
+		<text>ガーベジ [列車格納庫]</text>
+	</string>
+	<string id="ui_st_tunnel_entrance">
+		<text>ジュピター [トンネル入口]</text>
+	</string>
+	<string id="ui_st_tunnel_refuge">
+		<text>アフロプロム地下 [トンネル避難所]</text>
+	</string>
+	<string id="ui_st_tuzla_outpost">
+		<text>沼地 [トゥズラ前哨基地]</text>
+	</string>
+	<string id="ui_st_yanov_station">
+		<text>ジュピター [ヤニフ駅]</text>
+	</string>
+	<string id="ui_st_pripyat_hospital">
+		<text>プリピャチ郊外 [病院]</text>
+	</string>
+	<string id="ui_st_red_forest_old_mine">
+		<text>赤い森 [坑道兵舎]</text>
+	</string>
+	<string id="ui_st_atp">
+		<text>コルドン [車両基地]</text>
+	</string>
+	<string id="ui_st_barricades_at_the_car">
+		<text>アフロプロム [車の障害物]</text>
+	</string>
+	<string id="ui_st_camp_at_crane">
+		<text>チョルノービリ原子力発電所 [クレーンの野営地]</text>
+	</string>
+	<string id="ui_st_camp_on_a_hillock">
+		<text>トラック墓地 [丘の野営地]</text>
+	</string>
+	<string id="ui_st_check_point">
+		<text>ジュピター [検問所]</text>
+	</string>
+	<string id="ui_st_crossroads">
+		<text>トラック墓地 [交差点]</text>
+	</string>
+	<string id="ui_st_curve_beam">
+		<text>軍事倉庫 [峡谷]</text>
+	</string>
+	<string id="ui_st_deadlock_of_a_tunnel">
+		<text>アフロプロム [トンネル]</text>
+	</string>
+	<string id="ui_st_destroyed_bridge">
+		<text>ダークバレー [廃墟の橋]</text>
+	</string>
+	<string id="ui_st_eastern_checkpoint">
+		<text>トラック墓地 [東部の検問所]</text>
+	</string>
+	<string id="ui_st_fallen_helicopter">
+		<text>軍事倉庫 [墜落したヘリコプター]</text>
+	</string>
+	<string id="ui_st_farm_base_neytral">
+		<text>コルドン [農場]</text>
+	</string>
+	<string id="ui_st_filling_station">
+		<text>ダークバレー [ガソリンスタンド]</text>
+	</string>
+	<string id="ui_st_flea_market">
+		<text>ガーベジ [フリーマーケット]</text>
+	</string>
+	<string id="ui_st_forest_area">
+		<text>ザトン [森林管理場]</text>
+	</string>
+	<string id="ui_st_halt_behind_a_dump">
+		<text>トラック墓地 [停車場]</text>
+	</string>
+	<string id="ui_st_hideout">
+		<text>プリピャチ郊外 [隠れ家]</text>
+	</string>
+	<string id="ui_st_house_on_the_hill">
+		<text>リマンスク [丘の上の家]</text>
+	</string>
+	<string id="ui_st_kbo_monolith">
+		<text>プリピャチ郊外 [ユビレイニー・サービスセンター]</text>
+	</string>
+	<string id="ui_st_machine_yard">
+		<text>沼地 [機械工場]</text>
+	</string>
+	<string id="ui_st_military_base_two">
+		<text>ジェネレーター [軍の基地]</text>
+	</string>
+	<string id="ui_st_mine_koper">
+		<text>赤い森 [巻き上げやぐら]</text>
+	</string>
+	<string id="ui_st_outpost_of_dolg">
+		<text>ガーベジ [デューティーの前哨基地]</text>
+	</string>
+	<string id="ui_st_parking_at_kamaz">
+		<text>荒廃領域 [駐車場]</text>
+	</string>
+	<string id="ui_st_parking_on_a_farm">
+		<text>ダークバレー [農場の駐車場]</text>
+	</string>
+	<string id="ui_st_parking_under_an_embankment">
+		<text>沼地 [土手の下]</text>
+	</string>
+	<string id="ui_st_pole_bandit_base">
+		<text>メドウ [バンディットのたまり場]</text>
+	</string>
+	<string id="ui_st_pole_stalker_village">
+		<text>メドウ [庭のテラス]</text>
+	</string>
+	<string id="ui_st_post_of_mercenaries">
+		<text>軍事倉庫 [傭兵の検問所]</text>
+	</string>
+	<string id="ui_st_power_station">
+		<text>チョルノービリ原子力発電所 [外庭]</text>
+	</string>
+	<string id="ui_st_small_village">
+		<text>ダークバレー [小さな村]</text>
+	</string>
+	<string id="ui_st_prachechnya">
+		<text>プリピャチ郊外 [コインランドリー]</text>
+	</string>
+	<string id="ui_st_processing_station">
+		<text>ザトン [廃棄物処理場]</text>
+	</string>
+	<string id="ui_st_ruins">
+		<text>荒廃した病院 [廃墟]</text>
+	</string>
+	<string id="ui_st_store_books_a18">
+		<text>プリピャチ郊外 [書店]</text>
+	</string>
+	<string id="ui_st_yard">
+		<text>リマンスク [中庭]</text>
+	</string>
+	<string id="ui_st_yard_with_a_terrace">
+		<text>リマンスク [中庭のテラス]</text>
+	</string>
 	
-  <!-- Last Day -->
-  <string id="ui_st_atp">
-    <text>コルドン [車両基地]</text>
-  </string>
-  <string id="ui_st_barricades_at_the_car">
-    <text>アフロプロム [車の障害物]</text>
-  </string>
-  <string id="ui_st_camp_at_crane">
-    <text>チョルノービリ原子力発電所 [クレーンの野営地]</text>
-  </string>
-  <string id="ui_st_camp_on_a_hillock">
-    <text>トラック墓地 [丘の野営地]</text>
-  </string>
-  <string id="ui_st_check_point">
-    <text>ジュピター [検問所]</text>
-  </string>
-  <string id="ui_st_crossroads">
-    <text>トラック墓地 [交差点]</text>
-  </string>
-  <string id="ui_st_curve_beam">
-    <text>軍事倉庫 [峡谷]</text>
-  </string>
-  <string id="ui_st_deadlock_of_a_tunnel">
-    <text>アフロプロム [トンネル]</text>
-  </string>
-  <string id="ui_st_destroyed_bridge">
-    <text>ダークバレー [廃墟の橋]</text>
-  </string>
-  <string id="ui_st_eastern_checkpoint">
-    <text>トラック墓地 [東部の検問所]</text>
-  </string>
-  <string id="ui_st_fallen_helicopter">
-    <text>軍事倉庫 [墜落したヘリコプター]</text>
-  </string>
-  <string id="ui_st_farm_base_neytral">
-    <text>コルドン [農場]</text>
-  </string>
-  <string id="ui_st_filling_station">
-    <text>ダークバレー [ガソリンスタンド]</text>
-  </string>
-  <string id="ui_st_flea_market">
-    <text>ガーベジ [フリーマーケット]</text>
-  </string>
-  <string id="ui_st_forest_area">
-    <text>ザトン [森林管理場]</text>
-  </string>
-  <string id="ui_st_halt_behind_a_dump">
-    <text>トラック墓地 [停車場]</text>
-  </string>
-  <string id="ui_st_hideout">
-    <text>プリチャチ郊外 [隠れ家]</text>
-  </string>
-  <string id="ui_st_house_on_the_hill">
-    <text>不明なマップ [丘の上の家]</text>
-  </string>
-  <string id="ui_st_kbo_monolith">
-    <text>プリチャチ郊外 [ユビレイニー・サービスセンター]</text>
-  </string>
-  <string id="ui_st_machine_yard">
-    <text>沼地 [機械工場]</text>
-  </string>
-  <string id="ui_st_military_base_two">
-    <text>ダークバレー [軍の基地]</text>
-  </string>
-  <string id="ui_st_mine_koper">
-    <text>赤い森 [巻き上げやぐら]</text>
-  </string>
-  <string id="ui_st_outpost_of_dolg">
-    <text>ガーベジ [デューティーの前哨基地]</text>
-  </string>
-  <string id="ui_st_parking_at_kamaz">
-    <text>荒廃領域 [駐車場]</text>
-  </string>
-  <string id="ui_st_parking_on_a_farm">
-    <text>ダークバレー [農場の駐車場]</text>
-  </string>
-  <string id="ui_st_parking_under_an_embankment">
-    <text>沼地 [土手の下]</text>
-  </string>
-  <string id="ui_st_pole_bandit_base">
-    <text>メドウ [バンディットのたまり場]</text>
-  </string>
-  <string id="ui_st_pole_stalker_village">
-    <text>メドウ [庭のテラス]</text>
-  </string>
-  <string id="ui_st_post_of_mercenaries">
-    <text>軍事倉庫 [傭兵たちの検問所]</text>
-  </string>
-  <string id="ui_st_power_station">
-    <text>チョルノービリ原子力発電所 [庭の外]</text>
-  </string>
-  <string id="ui_st_small_village">
-    <text>ダークバレー [小さな村]</text>
-  </string>
-  <string id="ui_st_prachechnya">
-    <text>プリチャチ郊外 [コインランドリー]</text>
-  </string>
-  <string id="ui_st_processing_station">
-    <text>ザトン [廃棄物処理場]</text>
-  </string>
-  <string id="ui_st_ruins">
-    <text>荒廃した病院 [廃墟]</text>
-  </string>
-  <string id="ui_st_store_books_a18">
-    <text>プリチャチ郊外 [書店]</text>
-  </string>
-  <string id="ui_st_yard">
-    <text>リマンスク [コンテナ倉庫]</text>
-  </string>
-  <string id="ui_st_yard_with_a_terrace">
-    <text>リマンスク [庭付きテラス]</text>
-  </string>
 </string_table>

@@ -11,7 +11,7 @@
 
 	<!-- Button -->
 	<string id="ui_mcm_ssfx_module_il">
-		<text>関節光</text>
+		<text>間接光</text>
 	</string>
 
 	<!-- SSR Settings -->

@@ -630,13 +630,13 @@
 		<text>ボーンセッターは医薬品を作成するために%sを必要としている。</text>
 	</string>
 	<string id="jup_a6_stalker_medik_task_1_about">
-		<text>連日、負傷者の治療に追われていてな･･････ 備蓄していた物資が底を突きかけている。
+		<text>連日、負傷者の治療に追われていてな･･････ 備蓄していた物資が底を尽きかけている。
 \nこのままでは包帯一つ満足に巻けなくなる。薬品製造ツールを調達してきてくれ。
 \nそれさえあれば、多くの命を救えるはずだ。</text>
 	</string>
 	<string id="jup_a6_stalker_medik_task_1_fetch_about">
 		<text>%sを探してる。
-\n錠剤やアンプルが入っていて、医療品を作るのに必要なんだ。
+\n錠剤やアンプルが入っていて、医薬品を作るのに必要なんだ。
 \nそれを持ってきてくれたら報酬を渡すよ。</text>
 	</string>
 	<string id="jup_a6_stalker_medik_task_1_fetch_finish">

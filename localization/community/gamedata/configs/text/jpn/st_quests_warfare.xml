@@ -180,7 +180,7 @@
     <text>Dutyの技術者たちのために%sを見つける</text>
   </string>
   <string id="sim_default_dolg_mechanic_task_2_text">
-    <text>%sは、Dutyの技術者たちがツールを新調するに必要としている。見つけたらDutyの技術者に持ち帰る。</text>
+    <text>%sは、Dutyの技術者たちがツールを新調するために必要としている。見つけたらDutyの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_dolg_mechanic_task_2_about">
     <text>おい、もしさらに高度なツールを見つけたら、もっと割引してやるよ。探しておいてくれないか？</text>
@@ -198,7 +198,7 @@
     <text>Dutyの技術者たちのために%sを見つける</text>
   </string>
   <string id="sim_default_dolg_mechanic_task_3_text">
-    <text>%sは、Dutyの技術者たちがツールを新調するに必要としている。見つけたらDutyの技術者に持ち帰る。</text>
+    <text>%sは、Dutyの技術者たちがツールを新調するために必要としている。見つけたらDutyの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_dolg_mechanic_task_3_about">
     <text>おい、もしさらに高度なツールを見つけたら、もっと割引してやるよ。探しておいてくれないか？</text>
@@ -244,7 +244,7 @@
 
 	<!-- DEFEND TERRITORY FOR BANDITS TASK -->
   <string id="sim_default_bandit_trader_task_3_name">
-    <text>Banditたちの脅威を取り除く</text>
+    <text>Banditの脅威を取り除く</text>
   </string>
   <string id="sim_default_bandit_trader_task_3_text">
     <text>あなたは領土内の敵を排除する任務を負っている。任務を完了した後、%s（%s）に報告する。</text>
@@ -441,7 +441,7 @@
 
 	<!-- FIND ARTEFACT FOR LONERS TASK -->
   <string id="sim_default_stalker_trader_task_2_name">
-    <text>Lonerのトレーダーのために%sを見つける。</text>
+    <text>Lonerのトレーダーのために%sを見つける</text>
   </string>
   <string id="sim_default_stalker_trader_task_2_text">
     <text>%s（%s）は%sを見つけることを要求している。</text>
@@ -660,7 +660,7 @@
     <text>君がライフルの扱いに長けていて、多少のミュータントも恐れないなら、仕事がある。興味はあるかい？</text>
   </string>
   <string id="sim_default_csky_trader_task_6_fetch_about">
-    <text>食料が不足しているので、野営地のみんなのお腹をいっぱいにする必要がある。何人かの仲間たちは時々、1~2体の獲物を持ってきてくるんだけど、最近は不振だってさ。もし君が忙しくなくて、外出できるなら、%sが欲しい。この基地には殺して肉を加工する部下がいるんだ。ミュータントを怒らせると、アドレナリンのせいで肉が硬くなることを覚えておいてくれ。また、出血が少なければ少ないほど、肉は美味しくなる。だから撃ち方には注意してくれよ。</text>
+    <text>食料が不足しているので、野営地のみんなのお腹をいっぱいにする必要がある。何人かの仲間たちは時々、1~2体の獲物を持ってきてくれるんだけど、最近は不振だってさ。もし君が忙しくなくて、外出できるなら、%sが欲しい。この基地には殺して肉を加工する部下がいるんだ。ミュータントを怒らせると、アドレナリンのせいで肉が硬くなることを覚えておいてくれ。また、出血が少なければ少ないほど、肉は美味しくなる。だから撃ち方には注意してくれよ。</text>
   </string>
   <string id="sim_default_csky_trader_task_6_fetch_finish">
     <text>さすが、君は優秀なハンターだね。報酬を渡すよ。</text>
@@ -820,10 +820,10 @@
     <text>%s（%s）は、ミュータントの新鮮な死体を下ごしらえをして、%sを集めてほしいという。</text>
   </string>
   <string id="sim_default_freedom_trader_task_6_about">
-    <text>君にぴったりの仕事があるんだ。もし君がちょとしたミュータントも恐れないならね。興味あるかい？</text>
+    <text>君にぴったりの仕事があるんだ。もし君がちょっとしたミュータントも恐れないならね。興味あるかい？</text>
   </string>
   <string id="sim_default_freedom_trader_task_6_fetch_about">
-    <text>何人かの仲間たちは時々、1~2体の獲物を持ってきてくるんだけど、最近は不振だってさ。もし君が忙しくなくて、外出できるなら、%sが欲しい。この野営地では、俺たちの料理人が殺して肉を加工しているんだ。</text>
+    <text>何人かの仲間たちは時々、1~2体の獲物を持ってきてくれるんだけど、最近は不振だってさ。もし君が忙しくなくて、外出できるなら、%sが欲しい。この野営地では、俺たちの料理人が殺して肉を加工しているんだ。</text>
   </string>
   <string id="sim_default_freedom_trader_task_6_fetch_finish">
     <text>さすが、君は優秀なハンターだね。報酬を渡すよ。</text>
@@ -851,7 +851,7 @@
     <text>%sは、Freedomの技術者が古いものを交換するために必要としているので、見つけた場合はFreedomの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_freedom_mechanic_task_1_about">
-    <text>おい、おまえ。俺のために仕事をしてくれないか？武器を扱うための特殊なツーツが必要なんだ。</text>
+    <text>おい、おまえ。俺のために仕事をしてくれないか？武器を扱うための特殊なツールが必要なんだ。</text>
   </string>
   <string id="sim_default_freedom_mechanic_task_1_fetch_about">
     <text>よお。俺たちは新しいツールがたくさん必要なのに、こいつらは俺たちが新しい代用品を見つけるのを手伝う代わりに、ハイになるのを好むような連中だ。新しいベーシックツールを見つけて、Freedomの技術者に持っていくんだ。頼りにしてるぜ、アンタ。</text>
@@ -868,7 +868,7 @@
     <text>%sは、Freedomの技術者が古いものを交換するために必要としているので、見つけた場合はFreedomの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_freedom_mechanic_task_2_about">
-    <text>あはは、聞きたくないね。でも、もっとツールが欲しいんだ。前回、俺が要求したものを持ってきてくたんだが、もっと質の高いやつが必要だ。また手伝ってくれないか？</text>
+    <text>あはは、聞きたくないね。でも、もっとツールが欲しいんだ。前回、俺が要求したものを持ってきてくれたんだが、もっと質の高いやつが必要だ。また手伝ってくれないか？</text>
   </string>
   <string id="sim_default_freedom_mechanic_task_2_fetch_about">
     <text>アドバンスドツールが必要だ。必要なものが入っているはずだ。もし持ってきてくれるなら、ありがたい。</text>
@@ -885,7 +885,7 @@
     <text>%sは、Freedomの技術者が古いものを交換するために必要としているので、見つけた場合はFreedomの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_freedom_mechanic_task_3_about">
-    <text>あはは、聞きたくないね。でも、もっとツールが欲しいんだ。前回、俺が要求したものを持ってきてくたんだが、もっと質の高いやつが必要だ。また手伝ってくれないか？</text>
+    <text>あはは、聞きたくないね。でも、もっとツールが欲しいんだ。前回、俺が要求したものを持ってきてくれたんだが、もっと質の高いやつが必要だ。また手伝ってくれないか？</text>
   </string>
   <string id="sim_default_freedom_mechanic_task_3_fetch_about">
     <text>今、俺たちには新しいエキスパートツールが必要だ。今のところ、それが最後だと約束する。もし、おまえが持ち帰ってくれたら、俺たちは感謝するだろう。</text>
@@ -1000,7 +1000,7 @@
     <text>%sは、Monolithの技術者が古いものを交換するために必要としている。見つけたらMonolithの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_monolith_mechanic_task_1_about">
-    <text>俺のためにあることをしてほしい。武器を扱うための特殊なツーツが必要なんだ。</text>
+    <text>俺のためにあることをしてほしい。武器を扱うための特殊なツールが必要なんだ。</text>
   </string>
   <string id="sim_default_monolith_mechanic_task_1_fetch_about">
     <text>よし、武器をより効率的に調整するための新しいツールが必要だ。新しいベーシックツールを見つけろ。さあ、行け。</text>
@@ -1067,7 +1067,7 @@
     <text>%s（%s）に%sの回収を頼まれた。</text>
   </string>
   <string id="sim_default_ecolog_trader_task_2_about">
-    <text>我々は、ある種のアーティファクトを探している。もし興味があれば、必要なことをお教えよう。</text>
+    <text>我々は、ある種のアーティファクトを探している。もし興味があれば、必要なことをお教えしよう。</text>
   </string>
   <string id="sim_default_ecolog_trader_task_2_fetch_about">
     <text>%sを持ち帰ってほしいんだ。聞いたことあるかい？見返りとしてかなりの金額を支払うことができる。</text>
@@ -1223,7 +1223,7 @@
     <text>Renegadeの技術者たちのために%sを見つける</text>
   </string>
   <string id="sim_default_renegade_mechanic_task_1_text">
-    <text>%sは、Renegadeの技術者が古いものと交換するために必要としている。見つけたらBanditの技術者に持ち帰る。</text>
+    <text>%sは、Renegadeの技術者が古いものと交換するために必要としている。見つけたらRenegadeの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_renegade_mechanic_task_1_about">
     <text>新しいツールがどうしても必要なんだ。錆びついた道具では何もできないし、ガンオイルも足りない。もし興味があれば、何が必要なのか教えてやるよ。</text>
@@ -1241,7 +1241,7 @@
     <text>Renegadeの技術者たちのために%sを見つける</text>
   </string>
   <string id="sim_default_renegade_mechanic_task_2_text">
-    <text>%sは、Banditの技術者が古いものと交換するために必要としている。見つけたらBanditの技術者に持ち帰る。</text>
+    <text>%sは、Renegadeの技術者が古いものと交換するために必要としている。見つけたらRenegadeの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_renegade_mechanic_task_2_about">
     <text>おまえが持ってきてくれたツールキットは素晴らしいものだが、俺が必要とするものがすべて揃っているわけじゃねえ。もっと良いものを探してくれないか？</text>
@@ -1378,7 +1378,7 @@
     <text>%sは、Sinの技術者が古いものを交換するために必要としている。見つけたらSinの技術者に持ち帰る。</text>
   </string>
   <string id="sim_default_greh_mechanic_task_1_about">
-    <text>俺のためにあることをしてほしい。武器を扱うための特殊なツーツが必要なんだ。</text>
+    <text>俺のためにあることをしてほしい。武器を扱うための特殊なツールが必要なんだ。</text>
   </string>
   <string id="sim_default_greh_mechanic_task_1_fetch_about">
     <text>よし、武器をより効率的に調整するための新しいツールが必要だ。新しいベーシックツールを見つけろ。さあ、行け。</text>

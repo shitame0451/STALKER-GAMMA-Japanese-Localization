@@ -19,13 +19,13 @@
     <text>%s人の仲間を障害物から移動中</text>
   </string>
   <string id="st_idiots_add_waypoint_message">
-    <text>ウェイポイントを追加</text>
+    <text>目的地を追加</text>
   </string>
   <string id="st_idiots_waypoint_error">
-    <text>ウェイポイントの追加・削除には仲間を選択する必要がある</text>
+    <text>目的地の追加・削除には仲間を選択する必要がある</text>
   </string>
   <string id="st_idiots_clear_waypoints_message">
-    <text>すべてのウェイポイントを削除</text>
+    <text>すべての目的地を削除</text>
   </string>
   <string id="st_idiots_resync_message">
     <text>%s人の仲間を全体命令に同期</text>
@@ -72,10 +72,10 @@
     <text>所持品</text>
   </string>
   <string id="st_idiots_clear_waypoints">
-    <text>ウェイポイントをクリア</text>
+    <text>目的地をクリア</text>
   </string>
   <string id="st_idiots_add_waypoint">
-    <text>ウェイポイント追加</text>
+    <text>目的地を追加</text>
   </string>
   <string id="st_idiots_retreat">
     <text>緊急退避</text>

@@ -309,7 +309,7 @@
 		<text>順列発射機構</text>
 	</string>
 	<string id="st_up_auts_b3_descr">
-		<text>狙撃銃は通常の銃よりも頻繁にメンテナンスを行う必要があり、その問題を3点式ガスレギューレーターで改良する。</text>
+		<text>狙撃銃は通常の銃よりも頻繁にメンテナンスを行う必要があり、その問題を3点式ガスレギュレーターで改良する。</text>
 	</string>
 	<string id="st_up_auts_b3_name">
 		<text>3点式ガスレギュレーター</text>
@@ -363,10 +363,10 @@
 		<text>多溝ライフリングバレル</text>
 	</string>
 	<string id="st_up_bar_b3_descr">
-		<text>このバレルは接近戦での殺傷範囲を広げることを目的としている。正確さには欠けるが、ライフリングの軽略化により発射速度が向上する。</text>
+		<text>このバレルは接近戦での殺傷範囲を広げることを目的としている。正確さには欠けるが、ライフリング構造を簡略化することで弾丸の摩擦抵抗を減らし、発射速度が向上する。</text>
 	</string>
 	<string id="st_up_bar_b3_name">
-		<text>軽略ライフリングバレル</text>
+		<text>簡略ライフリングバレル</text>
 	</string>
 	<string id="st_up_bar_c1_descr">
 		<text>銃身をポリゴナルライフリングが施されたものに交換し、命中精度を向上させる。</text>
@@ -978,10 +978,10 @@
 		<text>ポリゴナルライフリング付き大型バレル</text>
 	</string>
 	<string id="st_up_stvs_b3_descr">
-		<text>バレル部水平に密閉材を取り付け、銃身の過熱および異物の混入を防ぐ。</text>
+		<text>バレル部に密閉材を取り付け、銃身の過熱および異物の混入を防ぐ。</text>
 	</string>
 	<string id="st_up_stvs_b3_name">
-		<text>バレル密閉剤の取り付け</text>
+		<text>バレル密閉材の取り付け</text>
 	</string>
 	<string id="st_up_stvs_c1_descr">
 		<text>一体型サプレッサーとフラッシュハイダーは、隠密作戦には欠かせない。</text>
@@ -1038,7 +1038,7 @@
 		<text>ボルトを使用しない機関部</text>
 	</string>
 	<string id="st_up_usm_c3_descr">
-		<text>この低衝撃システムは弾丸を叩くのでなく、特殊なハンマーを用いる事で弾丸を貫き、射撃時の衝撃を緩和している。</text>
+		<text>この低衝撃システムは弾丸を叩くのではなく、特殊なハンマーを用いることで弾丸を貫き、射撃時の衝撃を緩和している。</text>
 	</string>
 	<string id="st_up_usm_c3_name">
 		<text>低衝撃発射機構</text>
@@ -1068,7 +1068,7 @@
 		<text>セーフリリース装置</text>
 	</string>
 	<string id="st_up_usmp_b4_descr">
-		<text>遊底をより近代化されたものと取り換え、動作中の欠除などを防ぐ。</text>
+		<text>遊底をより近代化されたものと取り換え、動作中の不具合などを防ぐ。</text>
 	</string>
 	<string id="st_up_usmp_b4_name">
 		<text>トリガー遊底部の大型化</text>
@@ -1218,7 +1218,7 @@
 		<text>遊底部による薬室閉鎖システム</text>
 	</string>
 	<string id="st_up_zatp_b2_descr">
-		<text>遊底の後退を延滞させることで反動を軽減する。</text>
+		<text>遊底の後退を遅延させることで反動を軽減する。</text>
 	</string>
 	<string id="st_up_zatp_b2_name">
 		<text>ディレードブローバック</text>
@@ -1801,7 +1801,7 @@
 		<text>遮蔽式高耐久性防護フレーム</text>
 	</string>
 	<string id="st_up_kom_c4_descr">
-		<text>ニッケルは十分な耐火性があり、ボディースーツの内挿として使用されている。</text>
+		<text>ニッケルは十分な耐火性があり、ボディスーツの内挿として使用されている。</text>
 	</string>
 	<string id="st_up_kom_c4_name">
 		<text>ニッケル内挿型耐火ボディスーツ</text>
@@ -1810,7 +1810,7 @@
 		<text>ニッケルとマグネシウムの合金は感電を防ぐためにスーツに使用されている。</text>
 	</string>
 	<string id="st_up_kom_c5_name">
-		<text>マンガニン内挿型絶縁ボティスーツ</text>
+		<text>マンガニン内挿型絶縁ボディスーツ</text>
 	</string>
 	<string id="st_up_kom_c6_descr">
 		<text>防錆層とケブラー装甲を備えた気密性の高いボディスーツ。</text>

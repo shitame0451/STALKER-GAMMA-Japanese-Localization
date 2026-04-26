@@ -130,13 +130,13 @@
 		<text>眠る</text>
 	</string>
 	<string id="sleep_warning_all_pleasures">
-		<text>出血し、放射線に被爆しているため、眠ることができない。医薬品を使用するか、医者に診て貰う必要がある</text>
+		<text>出血し、放射線に被爆しているため、眠ることができない。医薬品を使用するか、医者に診てもらう必要がある</text>
 	</string>
 	<string id="sleep_warning_bleeding">
-		<text>出血しているため、眠ることができない。医薬品を使用するか、医者に診て貰う必要がある</text>
+		<text>出血しているため、眠ることができない。医薬品を使用するか、医者に診てもらう必要がある</text>
 	</string>
 	<string id="sleep_warning_radiation">
-		<text>放射線に被爆しているため、眠ることができない。医薬品を使用するか、医者に診て貰う必要がある</text>
+		<text>放射線に被爆しているため、眠ることができない。医薬品を使用するか、医者に診てもらう必要がある</text>
 	</string>
 	<string id="sleep_zone_tip">
 		<text>寝る ($$ACTION_USE$$)</text>

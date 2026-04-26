@@ -1035,7 +1035,7 @@
 	</string>
 	<string id="st_mar_treasure_44_descr">
 		<text>俺は安全な隠し場所を探していた。
-\nそのとき、草むらと岩の陰にちょいどいい穴の空いた丸太を見つけたんだ。</text>
+\nそのとき、草むらと岩の陰にちょうどいい穴の空いた丸太を見つけたんだ。</text>
 	</string>
 	<string id="st_mil_treasure_11_name">
 		<text>墓の中のスタッシュ</text>
@@ -1175,7 +1175,7 @@
 	</string>
 	<string id="st_mil_treasure_21_descr">
 		<text>ヴィチョークが、俺の取り分を切り株の穴に隠したって言ってたな。
-\nMilitaryの基地のフェンスと沼の間にあるらしい。</text>
+\n軍事基地のフェンスと沼の間にあるらしい。</text>
 	</string>
 	<string id="st_mil_treasure_10_descr">
 		<text>隠し場所は2つの岩の間、コンクリート板の裏にある切り株だ。</text>
@@ -1968,10 +1968,10 @@
 		<text>この座標にある十字架の下を探せば金持ちになれるって噂だ。</text>
 	</string>
 	<string id="st_mil_q5_n_name">
-		<text>Militaryの基地の箱</text>
+		<text>軍事基地の箱</text>
 	</string>
 	<string id="st_mil_q5_n_descr">
-		<text>もしMilitaryの基地に忍び込むことができたら、屋根裏の箱を見てみろ。
+		<text>もし軍事基地に忍び込むことができたら、屋根裏の箱を見てみろ。
 \nその苦労に見合うだけの報酬が手に入るぜ。</text>
 	</string>
 	<string id="st_mil_q6_n_a_name">
@@ -2105,7 +2105,7 @@
 		<text>秘密の保管庫</text>
 	</string>
 	<string id="st_trc_inventory_box_0016_descr">
-		<text>渓谷に誰かのバックパックが落ちてる。周りはアノマリーだらけだな。
+		<text>峡谷に誰かのバックパックが落ちてる。周りはアノマリーだらけだな。
 \nどうやったらあんな場所に行けるんだ？</text>
 	</string>
 	<string id="st_trc_inventory_box_0016_name">
@@ -2212,7 +2212,7 @@
 		<text>あの箱はバンに置きっぱなしだ。回収する必要がある。</text>
 	</string>
 	<string id="st_trc_inventory_box_0031_name">
-		<text>忘れさられた保管庫</text>
+		<text>忘れ去られた保管庫</text>
 	</string>
 	<string id="st_trc_inventory_box_0032_descr">
 		<text>ボロフから奪ったものは全部、松の木の下の金庫に隠してある。
@@ -2511,7 +2511,7 @@
 		<text>装備入りのバックパック</text>
 	</string>
 	<string id="st_mil_additional_quest_1_box_descr">
-		<text>廃棄されたMilitaryの基地のそばにヘリが墜落していて、箱はそこにある。
+		<text>廃棄された軍事基地のそばにヘリが墜落していて、箱はそこにある。
 \n問題は、周囲がアノマリーと放射線だらけなことだな。</text>
 	</string>
 	<string id="st_mil_additional_quest_1_box_name">
@@ -2713,7 +2713,7 @@
 		<text>コンクリートの下にあるスタッシュ</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0014_descr">
-		<text>素早く逃げる時に備えて、建築現場にある保管庫に戦利品を入れておくつもりだ。</text>
+		<text>素早く逃げる時に備えて、建設現場にある保管庫に戦利品を入れておくつもりだ。</text>
 	</string>
 	<string id="st_l06_rostok_inventory_box_0014_name">
 		<text>ラッキー・ワンのスタッシュ</text>

@@ -737,7 +737,7 @@
 		<text>サウンド出力対象</text>
 	</string>
 	<string id="ui_mm_sound_general_dynamic_music">
-		<text>ダイナミックニュース</text>
+		<text>ダイナミックミュージック</text>
 	</string>
 	<string id="ui_mm_sound_general_caption">
 		<text>字幕</text>
@@ -1132,7 +1132,7 @@
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_battery_consumption_desc">
 		<text>電子機器は使用中にバッテリーを消費します。消費速度は機器によって異なります。
-		\nこの設定は、個別の消費速度に倍率として作用し、全体の消耗速度を調整します。</text>
+		\nこの設定は、個別の消費速度に倍率として作用し、全体の消費速度を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_limited_bolts">
 		<text>ボルトの所持制限</text>
@@ -1776,25 +1776,25 @@
 		<text>パトロール分隊規模: 最小倍率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_squads_desc">
-		<text>パトロール分隊の規模倍率の最小値です。派閥が拠点を所有していない場合、各拠点（理論上）は「パトロール分隊規模: 最小倍率」×最大人口のパトロール分隊を持つことになります。現在のパトロール分隊の倍率 = (100% - owned_base_percentage) * min_patrol_squds + (owned_base_percentage * max_patrol_squads)。現在の許可されているパトロール分隊 = base.max_population * 現在のパトロール分隊の倍率。</text>
+		<text>パトロール分隊の規模倍率の最小値です。派閥が拠点を所有していない場合、各拠点（理論上）は「パトロール分隊規模: 最小倍率」×最大人口のパトロール分隊を持つことになります。現在のパトロール分隊の倍率 = (100% - owned_base_percentage) * min_patrol_squads + (owned_base_percentage * max_patrol_squads)。現在の許可されているパトロール分隊 = base.max_population * 現在のパトロール分隊の倍率。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_squads">
 		<text>パトロール分隊規模: 最大倍率</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_squads_desc">
-		<text>パトロール分隊の規模倍率の最大値です。派閥が拠点を所有していない場合、各拠点（理論上）は「パトロール分隊規模: 最小倍率」×最大人口のパトロール分隊を持つことになります。現在のパトロール分隊の倍率 = (100% - owned_base_percentage) * min_patrol_squds + (owned_base_percentage * max_patrol_squads)。現在の許可されているパトロール分隊 = base.max_population * 現在のパトロール分隊の倍率。</text>
+		<text>パトロール分隊の規模倍率の最大値です。派閥が拠点を所有していない場合、各拠点（理論上）は「パトロール分隊規模: 最小倍率」×最大人口のパトロール分隊を持つことになります。現在のパトロール分隊の倍率 = (100% - owned_base_percentage) * min_patrol_squads + (owned_base_percentage * max_patrol_squads)。現在の許可されているパトロール分隊 = base.max_population * 現在のパトロール分隊の倍率。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_time">
 		<text>パトロール出現時間: 最小値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_min_patrol_time_desc">
-		<text>拠点がパトロール分隊を生成するのに必要な最短時間です。この時間と拠点の利用可能な資源によって、拠点のパトロール分隊の出現時間が決定されます。拠点の利用可能な資源は、以下の計算式で決定されます。`total_resources = global_resources + (regional_resources * 2) + (local_resources * 3)`。拠点のパトロール出現時間は、「パトロール出現時間: 最小値」と「パトロール出現時間: 最大値」の間で、`resource_count / warfare.resource_count`の倍率によって決定されます。リスポーン時間 = (100% - owned_resource_percentage) * min_patrol_time + (owned_resource_percentage * max_patrol_time。</text>
+		<text>拠点がパトロール分隊を生成するのに必要な最短時間です。この時間と拠点の利用可能な資源によって、拠点のパトロール分隊の出現時間が決定されます。拠点の利用可能な資源は、以下の計算式で決定されます。`total_resources = global_resources + (regional_resources * 2) + (local_resources * 3)`。拠点のパトロール出現時間は、「パトロール出現時間: 最小値」と「パトロール出現時間: 最大値」の間で、`resource_count / warfare.resource_count`の倍率によって決定されます。リスポーン時間 = (100% - owned_resource_percentage) * min_patrol_time + (owned_resource_percentage * max_patrol_time)。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_time">
 		<text>パトロール出現時間: 最大値</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_max_patrol_time_desc">
-		<text>拠点がパトロール分隊を生成するのに必要な最長時間です。この時間と拠点の利用可能な資源によって、拠点のパトロール分隊の出現時間が決定されます。拠点の利用可能な資源は、以下の計算式で決定されます。`total_resources = global_resources + (regional_resources * 2) + (local_resources * 3)`。拠点のパトロール出現時間は、「パトロール出現時間: 最小値」と「パトロール出現時間: 最大値」の間で、`resource_count / warfare.resource_count`の倍率によって決定されます。リスポーン時間 = (100% - owned_resource_percentage) * min_patrol_time + (owned_resource_percentage * max_patrol_time。</text>
+		<text>拠点がパトロール分隊を生成するのに必要な最長時間です。この時間と拠点の利用可能な資源によって、拠点のパトロール分隊の出現時間が決定されます。拠点の利用可能な資源は、以下の計算式で決定されます。`total_resources = global_resources + (regional_resources * 2) + (local_resources * 3)`。拠点のパトロール出現時間は、「パトロール出現時間: 最小値」と「パトロール出現時間: 最大値」の間で、`resource_count / warfare.resource_count`の倍率によって決定されます。リスポーン時間 = (100% - owned_resource_percentage) * min_patrol_time + (owned_resource_percentage * max_patrol_time)。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_patrol_hunt_chance">
 		<text>パトロール分隊の索敵確率</text>
@@ -1878,7 +1878,7 @@
 		<text>派閥旗の優先度</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_flag_priority_desc">
-		<text>`gamedata/configs/misc/simulation_objects_props.ltx`ファイルで、所属派閥の旗印が立っている地点を拠点がどれだけ優先するかを設定します。例えば、Clear Sky派閥が支配対象地点を目標としている場合、ファイル内で地点に`csky=1`が定義されていれば、その地点の優先順位が2上昇します。</text>
+		<text>`gamedata/configs/misc/simulation_objects_props.ltx`ファイルで、所属派閥の旗印が立っている地点を拠点がどれだけ優先するかを設定します。例えば、クリアスカイが支配対象地点を目標としている場合、ファイル内で地点に`csky=1`が定義されていれば、その地点の優先順位が2上昇します。</text>
 	</string>
 	<string id="ui_mm_alife_warfare_faction_is_being_targeted_priority">
 		<text>目標にされている場合の優先度</text>

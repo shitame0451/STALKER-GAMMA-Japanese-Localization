@@ -2895,7 +2895,7 @@
 		<text>お前のことは忘れないぞ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_6">
-		<text>安らかに眠れ。こんな事をしたクソ野郎は始末してやるからな。</text>
+		<text>安らかに眠れ。こんなことをしたクソ野郎は始末してやるからな。</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_7">
 		<text>彼はいい奴だった。あんな奴はめったにいないのに･･････</text>
@@ -3587,7 +3587,7 @@
 		<text>なんでこんなものを見なきゃいけないんだ？悪いニュースばかりじゃないか。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_30">
-		<text>だからそこに行くなって言ったんだ！これがその結果だ！</text>
+		<text>だからそこに行くなと言ったんだ！これがその結果だ！</text>
 	</string>
 
 	<!-- Found artefacts -->
@@ -5861,8 +5861,8 @@
 \nこれはかなり重要だぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_7">
-		<text>任務に出てるなら、重要な情報の共有にはプライベートチャンネルを使えよな。
-\n俺らの情報を読んでいる連中がいるのは知ってるだろ？</text>
+		<text>任務に出てるなら、重要な情報の共有にはプライベートチャンネルを使えよ。
+\n俺らの情報を読んでる連中がいるのは知ってるだろ？</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_8">
 		<text>新しいファームウェアはインストールしておけよ、急に動かなくなったら困るだろ？</text>
@@ -7036,7 +7036,7 @@
 	<string id="st_dyn_news_zone_activity_group_friend_6">
 		<text>くそ･･････ $mapで$targetの死体を見つけたが･･････
 \nどうやらミュータントがこいつらを食い荒らしたようだ。
-\n俺はもう時期$locationに到達する予定だ。
+\n俺はもうすぐ$locationに到達する予定だ。
 \n$speaker、通信終了。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_7">
@@ -8016,7 +8016,7 @@
 \nお前みたいな温室育ちの兵士にはピッタリの場所だろうよ。</text>
 	</string>
 	<string id="st_dyn_news_spam_167">
-		<text>$clr_1ヤリク アスリート
+		<text>$clr_1ヤリク・アスリート
 \n$clr_2ダークバレーにカッコいい銃を持った奴がいる。誰かそいつを仕留めたら、俺が買い取るぜ。</text>
 	</string>
 	<string id="st_dyn_news_spam_168">
@@ -11917,7 +11917,7 @@
 \nあそことは違って、ここは数年前にクズどもに乗っ取られたのさ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l04_darkvalley_7">
-		<text>この辺りではスルタンが権力を持ってる。彼と良好な関係を気づけば通行を許可されるんだ。
+		<text>この辺りではスルタンが権力を持ってる。彼と良好な関係を築けば通行を許可されるんだ。
 \nつまり、金を払わないとダメってことさ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l04_darkvalley_8">

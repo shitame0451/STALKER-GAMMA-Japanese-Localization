@@ -33,7 +33,7 @@
 		<text>銃の耐久値（数値）</text>
 	</string>
 	<string id="ui_mm_video_hud_weapontext_desc">
-		<text>銃の耐久値をオレンジ色の%数値で表示します。\nこの設定は、耐久値バーが無効になっている場合は適用されません。</text>
+		<text>銃の耐久値をオレンジ色の%数値で表示します。\nこの設定は、耐久値バーが非表示になっている場合は適用されません。</text>
 	</string>
 	<string id="ui_mm_video_hud_weaponbarhide">
 		<text>非装備時に耐久値バーを非表示</text>

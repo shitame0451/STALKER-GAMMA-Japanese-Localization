@@ -97,7 +97,7 @@
     <text>俺にようがあるんなら先に武器をしまいな。</text>
   </string>
   <string id="cc_generic-csky-meet_use_no_weapon_3">
-    <text>先ずは武器を下ろしな、話しはそれからだ。</text>
+    <text>まずは武器を下ろしな、話はそれからだ。</text>
   </string>
   <string id="cc_generic-csky-meet_weapon_start_1">
     <text>武器を下ろしてからお話といこうじゃないか。</text>
@@ -106,7 +106,7 @@
     <text>俺と話したいのなら武器をホルスターにしまえ。</text>
   </string>
   <string id="cc_generic-csky-meet_weapon_start_3">
-    <text>先ずは武器をしまえ。</text>
+    <text>まずは武器をしまえ。</text>
   </string>
   <string id="cc_generic-csky-meet_weapon_wait_1">
     <text>その得物をしまえ！</text>
@@ -181,7 +181,7 @@
     <text>何を待っているんだ？</text>
   </string>
   <string id="cc_generic-csky-meet_comander_stop_1">
-    <text>ゾーンにはいろんな「最悪」を抱えた奴等が転がり込んでくるからな。</text>
+    <text>ゾーンにはいろんな「最悪」を抱えた奴らが転がり込んでくるからな。</text>
   </string>
   <string id="cc_generic-csky-meet_comander_stop_2">
     <text>まぁその通りなんだが･･････ そう言うなよ。</text>
@@ -271,7 +271,7 @@
     <text>おい、エモノをしまい忘れてるぜ。</text>
   </string>
   <string id="cc_generic-dolg-meet_use_no_weapon_7">
-    <text>俺たちはお喋りするつもりはなぜ。</text>
+    <text>俺たちはお喋りするつもりはないぜ。</text>
   </string>
   <string id="cc_generic-dolg-meet_use_no_weapon_8">
     <text>あんたが武器をしまうなら、話し相手になってやるよ！</text>
@@ -289,7 +289,7 @@
     <text>へい、今そんな物を構える必要はないだろう。</text>
   </string>
   <string id="cc_generic-ecolog-meet_hide_weapon_2">
-    <text>先ずは武器を下げようぜ。</text>
+    <text>まずは武器を下げようぜ。</text>
   </string>
   <string id="cc_generic-ecolog-meet_hide_weapon_3">
     <text>まずは銃を片付けな。</text>
@@ -304,7 +304,7 @@
     <text>なぁ、俺はいちいちあんたと話さないといかんのか。</text>
   </string>
   <string id="cc_generic-ecolog-meet_use_no_fight_1">
-    <text>真剣に話しをしたいのか？あきらめろバカ！</text>
+    <text>真剣に話をしたいのか？あきらめろバカ！</text>
   </string>
   <string id="cc_generic-ecolog-meet_use_no_fight_2">
     <text>お喋りは後だ後！</text>
@@ -385,7 +385,7 @@
     <text>俺と話すのがあんたの徳になるとは思えないんでな、司令官と話せ。</text>
   </string>
   <string id="cc_generic-freedom-meet_use_no_talk_leader_3">
-    <text>今はひとりでいたくてな、ボス向こうにいるから様があるなら話してきな。</text>
+    <text>今はひとりでいたくてな、ボス向こうにいるから用があるなら話してきな。</text>
   </string>
   <string id="cc_generic-freedom-meet_use_no_weapon_1">
     <text>オメェは話がしたいのかそいつで遊びたいのかどっちだ？武器はしまいな！</text>
@@ -406,7 +406,7 @@
     <text>あんたはそのデカいおもちゃで何するつもりだ？</text>
   </string>
   <string id="cc_generic-killer-meet_hello_1">
-    <text>噛みついたはしねぇよ、こっちに来な。</text>
+    <text>噛みつきはしねぇよ、こっちに来な。</text>
   </string>
   <string id="cc_generic-killer-meet_hello_2">
     <text>よう兄弟！</text>
@@ -460,10 +460,10 @@
     <text>今話す気分じゃねぇ、司令官と話せ。</text>
   </string>
   <string id="cc_generic-killer-meet_use_no_weapon_1">
-    <text>あんたが俺にそのエモノ向ける間は喋るつもりはないぞ！</text>
+    <text>あんたが俺にその銃を向ける間は喋るつもりはないぞ！</text>
   </string>
   <string id="cc_generic-killer-meet_use_no_weapon_2">
-    <text>話したんいんなら、その銃を置きな。</text>
+    <text>話したいんなら、その銃を置きな。</text>
   </string>
   <string id="cc_generic-killer-meet_use_no_weapon_3">
     <text>銃をしまうか失せな！</text>
@@ -511,7 +511,7 @@
     <text>あんたの質問は司令官が答えるはずだ。</text>
   </string>
   <string id="cc_generic-military-meet_use_no_talk_leader_3">
-    <text>撮影する。司令官はQ&amp;amp;Aのセッションを行う。</text>
+    <text>撮影する。司令官はQ&amp;Aのセッションを行う。</text>
   </string>
   <string id="cc_generic-military-meet_use_no_weapon_1">
     <text>話相手になってほしいのなら武器を下ろせ。</text>
@@ -661,7 +661,7 @@
     <text>仕事の話がしたいってんならいいぜ。</text>
   </string>
   <string id="cc_generic-stalker-meet_wait_7">
-    <text>良しもういいだろう、話そうぜ。</text>
+    <text>よし、もういいだろう。話そうぜ。</text>
   </string>
   <string id="cc_generic-stalker-meet_wait_8">
     <text>起きてコーヒーの香りでも嗅ごう。</text>

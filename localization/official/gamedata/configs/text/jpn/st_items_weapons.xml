@@ -1369,7 +1369,7 @@
 		<text>頑丈な構造とシンプルで整備しやすい設計が特徴の古典的なセミオートライフル。一体型銃剣と固定式マガジンを備え、軍から民間まで幅広く使われている。旧式の設計ではあるが、その高い信頼性から狩猟やサバイバル用の銃として、今もなお現役だ。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
-		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
 		</text>
 	</string>
 	<string id="st_wpn_sks_b">
@@ -1379,7 +1379,7 @@
 		<text>頑丈な構造とシンプルで整備しやすい設計が特徴の古典的なセミオートライフル。一体型銃剣と固定式マガジンを備え、軍から民間まで幅広く使われている。旧式の設計ではあるが、その高い信頼性から狩猟やサバイバル用の銃として、今もなお現役だ。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
-		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
 		</text>
 	</string>
 	<string id="st_wpn_sv98">

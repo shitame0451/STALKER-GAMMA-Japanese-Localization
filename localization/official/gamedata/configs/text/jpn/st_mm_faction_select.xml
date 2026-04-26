@@ -9,7 +9,7 @@
     <text>ローナー</text>
   </string>
   <string id="st_faction_stalker_desc">
-    <text>\n%c[d_orange]ローナー（Loner）
+    <text>\n%c[d_orange]ローナー
 \n \n%c[ui_8]どの派閥にも属さない、独立したストーカー。
 \nゾーン内の住人の大半を占めている。
 \n彼らは物資の回収や取引、時には他者と協力
@@ -24,7 +24,7 @@
     <text>バンディット</text>
   </string>
   <string id="st_faction_bandit_desc">
-    <text>\n%c[d_orange]バンディット（Bandit）
+    <text>\n%c[d_orange]バンディット
 \n \n%c[ui_8]ストーカーや旅人を襲う冷酷な犯罪者たち。
 \nある程度統率の取れた集団で行動し、
 \n恐喝や強盗、暴力を繰り返して生きている。
@@ -36,7 +36,7 @@
     <text>デューティー</text>
   </string>
   <string id="st_faction_dolg_desc">
-    <text>\n%c[d_orange]デューティー（Duty）
+    <text>\n%c[d_orange]デューティー
 \n \n%c[ui_8]重武装の軍事派閥。ゾーンのアノマリーや
 \nミュータントが外の世界に影響を及ぼすのを
 \n防ぐために全力を尽くしている。規律と厳格な
@@ -48,7 +48,7 @@
     <text>フリーダム</text>
   </string>
   <string id="st_faction_freedom_desc">
-    <text>\n%c[d_orange]フリーダム（Freedom）
+    <text>\n%c[d_orange]フリーダム
 \n \n%c[ui_8]自由人の集まりだが、強力な武力を備えている。
 \nゾーンの秘密を誰にも縛られずに探る権利を
 \n求めて戦っている。科学の発見は全人類の
@@ -61,7 +61,7 @@
     <text>ミリタリー</text>
   </string>
   <string id="st_faction_army_desc">
-    <text>\n%c[d_orange]ミリタリー（Military）
+    <text>\n%c[d_orange]ミリタリー
 \n \n%c[ui_8]ゾーンの封鎖や貴重な資源の保護、違法行為の
 \n取り締まりを任務とする正規の武装部隊。
 \n組織内の汚職や指揮系統の不安定さから、
@@ -74,7 +74,7 @@
     <text>エコロジスト</text>
   </string>
   <string id="st_faction_ecolog_desc">
-    <text>\n%c[d_orange]エコロジスト（Ecologist）
+    <text>\n%c[d_orange]エコロジスト
 \n \n%c[ui_8]ウクライナ政府公認の科学者集団。
 \nゾーンに存在するアノマリーやミュータント、
 \nアーティファクトを研究対象としている。
@@ -89,7 +89,7 @@
     <text>傭兵</text>
   </string>
   <string id="st_faction_killer_desc">
-    <text>\n%c[d_orange]傭兵（Mercenary）
+    <text>\n%c[d_orange]傭兵
 \n \n%c[ui_8]金次第で誰にでも仕える傭兵集団。
 \n暗殺からアーティファクトの回収まで、様々な
 \n依頼を請け負う。詳細は謎に包まれているが、
@@ -101,7 +101,7 @@
     <text>モノリス</text>
   </string>
   <string id="st_faction_monolith_desc">
-    <text>\n%c[d_orange]モノリス（Monolith）
+    <text>\n%c[d_orange]モノリス
 \n \n%c[ui_8]ゾーンの中心部を守る狂信者たち。
 \n「モノリス」を神の力だと信じ、崇拝している。
 \n厳格な組織体制と揺るぎない忠誠心を持ち、
@@ -113,7 +113,7 @@
     <text>クリアスカイ</text>
   </string>
   <string id="st_faction_csky_desc">
-    <text>\n%c[d_orange]クリアスカイ（Clear Sky）
+    <text>\n%c[d_orange]クリアスカイ
 \n \n%c[ui_8]研究者、サバイバリスト、元ストーカーで構成
 \nされる秘密主義の派閥。ゾーンの起源を解明し、
 \nその繊細な自然の均衡を守ろうとしている。
@@ -126,7 +126,7 @@
     <text>レネゲード</text>
   </string>
   <string id="st_faction_renegade_desc">
-    <text>\n%c[d_orange]レネゲード（Renegade）
+    <text>\n%c[d_orange]レネゲード
 \n \n%c[ui_8]残忍さや裏切り行為を理由に他の派閥から
 \n追放された者が集まった、無秩序な略奪集団。
 \n彼らは行動が予測できない危険な存在で、
@@ -138,7 +138,7 @@
     <text>シン</text>
   </string>
   <string id="st_faction_greh_desc">
-    <text>\n%c[d_orange]シン（Sin）
+    <text>\n%c[d_orange]シン
 \n \n%c[ui_8]ゾーンに隠された禁断の秘密を暴き、
 \n手中に収めようとする謎めいたカルト集団。
 \n真の目的は不明だが、行動からは狂信と科学へ
@@ -163,7 +163,7 @@
     <text>ゾンビ</text>
   </string>
   <string id="st_faction_zombied_desc">
-    <text>\n%c[d_orange]ゾンビ（Zombified）
+    <text>\n%c[d_orange]ゾンビ
 \n \n%c[ui_8]かつては人間だったストーカーたち。
 \n強力なプサイ放射によって正気を失い、
 \n本能のままに徘徊する抜け殻と化している。

@@ -280,10 +280,10 @@
     <text>選択中の仲間をすべて解除</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_point_addWaypoint">
-    <text>ウェイポイントを追加</text>
+    <text>目的地を追加</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_point_clearWaypoints">
-    <text>すべてのウェイポイントを削除</text>
+    <text>すべての目的地を削除</text>
   </string>
   <string id="ui_mcm_idiots_subtitle_point_inventory">
     <text>インベントリを開く</text>

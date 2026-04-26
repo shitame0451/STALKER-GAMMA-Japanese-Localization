@@ -34,25 +34,25 @@
     <text>目次</text>
   </string>
   <string id="pda_encyclopedia_ironman_lifes">
-    <text>与えられた命</text>
+    <text>付与された命</text>
   </string>
   <string id="pda_encyclopedia_ironman_life">
     <text>残りの命</text>
   </string>
   <string id="pda_encyclopedia_ironman_deaths">
-    <text>死亡数</text>
+    <text>死亡回数</text>
   </string>
   <string id="pda_encyclopedia_ironman_cycle">
-    <text>命を与えられる周期（何時間ごと）</text>
+    <text>残機の付与サイクル（時間）</text>
   </string>
   <string id="pda_encyclopedia_ironman_1">
-    <text>1つのミスですべてが終わる･･････</text>
+    <text>%c[pda_white]一瞬のミスがすべてを無に帰す･･････</text>
   </string>
   <string id="pda_encyclopedia_ironman_2">
-    <text>もっと気をつけろ！</text>
+    <text>%c[pda_white]もっと慎重にならなければ！</text>
   </string>
   <string id="pda_encyclopedia_ironman_3">
-    <text>今は大丈夫だ。</text>
+    <text>%c[pda_white]今はまだ安全だ。</text>
   </string>
   <string id="pda_encyclopedia_locked">
     <text>？？？？？</text>

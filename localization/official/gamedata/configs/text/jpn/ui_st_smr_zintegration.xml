@@ -18,7 +18,7 @@
 		<text>Magazine Spawn Chance</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_zzintegration_mags_redux_info">
-		<text> https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-magazines-redux\n現在装備している銃のマガジンがスタッシュの追加アイテムとして出現するようになる</text>
+		<text>https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-magazines-redux\n現在装備している銃のマガジンがスタッシュの追加アイテムとして出現するようになる</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_zzintegration_lootboxes">
 		<text>Anomaly Lootboxes</text>
@@ -27,6 +27,6 @@
 		<text>Lootbox Spawn Chance</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_zzintegration_lootboxes_info">
-		<text> https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-lootboxes\nロックピックを便利なアイテムとして出現できるようにし、独自のカテゴリで戦利品として扱えるようになる</text>
+		<text>https://www.moddb.com/mods/stalker-anomaly/addons/anomaly-lootboxes\nロックピックを便利なアイテムとして出現できるようにし、独自のカテゴリで戦利品として扱えるようになる</text>
 	</string>
 </string_table>

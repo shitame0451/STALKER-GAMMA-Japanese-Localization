@@ -41,7 +41,7 @@
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm">
-		<text>光沢自動調整の最大値</text>
+		<text>光沢の自動調整の最大値</text>
 	</string>
 
 	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm_desc">

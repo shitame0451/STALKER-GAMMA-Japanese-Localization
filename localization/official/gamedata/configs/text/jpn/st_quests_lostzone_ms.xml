@@ -82,7 +82,7 @@
 		<text>シドロヴィッチから、ルーキー村でストーカーたちを困らせている謎の特使の尋問を頼まれた。</text>
 	</string>
 	<string id="lttz_ms_start_stalker_descr_talk">
-		<text>特使から有益な情報を引き出した。シドロヴィッチに報告する</text>
+		<text>特使から有益な情報を引き出した。シドロヴィッチに報告しよう。</text>
 	</string>
 	<string id="lttz_ms_start_stalker_descr_kill">
 		<text>有益な情報を入手し、謎の使者を排除した。シドロヴィッチに報告しよう。</text>
@@ -190,7 +190,7 @@
 		<text>シンの部隊がバーを襲撃している。奴らを撃退しなければ。</text>
 	</string>
 	<string id="lttz_ms_ambush_dolg_done_descr">
-		<text>敵の襲撃を撃退した。ヴォロニン将軍に報告する</text>
+		<text>敵の襲撃を撃退した。ヴォロニン将軍に報告しよう。</text>
 	</string>
 	<string id="lttz_ms_ambush_killer_descr">
 		<text>シンの部隊がデッドシティを襲撃している。奴らを撃退しなければ。</text>
