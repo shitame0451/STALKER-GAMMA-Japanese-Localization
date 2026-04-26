@@ -613,20 +613,20 @@
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_14_text">
-		<text>ストーカーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>クリアスカイの隊員がミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_14_about">
-		<text>なあ、ミュータントの肉を食べたことはあるか？
-\n大体の連中はよっぽど飢えてない限り手を出さないが、俺は結構気に入っててな。
-\nあんた、狩りは得意か？</text>
+		<text>なあ、ミュータントの肉を口にしたことはあるか？
+\n大体の連中は手を出さないが、ちゃんと調理すれば悪くないもんだ。
+\nあんた、狩猟の心得はあるか？</text>
 	</string>
 	<string id="simulation_task_14_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、ちゃんとした報酬を出すよ。
-\nうーん･･････ 考えただけでよだれが出てきた。</text>
+		<text>%sを手に入れてくれたら、相応の報酬を出そう。
+\nふむ･･････ どう調理してやるか、考えるだけで腹が減ってきた。</text>
 	</string>
 	<string id="simulation_task_14_fetch_finish">
-		<text>よし！今夜はうまいもんが食えそうだ！ありがとう、ストーカー。これが報酬だ。
-\nおっと、ついでにこれも。俺のライフルに合わない弾薬だからな、あんたにやるよ。</text>
+		<text>よし、助かるよ。今夜の夕食が楽しみだ！ありがとう。これが報酬だ。
+\nそうだ、これも持っていけ。俺のライフルには使えない弾薬だ。あんたに譲るよ。</text>
 	</string>
 
 
@@ -638,17 +638,17 @@
 		<text>バンディットがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_15_about">
-		<text>ミュータントの肉を試したことはあるか？
-\n他の奴らはよっぽど腹が減ってない限り手を出さないが、
-\n俺の大好物なんだ。アンタ、狩猟の腕はどうなんだ？</text>
+		<text>なあ、ミュータントの肉を食ったことあるか？
+\n飢え死に寸前でもなきゃ手を出さねえ連中が多いが、オレは結構好きなんだよ。
+\nアンタ、狩りの腕はどうなんだ？</text>
 	</string>
 	<string id="simulation_task_15_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、相応の報酬を出そう。
-\nうーん･･････ 考えるだけでよだれが出てくるぜ。</text>
+		<text>%sをいくつか持ってきてくれたら、きっちり払ってやるぜ。
+\n･･････クソ、想像しただけでよだれが出てきやがった。</text>
 	</string>
 	<string id="simulation_task_15_fetch_finish">
-		<text>やったぜ！今夜はご馳走だな！ありがとよ、これが報酬だ。
-\nそうだ、ついでにちょっとした戦利品もやろう。</text>
+		<text>よっしゃ！今夜はご馳走だな！ありがとよ、これが約束の報酬だ。
+\nそうだ、ついでにちょっとした戦利品もやるよ。</text>
 	</string>
 
 	<!-- Collect Mutant Tissue Sample for Ecologist Simulation Task -->
@@ -1227,7 +1227,7 @@
 		<text>小荷物の配達</text>
 	</string>
 	<string id="simulation_task_47_text_0">
-		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかに落としてしまったようだ。それを回収しなければならない。</text>
 	</string>
 	<string id="simulation_task_47_text_1">
 		<text>$commから、彼の友人に$item_1を届けるよう頼まれた。</text>
@@ -1250,7 +1250,7 @@
 		<text>小荷物の配達</text>
 	</string>
 	<string id="simulation_task_48_text_0">
-		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかに落としてしまったようだ。それを回収しなければならない。</text>
 	</string>
 	<string id="simulation_task_48_text_1">
 		<text>$commから、彼の友人に$item_1を届けるよう頼まれた。</text>
@@ -1273,7 +1273,7 @@
 		<text>小荷物の配達</text>
 	</string>
 	<string id="simulation_task_49_text_0">
-		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかで落としてしまった。それを回収しなければならない。</text>
+		<text>$commから、彼の友人に$item_1を届けるよう頼まれたが、どこかに落としてしまったようだ。それを回収しなければならない。</text>
 	</string>
 	<string id="simulation_task_49_text_1">
 		<text>$commから、彼の友人に$item_1を届けるよう頼まれた。</text>
@@ -1424,17 +1424,17 @@
 		<text>レネゲードがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_55_about">
-		<text>ミュータントの肉を試したことはあるか？
-\n他の奴らはよっぽど腹が減ってない限り手を出さないが、俺の大好物なんだ。
-\nあんた、狩猟の腕はどうなんだ？</text>
+		<text>おい、ミュータントの肉を食ったことはあるか？
+\n飢え死に寸前のクズしか食わねえ代物だが、俺はアレが気に入ってるんだ。
+\nお前、狩りの腕は立つんだろうな？</text>
 	</string>
 	<string id="simulation_task_55_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、相応の報酬を出そう。
-\nうーん･･････ 考えるだけでよだれが出てくるぜ。</text>
+		<text>%sをいくつか持ってこい。報酬はきっちり出すぜ。
+\n･･････クソッ、アレを思い浮かべるだけでよだれが止まらねえ。</text>
 	</string>
 	<string id="simulation_task_55_fetch_finish">
-		<text>やったぜ！今夜はご馳走だな！ありがとよ、これが報酬だ。
-\nそうだ、ついでにちょっとした戦利品もやろう。</text>
+		<text>やったぜ！これで今夜は飢えずに済む！ありがとよ、これが約束の取り分だ。
+\nそれと、ついでにちょっとした戦利品もくれてやるよ。</text>
 	</string>
 	
 	<!-- Subcontractor for Renegade Simulation Task -->
@@ -1762,20 +1762,20 @@
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_74_text">
-		<text>ストーカーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>クリアスカイの隊員がミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_74_about">
-		<text>なあ、ミュータントの肉を食べたことはあるか？
-\n大体の連中はよっぽど飢えてない限り手を出さないが、俺は結構好きなんだよ。
-\nあんた、狩りは得意か？</text>
+		<text>なあ、ミュータントの肉を口にしたことはあるか？
+\n大体の連中は手を出さないが、ちゃんと調理すれば悪くないもんだ。
+\nあんた、狩猟の心得はあるか？</text>
 	</string>
 	<string id="simulation_task_74_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、ちゃんとした報酬を出すよ。
-\nうーん･･････ 考えただけでよだれが出てきた。</text>
+		<text>%sを手に入れてくれたら、相応の報酬を出そう。
+\nふむ･･････ どう調理してやるか、考えるだけで腹が減ってきた。</text>
 	</string>
 	<string id="simulation_task_74_fetch_finish">
-		<text>よし！今夜はうまいもんが食えそうだ！ありがとう、ストーカー。これが報酬だ。
-\nおっと、ついでにこれも。俺のライフルに合わない弾薬だからな、あんたにやるよ。</text>
+		<text>よし、助かるよ。今夜の夕食が楽しみだ！ありがとう。これが報酬だ。
+\nそうだ、これも持っていけ。俺のライフルには使えない弾薬だ。あんたに譲るよ。</text>
 	</string>
 	
 		<!-- FIND MUTANT MEAT FOR STALKER, CLEAR SKY, MERC, FREEDOM, OR BANDIT TASK -->
@@ -1786,13 +1786,13 @@
 		<text>ストーカーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_75_about">
-		<text>なあ、ミュータントの肉を食べたことはあるか？
-\n大体の連中はよっぽど飢えてない限り手を出さないが、俺は結構気に入っててな。
-\nあんた、狩りは得意か？</text>
+		<text>なあ、ミュータントの肉を試したことはあるか？
+\n大抵の連中はよっぽど飢えてない限り手を出さないが、俺は結構好きなんだよ。
+\nあんた、狩りの腕の方はどうだ？</text>
 	</string>
 	<string id="simulation_task_75_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、ちゃんとした報酬を出すよ。
-\nうーん･･････ 考えただけでよだれが出てきた。</text>
+		<text>%sがいくつか手に入ったら、俺のところに持ってきてくれ。
+\nあんたが満足するだけの礼はするぜ･･････ ああ、想像しただけでよだれが出てきた。</text>
 	</string>
 	<string id="simulation_task_75_fetch_finish">
 		<text>よし！今夜はうまいもんが食えそうだ！ありがとう、ストーカー。これが報酬だ。
@@ -1805,131 +1805,129 @@
 		<text>バンディットがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_76_about">
-		<text>ミュータントの肉を試したことはあるか？
-\n他の奴らはよっぽど腹が減ってない限り手を出さないが、俺の大好物なんだ。
-\nあんた、狩猟の腕はどうなんだ？</text>
+		<text>なあ、ミュータントの肉を食ったことあるか？
+\n飢え死に寸前でもなきゃ手を出さねえ連中が多いが、オレは結構好きなんだよ。
+\nアンタ、狩りの腕はどうなんだ？</text>
 	</string>
 	<string id="simulation_task_76_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、相応の報酬を出そう。
-\nうーん･･････ 考えるだけでよだれが出てくるぜ。</text>
+		<text>%sをいくつか持ってきてくれたら、きっちり払ってやるぜ。
+\n･･････クソ、想像しただけでよだれが出てきやがった。</text>
 	</string>
 	<string id="simulation_task_76_fetch_finish">
-		<text>やったぜ！今夜はご馳走だな！ありがとよ、これが報酬だ。
-\nそうだ、ついでにちょっとした戦利品もやろう。</text>
+		<text>よっしゃ！今夜はご馳走だな！ありがとよ、これが約束の報酬だ。
+\nそうだ、ついでにちょっとした戦利品もやるよ。</text>
 	</string>
 	<string id="simulation_task_77_name">
 		<text>%s入りシチュー</text>
 	</string>
 	<string id="simulation_task_77_text">
-		<text>バンディットがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>レネゲードがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_77_about">
-		<text>ミュータントの肉を試したことはあるか？
-\n他の奴らはよっぽど腹が減ってない限り手を出さないが、俺の大好物なんだ。
-\nあんた、狩猟の腕はどうなんだ？</text>
+		<text>おい、ミュータントの肉を食ったことはあるか？
+\n飢え死に寸前のクズしか食わねえ代物だが、俺はアレが気に入ってるんだ。
+\nお前、狩りの腕は立つんだろうな？</text>
 	</string>
 	<string id="simulation_task_77_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、相応の報酬を出そう。
-\nうーん･･････ 考えるだけでよだれが出てくるぜ。</text>
+		<text>%sをいくつか持ってこい。報酬はきっちり出すぜ。
+\n･･････クソッ、アレを思い浮かべるだけでよだれが止まらねえ。</text>
 	</string>
 	<string id="simulation_task_77_fetch_finish">
-		<text>やったぜ！今夜はご馳走だな！ありがとよ、これが報酬だ。
-\nそうだ、ついでにちょっとした戦利品もやろう。</text>
+		<text>やったぜ！これで今夜は飢えずに済む！ありがとよ、これが約束の取り分だ。
+\nそれと、ついでにちょっとした戦利品もくれてやるよ。</text>
 	</string>
 	<string id="simulation_task_78_name">
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_78_text">
-		<text>仲間がミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>同胞がミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_78_about">
-		<text>なあ、ミュータントの肉を食べたことはあるか？
-\n大体の連中はよっぽど飢えてない限り手を出さないが、俺は結構好きなんだよ。
-\nあんた、狩りは得意か？</text>
+		<text>モノリスの恵みを食したことはあるか？
+\n迷える者たちは拒むが、我らにとっては尊き糧となる。お前は、聖域を乱す獣を狩れるか？</text>
 	</string>
 	<string id="simulation_task_78_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、ちゃんとした報酬を出すよ。
-\nうーん･･････ 考えただけでよだれが出てきた。</text>
+		<text>%sを捧げれば、相応の対価を授けよう。
+\nああ･･････ 想像するだけで、渇きが止まらん。</text>
 	</string>
 	<string id="simulation_task_78_fetch_finish">
-		<text>よし！今夜はうまいもんが食えそうだ！ありがとう、ストーカー。これが報酬だ。
-\nおっと、ついでにこれも。俺のライフルに合わない弾薬だからな、あんたにやるよ。</text>
+		<text>来たか。今夜、聖なる糧を得たのだ。感謝する。これが授かりものだ。
+\nそれと･･････ この弾薬は私の武器には適合しない。お前に与えよう。</text>
 	</string>
 	<string id="simulation_task_79_name">
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_79_text">
-		<text>ストーカーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>軍の兵士がミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_79_about">
-		<text>なあ、ミュータントの肉を食べたことはあるか？
-\n大体の連中はよっぽど飢えてない限り手を出さないが、俺は結構気に入っててな。
-\nあんた、狩りは得意か？</text>
+		<text>おい、ミュータントの肉を食ったことはあるか？
+\n餓死寸前でもなきゃ手を出さない連中もいるが、俺は案外いけると思うんだ。
+\nお前の狩りの腕を見せてみろ。</text>
 	</string>
 	<string id="simulation_task_79_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、ちゃんとした報酬を出すよ。
-\nうーん･･････ 考えただけでよだれが出てきた。</text>
+		<text>%sをいくつか調達してこい。見返りは約束する。
+\n･･････くそ、想像しただけで唾液が出てきやがる。</text>
 	</string>
 	<string id="simulation_task_79_fetch_finish">
-		<text>よし！今夜はうまいもんが食えそうだ！ありがとう、ストーカー。これが報酬だ。
-\nおっと、ついでにこれも。俺のライフルに合わない弾薬だからな、あんたにやるよ。</text>
+		<text>よし！これで今夜はマシな飯を拝める。感謝するぞ。これが報酬だ。
+\nそれと、俺のライフルには合わない弾薬があったんだ。これもやるよ。</text>
 	</string>
 	<string id="simulation_task_80_name">
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_80_text">
-		<text>ストーカーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>フリーダムのメンバーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_80_about">
-		<text>なあ、ミュータントの肉を食べたことはあるか？
-\n大体の連中はよっぽど飢えてない限り手を出さないが、俺は結構好きなんだよ。
-\nあんた、狩りは得意か？</text>
+		<text>なあ、ミュータントの肉って最高だと思わないか？
+\n渋る奴らもいるけど、俺に言わせりゃご馳走さ。あんた、狩りの方は得意か？</text>
 	</string>
 	<string id="simulation_task_80_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、ちゃんとした報酬を出すよ。
-\nうーん･･････ 考えただけでよだれが出てきた。</text>
+		<text>なあ、%sを分けてくれよ。埋め合わせはたっぷりしてやるからさ。
+\n･･････おっと、想像しただけでよだれが止まらねえぜ。</text>
 	</string>
 	<string id="simulation_task_80_fetch_finish">
-		<text>よし！今夜はうまいもんが食えそうだ！ありがとう、ストーカー。これが報酬だ。
-\nおっと、ついでにこれも。俺のライフルに合わない弾薬だからな、あんたにやるよ。</text>
+		<text>最高だ！今夜は宴会だな！ありがとよ。これが報酬だ。
+\nあと、これも持っていけ。俺のライフルじゃ使えない弾なんだが、あんたにやるよ。</text>
 	</string>
 	<string id="simulation_task_81_name">
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_81_text">
-		<text>ストーカーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>エコロジストがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_81_about">
-		<text>なあ、ミュータントの肉を食べたことはあるか？
-\n大体の連中はよっぽど飢えてない限り手を出さないが、俺は結構気に入っててな。
-\nあんた、狩りは得意か？</text>
+		<text>ミュータントの肉の食用利用に興味はあるか？
+\n餓死しそうなとき以外は敬遠する者も多いが、個人的には結構好きなんだ。
+\n君、狩りの腕前の方はどうかな？</text>
 	</string>
 	<string id="simulation_task_81_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、ちゃんとした報酬を出すよ。
-\nうーん･･････ 考えただけでよだれが出てきた。</text>
+		<text>%sを採取できたら、私のところへ持ってきてほしい。
+\n報酬はきっちり払おう･･････ おっと、つい味を想像してしまったよ。</text>
 	</string>
 	<string id="simulation_task_81_fetch_finish">
-		<text>よし！今夜はうまいもんが食えそうだ！ありがとう、ストーカー。これが報酬だ。
-\nおっと、ついでにこれも。俺のライフルに合わない弾薬だからな、あんたにやるよ。</text>
+		<text>素晴らしい！今夜の夕食が楽しみだよ。ありがとう、ストーカー。これが報酬だ。
+\nああ、ついでにこれも。私の銃には合わない弾薬が余ってたんだ。よかったら使ってくれ。</text>
 	</string>
 	<string id="simulation_task_82_name">
 		<text>%sを手に入れる</text>
 	</string>
 	<string id="simulation_task_82_text">
-		<text>ストーカーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>デューティーのメンバーがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_82_about">
-		<text>なあ、ミュータントの肉を食べたことはあるか？
-\n大体の連中はよっぽど飢えてない限り手を出さないが、俺は結構好きなんだよ。
-\nあんた、狩りは得意か？</text>
+		<text>おい、ミュータントの肉を食べたことはあるか？
+\n極限状態でもない限り避ける者が大半だが、俺は案外いけると思っていてな。
+\nお前、狩りの腕は確かか？</text>
 	</string>
 	<string id="simulation_task_82_fetch_about">
-		<text>%sをいくつか持ってきてくれたら、ちゃんとした報酬を出すよ。
-\nうーん･･････ 考えただけでよだれが出てきた。</text>
+		<text>%sを調達してこい。こちらには相応の報酬を支払う用意がある。
+\n･･････ふむ、想像しただけで食欲が湧いてきた。</text>
 	</string>
 	<string id="simulation_task_82_fetch_finish">
-		<text>よし！今夜はうまいもんが食えそうだ！ありがとう、ストーカー。これが報酬だ。
-\nおっと、ついでにこれも。俺のライフルに合わない弾薬だからな、あんたにやるよ。</text>
+		<text>よくやった。今夜はまともな飯にありつけそうだ。恩に切るぞ。これが報酬だ。
+\n･･････それと、この弾薬も持っていけ。俺のライフルには不要なものだからな。</text>
 	</string>
 	
 		<!-- FIND MUTANT PARTS FOR LONERS TASK -->
