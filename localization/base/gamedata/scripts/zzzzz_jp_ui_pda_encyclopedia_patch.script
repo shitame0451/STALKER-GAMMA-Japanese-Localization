@@ -1,0 +1,61 @@
+-- ui_pda_encyclopedia_tab.script
+
+-- ===================================================================
+-- UpdateColor （各記事のタイトルの色を変更）
+-- ===================================================================
+local original_UpdateColor = ui_pda_encyclopedia_tab.UpdateColor
+ui_pda_encyclopedia_tab.UpdateColor = function(section)
+	return utils_xml.get_color("pda_white", true)
+end
+
+-- ===================================================================
+-- UpdateDescr （文字化け防止 & 色指定の変更）
+-- ===================================================================
+local original_UpdateDescr = ui_pda_encyclopedia_tab.UpdateDescr
+ui_pda_encyclopedia_tab.UpdateDescr = function(section, str)
+	if section == "encyclopedia__notes__state" then	--装備の状態
+		local result_str = original_UpdateDescr(section, str)
+		return string.gsub(result_str, "%%c%[0,170,170,170%]. ", "%%c%[pda_white%] • ")
+	end
+
+	if section == "encyclopedia__notes__ironman" then	--アイアンマンの状態
+		local result_str = original_UpdateDescr(section, str)
+		return string.gsub(result_str, "\\n. ", "\\n%%c%[pda_white%] • ")
+	end
+
+	if string.find(section, "encyclopedia_artefacts") then	--アーティファクト
+		local original_get_sec_desc = ui_item.get_sec_desc
+		ui_item.get_sec_desc = function(sec)
+			local desc = original_get_sec_desc(sec)
+			-- アイテム説明文の " %c[pda_white]特性:" 以降を除去
+			return string.gsub(desc, " %%c%[pda_white%]特性:.*", "")
+		end
+
+		local result_str = original_UpdateDescr(section, str)
+		ui_item.get_sec_desc = original_get_sec_desc
+
+		-- 対象 前の改行を除去
+		result_str = string.gsub(result_str, " \\n(%%c%[.-%]対象)", "%1")
+		-- 対象 箇条書きの記号を " • " に置換
+		result_str = string.gsub(result_str, " \\n. ", " \\n%%c%[pda_white%] • ")
+		-- 特性 前の余分な改行を除去
+		result_str = string.gsub(result_str, "\\n \\n \\n \\n(%%c%[.-%]特性)", "\\n \\n%1")
+		-- 特性 後の余分な改行を除去
+		result_str = string.gsub(result_str, "(%%c%[.-%]特性 \\n)%%c%[.-%]\\n", "%1")
+		-- 特性 箇条書きの2重コロンを修正
+		result_str = string.gsub(result_str, "%%c%[255,170,170,170%](. )(.-):: ", "%%c%[pda_white%]%1%2: ")
+
+		return result_str
+	end
+
+	if string.find(section, "encyclopedia__notes_recipe") then	--レシピ
+		local result_str = original_UpdateDescr(section, str)
+
+		result_str = string.gsub(result_str, "(目次\\n) \\n", "%1")
+		result_str = string.gsub(result_str, "%%c%[255,170,170,170%]. ", "%%c%[pda_white%] • ")
+
+		return result_str
+	end
+
+	return original_UpdateDescr(section, str)
+end
