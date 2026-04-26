@@ -12,16 +12,16 @@ ui_item.build_desc_footer = function(obj, sec, str)
 
 	-- 腐敗タイマーがあるときだけ整形
 	if text:find(game.translate_string("cxv_rotting_timer_title"), 1, true) then
-		-- 前半の複数改行（\n \n \n\n）を単一の改行に置換
+		-- 前半の複数改行（\n \n\n）を単一の改行に置換
 		text = text:gsub(
-			"\\n" .. " *" .. "\\n" .. " *" .. "\\n" .. " *" .. "\\n",
-			"\\n"
+			"mSv%s*\\n[%s\\n]+",
+			"mSv \\n"
 		)
 
 		-- スペース追加 + カラーコードを置換
 		text = text:gsub(
 			"• %%c%[[^%]]-%]" .. game.translate_string("cxv_rotting_timer_title") .. " %%c%[[^%]]-%]",
-			" • %%c[pda_white]" .. game.translate_string("cxv_rotting_timer_title") .. " %%c[255,170,170,170]"
+			"  • %%c[pda_white]" .. game.translate_string("cxv_rotting_timer_title") .. " %%c[255,170,170,170]"
 		)
 
 		-- 後半の余分な改行を削除（〇〇 時間\n \n → 〇〇 時間\n）
