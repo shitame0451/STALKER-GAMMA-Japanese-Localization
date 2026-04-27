@@ -5521,7 +5521,7 @@
 		<text>グレイシャー、お前の通信は完全におかしいぞ。いったいどこから通信してるんだ？</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_40">
-		<text>スポア、こちらグレブ･インディアンだ。教授の荷物が線路の横に積み上げられているのを見つけた。
+		<text>スポア、こちらグレブ・インディアンだ。教授の荷物が線路の横に積み上げられているのを見つけた。
 \n何が起こったんだ？</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_1">
@@ -6024,11 +6024,11 @@
 		<text>急募、優秀な狙撃兵。契約費用の15%を報酬として支払う･･････</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_9">
-		<text>シンジケートの構成員へ告ぐ。キリル･ヤタガンの分隊は、すでに我々との提携を解消した。
+		<text>シンジケートの構成員へ告ぐ。キリル・ヤタガンの分隊は、すでに我々との提携を解消した。
 \nどうやら、彼には彼なりの計画があるようだ･･････</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_10">
-		<text>アンドリュー･ルネフ、通称オールド。ヤツの首には賞金がかかっている。
+		<text>アンドリュー・ルネフ、通称オールド。ヤツの首には賞金がかかっている。
 \n居場所に関するあらゆる情報に対して良い報酬を支払おう。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_11">
@@ -6061,22 +6061,22 @@
 \n我々の基地周辺での不審な動きには容赦なく対処する。警告はしたぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_19">
-		<text>アルチョム･サギトフ、通称ロコモーティブ。
+		<text>アルチョム・サギトフ、通称ロコモーティブ。
 \n昨晩、廃棄物処理場へ侵入しようとしていたところを警備隊が発見し、射殺した。
 \n遺体の引き取りを希望する者がいる場合は、ドゥシュマンに連絡するように。
 \n重ねて警告するが、シンジケートの業務に関与しないこと。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_20">
-		<text>エフゲニー･ヴォロンツォフ、通称ヤルムーク。
+		<text>エフゲニー・ヴォロンツォフ、通称ヤルムーク。
 \n我々の作戦部隊にスパイ行為を働いたため、昨日処刑された。これは最後の警告だ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_21">
-		<text>ヨハネス･ジミエフ、通称チャンセラー。
+		<text>ヨハネス・ジミエフ、通称チャンセラー。
 \n彼と数名のストーカーが我々の偵察班を襲撃しようとした後、“犠牲者”として処理された。
 \n我々は残りの犯人を追跡中。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_22">
-		<text>シメオン･ムラカル、通称トランペット。
+		<text>シメオン・ムラカル、通称トランペット。
 \n我々の記章を偽って着用しているところを捕らえ、処刑した。同じ過ちを犯さないように。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_23">
@@ -7278,7 +7278,7 @@
 	
 	<!-- Random news-->
 	<string id="st_dyn_news_spam_1">
-		<text>$clr_1アルカッシュ プログラマー
+		<text>$clr_1アルカッシュ・プログラマー
 \n$clr_2インターネットにアクセスする必要がある。どこかのバーかシドロヴィッチの店ならできるだろうか？</text>
 	</string>
 	<string id="st_dyn_news_spam_2">
@@ -7754,7 +7754,7 @@
 \n$clr_2嫌がらせはもう十分だ。今後も続けるようなら、迫撃砲で村ごとまとめて吹き飛ばすことになるぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_107">
-		<text>$clr_1イヴァン ピッサー
+		<text>$clr_1イヴァン・ピッサー
 \n$clr_2最近あるニュースを耳にしたんだが、誰かが再びブレイン・スコーチャーに到達しようとしているらしい。</text>
 	</string>
 	<string id="st_dyn_news_spam_108">
@@ -7820,7 +7820,7 @@
 \n$clr_2優秀なハンターにはいつでも仕事をやろう。フリーマーケットに来てくれ。</text>
 	</string>
 	<string id="st_dyn_news_spam_122">
-		<text>$clr_1ファザー ピーター
+		<text>$clr_1ファザー・ピーター
 \n$clr_2皆でユーリ・セメツキーの冥福を祈ろう！アーメン！</text>
 	</string>
 	<string id="st_dyn_news_spam_123">
@@ -8261,7 +8261,7 @@
 \n$clr_2本当に腹が減った･･････ 何も手に入らなければ、このスノークの手を料理するしかないな。</text>
 	</string>
 	<string id="st_dyn_news_spam_221">
-		<text>$clr_1ピョートル サルカシアン
+		<text>$clr_1ピョートル・サルカシアン
 \n$clr_2よし、また商売を始めるか！20年の経験を持つ電気と機械のエンジニアだ。
 \n連絡してくれたら交渉しよう。</text>
 	</string>
