@@ -6,7 +6,7 @@
 		<text>ザトン [放棄された製材所]</text>
 	</string>
 	<string id="ui_st_abandoned_school">
-		<text>デッドシティ [放棄された学校]</text>
+		<text>デッドシティ [放棄された文化会館]</text>
 	</string>
 	<string id="ui_st_abandoned_village">
 		<text>軍事倉庫 [放棄された村]</text>
@@ -15,7 +15,7 @@
 		<text>レーダー [ブレイン・スコーチャー]</text>
 	</string>
 	<string id="ui_st_car_park">
-		<text>コルドン [駐車場]</text>
+		<text>コルドン [車両基地]</text>
 	</string>
 	<string id="ui_st_construction_site">
 		<text>荒廃領域 [建設現場]</text>
