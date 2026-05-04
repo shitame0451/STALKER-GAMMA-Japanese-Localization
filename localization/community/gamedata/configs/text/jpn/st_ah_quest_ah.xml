@@ -441,7 +441,7 @@
 		<text>ゾーンのアノマリー領域の地図を完成させるため、チェルノフ教授からデッドシティでのスキャン調査を頼まれた。教授は、注目している2つのアノマリー領域があるという、おおよその座標を教えてくれた。</text>
 	</string>
 	<string id="ah_mg_o1_title">
-		<text>管理棟でサンプルを探す</text>
+		<text>市役所でサンプルを探す</text>
 	</string>
 	<string id="ah_mg_o1_desc">
 		<text>探知機を使えば見つけられるだろう。</text>
@@ -738,10 +738,10 @@
 		<text>例のケースだ、ほら。</text>
 	</string>
 	<string id="cs_task0_ambush_renegade_story_descr3">
-		<text>沼地の北へ行き、Clear Skyの突撃部隊がMilitaryから機械工場を取り戻すのを手伝う。</text>
+		<text>沼地の北へ行き、Clear Skyの突撃部隊がMilitaryから機械置き場を取り戻すのを手伝う。</text>
 	</string>
 	<string id="cs_task0_ambush_renegade_story_name6">
-		<text>最後の夜明け: Militaryの兵士を倒し、機械工場を奪取する</text>
+		<text>最後の夜明け: Militaryの兵士を倒し、機械置き場を奪取する</text>
 	</string>
 	<string id="kuznecov_find_document_1">
 		<text>アグロプロム地下で文書を回収する</text>

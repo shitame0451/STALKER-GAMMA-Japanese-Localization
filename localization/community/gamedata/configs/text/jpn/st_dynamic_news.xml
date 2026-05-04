@@ -1488,7 +1488,7 @@
 		<text>リマンスクへ向かう道</text>
 	</string>
 	<string id="st_dyn_l09_deadcity_daleko_5">
-		<text>放棄された一体構造物</text>
+		<text>放棄された集合住宅</text>
 	</string>
 	<string id="st_dyn_l09_deadcity_daleko_6">
 		<text>放棄された学校</text>
@@ -1701,7 +1701,7 @@
 		<text>アグロプロムへ向かう道</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_6">
-		<text>機械工場</text>
+		<text>機械置き場</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_7">
 		<text>焼けた家</text>
@@ -1932,10 +1932,10 @@
 		<text>「シナプス」アノマリー領域</text>
 	</string>
 	<string id="st_dyn_l02_garbage_daleko_3">
-		<text>倉庫</text>
+		<text>列車格納庫</text>
 	</string>
 	<string id="st_dyn_l02_garbage_daleko_4">
-		<text>車両の墓場</text>
+		<text>車両墓場</text>
 	</string>
 	<string id="st_dyn_l02_garbage_daleko_5">
 		<text>沼地</text>
@@ -1982,7 +1982,7 @@
 		<text>リマンスクへ続く出口付近</text>
 	</string>
 	<string id="st_dyn_l09_deadcity_blizko_5">
-		<text>放棄された一体構造物</text>
+		<text>放棄された集合住宅</text>
 	</string>
 	<string id="st_dyn_l09_deadcity_blizko_6">
 		<text>放棄された学校</text>
@@ -2195,7 +2195,7 @@
 		<text>アグロプロムへ続く出口付近</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_6">
-		<text>機械工場</text>
+		<text>機械置き場</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_7">
 		<text>焼けた家</text>
@@ -2426,10 +2426,10 @@
 		<text>「シナプス」アノマリー領域</text>
 	</string>
 	<string id="st_dyn_l02_garbage_blizko_3">
-		<text>倉庫</text>
+		<text>列車格納庫</text>
 	</string>
 	<string id="st_dyn_l02_garbage_blizko_4">
-		<text>車両の墓場</text>
+		<text>車両墓場</text>
 	</string>
 	<string id="st_dyn_l02_garbage_blizko_5">
 		<text>沼地</text>
@@ -4806,7 +4806,7 @@
 		<text>大災害に備えろ、$whatが$when発生する。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_3">
-		<text>隠れられる場所を探せ。$when$whatが来るぞ。</text>
+		<text>身を隠せる場所を探せ。$when$whatが来るぞ。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_4">
 		<text>みんな、俺の計器がイカれ始めた。おそらく$when$whatが来る前兆だ。</text>
@@ -4833,8 +4833,8 @@
 		<text>サハロフが言ってたんだが、$whatが$when起きると装置が検知したらしい。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_11">
-		<text>サハロフが$when$whatが来る可能性があると警告していた。
-\nその時が来るまで、隠れられる場所を探しておけよ。</text>
+		<text>サハロフが$when$whatが来ると警告していた。
+\nその時が来るまで、身を隠す場所を探しておけよ。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_12">
 		<text>ゾーンが怒っている･･････ $when$whatが始まるだろう。</text>
@@ -7642,8 +7642,8 @@
 	</string>
 	<string id="st_dyn_news_spam_82">
 		<text>$clr_1匿名
-\n$clr_2噂によると、X-16研究所にはコントローラーが潜んでいるらしい。しかも一体だけではないらしい。
-\n昨日、何人かの経験豊富なストーカーがそこに行ったが、まだ戻ってきていない。</text>
+\n$clr_2噂によると、X-16研究所にはコントローラーが潜んでいるらしい。しかも、一体だけではないようだ。
+\n昨日も経験豊富なストーカー数人が向かったが、いまだに誰一人戻ってきていない。</text>
 	</string>
 	<string id="st_dyn_news_spam_83">
 		<text>$clr_1匿名
@@ -9902,7 +9902,7 @@
 		<text>またあの音だ！おそらく$whoだろう。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_1_7">
-		<text>$whoを目視したぞ。</text>
+		<text>$whoを目視した。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_1_8">
 		<text>なんだ、ただの$whoか。</text>
@@ -9990,7 +9990,7 @@
 		<text>この死にぞこないは何を探してるんだ？自分の脳みそか？</text>
 	</string>
 	<string id="st_dyn_news_res_dumb_zombie_4">
-		<text>みんな、よく聞け。空が赤くなったら、すぐに隠れられる場所を探すんだ。
+		<text>みんな、よく聞け。空が赤くなったら、すぐに身を隠せる場所を探すんだ。
 \nさもないと、お前もあのゾンビみたいになっちまうぞ。</text>
 	</string>
 	<string id="st_dyn_news_res_dumb_zombie_5">
@@ -11524,7 +11524,7 @@
 		<text>俺の勘違いじゃなければ、ポンプ場は異常物質を沼の底から抜き取るために建設されたらしい。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_k00_marsh_10">
-		<text>機械工場が北東の方にある。以前はRenegadeたちがその場所を支配していた。</text>
+		<text>機械置き場が北東の方にある。以前はRenegadeたちがその場所を支配していた。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_k00_marsh_11">
 		<text>古い教会には行ったか？あそこは美しいが、同時に薄気味悪い。</text>
@@ -12020,7 +12020,7 @@
 		<text>西側はかなり危険だ。ミュータントどもは木の間に隠れ、次のタダ飯が歩いて来るのを待っている。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l02_garbage_12">
-		<text>もしアーティファクトを探してるんなら、車両の墓場、もしくは向こう側にある放射性の沼地が最適だな。</text>
+		<text>もしアーティファクトを探してるんなら、車両墓場、もしくは向こう側にある放射性の沼地が最適だな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l02_garbage_13">
 		<text>人々は景観の美しさを求めてゾーンに来るわけではない･･････</text>

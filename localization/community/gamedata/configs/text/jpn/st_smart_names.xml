@@ -87,13 +87,13 @@
 		<text>コードン [ルーキー村]</text>
 	</string>
 	<string id="st_esc_smart_terrain_4_13_name">
-		<text>コードン [テント野営地]</text>
+		<text>コードン [テントの野営地]</text>
 	</string>
 	<string id="st_esc_smart_terrain_2_14_name">
 		<text>コードン [木の下の焚き火]</text>
 	</string>
 	<string id="st_esc_smart_terrain_4_11_name">
-		<text>コードン [トレーラー野営地]</text>
+		<text>コードン [トレーラー横の野営地]</text>
 	</string>
 	<string id="st_esc_smart_terrain_1_11_name">
 		<text>コードン [秘密の野営地]</text>
@@ -105,7 +105,7 @@
 		<text>コードン [車両基地]</text>
 	</string>
 	<string id="st_esc_smart_terrain_5_9_name">
-		<text>コードン [穀物貯蔵庫]</text>
+		<text>コードン [エレベーター]</text>
 	</string>
 	<string id="st_esc_smart_terrain_4_9_name">
 		<text>コードン [地下通路]</text>
@@ -114,10 +114,10 @@
 		<text>コードン [崩落した橋]</text>
 	</string>
 	<string id="st_esc_smart_terrain_8_10_name">
-		<text>コードン [丘の上の野営地]</text>
+		<text>コードン [車両基地裏の丘]</text>
 	</string>
 	<string id="st_esc_smart_terrain_8_9_name">
-		<text>コードン [森の中の焚き火]</text>
+		<text>コードン [南の森の焚き火]</text>
 	</string>
 	<string id="st_esc_smart_terrain_9_7_name">
 		<text>コードン [線路沿いの野営地]</text>
@@ -126,25 +126,25 @@
 		<text>コードン [放棄された家]</text>
 	</string>
 	<string id="st_esc_smart_terrain_5_7_name">
-		<text>コードン [古い農場]</text>
+		<text>コードン [農場]</text>
 	</string>
 	<string id="st_esc_smart_terrain_3_7_name">
 		<text>コードン [岩場の焚き火]</text>
 	</string>
 	<string id="st_esc_smart_terrain_5_6_name">
-		<text>コードン [森の中の焚き火]</text>
+		<text>コードン [北の森の焚き火]</text>
 	</string>
 	<string id="st_esc_smart_terrain_5_4_name">
-		<text>コードン [道端の焚き火]</text>
+		<text>コードン [道路脇の焚き火]</text>
 	</string>
 	<string id="st_esc_smart_terrain_5_2_name">
 		<text>コードン [北の前哨基地]</text>
 	</string>
 	<string id="st_ds_ptr4_name">
-		<text>ダークスケープ [放棄されたトラック]</text>
+		<text>ダークスケープ [放置されたトラック]</text>
 	</string>
 	<string id="st_ds2_lager_st_name">
-		<text>ダークスケープ [崖の上の野営地]</text>
+		<text>ダークスケープ [崖下の野営地]</text>
 	</string>
 	<string id="st_ds2_st_dogs_name">
 		<text>ダークスケープ [森の集合地点]</text>
@@ -156,25 +156,25 @@
 		<text>ダークスケープ [休憩所]</text>
 	</string>
 	<string id="st_ds_deb1_name">
-		<text>ダークスケープ [障害物のある道路]</text>
+		<text>ダークスケープ [路上のバリケード]</text>
 	</string>
 	<string id="st_ds_kem2_name">
 		<text>ダークスケープ [ガソリンスタンド]</text>
 	</string>
 	<string id="st_ds2_domik_st_name">
-		<text>ダークスケープ [森の隠れ家]</text>
+		<text>ダークスケープ [製材所]</text>
 	</string>
 	<string id="st_ds_boars_nest_name">
-		<text>ダークスケープ [崖の上の集合地点]</text>
+		<text>ダークスケープ [崖下の集合地点]</text>
 	</string>
 	<string id="st_ds2_st_hoofs_name">
 		<text>ダークスケープ [待ち伏せ地点]</text>
 	</string>
 	<string id="st_ds_ptr_name">
-		<text>ダークスケープ [壊れた鉄道橋]</text>
+		<text>ダークスケープ [崩壊した鉄橋]</text>
 	</string>
 	<string id="st_ds_ptr3_name">
-		<text>ダークスケープ [放射能汚染されたトラック停留所]</text>
+		<text>ダークスケープ [放射能汚染されたトラック]</text>
 	</string>
 	<string id="st_ds_kem3_name">
 		<text>ダークスケープ [小さい橋]</text>
@@ -186,19 +186,19 @@
 		<text>グレートスワンプ [秘密基地]</text>
 	</string>
 	<string id="st_mar_smart_terrain_5_12_name">
-		<text>グレートスワンプ [釣り堀集落]</text>
+		<text>グレートスワンプ [漁師の集落]</text>
 	</string>
 	<string id="st_mar_smart_terrain_6_11_name">
 		<text>グレートスワンプ [見張り塔]</text>
 	</string>
 	<string id="st_mar_smart_terrain_8_11_name">
-		<text>グレートスワンプ [破壊された教会]</text>
+		<text>グレートスワンプ [古い教会]</text>
 	</string>
 	<string id="st_mar_smart_terrain_11_11_name">
-		<text>グレートスワンプ [南の村]</text>
+		<text>グレートスワンプ [南の集落]</text>
 	</string>
 	<string id="st_mar_smart_terrain_10_10_name">
-		<text>グレートスワンプ [池の近くの焚き火]</text>
+		<text>グレートスワンプ [水辺の焚き火]</text>
 	</string>
 	<string id="st_mar_smart_terrain_8_9_name">
 		<text>グレートスワンプ [道端の野営地]</text>
@@ -234,52 +234,52 @@
 		<text>グレートスワンプ [パイプのバリケード]</text>
 	</string>
 	<string id="st_mar_smart_terrain_7_7_name">
-		<text>グレートスワンプ [焚き火]</text>
+		<text>グレートスワンプ [荒れ地の野営地]</text>
 	</string>
 	<string id="st_mar_smart_terrain_10_5_name">
-		<text>グレートスワンプ [機械工場]</text>
+		<text>グレートスワンプ [機械置き場]</text>
 	</string>
 	<string id="st_mar_smart_terrain_8_4_name">
 		<text>グレートスワンプ [道端の焚き火]</text>
 	</string>
 	<string id="st_mar_smart_terrain_6_4_name">
-		<text>グレートスワンプ [仮設の野営地]</text>
+		<text>グレートスワンプ [仮設野営地]</text>
 	</string>
 	<string id="st_mar_smart_terrain_4_5_name">
 		<text>グレートスワンプ [村の廃墟]</text>
 	</string>
 	<string id="st_mar_smart_terrain_3_3_name">
-		<text>グレートスワンプ [釣り桟橋]</text>
+		<text>グレートスワンプ [漁師の桟橋]</text>
 	</string>
 	<string id="st_mar_smart_terrain_doc_name">
 		<text>グレートスワンプ [塹壕]</text>
 	</string>
 	<string id="st_mar_smart_terrain_12_2_name">
-		<text>グレートスワンプ [北の村]</text>
+		<text>グレートスワンプ [北の集落]</text>
 	</string>
 	<string id="st_mar_smart_terrain_11_3_name">
-		<text>グレートスワンプ [トラックの近くの焚き火]</text>
+		<text>グレートスワンプ [トラック横の焚き火]</text>
 	</string>
 	<string id="st_mar_smart_terrain_7_3_name">
-		<text>グレートスワンプ [壊れた列車の近くの野営地]</text>
+		<text>グレートスワンプ [脱線列車近くの野営地]</text>
 	</string>
 	<string id="st_gar_smart_terrain_3_7_name">
-		<text>ガベージ [車両の墓場]</text>
+		<text>ガベージ [車両墓場]</text>
 	</string>
 	<string id="st_gar_smart_terrain_6_7_name">
 		<text>ガベージ [展望地点]</text>
 	</string>
 	<string id="st_gar_smart_terrain_5_6_name">
-		<text>ガベージ [倒れたクレーン]</text>
+		<text>ガベージ [クレーンの残骸]</text>
 	</string>
 	<string id="st_gar_smart_terrain_6_6_name">
 		<text>ガベージ [森の隠れ家]</text>
 	</string>
 	<string id="st_gar_smart_terrain_1_7_name">
-		<text>ガベージ [仮設の前哨基地]</text>
+		<text>ガベージ [仮設前哨基地]</text>
 	</string>
 	<string id="st_gar_smart_terrain_3_5_name">
-		<text>ガベージ [列車停車場]</text>
+		<text>ガベージ [列車格納庫]</text>
 	</string>
 	<string id="st_gar_smart_terrain_2_4_name">
 		<text>ガベージ [パイプ裏の隠れ家]</text>
@@ -291,7 +291,7 @@
 		<text>ガベージ [バス停]</text>
 	</string>
 	<string id="st_gar_smart_terrain_5_5_name">
-		<text>ガベージ [不法投棄されたゴミ]</text>
+		<text>ガベージ [ゴミ捨て場の野営地]</text>
 	</string>
 	<string id="st_gar_smart_terrain_7_4_name">
 		<text>ガベージ [小さな前哨基地]</text>
@@ -303,13 +303,13 @@
 		<text>ガベージ [隠された野営地]</text>
 	</string>
 	<string id="st_gar_smart_terrain_5_2_name">
-		<text>ガベージ [要塞化された前哨基地]</text>
+		<text>ガベージ [ロストクの検問所]</text>
 	</string>
 	<string id="st_gar_smart_terrain_4_2_name">
 		<text>ガベージ [砂利採掘場]</text>
 	</string>
 	<string id="st_gar_smart_terrain_5_4_name">
-		<text>ガベージ [道端の拠点]</text>
+		<text>ガベージ [道路脇の監視所]</text>
 	</string>
 	<string id="st_gar_smart_terrain_8_3_name">
 		<text>ガベージ [西の前哨基地]</text>
@@ -318,34 +318,34 @@
 		<text>ガベージ [辺境の野営地]</text>
 	</string>
 	<string id="st_gar_smart_terrain_5_8_name">
-		<text>ガベージ [交差点]</text>
+		<text>ガベージ [南の検問所]</text>
 	</string>
 	<string id="st_agr_smart_terrain_6_4_name">
 		<text>アグロプロム [トンネルの隠れ家]</text>
 	</string>
 	<string id="st_agr_smart_terrain_5_3_name">
-		<text>アグロプロム [要塞化された列車用貨車]</text>
+		<text>アグロプロム [要塞化された貨車]</text>
 	</string>
 	<string id="st_agr_smart_terrain_5_2_name">
 		<text>アグロプロム [丘の上の野営地]</text>
 	</string>
 	<string id="st_agr_smart_terrain_2_2_name">
-		<text>アグロプロム [大きな岩近くの焚き火]</text>
+		<text>アグロプロム [岩場の野営地]</text>
 	</string>
 	<string id="st_agr_smart_terrain_1_2_name">
 		<text>アグロプロム [沼地の野営地]</text>
 	</string>
 	<string id="st_agr_smart_terrain_1_3_name">
-		<text>アグロプロム [ラジオ前哨基地]</text>
+		<text>アグロプロム [無線前哨基地]</text>
 	</string>
 	<string id="st_agr_smart_terrain_1_6_near_1_name">
-		<text>アグロプロム [北の入口]</text>
+		<text>アグロプロム [研究所の北口]</text>
 	</string>
 	<string id="st_agr_smart_terrain_1_6_name">
-		<text>アグロプロム [研究所]</text>
+		<text>アグロプロム [アグロプロム研究所]</text>
 	</string>
 	<string id="st_agr_smart_terrain_1_6_near_2_name">
-		<text>アグロプロム [東の入口]</text>
+		<text>アグロプロム [研究所の東口]</text>
 	</string>
 	<string id="st_agr_smart_terrain_4_6_name">
 		<text>アグロプロム [道路の検問所]</text>
@@ -354,22 +354,22 @@
 		<text>アグロプロム [地下道近くの野営地]</text>
 	</string>
 	<string id="st_agr_smart_terrain_7_5_name">
-		<text>アグロプロム [危険な焚き火]</text>
+		<text>アグロプロム [丘の上の野営地]</text>
 	</string>
 	<string id="st_agr_smart_terrain_4_4_name">
-		<text>アグロプロム [工場複合施設]</text>
+		<text>アグロプロム [アグロプロム工場]</text>
 	</string>
 	<string id="st_agr_smart_terrain_4_4_near_3_name">
 		<text>アグロプロム [工場の入口]</text>
 	</string>
 	<string id="st_agr_smart_terrain_4_4_2_name">
-		<text>アグロプロム [裏の出口]</text>
+		<text>アグロプロム [工場の裏口]</text>
 	</string>
 	<string id="st_agr_smart_terrain_4_4_near_1_name">
-		<text>アグロプロム [搬入口]</text>
+		<text>アグロプロム [工場の貨物搬入広場]</text>
 	</string>
 	<string id="st_agr_smart_terrain_4_4_near_2_name">
-		<text>アグロプロム [アグロプロムの脱出口]</text>
+		<text>アグロプロム [工場の裏口]</text>
 	</string>
 	<string id="st_val_smart_terrain_7_4_name">
 		<text>ダークバレー [北の工場]</text>
@@ -378,13 +378,13 @@
 		<text>ダークバレー [工場の倉庫]</text>
 	</string>
 	<string id="st_val_smart_terrain_9_4_name">
-		<text>ダークバレー [お化け屋敷]</text>
+		<text>ダークバレー [ガソリンスタンドの管理棟]</text>
 	</string>
 	<string id="st_val_smart_terrain_7_5_name">
 		<text>ダークバレー [管理棟]</text>
 	</string>
 	<string id="st_val_smart_terrain_8_6_name">
-		<text>ダークバレー [工場前の前哨基地]</text>
+		<text>ダークバレー [工場の前哨基地]</text>
 	</string>
 	<string id="st_val_smart_terrain_9_2_name">
 		<text>ダークバレー [根こそぎ倒れた木]</text>
@@ -396,37 +396,37 @@
 		<text>ダークバレー [渓谷の野営地]</text>
 	</string>
 	<string id="st_val_smart_terrain_8_7_name">
-		<text>ダークバレー [トレーラー野営地]</text>
+		<text>ダークバレー [トレーラー横の野営地]</text>
 	</string>
 	<string id="st_val_smart_terrain_7_8_name">
-		<text>ダークバレー [ラジオ島]</text>
+		<text>ダークバレー [沼地の野営地]</text>
 	</string>
 	<string id="st_val_smart_terrain_8_9_name">
 		<text>ダークバレー [孤島]</text>
 	</string>
 	<string id="st_val_smart_terrain_1_2_name">
-		<text>ダークバレー [工場の裏庭]</text>
+		<text>ダークバレー [工業団地の裏庭]</text>
 	</string>
 	<string id="st_val_smart_terrain_9_6_name">
-		<text>ダークバレー [工場近くの野営地]</text>
+		<text>ダークバレー [工業団地近くの野営地]</text>
 	</string>
 	<string id="st_val_smart_terrain_9_10_name">
-		<text>ダークバレー [坂道の焚き火]</text>
+		<text>ダークバレー [岩場の野営地]</text>
 	</string>
 	<string id="st_val_smart_terrain_4_0_name">
-		<text>ダークバレー [養豚場]</text>
+		<text>ダークバレー [農場の野営地]</text>
 	</string>
 	<string id="st_val_smart_terrain_5_10_name">
 		<text>ダークバレー [集合地点]</text>
 	</string>
 	<string id="st_val_smart_terrain_3_0_name">
-		<text>ダークバレー [仮設の野営地]</text>
+		<text>ダークバレー [仮設野営地]</text>
 	</string>
 	<string id="st_val_smart_terrain_7_11_name">
-		<text>ダークバレー [ダークスケープへの通路]</text>
+		<text>ダークバレー [ダークスケープへの道]</text>
 	</string>
 	<string id="st_yan_smart_terrain_6_4_name">
-		<text>ヤンター [サハロフの移動研究所]</text>
+		<text>ヤンター [移動研究所]</text>
 	</string>
 	<string id="st_yan_smart_terrain_3_6_name">
 		<text>ヤンター [低地]</text>
@@ -447,10 +447,10 @@
 		<text>ヤンター [工場の倒壊したクレーン]</text>
 	</string>
 	<string id="st_yan_smart_terrain_2_4_name">
-		<text>ヤンター [謎の工場]</text>
+		<text>ヤンター [工場の裏手]</text>
 	</string>
 	<string id="st_yan_smart_terrain_5_5_name">
-		<text>ヤンター [排水口]</text>
+		<text>ヤンター [排水路の入口]</text>
 	</string>
 	<string id="st_yan_smart_terrain_4_4_name">
 		<text>ヤンター [丘の頂上]</text>
@@ -471,16 +471,16 @@
 		<text>ワイルドテリトリー [建設現場]</text>
 	</string>
 	<string id="st_ros_smart_monster7_name">
-		<text>ワイルドテリトリー [地下通路]</text>
+		<text>ワイルドテリトリー [バーナートンネル]</text>
 	</string>
 	<string id="st_ros_smart_snork1_name">
 		<text>ワイルドテリトリー [放射能汚染された貯蔵庫]</text>
 	</string>
 	<string id="st_ros_smart_killers1_name">
-		<text>ワイルドテリトリー [入口]</text>
+		<text>ワイルドテリトリー [連絡路]</text>
 	</string>
 	<string id="st_ros_smart_stalker1_name">
-		<text>ワイルドテリトリー [放置された建築資材]</text>
+		<text>ワイルドテリトリー [資材置き場]</text>
 	</string>
 	<string id="st_ros_smart_poltergeist2_name">
 		<text>ワイルドテリトリー [荒廃した駅]</text>
@@ -492,7 +492,7 @@
 		<text>ワイルドテリトリー [石炭列車]</text>
 	</string>
 	<string id="st_bar_zastava_2_name">
-		<text>ロストク [西の前哨基地]</text>
+		<text>ロストク [西の検問所]</text>
 	</string>
 	<string id="st_bar_zastava_dogs_lair_2_name">
 		<text>ロストク [ミュータントの巣]</text>
@@ -507,10 +507,10 @@
 		<text>ロストク [仮設兵舎]</text>
 	</string>
 	<string id="st_bar_zastava_name">
-		<text>ロストク [南の前哨基地]</text>
+		<text>ロストク [南の検問所]</text>
 	</string>
 	<string id="st_bar_zastava_dogs_lair_name">
-		<text>ロストク [ロストクの堀]</text>
+		<text>ロストク [外周の防衛溝]</text>
 	</string>
 	<string id="st_trc_sim_20_name">
 		<text>トラック墓地 [東の検問所]</text>
@@ -525,7 +525,7 @@
 		<text>トラック墓地 [辺境]</text>
 	</string>
 	<string id="st_trc_sim_4_name">
-		<text>トラック墓地 [丘の頂上近くの焼けた家]</text>
+		<text>トラック墓地 [焼け落ちた家]</text>
 	</string>
 	<string id="st_trc_sim_18_name">
 		<text>トラック墓地 [トラックの間の野営地]</text>
@@ -582,25 +582,25 @@
 		<text>デッドシティ [市街地の展望地点]</text>
 	</string>
 	<string id="st_cit_bandits_name">
-		<text>デッドシティ [放棄された学校]</text>
+		<text>デッドシティ [放棄された文化会館]</text>
 	</string>
 	<string id="st_cit_killers_name">
 		<text>デッドシティ [スポーツセンター]</text>
 	</string>
 	<string id="st_cit_killers_vs_bandits_name">
-		<text>デッドシティ [放棄された一体構造物]</text>
+		<text>デッドシティ [放棄された市役所]</text>
 	</string>
 	<string id="st_cit_killers_2_name">
 		<text>デッドシティ [破壊された家]</text>
 	</string>
 	<string id="st_cit_kanaliz2_name">
-		<text>デッドシティ [地形の窪地]</text>
+		<text>デッドシティ [窪地]</text>
 	</string>
 	<string id="st_zombie_smart_ds_mlr_1_name">
 		<text>デッドシティ [死の庭]</text>
 	</string>
 	<string id="st_zombie_smart_ds_mlr_2_name">
-		<text>デッドシティ [アパート]</text>
+		<text>デッドシティ [集合住宅]</text>
 	</string>
 	<string id="st_mil_smart_terrain_7_4_name">
 		<text>陸軍倉庫 [放棄された村]</text>
@@ -615,10 +615,10 @@
 		<text>陸軍倉庫 [ブラッドサッカー村]</text>
 	</string>
 	<string id="st_mil_smart_terrain_4_3_name">
-		<text>陸軍倉庫 [街の見張り塔]</text>
+		<text>陸軍倉庫 [見張り塔]</text>
 	</string>
 	<string id="st_mil_smart_terrain_4_2_name">
-		<text>陸軍倉庫 [村の生活施設]</text>
+		<text>陸軍倉庫 [村の休憩所]</text>
 	</string>
 	<string id="st_mil_smart_terrain_2_2_name">
 		<text>陸軍倉庫 [要塞化された検問所]</text>
@@ -627,7 +627,7 @@
 		<text>陸軍倉庫 [放棄された農場]</text>
 	</string>
 	<string id="st_mil_smart_terrain_2_1_name">
-		<text>陸軍倉庫 [隠れ家]</text>
+		<text>陸軍倉庫 [岩場の野営地]</text>
 	</string>
 	<string id="st_mil_smart_terrain_2_6_name">
 		<text>陸軍倉庫 [墜落したヘリコプター]</text>
@@ -645,13 +645,13 @@
 		<text>陸軍倉庫 [軍事基地の入口]</text>
 	</string>
 	<string id="st_mil_smart_terrain_7_10_name">
-		<text>陸軍倉庫 [破壊された変電所]</text>
+		<text>陸軍倉庫 [破壊された変圧器]</text>
 	</string>
 	<string id="st_mil_smart_terrain_7_7_name">
 		<text>陸軍倉庫 [軍事基地の広場]</text>
 	</string>
 	<string id="st_mil_smart_terrain_4_5_name">
-		<text>陸軍倉庫 [野営地]</text>
+		<text>陸軍倉庫 [歪んだ谷の野営地]</text>
 	</string>
 	<string id="st_rad_entrance_name">
 		<text>レーダー施設 [廃墟と化した検問所]</text>
@@ -666,16 +666,16 @@
 		<text>レーダー施設 [秘密の施設]</text>
 	</string>
 	<string id="st_rad2_loner_0001_name">
-		<text>レーダー施設 [障害物のある道路]</text>
+		<text>レーダー施設 [封鎖線]</text>
 	</string>
 	<string id="st_rad_snork1_name">
-		<text>レーダー施設 [不気味な隠れ家]</text>
+		<text>レーダー施設 [崖下の野営地]</text>
 	</string>
 	<string id="st_rad_zombied1_name">
 		<text>レーダー施設 [ミュータントの巣]</text>
 	</string>
 	<string id="st_rad_snork2_name">
-		<text>レーダー施設 [通路]</text>
+		<text>レーダー施設 [岩場の抜け道]</text>
 	</string>
 	<string id="st_rad_pseudodogs_name">
 		<text>レーダー施設 [ヘリコプター近くの隠れ家]</text>
@@ -693,13 +693,13 @@
 		<text>レーダー施設 [ブレイン・スコーチャーの入口]</text>
 	</string>
 	<string id="st_rad_antenna_camper_name">
-		<text>レーダー施設 [トンネルの入口]</text>
+		<text>レーダー施設 [X-19研究所の入口]</text>
 	</string>
 	<string id="st_rad2_loner_0002_name">
 		<text>レーダー施設 [土嚢]</text>
 	</string>
 	<string id="st_rad2_loner_0000_name">
-		<text>レーダー施設 [前進基地]</text>
+		<text>レーダー施設 [前哨基地]</text>
 	</string>
 	<string id="st_rad_valley_dogs_name">
 		<text>レーダー施設 [犬の巣]</text>
@@ -711,19 +711,19 @@
 		<text>レッドフォレスト [放棄された戦車]</text>
 	</string>
 	<string id="st_red_smart_terrain_monsters_2_name">
-		<text>レッドフォレスト [採掘シャフト]</text>
+		<text>レッドフォレスト [採掘坑道]</text>
 	</string>
 	<string id="st_red_smart_terrain_6_6_name">
 		<text>レッドフォレスト [森の中の焚き火]</text>
 	</string>
 	<string id="st_red_smart_terrain_bridge_name">
-		<text>レッドフォレスト [リマンスクの橋]</text>
+		<text>レッドフォレスト [リマンスクへの橋]</text>
 	</string>
 	<string id="st_red_smart_terrain_5_5_name">
 		<text>レッドフォレスト [岩場の隠れ場所]</text>
 	</string>
 	<string id="st_red_smart_terrain_5_6_name">
-		<text>レッドフォレスト [森の湿地]</text>
+		<text>レッドフォレスト [森の空き地]</text>
 	</string>
 	<string id="st_red_smart_terrain_monsters_3_name">
 		<text>レッドフォレスト [森の獣穴]</text>
@@ -747,7 +747,7 @@
 		<text>レッドフォレスト [坑道の兵舎]</text>
 	</string>
 	<string id="st_red_bridge_bandit_smart_skirmish_name">
-		<text>レッドフォレスト [リマンスクのトンネル]</text>
+		<text>レッドフォレスト [リマンスクへのトンネル]</text>
 	</string>
 	<string id="st_lim_smart_terrain_1_name">
 		<text>リマンスク [破壊された家の近くの野営地]</text>
@@ -756,10 +756,10 @@
 		<text>リマンスク [検問所]</text>
 	</string>
 	<string id="st_lim_smart_terrain_4_name">
-		<text>リマンスク [アノマリー障害物]</text>
+		<text>リマンスク [アノマリーの障壁]</text>
 	</string>
 	<string id="st_lim_smart_terrain_5_name">
-		<text>リマンスク [家の中の通路]</text>
+		<text>リマンスク [ガレージ横の広場]</text>
 	</string>
 	<string id="st_lim_smart_terrain_6_name">
 		<text>リマンスク [放棄された建物]</text>
@@ -774,7 +774,7 @@
 		<text>リマンスク [古い建設現場]</text>
 	</string>
 	<string id="st_lim_smart_terrain_10_name">
-		<text>リマンスク [荒廃した家]</text>
+		<text>リマンスク [荒れ果てた家]</text>
 	</string>
 	<string id="st_katacomb_smart_terrain_name">
 		<text>放棄された病院</text>
@@ -783,7 +783,7 @@
 		<text>プリピャチ [焼け跡の野営地]</text>
 	</string>
 	<string id="st_pri_smart_monolith_stalker2_name">
-		<text>プリピャチ [一体構造物の近くの野営地]</text>
+		<text>プリピャチ [集合住宅の近くの野営地]</text>
 	</string>
 	<string id="st_pri_smart_monster_lair1_name">
 		<text>プリピャチ [トレーラーの近くの監視所]</text>
@@ -807,16 +807,16 @@
 		<text>プリピャチ [崩壊したレーニン像]</text>
 	</string>
 	<string id="st_pri_smart_tushkano_lair1_name">
-		<text>プリピャチ [ホテル]</text>
+		<text>プリピャチ [ホテル・ポリーシャ]</text>
 	</string>
 	<string id="st_pri_smart_snork_lair1_name">
-		<text>プリピャチ [放射能汚染された廃墟の近くの野営地]</text>
+		<text>プリピャチ [汚染された廃墟の近くの野営地]</text>
 	</string>
 	<string id="st_pri_monolith_name">
-		<text>プリピャチ [文化会館]</text>
+		<text>プリピャチ [文化宮殿]</text>
 	</string>
 	<string id="st_pri_smart_monolith_stalker6_name">
-		<text>プリピャチ [競技場入口]</text>
+		<text>プリピャチ [競技場の入口]</text>
 	</string>
 	<string id="st_pri_smart_pseudodog_lair1_name">
 		<text>プリピャチ [寂れた野営地]</text>
@@ -837,7 +837,7 @@
 		<text>ジェネレーター [放棄された変電所]</text>
 	</string>
 	<string id="st_gen_smart_terrain_lab_entrance_name">
-		<text>ジェネレーター [戦争研究所の表]</text>
+		<text>ジェネレーター [戦争研究所の入口]</text>
 	</string>
 	<string id="st_gen_smart_terrain_forest_name">
 		<text>ジェネレーター [不気味な森の隠れ家]</text>
@@ -858,13 +858,13 @@
 		<text>プリピャチ郊外 [行き止まりの道]</text>
 	</string>
 	<string id="st_pri_a28_heli_name">
-		<text>プリピャチ郊外 [劇場の中庭]</text>
+		<text>プリピャチ郊外 [映画館前の広場]</text>
 	</string>
 	<string id="st_pri_sim_1_name">
 		<text>プリピャチ郊外 [プロメテウス映画館]</text>
 	</string>
 	<string id="st_pri_b303_name">
-		<text>プリピャチ郊外 [古いサービスセンター]</text>
+		<text>プリピャチ郊外 [旧サービスセンター]</text>
 	</string>
 	<string id="st_pri_a28_evac_name">
 		<text>プリピャチ郊外 [集合住宅の駐車場]</text>
@@ -873,7 +873,7 @@
 		<text>プリピャチ郊外 [隠れ家]</text>
 	</string>
 	<string id="st_pri_sim_6_name">
-		<text>プリピャチ郊外 [病院の路地裏]</text>
+		<text>プリピャチ郊外 [病院の並木道]</text>
 	</string>
 	<string id="st_pri_a17_name">
 		<text>プリピャチ郊外 [病院]</text>
@@ -882,13 +882,13 @@
 		<text>プリピャチ郊外 [破壊された学校]</text>
 	</string>
 	<string id="st_pri_a28_school_name">
-		<text>プリピャチ郊外 [学校の門]</text>
+		<text>プリピャチ郊外 [校門]</text>
 	</string>
 	<string id="st_pri_b306_name">
 		<text>プリピャチ郊外 [ユビレイニー・サービスセンター]</text>
 	</string>
 	<string id="st_pri_sim_10_name">
-		<text>プリピャチ郊外 [悪魔の道路]</text>
+		<text>プリピャチ郊外 [悪魔の道]</text>
 	</string>
 	<string id="st_pri_sim_12_name">
 		<text>プリピャチ郊外 [ミュータントの巣]</text>
@@ -906,16 +906,16 @@
 		<text>プリピャチ郊外 [一体構造物の通路]</text>
 	</string>
 	<string id="st_pri_a28_shop_name">
-		<text>プリピャチ郊外 [放棄された店舗]</text>
+		<text>プリピャチ郊外 [放棄された商店]</text>
 	</string>
 	<string id="st_pri_a28_arch_name">
-		<text>プリピャチ郊外 [建築物の弓形構造]</text>
+		<text>プリピャチ郊外 [アパート下の通路]</text>
 	</string>
 	<string id="st_pri_a22_smart_terrain_name">
-		<text>プリピャチ郊外 [アパートの間の野営地]</text>
+		<text>プリピャチ郊外 [集合住宅の間の野営地]</text>
 	</string>
 	<string id="st_pri_sim_3_name">
-		<text>プリピャチ郊外 [幼稚園の門]</text>
+		<text>プリピャチ郊外 [幼稚園の正門]</text>
 	</string>
 	<string id="st_pri_a25_smart_terrain_name">
 		<text>プリピャチ郊外 [幼稚園]</text>
@@ -948,13 +948,13 @@
 		<text>プリピャチ郊外 [バス停]</text>
 	</string>
 	<string id="st_pri_b35_mercs_name">
-		<text>プリピャチ郊外 [アパート複合施設]</text>
+		<text>プリピャチ郊外 [集合住宅]</text>
 	</string>
 	<string id="st_pri_b305_dogs_name">
-		<text>プリピャチ郊外 [アパート複合施設の裏庭]</text>
+		<text>プリピャチ郊外 [集合住宅の裏手]</text>
 	</string>
 	<string id="st_pri_a15_name">
-		<text>プリピャチ郊外 [下水道の入口]</text>
+		<text>プリピャチ郊外 [地下道の入口]</text>
 	</string>
 	<string id="st_jup_a12_name">
 		<text>ジュピター [コンテナ倉庫]</text>
@@ -963,13 +963,13 @@
 		<text>ジュピター [ミュータントの巣]</text>
 	</string>
 	<string id="st_jup_a12_merc_name">
-		<text>ジュピター [車の近くの検問所]</text>
+		<text>ジュピター [車の近くの監視所]</text>
 	</string>
 	<string id="st_jup_sim__name">
 		<text>ジュピター [倒壊した鉄道トンネル]</text>
 	</string>
 	<string id="st_jup_b203_name">
-		<text>ジュピター [換気複合施設地下]</text>
+		<text>ジュピター [換気複合施設の地下]</text>
 	</string>
 	<string id="st_jup_b212_name">
 		<text>ジュピター [換気複合施設]</text>
@@ -978,7 +978,7 @@
 		<text>ジュピター [駐車場]</text>
 	</string>
 	<string id="st_jup_sim_1_name">
-		<text>ジュピター [線路脇の野営地]</text>
+		<text>ジュピター [線路沿いの野営地]</text>
 	</string>
 	<string id="st_jup_b205_smart_terrain_name">
 		<text>ジュピター [ヴォルホフ対空ミサイル施設]</text>
@@ -993,7 +993,7 @@
 		<text>ジュピター [コパシー村]</text>
 	</string>
 	<string id="st_jup_b6_anom_2_name">
-		<text>ジュピター [コパシー村の隠れ家]</text>
+		<text>ジュピター [コパシー村の見張り台]</text>
 	</string>
 	<string id="st_jup_b1_name">
 		<text>ジュピター [北西のトンネル]</text>
@@ -1023,10 +1023,10 @@
 		<text>ジュピター [壊れた橋]</text>
 	</string>
 	<string id="st_jup_b200_name">
-		<text>ジュピター [見張り台]</text>
+		<text>ジュピター [セメント工場]</text>
 	</string>
 	<string id="st_jup_b200_tushkan_smart_terrain_name">
-		<text>ジュピター [セメント工場]</text>
+		<text>ジュピター [セメント工場の地下]</text>
 	</string>
 	<string id="st_jup_sim_7_name">
 		<text>ジュピター [採石場の見張り台]</text>
@@ -1050,61 +1050,61 @@
 		<text>ジュピター [検問所]</text>
 	</string>
 	<string id="st_jup_b41_name">
-		<text>ジュピター [ヘルマンの移動研究所]</text>
+		<text>ジュピター [移動研究所]</text>
 	</string>
 	<string id="st_jup_sim_6_name">
 		<text>ジュピター [採石場の斜面]</text>
 	</string>
 	<string id="st_jup_b209_name">
-		<text>ジュピター [「歴青」アノマリー領域の入口]</text>
+		<text>ジュピター [「歴青」アノマリーの入口]</text>
 	</string>
 	<string id="st_jup_sim_5_name">
 		<text>ジュピター [道路の分岐点]</text>
 	</string>
 	<string id="st_jup_sim_4_name">
-		<text>ジュピター [放棄されたエンジン]</text>
+		<text>ジュピター [放棄された機関車]</text>
 	</string>
 	<string id="st_jup_b204_name">
-		<text>ジュピター [用水路の前哨基地]</text>
+		<text>ジュピター [Banditの野営地]</text>
 	</string>
 	<string id="st_jup_sim_11_name">
-		<text>ジュピター [奥地]</text>
+		<text>ジュピター [辺境の森]</text>
 	</string>
 	<string id="st_jup_sim_12_name">
 		<text>ジュピター [複合施設の近くの野営地]</text>
 	</string>
 	<string id="st_jup_sim_18_name">
-		<text>ジュピター [工場の倉庫]</text>
+		<text>ジュピター [ジュピター工場の倉庫]</text>
 	</string>
 	<string id="st_jup_sim_17_name">
-		<text>ジュピター [乾式水路]</text>
+		<text>ジュピター [コンクリート風呂]</text>
 	</string>
 	<string id="st_jup_a9_name">
-		<text>ジュピター [工場の入口]</text>
+		<text>ジュピター [ジュピター工場の入口]</text>
 	</string>
 	<string id="st_jup_b47_name">
-		<text>ジュピター [内側の道路]</text>
+		<text>ジュピター [ジュピター工場の道路]</text>
 	</string>
 	<string id="st_jup_sim_19_name">
-		<text>ジュピター [工場の廃棄場]</text>
+		<text>ジュピター [ジュピター工場の廃棄場]</text>
 	</string>
 	<string id="st_jup_b8_smart_terrain_name">
 		<text>ジュピター [墜落したヘリコプター]</text>
 	</string>
 	<string id="st_jup_b219_name">
-		<text>ジュピター [工場]</text>
+		<text>ジュピター [ジュピター工場]</text>
 	</string>
 	<string id="st_jup_b4_name">
 		<text>ジュピター [橋の下の隠れ家]</text>
 	</string>
 	<string id="st_jup_sim_3_name">
-		<text>ジュピター [浅い沼]</text>
+		<text>ジュピター [浅い沼地]</text>
 	</string>
 	<string id="st_jup_sim_13_name">
 		<text>ジュピター [危険な野営地]</text>
 	</string>
 	<string id="st_jup_b205_smart_terrain_tushkano_name">
-		<text>ジュピター [ヴォルホフ地下]</text>
+		<text>ジュピター [ヴォルホフ対空ミサイル施設の地下]</text>
 	</string>
 	<string id="st_jup_sim_2_name">
 		<text>ジュピター [西のトンネル]</text>
@@ -1119,24 +1119,24 @@
 		<text>チェルノブイリ原発の南側 [発電所]</text>
 	</string>
 	<string id="st_aes_smart_terrain_monolit_blockpost2_name">
-		<text>チェルノブイリ原発の南側 [オイルタンカー]</text>
+		<text>チェルノブイリ原発の南側 [燃料貯蔵タンク]</text>
 	</string>
 	<string id="st_aes_smart_terrain_monolit_blockpost_name">
-		<text>チェルノブイリ原発の南側 [発電所入口]</text>
+		<text>チェルノブイリ原発の南側 [発電所の入口]</text>
 	</string>
 	<string id="st_aes_smart_terrain_soldier2_name">
-		<text>チェルノブイリ原発の南側 [オフィス複合施設]</text>
+		<text>チェルノブイリ原発の南側 [管理棟]</text>
 	</string>
 	<string id="st_aes_smart_terrain_monsters1_name">
 		<text>チェルノブイリ原発の南側 [主要道路]</text>
 	</string>
 	<string id="st_aes_smart_terrain_monsters2_name">
-		<text>チェルノブイリ原発の南側 [遠くの野営地]</text>
+		<text>チェルノブイリ原発の南側 [離れの野営地]</text>
 	</string>
 	<string id="st_aes_smart_terrain_monsters3_name">
 		<text>チェルノブイリ原発の南側 [送電塔]</text>
 	</string>
-	<string id="st_aes_smart_terrain_soldier_name">
+	<string id="st_aes_smart_terran_soldier_name">
 		<text>チェルノブイリ原発の南側 [前哨基地]</text>
 	</string>
 	<string id="st_aes_smart_terrain_monsters4_name">
@@ -1170,10 +1170,10 @@
 		<text>チェルノブイリ原発の北側 [大きな野営地]</text>
 	</string>
 	<string id="st_aes2_monolith_camp2_name">
-		<text>チェルノブイリ原発の北側 [内部の隠れ家]</text>
+		<text>チェルノブイリ原発の北側 [内部の監視所]</text>
 	</string>
 	<string id="st_aes2_monsters2_name">
-		<text>チェルノブイリ原発の北側 [着地点]</text>
+		<text>チェルノブイリ原発の北側 [降下地点]</text>
 	</string>
 	<string id="st_aes2_monolith_camp3_name">
 		<text>チェルノブイリ原発の北側 [屋上の野営地]</text>
@@ -1200,10 +1200,10 @@
 		<text>ザトン [プレオブラジェンスキー橋]</text>
 	</string>
 	<string id="st_zat_sim_11_name">
-		<text>ザトン [仮設の野営地]</text>
+		<text>ザトン [仮設野営地]</text>
 	</string>
 	<string id="st_zat_b54_name">
-		<text>ザトン [「スカー」アノマリー領域の野営地]</text>
+		<text>ザトン [「スカー」アノマリーの野営地]</text>
 	</string>
 	<string id="st_zat_sim_24_name">
 		<text>ザトン [河の合流地点]</text>
@@ -1227,13 +1227,13 @@
 		<text>ザトン [丘の巣]</text>
 	</string>
 	<string id="st_zat_b53_name">
-		<text>ザトン [「蒸気」アノマリー領域の野営地]</text>
+		<text>ザトン [「蒸気」アノマリーの野営地]</text>
 	</string>
 	<string id="st_zat_sim_29_name">
 		<text>ザトン [丘の上の森]</text>
 	</string>
 	<string id="st_zat_a1_name">
-		<text>ザトン [離れた野営地]</text>
+		<text>ザトン [辺境の野営地]</text>
 	</string>
 	<string id="st_zat_sim_15_name">
 		<text>ザトン [北東の河の展望地点]</text>
@@ -1266,16 +1266,16 @@
 		<text>ザトン [危険な野営地]</text>
 	</string>
 	<string id="st_zat_sim_6_name">
-		<text>ザトン [アノマリーがある沼地の見張り台]</text>
+		<text>ザトン [沼地の見張り台]</text>
 	</string>
 	<string id="st_zat_b38_name">
 		<text>ザトン [クルーグ複合アンテナ施設]</text>
 	</string>
 	<string id="st_zat_b38u_name">
-		<text>ザトン [換気複合施設]</text>
+		<text>ザトン [複合施設の換気設備]</text>
 	</string>
 	<string id="st_zat_sim_7_name">
-		<text>ザトン [複合施設の奥地]</text>
+		<text>ザトン [複合施設奥の林]</text>
 	</string>
 	<string id="st_zat_sim_8_name">
 		<text>ザトン [ミュータントの巣]</text>
@@ -1284,7 +1284,7 @@
 		<text>ザトン [森の古い野営地]</text>
 	</string>
 	<string id="st_zat_b39_name">
-		<text>ザトン [「オークパイン」アノマリー領域の野営地]</text>
+		<text>ザトン [「オークパイン」アノマリーの野営地]</text>
 	</string>
 	<string id="st_zat_sim_25_name">
 		<text>ザトン [給油所]</text>
@@ -1293,28 +1293,28 @@
 		<text>ザトン [道端の野営地]</text>
 	</string>
 	<string id="st_zat_b33_name">
-		<text>ザトン [スノークの巣穴]</text>
+		<text>ザトン [スノークの巣]</text>
 	</string>
 	<string id="st_zat_b55_name">
-		<text>ザトン [「クロー」アノマリー領域の野営地]</text>
+		<text>ザトン [「クロー」アノマリーの野営地]</text>
 	</string>
 	<string id="st_zat_b100_name">
-		<text>ザトン [「アイアンフォレスト」アノマリー領域]</text>
+		<text>ザトン [アイアンフォレスト]</text>
 	</string>
 	<string id="st_zat_a23_smart_terrain_name">
 		<text>ザトン [墜落したヘリコプター]</text>
 	</string>
 	<string id="st_zat_sim_9_name">
-		<text>ザトン [「アイアンフォレスト」アノマリー領域の奥地]</text>
+		<text>ザトン [アイアンフォレストの奥地]</text>
 	</string>
 	<string id="st_zat_b103_merc_smart_name">
 		<text>ザトン [変電所の作業場]</text>
 	</string>
 	<string id="st_zat_b56_name">
-		<text>ザトン [「サーカス」アノマリー領域の野営地]</text>
+		<text>ザトン [「サーカス」アノマリーの野営地]</text>
 	</string>
 	<string id="st_zat_stalker_base_smart_name">
-		<text>ザトン [スカドフスク難破船]</text>
+		<text>ザトン [スカドフスク]</text>
 	</string>
 	<string id="st_zat_sim_20_name">
 		<text>ザトン [地下の入口]</text>
@@ -1338,16 +1338,16 @@
 		<text>ザトン [浅い川]</text>
 	</string>
 	<string id="st_zat_b7_stalker_raider_name">
-		<text>ザトン [シェフチェンコのエンジンルーム]</text>
+		<text>ザトン [シェフチェンコの機関室]</text>
 	</string>
 	<string id="st_zat_b7_name">
-		<text>ザトン [シェフチェンコ難破船]</text>
+		<text>ザトン [シェフチェンコ]</text>
 	</string>
 	<string id="st_zat_sim_23_name">
 		<text>ザトン [沼地の川]</text>
 	</string>
 	<string id="st_zat_b18_name">
-		<text>ザトン [古い橋]</text>
+		<text>ザトン [古いはしけ]</text>
 	</string>
 	<string id="st_zat_medic_home_start_name">
 		<text>ザトン [波止場の野営地]</text>
@@ -1356,7 +1356,7 @@
 		<text>ザトン [波止場のクレーン]</text>
 	</string>
 	<string id="st_zat_sim_12_name">
-		<text>ザトン [道端の遠足]</text>
+		<text>ザトン [路傍のピクニック]</text>
 	</string>
 	<string id="st_zat_sim_22_name">
 		<text>ザトン [丘]</text>
@@ -1452,7 +1452,7 @@
 <!-- MLR -->
 
 	<string id="ui_st_red_forest_vagon_csky">
-		<text>レッドフォレスト [マルクの野営地]</text>
+		<text>レッドフォレスト [辺境の野営地]</text>
 	</string>
 	<string id="ui_st_truck_cemetery_bandits_post">
 		<text>トラック墓地 [野営地の外れ]</text>
@@ -1503,7 +1503,7 @@
 		<text>エレベーター</text>
 	</string>
 	<string id="st_tunnel_electr_name">
-		<text>エレクトロアノマリーのトンネル</text>
+		<text>バーントファズ・トンネル</text>
 	</string>
 	<string id="st_neut_base_name">
 		<text>農場</text>
@@ -1536,13 +1536,13 @@
 		<text>バス停</text>
 	</string>
 	<string id="st_ds_administration_name">
-		<text>管理所</text>
+		<text>市役所</text>
 	</string>
 	<string id="st_ds_market_name">
-		<text>市場</text>
+		<text>スポーツセンター</text>
 	</string>
 	<string id="st_ds_HoC_name">
-		<text>文化の館</text>
+		<text>文化会館</text>
 	</string>
 	<string id="st_lim_zastava_name">
 		<text>前哨基地</text>
@@ -1566,13 +1566,13 @@
 		<text>ウォーターポンプ場</text>
 	</string>
 	<string id="st_lim_mechanic_yard_name">
-		<text>機械工場</text>
+		<text>機械置き場</text>
 	</string>
 	<string id="st_lim_bridge_name">
 		<text>リマンスクへの橋</text>
 	</string>
 	<string id="st_lim_house_lesnik_name">
-		<text>フォレスターの建物</text>
+		<text>フォレスターの家</text>
 	</string>
 	<string id="st_lim_post_vishka_name">
 		<text>監視哨</text>
@@ -1611,7 +1611,7 @@
 <!-- MISSING SMARTS -->
 
 	<string id="st_esc_smart_terrain_9_10_name">
-		<text>コードン [トンネルの近くの焚き火]</text>
+		<text>コードン [トンネル近くの焚き火]</text>
 	</string>
 	<string id="st_agr_smart_terrain_7_4_name">
 		<text>アグロプロム [ガベージへの道]</text>
@@ -1626,7 +1626,7 @@
 		<text>メドウ [工場の敷地]</text>
 	</string>
 	<string id="st_pol_smart_terrain_1_1_name">
-		<text>メドウ [村]</text>
+		<text>メドウ [小さな村]</text>
 	</string>
 	<string id="st_pol_smart_terrain_1_2_name">
 		<text>メドウ [14番食堂]</text>
@@ -1662,7 +1662,7 @@
 		<text>プリピャチ [ホテルの裏庭]</text>
 	</string>
 	<string id="st_mlr_terrain_name">
-		<text>プリピャチ [シアタールーム]</text>
+		<text>プリピャチ [文化宮殿の劇場]</text>
 	</string>
 	<string id="st_monolith_snipers_smart_1_mlr_name">
 		<text>プリピャチ [呪われた路地]</text>

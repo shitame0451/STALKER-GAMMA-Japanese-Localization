@@ -27,7 +27,7 @@
 		<text>プリピャチ [文化宮殿]</text>
 	</string>
 	<string id="ui_st_eastern_factory">
-		<text>ダークバレー [東部の工場]</text>
+		<text>ダークバレー [東の工場]</text>
 	</string>
 	<string id="ui_st_factory_complex">
 		<text>アグロプロム [工業団地]</text>
@@ -51,7 +51,7 @@
 		<text>陸軍倉庫 [軍事基地]</text>
 	</string>
 	<string id="ui_st_northern_factory">
-		<text>ダークバレー [北部の工場]</text>
+		<text>ダークバレー [北の工場]</text>
 	</string>
 	<string id="ui_st_river_port">
 		<text>プリピャチ郊外 [河川港]</text>
@@ -69,7 +69,7 @@
 		<text>ザトン [スカドフスク難破船]</text>
 	</string>
 	<string id="ui_st_southern_checkpoint">
-		<text>コードン [南部の検問所]</text>
+		<text>コードン [南の検問所]</text>
 	</string>
 	<string id="ui_st_sports_center">
 		<text>デッドシティ [スポーツセンター]</text>
@@ -123,7 +123,7 @@
 		<text>ダークバレー [廃墟の橋]</text>
 	</string>
 	<string id="ui_st_eastern_checkpoint">
-		<text>トラック墓地 [東部の検問所]</text>
+		<text>トラック墓地 [東の検問所]</text>
 	</string>
 	<string id="ui_st_fallen_helicopter">
 		<text>陸軍倉庫 [墜落したヘリコプター]</text>
@@ -153,7 +153,7 @@
 		<text>プリピャチ郊外 [ユビレイニー・サービスセンター]</text>
 	</string>
 	<string id="ui_st_machine_yard">
-		<text>グレートスワンプ [機械工場]</text>
+		<text>グレートスワンプ [機械置き場]</text>
 	</string>
 	<string id="ui_st_military_base_two">
 		<text>ジェネレーター [Militaryの基地]</text>
