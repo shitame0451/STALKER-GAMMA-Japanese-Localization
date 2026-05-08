@@ -15,13 +15,13 @@
 	</string>
 	<string id="encyclopedia_anomalies_emission_text">
 		<text>
-		%c[pda_white]「光熱放射」%c[ui_gray_1]
-		\n%c[pda_green]ブロウアウト%c[ui_gray_1]とも呼ばれる、大量の放射線が突然放出される現象である。
-		\n \n%c[pda_green]情報%c[ui_gray_1]
+		%c[pda_white]「光熱放射」
+		\n%c[pda_green]ブロウアウト%c[pda_white]とも呼ばれる、大量の放射線が突然放出される現象である。
+		\n \n%c[pda_green]情報%c[pda_white]
 		\n光熱放射が始まると同時に強風、嵐雲、赤い空が現れ、幾多の雷鳴がとどろき、地下深くからは地鳴りが何度も続く。
 		\nこれらの現象は、放射線、異常なプサイ活動の急増から始まり、放射線の波動がゾーンを覆いつくし、ほとんどの生命体を死に至らせる。
 		\n \n非常に危険な現象だが、光熱放射が自然に収まるまで建物や地下トンネルに身を隠すことによって、簡単にやり過ごすことができる。
-		\n \n%c[pda_blue]メモ%c[ui_gray_1]
+		\n \n%c[pda_blue]メモ%c[pda_white]
 		\n • 精神波の嵐と同じように、光熱放射で放出された大量のエネルギーは、多くのアノマリーを「再チャージ」し、ストーカーたちはそれらのアノマリーから新たなアーティファクトを入手できる。
 		</text>
 	</string>
@@ -31,12 +31,12 @@
 	</string>
 	<string id="encyclopedia_anomalies_psistorm_text">
 		<text>
-		%c[pda_white]「精神波の嵐」%c[ui_gray_1]
+		%c[pda_white]「精神波の嵐」
 		\n複数のプサイ波の渦で構成され、致死量のプサイエネルギーを放出する。
-		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n \n%c[pda_green]情報%c[pda_white]
 		\nこのような異常気象がゾーンに現れたのはごく最近のことである。
 		\n紫やピンクの靄と巨大な嵐雲から始まり、精神波の嵐が形成され、瞬く間にゾーンを大混乱に陥れる。
-		\n \n%c[pda_blue]メモ%c[ui_gray_1]
+		\n \n%c[pda_blue]メモ%c[pda_white]
 		\n • 光熱放射と同じように、精神波の嵐で分散された大量のエネルギーは、多くのアノマリーを「再チャージ」し、ストーカーたちはそれらのアノマリーから新たなアーティファクトを入手できる。
 		</text>
 	</string>
@@ -50,9 +50,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_brain_scorcher_text">
 		<text>
-		%c[pda_white]「ブレイン・スコーチャー」%c[ui_gray_1]
+		%c[pda_white]「ブレイン・スコーチャー」
 		\nかつての軍事施設をあるグループが接収したもので、ゾーンで初めてマインドコントロール技術が導入された場所である。
-		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n \n%c[pda_green]情報%c[pda_white]
 		\nソ連崩壊後、そのグループはラボX8で開始された研究を再開し、ブレイン・スコーチャーを古い地下壕の深部にあるラボX19での設置に適応させた。
 		\n \nゾーンが作られたとき、C-コンシャスネスによってブレイン・スコーチャーが起動され、ゾーンの中心への道を塞いでいた。この装置で発生させたプサイ放射は侵入者をマインドコントロールし、集団の意思に服従させるのに効果的であった。一部の者は愚鈍なゾンビとして、他の者はモノリスの新兵として使役された。
 		\n \nブレイン・スコーチャーに接近しすぎたストーカーの大半はゾンビになったが、ストレロクのグループとして知られるそのグループは、ブレイン・スコーチャーをすり抜け（十中八九「ガイド」の手を借りて）ゾーンの中心部に到達した。ブレイン・スコーチャーへの道や設置場所は、狂信的なモノリス信者により厳重に守られていた。
@@ -64,9 +64,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_phantom_text">
 		<text>
-		%c[pda_white]「ファントム」%c[ui_gray_1]
+		%c[pda_white]「ファントム」
 		\n物理的な存在ではなく、精神の中の幻影的な存在である。
-		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n \n%c[pda_green]情報%c[pda_white]
 		\nファントムとは、ゾーン内のどこかにいるミュータントの不随意的な精神投影で、アノマリーかミュータントかを明確に分類するのが難しい存在である。
 		\nこれらの投影は常に「ハウリング」の音と共に現れ、透明で光っており、壁を貫通して空中を浮遊しながら徐々に犠牲者に向かって近づいてくる。
 		\n \nストーカーが遭遇したことのないものも含め、なぜミュータントの姿にしかならないのか、そしてなぜ「ターク」のような絶滅したミュータントの姿をしていないのかは不明である。
@@ -79,11 +79,11 @@
 	</string>
 	<string id="encyclopedia_anomalies_psi_text">
 		<text>
-		%c[pda_white]「プサイフィールド」%c[ui_gray_1]
+		%c[pda_white]「プサイフィールド」
 		\n雲まで上昇する非常に広い範囲のプサイ活動で、大抵は、これが通過する光を歪めることで可視化される。
-		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n \n%c[pda_green]情報%c[pda_white]
 		\nこの領域は脳組織に有害な影響を及ぼす。時には目に見える兆候として現れ、軽度から重度の損傷を引き起こす可能性がある。ほとんどの場合、この領域はアノマリーのたまり場となっており、アノマリーがない場合は放射線で汚染されている。
-		\n \n%c[pda_blue]メモ%c[ui_gray_1]
+		\n \n%c[pda_blue]メモ%c[pda_white]
 		\n • 光熱放射や精神波の嵐とは異なり、アーティファクトを生み出すアノマリーを生成しない。
 		</text>
 	</string>
@@ -93,9 +93,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_radiation_text">
 		<text>
-		%c[pda_white]「放射線」%c[ui_gray_1]
+		%c[pda_white]「放射線」
 		\n放射線量が毎時50ミリレントゲン（mR/h）を超える領域のことを指す。放射線地帯に長時間滞在することは推奨されていない。なぜなら、放射線中毒を引き起こし、最終的には死に至る可能性があるからだ。
-		\n \n%c[pda_green]ヒント%c[ui_gray_1]
+		\n \n%c[pda_green]ヒント%c[pda_white]
 		\n • ガイガーカウンターは、放射線の検出と測定に欠かせない道具である。クリック音が速いほど、その場所の線量が高いことを意味する。
 		\n • 多数のストーカーが放射線障害で死亡している。抗放射線薬を持ち歩くことを強くおすすめする。
 		\n • ガスマスクが常に良好であるか確かめること。
@@ -112,9 +112,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_burner_text"> 	
 		<text>
-		%c[pda_white]「バーナー」%c[ui_gray_1]アノマリー
+		%c[pda_white]「バーナー」アノマリー
 		\n常に静止しており、接触すると火柱を出す。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\nかろうじて視認できる熱い空気の塊で、刺激すると1000℃近くに達する炎の柱を放射する。性能の良い検出器や、ボルトや薬莢を投げ込むことで発見することができる。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]炎
@@ -128,16 +128,16 @@
 	</string>
 	<string id="encyclopedia_anomalies_comet_text"> 	
 		<text>
-		%c[pda_white]「コメット」%c[ui_gray_1]アノマリー
+		%c[pda_white]「コメット」アノマリー
 		\n太陽の周りの領域に近い温度まで達する危険な移動型の熱性アノマリーである。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n5000℃以上の温度に達し、接触すると炎ダメージを与えるという点ではバーナーアノマリーと類似しているが、このアノマリーは移動可能で、特定の場所を高速で飛行するという重要な違いがある。
 		\nバーナーアノマリーに比べて非常に強力で、直撃した場合、重装のストーカーでさえ死亡する可能性がある。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]炎
 		\n%c[pda_white] • 回避難易度: %c[0,255,255,0]普通
 		\n%c[pda_white] • 危険度: %c[0,255,0,0]非常に高い
-		\n%c[pda_white] • %c[ui_gray_1]このアノマリーはアーティファクトを形成しない
+		\n%c[pda_white] • このアノマリーはアーティファクトを形成しない
 		</text>
 	</string>
 
@@ -150,9 +150,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_fuzz_text"> 	
 		<text>
-		%c[pda_white]「バーントファズ」%c[ui_gray_1]アノマリー
+		%c[pda_white]「バーントファズ」アノマリー
 		\n素早く移動して通り抜けようとする有機物にやけどを負わせる、植物のようなアノマリーである。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n苔やつる状の植物に似ており、カーテンのように垂れ下がっている。急速に接近してくる生物にのみ反応し、接触した瞬間、非保護または軽く保護された皮膚に重傷を負わせる非常に小さな飛沫を放出する。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]化学
@@ -166,9 +166,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_fruit_text"> 	
 		<text>
-		%c[pda_white]「フルーツポンチ」%c[ui_gray_1]アノマリー
+		%c[pda_white]「フルーツポンチ」アノマリー
 		\n非常に腐食性の強い緑色の液体の水たまりである。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n常に発光しており、シューという音や泡立つ音によってあらゆる環境でも簡単に見つけることができる。接触すると、強い酸による化学熱傷に似たダメージを与える。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]化学
@@ -182,9 +182,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_gas_text"> 	
 		<text>
-		%c[pda_white]「ガス」%c[ui_gray_1]アノマリー
+		%c[pda_white]「ガス」アノマリー
 		\n地表に漂う緑色の酸性ガスとして知られている。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\nこのガスが金属や有機組織に触れると、強酸性の化合物を周囲に撒き散らす。液体の水たまりというよりは雲や霧のような挙動を示すため、フルーツポンチアノマリーと混同してはならない。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]化学
@@ -198,15 +198,15 @@
 	</string>
 	<string id="encyclopedia_anomalies_gascloud_text"> 	
 		<text>
-		%c[pda_white]「ガスクラウド」%c[ui_gray_1]アノマリー
+		%c[pda_white]「ガスクラウド」アノマリー
 		\nガスアノマリーに似ているが、より強力で、移動する性質を持つ。そのため、コメットアノマリーやテスラアノマリーと科学的に同等のものである。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n最上位の防護服と化学防護アーティファクトを装備していても、このアノマリーに長時間接触すれば重症を負うか、即死することさえある。避ける手段がない場合は、全速力で駆け抜けるのが最善策だ。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]化学
 		\n%c[pda_white] • 回避難易度: %c[0,255,255,0]普通
 		\n%c[pda_white] • 危険度: %c[0,255,255,0]普通
-		\n%c[pda_white] • %c[ui_gray_1]このアノマリーはアーティファクトを形成しない
+		\n%c[pda_white] • このアノマリーはアーティファクトを形成しない
 		</text>
 	</string>
 
@@ -219,9 +219,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_electro_text"> 	
 		<text>
-		%c[pda_white]「エレクトロ」%c[ui_gray_1]アノマリー
+		%c[pda_white]「エレクトロ」アノマリー
 		\n人間、ミュータント、無機物、近づくすべてのものに対して無差別に放電する。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n直径約10メートルの特異な形で、大量の静電気を含んでいる。発動すると、数十回もの小規模な電気爆発が起き、ほぼすべての生物に致命的なダメージを与える。このアノマリーを避けるには、ボルトや使用済みの薬莢などを投げ入れて発見するか、活動が停止した瞬間を見極めて通り抜ける方法がある。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]電気
@@ -235,15 +235,15 @@
 	</string>
 	<string id="encyclopedia_anomalies_pulse_text"> 	
 		<text>
-		%c[pda_white]「パルス」%c[ui_gray_1]アノマリー
+		%c[pda_white]「パルス」アノマリー
 		\n科学者たちは、このアノマリーをゾーン内の強力なプサイ波によって形成されたユニークな雷電だと考えている。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n青い靄から始まり、パルスアノマリーが形成されてから地面に放電されるのにかかる時間は極僅かで、放電ポイントに近い者は即死する。このアノマリーの発生頻度は天候と直接関係しており、雨や嵐のときに発生する確率が高い。その殺傷範囲は精神波の嵐ほど広くはないが、確かな脅威であることに変わりはない。パルスアノマリーが近くで形成され始めたら、一目散に逃げること。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]電気
 		\n%c[pda_white] • 回避難易度: %c[0,255,255,0]普通
 		\n%c[pda_white] • 危険度: %c[0,255,0,0]非常に高い
-		\n%c[pda_white] • %c[ui_gray_1]このアノマリーはアーティファクトを形成しない
+		\n%c[pda_white] • このアノマリーはアーティファクトを形成しない
 		</text>
 	</string>
 
@@ -252,15 +252,15 @@
 	</string>
 	<string id="encyclopedia_anomalies_tesla_text"> 	
 		<text>
-		%c[pda_white]「テスラ」%c[ui_gray_1]アノマリー
+		%c[pda_white]「テスラ」アノマリー
 		\n50億ジュールのエネルギーを持つ電気球で、落雷が動いているようなものだ。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\nテスラアノマリーはエレクトロアノマリーが進化したもの、あるいはそれ以上のものだと言われている。エレクトロアノマリーの中でも特に大きな、または強力な個体が長時間にわたって大量の電荷を蓄積し、その結果、蓄積されたエネルギーを放電するため、あるいはターゲットや獲物を「狩る」ために移動するようになった可能性がある。このエネルギー球に襲われた者は、重症を負うか死を覚悟しなければならない。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]電気
 		\n%c[pda_white] • 回避難易度: %c[0,255,0,0]難しい
 		\n%c[pda_white] • 危険度: %c[0,255,0,0]高い
-		\n%c[pda_white] • %c[ui_gray_1]このアノマリーはアーティファクトを形成しない
+		\n%c[pda_white] • このアノマリーはアーティファクトを形成しない
 		</text>
 	</string>
 
@@ -273,9 +273,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_springboard_text"> 	
 		<text>
-		%c[pda_white]「スプリングボード」%c[ui_gray_1]アノマリー
+		%c[pda_white]「スプリングボード」アノマリー
 		\n不安定な重力場を発生させ、その半径内にいる者に大ダメージを与える。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n通常は一週間活動し続け、その間に与えられるダメージの大きさは変化する。軽い打撲から重傷、あるいは即死に至ることもある。空気の揺らぎや周辺を舞う葉っぱ、地面に残る特徴的な深紅色のシミが特徴で、昼間であれば簡単に見つけることができる。また、ボルトや使用済みの薬莢などの物体を投げ込むことによっても発見できる。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]重力
@@ -289,9 +289,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_vortex_text"> 	
 		<text>
-		%c[pda_white]「ボルテックス」%c[ui_gray_1]アノマリー
+		%c[pda_white]「ボルテックス」アノマリー
 		\n物体を狭い空間に収縮させてから激しく爆発させる重力の性質を持つ。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n発動すると凄まじい力が半径10~15m以内のすべてのものを中心に引きずり込む。中心部に引き込まれた犠牲者の体はすぐに狭い空間に圧縮され、直後に強力なエネルギーの放出で吹き飛ばされるため、生存確率はほぼゼロに近い。空気の振動や周辺を舞う葉っぱ、周囲に転がっている死体の破片、中心部の特徴的な黒いシミが特徴で、昼間であれば簡単に見つけることができる。夜間の場合は、検出器を使うか物を投げ入れることでしか位置を探ることができないため、非常に危険である。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]重力
@@ -305,9 +305,9 @@
 	</string>
 	<string id="encyclopedia_anomalies_whirligig_text"> 	
 		<text>
-		%c[pda_white]「ワーリギグ」%c[ui_gray_1]アノマリー
+		%c[pda_white]「ワーリギグ」アノマリー
 		\n犠牲者を宙に浮かせ、猛スピードで回転させるアノマリーである。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\nこのアノマリーの正確な性質は不明のままで、アノマリー上にある小さい旋風で見分けることができる。外縁に捕らえられた者は比較的軽傷で逃れることができるが、内部に捕らえられた者は空中に投げ出され、破壊的な速度で回転する。一定時間が経過すると、アノマリーは犠牲者をバラバラにするほどの強力な放電を行う。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]重力
@@ -325,15 +325,15 @@
 	</string>
 	<string id="encyclopedia_anomalies_space_text"> 	
 		<text>
-		%c[pda_white]「スペース」%c[ui_gray_1]アノマリー
+		%c[pda_white]「スペース」アノマリー
 		\nゾーンの不安定性の究極の結果であり、現実の構造そのものを変え、時間と空間を歪める。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n小型のワームホールが、そこに入ったものを別の場所にテレポートさせる。このテレポートの理論は、コルドンの鉄道橋の側にいるストーカーの話によって証明されたと思われる。彼に「ブラックホール」について尋ねると、彼とその友人がゴミを投げ入れているというスペースアノマリーがそこにあり、後に同じゴミを古いトンネルの中で見た覚えがあるようだ。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]現実改変
 		\n%c[pda_white] • 回避難易度: %c[pda_white]無し
 		\n%c[pda_white] • 危険度: %c[pda_white]不明
-		\n%c[pda_white] • %c[ui_gray_1]このアノマリーはアーティファクトを形成しない
+		\n%c[pda_white] • このアノマリーはアーティファクトを形成しない
 		</text>
 	</string>
 	
@@ -342,15 +342,15 @@
 	</string>
 	<string id="encyclopedia_anomalies_teleport_text"> 	
 		<text>
-		%c[pda_white]「テレポート」%c[ui_gray_1]アノマリー
+		%c[pda_white]「テレポート」アノマリー
 		\nゾーン内のいくつかの場所で見られる珍しいアノマリーである。
-		\n \n%c[d_green]情報%c[ui_gray_1]
+		\n \n%c[d_green]情報%c[pda_white]
 		\n無害な性質を持ち、接触したものは一瞬で別の場所にテレポートする。
 		\n \n%c[pda_blue]備考
 		\n%c[pda_white] • タイプ: %c[d_orange]現実改変
 		\n%c[pda_white] • 回避難易度: %c[pda_white]無し
 		\n%c[pda_white] • 危険度: %c[pda_white]不明
-		\n%c[pda_white] • %c[ui_gray_1]このアノマリーはアーティファクトを形成しない
+		\n%c[pda_white] • このアノマリーはアーティファクトを形成しない
 		</text>
 	</string>
 	

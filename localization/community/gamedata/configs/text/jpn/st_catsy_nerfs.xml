@@ -32,7 +32,7 @@
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_debuglogs_desc">
-		<text>問題報告時に役立つデバッグ情報を記録します。問題を報告する際は、以下の手順に従ってください:\n\n
+		<text>問題報告時に役立つデバッグ情報を記録します。問題を報告する際は、以下の手順に従ってください\n\n
 				1. この設定を有効にする\n
 				2. ゲームを完全に終了する\n
 				3. 可能な限り他のアドオンを無効にした状態でゲームを再起動し、問題を再現する\n
@@ -283,36 +283,36 @@
     </string>
 
     <string id="encyclopedia_addons_nerfs_text">
-        <text>\n%c[255,137,48,225]New Extensible RF Sources%c[ui_gray_1]は、RF受信機を以下の様々な方法で改善します:
-\n • %c[pda_yellow]周波数の上限%c[ui_gray_1]を%c[255,0,200,220]300%c[ui_gray_1]から%c[255,0,200,220]999%c[ui_gray_1]に拡張（MCMで設定可能）
-\n • ストーカーのPDAなど、新しい%c[pda_yellow]RF信号源%c[ui_gray_1]を追加
-\n • RF信号源を、%c[pda_yellow]改造が容易で競合しにくいように設計%c[ui_gray_1]された%c[pda_yellow]LTXベースのフレームワーク%c[ui_gray_1]へ移行
-\n • 死亡したストーカーからランダムに入手できる%c[pda_yellow]ノート（百科事典記事付き）%c[ui_gray_1]を追加し、
-\n   プレイヤーがゲームプレイを通じて%c[pda_yellow]有用な周波数を発見%c[ui_gray_1]できるように
-\n • アクセシビリティや好みに応じて、信号強度を示す%c[pda_yellow]HUDインジケーター%c[ui_gray_1]をオプションで追加
-\n • %c[pda_yellow]Reworked RF Receiver%c[ui_gray_1]、%c[pda_yellow]Remote Controlled Explosives%c[ui_gray_1]、%c[pda_yellow]TB's RF Tasks%c[ui_gray_1]に対応
+        <text>\n%c[255,137,48,225]New Extensible RF Sources%c[pda_white]は、RF受信機を以下の様々な方法で改善します:
+\n • %c[pda_yellow]周波数の上限%c[pda_white]を%c[255,0,200,220]300%c[pda_white]から%c[255,0,200,220]999%c[pda_white]に拡張（MCMで設定可能）
+\n • ストーカーのPDAなど、新しい%c[pda_yellow]RF信号源%c[pda_white]を追加
+\n • RF信号源を、%c[pda_yellow]改造が容易で競合しにくいように設計%c[pda_white]された%c[pda_yellow]LTXベースのフレームワーク%c[pda_white]へ移行
+\n • 死亡したストーカーからランダムに入手できる%c[pda_yellow]ノート（百科事典記事付き）%c[pda_white]を追加し、
+\n   プレイヤーがゲームプレイを通じて%c[pda_yellow]有用な周波数を発見%c[pda_white]できるように
+\n • アクセシビリティや好みに応じて、信号強度を示す%c[pda_yellow]HUDインジケーター%c[pda_white]をオプションで追加
+\n • %c[pda_yellow]Reworked RF Receiver%c[pda_white]、%c[pda_yellow]Remote Controlled Explosives%c[pda_white]、%c[pda_yellow]TB's RF Tasks%c[pda_white]に対応
 
-\n \n%c[pda_white]機能を紹介する動画はこちら: %c[ui_gray_1]https://www.youtube.com/watch?v=7sdVkImQS_Q
-\n%c[pda_white]Moddb: %c[ui_gray_1]https://www.moddb.com/mods/stalker-anomaly/addons/new-extensible-rf-sources
+\n \n%c[pda_white]機能を紹介する動画はこちら: %c[pda_white]https://www.youtube.com/watch?v=7sdVkImQS_Q
+\n%c[pda_white]Moddb: %c[pda_white]https://www.moddb.com/mods/stalker-anomaly/addons/new-extensible-rf-sources
 
 \n \n%c[pda_white]設定は%c[pda_yellow]MCM > NERF Sources%c[pda_white]でカスタマイズ可能です:
 \n • %c[pda_yellow]メイン設定%c[pda_white]: 機能の有効／無効、デバッグ、互換性
 \n • %c[pda_yellow]プリセット設定%c[pda_white]: 周波数プリセットとホットキー
-\n • %c[pda_yellow]アクセシビリティ設定%c[pda_white]: アクセシビリティウィジェットの設定%c[ui_gray_1]
+\n • %c[pda_yellow]アクセシビリティ設定%c[pda_white]: アクセシビリティウィジェットの設定%c[pda_white]
 
 \n \n-----------------------------------------------------------------
 
 \n \n%c[pda_red]トラブルシューティング%c[pda_white]
 
-\n\nこの記事が表示される場合、DLTXをサポートするバイナリの導入に成功したことを意味します。%c[ui_gray_1]
-\nおめでとうございます！modded実行ファイルを導入することは、問題解決の半分に過ぎません。
-\n残りの半分は、最新のアドオンと適切なオプションをインストールすることにかかっています。%c[ui_gray_1]
+\n\nこの記事が表示される場合、DLTXをサポートするバイナリの導入に成功したことを意味します。%c[pda_white]
+\nおめでとうございます！modded exeを導入することは、問題解決の半分に過ぎません。
+\n残りの半分は、最新のアドオンと適切なオプションをインストールすることにかかっています。%c[pda_white]
 
-\n \nこのNERFSが%c[pda_white]Devices of Anomaly Redone%c[ui_gray_1]に含まれている場合、
+\n \nこのNERFSが%c[pda_white]Devices of Anomaly Redone%c[pda_white]に含まれている場合、
 \nフルバージョンのNERFSをダウンロードしてインストールしてください。
 \n埋め込み版では、すべての機能が利用できない場合があります。
 
-\n \n%c[pda_red]重要: バグを報告するには、以下の手順に従ってください:
+\n \n%c[pda_red]重要: バグを報告するには、以下の手順に従ってください
 
 \n \n%c[pda_white] 1. %c[pda_yellow]MCM > NERF Sources > メイン設定%c[pda_white]を開く
 \n%c[pda_white] 2. %c[pda_yellow]デバッグログ%c[pda_white]オプションを有効にする
@@ -320,7 +320,7 @@
 \n%c[pda_white] 4. 可能な限り簡単な手順で問題を再現する
 \n%c[pda_white] 5. %c[pda_yellow](Anomalyフォルダ)\appdata\logs%c[pda_white]にあるログをどこかにアップロードして共有する
 
-\n\n%c[ui_gray_1]手順通りに行わないと、ログに十分な情報が含まれない可能性があります。
+\n\n%c[pda_white]手順通りに行わないと、ログに十分な情報が含まれない可能性があります。
 
 \n\nModdbのコメントは確認しづらいため、通常はGAMMA Discord内の
 \nAnomalous RF Signals / New Extensible RF Sourcesのチャンネルで

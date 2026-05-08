@@ -519,62 +519,62 @@
 		<text>Milspec PDA</text>
 	</string>
 	<string id="encyclopedia_addons_milspec_pda_text">
-		<text>\n%c[255,130,180,130]Milspec PDA%c[ui_gray_1]アドオンは以下の便利な機能を提供します:%c[pda_white]
+		<text>\n%c[255,130,180,130]Milspec PDA%c[pda_white]アドオンは以下の便利な機能を提供します:%c[pda_white]
 \n • PDAの種類ごとに%c[pda_yellow]ストーカーや死体の位置情報の表示設定をカスタマイズ%c[pda_white]
 \n • %c[255,130,180,130]ミルスペックPDA%c[pda_white]を追加: クラフトでのみ手に入る%c[pda_yellow]新しいデバイス%c[pda_white]
 \n • %c[255,130,180,130]Kill Tracker%c[pda_white]を搭載: PAWアイコンのサポートを備えた%c[pda_yellow]カスタマイズ可能な死体追跡機能%c[pda_white]
 \n • ストーカーのPDAを取得して%c[pda_yellow]派閥のGPSデータに接続%c[pda_white]する%c[255,130,180,130]プログレッシブ機能%c[pda_white]
 \n • %c[pda_yellow]特定の派閥をPDAに表示しない%c[pda_white]ようにする%c[255,130,180,130]ブラックリスト%c[pda_white]も搭載
 
-\n\n%c[ui_gray_1]これらの機能はすべて、MCMメニューから詳細にカスタマイズ可能です。
+\n\n%c[pda_white]これらの機能はすべて、MCMメニューから詳細にカスタマイズ可能です。
 \n%c[pda_white]初期設定に不満がある場合は、MCMメニューで調整できる項目がないかご確認ください。
 
 \n\n%c[pda_yellow]Mod設定メニュー &gt; Milspec PDA%c[pda_white]:
-\n %c[pda_yellow]設定%c[pda_white]: Kill Tracker、UI、およびアドオン全体の基本設定
-\n %c[pda_yellow]ブラックリスト%c[pda_white]: PDAに表示させたくない派閥の選択
-\n %c[pda_yellow]プログレッション%c[pda_white]: プログレッシブ機能に関する設定
-\n %c[pda_yellow]PDA設定: 1.0%c[pda_white]: PDA 1.0で表示する位置情報の設定
-\n %c[pda_yellow]PDA設定: 2.0%c[pda_white]: PDA 2.0で表示する位置情報の設定
-\n %c[pda_yellow]PDA設定: 3.1%c[pda_white]: PDA 3.1で表示する位置情報の設定
-\n %c[pda_yellow]PDA設定: ミルスペック%c[pda_white]: ミルスペックPDAで表示する位置情報の設定
+\n%c[pda_yellow]設定%c[pda_white]: Kill Tracker、UI、およびアドオン全体の基本設定
+\n%c[pda_yellow]ブラックリスト%c[pda_white]: PDAに表示させたくない派閥の選択
+\n%c[pda_yellow]プログレッション%c[pda_white]: プログレッシブ機能に関する設定
+\n%c[pda_yellow]PDA設定: 1.0%c[pda_white]: PDA 1.0で表示する位置情報の設定
+\n%c[pda_yellow]PDA設定: 2.0%c[pda_white]: PDA 2.0で表示する位置情報の設定
+\n%c[pda_yellow]PDA設定: 3.1%c[pda_white]: PDA 3.1で表示する位置情報の設定
+\n%c[pda_yellow]PDA設定: ミルスペック%c[pda_white]: ミルスペックPDAで表示する位置情報の設定
 
 \n\n%c[pda_red]問題が発生した場合は、下にスクロールしてトラブルシューティング情報をご確認ください。
 
-\n\n%c[pda_green]高度な死体追跡機能%c[ui_gray_1]
-\nPDA 1.0を除くすべてのPDAで、デフォルトで%c[pda_yellow]Kill Tracker%c[ui_gray_1]が利用可能です。
+\n\n%c[pda_green]高度な死体追跡機能%c[pda_white]
+\nPDA 1.0を除くすべてのPDAで、デフォルトで%c[pda_yellow]Kill Tracker%c[pda_white]が利用可能です。
 \nゲーム内部では常にすべての死体を追跡していますが、マップ上での表示は設定によって制御されます。
 
-\n\nデフォルトでは、マップ上に%c[pda_yellow]プレイヤーや仲間が倒したすべての敵にマーカーが表示%c[ui_gray_1]されます。
+\n\nデフォルトでは、マップ上に%c[pda_yellow]プレイヤーや仲間が倒したすべての敵にマーカーが表示%c[pda_white]されます。
 \nストーカーとミュータントの両方が対象ですが、
 \nプレイヤーや仲間以外が倒した敵にはマーカーは表示されません。
 
-\n\nKill Trackerのこの機能は、他の機能と同様に%c[pda_yellow]MCMメニューで自由にカスタマイズ可能%c[ui_gray_1]です。
+\n\nKill Trackerのこの機能は、他の機能と同様に%c[pda_yellow]MCMメニューで自由にカスタマイズ可能%c[pda_white]です。
 
 \n\n%c[pda_green]新しいPDA%c[pda_yellow]
-\nミルスペックPDA%c[ui_gray_1]は、PDA 3.1よりも高い電力を消費しますが、
-\nマップ上に%c[pda_yellow]敵の位置を表示する%c[ui_gray_1]というユニークな機能を持っています。
+\nミルスペックPDA%c[pda_white]は、PDA 3.1よりも高い電力を消費しますが、
+\nマップ上に%c[pda_yellow]敵の位置を表示する%c[pda_white]というユニークな機能を持っています。
 
-\n\n非常に強力なため、%c[pda_yellow]プログレッシブ機能%c[ui_gray_1]を使用してバランスを調整することをおすすめします。
+\n\n非常に強力なため、%c[pda_yellow]プログレッシブ機能%c[pda_white]を使用してバランスを調整することをおすすめします。
 \n詳細は以下に記載されています。
 
 \n\nこの新しいPDAは購入することができず、ストーカーがドロップすることもありません。
-\nデフォルトでは、%c[pda_yellow]エキスパートツール%c[ui_gray_1]を使用してクラフトでのみ入手可能です。
+\nデフォルトでは、%c[pda_yellow]エキスパートツール%c[pda_white]を使用してクラフトでのみ入手可能です。
 \nクラフトには『電子工学ハンドブック』の発見、そして希少なクラフト材料が必要です。
 
 \n\nこれらの要件はスクリプトや設定ファイルを編集して変更できますが、
 \nもしそれが難しい場合や、ミルスペックPDAを手に入れる手間を省きたい場合は、
 \nデバッグコンソールを使用することも可能です。あなたの判断に委ねます。
 
-\n\n%c[pda_green]プログレッシブ機能%c[ui_gray_1]
+\n\n%c[pda_green]プログレッシブ機能%c[pda_white]
 \n有効にすると、高性能なPDAを入手しただけでは派閥の位置情報は表示されなくなります。
 \n代わりにストーカーのPDAを取得し、その派閥のアクセス権限を獲得する必要があります。%c[pda_yellow]
 
-\n\n特定の派閥のPDAを一定数入手%c[ui_gray_1]すると、その派閥の無線ネットワークに侵入するための
+\n\n特定の派閥のPDAを一定数入手%c[pda_white]すると、その派閥の無線ネットワークに侵入するための
 \nデータを取得し、マップ上でその派閥の分隊の位置情報を確認できるようになります。
 \nただし、ほとんどの派閥は最終的にこの侵入に気づき、
-\nしばらくすると%c[pda_yellow]アクセスコードを変更%c[ui_gray_1]します。アクセス可能な期間中に最大限活用しましょう。
+\nしばらくすると%c[pda_yellow]アクセスコードを変更%c[pda_white]します。アクセス可能な期間中に最大限活用しましょう。
 
-\n\nプログレッシブ機能は%c[pda_yellow]MCMで自由に設定を調整%c[ui_gray_1]できます。「アクセス解除が簡単すぎる」
+\n\nプログレッシブ機能は%c[pda_yellow]MCMで自由に設定を調整%c[pda_white]できます。「アクセス解除が簡単すぎる」
 \nあるいは「難しすぎる」と感じる場合は、条件を好みに合わせて調整できます。
 \nまた、中立派閥へのアクセス権限も必要とするか、派閥がアクセス権を取り消すかどうか、
 \nそしてその取り消しまでの時間も設定可能です。
@@ -585,40 +585,40 @@
 
 \n\nこれはあなたのゲームです。お好みのプレイスタイルに合わせて設定してください。%c[pda_green]
 
-\n\nブラックリスト機能%c[ui_gray_1]
+\n\nブラックリスト機能%c[pda_white]
 \nデューティーやフリーダムのネットワークにハッキングできるというのは筋が通っています。
 \nまた、バンディットのネットワークセキュリティが「マシ」な部類だとしても、
 \nそのパスワードは単純な連番や俗語の組み合わせ程度のものでしょう。
 \nしかし、モノリスやUNISGが相手となると、一体どうなるのでしょうか？
 
 \n\n特定の派閥をマップに表示させたくない場合でも、ご安心ください。
-\n%c[pda_yellow]ブラックリスト%c[ui_gray_1]機能で派閥にチェックを入れるだけで、マップに表示されなくなります。
+\n%c[pda_yellow]ブラックリスト%c[pda_white]機能で派閥にチェックを入れるだけで、マップに表示されなくなります。
 
 \n\n-----------------------------------------------------------------
 
 \n\n%c[pda_red]トラブルシューティング%c[pda_white]
 
-\n\nこの記事が表示される場合、DLTXをサポートするバイナリの導入に成功しています。%c[ui_gray_1]
+\n\nこの記事が表示される場合、DLTXをサポートするバイナリの導入に成功しています。%c[pda_white]
 \nおめでとうございます。modded exeの導入は成功への第一歩です。
 \nあとは最新のアドオンと適切なオプションをインストールするだけです。%c[pda_red]
 
-\n\n問題を報告する前に: %c[pda_yellow]Milspec PDAがModパックの一部としてインストールされている場合%c[ui_gray_1]、
+\n\n問題を報告する前に: %c[pda_yellow]Milspec PDAがModパックの一部としてインストールされている場合%c[pda_white]、
 \nそれは旧バージョンである可能性や、すべての機能がインストールされていない可能性、
 \nあるいはMCMのデフォルト設定が変更されている可能性があります。
 \n特に、クラフトレシピが揃っているにもかかわらずミルスペックPDAが作成できない場合や、
 \nプログレッシブ機能が正しく動作しない場合に当てはまります。
 
-\n\nその場合は、%c[pda_yellow]FOMODでこのアドオンを再インストール%c[ui_gray_1]し、目的に合った
+\n\nその場合は、%c[pda_yellow]FOMODでこのアドオンを再インストール%c[pda_white]し、目的に合った
 \nインストールオプションが選択されているかご確認ください。
 
-\n\n%c[pda_red]重要: バグを報告する際は、以下の手順に従ってください:%c[pda_white]
+\n\n%c[pda_red]重要: バグを報告する際は、以下の手順に従ってください%c[pda_white]
 \n\n 1. %c[pda_yellow]MCM &gt; Milspec PDA &gt; 設定%c[pda_white]を開く
 \n 2. %c[pda_yellow]デバッグログ%c[pda_white]と%c[pda_yellow]詳細なデバッグログ%c[pda_white]を有効にする
 \n 3. ゲームを終了して再度起動する
 \n 4. できるだけ簡単な方法で問題を再現する
 \n 5. %c[pda_yellow](Anomalyフォルダ)\appdata\logs%c[pda_white]にあるログをどこかにアップロードして共有する
 
-\n\n%c[ui_gray_1]これらの手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
+\n\n%c[pda_white]これらの手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
 
 \n\nModdbのコメントは見落とす可能性があるため、通常はGAMMA Discord内の
 \nMilspec PDAチャンネルでご連絡いただけると迅速に対応できます。

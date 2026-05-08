@@ -10,11 +10,11 @@
 	</string>
 	<string id="encyclopedia_achievements_bookworm_food_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]すべての百科事典の記事をアンロックする。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nすべての百科事典の記事をアンロックする。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]メモリースティックがすべてレアなPDAに置き換わる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nメモリースティックがすべてレアなPDAに置き換わる。\n
 		</text>
 	</string>
 
@@ -23,11 +23,11 @@
 	</string>
 	<string id="encyclopedia_achievements_completionist_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]すべての実績をアンロックする。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nすべての実績をアンロックする。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]成すべきことはすべて成し遂げた。長い道のりだったが、ついに栄光の終着点へと辿り着いた。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n成すべきことはすべて成し遂げた。長い道のりだったが、ついに栄光の終着点へと辿り着いた。\n
 		</text>
 	</string>
 
@@ -36,11 +36,11 @@
 	</string>
 	<string id="encyclopedia_achievements_down_to_earth_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]小火器でヘリコプターを3機撃墜するか、爆発物でヘリコプターを1機撃墜する。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\n小火器でヘリコプターを3機撃墜するか、爆発物でヘリコプターを1機撃墜する。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]Mi-24ハインドの代わりにMi-2ホプライトが登場するようになる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nMi-24ハインドの代わりにMi-2ホプライトが登場するようになる。\n
 		</text>
 	</string>
 
@@ -49,11 +49,11 @@
 	</string>
 	<string id="encyclopedia_achievements_duga_free_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ミラクル・マシンとブレイン・スコーチャーの両方を停止させる。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nミラクル・マシンとブレイン・スコーチャーの両方を停止させる。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]ストーカーたちがヤンターやレーダー施設を通ることが多くなり、北部地域の人口が増加する可能性がある。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nストーカーたちがヤンターやレーダー施設を通ることが多くなり、北部地域の人口が増加する可能性がある。\n
 		</text>
 	</string>
 
@@ -62,11 +62,11 @@
 	</string>
 	<string id="encyclopedia_achievements_geologist_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]アーティファクトを50個検出する。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nアーティファクトを50個検出する。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]エミッションの後にアーティファクトが出現する確率が上昇する。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nエミッションの後にアーティファクトが出現する確率が上昇する。\n
 		</text>
 	</string>
 
@@ -75,11 +75,11 @@
 	</string>
 	<string id="encyclopedia_achievements_heavy_pockets_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]10,000,000ルーブルを所持する。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\n10,000,000ルーブルを所持する。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]トレーダーが所属する派閥の好感度条件を満たしていなくても、高性能な装備を販売してもらえるようになる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nトレーダーが所属する派閥の好感度条件を満たしていなくても、高性能な装備を販売してもらえるようになる。\n
 		</text>
 	</string>
 
@@ -88,11 +88,11 @@
 	</string>
 	<string id="encyclopedia_achievements_infopreneur_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]トレーダーに50台のPDAを渡す。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nトレーダーに50台のPDAを渡す。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]トレーダーは、今後引き渡すPDAごとに少額のボーナスを支払ってくれるようになる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nトレーダーは、今後引き渡すPDAごとに少額のボーナスを支払ってくれるようになる。\n
 		</text>
 	</string>
 
@@ -101,11 +101,11 @@
 	</string>
 	<string id="encyclopedia_achievements_mechanized_warfare_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ひとりの技術者に3つのツールを渡す。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nひとりの技術者に3つのツールを渡す。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]修理時に使用する素材アイテムのボーナス効果がさらに上がる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n修理時に使用する素材アイテムのボーナス効果がさらに上がる。\n
 		</text>
 	</string>
 
@@ -114,11 +114,11 @@
 	</string>
 	<string id="encyclopedia_achievements_patriarch_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]最高ランクに到達する。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\n最高ランクに到達する。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]通常の上限以上の仲間を追加で2人連れていけるようになる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n通常の上限以上の仲間を追加で2人連れていけるようになる。\n
 		</text>
 	</string>
 	
@@ -127,11 +127,11 @@
 	</string>
 	<string id="encyclopedia_achievements_radiotherapy_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]エミッションや精神波の嵐を25回生き延びる。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nエミッションや精神波の嵐を25回生き延びる。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]エミッションや精神波の嵐から避難しなくても生き延びられる可能性がある。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nエミッションや精神波の嵐から避難しなくても生き延びられる可能性がある。\n
 		</text>
 	</string>
 	
@@ -140,11 +140,11 @@
 	</string>
 	<string id="encyclopedia_achievements_rag_and_bone_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]スタッシュから100回アイテムを入手する。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nスタッシュから100回アイテムを入手する。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]隠し場所を調べるとき、時折追加のアイテムが見つかることがある。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n隠し場所を調べるとき、時折追加のアイテムが見つかることがある。\n
 		</text>
 	</string>
 	
@@ -153,11 +153,11 @@
 	</string>
 	<string id="encyclopedia_achievements_silver_or_lead_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ストーカーを500人殺すか、50人降伏させる。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nストーカーを500人殺すか、50人降伏させる。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]降伏したストーカーが、時折2つ目の隠し場所の位置を明かすことがある。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n降伏したストーカーが、時折2つ目の隠し場所の位置を明かすことがある。\n
 		</text>
 	</string>
 	
@@ -166,11 +166,11 @@
 	</string>
 	<string id="encyclopedia_achievements_tourist_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ゾーンの33か所のマップをすべて訪れる。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nゾーンの33か所のマップをすべて訪れる。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]3つのユニークな隠し場所の座標を受け取る。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n3つのユニークな隠し場所の座標を受け取る。\n
 		</text>
 	</string>
 	
@@ -179,11 +179,11 @@
 	</string>
 	<string id="encyclopedia_achievements_well_dressed_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ミュータントを500体殺す、もしくはミュータントを250回剥ぎ取る。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nミュータントを500体殺す、もしくはミュータントを250回剥ぎ取る。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]ミュータントの皮剥ぎを通常よりも素早く行えるようになる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nミュータントの皮剥ぎを通常よりも素早く行えるようになる。\n
 		</text>
 	</string>
 	
@@ -192,11 +192,11 @@
 	</string>
 	<string id="encyclopedia_achievements_wishful_thinking_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ストーリー「生ける伝説」をクリアする。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nストーリー「生ける伝説」をクリアする。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]プレイ可能な派閥として「Renegade」が開放される。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nプレイ可能な派閥として「Renegade」が開放される。\n
 		</text>
 	</string>
 	
@@ -205,11 +205,11 @@
 	</string>
 	<string id="encyclopedia_achievements_infantile_pleasure_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]木箱を200個破壊する。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\n木箱を200個破壊する。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]木箱の中身に追加のアイテムが入っている確率が25%増加する。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n木箱の中身に追加のアイテムが入っている確率が25%増加する。\n
 		</text>
 	</string>
 	
@@ -218,11 +218,11 @@
 	</string>
 	<string id="encyclopedia_achievements_recycler_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]アイテムを200個分解する。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nアイテムを200個分解する。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]分解時に追加の素材を入手できる確率が33%増加する。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n分解時に追加の素材を入手できる確率が33%増加する。\n
 		</text>
 	</string>
 	
@@ -231,11 +231,11 @@
 	</string>
 	<string id="encyclopedia_achievements_artificer_eagerness_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]アイテムを50個クラフトする。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nアイテムを50個クラフトする。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]多くの高度なクラフトレシピで必要な材料が少なくなる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n多くの高度なクラフトレシピで必要な材料が少なくなる。\n
 		</text>
 	</string>
 	
@@ -244,11 +244,11 @@
 	</string>
 	<string id="encyclopedia_achievements_unforeseen_guest_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]変装で騙している状態で合計5時間を過ごす。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\n変装で騙している状態で合計5時間を過ごす。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]変装中の行動がより怪しまれにくくなる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n変装中の行動がより怪しまれにくくなる。\n
 		</text>
 	</string>
 	
@@ -257,11 +257,11 @@
 	</string>
 	<string id="encyclopedia_achievements_absolver_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ストーリー「死すべきSin」をクリアする。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nストーリー「死すべきSin」をクリアする。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]プレイ可能な派閥として「Sin」が解放される。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nプレイ可能な派閥として「Sin」が解放される。\n
 		</text>
 	</string>
 	
@@ -270,11 +270,11 @@
 	</string>
 	<string id="encyclopedia_achievements_collaborator_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ストーリー「アフターグロー作戦」をクリアする。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nストーリー「アフターグロー作戦」をクリアする。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]プレイ可能な派閥として「UNISG」が解放される。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nプレイ可能な派閥として「UNISG」が解放される。\n
 		</text>
 	</string>
 	
@@ -283,11 +283,11 @@
 	</string>
 	<string id="encyclopedia_achievements_iron_curtain_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]ゾーンの半分の領土を制圧する。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nゾーンの半分の領土を制圧する。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]50,000ルーブルを受け取る。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\n50,000ルーブルを受け取る。\n
 		</text>
 	</string>
 	
@@ -296,11 +296,11 @@
 	</string>
 	<string id="encyclopedia_achievements_murky_spirit_text">
 		<text>
-%c[pda_white] • 達成条件:%c[d_cyan]
-\n • %c[ui_gray_1]アイアンマンモードで「ゾーンに消えゆくもの」の3つのストーリーをすべてクリアする。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nアイアンマンモードで「ゾーンに消えゆくもの」の3つのストーリーをすべてクリアする。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]ランクが大幅に上昇する。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nランクが大幅に上昇する。\n
 		</text>
 	</string>
 	
@@ -309,15 +309,15 @@
 	</string>
 	<string id="encyclopedia_achievements_invictus_text">
 		<text>
-%c[pda_white] • 達成条件:%c[ui_red]
-\n • %c[ui_gray_1]ストーリーモードで「ゾーンに消えゆくもの」の3つのストーリーをすべてクリアする。%c[ui_red]
-\n • %c[ui_gray_1]ゾーン到達初日からストーリークリアまでアイアンマンモードを有効にする。%c[ui_red]
-\n • %c[ui_gray_1]ゲームプレイ難易度とゲーム進行難易度を最高に設定し、一切変更せずにクリアする。%c[ui_red]
-\n • %c[ui_gray_1]1回以上死亡しない。%c[ui_red]
-\n • %c[ui_gray_1]デバッグモードを使用しない。%c[pda_white]
+%c[pda_green]達成条件%c[pda_white]
+\nストーリーモードで「ゾーンに消えゆくもの」の3つのストーリーをすべてクリアする。
+\nゾーン到達初日からストーリークリアまで、アイアンマンモードを有効にし続ける。
+\nゲームプレイ難易度とゲーム進行難易度を最高に設定し、一切変更せずにクリアする。
+\n2回以上死亡しない。
+\nデバッグモードを使用しない。
 
-\n \n • 報酬:%c[d_cyan]
-\n • %c[ui_gray_1]みんなに自慢する権利が得られる。\n
+\n \n%c[pda_blue]報酬%c[pda_white]
+\nみんなに自慢する権利が得られる。\n
 		</text>
 	</string>
 

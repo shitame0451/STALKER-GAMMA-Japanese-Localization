@@ -179,7 +179,7 @@
 	</string>
 	
 	<string id="st_body_is_claimed">
-		<text>確保済み</text>
+		<text>他者の戦利品</text>
 	</string>
 
 	<string id="ui_catsy_hide_intro_header">
@@ -825,7 +825,7 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_adv_desc">
-		<text>$clr_gld上級設定
+		<text>$clr_gld詳細設定
 \n$clr_wht以下の設定の多くは通常変更する必要はありませんが、UIを細かく調整したい方向けに用意されています。
 
 \n\n下にスクロールすると、さらに多くのオプションが表示されます。</text>
@@ -1307,13 +1307,13 @@
 
 	<string id="encyclopedia_addons_dotmarks_text">
 		<text>
-\n%c[pda_yellow]Interaction Dot Marks%c[ui_gray_1]へようこそ。これはインタラクトUIを近代化するアドオンです。
+\n%c[pda_yellow]Interaction Dot Marks%c[pda_white]へようこそ。これはインタラクトUIを近代化するアドオンです。
 \nSTALKER 2のQoL機能をAnomalyに取り入れつつ、さらに強力な機能を追加しました。
 
 \n\nとはいえSTALKER 2ほどスタイリッシュではありません。元がゴツい作りですから･･････
 \nこのアドオンでAnomalyの“ゴツさ”が減り、現代的なUIに一歩でも近づければ幸いです。
 
-\n\n人それぞれ好みが違うのは当然ですよね。Dot Marksは%c[pda_blue]徹底的なカスタマイズが可能%c[ui_gray_1]です。
+\n\n人それぞれ好みが違うのは当然ですよね。Dot Marksは%c[pda_blue]徹底的なカスタマイズが可能%c[pda_white]です。
 \nほとんどの機能はMCMで個別に有効／無効の切り替えが可能で、詳しい説明も載っています。
 
 \n\nHUDをすっきりとさせたい場合は、すべての表示マーカーをオフにすることも可能です。
@@ -1321,39 +1321,39 @@
 
 \n\n%c[pda_yellow]これはあなたのゲームです。自由にカスタマイズしてプレイしてください。
 
-\n\n%c[ui_gray_1]MCMの %c[pda_yellow]Interaction Dot Marks%c[ui_gray_1] からアクセスできる設定項目:
-\n%c[pda_white]• %c[pda_blue]基本設定%c[ui_gray_1]:
+\n\n%c[pda_white]MCMの %c[pda_yellow]Interaction Dot Marks%c[pda_white] からアクセスできる設定項目:
+\n%c[pda_white] • %c[pda_blue]基本設定%c[pda_white]:
 \nインタラクトUIの主要要素の表示／非表示、および表示方法を制御します。
 \n画面に表示したくないHUD要素がある場合は、まずこの項目を確認してください。
-\n%c[pda_white]• %c[pda_blue]サブ操作%c[ui_gray_1]:
+\n%c[pda_white] • %c[pda_blue]サブ操作%c[pda_white]:
 \nサブ操作機能と、そのキー設定に関する設定項目です。
 \n各アクションを個別に有効／無効に設定できます。
-\n%c[pda_white]• %c[pda_blue]アイコン設定%c[ui_gray_1]:
+\n%c[pda_white] • %c[pda_blue]アイコン設定%c[pda_white]:
 \n状況に応じた各種アイコンの表示設定、サイズ、色、透明度を調整できます。
-\n%c[pda_white]• %c[pda_blue]オブジェクト設定%c[ui_gray_1]:
+\n%c[pda_white] • %c[pda_blue]オブジェクト設定%c[pda_white]:
 \n各オブジェクトカテゴリに対し、マーカーの表示／非表示を個別に制御できます。
-\n%c[pda_white]• %c[pda_blue]他のアドオン%c[ui_gray_1]:
+\n%c[pda_white] • %c[pda_blue]他のアドオン%c[pda_white]:
 \nSorting PlusやUtjan's Item UIなど、他のアドオンとの統合や互換性に関する設定です。
-\n%c[pda_white]• %c[pda_blue]詳細設定%c[ui_gray_1]:
+\n%c[pda_white] • %c[pda_blue]詳細設定%c[pda_white]:
 \nフォント、サイズ、画面上の表示位置などを詳細に調整できます。
 \n大型モニターやワイド画面環境での調整、UIにこだわりたい方に最適です。
 
 \n\n%c[pda_white]様々な設定を試してみてください。設定に失敗しても問題ありません。
 \nMCM内の %c[pda_yellow]初期化 %c[pda_white]ボタンを押すことで、いつでも初期設定に戻せます。
 
-\n\n%c[pda_red]まだ困っている場合は、MCMの %c[pda_yellow]詳細設定%c[pda_red] タブを確認してください。%c[ui_gray_1]
+\n\n%c[pda_red]まだ困っている場合は、MCMの %c[pda_yellow]詳細設定%c[pda_red] タブを確認してください。%c[pda_white]
 
 \n\n-----------------------------------------------------------------
 
 \n\n%c[pda_red]••• 重要: バグ報告を行うには、以下の手順でご報告ください •••
 
-\n\n%c[ui_gray_1]1. %c[pda_white]MCM %c[pda_yellow]&gt; %c[pda_white]Interaction Dot Marks %c[pda_yellow]&gt; %c[pda_white]上級設定 にアクセス
-\n%c[ui_gray_1]2. %c[pda_white]%c[pda_yellow]デバッグログ%c[pda_white]と%c[pda_yellow]詳細なデバッグログ%c[pda_white]を有効にする
-\n%c[ui_gray_1]3. %c[pda_white]ゲームを終了して完全に再起動する
-\n%c[ui_gray_1]4. %c[pda_white]問題をできるだけ簡潔かつ迅速に再現する
-\n%c[ui_gray_1]5. %c[pda_yellow](Anomalyフォルダ)\appdata\logs%c[pda_white]）にあるログをどこかにアップロードして共有する
+\n\n%c[pda_white]1. %c[pda_white]MCM %c[pda_yellow]&gt; %c[pda_white]Interaction Dot Marks %c[pda_yellow]&gt; %c[pda_white]詳細設定 にアクセス
+\n%c[pda_white]2. %c[pda_white]%c[pda_yellow]デバッグログ%c[pda_white]と%c[pda_yellow]詳細なデバッグログ%c[pda_white]を有効にする
+\n%c[pda_white]3. %c[pda_white]ゲームを終了して完全に再起動する
+\n%c[pda_white]4. %c[pda_white]問題をできるだけ簡潔かつ迅速に再現する
+\n%c[pda_white]5. %c[pda_yellow](Anomalyフォルダ)\appdata\logs%c[pda_white]）にあるログをどこかにアップロードして共有する
 
-\n\n%c[ui_gray_1]これらの手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
+\n\n%c[pda_white]これらの手順通りに行わない場合、ログに必要な情報が含まれない可能性があります。
 
 \n\nModdbのコメント欄では通知が届きません。最も迅速な対応が必要な場合は、GAMMA Discordの #mods-posting 内にある「Interaction Dot Marks」チャンネルをご利用ください。
 \n無断でのDMには対応できません。\n
@@ -1380,7 +1380,7 @@
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_shift_desc">
 		<text>有効にすると、Shiftキーを押している間もDot Marksは単独のキー入力として認識します。ダッシュなど、別の操作にShiftキーを割り当てている場合に、その操作を単独で実行できるようになります。
 
-\n\n無効にすると、Shiftキーを押しながらでも単独キーとして動作します。これにより、Shiftキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
+\n\n無効にすると、Shiftキーは単独のキー入力として認識されなくなります。これにより、Shiftキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_ctrl">
@@ -1388,7 +1388,7 @@
 	</string>
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_ctrl_desc">
 		<text>有効にすると、Ctrlキーを押している間もDot Marksは単独のキー入力として認識します。しゃがみなど、別の操作にCtrlキーを割り当てている場合に、その操作を単独で実行できるようになります。
-\n\n無効にすると、Ctrlキーを押しながらでも単独キーとして動作します。これにより、Ctrlキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
+\n\n無効にすると、Ctrlキーは単独のキー入力として認識されなくなります。これにより、Ctrlキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_alt">
@@ -1396,7 +1396,7 @@
 	</string>
 	<string id="ui_mcm_dotmarks_dmarksec_simple_press_ignore_alt_desc">
 		<text>有効にすると、Altキーを押している間もDot Marksは単独のキー入力として認識します。自動回収（Auto Looter）など、別の操作にAltキーを割り当てている場合に、その操作を単独で実行できるようになります。
-\n\n無効にすると、Altキーを押しながらでも単独キーとして動作します。これにより、Altキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
+\n\n無効にすると、Altキーは単独のキー入力として認識されなくなります。これにより、Altキーとのキーコンボを使用した場合に、意図しない重複動作を防ぐことができます。</text>
 	</string>
 
 <!-- Added in 1.2.0 -->
