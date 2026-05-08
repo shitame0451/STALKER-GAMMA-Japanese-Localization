@@ -504,7 +504,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_1_text">
-		<text>Monolith基地にいるメカニックが%sを欲しがっている。</text>
+		<text>Monolithの拠点にいるメカニックが%sを欲しがっている。</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_1_about">
 		<text>我々の基地はここに設営されたばかりで、兄弟たちへ報いるための道具が不足している。
@@ -524,7 +524,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_2_text">
-		<text>Monolith基地のメカニックが%sを欲しがっている。</text>
+		<text>Monolithの拠点のメカニックが%sを欲しがっている。</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_2_about">
 		<text>数々の戦闘を経て、我々の武器が異教徒のものよりわずかに劣っていることが判明した。
@@ -546,7 +546,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_3_text">
-		<text>Monolith基地のメカニックが%sを欲しがっている。</text>
+		<text>Monolithの拠点のメカニックが%sを欲しがっている。</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_3_about">
 		<text>兄弟よ、我々はすべてを凌駕することになるだろう！

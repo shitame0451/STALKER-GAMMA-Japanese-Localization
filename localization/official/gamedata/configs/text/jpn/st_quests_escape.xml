@@ -144,10 +144,10 @@
 	<!-- Sidorovich (Loner Trader) Eliminate Car Park Bandits Task -->
 
 	<string id="esc_m_trader_task_1_name">
-		<text>駐車場を襲撃する</text>
+		<text>車両基地を襲撃する</text>
 	</string>
 	<string id="esc_m_trader_task_1_text">
-		<text>駐車場に攻撃を仕掛け、その場所を占領しているバンディットたちを排除する。</text>
+		<text>車両基地に攻撃を仕掛け、その場所を占領しているバンディットたちを排除する。</text>
 	</string>
 	<string id="esc_m_trader_task_1_about">
 		<text>バンディットが古い駐車場を拠点にしている。

@@ -1491,10 +1491,10 @@
 		<text>放棄された集合住宅</text>
 	</string>
 	<string id="st_dyn_l09_deadcity_daleko_6">
-		<text>放棄された学校</text>
+		<text>文化会館</text>
 	</string>
 	<string id="st_dyn_l09_deadcity_daleko_7">
-		<text>孤立した家々</text>
+		<text>寂れた離れ家</text>
 	</string>
 	<string id="st_dyn_jupiter_underground_daleko_1">
 		<text>トンネル</text>
@@ -1524,7 +1524,7 @@
 		<text>スカドフスク</text>
 	</string>
 	<string id="st_dyn_zaton_daleko_9">
-		<text>焼けた村</text>
+		<text>焼けた農場</text>
 	</string>
 	<string id="st_dyn_zaton_daleko_10">
 		<text>「蒸気」アノマリーフィールド</text>
@@ -1569,7 +1569,7 @@
 		<text>「燃え殻の山」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_jupiter_daleko_2">
-		<text>塔</text>
+		<text>冷却塔</text>
 	</string>
 	<string id="st_dyn_jupiter_daleko_3">
 		<text>変電所</text>
@@ -1611,7 +1611,7 @@
 		<text>東のトンネル</text>
 	</string>
 	<string id="st_dyn_jupiter_daleko_16">
-		<text>貯蔵容器</text>
+		<text>コンテナ倉庫</text>
 	</string>
 	<string id="st_dyn_jupiter_daleko_17">
 		<text>換気複合施設</text>
@@ -1632,25 +1632,25 @@
 		<text>バーの入り口</text>
 	</string>
 	<string id="st_dyn_l05_bar_daleko_3">
-		<text>デューティー基地</text>
+		<text>デューティー本部</text>
 	</string>
 	<string id="st_dyn_l05_bar_daleko_4">
 		<text>軍事倉庫へ向かう道</text>
 	</string>
 	<string id="st_dyn_l07_military_daleko_1">
-		<text>古い農場</text>
+		<text>「褐炭色の喪服」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l07_military_daleko_2">
 		<text>南の丘のアノマリー</text>
 	</string>
 	<string id="st_dyn_l07_military_daleko_3">
-		<text>フリーダム基地</text>
+		<text>フリーダム本部</text>
 	</string>
 	<string id="st_dyn_l07_military_daleko_4">
 		<text>古い小屋</text>
 	</string>
 	<string id="st_dyn_l07_military_daleko_5">
-		<text>放棄された村</text>
+		<text>デューティーの前哨基地</text>
 	</string>
 	<string id="st_dyn_l07_military_daleko_6">
 		<text>デッドシティへ向かう道</text>
@@ -1659,16 +1659,16 @@
 		<text>レーダーへ向かう道</text>
 	</string>
 	<string id="st_dyn_l01_escape_daleko_1">
-		<text>南の検問所</text>
+		<text>軍の前哨基地</text>
 	</string>
 	<string id="st_dyn_l01_escape_daleko_2">
 		<text>ルーキー村</text>
 	</string>
 	<string id="st_dyn_l01_escape_daleko_3">
-		<text>ゴミ捨て場</text>
+		<text>「ゴミ圧縮機」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l01_escape_daleko_4">
-		<text>駐車場</text>
+		<text>車両基地</text>
 	</string>
 	<string id="st_dyn_l01_escape_daleko_5">
 		<text>鉄道橋</text>
@@ -1677,25 +1677,25 @@
 		<text>農場</text>
 	</string>
 	<string id="st_dyn_l01_escape_daleko_7">
-		<text>森の中のアノマリー</text>
+		<text>「ルーキーイーター」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l01_escape_daleko_8">
-		<text>鉄道トンネル</text>
+		<text>「岩石粉砕機」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l01_escape_daleko_9">
-		<text>北の検問所</text>
+		<text>軍の検問所</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_1">
 		<text>クリアスカイ基地</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_2">
-		<text>漁場</text>
+		<text>漁村</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_3">
 		<text>ポンプ場</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_4">
-		<text>アノマリーが密集している場所</text>
+		<text>「沼地叩き」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_5">
 		<text>アフロプロムへ向かう道</text>
@@ -1704,10 +1704,10 @@
 		<text>機械置き場</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_7">
-		<text>焼けた家</text>
+		<text>焼けた集落</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_8">
-		<text>南の検問所</text>
+		<text>南の集落</text>
 	</string>
 	<string id="st_dyn_k00_marsh_daleko_9">
 		<text>古い教会</text>
@@ -1719,7 +1719,7 @@
 		<text>赤い森へ通じるトンネル</text>
 	</string>
 	<string id="st_dyn_l10_limansk_daleko_3">
-		<text>ラジオ波研究所</text>
+		<text>荒れ果てた家</text>
 	</string>
 	<string id="st_dyn_l10_limansk_daleko_4">
 		<text>建設現場</text>
@@ -1728,16 +1728,16 @@
 		<text>橋の前哨基地</text>
 	</string>
 	<string id="st_dyn_l10_limansk_daleko_6">
-		<text>食い道楽</text>
+		<text>検問所</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_daleko_1">
-		<text>放棄された農場</text>
+		<text>放棄された豚舎</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_daleko_2">
 		<text>「白熱する穴」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_daleko_3">
-		<text>動く火の玉</text>
+		<text>「破壊者」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_daleko_4">
 		<text>工場</text>
@@ -1746,7 +1746,7 @@
 		<text>ガソリンスタンド</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_daleko_6">
-		<text>バンディット基地</text>
+		<text>バンディットの拠点</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_daleko_7">
 		<text>ガーベジへ続く出口</text>
@@ -1761,7 +1761,7 @@
 		<text>消防車</text>
 	</string>
 	<string id="st_dyn_k02_trucks_cemetery_daleko_4">
-		<text>放射性の丘</text>
+		<text>放射能の丘</text>
 	</string>
 	<string id="st_dyn_k02_trucks_cemetery_daleko_5">
 		<text>北東の検問所</text>
@@ -1782,7 +1782,7 @@
 		<text>レーダーへ向かう道</text>
 	</string>
 	<string id="st_dyn_l11_pripyat_daleko_2">
-		<text>モノリス基地</text>
+		<text>モノリスの拠点</text>
 	</string>
 	<string id="st_dyn_l10_radar_daleko_1">
 		<text>アンテナ</text>
@@ -1806,7 +1806,7 @@
 		<text>「超伝導体」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l10_red_forest_daleko_3">
-		<text>トンネルの野営地</text>
+		<text>悪魔の野営地</text>
 	</string>
 	<string id="st_dyn_l10_red_forest_daleko_4">
 		<text>レーダーへ向かう道</text>
@@ -1827,7 +1827,7 @@
 		<text>製材所</text>
 	</string>
 	<string id="st_dyn_k01_darkscape_daleko_4">
-		<text>橋</text>
+		<text>鉄道橋</text>
 	</string>
 	<string id="st_dyn_k01_darkscape_daleko_5">
 		<text>ダークバレーへ向かう道</text>
@@ -1854,7 +1854,7 @@
 		<text>ヤンターへ向かう道</text>
 	</string>
 	<string id="st_dyn_l06_rostok_daleko_2">
-		<text>燃えるトンネル</text>
+		<text>バーナートンネル</text>
 	</string>
 	<string id="st_dyn_l06_rostok_daleko_3">
 		<text>建設現場</text>
@@ -1869,13 +1869,13 @@
 		<text>丘の上のアノマリー</text>
 	</string>
 	<string id="st_dyn_l03_agroprom_daleko_2">
-		<text>北の複合施設</text>
+		<text>北の工場</text>
 	</string>
 	<string id="st_dyn_l03_agroprom_daleko_3">
 		<text>南へ広がるアノマリー発生地点</text>
 	</string>
 	<string id="st_dyn_l03_agroprom_daleko_4">
-		<text>南の複合施設</text>
+		<text>南の研究所</text>
 	</string>
 	<string id="st_dyn_l03_agroprom_daleko_5">
 		<text>「どん底の鉤爪」アノマリーフィールド</text>
@@ -1890,7 +1890,7 @@
 		<text>河川港</text>
 	</string>
 	<string id="st_dyn_pripyat_daleko_3">
-		<text>古いKBO</text>
+		<text>旧サービスセンター</text>
 	</string>
 	<string id="st_dyn_pripyat_daleko_4">
 		<text>学校</text>
@@ -1899,13 +1899,13 @@
 		<text>病院</text>
 	</string>
 	<string id="st_dyn_pripyat_daleko_6">
-		<text>KBOジュビリー</text>
+		<text>ユビレイニー・サービスセンター</text>
 	</string>
 	<string id="st_dyn_pripyat_daleko_7">
 		<text>コインランドリー</text>
 	</string>
 	<string id="st_dyn_pripyat_daleko_8">
-		<text>運動場</text>
+		<text>幼稚園</text>
 	</string>
 	<string id="st_dyn_pripyat_daleko_9">
 		<text>宿舎</text>
@@ -1947,19 +1947,19 @@
 		<text>コルドンへ向かう道</text>
 	</string>
 	<string id="st_dyn_new_military_daleko_1">
-		<text>古い農場</text>
+		<text>辺境の集落</text>
 	</string>
 	<string id="st_dyn_new_military_daleko_2">
 		<text>南の丘のアノマリー</text>
 	</string>
 	<string id="st_dyn_new_military_daleko_3">
-		<text>フリーダム基地</text>
+		<text>フリーダム本部</text>
 	</string>
 	<string id="st_dyn_new_military_daleko_4">
 		<text>古い小屋</text>
 	</string>
 	<string id="st_dyn_new_military_daleko_5">
-		<text>放棄された村</text>
+		<text>デューティーの前哨基地</text>
 	</string>
 	<string id="st_dyn_new_military_daleko_6">
 		<text>デッドシティへ向かう道</text>
@@ -1985,10 +1985,10 @@
 		<text>放棄された集合住宅</text>
 	</string>
 	<string id="st_dyn_l09_deadcity_blizko_6">
-		<text>放棄された学校</text>
+		<text>文化会館</text>
 	</string>
 	<string id="st_dyn_l09_deadcity_blizko_7">
-		<text>孤立した家々の周辺</text>
+		<text>寂れた離れ家の周辺</text>
 	</string>
 	<string id="st_dyn_jupiter_underground_blizko_1">
 		<text>トンネル内</text>
@@ -2018,7 +2018,7 @@
 		<text>スカドフスク</text>
 	</string>
 	<string id="st_dyn_zaton_blizko_9">
-		<text>焼けた村</text>
+		<text>焼けた農場</text>
 	</string>
 	<string id="st_dyn_zaton_blizko_10">
 		<text>「蒸気」アノマリーフィールド</text>
@@ -2063,7 +2063,7 @@
 		<text>「燃え殻の山」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_jupiter_blizko_2">
-		<text>塔</text>
+		<text>冷却塔</text>
 	</string>
 	<string id="st_dyn_jupiter_blizko_3">
 		<text>変電所</text>
@@ -2078,7 +2078,7 @@
 		<text>コパチ村</text>
 	</string>
 	<string id="st_dyn_jupiter_blizko_7">
-		<text>ジュピター</text>
+		<text>ヤニフ駅</text>
 	</string>
 	<string id="st_dyn_jupiter_blizko_8">
 		<text>採石場</text>
@@ -2105,7 +2105,7 @@
 		<text>東にあるトンネル</text>
 	</string>
 	<string id="st_dyn_jupiter_blizko_16">
-		<text>貯蔵容器</text>
+		<text>コンテナ倉庫</text>
 	</string>
 	<string id="st_dyn_jupiter_blizko_17">
 		<text>換気複合施設</text>
@@ -2126,19 +2126,19 @@
 		<text>バー入口</text>
 	</string>
 	<string id="st_dyn_l05_bar_blizko_3">
-		<text>デューティー基地</text>
+		<text>デューティー本部</text>
 	</string>
 	<string id="st_dyn_l05_bar_blizko_4">
 		<text>軍事倉庫へ向かう道</text>
 	</string>
 	<string id="st_dyn_l07_military_blizko_1">
-		<text>古い農場</text>
+		<text>「褐炭色の喪服」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l07_military_blizko_2">
 		<text>南にある丘の上</text>
 	</string>
 	<string id="st_dyn_l07_military_blizko_3">
-		<text>フリーダム基地</text>
+		<text>フリーダム本部</text>
 	</string>
 	<string id="st_dyn_l07_military_blizko_4">
 		<text>古い小屋</text>
@@ -2153,16 +2153,16 @@
 		<text>レーダーへ向かう道</text>
 	</string>
 	<string id="st_dyn_l01_escape_blizko_1">
-		<text>南にある検問所</text>
+		<text>南にある前哨基地</text>
 	</string>
 	<string id="st_dyn_l01_escape_blizko_2">
 		<text>ルーキー村</text>
 	</string>
 	<string id="st_dyn_l01_escape_blizko_3">
-		<text>ゴミ捨て場</text>
+		<text>「ゴミ圧縮機」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l01_escape_blizko_4">
-		<text>駐車場</text>
+		<text>車両基地</text>
 	</string>
 	<string id="st_dyn_l01_escape_blizko_5">
 		<text>鉄道橋</text>
@@ -2171,10 +2171,10 @@
 		<text>農場</text>
 	</string>
 	<string id="st_dyn_l01_escape_blizko_7">
-		<text>森にあるアノマリーの近く</text>
+		<text>「ルーキーイーター」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l01_escape_blizko_8">
-		<text>鉄道トンネル</text>
+		<text>「岩石粉砕機」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l01_escape_blizko_9">
 		<text>北にある検問所</text>
@@ -2183,13 +2183,13 @@
 		<text>クリアスカイ基地</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_2">
-		<text>漁場</text>
+		<text>漁村</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_3">
 		<text>ポンプ場</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_4">
-		<text>アノマリーが密集している場所</text>
+		<text>「沼地叩き」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_5">
 		<text>アフロプロムへ続く出口付近</text>
@@ -2198,10 +2198,10 @@
 		<text>機械置き場</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_7">
-		<text>焼けた家</text>
+		<text>焼けた集落</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_8">
-		<text>南にある検問所</text>
+		<text>南にある集落</text>
 	</string>
 	<string id="st_dyn_k00_marsh_blizko_9">
 		<text>古い教会</text>
@@ -2213,7 +2213,7 @@
 		<text>赤い森へ通じるトンネルの近く</text>
 	</string>
 	<string id="st_dyn_l10_limansk_blizko_3">
-		<text>ラジオ波研究所</text>
+		<text>荒れ果てた家</text>
 	</string>
 	<string id="st_dyn_l10_limansk_blizko_4">
 		<text>建設現場</text>
@@ -2222,16 +2222,16 @@
 		<text>橋にある前哨基地の周辺</text>
 	</string>
 	<string id="st_dyn_l10_limansk_blizko_6">
-		<text>食い道楽</text>
+		<text>検問所</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_blizko_1">
-		<text>放棄された農場</text>
+		<text>放棄された豚舎</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_blizko_2">
 		<text>「白熱する穴」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_blizko_3">
-		<text>火の玉の近く</text>
+		<text>「破壊者」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_blizko_4">
 		<text>工場</text>
@@ -2240,7 +2240,7 @@
 		<text>ガソリンスタンド</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_blizko_6">
-		<text>バンディット基地</text>
+		<text>バンディットの拠点</text>
 	</string>
 	<string id="st_dyn_l04_darkvalley_blizko_7">
 		<text>ガーベジへ続く出口付近</text>
@@ -2255,7 +2255,7 @@
 		<text>消防車</text>
 	</string>
 	<string id="st_dyn_k02_trucks_cemetery_blizko_4">
-		<text>放射線汚染された丘の上</text>
+		<text>放射能汚染された丘の上</text>
 	</string>
 	<string id="st_dyn_k02_trucks_cemetery_blizko_5">
 		<text>北東にある検問所</text>
@@ -2276,7 +2276,7 @@
 		<text>レーダーへ向かう道</text>
 	</string>
 	<string id="st_dyn_l11_pripyat_blizko_2">
-		<text>モノリス基地</text>
+		<text>モノリスの拠点</text>
 	</string>
 	<string id="st_dyn_l10_radar_blizko_1">
 		<text>アンテナ</text>
@@ -2300,7 +2300,7 @@
 		<text>「超伝導体」アノマリーフィールド</text>
 	</string>
 	<string id="st_dyn_l10_red_forest_blizko_3">
-		<text>トンネルにある野営地</text>
+		<text>悪魔の野営地</text>
 	</string>
 	<string id="st_dyn_l10_red_forest_blizko_4">
 		<text>レーダーへ続く出口付近</text>
@@ -2321,7 +2321,7 @@
 		<text>製材所</text>
 	</string>
 	<string id="st_dyn_k01_darkscape_blizko_4">
-		<text>橋</text>
+		<text>鉄道橋</text>
 	</string>
 	<string id="st_dyn_k01_darkscape_blizko_5">
 		<text>ダークバレーへ続く出口付近</text>
@@ -2348,7 +2348,7 @@
 		<text>ヤンターへ向かう道</text>
 	</string>
 	<string id="st_dyn_l06_rostok_blizko_2">
-		<text>燃えるトンネル</text>
+		<text>バーナートンネル</text>
 	</string>
 	<string id="st_dyn_l06_rostok_blizko_3">
 		<text>建設現場</text>
@@ -2363,13 +2363,13 @@
 		<text>丘の上にあるアノマリーの近く</text>
 	</string>
 	<string id="st_dyn_l03_agroprom_blizko_2">
-		<text>北にある複合施設</text>
+		<text>北にある工場</text>
 	</string>
 	<string id="st_dyn_l03_agroprom_blizko_3">
 		<text>南にあるアノマリーの近く</text>
 	</string>
 	<string id="st_dyn_l03_agroprom_blizko_4">
-		<text>南にある複合施設</text>
+		<text>南にある研究所</text>
 	</string>
 	<string id="st_dyn_l03_agroprom_blizko_5">
 		<text>「どん底の鉤爪」アノマリーフィールド</text>
@@ -2384,7 +2384,7 @@
 		<text>河川港</text>
 	</string>
 	<string id="st_dyn_pripyat_blizko_3">
-		<text>古いKBO</text>
+		<text>旧サービスセンター</text>
 	</string>
 	<string id="st_dyn_pripyat_blizko_4">
 		<text>学校</text>
@@ -2393,13 +2393,13 @@
 		<text>病院</text>
 	</string>
 	<string id="st_dyn_pripyat_blizko_6">
-		<text>KBOジュビリー</text>
+		<text>ユビレイニー・サービスセンター</text>
 	</string>
 	<string id="st_dyn_pripyat_blizko_7">
 		<text>コインランドリー</text>
 	</string>
 	<string id="st_dyn_pripyat_blizko_8">
-		<text>運動場</text>
+		<text>幼稚園</text>
 	</string>
 	<string id="st_dyn_pripyat_blizko_9">
 		<text>宿舎</text>
@@ -2441,13 +2441,13 @@
 		<text>コルドンへ続く出口付近</text>
 	</string>
 	<string id="st_dyn_new_military_blizko_1">
-		<text>古い農場</text>
+		<text>辺境の集落</text>
 	</string>
 	<string id="st_dyn_new_military_blizko_2">
 		<text>南にある丘の上</text>
 	</string>
 	<string id="st_dyn_new_military_blizko_3">
-		<text>フリーダム基地</text>
+		<text>フリーダム本部</text>
 	</string>
 	<string id="st_dyn_new_military_blizko_4">
 		<text>古い小屋</text>
@@ -7249,7 +7249,7 @@
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_7">
 		<text>我々はアノマリーフィールドに行く途中で$targetと出会った。
-\n彼らはアフロプロムにある北の複合施設の北西側で目撃されたミュータントの襲撃準備をしていた。
+\n彼らはアフロプロムにある北の工場の北西側で目撃されたミュータントの襲撃準備をしていた。
 \nひとまず彼らに協力することにする。調査は一時中断し、この件の後で再開する予定だ。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_8">
@@ -11353,7 +11353,7 @@
 		<text>ストーカーが、トンネルのそばでブラッドサッカーを見たって話してたぜ。ここも安全とは言えないな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l01_escape_6">
-		<text>たとえば今日、駐車場にバンディットどもがいたとするだろ？
+		<text>たとえば今日、車両基地にバンディットどもがいたとするだろ？
 \nでも次の日には、ローナーたちがそこを取り返してたりするんだよな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l01_escape_7">
@@ -11687,7 +11687,7 @@
 		<text>レーニンの像は俺が想像していたよりもずっと大きいな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l09_deadcity_6">
-		<text>傭兵はスポーツセンターを支配し、バンディットは古い学校を占領している。</text>
+		<text>傭兵はスポーツセンターを支配し、バンディットは文化会館を占領している。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l09_deadcity_7">
 		<text>街にあった貴重品のほとんどは盗まれた。今では完全に空っぽな抜け殻だよ。</text>

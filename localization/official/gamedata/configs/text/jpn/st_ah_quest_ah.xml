@@ -102,7 +102,7 @@
 		<text>探求者たち: ヤンターでマルコフ教授を探す</text>
 	</string>
 	<string id="ah_redirect_to_markov_quest_desc">
-		<text>次はマルコフ教授を探さなければならない。彼はヤニフにある科学者の移動ラボの近くにいるはずだ。</text>
+		<text>次はマルコフ教授を探さなければならない。彼はヤニフにある移動ラボの近くにいるはずだ。</text>
 	</string>
 	<string id="ah_redirect_to_pirogov_quest_title">
 		<text>研究者たち: ピロゴフ研究員を探す</text>
@@ -486,7 +486,7 @@
 		<text>アノマリーに覆われた列車でアーティファクトを探す</text>
 	</string>
 	<string id="ah_up_e2_desc">
-		<text>このエレクトロアノマリーフィールドは地図に記録されていない。科学者の移動ラボの近くにある列車の荷台の中にあるようだ。記憶が確かなら、荷台の屋根には脱出用のハッチがあり、そこから中に入ることができるはずだ。</text>
+		<text>このエレクトロアノマリーフィールドは地図に記録されていない。移動ラボの近くにある列車の荷台の中にあるようだ。記憶が確かなら、荷台の屋根には脱出用のハッチがあり、そこから中に入ることができるはずだ。</text>
 	</string>
 	<string id="ah_up_e1_title">
 		<text>北西のトンネルでアーティファクトを探す</text>
@@ -708,21 +708,21 @@
 		<text>ケースをトレーダーに持っていく。</text>
 	</string>
 	<string id="tm_find_case_trader_1">
-		<text>南の検問所にあるケースを盗む</text>
+		<text>軍の前哨基地にあるケースを盗む</text>
 	</string>
 	<string id="tm_find_case_trader_1_descr">
-		<text>検問所に忍び込み、ゾーン北部の軍事遠征の報告書が入ったケースを盗み出す必要がある。</text>
+		<text>前哨基地に忍び込み、ゾーン北部の軍事遠征の報告書が入ったケースを盗み出す必要がある。</text>
 	</string>
 	<string id="prinesi_military_docs_start_0">
 		<text>それで、スカーの情報を得るには何をすればいいんだ？</text>
 	</string>
 	<string id="prinesi_military_docs_start_1">
 		<text>取引はこうだ･･････
-\nあるケースがゾーンの奥地から検問所に運ばれて保管されている。
+\nあるケースがゾーンの奥地から前哨基地に運ばれて保管されている。
 \n中には、北部へ向かった調査隊の報告書が入っているらしい。
 \n昼間はまるでプルトニウムでも入ってるかのように厳重に守られているが、
 \n夜になると、妙なことに見張りが2人だけになるんだ。
-\nお前はその検問所に忍び込んで、ケースを盗んでこい。やるんだろう？</text>
+\nお前はその前哨基地に忍び込んで、ケースを盗んでこい。やるんだろう？</text>
 	</string>
 	<string id="prinesi_military_docs_start_21">
 		<text>ああ、やろう。</text>

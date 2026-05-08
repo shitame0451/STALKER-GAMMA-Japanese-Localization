@@ -6,10 +6,10 @@
 		<text>ザトン [放棄された製材所]</text>
 	</string>
 	<string id="ui_st_abandoned_school">
-		<text>デッドシティ [放棄された文化会館]</text>
+		<text>デッドシティ [文化会館]</text>
 	</string>
 	<string id="ui_st_abandoned_village">
-		<text>軍事倉庫 [放棄された村]</text>
+		<text>軍事倉庫 [デューティーの前哨基地]</text>
 	</string>
 	<string id="ui_st_brain_scorcher">
 		<text>レーダー [ブレイン・スコーチャー]</text>
@@ -36,7 +36,7 @@
 		<text>ジュピター [ハーマンの移動ラボ]</text>
 	</string>
 	<string id="ui_st_hidden_base">
-		<text>沼地 [秘密基地]</text>
+		<text>沼地 [クリアスカイ基地]</text>
 	</string>
 	<string id="ui_st_kopachy_village">
 		<text>ジュピター [コパチ村]</text>
@@ -45,13 +45,13 @@
 		<text>ロストク [宿泊所]</text>
 	</string>
 	<string id="ui_st_makeshift_barracks">
-		<text>ロストク [仮設兵舎]</text>
+		<text>ロストク [司令部]</text>
 	</string>
 	<string id="ui_st_military_base">
 		<text>軍事倉庫 [軍事基地]</text>
 	</string>
 	<string id="ui_st_northern_factory">
-		<text>ダークバレー [北の工場]</text>
+		<text>ダークバレー [バンディットの拠点]</text>
 	</string>
 	<string id="ui_st_river_port">
 		<text>プリピャチ郊外 [河川港]</text>
@@ -69,7 +69,7 @@
 		<text>ザトン [スカドフスク難破船]</text>
 	</string>
 	<string id="ui_st_southern_checkpoint">
-		<text>コルドン [南の検問所]</text>
+		<text>コルドン [軍の前哨基地]</text>
 	</string>
 	<string id="ui_st_sports_center">
 		<text>デッドシティ [スポーツセンター]</text>
@@ -84,7 +84,7 @@
 		<text>アフロプロム地下 [トンネル避難所]</text>
 	</string>
 	<string id="ui_st_tuzla_outpost">
-		<text>沼地 [トゥズラ前哨基地]</text>
+		<text>沼地 [漁師の桟橋]</text>
 	</string>
 	<string id="ui_st_yanov_station">
 		<text>ジュピター [ヤニフ駅]</text>
@@ -174,7 +174,7 @@
 		<text>沼地 [土手の下]</text>
 	</string>
 	<string id="ui_st_pole_bandit_base">
-		<text>メドウ [バンディットのたまり場]</text>
+		<text>メドウ [バンディットの野営地]</text>
 	</string>
 	<string id="ui_st_pole_stalker_village">
 		<text>メドウ [庭のテラス]</text>

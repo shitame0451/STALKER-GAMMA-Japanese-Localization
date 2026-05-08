@@ -316,7 +316,7 @@
 \nバックパックを取る最短ルートは、中立基地にあるパイプを使うことだ。</text>
 	</string>
 	<string id="st_agr_treasure_8_descr">
-		<text>デューティー基地近くの木に隠し場所を見つけたが、登って取りに行く暇がなかった。</text>
+		<text>デューティー本部近くの木に隠し場所を見つけたが、登って取りに行く暇がなかった。</text>
 	</string>
 	<string id="st_agr_treasure_10_name">
 		<text>沼地のパイプ</text>
@@ -1544,7 +1544,7 @@
 		<text>制御盤</text>
 	</string>
 	<string id="st_esc_q6_n_descr">
-		<text>取引の品は、エレベーターの制御盤の中にある。遠慮なく手を突っ込んでくれ。
+		<text>取引の品は、製粉所の制御盤の中にある。遠慮なく手を突っ込んでくれ。
 \n感電する心配はないさ。アノマリーについては保証できないがな･･････</text>
 	</string>
 	<string id="st_esc_q7_n_name">
@@ -1675,10 +1675,10 @@
 \nそして今、俺のツケが戦利品の座標を教えるように言っている。</text>
 	</string>
 	<string id="st_val_q5_n_name">
-		<text>フリーダム基地の金庫</text>
+		<text>フリーダム本部の金庫</text>
 	</string>
 	<string id="st_val_q5_n_descr">
-		<text>フリーダム基地の3階建ての建物に、物資漁りが欲しがる貴重品をしまった金庫がある。</text>
+		<text>フリーダム本部の3階建ての建物に、物資漁りが欲しがる貴重品をしまった金庫がある。</text>
 	</string>
 	<string id="st_val_q6_n_name">
 		<text>塔の頂上の木箱</text>
