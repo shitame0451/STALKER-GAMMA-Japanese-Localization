@@ -1349,7 +1349,7 @@
 	
 	<!-- Find Fate of Missing Squad Simulation Task -->
 	<string id="simulation_task_52_name">
-		<text>消失信号 ($freqMHz)</text>
+		<text>失われた信号 ($freqMHz)</text>
 	</string>
 	<string id="simulation_task_52_text_0">
 		<text>$commから行方不明の分隊員を追跡する依頼を受けたが、捜索には$item_1が必要だ。</text>
