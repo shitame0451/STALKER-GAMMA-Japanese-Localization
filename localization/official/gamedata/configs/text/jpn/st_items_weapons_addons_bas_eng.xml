@@ -1256,6 +1256,20 @@
 		%c[d_cyan] • %c[ui_gray_1]AK 5C\n
 		</text>
 	</string>
+	
+	<string id="st_addon_scope_vitup_kit">
+		<text>PP-19-01 Vityaz アップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_vitup_kit_descr">
+		<text>PP-19-01 Vityaz用の改良キット。アングルド・フォアグリップを含むポリマー製パーツ一式、軽量化されたボルト、そして標的捕捉能力と近接戦闘時の取り回しを向上させるレーザー照準モジュールがセットになっている。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]連射速度の向上\n
+		%c[d_cyan] • %c[ui_gray_1]反動制御の改善\n
+		%c[d_cyan] • %c[ui_gray_1]タクティカル・ブルーレーザー\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]PP-19-01 Vityaz\n
+		</text>
+	</string>
 
 <!--
 	UNUSED

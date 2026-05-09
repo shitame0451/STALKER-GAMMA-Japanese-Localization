@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	WEAPON ATTACHMENTS
+-->
+
+<string_table>
+
+	<string id="st_addon_scope">
+		<text>PSO-1</text>
+	</string>
+	<string id="st_addon_scope_descr">
+		<text>ソ連のマークスマンを象徴する光学照準器。1960年代初頭、SVDライフルと共に支給され、東欧全域や冷戦下の様々な紛争で広く使用された。特徴的なレティクルには、照準用のシェブロンと内蔵のレンジファインダーが組み合わされており、射手は追加の装備なしに素早く距離を測定できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦 / ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		%c[d_cyan] • %c[pda_white]レティクル発光: %c[ui_gray_1]常時点灯\n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>POSP 6x24</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>伝統的なPSOの設計をベースに高倍率化したモデル。軍事用途のみならず、ハンターやスポーツ射撃手向けにも調整されている。おなじみのシェブロンレティクルとスタジア曲線式レンジファインダーにより、狩猟距離での迅速な距離測定が容易だ。やや長めの鏡胴により、小〜中型の標的に対してより鮮明な射撃を可能にする。輸出向けに製造されたPOSPは、その堅牢さ、シンプルな操作性、そして実戦から狩猟まで幅広く応用できるPSO譲りの弾道補助機能が高く評価され、民間市場で広く普及した。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベラルーシ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Zenit-BelOMO\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]6.0x\n
+		%c[d_cyan] • %c[pda_white]レティクル発光: %c[ui_gray_1]常時点灯\n
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_pso2">
+		<text>PSO-1M2-1</text>
+	</string>
+	<string id="st_addon_scope_pso2_descr">
+		<text>伝統的なPSOファミリーから派生した、近代的なコンパクトモデル。特殊狙撃プラットフォーム（特にVSSやAS VAL）および近〜中距離射撃に適応している。レティクルとスタジア曲線は近接戦闘向けに調整されており、鏡胴には最新のコーティングと製造技術が施され、レンズの透明度と低照度下での性能が向上している。オリジナルのPSOが持つ遠距離用の弾道落下補正（BDC）を必要としない状況において、消音仕様の特殊ライフルに最適な、実戦向けの光学照準器として機能する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦 / ベラルーシ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Zenit-BelOMO\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		%c[d_cyan] • %c[pda_white]レティクル発光: %c[ui_gray_1]常時点灯\n
+		</text>
+	</string>
+		
+	<string id="st_addon_scope_1p59">
+		<text>1P59 "Giperon"</text>
+	</string>
+	<string id="st_addon_scope_1p59_descr">
+		<text>2001年頃に近代的なSVDクラスのライフル向けに導入された、ロシア製の可変倍率狙撃照準器。鮮明で細いレティクル、明るい視界、そして電池式のイルミネーション機能を備えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]KMZ\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x - 10.0x\n
+		%c[d_cyan] • %c[pda_white]レティクル発光: %c[ui_gray_1]常時点灯\n
+		</text>
+	</string>	
+
+</string_table>

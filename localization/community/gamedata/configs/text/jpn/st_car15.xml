@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<string id="st_wpn_car15">
+		<text>CAR-15</text>
+	</string>
+	<string id="st_wpn_car15_descr">
+		<text>1960年代から1970年代にかけてColt社が販売したM16ベースのライフル。Colt Commandoのような、取り回しの良いコンパクトなカービン長モデルとして広く知られている。機動性を重視して設計されており、ベトナム戦争時には主に特殊部隊や航空機搭乗員によって運用された。現在では「CAR-15」という名称は、カービンサイズのM16／AR-15派生型の総称として使われることが多い。現代のカスタムモデルでは、古典的な外観を維持しつつ、最新の部品が組み込まれている。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]リフレックスサイト: Aimpoint 2000\n
+		%c[d_purple] • %c[ui_gray_1]スコープ: ACOG, ACOG 2x, キャリングハンドルスコープ\n
+		%c[d_purple] • %c[ui_gray_1]サプレッサー: NATO サプレッサー\n
+		</text>
+	</string>
+
+	<string id="st_wpn_admin">
+		<text>CAR-15 «Administrator»</text>
+	</string>
+	<string id="st_wpn_admin_descr">
+		<text>クラシックなCAR-15を現代風にアレンジしたモデル。«Administrator»は、CAR-15特有のキャリングハンドルの外観と、現代のM4に匹敵する性能の両立を求めた元傭兵によって組み上げられた。機能性よりもスタイルを優先した一丁だ。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]光学サイト: Aimpoint T2（G33マグニファイア付属）\n
+		%c[d_purple] • %c[ui_gray_1]サプレッサー: NATO サプレッサー\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_car15_bd">
+		<text>CAR-15 «Blood Diamond»</text>
+	</string>
+	<string id="st_wpn_car15_bd_descr">
+		<text>“わかる奴にはわかる。そういう代物だ”\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]リフレックスサイト: Aimpoint Pro \n
+		%c[d_purple] • %c[ui_gray_1]サプレッサー: NATO サプレッサー\n
+		</text>
+	</string>
+	
+</string_table>
+

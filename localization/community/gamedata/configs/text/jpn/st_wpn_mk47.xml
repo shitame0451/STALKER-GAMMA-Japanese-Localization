@@ -3,7 +3,7 @@
 		<text>CMMG Mk47 Mutant</text>
 	</string>
 	<string id="st_wpn_mk47_descr">
-		<text>アメリカ製のAR-15スタイルのライフルで、7.62mmのAKマガジンに対応するよう設計されている。アメリカの民間市場向けに、7.62x39弾を使用できる信頼性の高い銃として開発された。AR-15の各種部品やアタッチメントとの互換性を持ち、カスタマイズ性が高い。通常はセミオート仕様だが、ゾーンに存在するMk47はセレクターによるフルオート射撃が可能となるように改造されている。\n \n
+		<text>アメリカ製のAR-15スタイルのライフルで、7.62mmのAKマガジンに対応するよう設計されている。AR-15の各種部品やアタッチメントとの互換性を持ち、カスタマイズ性が高い。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Central Missouri Machine Guns\n</text>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+	<string id="st_wpn_hk21e">
+		<text>HK21E</text>
+	</string>
+	<string id="st_wpn_hk21e_descr">
+		<text>HK G3ライフルをベースに開発された7.62mm汎用機関銃。アフリカ、アジア、ヨーロッパなど、様々な国の軍隊で運用されている。信頼性、運用効率、および耐久年数の向上を目的として再設計された近代化モデルであり、モデル名の「E」は「輸出（Export）」を意味している。ゾーンでは珍しいドイツ製の武器で、境界線近くでの作戦に失敗した外国人傭兵たちが置いていったものだ。重厚で信頼性が高く、致命的な威力を持つ。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]ACOG, Barska ES AC10632, EOTech スコープ\n</text>
+	</string>
+
+	<string id="st_mag_hk21_7.62x51">
+		<text>HK21用ボックスマガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_hk21_7.62x51_descr">
+		<text> </text>
+	</string>
+
+</string_table>

@@ -1,0 +1,39 @@
+
+<string_table>
+
+	<string id="st_wpn_grot">
+		<text>MSBS Grot C16A2</text>
+	</string>
+	<string id="st_wpn_grot_descr">
+		<text>FB Radom社が開発・製造するモジュラー式ライフル。現在ポーランド領土防衛軍で運用されており、ポーランド軍の主力歩兵兵器および制式小銃としてFB Berylを置き換えることが予定されている。C16A2と呼ばれるこの派生型は16インチ銃身を備え、旧型と比較してロングハンドガード、強化型ファイアリングピン、改良されたピストルグリップとストックを採用している。このモデルは以前の所有者が純正ストックをMagpul CTRストックに換装し、さらにレーザーデバイスとハンドグリップを追加したようだ。</text>
+	</string>
+	
+	<string id="st_wpn_grot_short">
+		<text>MSBS Grot C10A2</text>
+	</string>
+	<string id="st_wpn_grot_short_descr">
+		<text>FB Radom社が開発・製造するモジュラー式ライフル。現在ポーランド領土防衛軍で運用されており、ポーランド軍の主力歩兵兵器および制式小銃としてFB Berylを置き換えることが予定されている。C10A2と呼ばれるこの派生型は10インチ銃身とショートハンドガードを備えている。反動の増大と弾速の低下を代償として、エルゴノミクスの向上に加え、CQB環境での運用を想定した軽量化と全長の短縮が図られている。</text>
+	</string>
+	
+	<string id="st_wpn_grot_short_tan">
+		<text>MSBS Grot C10A2 (FDE)</text>
+	</string>
+	<string id="st_wpn_grot_short_tan_descr">
+		<text>FB Radom社が開発・製造するモジュラー式ライフル。現在ポーランド領土防衛軍で運用されており、ポーランド軍の主力歩兵兵器および制式小銃としてFB Berylを置き換えることが予定されている。C10A2と呼ばれるこの派生型は10インチ銃身とショートハンドガードを備えている。反動の増大と弾速の低下を代償として、エルゴノミクスの向上に加え、CQB環境での運用を想定した軽量化と全長の短縮が図られている。</text>
+	</string>
+	
+	<string id="st_wpn_grot_tan">
+		<text>MSBS Grot C16A2 (FDE)</text>
+	</string>
+	<string id="st_wpn_grot_tan_descr">
+		<text>FB Radom社が開発・製造するモジュラー式ライフル。現在ポーランド領土防衛軍で運用されており、ポーランド軍の主力歩兵兵器および制式小銃としてFB Berylを置き換えることが予定されている。C16A2と呼ばれるこの派生型は16インチ銃身を備え、旧型と比較してロングハンドガード、強化型ファイアリングピン、改良されたピストルグリップとストックを採用している。このモデルは以前の所有者が純正ストックをMagpul CTRストックに換装し、さらにレーザーデバイスとハンドグリップを追加したようだ。</text>
+	</string>
+	
+	<string id="st_addon_sil_grot">
+		<text>Steel Pegasus L Air サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_grot_descr">
+		<text>ウクライナのSTEEL社が製造するチタン製サプレッサー。</text>
+	</string>
+
+</string_table>

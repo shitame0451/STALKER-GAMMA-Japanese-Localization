@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Weapons Attachments
+-->
+
+<string_table>
+
+	<string id="st_addon_ots2_upgr_kit">
+		<text>OTs-02 Kiparis アップグレードキット</text>
+	</string>
+	<string id="st_addon_ots2_upgr_kit_descr">
+		<text>OTs-02 Kiparisサブマシンガン用アップグレードキット。発射速度を向上させる軽量ボルトグループとトリガー機構を同梱している。グリーンのトリチウムサイト、タクティカルマウント、レーザーサイトを備えている。\n \n
+		%c[ui_gray_1]特徴:\n
+		%c[d_green] • %c[ui_gray_1]発射速度の向上\n
+		%c[d_green] • %c[ui_gray_1]命中精度の向上\n
+		%c[d_green] • %c[ui_gray_1]9mm 50連ドラムマガジン\n
+		%c[d_green] • %c[ui_gray_1]トリチウム付き新型リアサイト\n
+		%c[d_green] • %c[ui_gray_1]タクティカル・レッドレーザー\n</text>
+	</string>
+
+	<string id="st_addon_vorkutakit">
+		<text>«Vorkuta» アップグレードキット</text>
+	</string>
+	<string id="st_addon_vorkutakit_descr">
+		<text>KS-23用アップグレードキット。サプレッサー装着を可能にするスレッドバレルと、遠距離戦闘能力を高める着脱式PUスコープを追加する。名称は同名の都市に由来するものだろう。\n</text>
+	</string>
+
+	<string id="st_addon_bd_upgr_kit">
+		<text>«Blood Diamond» アップグレードキット</text>
+	</string>
+	<string id="st_addon_bd_upgr_kit_descr">
+		<text>CAR-15用アップグレードキット。ゾーンでローデシア風のロールプレイを望む者のために、ハリウッド映画に登場したクラシックなライフルの外観を再現している。\n
+</text>
+	</string>
+
+	<string id="st_addon_admin_upgr_kit">
+		<text>«Administrator» アップグレードキット</text>
+	</string>
+	<string id="st_addon_admin_upgr_kit_descr">
+		<text>CAR-15用アップグレードキット。クラシックなライフルを現代的なM4スタイルへと改造する。Aimpoint T2およびG33マグニファイアを追加し、ストックとハンドガードを最新のパーツに換装。前方にはLAMとフラッシュライトを装備し、あらゆる照度環境下での目標捕捉能力を向上させている。\n</text>
+	</string>
+	
+</string_table>

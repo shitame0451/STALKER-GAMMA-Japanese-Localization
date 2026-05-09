@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+	<string id="st_up_cal_1143_descr">
+		<text>銃の部品や機構を改造し、信頼性を犠牲にして使用する弾薬を変更する。</text>
+	</string>
+	<string id="st_up_cal_1143_name">
+		<text>9x19mm弾用に改造</text>
+	</string>
+</string_table>

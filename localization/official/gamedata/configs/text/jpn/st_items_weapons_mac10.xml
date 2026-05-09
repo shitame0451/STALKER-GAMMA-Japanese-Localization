@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+	<string id="st_wpn_mac10">
+		<text>MAC 10</text>
+	</string>
+	<string id="st_wpn_mac10_descr">
+		<text>軽量な設計と驚異的な発射速度で知られる、コンパクトかつ象徴的なサブマシンガン。1960年代にゴードン・B・イングラムによって開発されたこの銃は、軍や法執行機関での採用、そしてポップカルチャーへの露出によって広く知られるようになった。複数の口径に対応するMAC-10は、携帯性と汎用性の高さから近接戦闘において重宝されている。特徴的なオープンボルト方式のブローバック作動と折り畳み式のワイヤーストックが小型化に寄与しており、その圧倒的な連射性能は銃器の歴史にその名を刻んでいる。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]スコープ: なし\n
+		%c[d_purple] • %c[ui_gray_1]サプレッサー: 9mm サプレッサー\n
+		</text>
+	</string>
+	
+	<string id="st_mag_mac10_9x19_standard">
+		<text>MAC-10用32連マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mac10_9x19_standard_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_mac10_9x19_ext">
+		<text>MAC-10用50連マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mac10_9x19_ext_descr">
+		<text> </text>
+	</string>
+	
+</string_table>

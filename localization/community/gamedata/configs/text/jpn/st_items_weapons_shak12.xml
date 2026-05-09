@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_shak12">
+		<text>ShAK-12</text>
+	</string>
+	<string id="st_wpn_shak12_descr">
+		<text>Izhmash社が新たに製造した近接戦闘用ライフル。FSB（ロシア連邦保安庁）が直面したニーズに応えるべく開発されたShAK-12は、コンパクトなパッケージに圧倒的なストッピングパワーを秘めている。VSSK Vykhlopスナイパーライフルと共通の12.7x55mm弾を使用し、20連マガジンを装填する。全面にピカティニーレールを備えるほか、大型光学サイトの装着を考慮した着脱式キャリングハンドルも特徴だ。Barrett M82と同様のショートリコイル方式を採用しており、銃身がボルトと共に後退することで、制御性の向上と確実な排莢を助ける。あらゆるストーカーが求める一丁だが、実際に手にできる者はごくわずかだ。ゾーンに存在するいかなる防弾スーツも、この銃が叩き出す威力の前には無力に等しい。ただし、弾薬は決して「安価で手軽」ではないため、正確な照準、近接距離の維持、そして十分な資金の確保を忘れないことだ。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]ACOG, Barska ES AC10632, C-more Railway Tactical, EOTech スコープ\n
+		%c[d_purple] • %c[ui_gray_1]12.7x55mm対応サプレッサー\n</text>
+	</string>
+
+	<string id="st_addon_silencer_shak12">
+		<text>ShAK-12 タクティカルサプレッサー</text>
+	</string>
+	<string id="st_addon_silencer_shak12_descr">
+		<text>ShAK-12用としては比較的小型のサプレッサー。完全な消音や、マズルフラッシュをわずかな煙に抑え込むほどの性能はないが、良好な減音効果を発揮し、フラッシュをさらに抑制する。\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]12.7x55mm\n
+		%c[d_purple] • %c[ui_gray_1]消音効果: %c[ui_gray_1]中</text>
+	</string>
+
+</string_table>

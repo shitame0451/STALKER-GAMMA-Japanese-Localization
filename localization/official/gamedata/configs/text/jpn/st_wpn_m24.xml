@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+	<string id="st_wpn_m24_new">
+		<text>M24 SWS</text>
+	</string>
+	<string id="st_wpn_m24_new_short">
+		<text>M24 SWS</text>
+	</string>
+	<string id="st_wpn_m24_new_descr">
+		<text>アメリカ陸軍のスナイパーライフルで、Remington M700をベースとしている。Leupold 10x40mmスコープを装備し、ステンレス製の銃身、ケブラーとグラファイトを用いた調整可能なコンポジットストックを採用している。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]5.56x45対応サプレッサー\n
+		%c[d_purple] • %c[ui_gray_1]Leupold Mark 4 スコープ（固定装備）\n</text>
+	</string>
+</string_table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+	<string id="st_addon_kurtz_kit">
+		<text>MP5K アップグレードキット</text>
+	</string>
+	<string id="st_addon_kurtz_descr">
+		<text>MP5をMP5Kへと換装するために必要な部品を網羅したキット。新しいアッパーレシーバー、ハンドガード、銃身、およびガスシステムが含まれている。発射速度が向上しており、そのコンパクトなサイズは秘匿携帯やサイドアームとしての携行に最適だ。ストックが排除されたため、MP5Kではスコープを効果的に使用することはできない。</text>
+	</string>
+</string_table>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_mp133">
+		<text>MP-133</text>
+	</string>
+	<string id="st_wpn_mp133_descr">
+		<text>旧来のIZh-81ポンプアクションショットガンの発展型。民間および警備市場を対象に、信頼性が高く実用的な狩猟・自衛用兵器として設計された。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmekh Mechanical Plant\n
+		</text>
+	</string>
+
+	<string id="st_wpn_mp153">
+		<text>MP-153</text>
+	</string>
+	<string id="st_wpn_mp153_descr">
+		<text>イジェフスク機械工場が初めて設計・製造したセミオートショットガン。ロシア製の中でも屈指の人気を誇り、多種多様な狩猟に広く用いられている。ポンプアクション式のMP-133と並行開発されたため共通部品が多く、信頼性の高さと重厚で堅牢な造りに定評がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmekh Mechanical Plant\n
+		</text>
+	</string>
+
+    <string id="st_wpn_mp153_m1">
+        <text>MP-153 «Carabineer»</text>
+    </string>
+    <string id="st_wpn_mp153_m1_descr">
+		<text>イジェフスク機械工場が初めて設計・製造したセミオートショットガン。ロシア製の中でも屈指の人気を誇り、多種多様な狩猟に広く用いられている。ポンプアクション式のMP-133と並行開発されたため共通部品が多く、信頼性の高さと重厚で堅牢な造りに定評がある。«Carabineer»はマズルブレーキとピカティニーレールを備えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmekh Mechanical Plant\n
+		</text>
+    </string>
+<string id="st_wpn_ks23_vorkuta">
+        <text>KS-23M «Vorkuta»</text>
+    </string>
+    <string id="st_wpn_ks23_vorkuta_descr">
+		<text>KS-23の本質は、独自の23mm弾を放つ手動ポンプアクション式の「ショットガン」だ。外観こそショットガンに近いが、一般的な平滑銃身ではなく大口径のライフリング銃身を備えるため、ロシアでは「特殊カービン」に分類されている。«Vorkuta»はKS-23の長銃身モデルであり、スリムな700mm銃身を備え、ストックを廃してピストルグリップを装備している。サプレッサー装着用のスレッドバレルと、遠距離戦闘能力を高める着脱式PUスコープを搭載。名称は同名の都市に由来するものと思われる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		%c[d_orange] • %c[pda_white]延長チューブ、着脱式サプレッサーおよびPUスコープ\n
+		</text>
+    </string>
+	
+
+	
+</string_table>

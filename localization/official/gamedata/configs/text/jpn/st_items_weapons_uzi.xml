@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+	<string id="st_wpn_uzi">
+		<text>IMI Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_s">
+		<text>Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_descr">
+		<text>1940年代後半にウジエル・ガル少佐によって設計されたオープンボルト方式、ブローバック作動のサブマシンガン。テレスコーピング・ボルト・デザインをいち早く採用した兵器の一つであり、マガジンをピストルグリップ内に配置することで全長の短縮を実現している。主にプレス加工の板金で構成されており、可動部品が比較的少ないため、メンテナンスや修理のための分解も容易だ。警察や特殊部隊の火器として世界中で使用されており、IMIやFN Herstal社、その他のメーカーで製造された。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]Barska ES AC10632 レッドドットサイト（改造が必要）\n
+        %c[d_purple] • %c[ui_gray_1]9x19対応サプレッサー\n
+		</text>
+	</string>
+
+	<string id="st_wpn_uzi_mini">
+		<text>IMI Mini Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_mini_s">
+		<text>Mini Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_mini_descr">
+		<text>1980年に発表されたオープンボルト方式、ブローバック作動のサブマシンガン。有名なUziのコンパクトモデルであり、小型ながらオリジナルの堅牢さと信頼性を継承している。銃身の短縮とメカニズムの微調整が行われており、ボルトの移動距離が短くなったことでフルオート時の発射速度が向上した。都市部や閉所での作戦において特に重宝されている。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]Barska ES AC10632 レッドドットサイト（改造が必要）\n
+        %c[d_purple] • %c[ui_gray_1]9x19対応サプレッサー\n
+		</text>
+	</string>
+
+	<string id="st_wpn_uzi_micro">
+		<text>IMI Micro Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_micro_s">
+		<text>Micro Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_micro_descr">
+		<text>1986年に発表されたクローズドボルト方式、ブローバック作動のサブマシンガン。Uziを極限まで小型化したモデルであり、Mini Uziと同様のストックを備えている。銃身の短縮、ボルトの小型化により発射速度が増大しているが、単発時の命中精度を高めるためクローズドボルトから発射する構造となっている。数々の軍隊で採用されたが、2010年に登場したUzi Proにその座を譲った。\n \n
+		%c[pda_white]アタッチメント:\n
+        %c[d_purple] • %c[ui_gray_1]9x19対応サプレッサー\n
+		</text>
+	</string>
+
+
+	<string id="st_mag_uzi_9x19">
+		<text>Uzi用20連マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_uzi_9x19_s">
+		<text>Uzi用20連マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_uzi_9x19_descr">
+		<text> </text>
+	</string>
+	<string id="st_mag_uzi_9x19_extended">
+		<text>Uzi用32連マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_uzi_9x19_extended_s">
+		<text>Uzi用32連マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_uzi_9x19_extended_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_uzi_11.43x23">
+		<text>Uzi用12連マガジン（.45 ACP）</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_s">
+		<text>Uzi用12連マガジン（.45 ACP）</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_descr">
+		<text> </text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_extended">
+		<text>Uzi用16連マガジン（.45 ACP）</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_extended_s">
+		<text>Uzi用16連マガジン（.45 ACP）</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_extended_descr">
+		<text> </text>
+	</string>
+
+
+	<string id="st_up_uzi_rail_name">
+		<text>スコープマウント</text>
+	</string>
+	<string id="st_up_uzi_rail_descr">
+		<text>Uziサブマシンガンに各種光学サイトを取り付けるためのレールマウント。</text>
+	</string>
+</string_table>

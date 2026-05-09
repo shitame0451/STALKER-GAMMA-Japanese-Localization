@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_avt40">
+		<text>AVT-40</text>
+	</string>
+	<string id="st_wpn_avt40_descr">
+		<text>SVT-40のフルオート派生モデル。赤軍の機関銃不足を補うために製造された。成功作とは言い難いものの、3～4発のバースト射撃に留めれば反動の制御も可能。他のSVTシリーズと区別するため、ストックには「A」の文字とトゥーラ造兵廠の紋章が刻印されている。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]PU専用スコープ\n</text>
+	</string>
+</string_table>

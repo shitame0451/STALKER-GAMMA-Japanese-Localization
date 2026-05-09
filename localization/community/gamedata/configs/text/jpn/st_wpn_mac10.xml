@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<string id="st_wpn_mac10">
+		<text>Ingram MAC-18</text>
+	</string>
+	<string id="st_wpn_mac10_s">
+		<text>MAC-18</text>
+	</string>
+	<string id="st_wpn_mac10_descr">
+		<text>1964年にゴードン・B・イングラムによって開発された、コンパクトなセレクティブファイア方式・ブローバック作動のマシンピストル。この特定のモデルは、ゾーンの需要に合わせて9x18mm弾を使用できるよう改造された「MAC-18」という奇妙な仕様となっている。命中精度に欠けるこの「弾撒き機」を、より安価な9x18mm弾仕様に転換することは、この地においては非常に理にかなっていると言えるだろう。\n \n
+		%c[pda_white]アタッチメント:\n
+		%c[d_purple] • %c[ui_gray_1]9x18対応サプレッサー\n
+		</text>
+	</string>
+	
+	<string id="st_mag_mac10_9x19_standard">
+		<text>M3用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mac10_9x19_standard_descr">
+		<text> </text>
+	</string>	
+	
+	<string id="st_mag_mac10_9x19_ext">
+		<text>M3用拡張マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mac10_9x19_ext_descr">
+		<text> </text>
+	</string>
+
+		<string id="st_mag_mac10_11.43x23_standard">
+		<text>M3用改造マガジン（11.43x23）</text>
+	</string>
+	<string id="st_mag_mac10_11.43x23_standard_descr">
+		<text> </text>
+	</string>
+
+		<string id="st_mag_mac10_11.43x23_ext">
+		<text>M3用拡張マガジン（11.43x23）</text>
+	</string>
+	<string id="st_mag_mac10_11.43x23_ext_descr">
+		<text> </text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	WEAPONS ATTACHMENTS
+-->
+
+<string_table>
+
+	<string id="st_addon_scope_chs">
+		<text>AR-15 キャリングハンドルスコープ</text>
+	</string>
+	<string id="st_addon_scope_chs_descr">
+		<text>%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_acog2x">
+		<text>ACOG 2x</text>
+	</string>
+	<string id="st_addon_scope_acog2x_descr">
+		<text>%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Trijicon\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.0x\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_aim_2k">
+		<text>Aimpoint 2000</text>
+	</string>
+	<string id="st_addon_scope_aim_2k_descr">
+		<text>%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Aimpoint\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	
+</string_table>

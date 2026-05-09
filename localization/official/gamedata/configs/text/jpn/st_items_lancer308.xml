@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<string_table>
+
+	<string id="st_mag_lancer">
+		<text>Lancer L7AWM 25連マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_lancer_descr">
+		<text> </text>
+	</string>
+	
+</string_table>
