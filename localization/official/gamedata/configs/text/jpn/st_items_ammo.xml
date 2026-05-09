@@ -439,8 +439,8 @@
 	<string id="ammo-9x18-ap_descr">
 		<text>9x18mm弾の徹甲弾仕様。硬度のある弾芯を使用することで防弾装備に対する貫通力を高めている。軍や法執行機関向けに設計され、軽装甲目標に対する効果が向上している。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (27)\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]18\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (26)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]23\n
 		</text>
 	</string>
 	<string id="ammo-9x18-ap_s">
@@ -452,8 +452,8 @@
 	<string id="ammo-9x18-fmj_descr">
 		<text>Makarovなどのピストルで使用する標準的なフルメタルジャケット弾。適度な貫通力と低反動を特徴とし、軍や法執行機関のサイドアーム用弾薬として広く使用されている。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR1 (15)\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]18\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR1 (14)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]23\n
 		</text>
 	</string>
 	<string id="ammo-9x18-fmj_s">
@@ -465,8 +465,8 @@
 	<string id="ammo-9x18-pmm_descr">
 		<text>9x18mm弾のホローポイント弾仕様。着弾時における弾頭の膨張とストッピングパワーの向上を目的に設計されている。非装甲目標に対する接近戦や護身用途において高い効果を発揮する。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]なし (10)\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]33\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]なし (8)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]42\n
 		</text>
 	</string>
 	<string id="ammo-9x18-pmm_s">
@@ -478,7 +478,7 @@
 	<string id="ammo-9x19-ap_descr">
 		<text>広く使用されている9x19mm弾の徹甲弾仕様。貫通力を高めるために硬い弾芯を使用しており、防護装備に対する効果が求められる軍や法執行機関向けに設計されている。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (34)\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (35)\n
 		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]21\n
 		</text>
 	</string>
