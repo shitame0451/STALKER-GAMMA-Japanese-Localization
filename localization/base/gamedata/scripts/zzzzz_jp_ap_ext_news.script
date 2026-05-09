@@ -1,0 +1,65 @@
+-- ap_ext_news.script
+
+-- ===================================================================
+--  xlevel.get_smart_display_name （AlifePlusの#Location#に挿入される地名を短縮）
+-- ===================================================================
+local original_get_smart_display_name = xlevel.get_smart_display_name
+xlevel.get_smart_display_name = function(smart)
+	local name = original_get_smart_display_name(smart)
+
+	if name then
+		local info = debug.getinfo(2, "S")
+		if info and info.short_src and string.find(info.short_src, "ap_ext_news") then
+			local match = string.match(name, "(%[.+%])")
+			if match then return match end
+		end
+	end
+
+	return name
+end
+
+-- ===================================================================
+--  _substitute （タグに何も挿入されなかった場合、後ろの1文字を削除 & ミリタリー置換）
+-- ===================================================================
+local function patch_news_internals()
+	local compose_tick = ap_ext_news.compose_tick
+	if not compose_tick then return end
+
+	local i = 1
+	while true do
+		local name, val = debug.getupvalue(compose_tick, i)
+		if not name then break end
+		if name == "_compose_tick_impl" then
+			local impl = val
+			local j = 1
+			while true do
+				local n2, v2 = debug.getupvalue(impl, j)
+				if not n2 then break end
+				if n2 == "_substitute" then
+					local original_substitute = v2
+
+					debug.setupvalue(impl, j, function(template, slots)
+						local result = template
+						local jp_tags = {"subject_faction", "subject_species", "subject_name", "other_faction", "subject_faction_a", "subject_faction_b", "subject_species_a", "subject_species_b", "subject_name_a", "subject_name_b"}
+						local utf8_pattern = "[\1-\127\192-\255][\128-\191]*"
+
+						for _, tag in ipairs(jp_tags) do
+							if slots[tag] == "" then
+								result = string.gsub(result, "#" .. tag .. "#" .. utf8_pattern, "")
+							end
+						end
+
+						local final_msg = original_substitute(result, slots)
+						return string.gsub(final_msg, "ミリタリー", "軍")
+					end)
+					break
+				end
+				j = j + 1
+			end
+			break
+		end
+		i = i + 1
+	end
+end
+
+patch_news_internals()

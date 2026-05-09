@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+    <string id="ui_mcm_menu_xlibs">
+        <text>xlibs</text>
+    </string>
+    <string id="ui_mcm_xlibs_title">
+        <text>xlibs</text>
+    </string>
+    <string id="ui_mcm_xlibs_desc">
+        <text>STALKER AnomalyのLua開発を支援する共通ユーティリティライブラリです。エンティティの検索、分隊の操作、スマートテレインのロジック、スタッシュの管理、ログ出力、プロファイリング、イベントシステム、データ構造などのモジュールが含まれています。</text>
+    </string>
+</string_table>

@@ -1,0 +1,2261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+    <!-- ==================== MAIN MENU ==================== -->
+    <string id="ui_mcm_menu_ap">
+        <text>AlifePlus</text>
+    </string>
+
+    <!-- ==================== LEVEL 2 MENU NAMES ==================== -->
+    <string id="ui_mcm_menu_general">
+        <text>一般設定</text>
+    </string>
+    <string id="ui_mcm_menu_news">
+        <text>ニュース</text>
+    </string>
+    <string id="ui_mcm_menu_causes">
+        <text>イベントトリガー</text>
+    </string>
+    <string id="ui_mcm_menu_consequences">
+        <text>イベント処理</text>
+    </string>
+    <string id="ui_mcm_menu_development">
+        <text>開発設定</text>
+    </string>
+
+    <!-- ==================== LEVEL 3 MENU NAMES (CAUSES) ==================== -->
+    <string id="ui_mcm_menu_alpha">
+        <text>アルファ</text>
+    </string>
+    <string id="ui_mcm_menu_alphakill">
+        <text>アルファ討伐</text>
+    </string>
+    <string id="ui_mcm_menu_massacre">
+        <text>大虐殺</text>
+    </string>
+    <string id="ui_mcm_menu_stash">
+        <text>スタッシュ</text>
+    </string>
+    <string id="ui_mcm_menu_squadkill">
+        <text>分隊全滅</text>
+    </string>
+    <string id="ui_mcm_menu_basekill">
+        <text>拠点壊滅</text>
+    </string>
+    <string id="ui_mcm_menu_wounded">
+        <text>負傷者</text>
+    </string>
+    <string id="ui_mcm_menu_area">
+        <text>エリア</text>
+    </string>
+    <string id="ui_mcm_menu_harvest">
+        <text>アーティファクト</text>
+    </string>
+    <string id="ui_mcm_menu_needs">
+        <text>欲求</text>
+    </string>
+    <string id="ui_mcm_menu_instincts">
+        <text>生存本能</text>
+    </string>
+    <string id="ui_mcm_menu_instinct_scatter">
+        <text>生存本能\n散開</text>
+    </string>
+    <string id="ui_mcm_menu_instinct_feed">
+        <text>生存本能\n捕食</text>
+    </string>
+    <string id="ui_mcm_menu_instinct_sleep">
+        <text>生存本能\n睡眠</text>
+    </string>
+    <string id="ui_mcm_menu_instinct_explore">
+        <text>生存本能\n探索</text>
+    </string>
+    <string id="ui_mcm_menu_instinct_socialize">
+        <text>生存本能\n交流</text>
+    </string>
+    <string id="ui_mcm_menu_instinct_infest">
+        <text>生存本能\n拠点占拠</text>
+    </string>
+
+    <!-- ==================== LEVEL 3 MENU NAMES (CONSEQUENCES) ==================== -->
+    <string id="ui_mcm_menu_alpha_promote">
+        <text>アルファ\n昇格</text>
+    </string>
+    <string id="ui_mcm_menu_alphakill_targeted">
+        <text>アルファ討伐\n追跡</text>
+    </string>
+    <string id="ui_mcm_menu_mutators">
+        <text>ミューテーター</text>
+    </string>
+    <string id="ui_mcm_menu_alpha">
+        <text>アルファ</text>
+    </string>
+    <string id="ui_mcm_menu_rank">
+        <text>ストーカーランク</text>
+    </string>
+    <string id="ui_mcm_menu_massacre_scavenge">
+        <text>大虐殺\n死体漁り</text>
+    </string>
+    <string id="ui_mcm_menu_massacre_investigate">
+        <text>大虐殺\n調査</text>
+    </string>
+    <string id="ui_mcm_menu_stash_ambush">
+        <text>スタッシュ\n待ち伏せ</text>
+    </string>
+    <string id="ui_mcm_menu_stash_loot">
+        <text>スタッシュ\n略奪</text>
+    </string>
+    <string id="ui_mcm_menu_stash_fill">
+        <text>スタッシュ\n補充</text>
+    </string>
+    <string id="ui_mcm_menu_squadkill_revenge">
+        <text>分隊全滅\n復讐</text>
+    </string>
+    <string id="ui_mcm_menu_squadkill_flee">
+        <text>分隊全滅\n逃亡</text>
+    </string>
+    <string id="ui_mcm_menu_basekill_support">
+        <text>拠点壊滅\n増援</text>
+    </string>
+    <string id="ui_mcm_menu_basekill_flee">
+        <text>拠点壊滅\n逃亡</text>
+    </string>
+    <string id="ui_mcm_menu_wounded_hunt">
+        <text>負傷者\n狩り</text>
+    </string>
+    <string id="ui_mcm_menu_wounded_help">
+        <text>負傷者\n救助</text>
+    </string>
+    <string id="ui_mcm_menu_area_conquer">
+        <text>エリア\n制圧</text>
+    </string>
+    <string id="ui_mcm_menu_harvest_rob">
+        <text>アーティファクト\n強奪</text>
+    </string>
+    <string id="ui_mcm_menu_harvest_haunt">
+        <text>アーティファクト\n襲撃</text>
+    </string>
+    <string id="ui_mcm_menu_hunger_campfire">
+        <text>空腹\n焚き火</text>
+    </string>
+    <string id="ui_mcm_menu_sleep_campfire">
+        <text>睡眠\n焚き火</text>
+    </string>
+    <string id="ui_mcm_menu_rest_campfire">
+        <text>休息\n焚き火</text>
+    </string>
+    <string id="ui_mcm_menu_heal_shelter">
+        <text>治療\n退避</text>
+    </string>
+    <string id="ui_mcm_menu_shelter_indoor">
+        <text>避難\n屋内</text>
+    </string>
+    <string id="ui_mcm_menu_shelter_outdoor">
+        <text>避難\n屋外</text>
+    </string>
+    <string id="ui_mcm_menu_money_harvest">
+        <text>資金稼ぎ\nアーティファクト</text>
+    </string>
+    <string id="ui_mcm_menu_money_hunt">
+        <text>資金稼ぎ\nミュータント狩り</text>
+    </string>
+    <string id="ui_mcm_menu_supply_trader">
+        <text>物資補給\nトレーダー</text>
+    </string>
+    <string id="ui_mcm_menu_job_outpost">
+        <text>任務\n警備</text>
+    </string>
+    <string id="ui_mcm_menu_job_explore">
+        <text>任務\n探索</text>
+    </string>
+    <string id="ui_mcm_menu_job_research">
+        <text>任務\n調査</text>
+    </string>
+    <string id="ui_mcm_menu_social_campfire">
+        <text>交流\n焚き火</text>
+    </string>
+    <string id="ui_mcm_menu_social_base">
+        <text>交流\n拠点</text>
+    </string>
+
+    <!-- ==================== GENERAL TAB ==================== -->
+    <string id="ui_mcm_ap_general_title">
+        <text>一般設定</text>
+    </string>
+    <string id="ui_mcm_ap_general_btn_reset_all">
+        <text>すべてデフォルトにリセット</text>
+    </string>
+    <string id="ui_mcm_ap_general_btn_reset_all_desc">
+        <text>すべてのAlifePlus設定を初期値に戻します。変更は即座に反映されますが、スライダーの表示を更新するにはMCMを一度閉じてから再度開く必要があります。設定をテストした後や、デフォルト値が調整された新バージョンへアップデートした際に便利です。</text>
+    </string>
+    <string id="ui_mcm_ap_general_desc">
+        <text>AlifePlusにおけるイベント発生の仕組みを管理します。各イベントの発生頻度は、「A-Lifeの比率」「A-Lifeの発生間隔」「イベントトリガー」「イベント処理」という4つの専用リミッターによって制御されます。</text>
+    </string>
+    <string id="ui_mcm_ap_general_alife_ratio">
+        <text>A-Lifeの比率</text>
+    </string>
+    <string id="ui_mcm_ap_general_alife_ratio_desc">
+        <text>プレイヤーがいるマップと、それ以外のマップにおけるイベント発生の優先度を調整します。数値を高くするほどプレイヤーの周囲でイベントが起きやすくなります。0に設定すると全マップで平等に発生し、マイナスの値にすると遠くのマップが優先されます。バニラ（X-Rayエンジン）本来の挙動を再現したい場合に有用です。</text>
+    </string>
+    <string id="ui_mcm_ap_general_distributor_interval_sec">
+        <text>A-Lifeの発生間隔（秒）</text>
+    </string>
+    <string id="ui_mcm_ap_general_distributor_interval_sec_desc">
+        <text>ランダムイベントを評価する間隔を設定します。数値を低くするほどゾーンの活動が活発になり、高くするほど穏やかになります。なお、NPCの死亡など突発的な事象に対する「イベント処理」は、イベントカテゴリごとに固定間隔の個別リミッターによって処理されます。</text>
+    </string>
+    <string id="ui_mcm_ap_general_cause_max_events">
+        <text>各イベントトリガーの上限数</text>
+    </string>
+    <string id="ui_mcm_ap_general_cause_max_events_desc">
+        <text>60秒間に発生する「イベントトリガー」カテゴリごとの最大数を設定します。特定のイベントトリガーが連続して発生するのを防ぐことができます。</text>
+    </string>
+    <string id="ui_mcm_ap_general_consequence_max_events">
+        <text>各イベント処理の上限数</text>
+    </string>
+    <string id="ui_mcm_ap_general_consequence_max_events_desc">
+        <text>60秒間に発生する「イベント処理」カテゴリごとの最大数を設定します。特定のイベント処理が頻繁に発生するのを防ぐことができます。</text>
+    </string>
+    <string id="ui_mcm_ap_general_global_consequence_max_events">
+        <text>イベント処理の総上限数</text>
+    </string>
+    <string id="ui_mcm_ap_general_global_consequence_max_events_desc">
+        <text>60秒間に発生する「イベント処理」全体の最大数を設定します。複数の要因が重なってイベントが多発するのを防ぐことができます。</text>
+    </string>
+<string id="ui_mcm_ap_general_allow_external_ownership">
+        <text>他のアドオンによる分隊の管理を許可</text>
+    </string>
+    <string id="ui_mcm_ap_general_allow_external_ownership_desc">
+        <text>有効にすると、AlifePlusはWarfareやBAOなど他のアドオンが管理している分隊に干渉しなくなります。無効にした場合、他のアドオンによる制御を無視し、対象となるすべての分隊を直接制御します。</text>
+    </string>
+    <!-- ==================== NEWS ==================== -->
+    <string id="ui_mcm_ap_news_title">
+        <text>ニュース</text>
+    </string>
+    <string id="ui_mcm_ap_news_desc">
+        <text>PDAの噂話システムを管理します。ゾーンでの出来事（キル、制圧、襲撃、ミュータントの活動など）は発生時に記録され、定期的に無線通信としてまとめられた後、イベントに関連するストーカーからPDAを通じて配信されます。</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_enabled">
+        <text>ニュースの有効化</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_enabled_desc">
+        <text>PDAニュース機能のオン/オフを切り替えます。無効にすると噂話は配信されなくなりますが、バックグラウンドでのイベント記録は継続されます。</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_interval_min_sec">
+        <text>配信間隔の最小値</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_interval_min_sec_desc">
+        <text>[秒]\nPDAメッセージが配信される間隔の最小値を設定します。システムは毎回、最小値と最大値の間からランダムな遅延時間を選ぶため、機械的ではなく人間らしい自然な頻度でメッセージが届きます。</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_interval_max_sec">
+        <text>配信間隔の最大値</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_interval_max_sec_desc">
+        <text>[秒]\nPDAメッセージが配信される間隔の最大値を設定します。数値を高くするほど、ゾーン全体の通信が静かになります。最小値と最大値を同じ値に設定すると、固定の間隔で配信されます。</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_scope">
+        <text>ニュースの受信範囲</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_scope_desc">
+        <text>どの派閥の無線を受信するかを設定します。\n・自派閥のみ: 所属する派閥の通信のみを受信します。\n・自派閥と同盟: 自派閥および友好関係にある派閥の通信を受信します（デフォルト）。\n・非敵対の全ストーカー: 敵対していないすべてのストーカーの通信を受信します。\nMonolith、Military、Sin、UNISGなどの派閥のチャンネルは、設定に関わらずメンバー専用となります。</text>
+    </string>
+    <string id="ap_news_news_scope_lst_own">
+        <text>自派閥のみ</text>
+    </string>
+    <string id="ap_news_news_scope_lst_allies">
+        <text>自派閥と同盟</text>
+    </string>
+    <string id="ap_news_news_scope_lst_world">
+        <text>非敵対の全ストーカー</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_max_age_game_hours">
+        <text>ニュースの有効期限</text>
+    </string>
+    <string id="ui_mcm_ap_news_news_max_age_game_hours_desc">
+        <text>[ゲーム内時間]\n発生からどれくらい経過したイベントまで噂話の対象にするかを設定します。配信のたびに、過去N時間以内のイベントからランダムに選ばれます。数値を低くすると新鮮なニュースが多くなり、高くすると幅広い話題が取り上げられます（デフォルト: 12）。</text>
+    </string>
+    <!-- ==================== CAUSES / ALPHA ==================== -->
+    <string id="ui_mcm_ap_causes_alpha_title">
+        <text>アルファ</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alpha_tag">
+        <text>タイプ: 反応</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alpha_desc">
+        <text>ミュータントが「アルファ」個体へとレベルアップする条件を満たした際に作動するイベントトリガーの設定です。レベルは最大10まであり、レベルが上がるごとに必要なキル数が増加します。なお、ストーカーはこのシステムを使用せず、ゲームエンジンのランクシステムに従います。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alpha_cause_alpha_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alpha_cause_alpha_enabled_desc">
+        <text>ミュータントが新しいアルファレベルに到達した際、「イベントトリガー: アルファ」を発生させます。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alpha_alpha_kills_per_level">
+        <text>レベルアップに必要なキル数</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alpha_alpha_kills_per_level_desc">
+        <text>アルファレベルを上げるために必要なキル数を設定します。「2」に設定した場合、2キルでレベル1、20キルでレベル10に到達します。</text>
+    </string>
+
+    <!-- ==================== CAUSES / ALPHAKILL ==================== -->
+    <string id="ui_mcm_ap_causes_alphakill_title">
+        <text>アルファ討伐</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alphakill_tag">
+        <text>タイプ: 反応</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alphakill_desc">
+        <text>アルファミュータントが死亡した際に作動するイベントトリガーの設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alphakill_cause_alphakill_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_alphakill_cause_alphakill_enabled_desc">
+        <text>アルファミュータントが死亡した際、「アルファ討伐」イベントを発生させます。これにより、同種のミュータントが殺害者を追跡するようになります。</text>
+    </string>
+
+    <!-- ==================== CAUSES / MASSACRE ==================== -->
+    <string id="ui_mcm_ap_causes_massacre_title">
+        <text>大虐殺</text>
+    </string>
+    <string id="ui_mcm_ap_causes_massacre_tag">
+        <text>タイプ: 反応\nルール: 派閥関係</text>
+    </string>
+    <string id="ui_mcm_ap_causes_massacre_desc">
+        <text>スマートテレイン（拠点や野営地）において、短時間で死体が積み重なった際に作動するイベントトリガーの設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_massacre_cause_massacre_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_massacre_cause_massacre_enabled_desc">
+        <text>エリア内の累計死亡者数をカウントし、設定したしきい値に達した際に「大虐殺」イベントを発生させます。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_massacre_cause_massacre_threshold">
+        <text>イベント発生に必要な死亡数</text>
+    </string>
+    <string id="ui_mcm_ap_causes_massacre_cause_massacre_threshold_desc">
+        <text>「大虐殺」イベントが発生するまでに必要な、エリア内での死亡者数を設定します。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_massacre_cause_massacre_decay_time">
+        <text>カウントの有効時間（秒）</text>
+    </string>
+    <string id="ui_mcm_ap_causes_massacre_cause_massacre_decay_time_desc">
+        <text>死者数を蓄積・カウントする時間枠を設定します。この時間を過ぎた古い死者は死者数のカウントから除外されます。</text>
+    </string>
+
+    <!-- ==================== CAUSES / STASH ==================== -->
+    <string id="ui_mcm_ap_causes_stash_title">
+        <text>スタッシュ</text>
+    </string>
+    <string id="ui_mcm_ap_causes_stash_tag">
+        <text>タイプ: ランダム、好機\nルール: 派閥関係</text>
+    </string>
+    <string id="ui_mcm_ap_causes_stash_desc">
+        <text>分隊が近くのスタッシュを発見した際に作動するイベントトリガーの設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_stash_cause_stash_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_stash_cause_stash_enabled_desc">
+        <text>NPCがスマートテレイン（拠点や野営地）間を移動する際、近くにあるスタッシュを評価・探索するようになります。</text>
+    </string>
+
+    <!-- ==================== CAUSES / SQUADKILL ==================== -->
+    <string id="ui_mcm_ap_causes_squadkill_title">
+        <text>分隊全滅</text>
+    </string>
+    <string id="ui_mcm_ap_causes_squadkill_tag">
+        <text>タイプ: 反応\nルール: 派閥関係</text>
+    </string>
+    <string id="ui_mcm_ap_causes_squadkill_desc">
+        <text>分隊が全滅した際に作動するイベントトリガーの設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_squadkill_cause_squadkill_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_squadkill_cause_squadkill_enabled_desc">
+        <text>分隊の最後のメンバーが死亡した際、「分隊全滅」イベントを発生させます。</text>
+    </string>
+
+    <!-- ==================== CAUSES / BASEKILL ==================== -->
+    <string id="ui_mcm_ap_causes_basekill_title">
+        <text>拠点壊滅</text>
+    </string>
+    <string id="ui_mcm_ap_causes_basekill_tag">
+        <text>タイプ: 反応\nルール: 派閥関係</text>
+    </string>
+    <string id="ui_mcm_ap_causes_basekill_desc">
+        <text>派閥の拠点で死体が大量に積み重なった際に作動するイベントトリガーの設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_basekill_cause_basekill_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_basekill_cause_basekill_enabled_desc">
+        <text>派閥拠点の累計死亡者数をカウントし、設定したしきい値に達した際に「拠点壊滅」イベントを発生させます。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_basekill_cause_basekill_threshold">
+        <text>死亡しきい値</text>
+    </string>
+    <string id="ui_mcm_ap_causes_basekill_cause_basekill_threshold_desc">
+        <text>「拠点壊滅」イベントが発生するまでに必要な、拠点での死亡数を設定します。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_basekill_cause_basekill_decay_time">
+        <text>カウントの有効時間（秒）</text>
+    </string>
+    <string id="ui_mcm_ap_causes_basekill_cause_basekill_decay_time_desc">
+        <text>拠点での死者数を蓄積・カウントする時間枠を設定します。この時間を過ぎた古い死者は死者数のカウントから除外されます。</text>
+    </string>
+
+    <!-- ==================== CAUSES / WOUNDED ==================== -->
+    <string id="ui_mcm_ap_causes_wounded_title">
+        <text>負傷者</text>
+    </string>
+    <string id="ui_mcm_ap_causes_wounded_tag">
+        <text>タイプ: 反応</text>
+    </string>
+    <string id="ui_mcm_ap_causes_wounded_desc">
+        <text>NPCまたはプレイヤーが回復アイテムを使用した際に作動するイベントトリガーの設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_wounded_cause_wounded_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_wounded_cause_wounded_enabled_desc">
+        <text>NPCまたはプレイヤーが回復アイテムを使用した際、「負傷者」イベントを発生させます。</text>
+    </string>
+
+    <!-- ==================== CAUSES / AREA ==================== -->
+    <string id="ui_mcm_ap_causes_area_title">
+        <text>エリア</text>
+    </string>
+    <string id="ui_mcm_ap_causes_area_tag">
+        <text>タイプ: ランダム、好機\nルール: 派閥関係</text>
+    </string>
+    <string id="ui_mcm_ap_causes_area_desc">
+        <text>分隊が近くの制圧されていないエリアを発見した際に作動するイベントトリガーの設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_area_cause_area_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_area_cause_area_enabled_desc">
+        <text>NPCがスマートテレイン（拠点や野営地）間を移動する際、近くのエリアを評価・探索するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_area_cause_area_smart_cooldown_sec">
+        <text>スマートクールダウン（秒）</text>
+    </string>
+    <string id="ui_mcm_ap_causes_area_cause_area_smart_cooldown_sec_desc">
+        <text>同じスマートテレイン（拠点や野営地）で再び「エリア」イベントが発生するまでのクールダウン時間（秒）を設定します。</text>
+    </string>
+
+    <!-- ==================== CAUSES / HARVEST ==================== -->
+    <string id="ui_mcm_ap_causes_harvest_title">
+        <text>アーティファクト</text>
+    </string>
+    <string id="ui_mcm_ap_causes_harvest_tag">
+        <text>タイプ: 反応</text>
+    </string>
+    <string id="ui_mcm_ap_causes_harvest_desc">
+        <text>NPCまたはプレイヤーがアーティファクトを拾った際に作動するイベントトリガーの設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_harvest_cause_harvest_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_harvest_cause_harvest_enabled_desc">
+        <text>アーティファクトが拾われた際、「アーティファクト」イベントを発生させます。</text>
+    </string>
+
+    <!-- ==================== CAUSES / NEEDS ==================== -->
+    <string id="ui_mcm_ap_causes_needs_title">
+        <text>欲求</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_tag">
+        <text>タイプ: ランダム、欠乏\nルール: 派閥関係</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_desc">
+        <text>分隊は時間の経過とともに、人間らしい欲求（飢え、睡眠、休息、回復、避難、資金、補給、任務、交流）を抱くようになります。独自のスコアリングシステムにより、最も満たされていない欲求が優先的に選ばれます。しきい値は、欲求イベントが発生する間隔（ゲーム内時間）を設定します。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_needs_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_needs_enabled_desc">
+        <text>スマートテレイン（拠点や野営地）間を移動する際、ストーカーの欲求を評価します。最も強く満たされていない欲求が「イベントトリガー」として発生します。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_hunger_enabled">
+        <text>空腹</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_hunger_enabled_desc">
+        <text>「空腹」の欲求を有効にします。一定時間が経過すると、分隊は食事をとるために焚き火を探し始めます。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_sleep_enabled">
+        <text>睡眠</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_sleep_enabled_desc">
+        <text>「睡眠」の欲求を有効にします。これは休眠期間（ストーカーの場合は夜間）にのみ発生し、分隊は眠るために焚き火を探し始めます。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_rest_enabled">
+        <text>休息</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_rest_enabled_desc">
+        <text>「休息」の欲求を有効にします。分隊はタバコを吸ったり、酒を飲んだり、リラックスするために焚き火を探し始めます。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_heal_enabled">
+        <text>治療</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_heal_enabled_desc">
+        <text>「治療」の欲求を有効にします。分隊は傷を癒やすために、友好的な拠点へ戻ろうとします。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_shelter_enabled">
+        <text>避難</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_shelter_enabled_desc">
+        <text>「避難」の欲求を有効にします。分隊はエミッションから身を守るために、敵対していない拠点を探し始めます。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_money_enabled">
+        <text>資金稼ぎ</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_money_enabled_desc">
+        <text>「資金稼ぎ」の欲求を有効にします。分隊は価値ある資源を求めて、アノマリー領域やミュータントの巣を探索するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_supply_enabled">
+        <text>物資補給</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_supply_enabled_desc">
+        <text>「物資補給」の欲求を有効にします。分隊は物資を補充するためにトレーダーのもとを訪れるようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_job_enabled">
+        <text>任務</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_job_enabled_desc">
+        <text>「任務」の欲求を有効にします。分隊は所属する派閥の特性に応じて、警備、探索、または研究活動を行うようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_social_enabled">
+        <text>交流</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_social_enabled_desc">
+        <text>「交流」の欲求を有効にします。分隊は他者とのつながりを求めて、焚き火や拠点に集まるようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold">
+        <text>空腹イベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold_desc">
+        <text>[ゲーム内時間]\n空腹イベントが発生する間隔を設定します。デフォルト値の「8」は、1日3食のペースに相当します。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold">
+        <text>睡眠イベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold_desc">
+        <text>[ゲーム内時間]\n睡眠イベントが発生する間隔を設定します。このイベントは夜間（20:00～05:00）にのみ発生します。デフォルト値は「16」です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_rest_threshold">
+        <text>休息イベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_rest_threshold_desc">
+        <text>[ゲーム内時間]\n喫煙や飲酒、リラックスなどの休息イベントが発生する間隔を設定します。デフォルト値は「4」です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_heal_threshold">
+        <text>治療イベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_heal_threshold_desc">
+        <text>[ゲーム内時間]\n治療イベントが発生する間隔を設定します。デフォルト値は「12」です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold">
+        <text>避難イベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold_desc">
+        <text>[ゲーム内時間]\n避難イベントが発生する間隔を設定します。デフォルト値は「24」です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_money_threshold">
+        <text>資金稼ぎイベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_money_threshold_desc">
+        <text>[ゲーム内時間]\n資金稼ぎイベントが発生する間隔を設定します。デフォルト値は「24」です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_supply_threshold">
+        <text>物資補給イベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_supply_threshold_desc">
+        <text>[ゲーム内時間]\nトレーダーへの訪問やスタッシュへのアイテム預け入れなど、補給イベントが発生する間隔を設定します。デフォルト値は「48」です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_job_threshold">
+        <text>任務イベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_job_threshold_desc">
+        <text>[ゲーム内時間]\n警備、探索、調査などの任務イベントが発生する間隔を設定します。デフォルト値は「18」です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_social_threshold">
+        <text>交流イベントの発生間隔</text>
+    </string>
+    <string id="ui_mcm_ap_causes_needs_cause_social_threshold_desc">
+        <text>[ゲーム内時間]\n焚き火の周りに集まったり、拠点を訪問したりする交流イベントが発生する間隔を設定します。デフォルト値は「36」です。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / ALPHA PROMOTE ==================== -->
+    <string id="ui_mcm_ap_consequences_alpha_promote_title">
+        <text>アルファ: 昇格</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alpha_promote_tag">
+        <text>イベントトリガー: アルファ</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alpha_promote_desc">
+        <text>「アルファ」イベントトリガーが作動した際、対象のミュータントをアルファ個体として登録するイベントに関する設定です。ダメージ倍率などの詳細は「ミューテーター」で設定できます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_enabled_desc">
+        <text>レベルアップしたミュータントが「アルファ」個体として登録されるようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alpha_promote_max_alphas">
+        <text>アルファの最大数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alpha_promote_max_alphas_desc">
+        <text>ゾーン全体に存在できるアルファミュータントの最大数を設定します。上限に達すると新たなアルファ個体の発生は制限されますが、ミュータントのレベルアップ自体は妨げられません。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alpha_promote_alpha_loot_enabled">
+        <text>戦利品の強化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alpha_promote_alpha_loot_enabled_desc">
+        <text>アルファミュータントが、貴重なアイテム（ミュータントの部位、皮、アーティファクト）を所持するようになります。レベルが高いほど戦利品の質が向上し、死亡時にドロップします。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / ALPHAKILL TARGETED ==================== -->
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_title">
+        <text>アルファ討伐: 報復</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_tag">
+        <text>イベントトリガー: アルファ討伐\nルール: 性格判定\n評価: 嗅覚範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_desc">
+        <text>アルファミュータントが討伐された際、同じマップにいる同種のミュータントが、そのアルファを殺した者を標的として追跡するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_enabled_desc">
+        <text>マップ内にいる同種のミュータントが、アルファを討伐した者を追跡して報復するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_rush_desc">
+        <text>追跡する群れが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads">
+        <text>襲撃する最大の群れ数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads_desc">
+        <text>討伐者を追跡するミュータントの群れの最大数を設定します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases">
+        <text>再追跡の最大回数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases_desc">
+        <text>獲物を見失った際、再び追跡を開始する最大回数です。0にすると一度振り切れば追ってきません。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / MASSACRE SCAVENGE ==================== -->
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_title">
+        <text>大虐殺: 死体漁り</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_tag">
+        <text>イベントトリガー: 大虐殺\nルール: 派閥関係、性格判定\n評価: 嗅覚範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_desc">
+        <text>大量の死体が発生する「大虐殺」が起きた際、近くにいる無法者や臆病種のミュータント（フレッシュ、ゾンビ、ラットなど）が、死体を漁るために現場へ集まるイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_enabled_desc">
+        <text>無法者や臆病種のミュータントが虐殺現場に集まり、アイテムや死体を漁るようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_rush_desc">
+        <text>虐殺現場へ向かう分隊・群れが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_max_squads_desc">
+        <text>虐殺現場へ向かう分隊・群れの最大数を設定します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / MASSACRE INVESTIGATE ==================== -->
+    <string id="ui_mcm_ap_consequences_massacre_investigate_title">
+        <text>大虐殺: 調査</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_tag">
+        <text>イベントトリガー: 大虐殺\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_desc">
+        <text>大量の死体が発生する「大虐殺」が起きた際、被害者の所属する派閥が、近くにいる分隊を現場の調査のために派遣するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled_desc">
+        <text>ストーカーの派閥が仲間の大量死を察知し、現場の調査を行うようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_rush_desc">
+        <text>調査に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_max_squads_desc">
+        <text>虐殺現場を調査する派閥分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / STASH AMBUSH ==================== -->
+    <string id="ui_mcm_ap_consequences_stash_ambush_title">
+        <text>スタッシュ: 待ち伏せ</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_tag">
+        <text>イベントトリガー: スタッシュ\nルール: 派閥関係、性格判定\n評価: 視界範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_desc">
+        <text>スタッシュが発見された際、見つけた分隊がその場所でキャンプを張り、スタッシュを囮にして待ち伏せを行うイベントに関する設定です。彼らは中身には触れず、プレイヤーや他のストーカーを標的とします。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_enabled_desc">
+        <text>Banditなどの無法者が発見したスタッシュ周辺に潜み、近づく者を待ち伏せするようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_rush_desc">
+        <text>待ち伏せに向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / STASH LOOT ==================== -->
+    <string id="ui_mcm_ap_consequences_stash_loot_title">
+        <text>スタッシュ: 略奪</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_tag">
+        <text>イベントトリガー: スタッシュ\nルール: 派閥関係、性格判定\n評価: 視界範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_desc">
+        <text>スタッシュが発見された際、ストーカーの分隊がその中身を奪いに向かうイベントに関する設定です。スタッシュの中身は、彼らが現場に到着するまで判明しません。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled_desc">
+        <text>略奪者が、プレイヤーよりも先にスタッシュの中身を奪おうと急行するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush_desc">
+        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_protect_toolkits">
+        <text>ツールキットの保護</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_protect_toolkits_desc">
+        <text>有効にすると、NPCはツールキット、修理キット、クラフトツール、ワークショップキットが含まれるスタッシュを無視するようになります。その場合、スタッシュ内の全アイテムが手つかずのまま残ります。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / STASH FILL ==================== -->
+    <string id="ui_mcm_ap_consequences_stash_fill_title">
+        <text>スタッシュ: 補充</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_tag">
+        <text>イベントトリガー: スタッシュ\nルール: 派閥関係\n評価: 視界範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_desc">
+        <text>スタッシュが発見された際、ストーカーの分隊が物資を隠しに向かうイベントに関する設定です。スタッシュの中身は、彼らが現場に到着するまで判明しません。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled_desc">
+        <text>ストーカーが、発見したスタッシュに物資を隠すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush_desc">
+        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_min_items">
+        <text>最小アイテム数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_min_items_desc">
+        <text>NPCがスタッシュに隠すアイテムの最小数を設定します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_max_items">
+        <text>最大アイテム数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_max_items_desc">
+        <text>NPCがスタッシュに隠すアイテムの最大数を設定します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / SQUADKILL REVENGE ==================== -->
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_title">
+        <text>分隊全滅: 復讐</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_tag">
+        <text>イベントトリガー: 分隊全滅\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_desc">
+        <text>分隊が全滅した際、近くにいる同じ派閥の分隊が、シミュレーションを通じてキラー（プレイヤーまたはNPC）を追跡するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled_desc">
+        <text>分隊が全滅した際、近くにいる味方の分隊がキラーを追跡して復讐するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_rush_desc">
+        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads_desc">
+        <text>キラーを追跡する復讐分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases">
+        <text>復讐者ごとの最大追跡回数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases_desc">
+        <text>復讐者が、逃げるキラーを執拗に追跡する最大回数を設定します。「0」に設定すると追跡が無効になります。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / SQUADKILL FLEE ==================== -->
+    <string id="ui_mcm_ap_consequences_squadkill_flee_title">
+        <text>分隊全滅: 逃亡</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_tag">
+        <text>イベントトリガー: 分隊全滅\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_desc">
+        <text>分隊が全滅した際、近くにいる同じ派閥の分隊が最寄りの拠点へと逃亡するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_enabled_desc">
+        <text>近くの味方が全滅した際、分隊が安全な場所へ撤退するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_rush_desc">
+        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_max_squads_desc">
+        <text>1回のイベントで逃亡する分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / BASEKILL SUPPORT ==================== -->
+    <string id="ui_mcm_ap_consequences_basekill_support_title">
+        <text>拠点壊滅: 増援</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_tag">
+        <text>イベントトリガー: 拠点壊滅\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_desc">
+        <text>拠点が攻撃を受けて壊滅の危機にある際、近くの味方分隊が増援として急行するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled_desc">
+        <text>攻撃を受けている拠点に対し、近くの味方分隊が増援として急行するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_rush_desc">
+        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_max_squads_desc">
+        <text>拠点を防衛するために派遣される増援分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / BASEKILL FLEE ==================== -->
+    <string id="ui_mcm_ap_consequences_basekill_flee_title">
+        <text>拠点壊滅: 逃亡</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_tag">
+        <text>イベントトリガー: 拠点壊滅\nルール: 派閥関係、性格判定\n評価: 視界範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_desc">
+        <text>拠点が攻撃を受けて壊滅の危機にある際、そこにいる分隊が最寄りの別の拠点へと逃亡するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled_desc">
+        <text>激しい攻撃を受けている拠点を放棄し、分隊が安全な場所へ撤退するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_rush_desc">
+        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_max_squads_desc">
+        <text>1回のイベントで拠点から逃亡する分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / WOUNDED HUNT ==================== -->
+    <string id="ui_mcm_ap_consequences_wounded_hunt_title">
+        <text>負傷者: 狩り</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_tag">
+        <text>イベントトリガー: 負傷者\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_desc">
+        <text>負傷者が発生した際、近くにいる捕食種や変異種のミュータントが、血の匂いを嗅ぎつけて負傷したプレイヤーやNPCを狙うイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_enabled_desc">
+        <text>捕食種や変異種のミュータントが、負傷者を積極的に狩るようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_rush_desc">
+        <text>イベントで動くミュータントの群れが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_max_squads_desc">
+        <text>負傷者の血の匂いに引き寄せられるミュータント分隊の最大数を設定します。実際の出現数は、1からこの設定値の間でランダムに決定されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / WOUNDED FACTION HELP ==================== -->
+    <string id="ui_mcm_ap_consequences_wounded_help_title">
+        <text>負傷者: 救助</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_tag">
+        <text>イベントトリガー: 負傷\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_desc">
+        <text>負傷者が発生した際、近くにいる同じ派閥の分隊が救助に駆けつけるイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled_desc">
+        <text>同じ派閥のメンバーが負傷した仲間の救助に駆けつけるようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_rush_desc">
+        <text>救助に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_max_squads_desc">
+        <text>1回のイベントで派遣される救助分隊の最大数を設定します。実際の派遣数は、1からこの設定値の間でランダムに決定されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / AREA CONQUER ==================== -->
+    <string id="ui_mcm_ap_consequences_area_conquer_title">
+        <text>エリア: 制圧</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_tag">
+        <text>イベントトリガー: エリア\nルール: 派閥関係、性格判定\n評価: 視界範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_desc">
+        <text>制圧されていないスマートテレイン（拠点や野営地）を発見した分隊が、エリアを制圧するために移動するイベントに関する設定です。制圧した派閥が所有権を獲得し、以降はその派閥の分隊が拠点にスポーンするようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled_desc">
+        <text>ストーカーやミュータントが空のエリアを制圧するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_rush_desc">
+        <text>エリア制圧に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_enabled">
+        <text>エリア制圧の永続化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_enabled_desc">
+        <text>制圧した派閥がエリアの所有権を永続的に獲得し、その拠点でのリスポーンを自派閥のものに書き換える機能を有効にします。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_max_smarts">
+        <text>最大制圧エリア数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_max_smarts_desc">
+        <text>同時に制圧状態を維持できるスマートテレイン（拠点や野営地）の最大数を設定します。上限に達した場合、最も古い拠点から順に制圧状態が解除されます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_spawn_num">
+        <text>制圧エリアでの追加スポーン分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_spawn_num_desc">
+        <text>制圧したエリアに追加でスポーンさせる分隊数を設定します。この分隊は、エリアの元々のスポーン枠とは別に追加されます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_decay_hours">
+        <text>制圧状態の維持時間（時間）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_decay_hours_desc">
+        <text>制圧したエリアから制圧側の分隊がスポーンしなくなるまでのゲーム内時間を設定します。元々のスポーンには影響しません。0に設定すると、時間経過による制圧状態の解除を無効化できます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_mutate_smart">
+        <text>制圧側分隊の追加スポーン</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_area_conquest_mutate_smart_desc">
+        <text>有効にすると、制圧したエリアにおいて、元々のスポーンとは別に制圧側の分隊がスポーンするようになります。無効の場合、スポーン状況は変更されず、分隊の移動のみが維持されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / HARVEST ROB ==================== -->
+    <string id="ui_mcm_ap_consequences_harvest_rob_title">
+        <text>アーティファクト: 強奪</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_tag">
+        <text>イベントトリガー: 採集\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_desc">
+        <text>NPCやプレイヤーがアーティファクトを拾った際、近くにいる無法者がその取得者を追跡して強奪を試みるイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled_desc">
+        <text>無法者がアーティファクトの取得者を追跡し、強奪を狙うようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_rush_desc">
+        <text>追跡する分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads_desc">
+        <text>アーティファクトの取得者を追跡する分隊の最大数を設定します。実際の追跡数は、1からこの設定値の間でランダムに決定されます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases">
+        <text>分隊ごとの最大追跡回数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases_desc">
+        <text>逃げる取得者に対して、追跡分隊が追いかけ続ける最大回数を設定します。0に設定すると、追跡行動そのものが無効化されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / HARVEST HAUNT ==================== -->
+    <string id="ui_mcm_ap_consequences_harvest_haunt_title">
+        <text>アーティファクト: 襲撃</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_tag">
+        <text>イベントトリガー: 採集\nルール: 派閥関係、性格判定\n評価: 嗅覚範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_desc">
+        <text>アーティファクトが取得された際、近くにいる変異種のミュータントがその取得地点に集結するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled_desc">
+        <text>変異種のミュータントがアーティファクトの取得地点に集結するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_rush_desc">
+        <text>集結するミュータントが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_max_squads">
+        <text>イベントごとの最大分隊数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_max_squads_desc">
+        <text>取得地点に集結する変異種のミュータントの群れの最大数を設定します。実際の集結数は、1からこの設定値の間でランダムに決定されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / HUNGER CAMPFIRE ==================== -->
+    <string id="ui_mcm_ap_consequences_hunger_campfire_title">
+        <text>空腹: 焚き火</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_desc">
+        <text>空腹を感じた分隊が、食事をとるために焚き火のあるスマートテレイン（拠点や野営地）へ移動するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_enabled_desc">
+        <text>空腹のストーカーが食事をとるために焚き火を探すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush_desc">
+        <text>焚き火に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_arrive_action_enabled">
+        <text>到着時のアクション</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_arrive_action_enabled_desc">
+        <text>目的地に到着したNPCが、インベントリからパンやソーセージ、缶詰、ウォッカ、ビールなどの食料を実際に消費するようになります。消費されたアイテムはインベントリから削除されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / SLEEP CAMPFIRE ==================== -->
+    <string id="ui_mcm_ap_consequences_sleep_campfire_title">
+        <text>睡眠: 焚き火</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_desc">
+        <text>疲労を感じた分隊が、睡眠をとるために焚き火のあるスマートテレイン（拠点や野営地）へ移動するイベントに関する設定です。この行動は夜間（20:00～05:00）にのみ発生します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled_desc">
+        <text>疲労したストーカーが夜間に睡眠をとるため、焚き火を探すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_rush_desc">
+        <text>焚き火に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / REST CAMPFIRE ==================== -->
+    <string id="ui_mcm_ap_consequences_rest_campfire_title">
+        <text>休息: 焚き火</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_desc">
+        <text>休息を必要とする分隊が、リラックスや喫煙、飲酒のために焚き火のあるスマートテレイン（拠点や野営地）へ移動するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_enabled_desc">
+        <text>疲労したストーカーが休息をとるために焚き火を探すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush_desc">
+        <text>焚き火に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_arrive_action_enabled">
+        <text>到着時のアクション</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_arrive_action_enabled_desc">
+        <text>目的地に到着したNPCが、インベントリからタバコやウォッカ、ビールを実際に消費するようになります。消費されたアイテムはインベントリから削除されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / HEAL SHELTER ==================== -->
+    <string id="ui_mcm_ap_consequences_heal_shelter_title">
+        <text>治療: 退避</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_desc">
+        <text>負傷した分隊が、安全に治療を行うために屋内の場所へ移動するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled_desc">
+        <text>負傷したストーカーが治療のために屋内の場所を探すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush_desc">
+        <text>避難場所に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_arrive_action_enabled">
+        <text>到着時のアクション</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_arrive_action_enabled_desc">
+        <text>目的地に到着したNPCが、インベントリから救急箱や包帯、スティムパックを実際に使用するようになります。使用されたアイテムはインベントリから削除されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / SHELTER ==================== -->
+    <string id="ui_mcm_ap_consequences_shelter_indoor_title">
+        <text>避難: 屋内</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_desc">
+        <text>エミッションなどの脅威が発生した際、分隊が身を守るために屋内へ避難するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled_desc">
+        <text>屋外にいるストーカーがエミッションをやり過ごすための避難場所を探すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_rush_desc">
+        <text>避難場所に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / SHELTER OUTDOOR ==================== -->
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_title">
+        <text>避難: 屋外</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_desc">
+        <text>屋内の避難場所が利用できない場合、分隊が屋外の遮蔽物として焚き火のある場所へ避難するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled_desc">
+        <text>近くにエミッションの避難場所がない場合、屋外にいるストーカーが焚き火を探すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_rush_desc">
+        <text>避難場所に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / MONEY HARVEST ==================== -->
+    <string id="ui_mcm_ap_consequences_money_harvest_title">
+        <text>資金稼ぎ: アーティファクト</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_desc">
+        <text>資金を必要とする分隊が、アーティファクトを採集するためにアノマリー領域へ移動するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled_desc">
+        <text>資金が必要になったストーカーがアノマリー領域を探すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush_desc">
+        <text>アノマリー領域に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / MONEY HUNT ==================== -->
+    <string id="ui_mcm_ap_consequences_money_hunt_title">
+        <text>資金稼ぎ: ミュータント狩り</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_desc">
+        <text>資金を必要とする分隊が、トロフィーや毛皮を得るためにミュータントの巣へ狩りに向かうイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_enabled_desc">
+        <text>資金が必要になったストーカーがミュータントを狩るようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_rush_desc">
+        <text>ミュータント狩りに向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / SUPPLY TRADER ==================== -->
+    <string id="ui_mcm_ap_consequences_supply_trader_title">
+        <text>物資補給: トレーダー</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_desc">
+        <text>物資の補給が必要な分隊が、アイテムを取引するためにトレーダーのいるスマートテレイン（拠点や野営地）へ移動するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled_desc">
+        <text>物資が必要になったストーカーがトレーダーのもとを訪れるようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_rush_desc">
+        <text>トレーダーに向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled">
+        <text>到着時のアクション</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled_desc">
+        <text>目的地に到着したNPCが所持しているアーティファクトを売却し、代わりに弾薬やグレネード、医薬品を受け取るようになります。これらは実際にNPCのインベントリ内で交換処理されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / JOB OUTPOST ==================== -->
+    <string id="ui_mcm_ap_consequences_job_outpost_title">
+        <text>任務: 警備</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_desc">
+        <text>仕事を求める分隊が、警備任務に就くために味方の前哨基地や検問所へ移動するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled_desc">
+        <text>ストーカーが前哨基地や検問所の警備に向かうようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush_desc">
+        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_arrive_action_enabled">
+        <text>到着時のアクション</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_arrive_action_enabled_desc">
+        <text>目的地に到着したNPCが、警備中にインベントリ内のタバコを吸うようになります。この際、アイテムは実際に消費されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / JOB EXPLORE ==================== -->
+    <string id="ui_mcm_ap_consequences_job_explore_title">
+        <text>任務: 探索</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_desc">
+        <text>分隊が遠方や未訪問のスマートテレイン（拠点や野営地）へ移動し、探索を行うイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled_desc">
+        <text>ストーカーが未知のエリアの探索に向かうようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_rush_desc">
+        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / JOB RESEARCH ==================== -->
+    <string id="ui_mcm_ap_consequences_job_research_title">
+        <text>任務: 調査</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_desc">
+        <text>分隊がアノマリー領域へ移動し、異常現象の調査を行うイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled_desc">
+        <text>ストーカーがアノマリー領域の調査に向かうようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush_desc">
+        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / SOCIAL CAMPFIRE ==================== -->
+    <string id="ui_mcm_ap_consequences_social_campfire_title">
+        <text>交流: 焚き火</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_desc">
+        <text>分隊が焚き火のあるスマートテレイン（拠点や野営地）へ移動し、ギターの演奏や会話などの交流を行うイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_enabled_desc">
+        <text>孤独なストーカーが、焚き火での交流を求めて移動するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush_desc">
+        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_arrive_action_enabled">
+        <text>到着時のアクション</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_arrive_action_enabled_desc">
+        <text>目的地に到着したNPCが、焚き火の周りでインベントリ内のタバコや飲み物を消費してくつろぐようになります。この際、アイテムは実際に消費されます。</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCES / SOCIAL BASE ==================== -->
+    <string id="ui_mcm_ap_consequences_social_base_title">
+        <text>交流: 拠点</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_tag">
+        <text>イベントトリガー: 欲求\nルール: 派閥関係、性格判定\n評価: 無線範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_desc">
+        <text>分隊が仲間との交流や士気の向上を求めて、自派閥の拠点へ帰還するイベントに関する設定です。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_enabled_desc">
+        <text>孤独なストーカーが、仲間を求めて拠点へ帰還するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush_desc">
+        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_arrive_action_enabled">
+        <text>到着時のアクション</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_arrive_action_enabled_desc">
+        <text>目的地に到着したNPCが、拠点でインベントリ内のタバコや飲み物を消費してくつろぐようになります。この際、アイテムは実際に消費されます。</text>
+    </string>
+
+    <!-- ==================== MUTATORS / ALPHA ==================== -->
+    <string id="ui_mcm_ap_mutators_alpha_title">
+        <text>アルファミュータント</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_desc">
+        <text>アルファミュータント（獲物を仕留めて群れの頂点に立った強力な個体）に対する戦闘補正を設定します。攻撃力ボーナスにより与えるダメージが増加し、被ダメージ軽減により受けるダメージが減少します。</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_dealt_enabled">
+        <text>攻撃力ボーナスを有効化</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_dealt_enabled_desc">
+        <text>アルファミュータントの攻撃力を上昇させます。ボーナス値はアルファミュータントのレベルに応じて増加します。</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_dealt_per_level">
+        <text>レベルごとの攻撃力ボーナス</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_dealt_per_level_desc">
+        <text>アルファミュータントのレベルが1上がるごとに付与される攻撃力ボーナスを設定します。（例: 0.05に設定すると、レベル1で+5%、レベル10で+50%のボーナスになります）</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_taken_enabled">
+        <text>被ダメージ軽減を有効化</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_taken_enabled_desc">
+        <text>アルファミュータントが受けるダメージを減少させます。軽減率はアルファミュータントのレベルに応じて増加します。</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_taken_per_level">
+        <text>レベルごとの被ダメージ軽減</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_taken_per_level_desc">
+        <text>アルファミュータントのレベルが1上がるごとに付与される被ダメージ軽減率を設定します。（例: 0.05に設定すると、レベル1で-5%、レベル10で-50%の軽減になります）</text>
+    </string>
+
+    <string id="ui_mcm_ap_mutators_alpha_alpha_panic_immunity_enabled">
+        <text>パニック耐性を有効化</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_alpha_alpha_panic_immunity_enabled_desc">
+        <text>アルファミュータントがパニック状態に陥らず、逃走しなくなります。最初の被弾時にパニックのしきい値がゼロに設定されます。</text>
+    </string>
+
+    <!-- ==================== MUTATORS / STALKER RANK ==================== -->
+    <string id="ui_mcm_ap_mutators_rank_title">
+        <text>ストーカーランク</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_desc">
+        <text>ベテラン以上（ランク12000以上）のストーカーに対する戦闘補正を設定します。キル数で上昇するランクに基づいて計算され、ベテランからレジェンドにかけて段階的に効果が高まります。</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_dealt_enabled">
+        <text>攻撃力ボーナスを有効化</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_dealt_enabled_desc">
+        <text>ベテラン以上のストーカーの攻撃力を上昇させます。最大ボーナスが適用されるレジェンドランクのストーカーは、非常に強力な攻撃を繰り出すようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_dealt_mult">
+        <text>最大攻撃力ボーナス</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_dealt_mult_desc">
+        <text>レジェンドランクに到達した際の最大攻撃力ボーナスを設定します。（例: 0.15に設定すると、ベテランで+3%、レジェンドで+15%のボーナスになります）</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_taken_enabled">
+        <text>被ダメージ軽減を有効化</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_taken_enabled_desc">
+        <text>ベテラン以上のストーカーが受けるダメージを減少させます。最大軽減が適用されるレジェンドランクのストーカーは、被ダメージが劇的に低下します。</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_taken_mult">
+        <text>最大被ダメージ軽減</text>
+    </string>
+    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_taken_mult_desc">
+        <text>レジェンドランクに到達した際の最大被ダメージ軽減率を設定します。（例: 0.15に設定すると、ベテランで-3%、レジェンドで-15%の軽減になります）</text>
+    </string>
+
+    <!-- ==================== DEVELOPMENT TAB ==================== -->
+    <string id="ui_mcm_ap_development_title">
+        <text>開発とツール</text>
+    </string>
+    <string id="ui_mcm_ap_development_desc">
+        <text>デバッグおよび開発用の設定です。ログレベルを「デバッグ」にすると、トレースやパフォーマンス計測、詳細なログ出力が有効になります。また、デバッグマーカーを有効にすると、PDAマップ上に分隊の目的地が表示されます。</text>
+    </string>
+    <string id="ui_mcm_ap_development_log_level">
+        <text>ログレベル</text>
+    </string>
+    <string id="ui_mcm_ap_development_log_level_desc">
+        <text>ログの詳細度とデバッグ機能を設定します。「デバッグ」にすると、OTelスタイルのトレースやパフォーマンス計測、詳細なログ出力が有効になりますが、ゲームのパフォーマンスに影響を与える可能性があります。</text>
+    </string>
+    <string id="ap_development_log_level_lst_error">
+        <text>エラー</text>
+    </string>
+    <string id="ap_development_log_level_lst_warn">
+        <text>警告</text>
+    </string>
+    <string id="ap_development_log_level_lst_info">
+        <text>情報</text>
+    </string>
+    <string id="ap_development_log_level_lst_debug">
+        <text>デバッグ</text>
+    </string>
+    <string id="ui_mcm_ap_development_map_markers">
+        <text>デバッグマーカー</text>
+    </string>
+    <string id="ui_mcm_ap_development_map_markers_desc">
+        <text>PDAマップ上に分隊の目的地マーカーを表示します。これはA-Lifeの移動を追跡するための大まかな位置であり、正確な座標ではありません。設定を適用するには、セーブデータをロードし直してください。</text>
+    </string>
+    <string id="ui_mcm_ap_development_statistics_position">
+        <text>統計情報のオーバーレイ</text>
+    </string>
+    <string id="ui_mcm_ap_development_statistics_position_desc">
+        <text>パイプラインの統計情報を画面上に表示し、10秒ごとにログへ書き込みます。表示位置を選択するか、オフに設定できます。オフにすればパフォーマンスへの影響はありません。</text>
+    </string>
+    <string id="ap_development_statistics_position_lst_off">
+        <text>オフ</text>
+    </string>
+    <string id="ap_development_statistics_position_lst_top_left">
+        <text>左上</text>
+    </string>
+    <string id="ap_development_statistics_position_lst_top_right">
+        <text>右上</text>
+    </string>
+    <string id="ap_development_statistics_position_lst_center_left">
+        <text>左中央</text>
+    </string>
+    <string id="ap_development_statistics_position_lst_center_right">
+        <text>右中央</text>
+    </string>
+    <string id="ap_development_statistics_position_lst_bottom_left">
+        <text>左下</text>
+    </string>
+    <string id="ap_development_statistics_position_lst_bottom_right">
+        <text>右下</text>
+    </string>
+
+    <!-- Cause: Instincts -->
+    <string id="ui_mcm_ap_causes_instincts_title">
+        <text>生存本能</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_tag">
+        <text>タイプ: 放射、欠乏\nルール: 派閥関係</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_desc">
+        <text>ミュータントの群れは、時間の経過とともに本能（捕食、睡眠、探索、交流）を募らせていきます。欲求の評価システムにより、最も満たされていない本能が優先して行動に反映されます。\n昼夜サイクル: 夜行性の種（ブラッドサッカー、ルーカー、キメラ、ゾンビ、フラクチャー）は夜間に活動し、昼間に睡眠をとります。それ以外の種は昼間に活動します。各しきい値は、その本能イベントが発生するまでのゲーム内時間を表します。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instincts_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instincts_enabled_desc">
+        <text>スマートテレイン（拠点や野営地）を移動する際に、ミュータントの生存本能を評価するようになります。最も満たされていない本能が、次の行動の要因として選ばれます。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_scatter_enabled">
+        <text>散開</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_scatter_enabled_desc">
+        <text>下位階級のミュータントが、視界内に自分より上位のミュータントを捉えると散開して逃げるようになります。この行動に時間的なしきい値はなく、脅威を検知した瞬間に発生します。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_feed_enabled">
+        <text>捕食</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_feed_enabled_desc">
+        <text>ミュータントが活動時間中に、狩りや死肉漁りを行うために開けたエリアへ移動するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_sleep_enabled">
+        <text>睡眠</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_sleep_enabled_desc">
+        <text>ミュータントが休眠時間になると、それぞれの種に適した隠れ家へ戻るようになります。臆病種のミュータントは開けた野原、野生種は巣、捕食種は巣や建物、変異種は建物で睡眠をとります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_explore_enabled">
+        <text>探索</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_explore_enabled_desc">
+        <text>ミュータントが活動時間中に、近くのエリアや巣の周辺を徘徊して探索するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_socialize_enabled">
+        <text>交流</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_socialize_enabled_desc">
+        <text>ミュータントが、同じ派閥の分隊がいるスマートテレイン（拠点や野営地）へ移動して群れを作るようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_scatter_threshold">
+        <text>散開のしきい値</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_scatter_threshold_desc">
+        <text>[ゲーム内時間]\n散開イベントが発生する間隔を設定します。デフォルトは12時間です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_feed_threshold">
+        <text>捕食のしきい値</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_feed_threshold_desc">
+        <text>[ゲーム内時間]\n捕食イベントが発生する間隔を設定します。デフォルトは24時間（1日1回）です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_sleep_threshold">
+        <text>睡眠のしきい値</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_sleep_threshold_desc">
+        <text>[ゲーム内時間]\n睡眠イベントが発生する間隔を設定します。デフォルトは12時間です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_explore_threshold">
+        <text>探索のしきい値</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_explore_threshold_desc">
+        <text>[ゲーム内時間]\n探索イベントが発生する間隔を設定します。デフォルトは12時間です。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_socialize_threshold">
+        <text>交流のしきい値</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_socialize_threshold_desc">
+        <text>[ゲーム内時間]\n交流イベントが発生する間隔を設定します。デフォルトは24時間です。</text>
+    </string>
+
+    <!-- Consequence: Instinct Scatter -->
+    <string id="ui_mcm_ap_consequences_instinct_scatter_title">
+        <text>生存本能: 散開</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_tag">
+        <text>イベントトリガー: 生存本能\nルール: 派閥関係、性格判定\n評価: 視界範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_desc">
+        <text>下位階級のミュータントが、視界内に自分より上位のミュータントを捉えると散開して逃げるイベントに関する設定です。\n食物連鎖のルール: 臆病種のミュータントは野生種/捕食種/変異種を恐れ、野生種のミュータントは捕食種/変異種を恐れ、捕食種のミュータントは変異種を恐れます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_consequence_instinct_scatter_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_consequence_instinct_scatter_enabled_desc">
+        <text>下位階級のミュータントが、近くにいる上位種から離れた安全なスマートテレイン（拠点や野営地）へ逃げ込むようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_consequence_instinct_scatter_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_consequence_instinct_scatter_rush_desc">
+        <text>ミュータントが上位種から逃げて散開する際に、全力疾走で移動するようになります。</text>
+    </string>
+
+    <!-- Consequence: Instinct Feed -->
+    <string id="ui_mcm_ap_consequences_instinct_feed_title">
+        <text>生存本能: 捕食</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_tag">
+        <text>イベントトリガー: 生存本能\nルール: 派閥関係、性格判定\n評価: 嗅覚範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_desc">
+        <text>ミュータントが活動時間中に、狩りや死肉漁りを行うために開けたエリアへ移動するイベントに関する設定です。この際、異なる種族のミュータントが同じ狩り場で遭遇することがあります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_consequence_instinct_feed_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_consequence_instinct_feed_enabled_desc">
+        <text>ミュータントが、捕食のために開けたエリアへ向かうようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_consequence_instinct_feed_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_consequence_instinct_feed_rush_desc">
+        <text>ミュータントが狩り場へ向かう際に、全力疾走で移動するようになります。</text>
+    </string>
+
+    <!-- Consequence: Instinct Sleep -->
+    <string id="ui_mcm_ap_consequences_instinct_sleep_title">
+        <text>生存本能: 睡眠</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_tag">
+        <text>イベントトリガー: 生存本能\nルール: 派閥関係、性格判定\n評価: 嗅覚範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_desc">
+        <text>ミュータントが休眠時間になると、それぞれの種に適した休息場所へ戻るイベントに関する設定です。臆病種のミュータントは野原、野生種は巣、捕食種は巣や建物、変異種は地下で睡眠をとります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_consequence_instinct_sleep_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_consequence_instinct_sleep_enabled_desc">
+        <text>ミュータントが、それぞれの種に適した休息場所へ向かうようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_consequence_instinct_sleep_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_consequence_instinct_sleep_rush_desc">
+        <text>ミュータントが休息場所へ向かう際に、全力疾走で移動するようになります。</text>
+    </string>
+
+    <!-- Consequence: Instinct Explore -->
+    <string id="ui_mcm_ap_consequences_instinct_explore_title">
+        <text>生存本能: 探索</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_tag">
+        <text>イベントトリガー: 生存本能\nルール: 派閥関係、性格判定\n評価: 嗅覚範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_desc">
+        <text>ミュータントが活動時間中に、別のエリアや巣の周辺を徘徊するイベントに関する設定です。ただし、変異種は巣に縛られる性質があるため、この行動からは除外されます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_consequence_instinct_explore_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_consequence_instinct_explore_enabled_desc">
+        <text>ミュータントが、探索のために近くのエリアや巣へ向かうようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_consequence_instinct_explore_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_consequence_instinct_explore_rush_desc">
+        <text>ミュータントが探索を行う際に、全力疾走で移動するようになります。</text>
+    </string>
+
+    <!-- Consequence: Instinct Socialize -->
+    <string id="ui_mcm_ap_consequences_instinct_socialize_title">
+        <text>生存本能: 交流</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_tag">
+        <text>イベントトリガー: 生存本能\nルール: 派閥関係、性格判定\n評価: 嗅覚範囲</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_desc">
+        <text>群れを作る習性を持つミュータントが、同種の群れがいるスマートテレイン（拠点や野営地）へ合流するイベントに関する設定です。ただし、単独行動を好む捕食種や変異種は、この行動から除外されます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_consequence_instinct_socialize_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_consequence_instinct_socialize_enabled_desc">
+        <text>ミュータントが、同種の群れがいる場所へ向かうようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_consequence_instinct_socialize_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_consequence_instinct_socialize_rush_desc">
+        <text>ミュータントが群れの仲間へ合流する際に、全力疾走で移動するようになります。</text>
+    </string>
+
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_squadkill_flee_consequence_squadkill_flee_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_consequence_instinct_scatter_personality_min">
+        <text>分散行動の性格判定下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_consequence_instinct_scatter_personality_min_desc">
+        <text>[0.0-1.0]\n分散行動における性格判定の最小確率を設定します。参照する特性: INV_AGGRESSION + SURVIVAL（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_consequence_instinct_scatter_personality_max">
+        <text>分散行動の性格判定上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_scatter_consequence_instinct_scatter_personality_max_desc">
+        <text>[0.0-1.0]\n分散行動における性格判定の最大確率を設定します。参照する特性: INV_AGGRESSION + SURVIVAL（デフォルト: 0.60）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_consequence_instinct_feed_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_consequence_instinct_feed_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_consequence_instinct_feed_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_feed_consequence_instinct_feed_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_consequence_instinct_sleep_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_consequence_instinct_sleep_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_consequence_instinct_sleep_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_sleep_consequence_instinct_sleep_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_consequence_instinct_explore_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_consequence_instinct_explore_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_consequence_instinct_explore_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_explore_consequence_instinct_explore_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_consequence_instinct_socialize_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_consequence_instinct_socialize_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_consequence_instinct_socialize_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_socialize_consequence_instinct_socialize_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+
+    <!-- ==================== CONSEQUENCE: INSTINCT INFEST ==================== -->
+    <string id="ui_mcm_ap_consequences_instinct_infest_title">
+        <text>生存本能: 拠点占拠</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_tag">
+        <text>参照する特性: TERRITORY + SURVIVAL</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_desc">
+        <text>ミュータントがスマートテレイン（拠点や野営地）を巣として占拠するイベントに関する設定です。占拠されたエリアでは、本来のスポーン設定が占拠した種族の専用スポーンに置き換わります。対象となるのは野生種、捕食種、変異種のみです（臆病種は除外）。各マップで占拠できるスマートテレインの数は、設定された上限によって制限されます。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_consequence_instinct_infest_enabled">
+        <text>有効化</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_consequence_instinct_infest_enabled_desc">
+        <text>ミュータントがスマートテレインを巣として占拠するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_consequence_instinct_infest_rush">
+        <text>ラッシュモード</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_consequence_instinct_infest_rush_desc">
+        <text>ミュータントの群れが拠点を占拠しに向かう際に全力疾走で移動するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_consequence_instinct_infest_personality_min">
+        <text>性格判定の下限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_consequence_instinct_infest_personality_min_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最小値を設定します。派閥の特性が条件と合致しない場合でも、最低限この確率で判定に成功します。（デフォルト: 0.20）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_consequence_instinct_infest_personality_max">
+        <text>性格判定の上限</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_consequence_instinct_infest_personality_max_desc">
+        <text>[0.0-1.0]\n性格判定における成功確率の最大値を設定します。派閥の特性が条件と完全に一致していても、成功確率はこの値が上限となります。（デフォルト: 0.70）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_infest_enabled">
+        <text>占拠時の専用スポーン</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_infest_enabled_desc">
+        <text>占拠されたスマートテレインに専用のスポーンを適用します。本来のスポーン設定が、占拠した種族のものに置き換わります。</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_infest_max_per_level">
+        <text>マップごとの最大占拠数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_infest_max_per_level_desc">
+        <text>[1-5]\n各マップ（レベル）で占拠できるスマートテレインの最大数を設定します。（デフォルト: 1）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_infest_spawn_num">
+        <text>スポーン数</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_infest_spawn_num_desc">
+        <text>[1-5]\n占拠されたエリアで生成される分隊の数を設定します。（デフォルト: 3）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_infest_decay_hours">
+        <text>占拠の解除時間（時間）</text>
+    </string>
+    <string id="ui_mcm_ap_consequences_instinct_infest_infest_decay_hours_desc">
+        <text>[0-168]\n占拠状態が自然に解除されるまでのゲーム内時間を設定します。0に設定すると永久に解除されません。（デフォルト: 0）</text>
+    </string>
+
+    <!-- ==================== CAUSE: INSTINCTS (INFEST ADDITIONS) ==================== -->
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_infest_enabled">
+        <text>拠点占拠</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_infest_enabled_desc">
+        <text>「拠点占拠」の欲求を有効にします。ミュータントがスマートテレインを巣として占拠しようと行動するようになります。</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_infest_threshold">
+        <text>拠点占拠イベントの発生間隔（時間）</text>
+    </string>
+    <string id="ui_mcm_ap_causes_instincts_cause_instinct_infest_threshold_desc">
+        <text>[0.1-48]\n「拠点占拠」の欲求がアクティブになるまでのゲーム内時間を設定します。値を大きくするほど発生頻度が下がります。（デフォルト: 24）</text>
+    </string>
+</string_table>
