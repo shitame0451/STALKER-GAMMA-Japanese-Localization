@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <string_table>
 	<string id="ui_mcm_body_health_system_hud_toggle_key_bind">
 		<text>HUDの表示切り替え</text>
+	</string>
+	<string id="ui_mcm_body_health_system_chance_damage_on_footstep">
+		<text>ダッシュ時のダメージ発生率</text>
+	</string>
+	<string id="ui_mcm_body_health_system_chance_damage_on_footstep_desc">
+		<text>脚を骨折した状態でダッシュ（スプリント）した際に、プレイヤーが追加のダメージを受ける確率を設定します。</text>
 	</string>
 </string_table>
