@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <!-- Sorter -->
+    <string id="ui_get_item_from">
+        <text>%c[pda_white]以下のアイテムを分解して入手可能:</text>
+    </string>
+</string_table>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+	
+    <string id="ui_mcm_uicellcontainer_optimize_title">
+		<text>Inventory Antifreeze</text>
+	</string>
+    <string id="ui_mcm_menu_uicellcontainer_optimize">
+		<text>Inventory Antifreeze</text>
+	</string>
+    <string id="ui_mcm_uicellcontainer_optimize_enabled">
+		<text>有効化</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_deferredLimit">
+		<text>Inventory Antifreezeが実行されるアイテム数の下限</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_sort_step2">
+		<text>UI更新時のソート処理回数</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_sort_step2_desc">
+		<text>この値を増やすとインベントリの開閉は高速になりますが、表示の滑らかさが損なわれる可能性があります。</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_icon_step">
+		<text>UI更新時のアイコン描画回数</text>
+	</string>
+	<string id="ui_mcm_uicellcontainer_optimize_icon_step_desc">
+		<text>この値を増やすと、1フレームあたりのアイコン描画数が増加し、フレームレートに大きな負荷がかかる可能性があります。</text>
+	</string>
+</string_table>

@@ -1,0 +1,127 @@
+<string_table>
+	<string id="ui_mcm_menu_laser_settings">
+		<text>Laser Settings</text>
+	</string>
+	<string id="ui_mcm_title_laser_settings">
+		<text>レーザーサイト設定</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_no_laser_primary_aim">
+		<text>エイム時のレーザー非表示（メイン）</text>
+	</string>
+	<string id="ui_mcm_laser_settings_no_laser_primary_aim_desc">
+		<text>ADSした際に、レーザーを非表示にします。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_no_laser_alt_aim">
+		<text>エイム時のレーザー非表示（オルト）</text>
+	</string>
+	<string id="ui_mcm_laser_settings_no_laser_alt_aim_desc">
+		<text>オルトエイム（斜め構えなど）を使用した際に、レーザーを非表示にします。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_dist_bright">
+		<text>距離による明るさの減衰</text>
+	</string>
+	<string id="ui_mcm_laser_settings_dist_bright_desc">
+		<text>対象との距離が離れるにつれて、レーザーの明るさを減衰させます。無効にすると、距離に関係なく常に一定の明るさを保ちます。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_dist_size">
+		<text>距離によるサイズの縮小</text>
+	</string>
+	<string id="ui_mcm_laser_settings_dist_size_desc">
+		<text>対象との距離が離れるにつれて、レーザードットのサイズを小さくします。無効にすると、距離に関係なく常に一定のサイズを保ちます。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_config_key">
+		<text>設定パネルを開く（Laser Settings）</text>
+	</string>
+	<string id="ui_mcm_laser_settings_config_key_desc">
+		<text>武器ごとのレーザー設定パネルを開くためのキーを指定します。レーザーサイトが装着された武器を手に持った状態で、このキーを押してください。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_debug_mode">
+		<text>デバッグモード</text>
+	</string>
+	<string id="ui_mcm_laser_settings_debug_mode_desc">
+		<text>MODパック制作者向けの設定です。武器ごとの設定パネルに「デフォルトへ出力」ボタンを追加し、設定を配布用の設定ファイルに書き出せるようにします。</text>
+	</string>
+	<string id="ui_mcm_laser_settings_use_mcm_defaults">
+		<text>グローバルデフォルト設定の適用</text>
+	</string>
+	<string id="ui_mcm_laser_settings_use_mcm_defaults_desc">
+		<text>有効にすると、以下で設定したスライダーの値が、すべての武器のレーザーにおけるデフォルトの外観として適用されます。ただし、武器ごとに個別設定が行われている場合は、そちらが優先されます。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_brightness">
+		<text>ドットの明るさ</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_brightness_desc">
+		<text>対象物に投影されるレーザードットの明るさ（強度）を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_dot_size">
+		<text>ドットのサイズ</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_dot_size_desc">
+		<text>対象物に投影されるレーザードットの大きさを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_beam_brightness">
+		<text>ビームの明るさ</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_beam_brightness_desc">
+		<text>空中に可視化されるレーザー光線（ビーム）の明るさ（強度）を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_beam_size">
+		<text>ビームの太さ</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_beam_size_desc">
+		<text>空中に可視化されるレーザー光線（ビーム）の太さを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_laser_settings_mcm_hue">
+		<text>色相（レーザーカラー）</text>
+	</string>
+	<string id="ui_mcm_laser_settings_mcm_hue_desc">
+		<text>レーザーの色を変更します（0：赤、33：緑、66：青）。</text>
+	</string>
+	<string id="ui_laser_panel_title">
+		<text>レーザーサイト設定</text>
+	</string>
+	<string id="ui_laser_panel_brightness">
+		<text>ドットの明るさ</text>
+	</string>
+	<string id="ui_laser_panel_dot_size">
+		<text>ドットのサイズ</text>
+	</string>
+	<string id="ui_laser_panel_beam_brightness">
+		<text>ビームの明るさ</text>
+	</string>
+	<string id="ui_laser_panel_beam_size">
+		<text>ビームの太さ</text>
+	</string>
+	<string id="ui_laser_panel_hue">
+		<text>レーザーカラー（色相）</text>
+	</string>
+	<string id="ui_laser_panel_hide_primary">
+		<text>メインエイム時に非表示</text>
+	</string>
+	<string id="ui_laser_panel_hide_alt">
+		<text>オルトエイム時に非表示</text>
+	</string>
+	<string id="ui_laser_panel_reset">
+		<text>デフォルトにリセット</text>
+	</string>
+	<string id="ui_laser_panel_export">
+		<text>デフォルトへ出力</text>
+	</string>
+	<string id="ui_laser_panel_close">
+		<text>閉じる</text>
+	</string>
+	<string id="ui_laser_panel_exported">
+		<text>レーザー設定を [%s] に出力しました</text>
+	</string>
+</string_table>

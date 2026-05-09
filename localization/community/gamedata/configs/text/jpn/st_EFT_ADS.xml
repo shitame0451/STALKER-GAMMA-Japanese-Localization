@@ -1,0 +1,284 @@
+<string_table>
+    <!-- MCM -->
+    <string id="ui_mcm_menu_EFT_ADS">
+        <text>Non-Linear ADS</text>
+    </string>
+    <string id="ui_mcm_menu_EFT_ADS_Title">
+        <text>ノンリニアADSアニメーション</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_weapon_mod">
+        <text>武器クラス別強度調整</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_weapon_speed">
+        <text>武器クラス別速度調整</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_anim_on_sprint">
+        <text>スプリント時のみアニメーション再生</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_weapon_mod_title">
+        <text>武器クラス別調整</text>
+    </string>
+	<string id="ui_mcm_menu_EFT_ADS_max_min">
+        <text>速度と強度の最大値・最小値</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_anim_on_sprint">
+        <text>スプリント時のみアニメーションを有効化</text>
+    </string>
+	
+	<string id="ui_mcm_menu_EFT_ADS_aim_anim">
+        <text>エイムアニメーションを考慮した長さに設定</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_aim_anim_out">
+        <text>エイムアニメーションがある場合の解除アニメーションを無効化</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_aim_anim_out_desc">
+        <text>ADS解除時に複数のアニメーションが競合して不自然な動作（SVDS Retributionでの奇妙なブレなど）が発生するのを防ぐ設定です。有効にすると、専用のアニメーション（aim_anim_out）が存在する武器のADS解除アニメーションを無視します。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_aim_anim">
+	    <text>エイムアニメーションに基づく長さを有効化</text>
+	</string>
+	<string id="ui_mcm_EFT_ADS_aim_anim_speed">
+	    <text>エイムアニメーションの速度倍率</text>
+	</string>
+		
+	<string id="ui_mcm_EFT_ADS_anim_on_sprint_delay">
+        <text>スプリント後のアニメーション遅延を無効化</text>
+    </string>
+	
+	<string id="ui_mcm_menu_EFT_ADS_arm_health">
+        <text>腕部の体力によるアニメーション強度への影響</text>
+    </string>
+	
+	<string id="ui_mcm_menu_EFT_ADS_weapon_handling">
+        <text>武器のハンドリングによる強度への影響</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_affect">
+        <text>ハンドリングがアニメーション強度に影響</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_factor">
+        <text>ハンドリングによる強度の影響度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_factor_desc">
+        <text>武器のハンドリング性能が、アニメーション強度に与える影響度を調整します。値を高くするほどハンドリングの影響が強くなります。例として、値を「4」に設定するとハンドリング100%の武器で強度が0.2倍に、「1」に設定すると0.5倍に軽減されます。計算式:(係数 / (係数 + (ハンドリング / 100)^ハンドリング指数)) + ハンドリングオフセット</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_max_handling_factor">
+        <text>最大ハンドリング倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_exponent">
+        <text>ハンドリング指数</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_exponent_desc">
+        <text>ハンドリングの計算式に使用する指数を調整します。値を高くするほど、ハンドリング性能が上がった際の強度倍率の低下（アニメーションの安定化）がより急激になります。計算式:(係数 / (係数 + (ハンドリング / 100)^ハンドリング指数)) + ハンドリングオフセット</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_handling_offset">
+        <text>ハンドリングオフセット</text>
+    </string>
+	
+	<string id="ui_mcm_menu_EFT_ADS_weapon_weight">
+        <text>武器の重量による速度への影響</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_weight_affect">
+        <text>重量がアニメーション速度に影響</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_weight_factor">
+        <text>重量による速度の影響度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_weight_threshold">
+        <text>重量影響が発生するしきい値</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Play_anim">
+        <text>アニメーション再生の有効化</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Play_anim_desc">
+        <text>ノンリニアADSアニメーション機能自体の有効／無効を切り替えます。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in">
+        <text>ADS開始アニメーションの速度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_desc">
+        <text>ADSを開始する際のアニメーション速度を調整します。値を下げるほど動きが遅く、上げるほど速くなります。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_min_speed">
+        <text>最小アニメーション速度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_min_speed_desc">
+        <text>アニメーションが極端に遅くなるのを防ぐための設定です。他の設定によって速度が低下しても、ここで設定した値が下限となります。過度に動作が遅くなるのを避けるため、0.9に設定することをおすすめします。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_max_speed">
+        <text>最大アニメーション速度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_min_speed_desc">
+        <text>アニメーション速度の上限値を設定します。他の設定によって速度が上昇しても、ここで設定した値より速くなることはありません。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_min_power">
+        <text>最小アニメーション強度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_min_power_desc">
+        <text>アニメーション強度の下限値を設定します。他の設定によって強度が低下しても、ここで設定した値より動きが小さくなることはありません。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_max_power">
+        <text>最大アニメーション強度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_max_power_desc">
+        <text>アニメーション強度の上限値を設定します。他の設定によって強度が上昇しても、ここで設定した値より動きが大きくなることはありません。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power">
+        <text>ADS開始アニメーションの強度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_desc">
+        <text>ADSを開始する際のアニメーション強度を調整します。値を上げるほど銃の動きや揺れが大きくなり、下げるほど控えめになります。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_out">
+        <text>ADS解除アニメーションの速度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_out_desc">
+        <text>ADSを解除する際のアニメーション速度を調整します。値を下げるほど動きが遅く、上げるほど速くなります。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_out_power">
+        <text>ADS解除アニメーションの強度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_out_power_desc">
+        <text>ADSを解除する際のアニメーション強度を調整します。値を上げるほど銃の動きや揺れが大きくなり、下げるほど控えめになります。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Debug">
+        <text>デバッグログの出力</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Debug_desc">
+        <text>有効にすると、詳細なデバッグ情報がログファイルに出力されます。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_gl_anim">
+        <text>グレネードランチャーのアニメーションを有効化</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_gl_anim_desc">
+        <text>グレネードランチャーのADS時にもノンリニアアニメーションを適用するかどうかを設定します。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Pistol_Allowed">
+        <text>ピストルのアニメーションを有効化</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Pistol_Allowed_desc">
+        <text>ピストルのADS時にもノンリニアアニメーションを適用するかどうかを設定します。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_alt_aim_allowed">
+        <text>オルトエイムのアニメーションを有効化</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_alt_aim_cheese_delay">
+        <text>オルトエイムの切り替え遅延</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_alt_aim_cheese_delay_desc">
+        <text>サイトの高速切り替えによるアニメーションスキップを防ぐための設定です。オルトエイムからメインエイムに切り替えた直後の、アニメーションを抑制する待機時間を指定します。「0.2」程度に設定することをおすすめします。「オルトエイムのアニメーションを有効化」がオンの場合は機能しません。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Pistol_Allowed_desc">
+        <text>オルトエイム（斜め構えなど）の際にもノンリニアアニメーションを適用するかどうかを設定します。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_Strength_factor">
+        <text>ストレングススキルによるアニメーション強度への影響</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_factor_desc">
+        <text>Harukaのスキルシステムアドオンのストレングスレベルが、アニメーション強度に影響を与える機能を有効にします。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Arm_Health_factor">
+        <text>腕部の体力によるアニメーション強度への影響</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Arm_Health_factor_desc">
+        <text>BHSにおける腕部の体力（負傷状態）が、アニメーション強度に影響を与える機能を有効にします。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Arm_Health_factor_factor">
+        <text>腕部の体力による強度影響度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Arm_Health_factor_factor_desc">
+        <text>BHSにおける腕部の体力が低下した際、アニメーション強度が悪化する度合いを調整します。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_power_factor_factor">
+        <text>ストレングススキルによる強度影響度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_power_factor_factor_desc">
+        <text>Harukaのスキルシステムアドオンのストレングスレベルが上昇した際、アニメーション強度が軽減される度合いを調整します。</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_speed_factor_factor">
+        <text>ストレングススキルによる速度影響度</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Strength_speed_factor_factor_desc">
+        <text>Harukaのスキルシステムアドオンのストレングスレベルが上昇した際、ADSアニメーション速度が向上する度合いを調整します。</text>
+    </string>
+	
+	
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_pistol">
+        <text>ピストルの強度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_smg">
+        <text>SMGの強度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_shotgun">
+        <text>ショットガンの強度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_rifle">
+        <text>ライフルの強度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_sniper">
+        <text>スナイパーライフルの強度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_pistol">
+        <text>ピストルの速度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_smg">
+        <text>SMGの速度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_shotgun">
+        <text>ショットガンの速度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_rifle">
+        <text>ライフルの速度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_sniper">
+        <text>スナイパーライフルの速度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_power_lmg">
+        <text>LMGの強度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_Speed_Mulitplier_in_speed_lmg">
+        <text>LMGの速度倍率</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_lmg_separation">
+        <text>LMGをライフルカテゴリから分離</text>
+    </string>
+	<string id="ui_mcm_EFT_ADS_lmg_separation_desc">
+        <text>LMGをアサルトライフル等のカテゴリから独立させ、個別の設定値を適用できるようにします。無効にした場合、LMGはライフルの速度および強度倍率に従って動作します。</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_anim_variants">
+        <text>アニメーションのバリエーション</text>
+    </string>
+	
+	<string id="ui_mcm_EFT_ADS_anim_variants_desc">
+        <text>再生されるアニメーションのスタイルを変更します。腕が骨折している際のアニメーションには影響しません。</text>
+    </string>
+	
+	<string id="EFT_ADS_anim_variants_lst_def">
+        <text>デフォルトアニメーション</text>
+    </string>
+	
+	<string id="EFT_ADS_anim_variants_lst_no_movement">
+        <text>クロスヘア固定</text>
+    </string>
+	
+	<string id="EFT_ADS_anim_variants_lst_extreme">
+        <text>強調</text>
+    </string>
+	
+	<string id="EFT_ADS_anim_variants_lst_lizard">
+        <text>Lizzardmanスタイル</text>
+    </string>
+	
+</string_table>

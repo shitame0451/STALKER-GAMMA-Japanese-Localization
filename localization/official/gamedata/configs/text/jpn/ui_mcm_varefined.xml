@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+    <string id="ui_mcm_menu_varefined">
+        <text>VA Refined</text>
+    </string>
+    <string id="ui_mcm_varefined_title">
+        <text>Voiced Actor Refined</text>
+    </string>
+    <string id="ui_mcm_menu_varefined_main">
+        <text>一般設定</text>
+    </string>
+    <string id="ui_mcm_menu_varefined_generated_chance">
+        <text>リアクション発生率</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_voice_language_description">
+        <text>プレイヤーキャラクターのボイス言語を設定します。「派閥別」を選択すると、ISGと傭兵は英語、その他の派閥はロシア語を話します。「ロシア語」または「英語」を選択すると、すべての派閥でその言語が適用されます。この設定はゲームプレイ中いつでも変更可能です。</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_voice_language">
+        <text>プレイヤーのボイス言語</text>
+    </string>
+    <string id="ui_mcm_lst_voice_language_by_faction">
+        <text>派閥別</text>
+    </string>
+    <string id="ui_mcm_lst_voice_language_russian">
+        <text>ロシア語</text>
+    </string>
+    <string id="ui_mcm_lst_voice_language_english">
+        <text>英語</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_shouts_description">
+        <text>特定の状況下でプレイヤーが発する様々な叫び声の有効／無効を切り替えます。※不適切な表現（暴言）が含まれる場合があります。プレイ中いつでも変更可能です。注意: WPO（Weapon Parts Overhaul）の「弾詰まり時の悪態」設定が有効になっている場合、音声が重複して不自然になるのを防ぐため、本アドオンがWPO側の設定を自動的に無効化します。</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_on_kill_shouts">
+        <text>キル時のボイス</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_on_weapon_jam_shouts">
+        <text>武器ジャム時のボイス</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_on_weapon_reload_shouts">
+        <text>リロード時のボイス</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_on_grenade_throw_shouts">
+        <text>グレネード投擲時のボイス</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_companions_commands_shouts">
+        <text>コンパニオンへの指示ボイス</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_shouts_pain_muffled_description">
+        <text>被ダメージ時の苦痛の声や、マスク／ヘルメット装着時に声がこもる演出の有効／無効を設定します。プレイ中いつでも変更可能です。</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_pain_shouts">
+        <text>苦痛ボイス</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_enable_muffled_shouts">
+        <text>マスク／ヘルメット装着時の声のこもり</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_comments_shouts_key_description">
+        <text>キー入力によって、周囲の環境やプレイヤーの状態に応じたコメント（ボイス）を発します。※不適切な表現（暴言）が含まれる場合があります。プレイ中いつでも変更可能です。</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_comments_shouts_key">
+        <text>状況コメント</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_random_shouts_key_description">
+        <text>キー入力によって、周囲の環境や状態とは無関係にランダムなセリフを発します。※不適切な表現（暴言）が含まれる場合があります。プレイ中いつでも変更可能です。</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_random_shouts_key">
+        <text>ランダムセリフ</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_shouts_volume_description">
+        <text>このアドオンによって追加されるすべてのボイスの音量を調整します。</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_shouts_volume">
+        <text>追加ボイスの音量</text>
+    </string>
+</string_table>

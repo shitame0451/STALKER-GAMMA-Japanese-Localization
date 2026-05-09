@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+    <string id="ui_mcm_menu_lower_weapon_sprint">
+        <text>Lower Weapon Sprint</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_keybind">
+        <text>ブラックリストに追加／削除（Lower Weapon Sprint）</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_apply_for_all_wpn_variations">
+        <text>すべての武器バリエーションに適用</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_apply_for_all_wpn_variations_desc">
+        <text>有効にすると、アタッチメントの構成を問わず、同じ種類の武器すべてに本アドオンの機能が適用されます。</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_reverse_blacklist">
+        <text>ブラックリストを反転</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_reverse_blacklist_desc">
+        <text>有効にすると、ブラックリストに登録された武器にのみ本アドオンの機能が適用され、それ以外の武器には適用されなくなります。</text>
+    </string>
+	<string id="ui_mcm_lower_weapon_sprint_clear_blacklist">
+        <text>ブラックリストをクリア</text>
+    </string>
+	<string id="ui_lower_weapon_sprint_blacklist_add">
+        <text>現在の武器をブラックリストに追加しました</text>
+    </string>
+	<string id="ui_lower_weapon_sprint_blacklist_remove">
+        <text>現在の武器をブラックリストから削除しました</text>
+    </string>
+	<string id="ui_lower_weapon_sprint_blacklist_cleared">
+        <text>ブラックリストをクリアしました</text>
+    </string>
+</string_table>

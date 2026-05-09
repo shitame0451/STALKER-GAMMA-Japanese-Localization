@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+    <string id="ui_mcm_menu_hideout_cat_settings">
+        <text>Hideout cat</text>
+    </string>
+
+    <string id="ui_hideout_cat_mcm_sld">
+        <text>Hideout cat</text>
+    </string>
+
+    <string id="ui_mcm_hideout_cat_sld_text">
+        <text>Hideout cat</text>
+    </string>
+
+    <string id="ui_mcm_hideout_cat_color_help">
+        <text>猫の毛色を選択できます。</text>
+    </string>
+
+    <string id="ui_mcm_hideout_cat_settings_hideout_cat_color">
+        <text>毛色</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_orange">
+        <text>オレンジ</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_black">
+        <text>黒</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_white">
+        <text>白</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_black_spots">
+        <text>黒地に白ぶち</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_white_spots">
+        <text>白地に黒ぶち</text>
+    </string>
+
+    <string id="ui_mcm_lst_color_brown">
+        <text>茶色の縞模様</text>
+    </string>
+	<string id="ui_mcm_hideout_cat_settings_hideout_cat_fur_hidden">
+        <text>アルファテクスチャの毛を非表示</text>
+    </string>
+	<string id="ui_mcm_hideout_cat_settings_hideout_cat_fur_hidden_descr">
+        <text>シェーディングによるライティングの不具合が発生する場合、アルファテクスチャの毛を非表示にしてください。</text>
+    </string>
+	<string id="st_hideout_cat">
+        <text>隠れ家の猫</text>
+    </string>
+    <string id="st_hideout_cat_descr">
+		<text>飼いならされた猫。どういうわけか、ゾーンに迷い込んだようだ。エミッションの間もぐっすり眠り、アノマリーのように喉を鳴らす姿は、ストーカーたちに故郷の温かさを思い出させてくれるだろう。\n \n
+			%c[ui_white]特性:\n
+			%c[d_orange] • %c[pda_white]設置できる\n</text>
+	</string>
+	<string id="st_hideout_cat_bed">
+        <text>猫用ベッド</text>
+    </string>
+    <string id="st_hideout_cat_bed_descr">
+		<text>猫用の快適なベッド。\n \n
+			%c[ui_white]特性:\n
+			%c[d_orange] • %c[pda_white]設置できる\n</text>
+	</string>
+</string_table>

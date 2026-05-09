@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+    <string id="st_alarm_system">
+        <text>警報システム</text>
+    </string>
+    <string id="st_alarm_system_descr">
+		<text>ゾーンのジャンク品から組み立てられた現地製の防衛モジュール。見た目は不格好で作動音も耳障りだが、警戒線が突破された際に貴重な数秒を稼いでくれる。\n \n
+			%c[ui_white]特性:\n
+			%c[d_orange] • %c[pda_white]設置できる\n</text>
+	</string>
+	<string id="st_artifact_harvester">
+		<text>アーティファクトハーベスター</text>
+	</string>
+	<string id="st_artifact_harvester_descr">
+		<text>各種アーティファクトから資源を抽出する装置。資源を生成する際、アーティファクトの効率値が減少する。\n \n
+			%c[ui_white]特性:\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+			%c[d_orange] • %c[ui_white]対応アーティファクト: 奇妙なパン、バブル、クリスタル、デスランプ、ファイアボール、フレイム、グラビ、ミートチャンク、ピン、スノーフレーク、スポンジ\n
+			</text>
+	</string>
+	<string id="st_pegboard">
+		<text>武器展示用有孔ボード</text>
+	</string>
+	<string id="st_pegboard_descr">
+		<text>武器を最大3つまで飾ることができる有孔ボード。\n \n
+			%c[ui_white]特性:\n
+			%c[d_orange] • %c[pda_white]設置できる\n</text>
+	</string>
+	<string id="st_pegboard_pistol">
+		<text>ハンドガン展示用有孔ボード</text>
+	</string>
+	<string id="st_pegboard_pistol_descr">
+		<text>ハンドガンを最大9つまで飾ることができる有孔ボード。\n \n
+			%c[ui_white]特性:\n
+			%c[d_orange] • %c[pda_white]設置できる\n</text>
+	</string>
+	<string id="st_headgear_display">
+		<text>ヘッドギア展示台</text>
+	</string>
+	<string id="st_headgear_display_descr">
+		<text>ヘッドギアを展示するための台座。\n \n
+			%c[ui_white]特性:\n
+			%c[d_orange] • %c[pda_white]設置できる\n</text>
+	</string>
+    <string id="st_trading_computer">
+		<text>トレード用端末</text>
+	</string>
+	<string id="st_trading_computer_descr">
+		<text>周辺のトレーダーと通信するための端末。\n \n
+			%c[ui_white]特性:\n
+			%c[d_orange] • %c[pda_white]設置できる\n</text>
+	</string>
+	<string id="st_trading_computer_title">
+        <text>トレード用端末</text>
+    </string>
+    <string id="st_trading_computer_hint_select">
+        <text>取引相手を選択して「取引」ボタンをクリックしてください</text>
+    </string>
+    <string id="st_trading_computer_hint_no_traders">
+        <text>取引可能な相手がいません</text>
+    </string>
+    <string id="st_trading_computer_count">
+        <text>見つかった取引相手: %d人</text>
+    </string>
+    <string id="st_trading_computer_btn_trade">
+        <text>取引</text>
+    </string>
+    <string id="st_trading_computer_btn_refresh">
+        <text>更新</text>
+    </string>
+    <string id="st_trading_computer_btn_close">
+        <text>閉じる</text>
+    </string>
+    <string id="st_trading_computer_entry_format">
+        <text>%d. [%s] %s [%dm]</text>
+    </string>
+    <string id="st_trading_computer_role_medic">
+        <text>衛生兵</text>
+    </string>
+    <string id="st_trading_computer_role_scientist">
+        <text>科学者</text>
+    </string>
+    <string id="st_trading_computer_role_technician">
+        <text>技術者</text>
+    </string>
+    <string id="st_trading_computer_role_barman">
+        <text>バーテンダー</text>
+    </string>
+    <string id="st_trading_computer_role_trader">
+        <text>トレーダー</text>
+    </string>
+</string_table>
+
+
