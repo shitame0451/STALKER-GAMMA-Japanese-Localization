@@ -149,13 +149,13 @@
 		<text>機械置き場へ。%c[d_orange] [800ルーブル]</text>
 	</string>
 	<string id="travel_guid_marsh_csky_6">
-		<text>コードンのルーキー村へ。%c[d_orange] [1,500ルーブル]</text>
+		<text>コードンのルーキー村へ。%c[d_orange] [1,000ルーブル]</text>
 	</string>
 	<string id="travel_guid_marsh_csky_7">
-		<text>アグロプロムへ。%c[d_orange] [2,000ルーブル]</text>
+		<text>ヤンターへ。%c[d_orange] [1,500ルーブル]</text>
 	</string>
 	<string id="travel_guid_marsh_csky_8">
-		<text>100ラッズ・バーへ。%c[d_orange] [4,000ルーブル]</text>
+		<text>ジュピターの移動研究所へ。%c[d_orange] [8,000ルーブル]</text>
 	</string>
 	<string id="travel_guid_marsh_csky_9">
 		<text>気が変わった。</text>
