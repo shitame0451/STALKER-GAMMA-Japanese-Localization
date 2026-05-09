@@ -2,6 +2,6 @@
 
 <string_table>
 	<string id="ui_mcm_body_health_system_hud_toggle_key_bind">
-		<text>HUDの切り替え</text>
+		<text>HUDの表示切り替え</text>
 	</string>
 </string_table>
