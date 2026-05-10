@@ -98,8 +98,8 @@
 	<string id="st_af_kevlar_descr">
 		<text>ケブラープレートは優れた防護性能を持ち、スチールプレートに代わる軽量な代替品として広く知られている。これを装着すると、小火器に対する耐性が向上する。\n \n
 		%c[pda_white]特性:\n
-		%c[d_green] • %c[pda_white]BRクラス +1\n
-		%c[d_green] • %c[pda_white]BRクラスのダメージ軽減 +5%\n
+		%c[d_green] • %c[pda_white]BRクラス: +1\n
+		%c[d_green] • %c[pda_white]BRクラス軽減率: +5%\n
 		%c[d_cyan] • %c[pda_white]防護は腕、脚、胴体のみに適用される\n
 		</text>
 	</string>
@@ -109,8 +109,8 @@
 	<string id="st_af_kevlar_up_descr">
 		<text>ケブラープレートは優れた防護性能を持ち、スチールプレートに代わる軽量な代替品として広く知られている。これを装着すると、小火器に対する耐性が向上する。\n \n
 		%c[pda_white]特性:\n
-		%c[d_green] • %c[pda_white]BRクラス +3\n
-		%c[d_green] • %c[pda_white]BRクラスのダメージ軽減 +8%\n
+		%c[d_green] • %c[pda_white]BRクラス: +3\n
+		%c[d_green] • %c[pda_white]BRクラス軽減率: +8%\n
 		%c[d_cyan] • %c[pda_white]防護は腕、脚、胴体のみに適用される\n
 		</text>
 	</string>
@@ -120,8 +120,8 @@
 	<string id="st_af_plates_descr">
 		<text>弾道耐性の向上を目的として、特殊な加工と熱処理が施されたスチールプレート。幅広い防護用途に対応できるが、その重量のため機動性が低下するという欠点がある。\n \n
 		%c[pda_white]特性:\n
-		%c[d_green] • %c[pda_white]BRクラス +6\n
-		%c[d_green] • %c[pda_white]BRクラスのダメージ軽減 +12%\n
+		%c[d_green] • %c[pda_white]BRクラス: +6\n
+		%c[d_green] • %c[pda_white]BRクラス軽減率: +12%\n
 		%c[d_cyan] • %c[pda_white]防護は腕、脚、胴体のみに適用される\n
 		</text>
 	</string>
@@ -131,8 +131,8 @@
 	<string id="st_af_plates_up_descr">
 		<text>弾道耐性の向上を目的として、特殊な加工と熱処理が施されたスチールプレート。幅広い防護用途に対応できるが、その重量のため機動性が低下するという欠点がある。\n \n
 		%c[pda_white]特性:\n
-		%c[d_green] • %c[pda_white]BRクラス +10\n
-		%c[d_green] • %c[pda_white]BRクラスのダメージ軽減 +17%\n
+		%c[d_green] • %c[pda_white]BRクラス: +10\n
+		%c[d_green] • %c[pda_white]BRクラス軽減率: +17%\n
 		%c[d_cyan] • %c[pda_white]防護は腕、脚、胴体のみに適用される\n
 		</text>
 	</string>
@@ -188,8 +188,8 @@
 	<string id="st_hide_boar_descr">
 		<text>ゾーンに生息するイノシシから剥ぎ取った皮。ほとんどが厚い毛に覆われているが、皮自体はかなり薄く、スーツの補強にはあまり向いていない。体温調節を効果的に行えるように適応しているためか、優れた断熱性能を持っている。\n \n
 		%c[pda_white]特性:\n
-		%c[d_green] • %c[pda_white]BRクラス +2\n
-		%c[d_green] • %c[pda_white]BRクラスのダメージ軽減 +5%\n
+		%c[d_green] • %c[pda_white]BRクラス: +2\n
+		%c[d_green] • %c[pda_white]BRクラス軽減率: +5%\n
 		%c[d_purple] • %c[pda_white]科学標本\n
 		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
 		</text>
@@ -250,8 +250,8 @@
 	<string id="st_hide_pseudogiant_descr">
 		<text>スードウジャイアントの皮は約2cmの厚みを持ち、極めて高い耐久性を誇るが、その分重量も大きい。また、放射線や毒性物質が含まれる環境に適応しており、スーツの補強材として高い価値を持っている。ただし、加工には特殊な技術と最高級のツールが必要となる。\n \n
 		%c[pda_white]特性:\n
-		%c[d_green] • %c[pda_white]BRクラス +4\n
-		%c[d_green] • %c[pda_white]BRクラスのダメージ軽減 +10%\n
+		%c[d_green] • %c[pda_white]BRクラス: +4\n
+		%c[d_green] • %c[pda_white]BRクラス軽減率: +10%\n
 		%c[d_purple] • %c[pda_white]科学標本\n
 		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
 		</text>

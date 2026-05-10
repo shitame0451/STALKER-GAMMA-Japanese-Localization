@@ -91,7 +91,7 @@
   <string id="st_pba_af_ear_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]生きる意志\n
-    %c[d_green] • %c[pda_white]BRクラスのダメージ軽減 +6%\n
+    %c[d_green] • %c[pda_white]BRクラス軽減率: +6%\n
     %c[d_orange] • %c[pda_white]体力が25%より低い時、体力の自動回復効果を得る\n
     %c[d_orange] • %c[pda_white]自動回復の効果量は体力が少ないほど強くなる\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
@@ -298,7 +298,7 @@
   <string id="st_pba_af_kogot_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ベルセルク\n
-    %c[d_green] • %c[pda_white]BRクラスのダメージ軽減 +6%\n
+    %c[d_green] • %c[pda_white]BRクラス軽減率: +6%\n
     %c[d_orange] • %c[pda_white]近接ダメージが10%増加する\n
     %c[d_orange] • %c[pda_white]与えた近接ダメージの3.5%がプレイヤーの体力に変換される\n
     %c[d_orange] • %c[pda_white]特定のミュータントを倒すと、近くに生の肉塊が出現する可能性がある\n

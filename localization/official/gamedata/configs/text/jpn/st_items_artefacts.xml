@@ -190,7 +190,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アーティファクト\n
 		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない\n
-		%c[0,209,172,56] • %c[pda_white]BRクラスのダメージ軽減 +4%\n</text>
+		%c[0,209,172,56] • %c[pda_white]BRクラス軽減率: +4%\n</text>
 	</string>
 	<string id="st_af_gravi_name">
 		<text>«グラビ»</text>
@@ -200,7 +200,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アーティファクト\n
 		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない\n
-		%c[0,209,172,56] • %c[pda_white]BRクラスのダメージ軽減 +6%\n</text>
+		%c[0,209,172,56] • %c[pda_white]BRクラス軽減率: +6%\n</text>
 	</string>
 	<string id="st_af_gold_fish_name">
 		<text>«ゴールドフィッシュ»</text>
@@ -210,7 +210,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アーティファクト\n
 		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない\n
-		%c[0,209,172,56] • %c[pda_white]BRクラスのダメージ軽減 +8%\n</text>
+		%c[0,209,172,56] • %c[pda_white]BRクラス軽減率: +8%\n</text>
 	</string>
 	<string id="st_af_dummy_glassbeads_name">
 		<text>«ママズ・ビーズ»</text>
@@ -283,7 +283,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アーティファクト\n
 		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない\n
-		%c[0,209,172,56] • %c[pda_white]BRクラスのダメージ軽減 +3%\n</text>
+		%c[0,209,172,56] • %c[pda_white]BRクラス軽減率: +3%\n</text>
 	</string>
 	<string id="st_af_glass_name">
 		<text>«ファイアフライ»</text>
@@ -293,7 +293,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アーティファクト\n
 		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない\n
-		%c[0,209,172,56] • %c[pda_white]BRクラスのダメージ軽減 +5%\n</text>
+		%c[0,209,172,56] • %c[pda_white]BRクラス軽減率: +5%\n</text>
 	</string>
 	<string id="st_af_compass_name">
 		<text>«コンパス»</text>
@@ -312,7 +312,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アーティファクト\n
 		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない\n
-		%c[0,209,172,56] • %c[pda_white]BRクラスのダメージ軽減 +8%\n</text>
+		%c[0,209,172,56] • %c[pda_white]BRクラス軽減率: +8%\n</text>
 	</string>
 	<string id="st_af_death_lamp_name">
 		<text>«デスランプ»</text>
@@ -322,7 +322,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アーティファクト\n
 		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない\n
-		%c[0,209,172,56] • %c[pda_white]BRクラスのダメージ軽減 +12%\n</text>
+		%c[0,209,172,56] • %c[pda_white]BRクラス軽減率: +12%\n</text>
 	</string>
 	<string id="st_af_monolith_name">
 		<text>«ヴォラットエメラルド»</text>
