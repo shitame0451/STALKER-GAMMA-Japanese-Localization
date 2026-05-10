@@ -151,7 +151,7 @@
     %c[pda_white]特性: \n
     %c[d_green] • %c[ui_gray_1]サプレッサー装着用のスレッドバレル \n
     %c[d_green] • %c[ui_gray_1]PM用改良型サプレッサー \n
-    %c[d_green] • %c[ui_gray_1]レーザーサイト付きZaryaピストルグリップ \n \n</text>
+    %c[d_green] • %c[ui_gray_1]Zarya ピストルグリップ（レーザーサイト付き） \n \n</text>
 </string>
 
 <string id="st_wpn_pm_upgr">
@@ -163,7 +163,7 @@
     %c[pda_white]特性: \n
     %c[d_green] • %c[ui_gray_1]サプレッサー装着用のスレッドバレル \n
     %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニ・ドットサイト \n
-    %c[d_green] • %c[ui_gray_1]オリーブカラーのZaryaピストルグリップ \n	
+    %c[d_green] • %c[ui_gray_1]Zarya ピストルグリップ（オリーブカラー） \n	
     %c[d_green] • %c[ui_gray_1]拡張マガジン（10発） \n \n</text>
 </string>
 
@@ -175,7 +175,7 @@
     <text>Makarov PM 9x18用のタクティカル・アップグレードキット。人間工学を向上させる各部改修と、Zarya Z-1x20 ミニ・ドットサイトが含まれている。 \n \n
     %c[pda_white]特性: \n
     %c[d_green] • %c[ui_gray_1]Zarya Z-1x20 ミニ・ドットサイト \n
-    %c[d_green] • %c[ui_gray_1]オリーブカラーのZaryaピストルグリップ \n	
+    %c[d_green] • %c[ui_gray_1]Zarya ピストルグリップ（オリーブカラー） \n	
     %c[d_green] • %c[ui_gray_1]拡張マガジン（10発） \n \n</text>
 </string>
 
