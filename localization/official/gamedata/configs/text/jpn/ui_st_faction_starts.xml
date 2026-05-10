@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <string_table>
-
+	<!-- SineDeviance Edits/Adds -->
+	<string id="ui_st_train_hangar">
+		<text>ガーベジ [列車格納庫]</text>
+	</string>
+	<string id="ui_st_truck_cemetery_bandits_post">
+		<text>トラック墓地 [検問所]</text>
+	</string>
+	<string id="ui_st_tc_central_tower">
+		<text>トラック墓地 [中央の監視塔]</text>
+	</string>
+	
+	<!-- Stock Anomaly -->
 	<string id="ui_st_abandoned_sawmill">
 		<text>ザトン [放棄された製材所]</text>
 	</string>
@@ -74,9 +85,6 @@
 	<string id="ui_st_sports_center">
 		<text>デッドシティ [スポーツセンター]</text>
 	</string>
-	<string id="ui_st_train_hangar">
-		<text>ガーベジ [列車格納庫]</text>
-	</string>
 	<string id="ui_st_tunnel_entrance">
 		<text>ジュピター [トンネル入口]</text>
 	</string>
@@ -92,9 +100,17 @@
 	<string id="ui_st_pripyat_hospital">
 		<text>プリピャチ郊外 [病院]</text>
 	</string>
+	<string id="ui_st_pumping_station">
+		<text>沼地 [ポンプ場]</text>
+	</string>
 	<string id="ui_st_red_forest_old_mine">
 		<text>赤い森 [坑道兵舎]</text>
 	</string>
+	<string id="ui_st_village_ruins">
+		<text>沼地 [村の廃墟]</text>
+	</string>
+
+	<!-- Last Day -->
 	<string id="ui_st_atp">
 		<text>コルドン [車両基地]</text>
 	</string>
@@ -206,5 +222,4 @@
 	<string id="ui_st_yard_with_a_terrace">
 		<text>リマンスク [中庭のテラス]</text>
 	</string>
-	
 </string_table>
