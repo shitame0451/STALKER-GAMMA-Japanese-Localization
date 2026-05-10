@@ -1116,7 +1116,7 @@
 		<text>よくやった、これが報酬だ。</text>
 	</string>
 
-	<!-- Eliminate Dangerous Mutants for Clear Sky Simulation Task -->
+	<!-- Eliminate Dangerous Mutants General Simulation Task -->
 	<string id="simulation_task_42_name">
 		<text>危険なミュータント退治</text>
 	</string>
@@ -1130,6 +1130,131 @@
 	<string id="simulation_task_42_finish">
 		<text>ありがとう、これを報酬として受け取ってくれ。</text>
 	</string>
+
+	<!-- Eliminate Dangerous Mutants Simulation Task -->
+	<string id="simulation_task_142_name">
+		<text>Ecologistのための危険なミュータント退治</text>
+	</string>
+	<string id="simulation_task_142_text">
+		<text>指定の場所にいる危険なミュータントを排除する。</text>
+	</string>
+	<string id="simulation_task_142_about">
+		<text>ミュータントの群れに襲撃されてしまった。位置情報は記録してある。
+\nこれ以上の被害が出る前に、排除してくれないか？</text>
+	</string>
+	<string id="simulation_task_142_finish">
+		<text>助かったよ。報酬を受け取ってくれ。</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants Simulation Task -->
+	<string id="simulation_task_143_name">
+		<text>Lonerのための危険なミュータント退治</text>
+	</string>
+	<string id="simulation_task_143_text">
+		<text>指定の場所にいる危険なミュータントを排除する。</text>
+	</string>
+	<string id="simulation_task_143_about">
+		<text>たった今、ミュータントの群れに襲われてな。
+\n奴らの居場所を教えるから、誰かが犠牲になる前に片付けてくれ。</text>
+	</string>
+	<string id="simulation_task_143_finish">
+		<text>助かった。これは報酬だ、受け取ってくれ。</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants Simulation Task -->
+	<string id="simulation_task_144_name">
+		<text>Militaryのための危険なミュータント退治</text>
+	</string>
+	<string id="simulation_task_144_text">
+		<text>指定の場所にいる危険なミュータントを排除する。</text>
+	</string>
+	<string id="simulation_task_144_about">
+		<text>先ほど、ミュータントの群れと交戦した。位置を共有しておこう。
+\nこれ以上被害が出る前に、連中を片付けてこい。</text>
+	</string>
+	<string id="simulation_task_144_finish">
+		<text>助かった、礼を言う。これは報酬だ。持っていけ。</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants Simulation Task -->
+	<string id="simulation_task_145_name">
+		<text>Banditのための危険なミュータント退治</text>
+	</string>
+	<string id="simulation_task_145_text">
+		<text>指定の場所にいる危険なミュータントを排除する。</text>
+	</string>
+	<string id="simulation_task_145_about">
+		<text>ついさっき、化け物の野郎どもに突っつかれてな･･････
+\n場所を教えてやるから、さっさと行ってブチ殺してこい。誰か死ぬ前に片付けろよ！</text>
+	</string>
+	<string id="simulation_task_145_finish">
+		<text>やるじゃねえか。ほらよ、手間賃だ。</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants Simulation Task -->
+	<string id="simulation_task_146_name">
+		<text>UNISGのための危険なミュータント退治</text>
+	</string>
+	<string id="simulation_task_146_text">
+		<text>指定の場所にいる危険なミュータントを排除する。</text>
+	</string>
+	<string id="simulation_task_146_about">
+		<text>報告がある。ミュータントの群れに遭遇した。
+\n場所を教えるから、奴らを排除するんだ。犠牲者が出る前に片付けてくれ。</text>
+	</string>
+	<string id="simulation_task_146_finish">
+		<text>仕事は完璧だ。これは協力への報酬だ。</text>
+	</string>
+
+	<!-- Eliminate Dangerous Mutants Simulation Task -->
+	<string id="simulation_task_147_name">
+		<text>Freedomのための危険なミュータント退治</text>
+	</string>
+	<string id="simulation_task_147_text">
+		<text>指定の場所にいる危険なミュータントを排除する。</text>
+	</string>
+	<string id="simulation_task_147_about">
+		<text>クソッ、ついてねえ。ミュータントに追い回されちまった。
+\n場所を教えるから、ちょっと掃除してきてくれないか？放っておくと誰かがケガしちまう。</text>
+	</string>
+	<string id="simulation_task_147_finish">
+		<text>やってくれたか、感謝するよ。これは報酬だ、取っておいてくれ。</text>
+	</string>
+
+	<!-- Eliminate Uber Mutants Simulation Task -->
+	<string id="simulation_task_148_name">
+		<text>ミュータントのボス退治</text>
+	</string>
+	<string id="simulation_task_148_text">
+		<text>指定の場所にいるミュータントのボスを排除する。</text>
+	</string>
+	<string id="simulation_task_148_about">
+		<text>数日前、ある地点へ向かったストーカーたちが消息を絶った。戻った者は一人もいない。
+\nその周辺では「ミュータントのボス」が目撃されたという噂が流れている。
+\n指定のポイントへ向かい、状況を調査してくれ。
+\nもし危険な個体を確認したら、即座に排除してもらいたい。できるか？</text>
+	</string>
+	<string id="simulation_task_148_finish">
+		<text>助かった、これは約束の報酬だ。受け取ってくれ。</text>
+	</string>
+
+	<!-- Eliminate Uber Mutants Simulation Task -->
+	<string id="simulation_task_149_name">
+		<text>ミュータントのボス退治</text>
+	</string>
+	<string id="simulation_task_149_text">
+		<text>指定の場所にいるミュータントのボスを排除する。</text>
+	</string>
+	<string id="simulation_task_149_about">
+		<text>数日前、ある場所へ向かった仲間たちが戻ってこないんだ･･････ 嫌な予感しかしない。
+\nちょうどその辺りで、化け物の中の化け物─「主」みたいな奴を見たって噂があってな。
+\nあんた、その場所へ行って様子を見てきてくれないか？
+\nもしヤバそうなのがいたら、誰かがまた犠牲になる前に仕留めてほしいんだ。頼めるか？</text>
+	</string>
+	<string id="simulation_task_149_finish">
+		<text>恩にきるよ。これはあんたへの礼だ。取っておいてくれ。</text>
+	</string>
+
 
 	<!-- Eliminate Dangerous Mutants for Monolith Simulation Task -->
 	<string id="simulation_task_43_name">
@@ -2598,6 +2723,52 @@
 	<string id="simulation_task_122_fetch_finish">
 		<text>ありがとよ、兄弟！</text>
 	</string>
+	
+	<string id="simulation_task_123_name">
+		<text>Dutyの代行案件</text>
+	</string>
+	<string id="simulation_task_123_text">
+		<text>Dutyの隊員から請け負った暗殺任務を代行する。</text>
+	</string>
+	<string id="simulation_task_123_about">
+		<text>仕事を抱え込みすぎちまった。なあ、俺が請け負った仕事を一つ肩代わりしてくれないか？
+\nもちろんタダとは言わない。報酬の取り分は、ほとんどお前に渡すと約束しよう。</text>
+	</string>
+	<string id="simulation_task_123_finish">
+		<text>助かったよ。ほら、これが約束の報酬だ。受け取ってくれ。</text>
+	</string>
+
+	<string id="simulation_task_124_name">
+		<text>Clear Skyの代行案件</text>
+	</string>
+	<string id="simulation_task_124_text">
+		<text>Clear Skyの隊員から請け負った暗殺任務を代行する。</text>
+	</string>
+	<string id="simulation_task_124_about">
+		<text>ああ･･････ 仕事を抱え込みすぎたな。なあ、俺の仕事を一つ引き受けてくれないか？
+\nもちろん、報酬の大部分はあんたに譲るよ。どうだ？</text>
+	</string>
+	<string id="simulation_task_124_finish">
+		<text>おかげで助かった。これが報酬だ、受け取ってくれ。</text>
+	</string>
+
+	<string id="simulation_task_125_name">
+		<text>疑わしい賭け</text>
+	</string>
+	<string id="simulation_task_125_text">
+		<text>重要ターゲットを排除できるはずがないと、あるMercenaryに賭けを持ちかけられた。</text>
+	</string>
+	<string id="simulation_task_125_about">
+		<text>ほう、成り上がりたいってツラをしてるな？よく聞け、英雄さんよ。
+\n俺は上の連中が消したがってる重要ターゲットの居場所を知ってるんだ。
+\n教えてやってもいいが、お前には近づくことすら無理だろうな。これは賭けだ。</text>
+	</string>
+	<string id="simulation_task_125_finish">
+		<text>マジかよ？本当にやりやがったのか？クソッ･･････
+\nお前に少しでも勝ち目があるなんて知っていれば、こんな賭けはしなかったのにな。
+\nまあいい、約束は約束だ。これを持っていきな。</text>
+	</string>
+
 	
 	<!-- RESCUE UNDERCOVER AGENT -->
 	<string id="spy_task_name">
