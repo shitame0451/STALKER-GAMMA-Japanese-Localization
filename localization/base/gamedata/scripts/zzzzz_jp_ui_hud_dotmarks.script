@@ -15,3 +15,16 @@ ui_hud_dotmarks.InteractPrompt.SetupSuffix = function(self, obj)
 		)
 	end
 end
+
+-- ===================================================================
+--  InteractPrompt:GetFullPrompt （「開ける (キー)」を「開ける」に置換）
+-- ===================================================================
+local original_GetFullPrompt = ui_hud_dotmarks.InteractPrompt.GetFullPrompt
+
+ui_hud_dotmarks.InteractPrompt.GetFullPrompt = function(self, prefix, prompt, suffix)
+	local text = original_GetFullPrompt(self, prefix, prompt, suffix)
+	if text and text:find("^開ける") then
+		text = text:gsub(" +%b()", "")
+	end
+	return text
+end
