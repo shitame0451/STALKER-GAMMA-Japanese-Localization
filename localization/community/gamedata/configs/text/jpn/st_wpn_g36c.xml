@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+	<string id="st_wpn_g36c_spec">
+		<text>G36C Spec. Op</text>
+	</string>
+	<string id="st_wpn_g36c_spec_descr">
+		<text>アッパーレシーバー、ハンドガード、銃身、そしてガスシステムを刷新したカスタムモデル。ロアレシーバーにも手が加えられ、STANAGマガジンが使用可能となっている。高い連射速度と取り回しの良いコンパクトなサイズ感を兼ね備え、市街地での近接戦闘において真価を発揮する。アクセサリーとして、レーザーサイト、熱源を感知するゾーン仕様のDevoキット、そしてHolosun 510 ドットサイトを装備している。</text>
+	</string>
+	
+	<string id="st_addon_cut_kit">
+		<text>G36C アップグレードキット</text>
+	</string>
+	<string id="st_addon_cut_descr">
+		<text>G36をG36Cへと換装するために必要な全パーツを同梱したキット。内容物はアッパーレシーバー、ハンドガード、銃身、ガスシステム。ロアレシーバーをSTANAGマガジンに対応するパーツも含まれている。組み込むことで連射速度が向上し、市街地での近接戦闘に最適な取り回しの良さを実現する。付属品として、レーザーサイト、熱源を感知するゾーン仕様のDevoキット、そしてHolosun 510 ドットサイトが同梱されている。</text>
+	</string>
+</string_table>
