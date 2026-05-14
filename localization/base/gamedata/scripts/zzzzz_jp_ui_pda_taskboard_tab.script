@@ -1,0 +1,48 @@
+-- ui_pda_taskboard_tab.script
+
+-- ===================================================================
+--  task_list_element:__init （タスクボードの整形・文字色変更）
+-- ===================================================================
+local original___init = ui_pda_taskboard_tab.task_list_element.__init
+
+ui_pda_taskboard_tab.task_list_element.__init = function(self, task_id, task_info, task_details, is_blocked)
+	original___init(self, task_id, task_info, task_details, is_blocked)
+
+	-- 文字色: 受諾可能なら白(255)、不可なら元のグレー(150)
+	local c = is_blocked and 150 or 255
+	local color = GetARGB(255, c, c, c)
+
+	if task_details and self.text_details then
+		local title = task_details.task_title or ""
+		local details_body = task_details.task_details or ""
+
+		details_body = string.gsub(details_body, "\\n ", "\\n")
+
+		local sep = " "
+		-- ":" で終わらない場合（タスク名）のみ改行を入れる
+		if title ~= "" and not string.find(title, "[:：]$") then
+			sep = "\\n"
+		end
+
+		local new_details = (title ~= "") and (title .. sep .. details_body) or details_body
+
+		self.text_details:SetText(new_details)
+		self.text_details:SetTextColor(color)
+	end
+
+	if self.text_description then
+		self.text_description:SetTextColor(color)
+	end
+
+	if self.npc_info then
+		local npc = level.object_by_id(task_info.npc_id)
+		if npc then
+			local npc_name = npc:character_name()
+			local npc_community = npc:character_community()
+			-- 名前と派閥の間の " - " を改行に置き換え
+			local npc_info_text = npc_name .. "\\n" .. game.translate_string("ui_st_community") .. ": " .. game.translate_string(npc_community)
+			self.npc_info:SetText(npc_info_text)
+		end
+		self.npc_info:SetTextColor(color)
+	end
+end

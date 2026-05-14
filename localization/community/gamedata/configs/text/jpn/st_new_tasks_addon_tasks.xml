@@ -878,7 +878,7 @@
 	<!-- Mystery of the Swamps end -->
 
 	<string id="nta_intercept_item">
-		<text>対象アイテム:\n</text>
+		<text>対象アイテム:</text>
 	</string>
 	<string id="nta_search_the_stash">
 		<text>スタッシュを探す</text>

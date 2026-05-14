@@ -20,36 +20,36 @@
 	</string>
 
 	<string id="st_pda_caption_setup_bounty_task">
-		<text>討伐タスク</text>
+		<text>特定対象の排除</text>
 	</string>
 	<string id="st_pda_caption_setup_assault_task">
-		<text>攻撃タスク</text>
+		<text>拠点襲撃</text>
 	</string>
 	<string id="st_pda_caption_setup_spy_task">
-		<text>スパイ救出タスク</text>
+		<text>諜報員救出</text>
 	</string>
 	<string id="st_pda_caption_on_init_delivery_task">
-		<text>配達タスク</text>
+		<text>荷物搬送</text>
 	</string>
 	<string id="st_pda_caption_setup_measure_task">
-		<text>測定タスク</text>
+		<text>アノマリー調査</text>
 	</string>
 	<string id="st_pda_caption_on_init_fate_task">
-		<text>命運タスク</text>
+		<text>行方不明者の捜索</text>
 	</string>
 	<string id="st_pda_caption_setup_dominance_task">
-		<text>制圧タスク</text>
+		<text>支配権の確保</text>
 	</string>
 	<string id="st_pda_caption_setup_fetch_task">
-		<text>取得タスク</text>
+		<text>物資調達</text>
 	</string>
 	<string id="st_pda_caption_script">
-		<text>ストーリータスク</text>
+		<text>特別な依頼</text>
 	</string>
 	<string id="st_pda_caption_recover_mutant_data_location">
-		<text>回収タスク</text>
+		<text>ミュータントの生体調査</text>
 	</string>
 	<string id="st_pda_caption_rest">
-		<text>その他のタスク</text>
+		<text>その他の依頼</text>
 	</string>
 </string_table>
