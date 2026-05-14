@@ -14,65 +14,263 @@
 	</string>
 
 	<string id="ui_mcm_scop_iron_fov">
-		<text>アイアンサイト／統合型3Dサイト</text>
+		<text>アイアンサイト</text>
 	</string>
 	<string id="ui_mcm_scop_iron_fov_desc">
-		<text>値を小さくすると、アイアンサイトや統合型3Dサイト使用時の表示位置が手前になります。</text>
+		<text>値を小さくするほど、アイアンサイト使用時の表示位置がより手前に近づきます。</text>
 	</string>
 
 	<string id="ui_mcm_scop_scope_fov">
-		<text>3Dスコープ</text>
+		<text>内蔵スコープ</text>
 	</string>
 	<string id="ui_mcm_scop_scope_fov_desc">
-		<text>値を小さくすると、3Dスコープ使用時の表示位置が手前になります。</text>
-	</string>
-
-	<string id="ui_mcm_scop_bad_scope_fov">
-		<text>一部の3D光学スコープ用設定</text>
-	</string>
-	<string id="ui_mcm_scop_bad_scope_fov_desc">
-		<text>技術的な制約上、ACOGやSUSATなどの一部のスコープは取り付け位置を遠めにすることで見た目を正常にする必要があります。この設定はそのようなスコープの位置を調整するためのものです。</text>
-	</string>
-
-	<string id="ui_mcm_scop_pistol_fov">
-		<text>ピストル</text>
-	</string>
-	<string id="ui_mcm_scop_pistol_fov_desc">
-		<text>ピストルの表示位置の距離を調整します。</text>
+		<text>値を小さくするほど、内蔵スコープを搭載した武器の使用時に視点がより手前に寄ります。</text>
 	</string>
 
 	<string id="ui_mcm_scop_grenade_fov">
 		<text>グレネードランチャー</text>
 	</string>
 	<string id="ui_mcm_scop_grenade_fov_desc">
-		<text>値を小さくすると、アンダーバレル・グレネードランチャー使用時の表示位置が手前になります。</text>
+		<text>値を小さくするほど、装着されたグレネードランチャー使用時の視点がより手前に寄ります。</text>
 	</string>
-	<string id="ui_mcm_scop_alt_fov">
-		<text>傾斜サイト</text>
+
+	<string id="ui_mcm_scop_1p78_fov">
+		<text>1P78</text>
 	</string>
-	<string id="ui_mcm_scop_alt_fov_desc">
-		<text>値を小さくすると、傾斜サイト使用時の表示位置が手前になります。</text>
+	<string id="ui_mcm_scop_1p78_fov_desc">
+		<text>値を小さくするほど、1P78スコープ使用時の表示位置がより手前に近づきます。</text>
 	</string>
+	<string id="ui_mcm_scop_1pn93hv_fov">
+		<text>1PN93-1</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93hv_fov_desc">
+		<text>値を小さくするほど、1PN93-1スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_1p29_fov">
+		<text>1P29</text>
+	</string>
+	<string id="ui_mcm_scop_1p29_fov_desc">
+		<text>値を小さくするほど、1P29スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_ps01_fov">
+		<text>PSO-1</text>
+	</string>
+	<string id="ui_mcm_scop_ps01_fov_desc">
+		<text>値を小さくするほど、PSO-1スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_pso2_fov">
+		<text>PSO-2</text>
+	</string>
+	<string id="ui_mcm_scop_pso2_fov_desc">
+		<text>値を小さくするほど、PSO-2スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93_fov">
+		<text>1PN93-4</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93_fov_desc">
+		<text>値を小さくするほど、1PN93-4スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_pgo7gs_fov">
+		<text>PGO-7</text>
+	</string>
+	<string id="ui_mcm_scop_pgo7gs_fov_desc">
+		<text>値を小さくするほど、PGO-7スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_1p59_fov">
+		<text>1P59</text>
+	</string>
+	<string id="ui_mcm_scop_1p59_fov_desc">
+		<text>値を小さくするほど、1P59スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_pu_fov">
+		<text>PU</text>
+	</string>
+	<string id="ui_mcm_scop_pu_fov_desc">
+		<text>値を小さくするほど、PUスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_zf4_fov">
+		<text>ZF4</text>
+	</string>
+	<string id="ui_mcm_scop_zf4_fov_desc">
+		<text>値を小さくするほど、ZF4スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_g43_fov">
+		<text>G43</text>
+	</string>
+	<string id="ui_mcm_scop_g43_fov_desc">
+		<text>値を小さくするほど、G43スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_po4_fov">
+		<text>PO 4x34</text>
+	</string>
+	<string id="ui_mcm_scop_po4_fov_desc">
+		<text>値を小さくするほど、PO 4x34スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_monstrum_fov">
+		<text>Monstrum</text>
+	</string>
+	<string id="ui_mcm_scop_monstrum_fov_desc">
+		<text>値を小さくするほど、Monstrumスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_acog_fov">
+		<text>ACOG</text>
+	</string>
+	<string id="ui_mcm_scop_acog_fov_desc">
+		<text>値を小さくするほど、ACOGスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_trihawk_fov">
+		<text>Trihawk</text>
+	</string>
+	<string id="ui_mcm_scop_trihawk_fov_desc">
+		<text>値を小さくするほど、Trihawkスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_g36_fov">
+		<text>G36</text>
+	</string>
+	<string id="ui_mcm_scop_g36_fov_desc">
+		<text>値を小さくするほど、G36ピカティニーレール用スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_side_fov">
+		<text>Winchester サイドスコープ</text>
+	</string>
+	<string id="ui_mcm_scop_side_fov_desc">
+		<text>値を小さくするほど、Winchester サイドスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_vulcan_fov">
+		<text>Vulcan</text>
+	</string>
+	<string id="ui_mcm_scop_vulcan_fov_desc">
+		<text>値を小さくするほど、Vulcanスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_susat_fov">
+		<text>SUSAT</text>
+	</string>
+	<string id="ui_mcm_scop_susat_fov_desc">
+		<text>値を小さくするほど、SUSATスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_bravo_fov">
+		<text>Bravo4</text>
+	</string>
+	<string id="ui_mcm_scop_bravo_fov_desc">
+		<text>値を小さくするほど、Bravo4スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_hamr_fov">
+		<text>HAMR</text>
+	</string>
+	<string id="ui_mcm_scop_hamr_fov_desc">
+		<text>値を小さくするほど、HAMRスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_specter_fov">
+		<text>Specter</text>
+	</string>
+	<string id="ui_mcm_scop_specter_fov_desc">
+		<text>値を小さくするほど、Specterスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_tac30_fov">
+		<text>Tac30</text>
+	</string>
+	<string id="ui_mcm_scop_tac30_fov_desc">
+		<text>値を小さくするほど、Tac30スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_uh1_fov">
+		<text>UH1 マグニファイア</text>
+	</string>
+	<string id="ui_mcm_scop_uh1_fov_desc">
+		<text>値を小さくするほど、UH1 マグニファイア使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_e0t2_fov">
+		<text>XPS3 マグニファイア</text>
+	</string>
+	<string id="ui_mcm_scop_e0t2_fov_desc">
+		<text>値を小さくするほど、XPS3 マグニファイア使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_devo_fov">
+		<text>D-Evo</text>
+	</string>
+	<string id="ui_mcm_scop_devo_fov_desc">
+		<text>値を小さくするほど、D-Evoスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_pn23_fov">
+		<text>PN23</text>
+	</string>
+	<string id="ui_mcm_scop_pn23_fov_desc">
+		<text>値を小さくするほど、PN23スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_razorhd_fov">
+		<text>Razor HD</text>
+	</string>
+	<string id="ui_mcm_scop_razorhd_fov_desc">
+		<text>値を小さくするほど、Razor HDスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_ps320_fov">
+		<text>PS320</text>
+	</string>
+	<string id="ui_mcm_scop_ps320_fov_desc">
+		<text>値を小さくするほど、PS320スコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_leupold_fov">
+		<text>CQBSS</text>
+	</string>
+	<string id="ui_mcm_scop_leupold_fov_desc">
+		<text>値を小さくするほど、CQBSSスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_march_fov">
+		<text>March Shorty</text>
+	</string>
+	<string id="ui_mcm_scop_march_fov_desc">
+		<text>値を小さくするほど、March Shortyスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_ado_fov">
+		<text>ADO</text>
+	</string>
+	<string id="ui_mcm_scop_ado_fov_desc">
+		<text>値を小さくするほど、ADOスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_gauss_fov">
+		<text>ガウスサイト</text>
+	</string>
+	<string id="ui_mcm_scop_gauss_fov_desc">
+		<text>値を小さくするほど、ガウスサイト使用時の表示位置がより手前に近づきます。</text>
+	</string>	
+		<string id="ui_mcm_scop_cortex_fov">
+		<text>Cortex</text>
+	</string>
+	<string id="ui_mcm_scop_cortex_fov_desc">
+		<text>値を小さくするほど、Cortexスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_marchf_fov">
+		<text>March F Tactical</text>
+	</string>
+	<string id="ui_mcm_scop_marchf_fov_desc">
+		<text>値を小さくするほど、March F Tacticalスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_skeet_fov">
+		<text>Skeet X IR</text>
+	</string>
+	<string id="ui_mcm_scop_skeet_fov_desc">
+		<text>値を小さくするほど、Skeet X IRサーマルクリップオン使用時の表示位置がより手前に近づきます。この項目は「内蔵スコープ」の設定値と合わせることを推奨します。</text>
+	</string>
+	
 	<string id="ui_mcm_scop_keybind_add">
 		<text>武器をより遠くに表示 (Adjust Scope HUD)</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_add_desc">
-		<text>HUD FOVを増加させ、装備している武器の表示位置を遠くします。</text>
+		<text>HUD FOVを上げ、現在構えている武器の表示位置を遠ざけます。</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_subtract">
 		<text>武器をより近くに表示 (Adjust Scope HUD)</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_subtract_desc">
-		<text>HUD FOVを減少させ、装備している武器の表示位置を近くします。</text>
+		<text>HUD FOVを下げ、現在構えている武器の表示位置をより手前に近づけます。</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_reset">
 		<text>現在の武器の表示位置をリセット (Adjust Scope HUD)</text>
 	</string>
 	<string id="ui_mcm_scop_keybind_reset_desc">
-		<text>装備している武器のHUD FOVを標準値に戻します。</text>
+		<text>現在構えている武器のHUD FOVをデフォルトの値に戻します。</text>
 	</string>
 
 	<string id="ui_mcm_scop_snk_update_mcm">
-		<text>この機能を利用するにはMCMの更新が必要です。デフォルトのキーはテンキーの+と-、武器表示のリセットキーはBackspaceに設定されています。</text>
+		<text>この機能を利用するにはMCMを更新してください。デフォルトのキー割り当ては、テンキーの+と-で調整、Backspaceでリセットです。</text>
 	</string>
 </string_table>

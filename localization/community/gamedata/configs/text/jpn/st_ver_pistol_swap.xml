@@ -1,0 +1,21 @@
+<string_table>
+    <!-- MCM -->
+    <string id="ui_mcm_menu_ver_pistol_swap">
+        <text>Fast Pistol Swap</text>
+    </string>
+	<string id="ui_mcm_menu_ver_pistol_swap_Title">
+        <text>両手持ち武器使用時のピストル高速持ち替え</text>
+    </string>
+	<string id="ui_mcm_ver_pistol_swap_fast_swap">
+        <text>ピストルの高速持ち替えを有効化</text>
+    </string>
+	<string id="ui_mcm_ver_pistol_swap_pistol_swap_multiplier">
+        <text>ピストルを取り出す速度の倍率</text>
+    </string>
+	<string id="ui_mcm_ver_pistol_swap_gun_swap_multiplier">
+        <text>両手持ち武器をしまう速度の倍率</text>
+    </string>
+	<string id="ui_mcm_ver_pistol_swap_debug">
+        <text>デバッグログを有効化</text>
+    </string>
+</string_table>

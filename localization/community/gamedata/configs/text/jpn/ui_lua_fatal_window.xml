@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+	<string id="st_lua_fatal_error">
+		<text>警告: ゲームの動作が不安定です\n \n重大なLuaエラーが発生し、スクリプトエンジンに致命的な不具合が生じました（操作不能になる「Busy Hands」状態など）。\n現在の進行状況は「tempsave」ファイルに保存されました。メインメニューに戻るか、セーブデータをロードし直すことを強く推奨します。\nこのままプレイを続行すると、さらなるデータの破損やゲームのクラッシュを招く恐れがあります。\n \n該当スクリプト: %s\n \nこのエラーはログに [BusyHandsDebug] メッセージとして記録されています。\nログを添えて、スクリプトの作者またはModパックの制作者へ報告してください。</text>
+	</string>
+	<string id="st_disconnect">
+		<text>メインメニューに戻る</text>
+	</string>
+	<string id="st_reload_save">
+		<text>セーブデータをロードする</text>
+	</string>
+	<string id="st_continue">
+		<text>続行する</text>
+	</string>
+</string_table>

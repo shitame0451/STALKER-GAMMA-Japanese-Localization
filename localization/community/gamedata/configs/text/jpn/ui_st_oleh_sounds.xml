@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+	<string id="ui_mcm_menu_oleh_sounds">
+		<text>Sounds</text>
+	</string>
+	<string id="ui_mcm_menu_movement">
+		<text>移動</text>
+	</string>
+	<string id="ui_mcm_menu_weapons">
+		<text>武器</text>
+	</string>
+	<string id="ui_mcm_menu_inventory">
+		<text>インベントリ</text>
+	</string>
+	<string id="ui_mcm_title_oleh_sounds_movement">
+		<text>移動時のサウンド設定</text>
+	</string>
+	<string id="ui_mcm_title_oleh_sounds_weapons">
+		<text>武器のサウンド設定</text>
+	</string>
+	<string id="ui_mcm_title_oleh_sounds_inventory">
+		<text>インベントリのサウンド設定</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_movement_enabled_footstep_sounds">
+		<text>足音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_footstep_sounds">
+		<text>足音の音量</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_gear_rustle_sounds">
+		<text>装備の擦れ音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_gear_rustle_sounds">
+		<text>装備の擦れ音の音量</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_servo_sounds">
+		<text>強化外骨格のサーボ音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_servo_sounds">
+		<text>強化外骨格のサーボ音の音量</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_movement_enabled_stance_sounds">
+		<text>姿勢変更の音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_lookout_sounds">
+		<text>リーンの音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_stance_sounds">
+		<text>姿勢変更の音量</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_lookout_sounds">
+		<text>リーン時の音量</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_movement_enabled_jump_sounds">
+		<text>ジャンプ音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_jump_sounds">
+		<text>ジャンプ音の音量</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_movement_crawl_sounds_dependency">
+		<text>匍匐時の移動音を再生するには、[MCM] ＞ [Inertia Expanded] ＞ [その他] ＞ [匍匐アニメーションの有効化] を有効にする必要があります。</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_crawl_sounds">
+		<text>匍匐時の移動音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_movement_volume_crawl_sounds">
+		<text>匍匐時の移動音の音量</text>
+	</string>
+
+	
+
+	<string id="ui_mcm_menu_oleh_misc_sounds">
+		<text>インベントリのサウンド</text>
+	</string>
+	<string id="ui_mcm_title_oleh_misc_sounds">
+		<text>GAMMA: インベントリのサウンド設定</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_inventory_enabled_inventory_pickup">
+		<text>アイテム操作音を有効化</text>
+	</string>
+		<string id="ui_mcm_oleh_sounds_inventory_enabled_inventory_pickup_desc">
+		<text>アイテムの拾得、廃棄、修理、およびインベントリ内やスロット間での移動時に効果音を再生します。</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_inventory_volume_inventory_pickup">
+		<text>アイテム操作音の音量</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_inventory_enabled_inventory_hover">
+		<text>カーソルホバー音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_inventory_enabled_inventory_hover_desc">
+		<text>アイテムアイコンの上にマウスカーソルを合わせた際に効果音を再生します。</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_inventory_volume_inventory_hover">
+		<text>カーソルホバー音の音量</text>
+	</string>
+
+
+
+	<string id="ui_mcm_menu_grok_casings_sounds">
+		<text>武器のサウンド</text>
+	</string>
+	<string id="ui_mcm_title_grok_casings_sounds">
+		<text>GAMMA: 武器のサウンド設定</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire">
+		<text>プレイヤーの銃声: 音量</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_desc">
+		<text>プレイヤーが武器を発射した際の音量を調整します。一体型サプレッサーを備えた一部の武器にも適用されます。</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_sil">
+		<text>プレイヤーの銃声: 音量（サプレッサー装着時）</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_npc">
+		<text>NPCの銃声: 音量</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_npc_desc">
+		<text>NPCが武器を発射した際の音量を調整します。一体型サプレッサーを備えた一部の武器にも適用されます。</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_gunfire_sil_npc">
+		<text>NPCの銃声: 音量（サプレッサー装着時）</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_enabled">
+		<text>薬莢の落下音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_ubgl_enabled">
+		<text>グレネードランチャーの薬莢音</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume">
+		<text>薬莢の落下音の音量</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_ice_patch">
+		<text>氷上射撃音のパッチ（SSS用）</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_ice_patch_desc">
+		<text>氷の上で射撃した際の薬莢落下音を適切に修正します。</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_aim_rattle">
+		<text>構え動作の装備音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_lower_raise_rattle">
+		<text>武器の上げ下げ時の装備音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_aim_rattle">
+		<text>構え動作の装備音の音量</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_lower_raise_rattle">
+		<text>武器の上げ下げ時の装備音の音量</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_sprint_rattle">
+		<text>ダッシュ時の装備音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_sprint_rattle_lowered">
+		<text>武器を下げた状態でのダッシュ音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_sprint_rattle_lowered_desc">
+		<text>装備している武器を下げている状態でも、ダッシュ時に装備が揺れる音を再生します。</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_sprint_rattle">
+		<text>ダッシュ時の装備音の音量</text>
+	</string>
+
+	<string id="ui_mcm_oleh_sounds_weapons_enabled_reload_hint">
+		<text>残弾数低下時の音を有効化</text>
+	</string>
+	<string id="ui_mcm_oleh_sounds_weapons_volume_reload_hint">
+		<text>残弾数低下時の音の音量</text>
+	</string>
+</string_table>

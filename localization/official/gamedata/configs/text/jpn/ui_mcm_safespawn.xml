@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+    <string id="ui_mcm_menu_safespawn">
+        <text>SafeSpawn</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_show_messages">
+        <text>PDA通知を有効化</text>
+    </string>
+    <string id="ui_mcm_safespawn_show_messages_desc">
+        <text>敵対勢力の隔離（一時的な消去）や再配置が行われた際、PDAにアラートを表示して状況を通知します。</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_radius">
+        <text>検知範囲（メートル）</text>
+    </string>
+    <string id="ui_mcm_safespawn_radius_desc">
+        <text>スポーン地点の周囲に敵対的な人間がいないか確認する距離を設定します。デフォルト設定は6メートルです。</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_random_duration">
+        <text>待機時間のランダム化</text>
+    </string>
+    <string id="ui_mcm_safespawn_random_duration_desc">
+        <text>有効にすると、敵が再配置されるまでの時間を以下の最小値と最大値の間でランダムに決定します。無効の場合は「固定待機時間」の設定が使用されます。</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_duration">
+        <text>固定待機時間（秒）- デフォルト: 30秒</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_duration_min">
+        <text>ランダム待機時間: 最小値</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_duration_max">
+        <text>ランダム待機時間: 最大値</text>
+    </string>
+
+    <string id="ui_mcm_safespawn_debug">
+        <text>デバッグモードを有効化</text>
+    </string>
+
+	<string id="ui_mcm_safespawn_debug_desc">
+        <text>エリア移動のたびに動作ログを表示します。敵の有無に関わらずメッセージが出力されるため、アドオンで追加された移動ポイントのテスト等に活用してください。</text>
+    </string>
+</string_table>

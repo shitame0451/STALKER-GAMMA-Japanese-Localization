@@ -73,4 +73,10 @@
     <string id="ui_mcm_varefined_varefined_main_shouts_volume">
         <text>追加ボイスの音量</text>
     </string>
+    <string id="ui_mcm_varefined_varefined_main_va_global_volume_influence_description">
+        <text>ゲーム全体の音量設定に対する連動率を調整します。0に設定すると全体音量の設定に関わらず一定の音量で再生され、1に設定すると全体音量の変化に合わせてボイス音量もスケールします。</text>
+    </string>
+    <string id="ui_mcm_varefined_varefined_main_va_global_volume_influence">
+        <text>全体音量への連動度</text>
+    </string>
 </string_table>

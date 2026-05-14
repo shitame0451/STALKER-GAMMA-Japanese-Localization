@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <string_table>
 	<string id="ui_mm_desc_vis_distance">
-		<text>「世界の描画距離」は音の聞こえ方にも影響します。\nスライダーを20%未満に設定すると、遠くの銃声が聞こえなくなります。</text>
+		<text>「世界の描画距離」は音の聞こえ方にも影響します。\nスライダーを50%未満に設定すると、遠くの銃声が聞こえなくなります。</text>
 	</string>
 	<string id="ui_mm_desc_master_volume">
-		<text>「効果音の音量」は、各サウンドの「基準となる音量」を調整するものです。
-			\n基本音量が最大に設定されている効果音（例: 銃声）は、0.5より高い値にしても音量は変化しません。</text>
+		<text>「効果音の音量」はすべての効果音に一律に適用されるものではありません。
+			\n基本的には「0.5」以下に設定することを推奨します。</text>
+	</string>
+	<string id="ui_mm_hint_gunfire_volume">
+		<text>銃声の音量設定は「Mod Configuration Menu」の「Sounds」→「武器」から個別に設定可能です。</text>
 	</string>
 	<string id="ui_mm_desc_zcp_settings_hint">
 		<text>ストーカーやミュータントの出現数に関する設定は、Mod設定メニューの「ZCP」で調整してください。</text>

@@ -6,6 +6,26 @@
 	<string id="ui_mcm_title_grok_casings_sounds">
 		<text>GAMMA Weapon Sounds</text>
 	</string>
+
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire">
+		<text>プレイヤーの銃声の音量</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_desc">
+		<text>プレイヤーが銃を発射した際の音量を調整します。一体型サプレッサーを備えた一部の武器にもこの設定が適用されます。</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_sil">
+		<text>プレイヤーの銃声の音量（サプレッサー装着時）</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_npc">
+		<text>NPCの銃声の音量</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_npc_desc">
+		<text>NPCが銃を発射した際の音量を調整します。一体型サプレッサーを備えた一部の武器にもこの設定が適用されます。</text>
+	</string>
+	<string id="ui_mcm_grok_casings_sounds_volume_gunfire_sil_npc">
+		<text>NPCの銃声の音量（サプレッサー装着時）</text>
+	</string>
+
 	<string id="ui_mcm_grok_casings_sounds_enabled">
 		<text>薬莢の落下音を有効化</text>
 	</string>

@@ -13,6 +13,9 @@
 	<string id="npe_tutorial_btn_next">
 		<text>次へ</text>
 	</string>
+	<string id="npe_tutorial_btn_mcm">
+		<text>MCMを開く</text>
+	</string>
 	<string id="npe_tutorial_btn_prev">
 		<text>前へ</text>
 	</string>
