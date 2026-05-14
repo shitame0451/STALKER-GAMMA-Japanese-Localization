@@ -707,13 +707,13 @@
 					</progress>
 				</state_progress>
 				
-				<stats x="43" y="-54" width="80" height="18">
+				<stats x="44" y="-54" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats>
 				<stats_bonus x="43" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats_bonus>
-				<stats_bonus_regen x="43" y="2" width="80" height="18">
+				<stats_bonus_regen x="44" y="2" width="80" height="18">
 					<text align="l" font="graffiti22"> </text>
 				</stats_bonus_regen>
 			</br_mitigation_sensor>
