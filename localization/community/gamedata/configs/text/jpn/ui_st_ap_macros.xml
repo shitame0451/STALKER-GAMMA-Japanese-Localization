@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <!-- ==== #ago# phrases ==== -->
+  <string id="st_ap_macros_ago_recent">
+    <text>少し前</text>
+  </string>
+  <string id="st_ap_macros_ago_hours">
+    <text>数時間前</text>
+  </string>
+</string_table>
