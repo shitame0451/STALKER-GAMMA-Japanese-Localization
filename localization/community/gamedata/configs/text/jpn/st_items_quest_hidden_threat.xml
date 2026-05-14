@@ -29,10 +29,10 @@
 		</text>
 	</string>
 	<string id="st_sl_ht_pda_isg_leader_name">
-		<text>ISG指揮官のPDA</text>
+		<text>UNISG指揮官のPDA</text>
 	</string>
 	<string id="st_sl_ht_pda_isg_leader_desc">
-		<text>%c[pda_white]ロックがかかったISG指揮官のPDA。\n \n
+		<text>%c[pda_white]ロックがかかったUNISG指揮官のPDA。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]タスク用アイテム\n
 		</text>
