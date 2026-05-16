@@ -1271,6 +1271,29 @@
 		</text>
 	</string>
 
+	<string id="st_addon_scope_pm_upgr_kit">
+		<text>Makarov PM アップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_pm_upgr_kit_descr">
+		<text>Makarov PM用の改良キット。エルゴノミクスの改善を目的とした改修パーツと、Zarya Z-1x20 ミニレッドドットサイトが含まれている。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]Zarya Z-1x20 ミニレッドドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]Zarya ピストルグリップ（オリーブカラー）\n
+		%c[d_cyan] • %c[ui_gray_1]拡張マガジン（20発）\n</text>
+	</string>
+
+	<string id="st_addon_scope_pl15_scolaz_new">
+		<text>Lebedev PL-15 アップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_pl15_scolaz_new_descr">
+		<text>Lebedev PL-15 9x19用の改良キット。レーザー内蔵のSureFire X400 Ultra タクティカルライト、Zarya Z-1x20 ミニレッドドットサイト、サプレッサーカバーが含まれている。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]PL-15 9x19用 112mm スレッドバレル\n
+		%c[d_cyan] • %c[ui_gray_1]Zarya Z-1x20 ミニレッドドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]サプレッサーカバー\n
+		%c[d_cyan] • %c[ui_gray_1]SureFire X400 Ultra タクティカルライト（レーザー内蔵）\n</text>
+	</string>
+
 <!--
 	UNUSED
 -->

@@ -22,6 +22,9 @@
 		<text>インベントリのサウンド設定</text>
 	</string>
 
+	<string id="ui_mcm_oleh_sounds_movement_player_disc">
+		<text>以下の設定はプレイヤーのサウンドのみに適用されます。</text>
+	</string>
 	<string id="ui_mcm_oleh_sounds_movement_enabled_footstep_sounds">
 		<text>足音を有効化</text>
 	</string>
@@ -31,14 +34,17 @@
 	<string id="ui_mcm_oleh_sounds_movement_enabled_gear_rustle_sounds">
 		<text>装備の擦れ音を有効化</text>
 	</string>
+	<string id="ui_mcm_oleh_sounds_movement_enabled_gear_rustle_sounds_desc">
+		<text>装備が擦れる音の大きさは、現在の所持重量に応じて変化します。</text>
+	</string>
 	<string id="ui_mcm_oleh_sounds_movement_volume_gear_rustle_sounds">
 		<text>装備の擦れ音の音量</text>
 	</string>
 	<string id="ui_mcm_oleh_sounds_movement_enabled_servo_sounds">
-		<text>強化外骨格のサーボ音を有効化</text>
+		<text>強化外骨格の駆動音を有効化</text>
 	</string>
 	<string id="ui_mcm_oleh_sounds_movement_volume_servo_sounds">
-		<text>強化外骨格のサーボ音の音量</text>
+		<text>強化外骨格の駆動音の音量</text>
 	</string>
 
 	<string id="ui_mcm_oleh_sounds_movement_enabled_stance_sounds">
