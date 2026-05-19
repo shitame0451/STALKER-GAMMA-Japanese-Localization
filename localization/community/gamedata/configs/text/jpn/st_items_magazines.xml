@@ -277,10 +277,10 @@
 	<string id="ui_mcm_magazines_gameplay_retain_round_desc">
 		<text>有効にすると、マガジンを抜いても薬室内の弾薬は保持されます。</text>
 	</string>
-	<string id="ui_mcm_magazines_gameplay_loadstash_behavior">
+	<string id="ui_mcm_magazines_gameplay_fast_loading">
 		<text>スタッシュ内でのマガジンの装填動作</text>
 	</string>
-	<string id="ui_mcm_magazines_gameplay_loadstash_behavior_desc">
+	<string id="ui_mcm_magazines_gameplay_fast_loading_desc">
 		<text>有効にすると、スタッシュ内での弾の出し入れが即座に行われます（Escape from Tarkovと同様）。</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_quick_loading">

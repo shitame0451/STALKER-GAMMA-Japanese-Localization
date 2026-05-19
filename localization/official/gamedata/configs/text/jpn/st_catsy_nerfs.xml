@@ -24,7 +24,8 @@
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_enable_rrfr_desc">
-		<text>Coverdrave氏の「Reworked RF Receiver」アドオンが導入されている場合、このオプションを有効にすると、NERFSはそのアドオンのMCM設定（装備品、ビープ音、周波数変更）を適用します。その他の「Reworked RF Receiver」による改善点は、すべてNERFSに含まれています。</text>
+		<text>Coverdrave氏の「Reworked RF Receiver（RRFR）」アドオンが導入されている場合、このオプションを有効にすると、装備状態やビープ音、周波数の変更に関する設定がRRFR側のMCM設定と同期されるようになります。なお、RRFRのその他の改善機能は、既に本アドオンに統合されています。\n
+		注意:「Devices of Anomaly Redone」を併用している場合、RF受信機の動作に装備が必要かどうかの判定は、そちらのアドオン側の設定が優先されます。</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfmain_debuglogs">
@@ -48,10 +49,6 @@
 		<text>RF受信機は最大3桁の数字を表示できますが、VHF帯（30-300MHz）に制限されていました。しかし、バニラの信号源にはこの範囲外のものも存在します。この設定を有効にすると、受信機の周波数範囲と、受信機関連タスクで割り当てられる周波数範囲の両方が拡張されます。</text>
 	</string>
 
-	<string id="ui_mcm_nerfs_nerfmain_header_dar">
-		<text>「Devices of Anomaly Redone」に組み込まれた最小限のフレームワーク</text>
-	</string>
-
 	<string id="ui_mcm_nerfs_nerfmain_header1">
 		<text>New Extensible RF Sourcesは、RF受信機を以下の様々な方法で改善します:\n
 			• 周波数の上限を300から999に拡張（以下で設定可能）\n
@@ -66,16 +63,16 @@
 		<text>詳細情報やNERFSのフルバージョンをダウンロードするには、Moddbのページをご覧ください:\nhttps://www.moddb.com/mods/stalker-anomaly/addons/new-extensible-rf-sources</text>
 	</string>
 
-	<string id="ui_mcm_nerfs_nerfwidget_header1">
-		<text>アクセシビリティウィジェットは、RF信号強度を示すシンプルなHUDインジケーターです。聴覚に障がいのある方や、周囲の雑音と音声の区別が難しいと感じる方のために設計されています。インジケーターの位置や色は、個人の好みや色覚特性に合わせてカスタマイズ可能です。このウィジェットは、プレイヤーがRF受信機を装備している間のみ表示されます。\n</text>
-	</string>
-
 	<string id="ui_mcm_nerfs_scrolldown">
 		<text>** 下にスクロールしてさらなる設定を表示 **</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_show">
 		<text>アクセシビリティウィジェットを表示</text>
+	</string>
+
+	<string id="ui_mcm_nerfs_nerfwidget_show_desc">
+		<text>RF受信機の使用中に、信号強度をHUD上に視覚化して表示します。音による判断が難しい場合や、聴覚補助が必要なプレイヤーをサポートする機能ですが、どなたでもご利用いただけます。表示位置や色は、個人の好みや色覚特性に合わせてカスタマイズが可能です。</text>
 	</string>
 
 	<string id="ui_mcm_nerfs_nerfwidget_lo_header">

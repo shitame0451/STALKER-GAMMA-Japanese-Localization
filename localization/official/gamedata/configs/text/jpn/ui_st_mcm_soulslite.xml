@@ -392,11 +392,11 @@
     <string id="ui_mcm_soulslike_ignored_items_medkit">
         <text>医療キット</text>
     </string>
-    <string id="ui_mcm_soulslike_character_allow_nighttime_respawn_desc">
+    <string id="ui_mcm_soulslike_character_allow_nighttime_respawn">
         <text>夜間の復活を許可する</text>
     </string>
-    <string id="ui_mcm_soulslike_allow_nighttime_respawn_desc">
-        <text>この設定を無効にすると、夜間に復活した場合、時間が自動的に朝（7～9時）に進められます。</text>
+    <string id="ui_mcm_soulslike_character_allow_nighttime_respawn_desc">
+        <text>この設定を無効にすると、夜間に死亡して復活する際、自動的に時間が翌朝（午前7時～9時）に進められます。</text>
     </string>
     <string id="ui_mcm_soulslike_items_money_loss_max_percent">
         <text>所持金最大減少率（%）</text>
