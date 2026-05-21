@@ -1,0 +1,50 @@
+-- safespawn.script
+
+-- ===================================================================
+--  perform_silo （敵隔離メッセージの日本語化）
+--  news_manager.send_tipにフック
+-- ===================================================================
+local original_perform_silo = safespawn.perform_silo
+
+safespawn.perform_silo = function(...)
+	local backup_send_tip = news_manager.send_tip
+
+	news_manager.send_tip = function(actor, text, sender, header, show_time, ...)
+		local t = text
+		if type(t) == "string" then
+			local count, duration = t:match("^SafeSpawn:%s*(%d+)%s*hostile%(s%)%s*siloed%s*for%s*(%d+)s%.")
+			if count and duration then
+				t = "SafeSpawn: 周囲の敵" .. count .. "名を一時隔離しました（" .. duration .. "秒後に出現）"
+			end
+		end
+		return backup_send_tip(actor, t, sender, header, show_time, ...)
+	end
+
+	local res = original_perform_silo(...)
+	news_manager.send_tip = backup_send_tip
+	return res
+end
+
+-- ===================================================================
+--  restore_silo （敵出現メッセージの日本語化）
+--  news_manager.send_tipにフック
+-- ===================================================================
+local original_restore_silo = safespawn.restore_silo
+
+safespawn.restore_silo = function(...)
+	local backup_send_tip = news_manager.send_tip
+
+	news_manager.send_tip = function(actor, text, sender, header, show_time, ...)
+		local t = text
+		if type(t) == "string" then
+			if t:find("^SafeSpawn:%s*Hostiles%s*have%s*arrived%.") then
+				t = "SafeSpawn: 敵の隔離が終了しました"
+			end
+		end
+		return backup_send_tip(actor, t, sender, header, show_time, ...)
+	end
+
+	local res = original_restore_silo(...)
+	news_manager.send_tip = backup_send_tip
+	return res
+end
