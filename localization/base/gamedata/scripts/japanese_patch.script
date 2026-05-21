@@ -114,6 +114,7 @@ end
 function commas_to_number(n)
 	local s = tostring(n)
 	local left, num, right = string.match(s, '^([^%d]*%d)(%d*)(.-)$')
+	if not left then return s end
 	return left .. (num:reverse():gsub("(%d%d%d)", "%1,"):reverse()) .. right
 end
 
@@ -197,8 +198,8 @@ end
 --  コールバック登録
 -- ===================================================================
 function on_game_start()
-	RegisterScriptCallback("se_stalker_on_spawn", process_npc_name)
 	get_name_dictionary()
+	RegisterScriptCallback("se_stalker_on_spawn", process_npc_name)
 
 	RegisterScriptCallback("save_state", save_state)
 	RegisterScriptCallback("load_state", load_state)
