@@ -3941,8 +3941,8 @@
 		<text>$whoはある種の魔術師だな！俺の$whatに改良を加えてもらったんだ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_upgrade_8">
-		<text>$upgradeのアップグレードをする価値はあったと思う。
-\n今、俺の$whatが$whoから帰ってきたところだ。</text>
+		<text>$upgradeのアップグレードはやって正解だったな。
+\n今、$whoから俺の$whatが戻ってきたところだ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_upgrade_9">
 		<text>飲み代を使っちまったが、$whatに$upgradeのアップグレードを導入したぜ。</text>
@@ -4678,28 +4678,28 @@
 \n悪い冗談かどうかはわからんが、怪しいストーカーを見たら注意しろよ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_csky">
-		<text>同志たちよ、仕事だぞ。未確認の無線通信が検出された。
-\nこの発信源を調査するための志願者が必要だ。詳細は会議で共有する。</text>
+		<text>同志たち、仕事だぞ。未確認の無線信号が検出された。
+\n発信源を調べる志願者が要る。詳細は集合してから話す。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_dolg">
-		<text>古参兵よ、我々が発見した未確認の無線送信の発信源を調査するため、志願者が必要だ。
-\n詳細は会議で共有する。</text>
+		<text>古参兵に告ぐ。未確認の無線信号を検出した。その発信源を調査する志願者が必要だ。
+\n詳細は集合時に伝える。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_ecolog">
-		<text>ストーカー諸君、我々が検出した謎の無線通信の発信源を調査する志願者を募る。
-\n詳細は会議で伝える。</text>
+		<text>ストーカー諸君、我々の科学者が未確認の無線信号を検出した。
+\n発信源の調査に協力してくれる志願者を募る。詳細は集合時に説明する。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_freedom">
-		<text>お前ら、俺たちは正体不明の無線通信を検出した。発信源を調査するには勇敢な戦士が必要だ。
+		<text>お前ら、俺たちは正体不明の無線信号を検出した。発信源を調査するには勇敢な戦士が必要だ。
 \n詳しい話が聞きたいやつは軍事倉庫の俺のところにきな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_killer">
-		<text>未確認の無線通信が検出された。我々の顧客は発信源の調査に高い報酬を支払うはずだ。
-\n詳細は会議にて。</text>
+		<text>未確認の無線信号が検出された。我々の顧客は発信源の調査に高い報酬を支払うはずだ。
+\n詳細は合流後に伝える。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_stalker">
-		<text>ストーカー、身元不明の無線通信が検出された。誰かに発信源を調査してほしい。
-\nルーキー村で会おう。詳細を教える。</text>
+		<text>ストーカー、未確認の無線信号が検出された。発信源を調べてくれる人手を探している。
+\nルーキー村で会おう。詳細はそこで話す。</text>
 	</string>
 	
 
@@ -4853,7 +4853,7 @@
 	</string>
 	<string id="st_dyn_news_surge_template_17">
 		<text>$whatが起きるぞ。
-\n感じるんだ、老人たちが雨を予期するのと同じようにな。$when来るだろう。</text>
+\n感じるんだ、老人が雨を言い当てるみたいにな。$when来るだろう。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_18">
 		<text>よく聞けよ、一度しか言わないからな！$whatが$when来るぞ。
@@ -4875,8 +4875,8 @@
 \nそこから推測するに、$whatが$when来ると思う。気をつけてくれ。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_23">
-		<text>よく聞け、$when悪い事が起こるぞ。$whatだ。
-\n聞かなかったとは言わせないぞ！</text>
+		<text>よく聞け、$whenかなりヤバいのが来る。$whatだ。
+\n警告されてなかったとは言わせないぞ！</text>
 	</string>
 	<string id="st_dyn_news_surge_template_24">
 		<text>外に出るには最悪なタイミングだ。エコロジストが$when$whatが発生すると言ってた。
@@ -4887,9 +4887,9 @@
 \nゾンビ化した奴らの仲間に入りたいなら、いい機会だぞ！</text>
 	</string>
 	<string id="st_dyn_news_surge_template_26">
-		<text>良いニュース: 酒が入った箱をもう一つ見つけた！
-\n悪いニュース: $whatが$when発生する。
-\n運が良ければその時には完全に酔っ払ってるだろうさ。</text>
+		<text>良い知らせだ。酒の入った箱をもう一つ見つけたぜ！
+\n悪い知らせは･･････ $whatが$when来ることだ。
+\n運が良ければ、その頃にはすっかり酔っ払ってるだろうさ。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_27">
 		<text>いいか、情報を手に入れたが見返りはいらないぞ、ただ聞いてくれ。$whatが来るらしい。
@@ -6414,8 +6414,8 @@
 		<text>哨兵に告ぐ: 諸君には警戒が要求されている。任務から関心を逸らすことなく、責務を果たせ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_monolith_32">
-		<text>レーダーの東にいるタロンの分隊だ。負傷兵が何人かいるが、ここから運び出すことができない。
-\n彼らを処分し、装備を持ち帰る。</text>
+		<text>こちらタロン分隊、レーダーの東に展開中。負傷兵が数名出ているが、連れ帰る余裕はない。
+\nこれより彼らを処分し、装備を回収して撤収する。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_monolith_33">
 		<text>センターのはるか北東で装甲車両の動きが報告されている。念のため、そこに対車両チームを配置する。</text>
@@ -6695,8 +6695,8 @@
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_10">
 		<text>$leader、こちら$speakerです。
-\n$locationで2人の捕虜を確保しました。
-\n彼らをどうしますか？</text>
+\n$locationで$targetと長時間交戦しました。
+\n捕虜を2名確保しました。処遇の指示をお願いします。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_11">
 		<text>$leader、応答してください！
@@ -6878,9 +6878,9 @@
 \nすでに2人失った。これ以上は持たない･･････</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_3">
-		<text>こちら$speakerだ。
+		<text>こちら$leaderだ。
 \n$locationで活動中の分隊から報告が入った。
-\nどうやら$targetに襲撃されたようだ。
+\nどうやら$targetに襲撃されたらしい。
 \n詳しい状況は不明だが、周辺に彼らを援護できる分隊はいないか？</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_mutant_4">
@@ -7248,8 +7248,8 @@
 \n$speaker、通信終了。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_7">
-		<text>我々はアノマリーフィールドに行く途中で$targetと出会った。
-\n彼らはアフロプロムにある北の工場の北西側で目撃されたミュータントの襲撃準備をしていた。
+		<text>アノマリーフィールドに行く途中で$targetと遭遇した。
+\n彼らは$locationで目撃されたミュータントの襲撃準備をしていた。
 \nひとまず彼らに協力することにする。調査は一時中断し、この件の後で再開する予定だ。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_friend_8">
@@ -7388,7 +7388,7 @@
 	</string>
 	<string id="st_dyn_news_spam_26">
 		<text>$clr_1匿名
-\n$clr_2ズーロフ、人手が足りない。君と何人かで遺体の埋葬を準備してくれ。
+\n$clr_2ズーロフ、人手が足りない。お前と他に何人か、遺体の埋葬準備に回ってくれ。
 \nそれは数日以内に“貨物200便”として南へ送られる予定だ。</text>
 	</string>
 	<string id="st_dyn_news_spam_27">
@@ -12397,8 +12397,8 @@
 		<text>赤い森がほとんどのストーカーをここから遠ざけてるんだな。レーダーもそうだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_22">
-		<text>デューティーとフリーダムは以前、この場所に住んでいたんだ。
-\n彼らはヤニフ駅を共有していたらしい。それは見る価値があっただろうな･･････</text>
+		<text>デューティーとフリーダムは、かつてどちらもこの地域に拠点を置いていた。
+\nあのヤニフ駅を共同で使っていたらしい。それは見ものだっただろうな･･････</text>
 	</string>
 	<string id="st_dyn_news_companion_level_zaton_1">
 		<text>沼地が好きなわけじゃないが、この場所はそれほど悪くないな。</text>
