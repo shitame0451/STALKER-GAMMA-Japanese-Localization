@@ -27,7 +27,7 @@
 		<text>「プレイヤーの防御力」設定は現在無効です。（GrokのActor Damage Balancerによって上書きされています）</text>
 	</string>
 	<string id="ui_mm_desc_gbo_hit_power_settings_hint">
-		<text>「銃弾が命中したときのダメージ倍率」設定は現在無効です。（GrokのBallistics Overhaulによって上書きされています）</text>
+		<text>「銃弾のダメージ倍率」設定は現在無効です。（GrokのBallistics Overhaulによって上書きされています）</text>
 	</string>
 	<string id="ui_mm_desc_gbo_shoot_effects_hint">
 		<text>GrokのBallistics Overhaulには標準で反動効果が含まれています。\nそのため、以下の設定を有効にすると効果が過剰になり、深刻なエラーを引き起こす可能性があります。</text>
