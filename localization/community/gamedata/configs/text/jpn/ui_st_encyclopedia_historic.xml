@@ -20,7 +20,7 @@
 		\n%c[pda_white] • リーダー: %c[pda_white]不明
 		\n%c[pda_white] • 本部: %c[pda_white]不明
 		\n%c[pda_white] • 派閥カラー: %c[pda_white]不明
-		\n \n%c[pda_green]雑学%c[pda_white]
+		\n \n%c[pda_yellow]雑学
 		\n%c[pda_white] • %c[pda_white]この派閥に関する情報は、主にゲームの開発資料に基づいている。
 		\n%c[pda_white] • %c[pda_white]製品版『S.T.A.L.K.E.R.: Shadow of Chernobyl』からはカットされたため、ゲーム本編に直接登場することはない。\n
 		</text>

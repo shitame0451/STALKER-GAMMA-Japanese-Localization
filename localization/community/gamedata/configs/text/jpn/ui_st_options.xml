@@ -23,7 +23,7 @@
 		<text>詳細設定</text>
 	</string>
 	<string id="ui_mm_menu_hud">
-		<text>UIとHUD</text>
+		<text>UI／HUD</text>
 	</string>
 	<string id="ui_mm_menu_player">
 		<text>プレイヤー</text>
@@ -1021,13 +1021,13 @@
 		<text>睡眠不足</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_radiation_day">
-		<text>昼間の大気中の放射線量</text>
+		<text>日中放射線のシミュレーション</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_radiation_day_desc">
 		<text>有効にすると、日中に屋外にいると常に放射線ダメージを受けます。地下エリアではさらに高い放射線に晒されます。放射線耐性の高いスーツやヘルメットは、この効果から身を守るのに役立ちます。</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_notify_geiger">
-		<text>ガイガーカウンター使用時の放射線クリック音</text>
+		<text>ガイガーカウンター音の制限</text>
 	</string>
 	<string id="ui_mm_gameplay_gameplay_diff_notify_geiger_desc">
 		<text>%c[ui_gray_1]無効:%c[ui_gray_1] 放射能汚染地帯に近づくとクリック音が鳴ります。
@@ -1135,10 +1135,10 @@
 		\nこの設定は、個別の消費速度に倍率として作用し、全体の消費速度を調整します。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_limited_bolts">
-		<text>ボルトの所持制限</text>
+		<text>ボルトの使用を制限する</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_limited_bolts_desc">
-		<text>有効にすると、ボルトの所持数が制限されます。ボルトが尽きた場合は購入するか探索で入手する必要があります。\n
+		<text>有効にすると、ボルトが有限の消費アイテムになります。手持ちがなくなった場合は、トレーダーから購入するか探索で見つける必要があります。\n
 		%c[pda_white]ヒント:%c[ui_gray_1] 投げたボルトは、アノマリーで損傷していない限り回収できます。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_arty_degradation">
@@ -1148,11 +1148,11 @@
 		<text>バックパックの劣化</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_percentage_parts">
-		<text>部品の耐久値表示（詳細）</text>
+		<text>部品の耐久値を詳細にする</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_percentage_parts_desc">
-		<text>有効にすると、分解で得られる部品の耐久値が1～100%のスケールで表示されます。
-		\n無効の場合、耐久値は25%、50%、75%、100%の4段階で表示されます。</text>
+		<text>有効にすると、分解で得られる部品の耐久値が1%から100%までの詳細な数値で管理されるようになります。
+		\n無効の場合、4段階（25%、50%、75%、100%）のカテゴリに簡略化されます。</text>
 	</string>
 	<string id="ui_mm_gameplay_economy_diff_restock">
 		<text>トレーダーの在庫補充間隔［h］</text>

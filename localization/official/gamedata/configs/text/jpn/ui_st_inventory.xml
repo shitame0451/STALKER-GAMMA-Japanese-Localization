@@ -221,7 +221,7 @@
 		<text>詳細</text>
 	</string>
 	<string id="st_item_unpack_battery">
-		<text>バッテリーを外す</text>
+		<text>バッテリーを取り出す</text>
 	</string>
 	<string id="st_item_tear_patch">
 		<text>派閥パッチを外す</text>
@@ -1158,7 +1158,7 @@
 		<text>アップグレード</text>
 	</string>
 	<string id="st_tab_craft">
-		<text>作成</text>
+		<text>クラフト</text>
 	</string>
 	<string id="st_cap_inventory">
 		<text>インベントリ</text>
@@ -1188,13 +1188,13 @@
 		<text>必要なツールキット</text>
 	</string>
 	<string id="st_ui_craft_device">
-		<text>機器</text>
+		<text>デバイス</text>
 	</string>
 	<string id="st_ui_craft_equipment">
 		<text>装備品</text>
 	</string>
 	<string id="st_ui_craft_repair">
-		<text>修理ツールキット</text>
+		<text>修理ツール</text>
 	</string>
 	<string id="st_ui_craft_upgrades">
 		<text>アップグレードキット</text>

@@ -1,20 +1,20 @@
 <string_table>
 	<string id="encyclopedia_items_detector_radio_text">
 		<text>
-%c[pda_white]「RF受信機」%c[ui_gray_1]
-\n高感度のRFモジュールを搭載した小型機器で、基本的な通信に使用できる。
+%c[pda_white]「RF受信機」
+\n高感度のRFモジュールを搭載した小型デバイスで、基本的な通信に使用できる。
 
-\n \n%c[pda_green]情報%c[ui_gray_1]
-\n古い技術品であるにもかかわらず、兵士たちの間ではいまだに使用されている。
-\nこのデバイスは半径200m内の無線信号と通信する機能を持ち、1MHz~999MHzの範囲の周波数を処理することができる。
+\n \n%c[pda_green]情報%c[pda_white]
+\nPDAのような高度なデバイスよりも堅牢であることが証明されており、緊急時やその他の用途に備えて多くのストーカーが好んで所有している。
+\n簡素な電子部品と高感度RFモジュールで構成されたこのデバイスは、1MHz~999MHz（MCMで設定可能）の範囲で無線信号を受信する機能を備えている。 
 
-\n \n%c[pda_blue]使用方法%c[ui_gray_1]
-\n受信機を装備し、手に持つことで周波数を調整できる。
-\n%c[pda_white] • %c[ui_gray_1]マウスの左クリックか、上スクロールで周波数が上がる
-\n%c[pda_white] • %c[ui_gray_1]マウスの右クリックか、下スクロールで周波数が下がる
-\n%c[pda_white] • %c[ui_gray_1]左Shiftキーを押しながら操作すると、周波数の増減幅が10Hzになる
-\n%c[pda_white] • %c[ui_gray_1]左Altキーを押しながら操作すると、周波数の増減幅が50Hzになる
-\n%c[pda_white] • %c[ui_gray_1]1秒あたり%c[pda_white]0.1uAh%c[ui_gray_1]の電力を消費する
+\n \n%c[pda_blue]使用方法%c[pda_white]
+\n受信機を手に持っている間、受信周波数を切り替えられる。
+\n • 左クリックか、上スクロールで周波数を上げる。
+\n • 右クリックか、下スクロールで周波数を下げる。
+\n • 左Shiftキーを押しながら操作すると、周波数の増減幅が10Hzになる。
+\n • 左Altキーを押しながら操作すると、周波数の増減幅が50Hzになる。
+\n • 1秒あたり0.1uAhの電力を消費する。
 		</text>
 	</string>
 </string_table>
