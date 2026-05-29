@@ -7,11 +7,20 @@ local original_get_smart_display_name = xlevel.get_smart_display_name
 xlevel.get_smart_display_name = function(smart)
 	local name = original_get_smart_display_name(smart)
 
-	if name then
+	if name and smart then
 		local info = debug.getinfo(2, "S")
 		if info and info.short_src and string.find(info.short_src, "ap_ext_news") then
-			local match = string.match(name, "(%[.+%])")
-			if match then return match end
+			local smart_level = xlevel.get_level_id(smart)
+			local actor_level = xlevel.get_actor_level_id()
+			if smart_level and actor_level and smart_level ~= actor_level then
+				-- エリア外: 「ザトンの[スカドフスク]」と表示
+				local match = string.gsub(name, "%s+(%[)", "の%1")
+				if match then return match end
+			else
+				-- エリア内: 「[スカドフスク]」と表示
+				local match = string.match(name, "(%[.+%])")
+				if match then return match end
+			end
 		end
 	end
 
@@ -40,7 +49,7 @@ local function patch_news_internals()
 
 					debug.setupvalue(impl, j, function(template, slots)
 						local result = template
-						local jp_tags = {"subject_faction", "subject_species", "subject_name", "other_faction", "subject_faction_a", "subject_faction_b", "subject_species_a", "subject_species_b", "subject_name_a", "subject_name_b"}
+						local jp_tags = {"subject_faction", "subject_species", "subject_name", "other_faction"}
 						local utf8_pattern = "[\1-\127\192-\255][\128-\191]*"
 
 						for _, tag in ipairs(jp_tags) do

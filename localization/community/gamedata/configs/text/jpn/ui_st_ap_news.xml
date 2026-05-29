@@ -1,318 +1,859 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <string_table>
-
-    <!-- ==== mutant engine faction display plurals (lowercase for prose flow in PDA news) ==== -->
-    <string id="st_ap_news_mutant_predatory_day"><text>肉食ミュータント</text></string>
-    <string id="st_ap_news_mutant_predatory_night"><text>夜行性ミュータント</text></string>
-    <string id="st_ap_news_mutant_vegetarian"><text>草食ミュータント</text></string>
-    <string id="st_ap_news_mutant_zombied_day"><text>ゾンビ</text></string>
-    <string id="st_ap_news_mutant_zombied_night"><text>ゾンビ</text></string>
-    <string id="st_ap_news_mutant_special"><text>特異ミュータント</text></string>
-
-    <!-- ==== #subject_species# / #other_species# plurals (lowercase) ==== -->
-    <string id="st_ap_news_species_bloodsucker"><text>ブラッドサッカー</text></string>
-    <string id="st_ap_news_species_boar"><text>ボア</text></string>
-    <string id="st_ap_news_species_burer"><text>バーラー</text></string>
-    <string id="st_ap_news_species_chimera"><text>キメラ</text></string>
-    <string id="st_ap_news_species_controller"><text>コントローラー</text></string>
-    <string id="st_ap_news_species_dog"><text>ブラインドドッグ</text></string>
-    <string id="st_ap_news_species_flesh"><text>フレッシュ</text></string>
-    <string id="st_ap_news_species_gigant"><text>スードウジャイアント</text></string>
-    <string id="st_ap_news_species_psy_dog"><text>サイドッグ</text></string>
-    <string id="st_ap_news_species_pseudodog"><text>スードウドッグ</text></string>
-    <string id="st_ap_news_species_snork"><text>スノーク</text></string>
-    <string id="st_ap_news_species_tushkano"><text>トゥシュカノ</text></string>
-    <string id="st_ap_news_species_cat"><text>キャット</text></string>
-    <string id="st_ap_news_species_fracture"><text>フラクチャー</text></string>
-    <string id="st_ap_news_species_zombie"><text>ゾンビ</text></string>
-    <string id="st_ap_news_species_poltergeist"><text>ポルターガイスト</text></string>
-    <string id="st_ap_news_species_rat"><text>ラット</text></string>
-    <string id="st_ap_news_species_karlik"><text>カーリック</text></string>
-    <string id="st_ap_news_species_psysucker"><text>サイサッカー</text></string>
-    <string id="st_ap_news_species_lurker"><text>ルーカー</text></string>
-
-    <!-- ========================================================================= -->
-    <!-- PER-CONSEQUENCE TEMPLATES                                                  -->
-    <!-- 5 variants per consequence on speaker-rotation discipline:                 -->
-    <!--   V1 hearsay  - "Heard X" (short)                                          -->
-    <!--   V2 witness  - "Saw X" (medium)                                           -->
-    <!--   V3 survivor - "I was with..." / "I crossed..." (long)                    -->
-    <!--   V4 tracker  - "Tracks at X show..." / "Looks like..." (medium)           -->
-    <!--   V5 named    - uses #subject_name# (short) | mutant pools: direct factual -->
-    <!-- Every variant carries an explicit consequence tell.                        -->
-    <!-- See doc/standards/writing-standards.md "Generative templates" section.     -->
-    <!-- ========================================================================= -->
-
-    <!-- massacre_investigate (TWO-PARTY: subject = recovery crew, other = killer) -->
-    <string id="st_ap_news_tpl_massacre_investigate_001"><text>#subject_faction#の連中が#location#へ乗り込んだらしい。\n#other_faction#が退散したから、仲間の遺体を回収しに行ったんだろうな。</text></string>
-    <string id="st_ap_news_tpl_massacre_investigate_002"><text>#ago#、#location#に入る#subject_faction#の部隊を見かけたぞ。\n#other_faction#に全滅させられた仲間を回収しに行ったに違いない。</text></string>
-    <string id="st_ap_news_tpl_massacre_investigate_003"><text>#ago#、#location#の近くで#subject_faction#の巡回隊を見かけたんだ。\n仲間の遺体を確認しに来たようだが、ドッグタグだけ回収して去っていったよ。</text></string>
-    <string id="st_ap_news_tpl_massacre_investigate_004"><text>#location#に、#other_faction#が分隊を全滅させた痕跡が残ってる。\nその後に#subject_faction#の連中がやってきて、仲間の遺体を回収したんだろう。</text></string>
-    <string id="st_ap_news_tpl_massacre_investigate_005"><text>#subject_name#が#location#へ向かったそうだ。\n#ago#のことだ。#subject_faction#の仲間を連れて、#other_faction#にやられた仲間を回収するらしい。</text></string>
-
-    <!-- massacre_scavenge (TWO-PARTY mutant: subject = scavenger, other = victim) -->
-    <string id="st_ap_news_tpl_massacre_scavenge_001"><text>#location#に#other_faction#の死体が転がってるって噂だ。\n#ago#、#subject_species#の群れが食い荒らしてたらしいぞ。</text></string>
-    <string id="st_ap_news_tpl_massacre_scavenge_002"><text>#subject_species#が#other_faction#の死体を食い散らかしてるのを見たぞ。\n場所は#location#だ。回収隊がもうすぐ到着するはずだったのにな。</text></string>
-    <string id="st_ap_news_tpl_massacre_scavenge_003"><text>#location#で、#other_faction#の死体に群がる#subject_species#を見た。\n#ago#、俺もあそこにいたんだよ。今頃、誰の死体だったかなんて見分けもつかねえだろうな。</text></string>
-    <string id="st_ap_news_tpl_massacre_scavenge_004"><text>#location#の痕跡からすると、これは#subject_species#の群れだな。\n#other_faction#の死体を食い荒らしたみたいだ。この様子だと回収は無理だろう。</text></string>
-    <string id="st_ap_news_tpl_massacre_scavenge_005"><text>#ago#、#location#に#subject_species#の群れが集まってたぞ。\n#other_faction#の死体を骨の髄まで綺麗にしゃぶり尽くしてやがった。</text></string>
-
-    <!-- massacre_loot (TWO-PARTY: subject = outlaw looter, other = victim) -->
-    <string id="st_ap_news_tpl_massacre_loot_001"><text>#ago#、#subject_faction#の連中が#other_faction#の死体を漁ってたらしい。\n#location#で死体を見つけて、装備を根こそぎ奪っていったそうだ。</text></string>
-    <string id="st_ap_news_tpl_massacre_loot_002"><text>#subject_faction#の連中が、#other_faction#の死体から装備を剥ぎ取ってるのを見た。\n#location#での話だ、回収隊が来る前に武器も装備も持ち去っていきやがった。</text></string>
-    <string id="st_ap_news_tpl_massacre_loot_003"><text>#ago#、#location#の近くで#subject_faction#の連中を見かけたんだ。\n#other_faction#の死体を漁ってたな。使えそうな物は何でも、全部引っぺがしていったぞ。</text></string>
-    <string id="st_ap_news_tpl_massacre_loot_004"><text>#subject_faction#の連中が#other_faction#の死体を漁っていたみたいだな。\n#location#に痕跡がある。奴ら、荷袋をパンパンにして引き上げていったようだ。</text></string>
-    <string id="st_ap_news_tpl_massacre_loot_005"><text>#ago#、#subject_faction#が#other_faction#の死体を漁っていった。\n#location#には、回収する価値のある物は何も残ってないな。</text></string>
-
-    <!-- squadkill_revenge (TWO-PARTY: subject = avenger, other = killer) -->
-    <string id="st_ap_news_tpl_squadkill_revenge_001"><text>#subject_faction#の連中、#other_faction#に仲間をやられた報復をするつもりらしいな。\n#ago#、#location#を出発したって噂だ。</text></string>
-    <string id="st_ap_news_tpl_squadkill_revenge_002"><text>#location#で#subject_faction#の分隊が殺されてたらしい。\nあいつら、#other_faction#に報復するつもりだな。#ago#、足跡を追って東へ向かうのを見たぞ。</text></string>
-    <string id="st_ap_news_tpl_squadkill_revenge_003"><text>#ago#、#location#の近くで#subject_faction#の分隊が襲撃された。\n#other_faction#を追って報復に向かった連中は、結局戻ってこなかったよ。</text></string>
-    <string id="st_ap_news_tpl_squadkill_revenge_004"><text>#location#の状況からすると、#subject_faction#の分隊がやられたみたいだな。\nだが、奴らは死体が冷える間もなく、東に逃げた#other_faction#を追ってここを去ったらしい。</text></string>
-    <string id="st_ap_news_tpl_squadkill_revenge_005"><text>#subject_name#が、#subject_faction#の分隊を率いて#other_faction#を追ってる。\n奴らに報復するつもりらしいぞ。#ago#、#location#を出発したそうだ。</text></string>
-
-    <!-- basekill_support (TWO-PARTY: subject = backup arrives, other = attacker) -->
-    <string id="st_ap_news_tpl_basekill_support_001"><text>#ago#、#location#に#subject_faction#の増援が到着したらしい。\nあの場所を#other_faction#から奪い返す気だな。</text></string>
-    <string id="st_ap_news_tpl_basekill_support_002"><text>#ago#、#location#に急行してる#subject_faction#の分隊を見かけた。\n入口で#other_faction#とやり合ってる連中を援護しに行くらしい。</text></string>
-    <string id="st_ap_news_tpl_basekill_support_003"><text>#ago#、#location#の近くで#subject_faction#の増援を見た。\n連中は#other_faction#と交戦していたが、ゲートはもう突破された後だったな。</text></string>
-    <string id="st_ap_news_tpl_basekill_support_004"><text>#location#の状況からすると、#other_faction#の防壁は破られたみたいだな。\n#subject_faction#の連中が拠点の奪還に向けて、さらに増援を送り込んだらしい。</text></string>
-    <string id="st_ap_news_tpl_basekill_support_005"><text>#ago#、#subject_name#が増援を率いて#subject_faction#の援護に向かった。\n#location#で#other_faction#を迎え撃ったが、防壁は結局破られたらしい。</text></string>
-
-    <!-- basekill_flee (TWO-PARTY: subject = defender, other = attacker took base) -->
-    <string id="st_ap_news_tpl_basekill_flee_001"><text>#ago#、#subject_faction#が#location#から撤退したらしいぞ。\n今は#other_faction#の連中が正門を占拠している。</text></string>
-    <string id="st_ap_news_tpl_basekill_flee_002"><text>#ago#、#location#から去っていく#subject_faction#の分隊を見かけた。\n#other_faction#の連中が鉄条網を突破する直前に離脱したみたいだな。</text></string>
-    <string id="st_ap_news_tpl_basekill_flee_003"><text>#location#を横切ったとき、#other_faction#がゲートを突破してるのを見た。\n#ago#のことだな。#subject_faction#の連中はとっくに撤退して、途中で機密文書まで焼き払っていったよ。</text></string>
-    <string id="st_ap_news_tpl_basekill_flee_004"><text>#location#の痕跡を見るに、#other_faction#が侵入したようだ。\nここにいた#subject_faction#は立ち去ったようだな。戦いもせず、ゲートを明け渡したってわけだ。</text></string>
-    <string id="st_ap_news_tpl_basekill_flee_005"><text>#ago#、#subject_name#が#location#から抜け出した。\n#other_faction#に出入口を押さえられる前に、#subject_faction#の残存兵力を率いて撤退したそうだ。</text></string>
-
-    <!-- alpha_promote (SINGLE MUTANT: new pack leader) -->
-    <string id="st_ap_news_tpl_alpha_promote_001"><text>#ago#、#location#で#subject_species#の新しいボスが出たらしいぜ。\n前のやつは群れを乗っ取られて死んだって話だ。</text></string>
-    <string id="st_ap_news_tpl_alpha_promote_002"><text>#ago#、#location#で新しい#subject_species#のボスを見たぞ。\n前のやつより一回りデカいのが、群れを引き連れてやがった。</text></string>
-    <string id="st_ap_news_tpl_alpha_promote_003"><text>#ago#、#location#の高台から#subject_species#の新しいボスが見えた。\nそいつ、昼前にストーカー二人組を簡単に追い払ってやがったぜ。</text></string>
-    <string id="st_ap_news_tpl_alpha_promote_004"><text>#location#の状況を見るに、#subject_species#のボスが入れ替わったらしい。\nこの痕跡は#ago#のものだ。前のやつより、ずいぶん重い個体みたいだな。</text></string>
-    <string id="st_ap_news_tpl_alpha_promote_005"><text>#ago#、#subject_species#の新しいボスが群れを乗っ取ったらしい。\n場所は#location#だ。</text></string>
-
-    <!-- alphakill_targeted (TWO-PARTY mutant: subject = pack, other = killer human) -->
-    <string id="st_ap_news_tpl_alphakill_targeted_001"><text>#ago#、#other_faction#が#subject_species#の群れのボスを仕留めたらしい。\n場所は#location#だ。</text></string>
-    <string id="st_ap_news_tpl_alphakill_targeted_002"><text>#ago#、#other_faction#が#subject_species#のボスを撃ち殺すのを見た。\n残りの群れが周囲から集まる前に、#location#で片付けたみたいだな。</text></string>
-    <string id="st_ap_news_tpl_alphakill_targeted_003"><text>#ago#、#other_faction#が#subject_species#の群れのボスを仕留めていた。\n場所は#location#で、俺もすぐ近くにいたんだ。\n引き上げる前に群れの残りが押し寄せてきて、えらい騒ぎだったな。</text></string>
-    <string id="st_ap_news_tpl_alphakill_targeted_004"><text>#location#で#other_faction#と#subject_species#がやり合った跡がある。\n連中が群れのボスを仕留めた後、怒り狂った残りの群れにエリアの外れまで追い回されたらしい。</text></string>
-    <string id="st_ap_news_tpl_alphakill_targeted_005"><text>#other_faction#が#location#で#subject_species#のボスを殺したらしい。\n#ago#の話だ。今頃は生き残った群れが、復讐のために奴らの行方を追ってるはずだぜ。</text></string>
-
-    <!-- wounded_hunt (TWO-PARTY mutant: subject = predator, other = bleeding stalker) -->
-    <string id="st_ap_news_tpl_wounded_hunt_001"><text>#subject_species#の群れが#other_faction#を追ってるらしいぜ。\n#ago#に#location#から伸びてる血の跡を嗅ぎつけたらしい。</text></string>
-    <string id="st_ap_news_tpl_wounded_hunt_002"><text>#ago#、#location#の近くで#subject_species#の群れを見たぞ。\nあの場所には#other_faction#の血の跡が残っていた･･････ きっと連中を追ってるに違いない。</text></string>
-    <string id="st_ap_news_tpl_wounded_hunt_003"><text>#ago#、#subject_species#の群れが血を流してる#other_faction#に襲いかかるのが見えた。\n場所は#location#だ。俺も近くにいたが、連中に先を越されちまったな。</text></string>
-    <string id="st_ap_news_tpl_wounded_hunt_004"><text>#subject_species#の群れが血を流した#other_faction#を追ってるらしい。\n#location#に痕跡が残ってる。その辺一帯を追い回してるみたいだな。</text></string>
-    <string id="st_ap_news_tpl_wounded_hunt_005"><text>#ago#、#subject_species#の群れが血を流してる#other_faction#を追い詰めたそうだ。\n場所は#location#のすぐ近くだ。</text></string>
-
-    <!-- wounded_help (TWO-PARTY: subject = medic, other = bleeding squad) -->
-    <string id="st_ap_news_tpl_wounded_help_001"><text>#subject_faction#の医療チームが、負傷した仲間の回収に向かったらしい。\n#ago#に#location#を出たって聞いたぜ。</text></string>
-    <string id="st_ap_news_tpl_wounded_help_002"><text>#ago#、#subject_faction#の医療チームが走っていくのを見たぞ。\n#location#で負傷した仲間から無線が入ったらしい。</text></string>
-    <string id="st_ap_news_tpl_wounded_help_003"><text>#ago#、#location#を通った時に#subject_faction#の連中を見かけた。\n医療チームが仲間を運び出そうとしてたが、そいつは出血がひどくてな。その場で死んじまったよ。</text></string>
-    <string id="st_ap_news_tpl_wounded_help_004"><text>#subject_faction#の医療チームが、茂みで血を流してる仲間のところに駆けつけたみたいだな。\n#location#に痕跡が残ってるぞ。</text></string>
-    <string id="st_ap_news_tpl_wounded_help_005"><text>#ago#、#subject_name#が負傷した仲間の救助に向かったらしい。\n#subject_faction#の救護班を率いて、#location#へ出発したって話だ。</text></string>
-
-    <!-- harvest_rob (TWO-PARTY: subject = outlaw chase, other = artefact carrier) -->
-    <string id="st_ap_news_tpl_harvest_rob_001"><text>#ago#、#subject_faction#の連中が#other_faction#の運び屋を追い回してたらしいぜ。\n場所は#location#だ。</text></string>
-    <string id="st_ap_news_tpl_harvest_rob_002"><text>#ago#、#other_faction#のストーカーを、#subject_faction#の連中が追い詰めてるのを見たぞ。\n#location#からアーティファクトを運んでる最中だったらしい。</text></string>
-    <string id="st_ap_news_tpl_harvest_rob_003"><text>#location#から来る予定だった運び屋が、#subject_faction#に追われていたらしい。\n俺はトレーダーのところにいたが、結局そのアーティファクトが店に届くことはなかったな。</text></string>
-    <string id="st_ap_news_tpl_harvest_rob_004"><text>#location#の様子を見るに、ここにはアーティファクトの運び屋がいたらしい。\nそれを持った#other_faction#のストーカーを、#subject_faction#の連中が追っていったみたいだ。</text></string>
-    <string id="st_ap_news_tpl_harvest_rob_005"><text>#subject_name#が#other_faction#の運び屋を追ってるらしい。\n#ago#、#subject_faction#の連中を率いて#location#を出発したそうだ。</text></string>
-
-    <!-- harvest_haunt (TWO-PARTY mutant: subject = aberrant, other = artefact carrier) -->
-    <string id="st_ap_news_tpl_harvest_haunt_001"><text>#ago#、アーティファクトを運んでいた男が#subject_species#の群れに遭遇したらしい。\nそいつは#other_faction#の運び屋で、#location#の近くにいたそうだ。</text></string>
-    <string id="st_ap_news_tpl_harvest_haunt_002"><text>#ago#、#subject_species#の群れが#other_faction#のストーカーを迫ってるのを見たぞ。\n#location#からアーティファクトを運んでる奴だ。</text></string>
-    <string id="st_ap_news_tpl_harvest_haunt_003"><text>#ago#、#location#にいたときの話だ。\n#subject_species#の群れが#other_faction#の運び屋に近づいていくのを見たんだよ。音も立てずにな。\n奴ら、きっとアーティファクトの匂いを嗅ぎつけたんだろうな。</text></string>
-    <string id="st_ap_news_tpl_harvest_haunt_004"><text>#subject_species#の群れが、アーティファクトを持った#other_faction#の運び屋を迫ってたみたいだな。\n#location#に奴らの痕跡が残ってる。</text></string>
-    <string id="st_ap_news_tpl_harvest_haunt_005"><text>#ago#、#subject_species#の群れが#other_faction#の運び屋を追ってたそうだ。\nそいつは#location#からアーティファクトを運んでるらしいぜ。</text></string>
-
-    <!-- stash_loot (SINGLE STALKER) -->
-    <string id="st_ap_news_tpl_stash_loot_001"><text>#ago#、#subject_faction#が#location#の近くの隠し場所を空っぽにしたらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_stash_loot_002"><text>#ago#に#location#を出ていく#subject_faction#の連中を見た。\nあいつら、来た時よりもバックパックが明らかに膨らんでやがったぞ。</text></string>
-    <string id="st_ap_news_tpl_stash_loot_003"><text>#ago#、#subject_faction#が#location#を通り過ぎていくのが見えた。\n周りの隠し場所は空っぽだったが･･････ それにしてもあいつら、身の丈に合わない装備を抱えてたな。</text></string>
-    <string id="st_ap_news_tpl_stash_loot_004"><text>#location#に寄り道した#subject_faction#が、隠し場所を漁ったらしい。\n痕跡は残っているが、中身はもう空っぽで何も残ってないな。</text></string>
-    <string id="st_ap_news_tpl_stash_loot_005"><text>#subject_name#が#subject_faction#の連中を率いて隠し場所の中身を奪ったそうだ。\n場所は#location#で、中身が持ち去られたのは#ago#だな。</text></string>
-
-    <!-- stash_ambush (SINGLE STALKER) -->
-    <string id="st_ap_news_tpl_stash_ambush_001"><text>#subject_faction#の連中が#location#の隠し場所に居座ってるらしい。\n#ago#に聞いた話だ。持ち主が戻るまで待ち伏せしてるんだろうな。</text></string>
-    <string id="st_ap_news_tpl_stash_ambush_002"><text>#location#で#subject_faction#の連中を見たぜ。\nあいつ、隠し場所に狙いを定めてやがったぞ。待ち伏せでもしてるんだろうな。</text></string>
-    <string id="st_ap_news_tpl_stash_ambush_003"><text>#ago#、#location#で危うく罠に飛び込むところだった。\n#subject_faction#が隠し場所を見張ってるのが見えてな。気づかれる前に慌てて引き返したよ。</text></string>
-    <string id="st_ap_news_tpl_stash_ambush_004"><text>#subject_faction#が#location#の隠し場所に張り付いているようだ。\n通りがかった不運な漁り屋を仕留めるつもりだろう。</text></string>
-    <string id="st_ap_news_tpl_stash_ambush_005"><text>#subject_name#が#subject_faction#の連中を率いて隠し場所を見張ってるぞ。\n#ago#、#location#にやってきたスカベンジャーを撃ち殺したらしい。</text></string>
-
-    <!-- stash_fill (SINGLE STALKER) -->
-    <string id="st_ap_news_tpl_stash_fill_001"><text>#ago#、#subject_faction#が#location#近くの隠し場所に物資を置いたらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_stash_fill_002"><text>#ago#、#subject_faction#が#location#の近くに装備を隠してるのを見たぞ。\nあいつ、誰も通らないようなルートを使ってたな。</text></string>
-    <string id="st_ap_news_tpl_stash_fill_003"><text>#ago#、#location#の近くで#subject_faction#の足跡を見つけた。\n重い荷物を背負ってわざわざ遠回りしたみたいだな。足跡の先に、地面を掘った痕跡があったぞ。</text></string>
-    <string id="st_ap_news_tpl_stash_fill_004"><text>#location#の痕跡を見るに、重い荷物を抱えた#subject_faction#がやってきたようだ。\n茂みの中に、連中が補給物資を埋めた跡がバッチリ残ってるぜ。</text></string>
-    <string id="st_ap_news_tpl_stash_fill_005"><text>#subject_name#が#subject_faction#の連中を引き連れてたぞ。\n#ago#、#location#の近くに新しい隠し場所を作ったらしい。</text></string>
-
-    <!-- area_conquer (humans claim empty smart) -->
-    <string id="st_ap_news_tpl_area_conquer_001"><text>#ago#、#subject_faction#が#location#に乗り込んで陣取ったらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_area_conquer_002"><text>#ago#、#subject_faction#が#location#を制圧した。\n隙を与える間もなく乗り込んで、そのまま陣地を確保したようだ。</text></string>
-    <string id="st_ap_news_tpl_area_conquer_003"><text>#ago#、#subject_faction#が#location#に乗り込んで占拠するのを見た。\n俺はそのとき、近くの高台にいたんだ。これで#level#の勢力図も変わったな。</text></string>
-    <string id="st_ap_news_tpl_area_conquer_004"><text>#location#にある足跡から、#subject_faction#が#ago#に侵入したことがわかる。\nそれ以来、厳重な監視体制を敷いているようだ。</text></string>
-    <string id="st_ap_news_tpl_area_conquer_005"><text>#ago#、#subject_name#が#location#を占拠した。\n#subject_faction#の分隊を率いて乗り込み、それ以来あの場所を維持しているそうだ。</text></string>
-    <!-- area_swarm (mutants claim empty smart) -->
-    <string id="st_ap_news_tpl_area_swarm_001"><text>#ago#、#subject_species#が#location#に入り込んだらしい。\nそのまま居座るつもりで、巣まで作り始めてるそうだ。</text></string>
-    <string id="st_ap_news_tpl_area_swarm_002"><text>#ago#、#subject_species#が#location#に入っていくのを見た。\n誰も追い払えなかったな。そのまま居座っちまったよ。</text></string>
-    <string id="st_ap_news_tpl_area_swarm_003"><text>#ago#、#location#に#subject_species#が現れた。\n俺は外から見てたんだ。今じゃ#level#のあの辺りは、完全に奴らの縄張りさ。</text></string>
-    <string id="st_ap_news_tpl_area_swarm_004"><text>#location#へ続く足跡を見るに、#subject_species#がやって来たみたいだな。\nおそらく#ago#だろう。それから一度も出ていった形跡がない。</text></string>
-    <string id="st_ap_news_tpl_area_swarm_005"><text>#ago#、#subject_species#の群れが#location#を縄張りにした。\n奴らは今もあの場所から離れちゃいない。</text></string>
-
-    <!-- hunger_campfire (SINGLE STALKER need: cooking) -->
-    <string id="st_ap_news_tpl_hunger_campfire_001"><text>#ago#、#subject_faction#の奴が#location#で鍋に火をかけてたらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_hunger_campfire_002"><text>#ago#、#subject_faction#が#location#の焚き火を囲んで飯を食ってるのを見たぞ。</text></string>
-    <string id="st_ap_news_tpl_hunger_campfire_003"><text>#ago#、食い物を探してたら#location#からいい匂いがしてきたんだ。\n#subject_faction#の連中が、仕留めたばかりの獲物でシチューを作ってたよ。</text></string>
-    <string id="st_ap_news_tpl_hunger_campfire_004"><text>#location#に#subject_faction#の痕跡があるぞ。\nここに寄り道したみたいだな。しかも、見張りも置かずに焚き火を始めたらしい。</text></string>
-    <string id="st_ap_news_tpl_hunger_campfire_005"><text>#ago#、#subject_name#が#subject_faction#の連中を率いていたらしい。\n#location#に立ち寄って、飯を食ってたそうだ。</text></string>
-
-    <!-- sleep_campfire (SINGLE STALKER need: bedded down) -->
-    <string id="st_ap_news_tpl_sleep_campfire_001"><text>#ago#、長旅を終えた#subject_faction#が#location#で寝床についたらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_sleep_campfire_002"><text>#location#で眠りこけてる#subject_faction#を#ago#に見たぞ。\nあいつ、飯も食わずに2日間も歩き通したらしい。</text></string>
-    <string id="st_ap_news_tpl_sleep_campfire_003"><text>#ago#のことだ。雨風をしのげる場所を探して#location#にたどり着いた。\nそこでぐっすり寝てる#subject_faction#に出くわしたんだ。そいつ、丸2日も移動しっぱなしだったらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_sleep_campfire_004"><text>#location#の痕跡を見る限り、#subject_faction#がここで休んでたようだな。\nよほど疲れ切ってたのか、警戒もせずにそのまま寝ちまったらしい。</text></string>
-    <string id="st_ap_news_tpl_sleep_campfire_005"><text>#subject_name#が#subject_faction#の連中を率いていたらしい。\n休みなしで進んだあと、#ago#に#location#で休息を取ったそうだ。</text></string>
-
-    <!-- rest_campfire (SINGLE STALKER need: brief halt) -->
-    <string id="st_ap_news_tpl_rest_campfire_001"><text>#subject_faction#の連中、#ago#に#location#で足を止めて休憩に入ったらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_rest_campfire_002"><text>#location#で足を休めている#subject_faction#を#ago#に見かけた。\nその後、数分もしないうちにまた歩き出していったよ。</text></string>
-    <string id="st_ap_news_tpl_rest_campfire_003"><text>#ago#、#location#で休んでる#subject_faction#に出くわしたんだ。\n長旅の途中だったらしい。俺が一服し終える前に、奴らはもう出発していったぜ。</text></string>
-    <string id="st_ap_news_tpl_rest_campfire_004"><text>#subject_faction#が#location#で少し休憩したらしい。\n足跡が残ってるが、すぐに移動を再開したようだ。</text></string>
-    <string id="st_ap_news_tpl_rest_campfire_005"><text>#ago#、#location#で#subject_faction#の連中が休憩していた。\nそいつらを率いていた#subject_name#が指示を出していたらしい。</text></string>
-
-    <!-- heal_shelter (SINGLE STALKER need: medic + wounded) -->
-    <string id="st_ap_news_tpl_heal_shelter_001"><text>#ago#、#subject_faction#の連中が負傷した仲間を#location#へ運び込んだらしい。</text></string>
-    <string id="st_ap_news_tpl_heal_shelter_002"><text>#subject_faction#の連中が手負いの仲間を担いで#location#に行くのを見たぜ。\n#ago#のことだ。衛生兵のやつ、連中が着く前から大忙しだったよ。</text></string>
-    <string id="st_ap_news_tpl_heal_shelter_003"><text>#ago#、取引をしに#location#へ行ったら修羅場に出くわした。\n床一面に#subject_faction#の負傷者が転がっていて、そのうちの2人は助からなかったようだ。</text></string>
-    <string id="st_ap_news_tpl_heal_shelter_004"><text>#location#まで続く血の跡が、#ago#の惨状を物語っているな。\n#subject_faction#の連中が負傷した仲間を抱えて、必死に運び込んだみたいだ。</text></string>
-    <string id="st_ap_news_tpl_heal_shelter_005"><text>#ago#、#location#に#subject_faction#の負傷者が運び込まれた。\n#subject_name#が連れてきたそうだ。衛生兵が手当てしてるらしいぜ。</text></string>
-
-    <!-- shelter_indoor (SINGLE STALKER need) -->
-    <string id="st_ap_news_tpl_shelter_indoor_001"><text>#subject_faction#の連中、#ago#に#location#の中に引きこもったらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_shelter_indoor_002"><text>嵐が来る#ago#、#subject_faction#が#location#に避難するのを見た。</text></string>
-    <string id="st_ap_news_tpl_shelter_indoor_003"><text>#ago#、雨宿りできる場所を探して#location#にたどり着いた。\n中にはもう#subject_faction#の連中がいたよ。入口を塞いで、中でストーブを焚いてたな。</text></string>
-    <string id="st_ap_news_tpl_shelter_indoor_004"><text>#ago#の#subject_faction#の連中の足跡が、#location#へ続いている。\nどうやら中へ入ったきり、一度も外に出てきてないみたいだな。</text></string>
-    <string id="st_ap_news_tpl_shelter_indoor_005"><text>#subject_name#が#subject_faction#の分隊を連れて建物の中へ避難したそうだ。\nたしか#ago#のことだな。場所は#location#だ。</text></string>
-
-    <!-- shelter_outdoor (SINGLE STALKER need: dug-in) -->
-    <string id="st_ap_news_tpl_shelter_outdoor_001"><text>#subject_faction#の連中が#location#を見下ろす高台に穴を掘って陣取ったらしい。\n#ago#のことだ。当分あそこから降りてくる気はなさそうだな。</text></string>
-    <string id="st_ap_news_tpl_shelter_outdoor_002"><text>#ago#、#location#のすぐ上の斜面に#subject_faction#が潜んでいるのを見た。\n追跡者を撒いた後、そのまま陣地を築いて身を潜めたようだな。</text></string>
-    <string id="st_ap_news_tpl_shelter_outdoor_003"><text>#ago#、#location#近くの高台で大穴にうっかり足を踏み入れそうになったよ。\nあそこは#subject_faction#の潜伏場所になってる。奴ら、火も焚かずに2日間も潜んでたらしい。</text></string>
-    <string id="st_ap_news_tpl_shelter_outdoor_004"><text>#subject_faction#の連中が#location#近くの高台に陣取ってるらしい。\n配置についてから一度も動いた形跡がないな。</text></string>
-    <string id="st_ap_news_tpl_shelter_outdoor_005"><text>#ago#、#location#を見下ろす高台に#subject_faction#の分隊が陣取ってるらしい。\n#subject_name#って奴が連中を率いてるそうだ。</text></string>
-
-    <!-- money_harvest (SINGLE STALKER need: anomaly field) -->
-    <string id="st_ap_news_tpl_money_harvest_001"><text>#ago#、#location#に#subject_faction#の連中がいたらしい。\n一歩進むごとにボルトを投げ、アノマリー領域をくまなく探ったみたいだな。</text></string>
-    <string id="st_ap_news_tpl_money_harvest_002"><text>#ago#、探知機とボルトを構えた#subject_faction#の連中を見たよ。\n場所は#location#のアノマリー領域だ。</text></string>
-    <string id="st_ap_news_tpl_money_harvest_003"><text>#ago#のことだ。俺は高台から#location#を見張ってたんだ。\nそしたら、#subject_faction#の連中がアノマリー領域に入っていく様子が見えた。\n投げたボルトが2回反応してるのも見えたな。結局、一人のストーカーが帰らぬ人になっちまったよ。</text></string>
-    <string id="st_ap_news_tpl_money_harvest_004"><text>#subject_faction#の連中、探知機のバッテリーが切れるまでボルトを投げ続けて道を探していたらしい。\n#location#に奴らの足跡が残ってる。片っ端からルートを総当たりしたようだな。</text></string>
-    <string id="st_ap_news_tpl_money_harvest_005"><text>#subject_name#がアノマリー領域を突破したらしい。\n#ago#、#location#で#subject_faction#の仲間を連れてボルトを投げてるのを見たぜ。</text></string>
-
-    <!-- money_hunt (SINGLE STALKER need: hunting) -->
-    <string id="st_ap_news_tpl_money_hunt_001"><text>#subject_faction#の連中、#ago#に#location#の近くへ狩りに出かけたらしい。\nトレーダーが買い取ってくれる物なら、何でも狙うつもりだろうな。</text></string>
-    <string id="st_ap_news_tpl_money_hunt_002"><text>#ago#、#subject_faction#の連中が#location#から出てくるのを見たぜ。\n仕留めたばかりの獲物から剥ぎ取った皮をぶら下げてたぞ。</text></string>
-    <string id="st_ap_news_tpl_money_hunt_003"><text>#ago#、#location#で#subject_faction#に先を越されちまった。\nボアの足跡を追ってたが･･････ 俺が着いたときには、もう血と内臓しか残ってなかった。</text></string>
-    <string id="st_ap_news_tpl_money_hunt_004"><text>#subject_faction#の連中がボアを追って、日没前に仕留めたみたいだな。\n#location#に奴らの痕跡が残ってる。</text></string>
-    <string id="st_ap_news_tpl_money_hunt_005"><text>#ago#、#subject_name#が#subject_faction#の分隊を率いてたぞ。\n#location#の近くへ、ミュータントの皮を調達しに出たそうだ。</text></string>
-
-    <!-- supply_trader (SINGLE STALKER need: trader) -->
-    <string id="st_ap_news_tpl_supply_trader_001"><text>#ago#、#location#のトレーダーに#subject_faction#の奴らが群がってたらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_supply_trader_002"><text>#ago#、#subject_faction#の連中が戦利品をこれでもかと売り払ってたな。\n場所は#location#のトレーダーのところだ。店の金が底をつく勢いだったぞ。</text></string>
-    <string id="st_ap_news_tpl_supply_trader_003"><text>#ago#に#location#のトレーダーで並んでたら、#subject_faction#がやって来てな。\n奴らの装備の査定に1時間もかかって、俺はさらに待たされる羽目になっちまった。</text></string>
-    <string id="st_ap_news_tpl_supply_trader_004"><text>#subject_faction#の連中が大荷物を抱えて#location#のトレーダーを尋ねたらしい。\n#ago#の痕跡を見るに、奴らは荷物を軽くしてそのまま引き上げていったようだな。</text></string>
-    <string id="st_ap_news_tpl_supply_trader_005"><text>#ago#、#subject_name#が#subject_faction#の分隊を連れてたらしい。\n#location#のトレーダーのところへ向かったそうだ。</text></string>
-
-    <!-- job_outpost (SINGLE STALKER need: post/wire) -->
-    <string id="st_ap_news_tpl_job_outpost_001"><text>#subject_faction#の連中、#ago#に#location#の外周の警備を引き継いだらしいぞ。\n二重の監視体制を敷いてかなり警戒してるみたいだ。</text></string>
-    <string id="st_ap_news_tpl_job_outpost_002"><text>#ago#、#subject_faction#の連中がスコープを覗き込みながら陣取ってるのを見た。\n場所は#location#の外周で、監視所もすでに設置されてた。</text></string>
-    <string id="st_ap_news_tpl_job_outpost_003"><text>近道しようとしたら、#ago#に#subject_faction#の連中を見かけた。\n#location#の外周で二重の監視を敷いてたから、大人しく迂回したよ。</text></string>
-    <string id="st_ap_news_tpl_job_outpost_004"><text>#location#の足跡を見るに、#subject_faction#の連中が外周まで来てるみたいだな。\n奴らはそのまま警備に就いてるらしい。今も配置は変わってないな。</text></string>
-    <string id="st_ap_news_tpl_job_outpost_005"><text>#ago#、#location#の外周に#subject_faction#の警備隊が配置された。\n#subject_name#って奴が連中を率いて見張りに立ってるそうだ。</text></string>
-
-    <!-- job_explore (SINGLE STALKER need: recon) -->
-    <string id="st_ap_news_tpl_job_explore_001"><text>#subject_faction#の連中が#ago#に#location#の先へ偵察隊を出したらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_job_explore_002"><text>#ago#、#subject_faction#の偵察隊が妙に大回りのルートを取ってたのを見た。\n連中は#location#をそのまま通り過ぎていったぞ。</text></string>
-    <string id="st_ap_news_tpl_job_explore_003"><text>#ago#、#subject_faction#の偵察隊が妙な場所を調べているところに遭遇した。\n場所は#location#の近くだ。バッテリーを2つも使い切って戻ってきたらしい。</text></string>
-    <string id="st_ap_news_tpl_job_explore_004"><text>#ago#の足跡を見るに、#subject_faction#の偵察隊は未開拓の土地を大回りして進んだみたいだな。\n#location#を越えて、そのまま迂回していったようだ。</text></string>
-    <string id="st_ap_news_tpl_job_explore_005"><text>#ago#、#subject_name#が#subject_faction#の偵察隊を率いて出たらしい。\n#location#の先まで長距離の偵察に向かったそうだ。</text></string>
-
-    <!-- job_research (SINGLE STALKER need: instruments) -->
-    <string id="st_ap_news_tpl_job_research_001"><text>#ago#、#subject_faction#の連中が#location#の周辺に測定器を設置したらしいぞ。\n夜遅くまでデータの読み取り作業に追われてたそうだ。</text></string>
-    <string id="st_ap_news_tpl_job_research_002"><text>#ago#、#location#に#subject_faction#の連中がいるのを見た。\nセンサーを並べて、一晩中ガイガーカウンターの音を鳴り響かせてたな。</text></string>
-    <string id="st_ap_news_tpl_job_research_003"><text>#ago#に調査キャンプを通りかかったとき、#subject_faction#の連中が測定をしてたんだ。\n#location#での数値がひどくて、前の報告書を書き直す羽目になったらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_job_research_004"><text>#location#に機材が放置されてるぞ。\n足跡を見る限り、#subject_faction#の連中が運び込んだのは間違いないな。</text></string>
-    <string id="st_ap_news_tpl_job_research_005"><text>#ago#、#subject_faction#の調査隊が#location#に乗り込んだらしい。\n仕切ってるのは#subject_name#で、アノマリーの本格的な調査を始めるそうだ。</text></string>
-
-    <!-- social_campfire (SINGLE STALKER need: fire socializing) -->
-    <string id="st_ap_news_tpl_social_campfire_001"><text>#subject_faction#の連中、#ago#に#location#の焚き火でボトルを空けてたらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_social_campfire_002"><text>#ago#、#location#の焚き火に#subject_faction#が集まってるのを見た。\n歌声が#level#の半分にまで響き渡るほど、賑やかに騒いでたな。</text></string>
-    <string id="st_ap_news_tpl_social_campfire_003"><text>#ago#に雨風を凌ごうとしてたら、#location#から音楽が聞こえてきてな。\nそこで#subject_faction#の連中がボトルを開けて、歌い疲れるまで居座ってたよ。</text></string>
-    <string id="st_ap_news_tpl_social_campfire_004"><text>#location#の跡を見る限り、#subject_faction#が夜遅くまで火を囲んでいたようだ。\n連中が座っていた場所には、空になったボトルの山が積み上がってたぞ。</text></string>
-    <string id="st_ap_news_tpl_social_campfire_005"><text>#ago#、#subject_name#が#subject_faction#の分隊と酒盛りしてたらしい。\n#location#の焚き火で騒いでたって話だ。</text></string>
-
-    <!-- social_base (SINGLE STALKER need: base social) -->
-    <string id="st_ap_news_tpl_social_base_001"><text>#ago#、給料日を迎えた#subject_faction#の連中が飲み始めたらしい。\n#location#でウォッカの瓶を開けたって話だ。</text></string>
-    <string id="st_ap_news_tpl_social_base_002"><text>#ago#、#location#で#subject_faction#の連中を見たよ。\nテーブルにカードを広げて、半分空になったウォッカの瓶を囲んで盛り上がってたな。</text></string>
-    <string id="st_ap_news_tpl_social_base_003"><text>#ago#に取引しに行ったら、#subject_faction#の連中のどんちゃん騒ぎに出くわした。\n#location#でウォッカを浴びるように飲んで、もうカード遊びまで始まってたぜ。</text></string>
-    <string id="st_ap_news_tpl_social_base_004"><text>#ago#に聞こえてきた音楽からして、#subject_faction#は給料日の夜を満喫してるみたいだな。\n連中は#location#でウォッカを片手に騒いでるらしい。</text></string>
-    <string id="st_ap_news_tpl_social_base_005"><text>#ago#、#subject_name#が#subject_faction#の分隊を連れて宴会を始めたらしい。\n#location#で給料日のどんちゃん騒ぎをやってたそうだ。</text></string>
-
-    <!-- feed (SINGLE MUTANT instinct) -->
-    <string id="st_ap_news_tpl_feed_001"><text>#ago#、#subject_species#の群れが獲物を仕留めたらしいぞ。\n#location#で、仕留めたばかりの獲物に群がっていたという話だ。</text></string>
-    <string id="st_ap_news_tpl_feed_002"><text>#ago#、#subject_species#の群れが茂みで獲物を追い詰めてやがった。\n#location#でそのまま貪り食ってたよ。</text></string>
-    <string id="st_ap_news_tpl_feed_003"><text>#ago#、#subject_species#の群れが獲物に飛びつく場面に出くわした。\n俺は#location#の風下にいたんだ。悲鳴が聞こえたが、すぐに静かになったよ。</text></string>
-    <string id="st_ap_news_tpl_feed_004"><text>足跡を見るに、#subject_species#の群れが獲物を追い詰めたみたいだな。\n#location#で食い散らかした後、そのままどこかへ去ったようだ。</text></string>
-    <string id="st_ap_news_tpl_feed_005"><text>#ago#、#location#で#subject_species#が獲物を食い荒らしてたそうだ。</text></string>
-
-    <!-- slumber_lair (SINGLE MUTANT instinct) -->
-    <string id="st_ap_news_tpl_slumber_lair_001"><text>#subject_species#の奴ら、#ago#から#location#の巣穴で眠ってるらしいぜ。</text></string>
-    <string id="st_ap_news_tpl_slumber_lair_002"><text>夜明けの#ago#、#subject_species#の群れがぞろぞろ戻っていくのを見たよ。\n#location#の巣穴へ向かってたな。</text></string>
-    <string id="st_ap_news_tpl_slumber_lair_003"><text>夜明けの#ago#、#subject_species#の群れが巣穴へ戻っていくのを見た。\n#location#で夕暮れまで休むつもりらしい。</text></string>
-    <string id="st_ap_news_tpl_slumber_lair_004"><text>#subject_species#の群れは、巣穴に潜り込んでからピクリとも動いてないみたいだな。\n#location#の足跡がそれを示してる。</text></string>
-    <string id="st_ap_news_tpl_slumber_lair_005"><text>#subject_species#の群れは、#ago#に眠りについたらしい。\n#location#の巣穴で休んでるそうだ。</text></string>
-
-    <!-- slumber_field (cowardly mutants bedding down in open territory) -->
-    <string id="st_ap_news_tpl_slumber_field_001"><text>#ago#、#subject_species#が#location#の草むらで寝てたらしい。\n隠れる気もなく、そのまま地面に転がってたそうだ。</text></string>
-    <string id="st_ap_news_tpl_slumber_field_002"><text>#ago#、#subject_species#の群れが#location#にいるのを見た。\n開けた場所に腰を据えて、それから奴らは一歩も動いていない。</text></string>
-    <string id="st_ap_news_tpl_slumber_field_003"><text>#location#の丘を越えた時、目の前で#subject_species#の群れが寝そべってた。\n#ago#のことだ。寝てるのか起きてるのか知らねえが、ピクリともせず草むらでじっとしてたな。</text></string>
-    <string id="st_ap_news_tpl_slumber_field_004"><text>#location#に#subject_species#の群れが居座ってたみたいだな。\n開けた場所に痕跡が残ってるぜ。何時間もその場を動かなかったようだ。</text></string>
-    <string id="st_ap_news_tpl_slumber_field_005"><text>#ago#、#subject_species#の群れが#location#で寝床を作ってやがった。</text></string>
-
-    <!-- slumber_surge (aberrant + predators sheltering in surge shelter) -->
-    <string id="st_ap_news_tpl_slumber_surge_001"><text>#ago#、#subject_species#が#location#に籠もったらしい。\nそれから、一度も外へ出てきてないそうだ。</text></string>
-    <string id="st_ap_news_tpl_slumber_surge_002"><text>#ago#、#location#の屋内に#subject_species#が逃げ込むのを見た。\nその後は物音ひとつ聞こえない。静まり返ったままだな。</text></string>
-    <string id="st_ap_news_tpl_slumber_surge_003"><text>#location#の屋内に#subject_species#がいるかもしれない。\n#ago#に近くを通ったとき、気配がしたんだ。まあ、俺の前に姿を見せる気はなかったみたいだな。</text></string>
-    <string id="st_ap_news_tpl_slumber_surge_004"><text>#location#に#subject_species#の足跡が残ってるぞ。\n屋内に入り込んで、そのまま居着いちまったようだ。</text></string>
-    <string id="st_ap_news_tpl_slumber_surge_005"><text>#ago#、#subject_species#の群れが#location#の屋内に潜り込んだ。\nそのまま中で寝床を作って居座ってるぞ。</text></string>
-
-    <!-- roam (SINGLE MUTANT instinct) -->
-    <string id="st_ap_news_tpl_roam_001"><text>#ago#、#subject_species#の奴らが当てもなく移動してたらしいぜ。\n#location#を横切って、長距離を進んだみたいだ。</text></string>
-    <string id="st_ap_news_tpl_roam_002"><text>#ago#、#subject_species#の群れがまばらに散って移動してるところを見たぞ。\n道も無視して#location#を突っ切っていったぜ。</text></string>
-    <string id="st_ap_news_tpl_roam_003"><text>#ago#、帰る途中で#subject_species#の痕跡を見つけたんだ。\n#location#の近くで、不規則な動きで長距離移動していたようだな。</text></string>
-    <string id="st_ap_news_tpl_roam_004"><text>#location#に#subject_species#の新しい足跡が残ってる。\n#ago#のもので、行き先も意図もまったく読めない跡がひたすら続いてるな。</text></string>
-    <string id="st_ap_news_tpl_roam_005"><text>#ago#、#subject_species#の群れが#location#を横切っていったらしい。</text></string>
-
-    <!-- pack (SINGLE MUTANT instinct) -->
-    <string id="st_ap_news_tpl_pack_001"><text>#subject_species#の奴らが、#ago#に異様な数で集まってたらしいぜ。\n場所は#location#で、偶然とは思えない規模だったそうだ。</text></string>
-    <string id="st_ap_news_tpl_pack_002"><text>#ago#、#subject_species#の群れが四方八方から集まってくるのを見たぞ。\n#location#に一斉に集結してたな。</text></string>
-    <string id="st_ap_news_tpl_pack_003"><text>#ago#のことだ。#location#の方から鳴き声が響いてきてな。\n高台から覗いてみたら、#subject_species#がいつもよりデカい群れを作ってたぜ。</text></string>
-    <string id="st_ap_news_tpl_pack_004"><text>#ago#の足跡を見るに、#subject_species#の群れが三方向から集まってきたみたいだな。\nそのまま#location#で合流したらしい。</text></string>
-    <string id="st_ap_news_tpl_pack_005"><text>#ago#、#subject_species#の群れが#location#に集まったらしい。</text></string>
-
-    <!-- scatter (SINGLE MUTANT instinct) -->
-    <string id="st_ap_news_tpl_scatter_001"><text>#ago#、#subject_species#の奴らが一目散に逃げ出したらしい。\n場所は#location#だ。奴らを怯えさせた「何か」はまだそこにいるはずだぜ。</text></string>
-    <string id="st_ap_news_tpl_scatter_002"><text>#ago#、#subject_species#が俺の横を走り抜けていったよ。\n#location#の近くだ。あいつら、道にクソを漏らすほどビビってたぜ。</text></string>
-    <string id="st_ap_news_tpl_scatter_003"><text>#ago#にその辺を歩いてたら、#subject_species#の群れとすれ違ったんだ。\n#location#から逃げ出してきたらしい。あいつら、戦う気力もなさそうだったぞ。</text></string>
-    <string id="st_ap_news_tpl_scatter_004"><text>#subject_species#の群れが#location#から逃げていったみたいだな。\n足跡がバッチリ残ってるぞ。奴らを追い払った「何か」がまだそこに居座ってるはずだ。</text></string>
-    <string id="st_ap_news_tpl_scatter_005"><text>#ago#、#subject_species#の群れが四方八方に散って逃げたらしい。\n#location#から一斉に離脱したって話だ。</text></string>
-
-    <!-- area_infest (AREA-family mutant opportunity: territory claim) -->
-    <string id="st_ap_news_tpl_area_infest_001"><text>#subject_species#の奴らが#location#に巣穴を作ったらしいぜ。\n#ago#のことだ。群れはどんどんデカくなってるぞ。</text></string>
-    <string id="st_ap_news_tpl_area_infest_002"><text>#ago#、#subject_species#の群れが#location#に入っていくのを見たぞ。\nあの規模だと、しばらく立ち去る気はなさそうだな。</text></string>
-    <string id="st_ap_news_tpl_area_infest_003"><text>偵察してたら、ミュータントの群れが#location#に入っていくのを見た。\n#ago#のことだ。#level#はもう#subject_species#の縄張りだな。</text></string>
-    <string id="st_ap_news_tpl_area_infest_004"><text>#subject_species#の群れが#location#に住み着いたみたいだな。\n奴らの足跡が残ってるぞ。それ以来、ずっと繁殖を続けているようだ。</text></string>
-    <string id="st_ap_news_tpl_area_infest_005"><text>#ago#、#location#がミュータントの群れに占拠された。\n#subject_species#の巣になってるらしいぞ。</text></string>
-
+  <!-- ========================================================================= -->
+  <!-- PER-CONSEQUENCE TEMPLATES                                                  -->
+  <!-- 5 variants per consequence on speaker-rotation discipline:                 -->
+  <!--   V1 hearsay  - "Heard X" (short)                                          -->
+  <!--   V2 witness  - "Saw X" (medium)                                           -->
+  <!--   V3 survivor - "I was with..." / "I crossed..." (long)                    -->
+  <!--   V4 tracker  - "Tracks at X show..." / "Looks like..." (medium)           -->
+  <!--   V5 named    - uses #subject_name# (short) | mutant pools: direct factual -->
+  <!-- Every variant carries an explicit consequence tell.                        -->
+  <!-- See doc/standards/writing-standards.md "Generative templates" section.     -->
+  <!-- ========================================================================= -->
+  <!-- massacre_investigate (TWO-PARTY: subject = recovery crew, other = killer) -->
+  <string id="st_ap_news_tpl_massacre_investigate_001">
+    <text>#subject_faction#の連中が#location#へ乗り込んだらしい。
+\n#other_faction#が退散したから、仲間の遺体を回収しに行ったんだろうな。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_investigate_002">
+    <text>#ago#、#location#に入る#subject_faction#の部隊を見かけたぞ。
+\n#other_faction#に全滅させられた仲間を回収しに行ったに違いない。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_investigate_003">
+    <text>#ago#、#location#の近くで#subject_faction#の巡回隊を見かけたんだ。
+\n仲間の遺体を確認しに来たようだが、ドッグタグだけ回収して去っていったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_investigate_004">
+    <text>#location#に、#other_faction#が分隊を全滅させた痕跡が残ってる。
+\nその後に#subject_faction#の連中がやってきて、仲間の遺体を回収したんだろう。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_investigate_005">
+    <text>#subject_name#が#location#へ向かったそうだ。
+\n#ago#のことだ。#subject_faction#の仲間を連れて、#other_faction#にやられた仲間を回収するらしい。</text>
+  </string>
+  <!-- massacre_scavenge (TWO-PARTY mutant: subject = scavenger, other = victim) -->
+  <string id="st_ap_news_tpl_massacre_scavenge_001">
+    <text>#location#に#other_faction#の死体が転がってるって噂だ。
+\n#ago#、#subject_species#の群れが食い荒らしてたらしいぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_scavenge_002">
+    <text>#subject_species#が#other_faction#の死体を食い散らかしてるのを見たぞ。
+\n場所は#location#だ。回収隊がもうすぐ到着するはずだったのにな。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_scavenge_003">
+    <text>#location#で、#other_faction#の死体に群がる#subject_species#を見た。
+\n#ago#、俺もあそこにいたんだよ。今頃、誰の死体だったかなんて見分けもつかねえだろうな。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_scavenge_004">
+    <text>#location#の痕跡からすると、これは#subject_species#の群れだな。
+\n#other_faction#の死体を食い荒らしたみたいだ。この様子だと回収は無理だろう。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_scavenge_005">
+    <text>#ago#、#location#に#subject_species#の群れが集まってたぞ。
+\n#other_faction#の死体を骨の髄まで綺麗にしゃぶり尽くしてやがった。</text>
+  </string>
+  <!-- massacre_loot (TWO-PARTY: subject = outlaw looter, other = victim) -->
+  <string id="st_ap_news_tpl_massacre_loot_001">
+    <text>#ago#、#subject_faction#の連中が#other_faction#の死体を漁ってたらしい。
+\n#location#で死体を見つけて、装備を根こそぎ奪っていったそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_loot_002">
+    <text>#subject_faction#の連中が、#other_faction#の死体から装備を剥ぎ取ってるのを見た。
+\n#location#での話だ、回収隊が来る前に武器も装備も持ち去っていきやがった。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_loot_003">
+    <text>#ago#、#location#の近くで#subject_faction#の連中を見かけたんだ。
+\n#other_faction#の死体を漁ってたな。使えそうな物は何でも、全部引っぺがしていったぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_loot_004">
+    <text>#subject_faction#の連中が#other_faction#の死体を漁っていたみたいだな。
+\n#location#に痕跡がある。奴ら、荷袋をパンパンにして引き上げていったようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_massacre_loot_005">
+    <text>#ago#、#subject_faction#が#other_faction#の死体を漁っていった。
+\n#location#には、回収する価値のある物は何も残ってないな。</text>
+  </string>
+  <!-- squadkill_revenge (TWO-PARTY: subject = avenger, other = killer) -->
+  <string id="st_ap_news_tpl_squadkill_revenge_001">
+    <text>#subject_faction#の連中、#other_faction#に仲間をやられた報復をするつもりらしいな。
+\n#ago#、#location#を出発したって噂だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_squadkill_revenge_002">
+    <text>#location#で#subject_faction#の分隊が殺されてたらしい。
+\nあいつら、#other_faction#に報復するつもりだな。#ago#、足跡を追って東へ向かうのを見たぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_squadkill_revenge_003">
+    <text>#ago#、#location#の近くで#subject_faction#の分隊が襲撃された。
+\n#other_faction#を追って報復に向かった連中は、結局戻ってこなかったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_squadkill_revenge_004">
+    <text>#location#の状況からすると、#subject_faction#の分隊がやられたみたいだな。
+\nだが、奴らは死体が冷える間もなく、東に逃げた#other_faction#を追ってここを去ったらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_squadkill_revenge_005">
+    <text>#subject_name#が、#subject_faction#の分隊を率いて#other_faction#を追ってる。
+\n奴らに報復するつもりらしいぞ。#ago#、#location#を出発したそうだ。</text>
+  </string>
+  <!-- basekill_support (TWO-PARTY: subject = backup arrives, other = attacker) -->
+  <string id="st_ap_news_tpl_basekill_support_001">
+    <text>#ago#、#location#に#subject_faction#の増援が到着したらしい。
+\nあの場所を#other_faction#から奪い返す気だな。</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_support_002">
+    <text>#ago#、#location#に急行してる#subject_faction#の分隊を見かけた。
+\n入口で#other_faction#とやり合ってる連中を援護しに行くらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_support_003">
+    <text>#ago#、#location#の近くで#subject_faction#の増援を見た。
+\n連中は#other_faction#と交戦していたが、ゲートはもう突破された後だったな。</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_support_004">
+    <text>#location#の状況からすると、#other_faction#の防壁は破られたみたいだな。
+\n#subject_faction#の連中が拠点の奪還に向けて、さらに増援を送り込んだらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_support_005">
+    <text>#ago#、#subject_name#が増援を率いて#subject_faction#の援護に向かった。
+\n#location#で#other_faction#を迎え撃ったが、防壁は結局破られたらしい。</text>
+  </string>
+  <!-- basekill_flee (TWO-PARTY: subject = defender, other = attacker took base) -->
+  <string id="st_ap_news_tpl_basekill_flee_001">
+    <text>#ago#、#subject_faction#が#location#から撤退したらしいぞ。
+\n今は#other_faction#の連中が正門を占拠している。</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_flee_002">
+    <text>#ago#、#location#から去っていく#subject_faction#の分隊を見かけた。
+\n#other_faction#の連中が鉄条網を突破する直前に離脱したみたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_flee_003">
+    <text>#location#を横切ったとき、#other_faction#がゲートを突破してるのを見た。
+\n#ago#のことだな。#subject_faction#の連中はとっくに撤退して、途中で機密文書まで焼き払っていったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_flee_004">
+    <text>#location#の痕跡を見るに、#other_faction#が侵入したようだ。
+\nここにいた#subject_faction#は立ち去ったようだな。戦いもせず、ゲートを明け渡したってわけだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_basekill_flee_005">
+    <text>#ago#、#subject_name#が#location#から抜け出した。
+\n#other_faction#に出入口を押さえられる前に、#subject_faction#の残存兵力を率いて撤退したそうだ。</text>
+  </string>
+  <!-- alpha_promote (SINGLE MUTANT: new pack leader) -->
+  <string id="st_ap_news_tpl_alpha_promote_001">
+    <text>#ago#、#location#で#subject_species#の新しいボスが出たらしいぜ。
+\n前のやつは群れを乗っ取られて死んだって話だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_alpha_promote_002">
+    <text>#ago#、#location#で新しい#subject_species#のボスを見たぞ。
+\n前のやつより一回りデカいのが、群れを引き連れてやがった。</text>
+  </string>
+  <string id="st_ap_news_tpl_alpha_promote_003">
+    <text>#ago#、#location#の高台から#subject_species#の新しいボスが見えた。
+\nそいつ、昼前にストーカー二人組を簡単に追い払ってやがったぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_alpha_promote_004">
+    <text>#location#の状況を見るに、#subject_species#のボスが入れ替わったらしい。
+\nこの痕跡は#ago#のものだ。前のやつより、ずいぶん重い個体みたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_alpha_promote_005">
+    <text>#ago#、#subject_species#の新しいボスが群れを乗っ取ったらしい。
+\n場所は#location#だ。</text>
+  </string>
+  <!-- alphakill_targeted (TWO-PARTY mutant: subject = pack, other = killer human) -->
+  <string id="st_ap_news_tpl_alphakill_targeted_001">
+    <text>#ago#、#other_faction#が#subject_species#のボスを仕留めたらしい。
+\n場所は#location#だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_alphakill_targeted_002">
+    <text>#ago#、#other_faction#が#subject_species#のボスを撃ち殺すのを見た。
+\n残りの群れが周囲から集まる前に、#location#で片付けたみたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_alphakill_targeted_003">
+    <text>#ago#、#other_faction#が#subject_species#のボスを仕留めていた。
+\n場所は#location#で、俺もすぐ近くにいたんだ。
+\n引き上げる前に群れの残りが押し寄せてきて、えらい騒ぎだったな。</text>
+  </string>
+  <string id="st_ap_news_tpl_alphakill_targeted_004">
+    <text>#location#で#other_faction#と#subject_species#がやり合った跡がある。
+\n連中が群れのボスを仕留めた後、怒り狂った残りの群れにエリアの外れまで追い回されたらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_alphakill_targeted_005">
+    <text>#other_faction#が#location#で#subject_species#のボスを殺したらしい。
+\n#ago#の話だ。今頃は生き残った群れが、復讐のために奴らの行方を追ってるはずだぜ。</text>
+  </string>
+  <!-- wounded_hunt (TWO-PARTY mutant: subject = predator, other = bleeding stalker) -->
+  <string id="st_ap_news_tpl_wounded_hunt_001">
+    <text>#subject_species#の群れが#other_faction#を追ってるらしいぜ。
+\n#ago#に#location#から伸びてる血の跡を嗅ぎつけたらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_hunt_002">
+    <text>#ago#、#location#の近くで#subject_species#の群れを見たぞ。
+\nあの場所には#other_faction#の血の跡が残っていた･･････ きっと連中を追ってるに違いない。</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_hunt_003">
+    <text>#ago#、#subject_species#の群れが血を流してる#other_faction#に襲いかかるのが見えた。
+\n場所は#location#だ。俺も近くにいたが、連中に先を越されちまったな。</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_hunt_004">
+    <text>#subject_species#の群れが血を流した#other_faction#を追ってるらしい。
+\n#location#に痕跡が残ってる。その辺一帯を追い回してるみたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_hunt_005">
+    <text>#ago#、#subject_species#の群れが血を流してる#other_faction#を追い詰めたそうだ。
+\n場所は#location#のすぐ近くだ。</text>
+  </string>
+  <!-- wounded_help (TWO-PARTY: subject = medic, other = bleeding squad) -->
+  <string id="st_ap_news_tpl_wounded_help_001">
+    <text>#subject_faction#の医療チームが、負傷した仲間の回収に向かったらしい。
+\n#ago#に#location#を出たって聞いたぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_help_002">
+    <text>#ago#、#subject_faction#の医療チームが走っていくのを見たぞ。
+\n#location#で負傷した仲間から無線が入ったらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_help_003">
+    <text>#ago#、#location#を通った時に#subject_faction#の連中を見かけた。
+\n医療チームが仲間を運び出そうとしてたが、そいつは出血がひどくてな。その場で死んじまったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_help_004">
+    <text>#subject_faction#の医療チームが、茂みで血を流してる仲間のところに駆けつけたみたいだな。
+\n#location#に痕跡が残ってるぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_wounded_help_005">
+    <text>#ago#、#subject_name#が負傷した仲間の救助に向かったらしい。
+\n#subject_faction#の救護班を率いて、#location#へ出発したって話だ。</text>
+  </string>
+  <!-- harvest_rob (TWO-PARTY: subject = outlaw chase, other = artefact carrier) -->
+  <string id="st_ap_news_tpl_harvest_rob_001">
+    <text>#ago#、#subject_faction#の連中が#other_faction#の運び屋を追い回してたらしいぜ。
+\n場所は#location#だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_rob_002">
+    <text>#ago#、#other_faction#のストーカーを、#subject_faction#の連中が追い詰めてるのを見たぞ。
+\n#location#からアーティファクトを運んでる最中だったらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_rob_003">
+    <text>#location#から来る予定だった運び屋が、#subject_faction#に追われていたらしい。
+\n俺はトレーダーのところにいたが、結局そのアーティファクトが店に届くことはなかったな。</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_rob_004">
+    <text>#location#の様子を見るに、ここにはアーティファクトの運び屋がいたらしい。
+\nそれを持った#other_faction#のストーカーを、#subject_faction#の連中が追っていったみたいだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_rob_005">
+    <text>#subject_name#が#other_faction#の運び屋を追ってるらしい。
+\n#ago#、#subject_faction#の連中を率いて#location#を出発したそうだ。</text>
+  </string>
+  <!-- harvest_haunt (TWO-PARTY mutant: subject = aberrant, other = artefact carrier) -->
+  <string id="st_ap_news_tpl_harvest_haunt_001">
+    <text>#ago#、アーティファクトを運んでいた男が#subject_species#の群れに遭遇したらしい。
+\nそいつは#other_faction#の運び屋で、#location#の近くにいたそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_haunt_002">
+    <text>#ago#、#subject_species#の群れが#other_faction#のストーカーを迫ってるのを見たぞ。
+\n#location#からアーティファクトを運んでる奴だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_haunt_003">
+    <text>#ago#、#location#にいたときの話だ。
+\n#subject_species#の群れが#other_faction#の運び屋に近づいていくのを見たんだよ。音も立てずにな。
+\n奴ら、きっとアーティファクトの匂いを嗅ぎつけたんだろうな。</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_haunt_004">
+    <text>#subject_species#の群れが、アーティファクトを持った#other_faction#の運び屋を迫ってたみたいだな。
+\n#location#に奴らの痕跡が残ってる。</text>
+  </string>
+  <string id="st_ap_news_tpl_harvest_haunt_005">
+    <text>#ago#、#subject_species#の群れが#other_faction#の運び屋を追ってたそうだ。
+\nそいつは#location#からアーティファクトを運んでるらしいぜ。</text>
+  </string>
+  <!-- stash_loot (SINGLE STALKER) -->
+  <string id="st_ap_news_tpl_stash_loot_001">
+    <text>#ago#、#subject_faction#が#location#の近くの隠し場所を空っぽにしたらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_loot_002">
+    <text>#ago#に#location#を出ていく#subject_faction#の連中を見た。
+\nあいつら、来た時よりもバックパックが明らかに膨らんでやがったぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_loot_003">
+    <text>#ago#、#subject_faction#が#location#を通り過ぎていくのが見えた。
+\n周りの隠し場所は空っぽだったが･･････ それにしてもあいつら、身の丈に合わない装備を抱えてたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_loot_004">
+    <text>#location#に寄り道した#subject_faction#が、隠し場所を漁ったらしい。
+\n痕跡は残っているが、中身はもう空っぽで何も残ってないな。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_loot_005">
+    <text>#subject_name#が#subject_faction#の連中を率いて隠し場所の中身を奪ったそうだ。
+\n場所は#location#で、中身が持ち去られたのは#ago#だな。</text>
+  </string>
+  <!-- stash_ambush (SINGLE STALKER) -->
+  <string id="st_ap_news_tpl_stash_ambush_001">
+    <text>#subject_faction#の連中が#location#の隠し場所に居座ってるらしい。
+\n#ago#に聞いた話だ。持ち主が戻るまで待ち伏せしてるんだろうな。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_ambush_002">
+    <text>#location#で#subject_faction#の連中を見たぜ。
+\nあいつ、隠し場所に狙いを定めてやがったぞ。待ち伏せでもしてるんだろうな。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_ambush_003">
+    <text>#ago#、#location#で危うく罠に飛び込むところだった。
+\n#subject_faction#が隠し場所を見張ってるのが見えてな。気づかれる前に慌てて引き返したよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_ambush_004">
+    <text>#subject_faction#が#location#の隠し場所に張り付いているようだ。
+\n通りがかった不運な漁り屋を仕留めるつもりだろう。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_ambush_005">
+    <text>#subject_name#が#subject_faction#の連中を率いて隠し場所を見張ってるぞ。
+\n#ago#、#location#にやってきたスカベンジャーを撃ち殺したらしい。</text>
+  </string>
+  <!-- stash_fill (SINGLE STALKER) -->
+  <string id="st_ap_news_tpl_stash_fill_001">
+    <text>#ago#、#subject_faction#が#location#近くの隠し場所に物資を置いたらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_fill_002">
+    <text>#ago#、#subject_faction#が#location#の近くに装備を隠してるのを見たぞ。
+\nあいつ、誰も通らないようなルートを使ってたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_fill_003">
+    <text>#ago#、#location#の近くで#subject_faction#の足跡を見つけた。
+\n重い荷物を背負ってわざわざ遠回りしたみたいだな。足跡の先に、地面を掘った痕跡があったぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_fill_004">
+    <text>#location#の痕跡を見るに、重い荷物を抱えた#subject_faction#がやってきたようだ。
+\n茂みの中に、連中が補給物資を埋めた跡がバッチリ残ってるぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_stash_fill_005">
+    <text>#subject_name#が#subject_faction#の連中を引き連れてたぞ。
+\n#ago#、#location#の近くに新しい隠し場所を作ったらしい。</text>
+  </string>
+  <!-- area_conquer (humans claim empty smart) -->
+  <string id="st_ap_news_tpl_area_conquer_001">
+    <text>#ago#、#subject_faction#が#location#に乗り込んで陣取ったらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_conquer_002">
+    <text>#ago#、#subject_faction#が#location#を制圧した。
+\n隙を与える間もなく乗り込んで、そのまま陣地を確保したようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_conquer_003">
+    <text>#ago#、#subject_faction#が#location#に乗り込んで占拠するのを見た。
+\n俺はそのとき、近くの高台にいたんだ。これで#level#の勢力図も変わったな。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_conquer_004">
+    <text>#location#にある足跡から、#subject_faction#が#ago#に侵入したことがわかる。
+\nそれ以来、厳重な監視体制を敷いているようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_conquer_005">
+    <text>#ago#、#subject_name#が#location#を占拠した。
+\n#subject_faction#の分隊を率いて乗り込み、それ以来あの場所を維持しているそうだ。</text>
+  </string>
+  <!-- area_swarm (mutants claim empty smart) -->
+  <string id="st_ap_news_tpl_area_swarm_001">
+    <text>#ago#、#subject_species#が#location#に入り込んだらしい。
+\nそのまま居座るつもりで、巣まで作り始めてるそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_swarm_002">
+    <text>#ago#、#subject_species#が#location#に入っていくのを見た。
+\n誰も追い払えなかったな。そのまま居座っちまったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_swarm_003">
+    <text>#ago#、#location#に#subject_species#が現れた。
+\n俺は外から見てたんだ。今じゃ#level#のあの辺りは、完全に奴らの縄張りさ。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_swarm_004">
+    <text>#location#へ続く足跡を見るに、#subject_species#がやって来たみたいだな。
+\nおそらく#ago#だろう。それから一度も出ていった形跡がない。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_swarm_005">
+    <text>#ago#、#subject_species#の群れが#location#を縄張りにした。
+\n奴らは今もあの場所から離れちゃいない。</text>
+  </string>
+  <!-- hunger_campfire (SINGLE STALKER need: cooking) -->
+  <string id="st_ap_news_tpl_hunger_campfire_001">
+    <text>#ago#、#subject_faction#の奴が#location#で鍋に火をかけてたらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_hunger_campfire_002">
+    <text>#ago#、#subject_faction#が#location#の焚き火を囲んで飯を食ってるのを見たぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_hunger_campfire_003">
+    <text>#ago#、食い物を探してたら#location#からいい匂いがしてきたんだ。
+\n#subject_faction#の連中が、仕留めたばかりの獲物でシチューを作ってたよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_hunger_campfire_004">
+    <text>#location#に#subject_faction#の痕跡があるぞ。
+\nここに寄り道したみたいだな。しかも、見張りも置かずに焚き火を始めたらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_hunger_campfire_005">
+    <text>#ago#、#subject_name#が#subject_faction#の連中を率いていたらしい。
+\n#location#に立ち寄って、飯を食ってたそうだ。</text>
+  </string>
+  <!-- sleep_campfire (SINGLE STALKER need: bedded down) -->
+  <string id="st_ap_news_tpl_sleep_campfire_001">
+    <text>#ago#、長旅を終えた#subject_faction#が#location#で寝床についたらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_sleep_campfire_002">
+    <text>#location#で眠りこけてる#subject_faction#を#ago#に見たぞ。
+\nあいつ、飯も食わずに2日間も歩き通したらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_sleep_campfire_003">
+    <text>#ago#のことだ。雨風をしのげる場所を探して#location#にたどり着いた。
+\nそこでぐっすり寝てる#subject_faction#に出くわしたんだ。そいつ、丸2日も移動しっぱなしだったらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_sleep_campfire_004">
+    <text>#location#の痕跡を見る限り、#subject_faction#がここで休んでたようだな。
+\nよほど疲れ切ってたのか、警戒もせずにそのまま寝ちまったらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_sleep_campfire_005">
+    <text>#subject_name#が#subject_faction#の連中を率いていたらしい。
+\n休みなしで進んだあと、#ago#に#location#で休息を取ったそうだ。</text>
+  </string>
+  <!-- rest_campfire (SINGLE STALKER need: brief halt) -->
+  <string id="st_ap_news_tpl_rest_campfire_001">
+    <text>#subject_faction#の連中、#ago#に#location#で足を止めて休憩に入ったらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_rest_campfire_002">
+    <text>#location#で足を休めている#subject_faction#を#ago#に見かけた。
+\nその後、数分もしないうちにまた歩き出していったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_rest_campfire_003">
+    <text>#ago#、#location#で休んでる#subject_faction#に出くわしたんだ。
+\n長旅の途中だったらしい。俺が一服し終える前に、奴らはもう出発していったぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_rest_campfire_004">
+    <text>#subject_faction#が#location#で少し休憩したらしい。
+\n足跡が残ってるが、すぐに移動を再開したようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_rest_campfire_005">
+    <text>#ago#、#location#で#subject_faction#の連中が休憩していた。
+\nそいつらを率いていた#subject_name#が指示を出していたらしい。</text>
+  </string>
+  <!-- heal_shelter (SINGLE STALKER need: medic + wounded) -->
+  <string id="st_ap_news_tpl_heal_shelter_001">
+    <text>#ago#、#subject_faction#の連中が負傷した仲間を#location#へ運び込んだらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_heal_shelter_002">
+    <text>#subject_faction#の連中が手負いの仲間を担いで#location#に行くのを見たぜ。
+\n#ago#のことだ。衛生兵のやつ、連中が着く前から大忙しだったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_heal_shelter_003">
+    <text>#ago#、取引をしに#location#へ行ったら修羅場に出くわした。
+\n床一面に#subject_faction#の負傷者が転がっていて、そのうちの2人は助からなかったようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_heal_shelter_004">
+    <text>#location#まで続く血の跡が、#ago#の惨状を物語っているな。
+\n#subject_faction#の連中が負傷した仲間を抱えて、必死に運び込んだみたいだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_heal_shelter_005">
+    <text>#ago#、#location#に#subject_faction#の負傷者が運び込まれた。
+\n#subject_name#が連れてきたそうだ。衛生兵が手当てしてるらしいぜ。</text>
+  </string>
+  <!-- shelter_indoor (SINGLE STALKER need) -->
+  <string id="st_ap_news_tpl_shelter_indoor_001">
+    <text>#subject_faction#の連中、#ago#に#location#の中に引きこもったらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_indoor_002">
+    <text>嵐が来る#ago#、#subject_faction#が#location#に避難するのを見た。</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_indoor_003">
+    <text>#ago#、雨宿りできる場所を探して#location#にたどり着いた。
+\n中にはもう#subject_faction#の連中がいたよ。入口を塞いで、中でストーブを焚いてたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_indoor_004">
+    <text>#ago#の#subject_faction#の連中の足跡が、#location#へ続いている。
+\nどうやら中へ入ったきり、一度も外に出てきてないみたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_indoor_005">
+    <text>#subject_name#が#subject_faction#の分隊を連れて建物の中へ避難したそうだ。
+\nたしか#ago#のことだな。場所は#location#だ。</text>
+  </string>
+  <!-- shelter_outdoor (SINGLE STALKER need: dug-in) -->
+  <string id="st_ap_news_tpl_shelter_outdoor_001">
+    <text>#subject_faction#の連中が#location#を見下ろす高台に穴を掘って陣取ったらしい。
+\n#ago#のことだ。当分あそこから降りてくる気はなさそうだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_outdoor_002">
+    <text>#ago#、#location#のすぐ上の斜面に#subject_faction#が潜んでいるのを見た。
+\n追跡者を撒いた後、そのまま陣地を築いて身を潜めたようだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_outdoor_003">
+    <text>#ago#、#location#近くの高台で大穴にうっかり足を踏み入れそうになったよ。
+\nあそこは#subject_faction#の潜伏場所になってる。奴ら、火も焚かずに2日間も潜んでたらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_outdoor_004">
+    <text>#subject_faction#の連中が#location#近くの高台に陣取ってるらしい。
+\n配置についてから一度も動いた形跡がないな。</text>
+  </string>
+  <string id="st_ap_news_tpl_shelter_outdoor_005">
+    <text>#ago#、#location#を見下ろす高台に#subject_faction#の分隊が陣取ってるらしい。
+\n#subject_name#って奴が連中を率いてるそうだ。</text>
+  </string>
+  <!-- money_harvest (SINGLE STALKER need: anomaly field) -->
+  <string id="st_ap_news_tpl_money_harvest_001">
+    <text>#ago#、#location#に#subject_faction#の連中がいたらしい。
+\n一歩進むごとにボルトを投げ、アノマリー領域をくまなく探ったみたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_money_harvest_002">
+    <text>#ago#、探知機とボルトを構えた#subject_faction#の連中を見たよ。
+\n場所は#location#のアノマリー領域だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_money_harvest_003">
+    <text>#ago#のことだ。俺は高台から#location#を見張ってたんだ。
+\nそしたら、#subject_faction#の連中がアノマリー領域に入っていく様子が見えた。
+\n投げたボルトが2回反応してるのも見えたな。結局、一人のストーカーが帰らぬ人になっちまったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_money_harvest_004">
+    <text>#subject_faction#の連中、探知機のバッテリーが切れるまでボルトを投げ続けて道を探していたらしい。
+\n#location#に奴らの足跡が残ってる。片っ端からルートを総当たりしたようだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_money_harvest_005">
+    <text>#subject_name#がアノマリー領域を突破したらしい。
+\n#ago#、#location#で#subject_faction#の仲間を連れてボルトを投げてるのを見たぜ。</text>
+  </string>
+  <!-- money_hunt (SINGLE STALKER need: hunting) -->
+  <string id="st_ap_news_tpl_money_hunt_001">
+    <text>#subject_faction#の連中、#ago#に#location#の近くへ狩りに出かけたらしい。
+\nトレーダーが買い取ってくれる物なら、何でも狙うつもりだろうな。</text>
+  </string>
+  <string id="st_ap_news_tpl_money_hunt_002">
+    <text>#ago#、#subject_faction#の連中が#location#から出てくるのを見たぜ。
+\n仕留めたばかりの獲物から剥ぎ取った皮をぶら下げてたぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_money_hunt_003">
+    <text>#ago#、#location#で#subject_faction#に先を越されちまった。
+\nボアの足跡を追ってたが･･････ 俺が着いたときには、もう血と内臓しか残ってなかった。</text>
+  </string>
+  <string id="st_ap_news_tpl_money_hunt_004">
+    <text>#subject_faction#の連中がボアを追って、日没前に仕留めたみたいだな。
+\n#location#に奴らの痕跡が残ってる。</text>
+  </string>
+  <string id="st_ap_news_tpl_money_hunt_005">
+    <text>#ago#、#subject_name#が#subject_faction#の分隊を率いてたぞ。
+\n#location#の近くへ、ミュータントの皮を調達しに出たそうだ。</text>
+  </string>
+  <!-- supply_trader (SINGLE STALKER need: trader) -->
+  <string id="st_ap_news_tpl_supply_trader_001">
+    <text>#ago#、#location#のトレーダーに#subject_faction#の奴らが群がってたらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_002">
+    <text>#ago#、#subject_faction#の連中が戦利品をこれでもかと売り払ってたな。
+\n場所は#location#のトレーダーのところだ。店の金が底をつく勢いだったぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_003">
+    <text>#ago#に#location#のトレーダーで並んでたら、#subject_faction#がやって来てな。
+\n奴らの装備の査定に1時間もかかって、俺はさらに待たされる羽目になっちまった。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_004">
+    <text>#subject_faction#の連中が大荷物を抱えて#location#のトレーダーを尋ねたらしい。
+\n#ago#の痕跡を見るに、奴らは荷物を軽くしてそのまま引き上げていったようだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_005">
+    <text>#ago#、#subject_name#が#subject_faction#の分隊を連れてたらしい。
+\n#location#のトレーダーのところへ向かったそうだ。</text>
+  </string>
+  <!-- job_outpost (SINGLE STALKER need: post/wire) -->
+  <string id="st_ap_news_tpl_job_outpost_001">
+    <text>#subject_faction#の連中、#ago#に#location#の外周の警備を引き継いだらしいぞ。
+\n二重の監視体制を敷いてかなり警戒してるみたいだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_outpost_002">
+    <text>#ago#、#subject_faction#の連中がスコープを覗き込みながら陣取ってるのを見た。
+\n場所は#location#の外周で、監視所もすでに設置されてた。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_outpost_003">
+    <text>近道しようとしたら、#ago#に#subject_faction#の連中を見かけた。
+\n#location#の外周で二重の監視を敷いてたから、大人しく迂回したよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_outpost_004">
+    <text>#location#の足跡を見るに、#subject_faction#の連中が外周まで来てるみたいだな。
+\n奴らはそのまま警備に就いてるらしい。今も配置は変わってないな。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_outpost_005">
+    <text>#ago#、#location#の外周に#subject_faction#の警備隊が配置された。
+\n#subject_name#って奴が連中を率いて見張りに立ってるそうだ。</text>
+  </string>
+  <!-- job_explore (SINGLE STALKER need: recon) -->
+  <string id="st_ap_news_tpl_job_explore_001">
+    <text>#subject_faction#の連中が#ago#に#location#の先へ偵察隊を出したらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_002">
+    <text>#ago#、#subject_faction#の偵察隊が妙に大回りのルートを取ってたのを見た。
+\n連中は#location#をそのまま通り過ぎていったぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_003">
+    <text>#ago#、#subject_faction#の偵察隊が妙な場所を調べているところに遭遇した。
+\n場所は#location#の近くだ。バッテリーを2つも使い切って戻ってきたらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_004">
+    <text>#ago#の足跡を見るに、#subject_faction#の偵察隊は未開拓の土地を大回りして進んだみたいだな。
+\n#location#を越えて、そのまま迂回していったようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_005">
+    <text>#ago#、#subject_name#が#subject_faction#の偵察隊を率いて出たらしい。
+\n#location#の先まで長距離の偵察に向かったそうだ。</text>
+  </string>
+  <!-- job_research (SINGLE STALKER need: instruments) -->
+  <string id="st_ap_news_tpl_job_research_001">
+    <text>#ago#、#subject_faction#の連中が#location#の周辺に測定器を設置したらしいぞ。
+\n夜遅くまでデータの読み取り作業に追われてたそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_research_002">
+    <text>#ago#、#location#に#subject_faction#の連中がいるのを見た。
+\nセンサーを並べて、一晩中ガイガーカウンターの音を鳴り響かせてたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_research_003">
+    <text>#ago#に調査キャンプを通りかかったとき、#subject_faction#の連中が測定をしてたんだ。
+\n#location#での数値がひどくて、前の報告書を書き直す羽目になったらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_research_004">
+    <text>#location#に機材が放置されてるぞ。
+\n足跡を見る限り、#subject_faction#の連中が運び込んだのは間違いないな。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_research_005">
+    <text>#ago#、#subject_faction#の調査隊が#location#に乗り込んだらしい。
+\n仕切ってるのは#subject_name#で、アノマリーの本格的な調査を始めるそうだ。</text>
+  </string>
+  <!-- social_campfire (SINGLE STALKER need: fire socializing) -->
+  <string id="st_ap_news_tpl_social_campfire_001">
+    <text>#subject_faction#の連中、#ago#に#location#の焚き火でボトルを空けてたらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_campfire_002">
+    <text>#ago#、#location#の焚き火に#subject_faction#が集まってるのを見た。
+\n歌声が#level#の半分にまで響き渡るほど、賑やかに騒いでたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_campfire_003">
+    <text>#ago#に雨風を凌ごうとしてたら、#location#から音楽が聞こえてきてな。
+\nそこで#subject_faction#の連中がボトルを開けて、歌い疲れるまで居座ってたよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_campfire_004">
+    <text>#location#の跡を見る限り、#subject_faction#が夜遅くまで火を囲んでいたようだ。
+\n連中が座っていた場所には、空になったボトルの山が積み上がってたぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_campfire_005">
+    <text>#ago#、#subject_name#が#subject_faction#の分隊と酒盛りしてたらしい。
+\n#location#の焚き火で騒いでたって話だ。</text>
+  </string>
+  <!-- social_base (SINGLE STALKER need: base social) -->
+  <string id="st_ap_news_tpl_social_base_001">
+    <text>#ago#、給料日を迎えた#subject_faction#の連中が飲み始めたらしい。
+\n#location#でウォッカの瓶を開けたって話だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_base_002">
+    <text>#ago#、#location#で#subject_faction#の連中を見たよ。
+\nテーブルにカードを広げて、半分空になったウォッカの瓶を囲んで盛り上がってたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_base_003">
+    <text>#ago#に取引しに行ったら、#subject_faction#の連中のどんちゃん騒ぎに出くわした。
+\n#location#でウォッカを浴びるように飲んで、もうカード遊びまで始まってたぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_base_004">
+    <text>#ago#に聞こえてきた音楽からして、#subject_faction#は給料日の夜を満喫してるみたいだな。
+\n連中は#location#でウォッカを片手に騒いでるらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_base_005">
+    <text>#ago#、#subject_name#が#subject_faction#の分隊を連れて宴会を始めたらしい。
+\n#location#で給料日のどんちゃん騒ぎをやってたそうだ。</text>
+  </string>
+  <!-- feed (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_feed_001">
+    <text>#ago#、#subject_species#の群れが獲物を仕留めたらしいぞ。
+\n#location#で、仕留めたばかりの獲物に群がっていたという話だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_feed_002">
+    <text>#ago#、#subject_species#の群れが茂みで獲物を追い詰めてやがった。
+\n#location#でそのまま貪り食ってたよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_feed_003">
+    <text>#ago#、#subject_species#の群れが獲物に飛びつく場面に出くわした。
+\n俺は#location#の風下にいたんだ。悲鳴が聞こえたが、すぐに静かになったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_feed_004">
+    <text>足跡を見るに、#subject_species#の群れが獲物を追い詰めたみたいだな。
+\n#location#で食い散らかした後、そのままどこかへ去ったようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_feed_005">
+    <text>#ago#、#location#で#subject_species#が獲物を食い荒らしてたそうだ。</text>
+  </string>
+  <!-- slumber_lair (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_slumber_lair_001">
+    <text>#subject_species#の奴ら、#ago#から#location#の巣穴で眠ってるらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_lair_002">
+    <text>夜明けの#ago#、#subject_species#の群れがぞろぞろ戻っていくのを見たよ。
+\n#location#の巣穴へ向かってたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_lair_003">
+    <text>夜明けの#ago#、#subject_species#の群れが巣穴へ戻っていくのを見た。
+\n#location#で夕暮れまで休むつもりらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_lair_004">
+    <text>#subject_species#の群れは、巣穴に潜り込んでからピクリとも動いてないみたいだな。
+\n#location#の足跡がそれを示してる。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_lair_005">
+    <text>#subject_species#の群れは、#ago#に眠りについたらしい。
+\n#location#の巣穴で休んでるそうだ。</text>
+  </string>
+  <!-- slumber_field (cowardly mutants bedding down in open territory) -->
+  <string id="st_ap_news_tpl_slumber_field_001">
+    <text>#ago#、#subject_species#が#location#の草むらで寝てたらしい。
+\n隠れる気もなく、そのまま地面に転がってたそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_field_002">
+    <text>#ago#、#subject_species#の群れが#location#にいるのを見た。
+\n開けた場所に腰を据えて、それから奴らは一歩も動いていない。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_field_003">
+    <text>#location#の丘を越えた時、目の前で#subject_species#の群れが寝そべってた。
+\n#ago#のことだ。寝てるのか起きてるのか知らねえが、ピクリともせず草むらでじっとしてたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_field_004">
+    <text>#location#に#subject_species#の群れが居座ってたみたいだな。
+\n開けた場所に痕跡が残ってるぜ。何時間もその場を動かなかったようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_field_005">
+    <text>#ago#、#subject_species#の群れが#location#で寝床を作ってやがった。</text>
+  </string>
+  <!-- slumber_surge (aberrant + predators sheltering in surge shelter) -->
+  <string id="st_ap_news_tpl_slumber_surge_001">
+    <text>#ago#、#subject_species#が#location#に籠もったらしい。
+\nそれから、一度も外へ出てきてないそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_surge_002">
+    <text>#ago#、#location#の屋内に#subject_species#が逃げ込むのを見た。
+\nその後は物音ひとつ聞こえない。静まり返ったままだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_surge_003">
+    <text>#location#の屋内に#subject_species#がいるかもしれない。
+\n#ago#に近くを通ったとき、気配がしたんだ。まあ、俺の前に姿を見せる気はなかったみたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_surge_004">
+    <text>#location#に#subject_species#の足跡が残ってるぞ。
+\n屋内に入り込んで、そのまま居着いちまったようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_slumber_surge_005">
+    <text>#ago#、#subject_species#の群れが#location#の屋内に潜り込んだ。
+\nそのまま中で寝床を作って居座ってるぞ。</text>
+  </string>
+  <!-- roam (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_roam_001">
+    <text>#ago#、#subject_species#の群れが#location#を横切ったらしい。
+\nこれといった目的地もないまま、だらだらと移動してたって話だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_roam_002">
+    <text>#ago#、#subject_species#の群れが#location#を通り過ぎていくのを見た。
+\nまばらに広がっていて、獣道をたどっている様子もなかったな。</text>
+  </string>
+  <string id="st_ap_news_tpl_roam_003">
+    <text>#ago#、帰る途中で#subject_species#の足跡を見つけたんだ。
+\n不規則な動きで#location#を通り抜けていったみたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_roam_004">
+    <text>#location#に#subject_species#の足跡が残ってる。#ago#のものだ。
+\n一列に伸びているが、進行方向も群れの規模もさっぱり読み取れんな。</text>
+  </string>
+  <string id="st_ap_news_tpl_roam_005">
+    <text>#ago#、#subject_species#の群れが#location#を徘徊してたぞ。</text>
+  </string>
+  <!-- pack (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_pack_001">
+    <text>#subject_species#の奴らが、#ago#に異様な数で集まってたらしいぜ。
+\n場所は#location#で、偶然とは思えない規模だったそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_pack_002">
+    <text>#ago#、#subject_species#の群れが四方八方から集まってくるのを見たぞ。
+\n#location#に一斉に集結してたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_pack_003">
+    <text>#ago#のことだ。#location#の方から鳴き声が響いてきてな。
+\n高台から覗いてみたら、#subject_species#がいつもよりデカい群れを作ってたぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_pack_004">
+    <text>#ago#の足跡を見るに、#subject_species#の群れが三方向から集まってきたみたいだな。
+\nそのまま#location#で合流したらしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_pack_005">
+    <text>#ago#、#subject_species#の群れが#location#に集まったらしい。</text>
+  </string>
+  <!-- scatter (SINGLE MUTANT instinct) -->
+  <string id="st_ap_news_tpl_scatter_001">
+    <text>#ago#、#subject_species#の奴らが一目散に逃げ出したらしい。
+\n場所は#location#だ。奴らを怯えさせた「何か」はまだそこにいるはずだぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_scatter_002">
+    <text>#ago#、#subject_species#が俺の横を走り抜けていったよ。
+\n#location#の近くだ。あいつら、道にクソを漏らすほどビビってたぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_scatter_003">
+    <text>#ago#にその辺を歩いてたら、#subject_species#の群れとすれ違ったんだ。
+\n#location#から逃げ出してきたらしい。あいつら、戦う気力もなさそうだったぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_scatter_004">
+    <text>#subject_species#の群れが#location#から逃げていったみたいだな。
+\n足跡がバッチリ残ってるぞ。奴らを追い払った「何か」がまだそこに居座ってるはずだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_scatter_005">
+    <text>#ago#、#subject_species#の群れが四方八方に散って逃げたらしい。
+\n#location#から一斉に離脱したって話だ。</text>
+  </string>
+  <!-- area_infest (AREA-family mutant opportunity: territory claim) -->
+  <string id="st_ap_news_tpl_area_infest_001">
+    <text>#subject_species#の奴らが#location#に巣穴を作ったらしいぜ。
+\n#ago#のことだ。群れはどんどんデカくなってるぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_infest_002">
+    <text>#ago#、#subject_species#の群れが#location#に入っていくのを見たぞ。
+\nあの規模だと、しばらく立ち去る気はなさそうだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_infest_003">
+    <text>偵察してたら、ミュータントの群れが#location#に入っていくのを見た。
+\n#ago#のことだ。#level#はもう#subject_species#の縄張りだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_infest_004">
+    <text>#subject_species#の群れが#location#に住み着いたみたいだな。
+\n奴らの足跡が残ってるぞ。それ以来、ずっと繁殖を続けているようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_area_infest_005">
+    <text>#ago#、#location#がミュータントの群れに占拠された。
+\n#subject_species#の巣になってるらしいぞ。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_001">
+    <text>#ago#、#subject_faction#の連中が#location#へ向かったそうだ。
+\nあそこのカウンターで、バッグの中身を売り払ってたらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_002">
+    <text>#ago#、#subject_faction#の連中がパンパンの荷物を抱えて出ていったぞ。トレーダーの金が尽きたんだな。
+\n#location#まで売りに行くって話してたよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_003">
+    <text>#ago#、#subject_faction#の連中と#location#まで遠征してきた。
+\n検問所が3つ、さらに銃火をくぐり抜けてトレーダーのところにたどり着いたんだ。
+\n弾薬と包帯を手に入れて、なんとか戻ってこられたよ。行く価値はあったぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_004">
+    <text>#subject_faction#の連中が荷物を抱えて立ち去ったみたいだな。境界線に#ago#の足跡が残ってる。
+\nこの辺のトレーダーはもう何週間も品不足らしい。</text>
+  </string>
+  <string id="st_ap_news_tpl_supply_trader_offmap_005">
+    <text>#ago#、#subject_name#が#subject_faction#の連中を連れて拠点へ向かったらしい。
+\n#location#にいるトレーダーに、戦利品を持ち込んだそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_001">
+    <text>#ago#、#subject_faction#の連中が#location#に移動したらしい。
+\nまだ誰の手にも渡ってないエリアを探してうろついてたそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_002">
+    <text>#ago#、#subject_faction#の連中が地図を片手にエリアの外へ出ていくのを見たよ。
+\n#location#近辺にある未開拓エリアについて話してたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_003">
+    <text>#ago#、#subject_faction#の連中が#location#へ向かうのを見た。
+\nまだ誰も確保していないエリアを探してるらしい。地図に空白があるって話をしてたよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_004">
+    <text>足跡を見るに、#subject_faction#は#ago#の夜明けにエリア外へ出たみたいだな。
+\n連中の縄張りはもう何年も前に調査済みで、今度は未踏の場所を探しているようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_005">
+    <text>#ago#、#subject_name#が#location#へ向かった。
+\n#subject_faction#の連中を引き連れてたな。まだ誰も手をつけていないエリアを記録するらしいぜ。</text>
+  </string>
 </string_table>

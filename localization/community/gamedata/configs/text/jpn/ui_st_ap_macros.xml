@@ -7,4 +7,26 @@
   <string id="st_ap_macros_ago_hours">
     <text>数時間前</text>
   </string>
+
+  <!-- ==== #subject_species# / #other_species# plurals (lowercase). id matches xcreature.get_mutant_species return prefixed by "st_ap_macros_species_". ==== -->
+    <string id="st_ap_macros_species_bloodsucker"><text>ブラッドサッカー</text></string>
+    <string id="st_ap_macros_species_boar"><text>ボア</text></string>
+    <string id="st_ap_macros_species_burer"><text>バーラー</text></string>
+    <string id="st_ap_macros_species_chimera"><text>キメラ</text></string>
+    <string id="st_ap_macros_species_controller"><text>コントローラー</text></string>
+    <string id="st_ap_macros_species_dog"><text>ブラインドドッグ</text></string>
+    <string id="st_ap_macros_species_flesh"><text>フレッシュ</text></string>
+    <string id="st_ap_macros_species_gigant"><text>スードウジャイアント</text></string>
+    <string id="st_ap_macros_species_psy_dog"><text>サイドッグ</text></string>
+    <string id="st_ap_macros_species_pseudodog"><text>スードウドッグ</text></string>
+    <string id="st_ap_macros_species_snork"><text>スノーク</text></string>
+    <string id="st_ap_macros_species_tushkano"><text>トゥシュカノ</text></string>
+    <string id="st_ap_macros_species_cat"><text>キャット</text></string>
+    <string id="st_ap_macros_species_fracture"><text>フラクチャー</text></string>
+    <string id="st_ap_macros_species_zombie"><text>ゾンビ</text></string>
+    <string id="st_ap_macros_species_poltergeist"><text>ポルターガイスト</text></string>
+    <string id="st_ap_macros_species_rat"><text>ラット</text></string>
+    <string id="st_ap_macros_species_karlik"><text>カーリック</text></string>
+    <string id="st_ap_macros_species_psysucker"><text>サイサッカー</text></string>
+    <string id="st_ap_macros_species_lurker"><text>ルーカー</text></string>
 </string_table>

@@ -1,1790 +1,1981 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <string_table>
-    <!-- ==================== MAIN MENU ==================== -->
-    <string id="ui_mcm_menu_ap">
-        <text>AlifePlus</text>
-    </string>
-
-    <!-- ==================== LEVEL 2 MENU NAMES ==================== -->
-    <string id="ui_mcm_menu_framework">
-        <text>フレームワーク</text>
-    </string>
-    <string id="ui_mcm_menu_news">
-        <text>ニュース</text>
-    </string>
-    <string id="ui_mcm_menu_causes">
-        <text>発生原因</text>
-    </string>
-    <string id="ui_mcm_menu_consequences">
-        <text>実行結果</text>
-    </string>
-    <string id="ui_mcm_menu_development">
-        <text>開発設定</text>
-    </string>
-
-    <!-- ==================== LEVEL 3 MENU NAMES (CAUSE CATEGORIES) ==================== -->
-    <string id="ui_mcm_menu_reactions">
-        <text>リアクション</text>
-    </string>
-    <string id="ui_mcm_menu_opportunities">
-        <text>チャンス</text>
-    </string>
-
-    <!-- ==================== LEVEL 4 MENU NAMES (CAUSE FAMILIES) ==================== -->
-    <string id="ui_mcm_menu_alpha">
-        <text>アルファ</text>
-    </string>
-    <string id="ui_mcm_menu_alphakill">
-        <text>アルファ討伐</text>
-    </string>
-    <string id="ui_mcm_menu_massacre">
-        <text>大虐殺</text>
-    </string>
-    <string id="ui_mcm_menu_stash">
-        <text>スタッシュ</text>
-    </string>
-    <string id="ui_mcm_menu_squadkill">
-        <text>分隊全滅</text>
-    </string>
-    <string id="ui_mcm_menu_basekill">
-        <text>拠点壊滅</text>
-    </string>
-    <string id="ui_mcm_menu_wounded">
-        <text>負傷者</text>
-    </string>
-    <string id="ui_mcm_menu_area">
-        <text>エリア</text>
-    </string>
-    <string id="ui_mcm_menu_harvest">
-        <text>アーティファクト</text>
-    </string>
-    <string id="ui_mcm_menu_needs">
-        <text>欲求</text>
-    </string>
-    <string id="ui_mcm_menu_instincts">
-        <text>生存本能</text>
-    </string>
-    <string id="ui_mcm_menu_scatter">
-        <text>散開行動</text>
-    </string>
-    <string id="ui_mcm_menu_feed">
-        <text>捕食行動</text>
-    </string>
-    <string id="ui_mcm_menu_slumber_field">
-        <text>休息\n野外</text>
-    </string>
-    <string id="ui_mcm_menu_slumber_lair">
-        <text>休息\n巣穴</text>
-    </string>
-    <string id="ui_mcm_menu_slumber_surge">
-        <text>休息\nエミッション</text>
-    </string>
-    <string id="ui_mcm_menu_roam">
-        <text>徘徊行動</text>
-    </string>
-    <string id="ui_mcm_menu_pack">
-        <text>群れ行動</text>
-    </string>
-    <string id="ui_mcm_menu_area_infest">
-        <text>エリア\n侵食行動</text>
-    </string>
-
-    <!-- ==================== LEVEL 3 MENU NAMES (CONSEQUENCES) ==================== -->
-    <string id="ui_mcm_menu_alpha_promote">
-        <text>アルファ\n昇格</text>
-    </string>
-    <string id="ui_mcm_menu_alphakill_targeted">
-        <text>アルファ討伐\n追跡</text>
-    </string>
-    <string id="ui_mcm_menu_mutators">
-        <text>ミューテーター</text>
-    </string>
-    <string id="ui_mcm_menu_alpha">
-        <text>アルファ</text>
-    </string>
-    <string id="ui_mcm_menu_rank">
-        <text>ストーカーランク</text>
-    </string>
-    <string id="ui_mcm_menu_conquest">
-        <text>勢力拡大</text>
-    </string>
-    <string id="ui_mcm_menu_infest">
-        <text>侵食行動</text>
-    </string>
-    <string id="ui_mcm_menu_massacre_scavenge">
-        <text>大虐殺\n死体漁り</text>
-    </string>
-    <string id="ui_mcm_menu_massacre_investigate">
-        <text>大虐殺\n調査</text>
-    </string>
-    <string id="ui_mcm_menu_massacre_loot">
-        <text>大虐殺\n略奪</text>
-    </string>
-    <string id="ui_mcm_menu_stash_ambush">
-        <text>スタッシュ\n待ち伏せ</text>
-    </string>
-    <string id="ui_mcm_menu_stash_loot">
-        <text>スタッシュ\n略奪</text>
-    </string>
-    <string id="ui_mcm_menu_stash_fill">
-        <text>スタッシュ\n補充</text>
-    </string>
-    <string id="ui_mcm_menu_squadkill_revenge">
-        <text>分隊全滅\n復讐</text>
-    </string>
-    <string id="ui_mcm_menu_basekill_support">
-        <text>拠点壊滅\n増援</text>
-    </string>
-    <string id="ui_mcm_menu_basekill_flee">
-        <text>拠点壊滅\n逃亡</text>
-    </string>
-    <string id="ui_mcm_menu_wounded_hunt">
-        <text>負傷者\n狩り</text>
-    </string>
-    <string id="ui_mcm_menu_wounded_help">
-        <text>負傷者\n救助</text>
-    </string>
-    <string id="ui_mcm_menu_area_conquer">
-        <text>エリア\n制圧</text>
-    </string>
-    <string id="ui_mcm_menu_area_swarm">
-        <text>エリア\n群れ形成</text>
-    </string>
-    <string id="ui_mcm_menu_harvest_rob">
-        <text>アーティファクト\n強奪</text>
-    </string>
-    <string id="ui_mcm_menu_harvest_haunt">
-        <text>アーティファクト\n襲撃</text>
-    </string>
-    <string id="ui_mcm_menu_hunger_campfire">
-        <text>空腹\n焚き火</text>
-    </string>
-    <string id="ui_mcm_menu_sleep_campfire">
-        <text>睡眠\n焚き火</text>
-    </string>
-    <string id="ui_mcm_menu_rest_campfire">
-        <text>休息\n焚き火</text>
-    </string>
-    <string id="ui_mcm_menu_heal_shelter">
-        <text>治療\n退避</text>
-    </string>
-    <string id="ui_mcm_menu_shelter_indoor">
-        <text>避難\n屋内</text>
-    </string>
-    <string id="ui_mcm_menu_shelter_outdoor">
-        <text>避難\n屋外</text>
-    </string>
-    <string id="ui_mcm_menu_money_harvest">
-        <text>資金稼ぎ\nアーティファクト</text>
-    </string>
-    <string id="ui_mcm_menu_money_hunt">
-        <text>資金稼ぎ\nミュータント狩り</text>
-    </string>
-    <string id="ui_mcm_menu_supply_trader">
-        <text>物資補給\nトレーダー</text>
-    </string>
-    <string id="ui_mcm_menu_job_outpost">
-        <text>任務\n警備</text>
-    </string>
-    <string id="ui_mcm_menu_job_explore">
-        <text>任務\n探索</text>
-    </string>
-    <string id="ui_mcm_menu_job_research">
-        <text>任務\n調査</text>
-    </string>
-    <string id="ui_mcm_menu_social_campfire">
-        <text>交流\n焚き火</text>
-    </string>
-    <string id="ui_mcm_menu_social_base">
-        <text>交流\n拠点</text>
-    </string>
-
-    <!-- ==================== FRAMEWORK TAB ==================== -->
-    <string id="ui_mcm_ap_framework_title">
-        <text>フレームワーク</text>
-    </string>
-    <string id="ui_mcm_ap_framework_btn_reset_all">
-        <text>すべてデフォルトにリセット</text>
-    </string>
-    <string id="ui_mcm_ap_framework_btn_reset_all_desc">
-        <text>すべてのAlifePlus設定を初期値に戻します。変更は即座に反映されますが、スライダーの表示を更新するにはMCMを一度閉じてから再度開く必要があります。設定をテストした後や、デフォルト値が調整された新バージョンへアップデートした際に便利です。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_desc">
-        <text>AlifePlusにおけるイベント発生の仕組みを管理します。各イベントの発生頻度は、「A-Lifeの比率」「A-Lifeの発生間隔」「発生原因」「実行結果」という4つの専用リミッターによって制御されます。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_alife_ratio">
-        <text>A-Lifeの比率</text>
-    </string>
-    <string id="ui_mcm_ap_framework_alife_ratio_desc">
-        <text>プレイヤーがいるマップと、それ以外のマップにおけるイベント発生の優先度を調整します。数値を高くするほどプレイヤーの周囲でイベントが起きやすくなります。0に設定すると全マップで平等に発生し、マイナスの値にすると遠くのマップが優先されます。バニラ（X-Rayエンジン）本来の挙動を再現したい場合に有用です。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_distributor_interval_sec">
-        <text>A-Lifeの発生間隔（秒）</text>
-    </string>
-    <string id="ui_mcm_ap_framework_distributor_interval_sec_desc">
-        <text>ランダムイベントを評価する間隔を設定します。数値を低くするほどゾーンの活動が活発になり、高くするほど穏やかになります。なお、NPCの死亡など突発的な事象に対する「実行結果」は、イベントカテゴリごとに固定間隔の個別リミッターによって処理されます。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_cause_max_reactions">
-        <text>リアクションの最大発生数</text>
-    </string>
-    <string id="ui_mcm_ap_framework_cause_max_reactions_desc">
-        <text>60秒間に発生する「リアクション」関連イベントの最大数を設定します（大虐殺、分隊全滅、拠点制圧、負傷、アーティファクト、アルファ関連など）。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_cause_max_needs">
-        <text>欲求の最大発生数</text>
-    </string>
-    <string id="ui_mcm_ap_framework_cause_max_needs_desc">
-        <text>60秒間に発生する「ストーカーの欲求」関連イベントの最大数を設定します（空腹、睡眠、休息、治療、避難、資金稼ぎ、物資補給、任務、交流など）。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_cause_max_instincts">
-        <text>生存本能の最大発生数</text>
-    </string>
-    <string id="ui_mcm_ap_framework_cause_max_instincts_desc">
-        <text>60秒間に発生する「ミュータントの本能」関連イベントの最大数を設定します（散開、捕食、睡眠、探索、群れ形成、侵食など）。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_cause_max_opportunities">
-        <text>チャンスの最大発生数</text>
-    </string>
-    <string id="ui_mcm_ap_framework_cause_max_opportunities_desc">
-        <text>60秒間に発生する「領土・機会」関連イベントの最大数を設定します（スタッシュの操作、エリア制圧など）。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_consequence_max_events">
-        <text>各実行結果の上限数</text>
-    </string>
-    <string id="ui_mcm_ap_framework_consequence_max_events_desc">
-        <text>60秒間に発生する「実行結果」カテゴリごとの最大数を設定します。特定の実行結果が頻繁に発生するのを防ぐことができます。</text>
-    </string>
-    <string id="ui_mcm_ap_framework_global_consequence_max_events">
-        <text>実行結果の総上限数</text>
-    </string>
-    <string id="ui_mcm_ap_framework_global_consequence_max_events_desc">
-        <text>60秒間に発生する「実行結果」全体の最大数を設定します。複数の要因が重なってイベントが多発するのを防ぐことができます。</text>
-    </string>
-<string id="ui_mcm_ap_framework_allow_external_ownership">
-        <text>他のアドオンによる分隊の管理を許可</text>
-    </string>
-    <string id="ui_mcm_ap_framework_allow_external_ownership_desc">
-        <text>有効にすると、AlifePlusはWarfareやBAOなど他のアドオンが管理している分隊に干渉しなくなります。無効にした場合、他のアドオンによる制御を無視し、対象となるすべての分隊を直接制御します。</text>
-    </string>
-    <!-- ==================== NEWS ==================== -->
-    <string id="ui_mcm_ap_news_title">
-        <text>ニュース</text>
-    </string>
-    <string id="ui_mcm_ap_news_desc">
-        <text>PDAの噂話システムを管理します。ゾーンでの出来事（キル、制圧、襲撃、ミュータントの活動など）は発生時に記録され、定期的に無線通信としてまとめられた後、イベントに関連するストーカーからPDAを通じて配信されます。</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_enabled">
-        <text>ニュースの有効化</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_enabled_desc">
-        <text>PDAニュース機能のオン/オフを切り替えます。無効にすると噂話は配信されなくなりますが、バックグラウンドでのイベント記録は継続されます。</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_chance">
-        <text>ニュースの発生確率</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_chance_desc">
-        <text>[%]\nゾーン内の無線の賑やかさを調整します。発生した出来事が「噂話」として記録・配信される確率を設定し、値を大きくするほど頻繁にニュースが流れ、小さくするほど静かになります。100に設定するとすべての出来事が記録され、0にすると何も記録されません（デフォルト値: 20）。</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_interval_min_sec">
-        <text>配信間隔の最小値</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_interval_min_sec_desc">
-        <text>[秒]\nPDAメッセージが配信される間隔の最小値を設定します。システムは毎回、最小値と最大値の間からランダムな遅延時間を選ぶため、機械的ではなく人間らしい自然な頻度でメッセージが届きます。</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_interval_max_sec">
-        <text>配信間隔の最大値</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_interval_max_sec_desc">
-        <text>[秒]\nPDAメッセージが配信される間隔の最大値を設定します。数値を高くするほど、ゾーン全体の通信が静かになります。最小値と最大値を同じ値に設定すると、固定の間隔で配信されます。</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_scope">
-        <text>ニュースの受信範囲</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_scope_desc">
-        <text>どの派閥の無線を受信するかを設定します。\n・自派閥のみ: 所属する派閥の通信のみを受信します。\n・自派閥と同盟: 自派閥および友好関係にある派閥の通信を受信します（デフォルト）。\n・非敵対の全ストーカー: 敵対していないすべてのストーカーの通信を受信します。\nMonolith、Military、Sin、UNISGなどの派閥のチャンネルは、設定に関わらずメンバー専用となります。</text>
-    </string>
-    <string id="ap_news_news_scope_lst_own">
-        <text>自派閥のみ</text>
-    </string>
-    <string id="ap_news_news_scope_lst_allies">
-        <text>自派閥と同盟</text>
-    </string>
-    <string id="ap_news_news_scope_lst_world">
-        <text>非敵対の全ストーカー</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_max_age_game_hours">
-        <text>ニュースの有効期限</text>
-    </string>
-    <string id="ui_mcm_ap_news_news_max_age_game_hours_desc">
-        <text>[ゲーム内時間]\n発生からどれくらい経過したイベントまで噂話の対象にするかを設定します。配信のたびに、過去N時間以内のイベントからランダムに選ばれます。数値を低くすると新鮮なニュースが多くなり、高くすると幅広い話題が取り上げられます（デフォルト: 12）。</text>
-    </string>
-    <!-- ==================== CAUSES / REACTIONS (page banner) ==================== -->
-    <string id="ui_mcm_ap_causes_reactions_title">
-        <text>リアクション</text>
-    </string>
-    <!-- ==================== CAUSES / OPPORTUNITIES (page banner) ==================== -->
-    <string id="ui_mcm_ap_causes_opportunities_title">
-        <text>チャンス</text>
-    </string>
-
-    <!-- ==================== CAUSES / ALPHA ==================== -->
-    <string id="ui_mcm_ap_causes_alpha_tag"><text>発生原因: アルファ\n概要: ミュータントが一定数のキルを達成し、アルファ個体としてレベルアップした際に発生します。最大10レベルまで存在し、レベルが上がるほど多くのキルが必要になります（ストーカーはゲームエンジンのランクシステムを使用します）。\n判定基準: キル数のしきい値</text></string>
-    <string id="ui_mcm_ap_causes_reactions_cause_alpha_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_alpha_enabled_desc">
-        <text>ミュータントが新しいアルファレベルに到達した際、「発生原因: アルファ」を発生させます。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_alpha_kills_per_level">
-        <text>レベルアップに必要なキル数</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_alpha_kills_per_level_desc">
-        <text>アルファレベルを上げるために必要なキル数を設定します。「2」に設定した場合、2キルでレベル1、20キルでレベル10に到達します。</text>
-    </string>
-
-    <!-- ==================== CAUSES / ALPHAKILL ==================== -->
-    <string id="ui_mcm_ap_causes_alphakill_tag"><text>発生原因: アルファ討伐\n概要: アルファ個体のミュータントが死亡した際に発生します。\n判定基準: アルファ個体の死亡</text></string>
-    <string id="ui_mcm_ap_causes_reactions_cause_alphakill_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_alphakill_enabled_desc">
-        <text>アルファミュータントが死亡した際、「アルファ討伐」イベントを発生させます。これにより、同種のミュータントが殺害者を追跡するようになります。</text>
-    </string>
-
-    <!-- ==================== CAUSES / MASSACRE ==================== -->
-    <string id="ui_mcm_ap_causes_massacre_tag"><text>発生原因: 大虐殺\n概要: 特定の地点（スマートテレイン）で死者が続出した際に発生します。\n判定基準: 複数の人間が死亡（拠点以外）</text></string>
-    <string id="ui_mcm_ap_causes_reactions_cause_massacre_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_massacre_enabled_desc">
-        <text>エリア内の累計死亡者数をカウントし、設定したしきい値に達した際に「大虐殺」イベントを発生させます。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_massacre_threshold">
-        <text>イベント発生に必要な死亡数</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_massacre_threshold_desc">
-        <text>「大虐殺」イベントが発生するまでに必要な、エリア内での死亡者数を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_massacre_decay_time">
-        <text>カウントの有効時間（秒）</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_massacre_decay_time_desc">
-        <text>死者数を蓄積・カウントする時間枠を設定します。この時間を過ぎた古い死者は死者数のカウントから除外されます。</text>
-    </string>
-
-    <!-- ==================== CAUSES / STASH ==================== -->
-    <string id="ui_mcm_ap_causes_stash_loot_tag"><text>発生原因: スタッシュの略奪\n概要: 分隊が中身のあるスタッシュを発見し、略奪を行った際に発生します。\n判定基準: 視界内、活動時間中、略奪を好む性格、強欲さ・洞察力、スタッシュが空でない、拠点以外、非敵対状態、MVT（最小待機時間）</text></string>
-    <string id="ui_mcm_ap_causes_stash_ambush_tag"><text>発生原因: スタッシュでの待ち伏せ\n概要: 無法者の分隊が、物資が豊富なスタッシュを見張っている際に発生します。\n判定基準: 視界内、活動時間中、無法者、強欲さ・攻撃性、アイテム数が規定以上、拠点以外、非敵対状態、MVT（最小待機時間）</text></string>
-    <string id="ui_mcm_ap_causes_stash_fill_tag"><text>発生原因: スタッシュへの補充\n概要: 分隊が空のスタッシュを発見し、物資を補充した際に発生します。\n判定基準: 視界内、活動時間中、全ストーカー、強欲さ・友好度、スタッシュが空、拠点以外、非敵対状態、MVT（最小待機時間）</text></string>
-
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_enabled_desc">
-        <text>NPCによるスタッシュの略奪イベントが発生するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_enabled_desc">
-        <text>NPCによるスタッシュでの待ち伏せイベントが発生するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_enabled_desc">
-        <text>NPCによるスタッシュへの物資補充イベントが発生するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_threshold">
-        <text>略奪の再判定間隔（MVT）</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_threshold_desc">
-        <text>同じ分隊が再び略奪を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_threshold">
-        <text>待ち伏せの再判定間隔（MVT）</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_threshold_desc">
-        <text>同じ分隊が再び待ち伏せを試みるまでに必要なゲーム内時間（時間）を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_threshold">
-        <text>補充の再判定間隔（MVT）</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_threshold_desc">
-        <text>同じ分隊が再び補充を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_min_items">
-        <text>待ち伏せに必要な最小アイテム数</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_min_items_desc">
-        <text>無法者がスタッシュを見張る（待ち伏せする）ために必要な、スタッシュ内の最低アイテム数を設定します。この数値を下回る場合は、待ち伏せせずに直接略奪を行います。</text>
-    </string>
-
-    <!-- ==================== CAUSES / SQUADKILL ==================== -->
-    <string id="ui_mcm_ap_causes_squadkill_tag"><text>発生原因: 分隊全滅\n概要: 人間の分隊が全滅した際に発生します。\n判定基準: 分隊の最後の一人が死亡（拠点以外）</text></string>
-    <string id="ui_mcm_ap_causes_reactions_cause_squadkill_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_squadkill_enabled_desc">
-        <text>分隊の最後のメンバーが死亡した際、「分隊全滅」イベントを発生させます。</text>
-    </string>
-
-    <!-- ==================== CAUSES / BASEKILL ==================== -->
-    <string id="ui_mcm_ap_causes_basekill_tag"><text>発生原因: 拠点壊滅\n概要: 派閥の拠点で死者が続出した際に発生します。\n判定基準: 複数の人間が死亡（拠点内）</text></string>
-    <string id="ui_mcm_ap_causes_reactions_cause_basekill_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_basekill_enabled_desc">
-        <text>派閥拠点の累計死亡者数をカウントし、設定したしきい値に達した際に「拠点壊滅」イベントを発生させます。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_basekill_threshold">
-        <text>死亡しきい値</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_basekill_threshold_desc">
-        <text>「拠点壊滅」イベントが発生するまでに必要な、拠点での死亡数を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_basekill_decay_time">
-        <text>カウントの有効時間（秒）</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_basekill_decay_time_desc">
-        <text>拠点での死者数を蓄積・カウントする時間枠を設定します。この時間を過ぎた古い死者は死者数のカウントから除外されます。</text>
-    </string>
-
-    <!-- ==================== CAUSES / WOUNDED ==================== -->
-    <string id="ui_mcm_ap_causes_wounded_tag"><text>発生原因: 負傷者\n概要: NPCまたはプレイヤーが回復アイテムを使用した際に発生します。\n判定基準: 回復アイテムの使用（拠点以外）</text></string>
-    <string id="ui_mcm_ap_causes_reactions_cause_wounded_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_wounded_enabled_desc">
-        <text>NPCまたはプレイヤーが回復アイテムを使用した際、「負傷者」イベントを発生させます。</text>
-    </string>
-
-    <!-- ==================== CAUSES / AREA ==================== -->
-    <string id="ui_mcm_ap_causes_area_conquer_tag"><text>発生原因: エリア制圧\n概要: ストーカー分隊が空の重要地点（スマートテレイン）を確保した際に発生します。\n判定基準: 視界内、活動時間中、エコロジスト以外の派閥、性格（縄張り意識・攻撃性）、空の地点、拠点以外、MVT（最小待機時間）</text></string>
-    <string id="ui_mcm_ap_causes_area_swarm_tag"><text>発生原因: エリア占拠\n概要: ミュータントの群れが空の重要地点を確保した際に発生します。\n判定基準: 視界内、活動時間中、臆病でない個体、性格（縄張り意識・攻撃性）、空の地点、拠点以外、MVT（最小待機時間）</text></string>
-    <string id="ui_mcm_ap_causes_area_infest_tag"><text>発生原因: エリア侵食\n概要: ミュータントが巣穴や退避所を確保した際に発生します。\n判定基準: 視界内、活動時間中、臆病でない個体、性格（縄張り意識・生存本能）、種族に適した場所、拠点以外、未侵食、アルファ個体の存在、レベル別上限、MVT（最小待機時間）</text></string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_enabled_desc">
-        <text>ストーカーによるエリア制圧イベントが発生するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_threshold">
-        <text>制圧の再判定間隔（MVT）</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_threshold_desc">
-        <text>同じ分隊が再びエリア制圧を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled_desc">
-        <text>ミュータントの大群によるエリア占拠イベントが発生するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_threshold">
-        <text>占拠の再判定間隔（MVT）</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_threshold_desc">
-        <text>同じ群れが再びエリア占拠を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_enabled_desc">
-        <text>ミュータントによる巣穴の侵食イベントが発生するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_threshold">
-        <text>侵食の再判定間隔（MVT）</text>
-    </string>
-    <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_threshold_desc">
-        <text>同じ個体が再びエリア侵食を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
-    </string>
-
-    <!-- ==================== CAUSES / HARVEST ==================== -->
-    <string id="ui_mcm_ap_causes_harvest_tag"><text>発生原因: アーティファクト\n概要: NPCまたはプレイヤーがアーティファクトを拾った際に発生します。\n判定基準: アーティファクトの取得</text></string>
-    <string id="ui_mcm_ap_causes_reactions_cause_harvest_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_causes_reactions_cause_harvest_enabled_desc">
-        <text>アーティファクトが拾われた際、「アーティファクト」イベントを発生させます。</text>
-    </string>
-
-    <!-- ==================== CAUSES / NEEDS ==================== -->
-    <string id="ui_mcm_ap_causes_needs_title">
-        <text>欲求</text>
-    </string>
-
-    <!-- Per-cause tags (14 sub-causes) -->
-    <string id="ui_mcm_ap_causes_needs_hunger_campfire_tag"><text>発生原因: 空腹（焚き火）\n概要: 空腹状態の分隊が食事を摂るために焚き火へ向かいます。\n判定基準: 無線範囲内、全ストーカー、性格（生存本能）、焚き火、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_sleep_campfire_tag"><text>発生原因: 睡眠（焚き火）\n概要: 疲労した分隊が就寝のために焚き火へ向かいます。\n判定基準: 無線範囲内、休息時間中、全ストーカー、性格（生存本能）、焚き火、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_rest_campfire_tag"><text>発生原因: 休息（焚き火）\n概要: 疲弊した分隊が休憩のために焚き火に立ち寄ります。\n判定基準: 無線範囲内、全ストーカー、性格（生存本能）、焚き火、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_heal_shelter_tag"><text>発生原因: 治療（退避所）\n概要: 負傷した分隊が治療のためにエミッション退避所を探します。\n判定基準: 無線範囲内、全ストーカー、性格（縄張り意識・生存本能）、エミッション退避所、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_shelter_indoor_tag"><text>発生原因: 屋内退避\n概要: 分隊が屋内のエミッション退避所を確保します。\n判定基準: 無線範囲内、休息時間中、全ストーカー、性格（縄張り意識・規律）、エミッション退避所、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_shelter_outdoor_tag"><text>発生原因: 野外退避\n概要: 分隊が焚き火の周辺を野外の退避場所として利用します。\n判定基準: 無線範囲内、休息時間中、全ストーカー、性格（洞察力）、焚き火、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_supply_trader_tag"><text>発生原因: 物資補給（トレーダー）\n概要: 分隊が物資を補充するためにトレーダーのもとへ向かいます。\n判定基準: 無線範囲内、活動時間中、全ストーカー、性格（強欲・友好度）、トレーダー、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_money_harvest_tag"><text>発生原因: 資金稼ぎ（アーティファクト）\n概要: 分隊がアーティファクトを回収するためにアノマリー地帯へ向かいます。\n判定基準: 無線範囲内、活動時間中、利己的なストーカー、性格（強欲・洞察力）、アノマリー、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_money_hunt_tag"><text>発生原因: 資金稼ぎ（狩猟）\n概要: 分隊がミュータントを狩るために巣穴へ向かいます。\n判定基準: 無線範囲内、活動時間中、博物学的なストーカー、性格（強欲・洞察力）、巣穴、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_job_outpost_tag"><text>発生原因: 任務（監視）\n概要: 分隊が遠方の監視ポストに就き、警戒にあたります。\n判定基準: 無線範囲内、活動時間中、信念を持つストーカー、性格（縄張り意識・規律）、拠点以外、巣穴以外、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_job_explore_tag"><text>発生原因: 任務（探索）\n概要: 分隊が未占拠の重要地点を偵察します。\n判定基準: 無線範囲内、活動時間中、利己的なストーカー、性格（洞察力・縄張り意識）、未占拠地点、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_job_research_tag"><text>発生原因: 任務（調査）\n概要: エコロジストの分隊がアノマリー地帯でサンプルを採取します。\n判定基準: 無線範囲内、活動時間中、エコロジスト、性格（洞察力・規律）、アノマリー、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_social_campfire_tag"><text>発生原因: 交流（焚き火）\n概要: 分隊が焚き火に集まり、酒を酌み交わして交流します。\n判定基準: 無線範囲内、全ストーカー、性格（友好度）、焚き火、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_social_base_tag"><text>発生原因: 交流（拠点）\n概要: 分隊が休息のために拠点へ戻ります。\n判定基準: 無線範囲内、信念を持つストーカー、性格（友好度・縄張り意識）、拠点、非敵対状態、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold">
-        <text>空腹イベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold_desc">
-        <text>[ゲーム内時間]\n空腹イベントが発生する間隔を設定します。デフォルト値の「8」は、1日3食のペースに相当します。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold">
-        <text>睡眠イベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold_desc">
-        <text>[ゲーム内時間]\n睡眠イベントが発生する間隔を設定します。このイベントは夜間（20:00～05:00）にのみ発生します。デフォルト値は「16」です。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_rest_threshold">
-        <text>休息イベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_rest_threshold_desc">
-        <text>[ゲーム内時間]\n喫煙や飲酒、リラックスなどの休息イベントが発生する間隔を設定します。デフォルト値は「4」です。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_heal_threshold">
-        <text>治療イベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_heal_threshold_desc">
-        <text>[ゲーム内時間]\n治療イベントが発生する間隔を設定します。デフォルト値は「12」です。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold">
-        <text>避難イベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold_desc">
-        <text>[ゲーム内時間]\n避難イベントが発生する間隔を設定します。デフォルト値は「24」です。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_money_threshold">
-        <text>資金稼ぎイベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_money_threshold_desc">
-        <text>[ゲーム内時間]\n資金稼ぎイベントが発生する間隔を設定します。デフォルト値は「24」です。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_supply_threshold">
-        <text>物資補給イベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_supply_threshold_desc">
-        <text>[ゲーム内時間]\nトレーダーへの訪問やスタッシュへのアイテム預け入れなど、補給イベントが発生する間隔を設定します。デフォルト値は「48」です。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_job_threshold">
-        <text>任務イベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_job_threshold_desc">
-        <text>[ゲーム内時間]\n警備、探索、調査などの任務イベントが発生する間隔を設定します。デフォルト値は「18」です。</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_social_threshold">
-        <text>交流イベントの発生間隔</text>
-    </string>
-    <string id="ui_mcm_ap_causes_needs_cause_social_threshold_desc">
-        <text>[ゲーム内時間]\n焚き火の周りに集まったり、拠点を訪問したりする交流イベントが発生する間隔を設定します。デフォルト値は「36」です。</text>
-    </string>
-
-    <!-- Per-cause enable labels (uniform "Enabled") -->
-    <string id="ui_mcm_ap_causes_needs_cause_hunger_campfire_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_hunger_campfire_enabled_desc"><text>空腹になったNPCが焚き火へ向かうイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_sleep_campfire_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_sleep_campfire_enabled_desc"><text>休息が必要なNPCが焚き火で眠るイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_rest_campfire_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_rest_campfire_enabled_desc"><text>疲弊したNPCが焚き火で休憩するイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_heal_shelter_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_heal_shelter_enabled_desc"><text>負傷したNPCが治療のために退避所を探すイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_shelter_indoor_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_shelter_indoor_enabled_desc"><text>NPCが屋内の退避所を確保するイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_shelter_outdoor_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_shelter_outdoor_enabled_desc"><text>NPCが焚き火の周辺を野外退避所として利用するイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_supply_trader_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_supply_trader_enabled_desc"><text>NPCが物資補給のためにトレーダーを訪ねるイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_money_harvest_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_money_harvest_enabled_desc"><text>NPCが資金稼ぎのためにアーティファクトを採取するイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_money_hunt_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_money_hunt_enabled_desc"><text>NPCが資金稼ぎのためにミュータントを狩るイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_job_outpost_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_job_outpost_enabled_desc"><text>NPCが監視ポストに就いて警戒任務にあたるイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_job_explore_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_job_explore_enabled_desc"><text>NPCが未占拠の地点を偵察・探索するイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_job_research_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_job_research_enabled_desc"><text>エコロジストがアノマリーの調査任務を行うイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_social_campfire_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_social_campfire_enabled_desc"><text>NPCが焚き火に集まって交流するイベントの発生を許可します。</text></string>
-
-    <string id="ui_mcm_ap_causes_needs_cause_social_base_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_needs_cause_social_base_enabled_desc"><text>NPCが休息や交流のために拠点へ戻るイベントの発生を許可します。</text></string>
-
-    <!-- ==================== CONSEQUENCES / ALPHA PROMOTE ==================== -->
-    <string id="ui_mcm_ap_consequences_alpha_promote_title">
-        <text>アルファ: 昇格</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alpha_promote_tag">
-        <text>概要: 新たなアルファ個体を登録、または既存個体のレベルを上昇させます。\n原因: アルファ\n判定基準: ミュータント、キル数のしきい値</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_enabled_desc">
-        <text>レベルアップしたミュータントが「アルファ」個体として登録されるようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alpha_promote_max_alphas">
-        <text>アルファの最大数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alpha_promote_max_alphas_desc">
-        <text>ゾーン全体に存在できるアルファミュータントの最大数を設定します。上限に達すると新たなアルファ個体の発生は制限されますが、ミュータントのレベルアップ自体は妨げられません。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alpha_promote_alpha_loot_enabled">
-        <text>戦利品の強化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alpha_promote_alpha_loot_enabled_desc">
-        <text>アルファミュータントが、貴重なアイテム（ミュータントの部位、皮、アーティファクト）を所持するようになります。レベルが高いほど戦利品の質が向上し、死亡時にドロップします。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / ALPHAKILL TARGETED ==================== -->
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_title">
-        <text>アルファ討伐: 報復</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_tag">
-        <text>概要: アルファ個体を殺害した者に対し、同種のミュータントが群れを成して追跡・襲撃を開始します。\n原因: アルファ討伐\n判定基準: 嗅覚範囲内、同種、性格（攻撃性）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_enabled_desc">
-        <text>マップ内にいる同種のミュータントが、アルファを討伐した者を追跡して報復するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_rush_desc">
-        <text>追跡する群れが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads">
-        <text>襲撃する最大の群れ数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads_desc">
-        <text>討伐者を追跡するミュータントの群れの最大数を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases">
-        <text>再追跡の最大回数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases_desc">
-        <text>獲物を見失った際、再び追跡を開始する最大回数です。0にすると一度振り切れば追ってきません。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / MASSACRE SCAVENGE ==================== -->
-    <string id="ui_mcm_ap_consequences_massacre_scavenge_title">
-        <text>大虐殺: 死体漁り</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_scavenge_tag">
-        <text>概要: 臆病な性質を持つミュータントが、死臭に誘われて大虐殺の現場に集まり、死体を漁り始めます。\n原因: 大虐殺\n判定基準: 嗅覚範囲内、臆病なミュータント、性格（生存本能・洞察力）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_enabled_desc">
-        <text>無法者や臆病種のミュータントが虐殺現場に集まり、アイテムや死体を漁るようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_rush_desc">
-        <text>虐殺現場へ向かう分隊・群れが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_max_squads_desc">
-        <text>虐殺現場へ向かう分隊・群れの最大数を設定します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / MASSACRE INVESTIGATE ==================== -->
-    <string id="ui_mcm_ap_consequences_massacre_investigate_title">
-        <text>大虐殺: 調査</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_investigate_tag">
-        <text>概要: 仲間を殺害された派閥のストーカーが、状況確認や遺品回収のために虐殺現場へと向かいます。\n原因: 大虐殺\n判定基準: 無線範囲内、Renegade以外の派閥、性格（洞察力・友好度）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled_desc">
-        <text>ストーカーの派閥が仲間の大量死を察知し、現場の調査を行うようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_rush_desc">
-        <text>調査に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_max_squads_desc">
-        <text>虐殺現場を調査する派閥分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / MASSACRE LOOT ==================== -->
-    <string id="ui_mcm_ap_consequences_massacre_loot_title">
-        <text>大虐殺\n略奪</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_loot_tag">
-        <text>概要: 無法者のストーカーが、大虐殺の現場に現れて死体から装備や所持品を剥ぎ取ります。\n原因: 大虐殺\n判定基準: 無線範囲内、無法者、性格（強欲・洞察力）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_enabled_desc">
-        <text>無法者が大虐殺の現場へ向かい、死体から略奪を行うイベントを許可します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_rush_desc">
-        <text>有効にすると、イベント対象の分隊が目的地まで最大速度で急行します。無効にすると、より現実的で緩やかな速度で移動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_max_squads">
-        <text>最大派遣分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_max_squads_desc">
-        <text>1回の大虐殺イベントに対して、略奪に向かう無法者分隊の最大数を設定します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / STASH AMBUSH ==================== -->
-    <string id="ui_mcm_ap_consequences_stash_ambush_title">
-        <text>スタッシュ: 待ち伏せ</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_ambush_tag">
-        <text>概要: 分隊がスタッシュに到着し、そこを漁りに来る者を排除するために潜伏・待機します。\n原因: スタッシュでの待ち伏せ</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_enabled_desc">
-        <text>Banditなどの無法者が発見したスタッシュ周辺に潜み、近づく者を待ち伏せするようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_rush_desc">
-        <text>待ち伏せに向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / STASH LOOT ==================== -->
-    <string id="ui_mcm_ap_consequences_stash_loot_title">
-        <text>スタッシュ: 略奪</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_loot_tag">
-        <text>概要: 分隊がスタッシュに到着し、中にある物資をすべて回収します。\n原因: スタッシュの略奪</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled_desc">
-        <text>略奪者が、プレイヤーよりも先にスタッシュの中身を奪おうと急行するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush_desc">
-        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_protect_toolkits">
-        <text>ツールキットの保護</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_protect_toolkits_desc">
-        <text>有効にすると、NPCはツールキット、修理キット、クラフトツール、ワークショップキットが含まれるスタッシュを無視するようになります。その場合、スタッシュ内の全アイテムが手つかずのまま残ります。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / STASH FILL ==================== -->
-    <string id="ui_mcm_ap_consequences_stash_fill_title">
-        <text>スタッシュ: 補充</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_tag">
-        <text>概要: 分隊が空のスタッシュに到着し、手持ちの物資を補充して蓄えます。\n原因: スタッシュへの補充</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled_desc">
-        <text>ストーカーが、発見したスタッシュに物資を隠すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush_desc">
-        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_min_items">
-        <text>最小アイテム数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_min_items_desc">
-        <text>NPCがスタッシュに隠すアイテムの最小数を設定します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_max_items">
-        <text>最大アイテム数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_max_items_desc">
-        <text>NPCがスタッシュに隠すアイテムの最大数を設定します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / SQUADKILL REVENGE ==================== -->
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_title">
-        <text>分隊全滅: 復讐</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_tag">
-        <text>概要: 仲間を殺害された派閥の分隊が、犯人を特定し報復のために追跡を開始します。\n原因: 分隊全滅\n判定基準: 無線範囲内、無法者または非道なストーカー、性格（攻撃性・友好度）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled_desc">
-        <text>分隊が全滅した際、近くにいる味方の分隊がキラーを追跡して復讐するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_rush_desc">
-        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads_desc">
-        <text>キラーを追跡する復讐分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases">
-        <text>復讐者ごとの最大追跡回数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases_desc">
-        <text>復讐者が、逃げるキラーを執拗に追跡する最大回数を設定します。「0」に設定すると追跡が無効になります。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / BASEKILL SUPPORT ==================== -->
-    <string id="ui_mcm_ap_consequences_basekill_support_title">
-        <text>拠点壊滅: 増援</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_support_tag">
-        <text>概要: 攻撃を受けている拠点を守るため、同派閥の分隊が救援に急行します。\n原因: 拠点制圧\n判定基準: 無線範囲内、Renegade以外の派閥、性格（規律・友好度）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled_desc">
-        <text>攻撃を受けている拠点に対し、近くの味方分隊が増援として急行するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_rush_desc">
-        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_max_squads_desc">
-        <text>拠点を防衛するために派遣される増援分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / BASEKILL FLEE ==================== -->
-    <string id="ui_mcm_ap_consequences_basekill_flee_title">
-        <text>拠点壊滅: 逃亡</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_flee_tag">
-        <text>概要: 拠点の陥落を察知した周辺の分隊が、安全を確保するために遠方の友好的な拠点へと撤退します。\n原因: 拠点制圧\n判定基準: 視界内、信念を持たないストーカー、性格（規律の欠如・縄張り意識の低さ）、同エリア内に拠点が存在</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled_desc">
-        <text>激しい攻撃を受けている拠点を放棄し、分隊が安全な場所へ撤退するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_rush_desc">
-        <text>イベントで動く分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_max_squads_desc">
-        <text>1回のイベントで拠点から逃亡する分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / WOUNDED HUNT ==================== -->
-    <string id="ui_mcm_ap_consequences_wounded_hunt_title">
-        <text>負傷者: 狩り</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_hunt_tag">
-        <text>概要: 血の匂いや弱った気配を察知した捕食者や変異種が、負傷者のもとへ集まってきます。\n原因: 負傷・治療\n判定基準: 無線範囲内、捕食種または変異種、性格（攻撃性・洞察力）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_enabled_desc">
-        <text>捕食種や変異種のミュータントが、負傷者を積極的に狩るようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_rush_desc">
-        <text>イベントで動くミュータントの群れが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_max_squads_desc">
-        <text>負傷者の血の匂いに引き寄せられるミュータント分隊の最大数を設定します。実際の出現数は、1からこの設定値の間でランダムに決定されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / WOUNDED FACTION HELP ==================== -->
-    <string id="ui_mcm_ap_consequences_wounded_help_title">
-        <text>負傷者: 救助</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_help_tag">
-        <text>概要: 負傷した仲間の要請を受け、同派閥の衛生兵やストーカーが救護のために駆けつけます。\n原因: 負傷・治療\n判定基準: 無線範囲内、無法者以外の派閥、性格（友好度・規律）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled_desc">
-        <text>同じ派閥のメンバーが負傷した仲間の救助に駆けつけるようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_rush_desc">
-        <text>救助に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_max_squads_desc">
-        <text>1回のイベントで派遣される救助分隊の最大数を設定します。実際の派遣数は、1からこの設定値の間でランダムに決定されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / AREA CONQUER ==================== -->
-    <string id="ui_mcm_ap_consequences_area_conquer_title">
-        <text>エリア: 制圧</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_conquer_tag">
-        <text>概要: ストーカー分隊が重要地点に到着して確保し、その場所のスポーン権益を自身の派閥に書き換えます。\n原因: エリア制圧</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled_desc">
-        <text>人間の分隊が空いているエリアを確保するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_rush_desc">
-        <text>エリア制圧に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / AREA SWARM ==================== -->
-    <string id="ui_mcm_ap_consequences_area_swarm_title">
-        <text>エリア\n占拠</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_swarm_tag">
-        <text>概要: ミュータントの群れが重要地点に到着して占拠し、その場所のスポーン権益を自身の種族に書き換えます。\n原因: エリア占拠</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_enabled_desc">
-        <text>ミュータントが空いているエリアを占拠するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_rush_desc">
-        <text>エリア占拠に向かうミュータントの群れが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / HARVEST ROB ==================== -->
-    <string id="ui_mcm_ap_consequences_harvest_rob_title">
-        <text>アーティファクト: 強奪</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_tag">
-        <text>概要: アーティファクトを手に入れた者を標的とし、強欲な無法者たちがその品を奪うべく追跡を開始します。\n原因: アーティファクト採取\n判定基準: 無線範囲内、無法者、性格（強欲・攻撃性）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled_desc">
-        <text>無法者がアーティファクトの取得者を追跡し、強奪を狙うようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_rush_desc">
-        <text>追跡する分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads_desc">
-        <text>アーティファクトの取得者を追跡する分隊の最大数を設定します。実際の追跡数は、1からこの設定値の間でランダムに決定されます。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases">
-        <text>分隊ごとの最大追跡回数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases_desc">
-        <text>逃げる取得者に対して、追跡分隊が追いかけ続ける最大回数を設定します。0に設定すると、追跡行動そのものが無効化されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / HARVEST HAUNT ==================== -->
-    <string id="ui_mcm_ap_consequences_harvest_haunt_title">
-        <text>アーティファクト: 襲撃</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_haunt_tag">
-        <text>概要: アーティファクトが持ち去られたことに反応し、付近に潜んでいた変異種が採取現場へと集まってきます。\n原因: アーティファクト採取\n判定基準: 嗅覚範囲内、変異種、性格（洞察力・縄張り意識）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled_desc">
-        <text>変異種のミュータントがアーティファクトの取得地点に集結するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_rush_desc">
-        <text>集結するミュータントが最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_max_squads">
-        <text>イベントごとの最大分隊数</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_max_squads_desc">
-        <text>取得地点に集結する変異種のミュータントの群れの最大数を設定します。実際の集結数は、1からこの設定値の間でランダムに決定されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / HUNGER CAMPFIRE ==================== -->
-    <string id="ui_mcm_ap_consequences_hunger_campfire_title">
-        <text>空腹: 焚き火</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_hunger_campfire_tag">
-        <text>概要: 空腹を満たすため、分隊が最寄りの焚き火へと移動します。\n原因: 空腹（焚き火）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_enabled_desc">
-        <text>空腹のストーカーが食事をとるために焚き火を探すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush_desc">
-        <text>焚き火に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_arrive_action_enabled">
-        <text>到着時のアクション</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_arrive_action_enabled_desc">
-        <text>目的地に到着したNPCが、インベントリからパンやソーセージ、缶詰、ウォッカ、ビールなどの食料を実際に消費するようになります。消費されたアイテムはインベントリから削除されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / SLEEP CAMPFIRE ==================== -->
-    <string id="ui_mcm_ap_consequences_sleep_campfire_title">
-        <text>睡眠: 焚き火</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_sleep_campfire_tag">
-        <text>概要: 休息をとるため、分隊が最寄りの焚き火へと移動します。\n原因: 睡眠（焚き火）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled_desc">
-        <text>疲労したストーカーが夜間に睡眠をとるため、焚き火を探すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_rush_desc">
-        <text>焚き火に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / REST CAMPFIRE ==================== -->
-    <string id="ui_mcm_ap_consequences_rest_campfire_title">
-        <text>休息: 焚き火</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_rest_campfire_tag">
-        <text>概要: 体を休めるため、分隊が最寄りの焚き火へと移動します。\n原因: 休息（焚き火）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_enabled_desc">
-        <text>疲労したストーカーが休息をとるために焚き火を探すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush_desc">
-        <text>焚き火に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_arrive_action_enabled">
-        <text>到着時のアクション</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_arrive_action_enabled_desc">
-        <text>目的地に到着したNPCが、インベントリからタバコやウォッカ、ビールを実際に消費するようになります。消費されたアイテムはインベントリから削除されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / HEAL SHELTER ==================== -->
-    <string id="ui_mcm_ap_consequences_heal_shelter_title">
-        <text>治療: 退避</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_heal_shelter_tag">
-        <text>概要: 負傷を癒やすため、分隊が安全な退避所へと移動します。\n原因: 治療（退避所）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled_desc">
-        <text>負傷したストーカーが治療のために屋内の場所を探すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush_desc">
-        <text>避難場所に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_arrive_action_enabled">
-        <text>到着時のアクション</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_arrive_action_enabled_desc">
-        <text>目的地に到着したNPCが、インベントリから救急箱や包帯、スティムパックを実際に使用するようになります。使用されたアイテムはインベントリから削除されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / SHELTER ==================== -->
-    <string id="ui_mcm_ap_consequences_shelter_indoor_title">
-        <text>避難: 屋内</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_indoor_tag">
-        <text>概要: エミッションから身を守るため、分隊が屋内の退避所へと移動します。\n原因: 屋内退避</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled_desc">
-        <text>屋外にいるストーカーがエミッションをやり過ごすための避難場所を探すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_rush_desc">
-        <text>避難場所に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / SHELTER OUTDOOR ==================== -->
-    <string id="ui_mcm_ap_consequences_shelter_outdoor_title">
-        <text>避難: 屋外</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_outdoor_tag">
-        <text>概要: エミッションをやり過ごすため、分隊が焚き火などの野外の避難ポイントへと移動します。\n原因: 野外退避</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled_desc">
-        <text>近くにエミッションの避難場所がない場合、屋外にいるストーカーが焚き火を探すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_rush_desc">
-        <text>避難場所に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / MONEY HARVEST ==================== -->
-    <string id="ui_mcm_ap_consequences_money_harvest_title">
-        <text>資金稼ぎ: アーティファクト</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_harvest_tag">
-        <text>概要: アーティファクトを回収して資金を得るため、分隊がアノマリー地帯へと向かいます。\n原因: 資金稼ぎ（採取）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled_desc">
-        <text>資金が必要になったストーカーがアノマリー領域を探すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush_desc">
-        <text>アノマリー領域に向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / MONEY HUNT ==================== -->
-    <string id="ui_mcm_ap_consequences_money_hunt_title">
-        <text>資金稼ぎ: ミュータント狩り</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_hunt_tag">
-        <text>概要: 戦利品や素材を得るため、分隊がミュータントの巣穴へと狩りに出向きます。\n原因: 資金稼ぎ（狩猟）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_enabled_desc">
-        <text>資金が必要になったストーカーがミュータントを狩るようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_rush_desc">
-        <text>ミュータント狩りに向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / SUPPLY TRADER ==================== -->
-    <string id="ui_mcm_ap_consequences_supply_trader_title">
-        <text>物資補給: トレーダー</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_supply_trader_tag">
-        <text>概要: 手に入れた品を売却し、必要な物資を買い揃えるため、分隊がトレーダーのもとへ向かいます。\n原因: 補給（トレーダー）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled_desc">
-        <text>物資が必要になったストーカーがトレーダーのもとを訪れるようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_rush_desc">
-        <text>トレーダーに向かう分隊が最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled">
-        <text>到着時のアクション</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled_desc">
-        <text>目的地に到着したNPCが所持しているアーティファクトを売却し、代わりに弾薬やグレネード、医薬品を受け取るようになります。これらは実際にNPCのインベントリ内で交換処理されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / JOB OUTPOST ==================== -->
-    <string id="ui_mcm_ap_consequences_job_outpost_title">
-        <text>任務: 警備</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_outpost_tag">
-        <text>概要: 警戒・防衛任務を遂行するため、分隊が指定の監視ポストへと移動します。\n原因: 任務（監視）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled_desc">
-        <text>ストーカーが前哨基地や検問所の警備に向かうようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush_desc">
-        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_arrive_action_enabled">
-        <text>到着時のアクション</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_arrive_action_enabled_desc">
-        <text>目的地に到着したNPCが、警備中にインベントリ内のタバコを吸うようになります。この際、アイテムは実際に消費されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / JOB EXPLORE ==================== -->
-    <string id="ui_mcm_ap_consequences_job_explore_title">
-        <text>任務: 探索</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_explore_tag">
-        <text>概要: 勢力圏を広げるための偵察として、分隊が未占拠のエリアへと向かいます。\n原因: 任務（探索）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled_desc">
-        <text>ストーカーが未知のエリアの探索に向かうようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_rush_desc">
-        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / JOB RESEARCH ==================== -->
-    <string id="ui_mcm_ap_consequences_job_research_title">
-        <text>任務: 調査</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_research_tag">
-        <text>概要: 学術的なデータを収集するため、エコロジストの分隊がアノマリー地帯へと向かいます。\n原因: 任務（調査）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled_desc">
-        <text>ストーカーがアノマリー領域の調査に向かうようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush_desc">
-        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / SOCIAL CAMPFIRE ==================== -->
-    <string id="ui_mcm_ap_consequences_social_campfire_title">
-        <text>交流: 焚き火</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_campfire_tag">
-        <text>概要: 仲間との親睦を深めるため、分隊が焚き火を囲んで休息をとります。\n原因: 交流（焚き火）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_enabled_desc">
-        <text>孤独なストーカーが、焚き火での交流を求めて移動するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush_desc">
-        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_arrive_action_enabled">
-        <text>到着時のアクション</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_arrive_action_enabled_desc">
-        <text>目的地に到着したNPCが、焚き火の周りでインベントリ内のタバコや飲み物を消費してくつろぐようになります。この際、アイテムは実際に消費されます。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCES / SOCIAL BASE ==================== -->
-    <string id="ui_mcm_ap_consequences_social_base_title">
-        <text>交流: 拠点</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_base_tag">
-        <text>概要: 安全な場所で休息し交流するため、分隊が派閥の拠点へと帰還します。\n原因: 交流（拠点）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_enabled_desc">
-        <text>孤独なストーカーが、仲間を求めて拠点へ帰還するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush_desc">
-        <text>分隊が目的地へ向かう際に、最高速度で移動するようになります。無効にすると移動速度が下がり、より現実的なペースで行動します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_arrive_action_enabled">
-        <text>到着時のアクション</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_arrive_action_enabled_desc">
-        <text>目的地に到着したNPCが、拠点でインベントリ内のタバコや飲み物を消費してくつろぐようになります。この際、アイテムは実際に消費されます。</text>
-    </string>
-
-    <!-- ==================== MUTATORS / ALPHA ==================== -->
-    <string id="ui_mcm_ap_mutators_alpha_title">
-        <text>アルファミュータント</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_desc">
-        <text>アルファミュータント（獲物を仕留めて群れの頂点に立った強力な個体）に対する戦闘補正を設定します。攻撃力ボーナスにより与えるダメージが増加し、被ダメージ軽減により受けるダメージが減少します。</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_dealt_enabled">
-        <text>攻撃力ボーナスを有効化</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_dealt_enabled_desc">
-        <text>アルファミュータントの攻撃力を上昇させます。ボーナス値はアルファミュータントのレベルに応じて増加します。</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_dealt_per_level">
-        <text>レベルごとの攻撃力ボーナス</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_dealt_per_level_desc">
-        <text>アルファミュータントのレベルが1上がるごとに付与される攻撃力ボーナスを設定します。（例: 0.05に設定すると、レベル1で+5%、レベル10で+50%のボーナスになります）</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_taken_enabled">
-        <text>被ダメージ軽減を有効化</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_taken_enabled_desc">
-        <text>アルファミュータントが受けるダメージを減少させます。軽減率はアルファミュータントのレベルに応じて増加します。</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_taken_per_level">
-        <text>レベルごとの被ダメージ軽減</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_hit_power_taken_per_level_desc">
-        <text>アルファミュータントのレベルが1上がるごとに付与される被ダメージ軽減率を設定します。（例: 0.05に設定すると、レベル1で-5%、レベル10で-50%の軽減になります）</text>
-    </string>
-
-    <string id="ui_mcm_ap_mutators_alpha_alpha_panic_immunity_enabled">
-        <text>パニック耐性を有効化</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_alpha_alpha_panic_immunity_enabled_desc">
-        <text>アルファミュータントがパニック状態に陥らず、逃走しなくなります。最初の被弾時にパニックのしきい値がゼロに設定されます。</text>
-    </string>
-
-    <!-- ==================== MUTATORS / STALKER RANK ==================== -->
-    <string id="ui_mcm_ap_mutators_rank_title">
-        <text>ストーカーランク</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_desc">
-        <text>ベテラン以上（ランク12000以上）のストーカーに対する戦闘補正を設定します。キル数で上昇するランクに基づいて計算され、ベテランからレジェンドにかけて段階的に効果が高まります。</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_dealt_enabled">
-        <text>攻撃力ボーナスを有効化</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_dealt_enabled_desc">
-        <text>ベテラン以上のストーカーの攻撃力を上昇させます。最大ボーナスが適用されるレジェンドランクのストーカーは、非常に強力な攻撃を繰り出すようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_dealt_mult">
-        <text>最大攻撃力ボーナス</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_dealt_mult_desc">
-        <text>レジェンドランクに到達した際の最大攻撃力ボーナスを設定します。（例: 0.15に設定すると、ベテランで+3%、レジェンドで+15%のボーナスになります）</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_taken_enabled">
-        <text>被ダメージ軽減を有効化</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_taken_enabled_desc">
-        <text>ベテラン以上のストーカーが受けるダメージを減少させます。最大軽減が適用されるレジェンドランクのストーカーは、被ダメージが劇的に低下します。</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_taken_mult">
-        <text>最大被ダメージ軽減</text>
-    </string>
-    <string id="ui_mcm_ap_mutators_rank_rank_hit_power_taken_mult_desc">
-        <text>レジェンドランクに到達した際の最大被ダメージ軽減率を設定します。（例: 0.15に設定すると、ベテランで-3%、レジェンドで-15%の軽減になります）</text>
-    </string>
-
-    <!-- ==================== MUTATORS / AREA CONQUEST ==================== -->
-	<string id="ui_mcm_ap_mutators_conquest_title">
-		<text>エリア制圧の設定</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_desc">
-		<text>ストーカーによるエリア制圧時のスポーン挙動を調整します。制圧された重要地点（スマートテレイン）には、元のスポーン設定に加えて制圧した派閥専用のスポーン枠が追加されます。無効にすると、スポーン設定は変更せず、分隊の移動（area_conquer）のみを維持します。</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_area_conquest_mutate_smart">
-		<text>スポーン設定の上書き</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_area_conquest_mutate_smart_desc">
-		<text>制圧されたエリアにおいて、制圧した派閥の分隊も出現するように設定を書き換えます。無効にした場合、スポーン傾向は変化せず、分隊の移動のみが行われます。</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_area_conquest_max_smarts">
-		<text>最大制圧エリア数</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_area_conquest_max_smarts_desc">
-		<text>ゾーン全体で同時に制圧状態を維持できる重要地点の最大数を設定します。上限に達した場合は、古いものから順に制圧状態が解除されます。</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_area_conquest_spawn_num">
-		<text>追加スポーン分隊数</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_area_conquest_spawn_num_desc">
-		<text>制圧したエリアで追加される、その派閥の分隊数を設定します。</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_area_conquest_decay_hours">
-		<text>制圧状態の持続時間（時間）</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_conquest_area_conquest_decay_hours_desc">
-		<text>制圧した派閥のスポーン枠が維持されるゲーム内時間を設定します。時間が経過すると元のスポーン状態に戻ります。「0」に設定すると、制圧状態は永続します。</text>
-	</string>
-
-	<!-- ==================== MUTATORS / AREA INFEST ==================== -->
-	<string id="ui_mcm_ap_mutators_infest_title">
-		<text>エリア侵食の設定</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_desc">
-		<text>ミュータントによるエリア侵食時のスポーン挙動を調整します。侵食された地点では元のスポーン設定が完全に置き換わり、その種族のみが独占的に出現するようになります。無効にすると、スポーン設定は変更せず、分隊の移動（area_infest）のみを維持します。</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_area_infest_mutate_smart">
-		<text>スポーン設定の上書き</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_area_infest_mutate_smart_desc">
-		<text>侵食されたエリアのスポーン設定を、そのミュータント種族専用のものに置き換えます。無効にした場合、スポーン傾向は変化せず、分隊の移動のみが行われます。</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_area_infest_max_per_level">
-		<text>マップごとの最大侵食数</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_area_infest_max_per_level_desc">
-		<text>[1〜5]\n1つのマップ内で同時に侵食状態にできる重要地点の最大数を設定します。デフォルト設定の「1」を推奨します。</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_area_infest_spawn_num">
-		<text>スポーン分隊数</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_area_infest_spawn_num_desc">
-		<text>[1〜5]\n侵食された地点から出現する分隊の数を設定します。デフォルト設定の「3」を推奨します。</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_area_infest_decay_hours">
-		<text>侵食状態の持続時間（時間）</text>
-	</string>
-	<string id="ui_mcm_ap_mutators_infest_area_infest_decay_hours_desc">
-		<text>[0〜168]\n侵食状態が解除されるまでのゲーム内時間を設定します。「0」に設定すると侵食は永続します。</text>
-	</string>
-
-    <!-- ==================== DEVELOPMENT TAB ==================== -->
-    <string id="ui_mcm_ap_development_title">
-        <text>開発とツール</text>
-    </string>
-    <string id="ui_mcm_ap_development_desc">
-        <text>デバッグおよび開発用の設定です。ログレベルを「デバッグ」にすると、トレースやパフォーマンス計測、詳細なログ出力が有効になります。また、デバッグマーカーを有効にすると、PDAマップ上に分隊の目的地が表示されます。</text>
-    </string>
-    <string id="ui_mcm_ap_development_log_level">
-        <text>ログレベル</text>
-    </string>
-    <string id="ui_mcm_ap_development_log_level_desc">
-        <text>ログの詳細度とデバッグ機能を設定します。「デバッグ」にすると、OTelスタイルのトレースやパフォーマンス計測、詳細なログ出力が有効になりますが、ゲームのパフォーマンスに影響を与える可能性があります。</text>
-    </string>
-    <string id="ap_development_log_level_lst_error">
-        <text>エラー</text>
-    </string>
-    <string id="ap_development_log_level_lst_warn">
-        <text>警告</text>
-    </string>
-    <string id="ap_development_log_level_lst_info">
-        <text>情報</text>
-    </string>
-    <string id="ap_development_log_level_lst_debug">
-        <text>デバッグ</text>
-    </string>
-    <string id="ui_mcm_ap_development_map_markers">
-        <text>デバッグマーカー</text>
-    </string>
-    <string id="ui_mcm_ap_development_map_markers_desc">
-        <text>PDAマップ上に分隊の目的地マーカーを表示します。これはA-Lifeの移動を追跡するための大まかな位置であり、正確な座標ではありません。設定を適用するには、セーブデータをロードし直してください。</text>
-    </string>
-    <string id="ui_mcm_ap_development_statistics_position">
-        <text>統計情報のオーバーレイ</text>
-    </string>
-    <string id="ui_mcm_ap_development_statistics_position_desc">
-        <text>パイプラインの統計情報を画面上に表示し、10秒ごとにログへ書き込みます。表示位置を選択するか、オフに設定できます。オフにすればパフォーマンスへの影響はありません。</text>
-    </string>
-    <string id="ap_development_statistics_position_lst_off">
-        <text>オフ</text>
-    </string>
-    <string id="ap_development_statistics_position_lst_top_left">
-        <text>左上</text>
-    </string>
-    <string id="ap_development_statistics_position_lst_top_right">
-        <text>右上</text>
-    </string>
-    <string id="ap_development_statistics_position_lst_center_left">
-        <text>左中央</text>
-    </string>
-    <string id="ap_development_statistics_position_lst_center_right">
-        <text>右中央</text>
-    </string>
-    <string id="ap_development_statistics_position_lst_bottom_left">
-        <text>左下</text>
-    </string>
-    <string id="ap_development_statistics_position_lst_bottom_right">
-        <text>右下</text>
-    </string>
-
-    <!-- Cause: Instincts (5 drives + 7 answers, multi-answer drive: slumber splits 3 ways) -->
-    <string id="ui_mcm_ap_causes_instincts_title"><text>生存本能</text></string>
-
-    <!-- Per-cause tags (7 sub-causes) -->
-    <string id="ui_mcm_ap_causes_instincts_scatter_tag"><text>原因: 散開行動\n概要: ミュータントが自分より上位の脅威から逃走します。\n判定基準: 嗅覚範囲内、全時間帯、被食者となる種族、性格（生存本能・非攻撃的）、付近に脅威が存在、安全な地点、拠点以外、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_instincts_feed_tag"><text>原因: 捕食行動\n概要: ミュータントが餌を求めて狩り場へ向かいます。\n判定基準: 嗅覚範囲内、活動時間中、全ミュータント、性格（生存本能・洞察力）、縄張り内、拠点以外、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_instincts_slumber_field_tag"><text>原因: 休息（野外）\n概要: ミュータントが野外の開けた場所で眠ります。\n判定基準: 嗅覚範囲内、休息時間中、臆病な個体、性格（生存本能）、縄張り内、拠点以外、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_instincts_slumber_lair_tag"><text>原因: 休息（巣穴）\n概要: ミュータントが安全な巣穴に戻って休みます。\n判定基準: 嗅覚範囲内、休息時間中、野生種または捕食種、性格（生存本能）、巣穴、拠点以外、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_instincts_slumber_surge_tag"><text>原因: 休息（エミッション）\n概要: ミュータントがアノマリーの脅威から逃れるために退避所へ向かいます。\n判定基準: 嗅覚範囲内、休息時間中、変異種または捕食種、性格（生存本能）、エミッション退避所、拠点以外、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_instincts_roam_tag"><text>原因: 徘徊行動\n概要: ミュータントが新たな縄張りを求めて移動します。\n判定基準: 嗅覚範囲内、活動時間中、変異種以外の個体、性格（洞察力・縄張り意識）、縄張りまたは巣穴、拠点以外、Hull（判定リミッター）</text></string>
-    <string id="ui_mcm_ap_causes_instincts_pack_tag"><text>原因: 群れ行動\n概要: ミュータントが付近にいる同種の群れに合流します。\n判定基準: 嗅覚範囲内、活動時間中、野生種または捕食種、性格（友好度）、付近に同種が存在、拠点以外、Hull（判定リミッター）</text></string>
-
-    <!-- Per-cause enable labels (uniform "Enabled"; single-answer drives use the drive name as cause name) -->
-    <string id="ui_mcm_ap_causes_instincts_cause_scatter_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_scatter_enabled_desc"><text>ミュータントが上位種から逃走するイベントの発生を許可します。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_feed_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_feed_enabled_desc"><text>ミュータントが餌場へ向かうイベントの発生を許可します。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_roam_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_roam_enabled_desc"><text>ミュータントが新たな場所へ移動するイベントの発生を許可します。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_pack_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_pack_enabled_desc"><text>ミュータントが同種の群れに合流するイベントの発生を許可します。</text></string>
-
-    <!-- Drive thresholds (5; drive-level sliders sit above their cause sections) -->
-    <string id="ui_mcm_ap_causes_instincts_cause_scatter_threshold"><text>散開の再判定間隔</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_scatter_threshold_desc"><text>[ゲーム内時間]\n散開行動の判定リミッターが回復するまでの時間を設定します。デフォルト設定は24時間です。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_feed_threshold"><text>捕食の再判定間隔</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_feed_threshold_desc"><text>[ゲーム内時間]\n捕食行動の判定リミッターが回復するまでの時間を設定します。デフォルト設定は24時間です。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_slumber_threshold"><text>休息の再判定間隔</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_slumber_threshold_desc"><text>[ゲーム内時間]\n休息行動の判定リミッターが回復するまでの時間を設定します。デフォルト設定は24時間です。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_roam_threshold"><text>徘徊の再判定間隔</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_roam_threshold_desc"><text>[ゲーム内時間]\n徘徊行動の判定リミッターが回復するまでの時間を設定します。デフォルト設定は24時間です。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_pack_threshold"><text>群れ形成の再判定間隔</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_pack_threshold_desc"><text>[ゲーム内時間]\n群れ形成の判定リミッターが回復するまでの時間を設定します。デフォルト設定は24時間です。</text></string>
-
-    <!-- Slumber per-answer enables -->
-    <string id="ui_mcm_ap_causes_instincts_cause_slumber_field_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_slumber_field_enabled_desc"><text>ミュータントが野外で眠るイベントの発生を許可します。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_slumber_lair_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_slumber_lair_enabled_desc"><text>ミュータントが巣穴に戻って眠るイベントの発生を許可します。</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_slumber_surge_enabled"><text>有効化</text></string>
-    <string id="ui_mcm_ap_causes_instincts_cause_slumber_surge_enabled_desc"><text>ミュータントがエミッション退避所で休むイベントの発生を許可します。</text></string>
-
-    <!-- Consequence: Scatter -->
-    <string id="ui_mcm_ap_consequences_scatter_title">
-        <text>散開行動</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_scatter_tag">
-        <text>概要: 群れが上位の捕食者から逃れるために散り散りになります。\n原因: 散開行動</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_enabled_desc">
-        <text>下位階級のミュータントが、近くにいる上位種から離れた安全なスマートテレイン（拠点や野営地）へ逃げ込むようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_rush_desc">
-        <text>ミュータントが上位種から逃げて散開する際に、全力疾走で移動するようになります。</text>
-    </string>
-
-    <!-- Consequence: Feed -->
-    <string id="ui_mcm_ap_consequences_feed_title">
-        <text>捕食</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_feed_tag">
-        <text>概要: 群れが餌を求めて狩り場へと向かいます。\n原因: 捕食行動</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_feed_consequence_feed_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_feed_consequence_feed_enabled_desc">
-        <text>ミュータントが、捕食のために開けたエリアへ向かうようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_feed_consequence_feed_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_feed_consequence_feed_rush_desc">
-        <text>ミュータントが狩り場へ向かう際に、全力疾走で移動するようになります。</text>
-    </string>
-
-    <!-- Consequence: Slumber Field (cowardly mutants in open territory) -->
-    <string id="ui_mcm_ap_consequences_slumber_field_title"><text>休息\n（野外）</text></string>
-    <string id="ui_mcm_ap_consequences_slumber_field_tag">
-        <text>概要: 臆病な性質の群れが、縄張り内の開けた場所で身を丸めて眠ります。\n原因: 休息（野外）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_enabled_desc">
-        <text>臆病なミュータントが野外の開けた地点へ移動して休息するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_rush_desc">
-        <text>有効にすると、休息地点まで全力疾走で移動します。</text>
-    </string>
-
-    <!-- Consequence: Slumber Lair (feral + predator returning to lair) -->
-    <string id="ui_mcm_ap_consequences_slumber_lair_title"><text>休息\n（巣穴）</text></string>
-    <string id="ui_mcm_ap_consequences_slumber_lair_tag">
-        <text>概要: 野生種や捕食者の群れが、安全な巣穴に引きこもって眠ります。\n原因: 休息（巣穴）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_enabled_desc">
-        <text>野生種や捕食者が休息のために巣穴へ戻るようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_rush_desc">
-        <text>有効にすると、巣穴まで全力疾走で移動します。</text>
-    </string>
-
-    <!-- Consequence: Slumber Surge (aberrant + predator overflow into surge shelter) -->
-    <string id="ui_mcm_ap_consequences_slumber_surge_title"><text>休息\n（退避所）</text></string>
-    <string id="ui_mcm_ap_consequences_slumber_surge_tag">
-        <text>概要: 捕食種や変異種がエミッションの脅威を避けるため、退避所を確保して休みます。\n原因: 休息（エミッション）</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_enabled_desc">
-        <text>変異種や捕食者がエミッション退避所へ移動して休息するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_rush_desc">
-        <text>有効にすると、退避所まで全力疾走で移動します。</text>
-    </string>
-
-    <!-- Consequence: Roam -->
-    <string id="ui_mcm_ap_consequences_roam_title">
-        <text>徘徊行動</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_roam_tag">
-        <text>概要: 群れが新たな縄張りを求めて、未占拠のエリアを徘徊します。\n原因: 徘徊行動</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_roam_consequence_roam_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_roam_consequence_roam_enabled_desc">
-        <text>ミュータントが探索のために付近の縄張りや巣穴へ移動するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_roam_consequence_roam_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_roam_consequence_roam_rush_desc">
-        <text>有効にすると、探索中に全力疾走で移動します。</text>
-    </string>
-
-    <!-- Consequence: Pack -->
-    <string id="ui_mcm_ap_consequences_pack_title">
-        <text>群れ行動</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_pack_tag">
-        <text>概要: ミュータントが付近にいる同種の個体と合流し、群れを形成します。\n原因: 群れ行動</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_pack_consequence_pack_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_pack_consequence_pack_enabled_desc">
-        <text>ミュータントが同種の分隊（群れ）に向かって移動するようになります。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_pack_consequence_pack_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_pack_consequence_pack_rush_desc">
-        <text>有効にすると、仲間の群れに向かって全力疾走で移動します。</text>
-    </string>
-
-    <!-- ==================== CONSEQUENCE: AREA INFEST ==================== -->
-    <string id="ui_mcm_ap_consequences_area_infest_title">
-        <text>エリア侵食</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_infest_tag">
-        <text>概要: ミュータントの群れが重要地点に到着して拠点を築き、その場所のスポーン設定を自身の種族専用に書き換えます。\n原因: エリア侵食</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_enabled">
-        <text>有効化</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_enabled_desc">
-        <text>ミュータントが重要地点を巣として占拠する「エリア侵食」イベントを許可します。</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_rush">
-        <text>ラッシュモード</text>
-    </string>
-    <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_rush_desc">
-        <text>有効にすると、巣を占拠するために目的地まで最大速度で急行します。</text>
-    </string>
-
+  <!-- ==================== MAIN MENU ==================== -->
+  <string id="ui_mcm_menu_ap">
+    <text>AlifePlus</text>
+  </string>
+  <!-- ==================== LEVEL 2 MENU NAMES ==================== -->
+  <string id="ui_mcm_menu_framework">
+    <text>フレームワーク</text>
+  </string>
+  <string id="ui_mcm_menu_world">
+    <text>ワールド</text>
+  </string>
+  <string id="ui_mcm_menu_news">
+    <text>ニュース</text>
+  </string>
+  <string id="ui_mcm_menu_causes">
+    <text>発生原因</text>
+  </string>
+  <string id="ui_mcm_menu_consequences">
+    <text>実行結果</text>
+  </string>
+  <string id="ui_mcm_menu_development">
+    <text>開発設定</text>
+  </string>
+  <!-- ==================== LEVEL 3 MENU NAMES (CAUSE CATEGORIES) ==================== -->
+  <string id="ui_mcm_menu_reactions">
+    <text>リアクション</text>
+  </string>
+  <string id="ui_mcm_menu_opportunities">
+    <text>チャンス</text>
+  </string>
+  <!-- ==================== LEVEL 4 MENU NAMES (CAUSE FAMILIES) ==================== -->
+  <string id="ui_mcm_menu_alpha">
+    <text>アルファ</text>
+  </string>
+  <string id="ui_mcm_menu_alphakill">
+    <text>アルファ討伐</text>
+  </string>
+  <string id="ui_mcm_menu_massacre">
+    <text>大虐殺</text>
+  </string>
+  <string id="ui_mcm_menu_stash">
+    <text>スタッシュ</text>
+  </string>
+  <string id="ui_mcm_menu_squadkill">
+    <text>分隊全滅</text>
+  </string>
+  <string id="ui_mcm_menu_basekill">
+    <text>拠点壊滅</text>
+  </string>
+  <string id="ui_mcm_menu_wounded">
+    <text>負傷者</text>
+  </string>
+  <string id="ui_mcm_menu_area">
+    <text>エリア</text>
+  </string>
+  <string id="ui_mcm_menu_harvest">
+    <text>アーティファクト</text>
+  </string>
+  <string id="ui_mcm_menu_needs">
+    <text>欲求</text>
+  </string>
+  <string id="ui_mcm_menu_offmap">
+    <text>エリア外</text>
+  </string>
+  <string id="ui_mcm_menu_instincts">
+    <text>生存本能</text>
+  </string>
+  <string id="ui_mcm_menu_scatter">
+    <text>散開行動</text>
+  </string>
+  <string id="ui_mcm_menu_feed">
+    <text>捕食行動</text>
+  </string>
+  <string id="ui_mcm_menu_slumber_field">
+    <text>休息\n野外</text>
+  </string>
+  <string id="ui_mcm_menu_slumber_lair">
+    <text>休息\n巣穴</text>
+  </string>
+  <string id="ui_mcm_menu_slumber_surge">
+    <text>休息\nエミッション</text>
+  </string>
+  <string id="ui_mcm_menu_roam">
+    <text>徘徊行動</text>
+  </string>
+  <string id="ui_mcm_menu_pack">
+    <text>群れ行動</text>
+  </string>
+  <string id="ui_mcm_menu_area_infest">
+    <text>エリア\n侵食行動</text>
+  </string>
+  <!-- ==================== LEVEL 3 MENU NAMES (CONSEQUENCES) ==================== -->
+  <string id="ui_mcm_menu_alpha_promote">
+    <text>アルファ\n昇格</text>
+  </string>
+  <string id="ui_mcm_menu_alphakill_targeted">
+    <text>アルファ討伐\n追跡</text>
+  </string>
+  <string id="ui_mcm_menu_mutators">
+    <text>ミューテーター</text>
+  </string>
+  <string id="ui_mcm_menu_conquest">
+    <text>勢力拡大</text>
+  </string>
+  <string id="ui_mcm_menu_swarm">
+    <text>大発生</text>
+  </string>
+  <string id="ui_mcm_menu_infest">
+    <text>侵食行動</text>
+  </string>
+  <string id="ui_mcm_menu_massacre_scavenge">
+    <text>大虐殺\n死体漁り</text>
+  </string>
+  <string id="ui_mcm_menu_massacre_investigate">
+    <text>大虐殺\n調査</text>
+  </string>
+  <string id="ui_mcm_menu_massacre_loot">
+    <text>大虐殺\n略奪</text>
+  </string>
+  <string id="ui_mcm_menu_stash_ambush">
+    <text>スタッシュ\n待ち伏せ</text>
+  </string>
+  <string id="ui_mcm_menu_stash_loot">
+    <text>スタッシュ\n略奪</text>
+  </string>
+  <string id="ui_mcm_menu_stash_fill">
+    <text>スタッシュ\n補充</text>
+  </string>
+  <string id="ui_mcm_menu_squadkill_revenge">
+    <text>分隊全滅\n復讐</text>
+  </string>
+  <string id="ui_mcm_menu_basekill_support">
+    <text>拠点壊滅\n増援</text>
+  </string>
+  <string id="ui_mcm_menu_basekill_flee">
+    <text>拠点壊滅\n逃亡</text>
+  </string>
+  <string id="ui_mcm_menu_wounded_hunt">
+    <text>負傷者\n狩り</text>
+  </string>
+  <string id="ui_mcm_menu_wounded_help">
+    <text>負傷者\n救助</text>
+  </string>
+  <string id="ui_mcm_menu_area_conquer">
+    <text>エリア\n制圧</text>
+  </string>
+  <string id="ui_mcm_menu_area_swarm">
+    <text>エリア\n占拠</text>
+  </string>
+  <string id="ui_mcm_menu_harvest_rob">
+    <text>アーティファクト\n強奪</text>
+  </string>
+  <string id="ui_mcm_menu_harvest_haunt">
+    <text>アーティファクト\n襲撃</text>
+  </string>
+  <string id="ui_mcm_menu_hunger_campfire">
+    <text>空腹\n焚き火</text>
+  </string>
+  <string id="ui_mcm_menu_sleep_campfire">
+    <text>睡眠\n焚き火</text>
+  </string>
+  <string id="ui_mcm_menu_rest_campfire">
+    <text>休息\n焚き火</text>
+  </string>
+  <string id="ui_mcm_menu_heal_shelter">
+    <text>治療\n退避</text>
+  </string>
+  <string id="ui_mcm_menu_shelter_indoor">
+    <text>避難\n屋内</text>
+  </string>
+  <string id="ui_mcm_menu_shelter_outdoor">
+    <text>避難\n屋外</text>
+  </string>
+  <string id="ui_mcm_menu_money_harvest">
+    <text>資金稼ぎ\nアーティファクト</text>
+  </string>
+  <string id="ui_mcm_menu_money_hunt">
+    <text>資金稼ぎ\nミュータント狩り</text>
+  </string>
+  <string id="ui_mcm_menu_supply_trader">
+    <text>物資補給\nトレーダー</text>
+  </string>
+  <string id="ui_mcm_menu_supply_trader_offmap">
+    <text>物資補給\nトレーダー（エリア外）</text>
+  </string>
+  <string id="ui_mcm_menu_job_outpost">
+    <text>任務\n警備</text>
+  </string>
+  <string id="ui_mcm_menu_job_explore">
+    <text>任務\n探索</text>
+  </string>
+  <string id="ui_mcm_menu_job_explore_offmap">
+    <text>任務\n探索（エリア外）</text>
+  </string>
+  <string id="ui_mcm_menu_job_research">
+    <text>任務\n調査</text>
+  </string>
+  <string id="ui_mcm_menu_social_campfire">
+    <text>交流\n焚き火</text>
+  </string>
+  <string id="ui_mcm_menu_social_base">
+    <text>交流\n拠点</text>
+  </string>
+  <!-- ==================== FRAMEWORK TAB ==================== -->
+  <string id="ui_mcm_ap_framework_title">
+    <text>フレームワーク</text>
+  </string>
+  <string id="ui_mcm_ap_framework_desc">
+    <text>AlifePlusにおけるイベント発生の仕組みを管理します。各イベントの発生頻度は、「A-Lifeの比率」「A-Lifeの発生間隔」「発生原因」「実行結果」という4つの専用リミッターによって制御されます。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_alife_ratio">
+    <text>A-Lifeの比率</text>
+  </string>
+  <string id="ui_mcm_ap_framework_alife_ratio_desc">
+    <text>プレイヤーがいるマップと、それ以外のマップにおけるイベント発生の優先度を調整します。数値を高くするほどプレイヤーの周囲でイベントが起きやすくなります。0に設定すると全マップで平等に発生し、マイナスの値にすると遠くのマップが優先されます。バニラ（X-Rayエンジン）本来の挙動を再現したい場合に有用です。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_distributor_interval_sec">
+    <text>A-Lifeの発生間隔（秒）</text>
+  </string>
+  <string id="ui_mcm_ap_framework_distributor_interval_sec_desc">
+    <text>ランダムイベントを評価する間隔を設定します。数値を低くするほどゾーンの活動が活発になり、高くするほど穏やかになります。なお、NPCの死亡など突発的な事象に対する「実行結果」は、イベントカテゴリごとに固定間隔の個別リミッターによって処理されます。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_reactions">
+    <text>リアクションの最大発生数</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_reactions_desc">
+    <text>60秒間に発生する「リアクション」関連イベントの最大数を設定します（大虐殺、分隊全滅、拠点壊滅、負傷、アーティファクト、アルファ関連など）。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_needs">
+    <text>欲求の最大発生数</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_needs_desc">
+    <text>60秒間に発生する「ストーカーの欲求」関連イベントの最大数を設定します（空腹、睡眠、休息、治療、避難、資金稼ぎ、物資補給、任務、交流など）。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_instincts">
+    <text>生存本能の最大発生数</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_instincts_desc">
+    <text>60秒間に発生する「ミュータントの本能」関連イベントの最大数を設定します（散開、捕食、睡眠、探索、群れ形成、侵食など）。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_opportunities">
+    <text>チャンスの最大発生数</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_opportunities_desc">
+    <text>60秒間に発生する「領土・機会」関連イベントの最大数を設定します（スタッシュの操作、エリア制圧など）。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_consequence_max_events">
+    <text>各実行結果の上限数</text>
+  </string>
+  <string id="ui_mcm_ap_framework_consequence_max_events_desc">
+    <text>60秒間に発生する「実行結果」カテゴリごとの最大数を設定します。特定の実行結果が頻繁に発生するのを防ぐことができます。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_global_consequence_max_events">
+    <text>実行結果の総上限数</text>
+  </string>
+  <string id="ui_mcm_ap_framework_global_consequence_max_events_desc">
+    <text>60秒間に発生する「実行結果」全体の最大数を設定します。複数の要因が重なってイベントが多発するのを防ぐことができます。</text>
+  </string>
+  <string id="ui_mcm_ap_framework_allow_external_ownership">
+    <text>他のアドオンによる分隊の管理を許可</text>
+  </string>
+  <string id="ui_mcm_ap_framework_allow_external_ownership_desc">
+    <text>有効にすると、AlifePlusはWarfareやBAOなど他のアドオンが管理している分隊に干渉しなくなります。無効にした場合、他のアドオンによる制御を無視し、対象となるすべての分隊を直接制御します。</text>
+  </string>
+  <!-- ==================== NEWS ==================== -->
+  <string id="ui_mcm_ap_news_title">
+    <text>ニュース</text>
+  </string>
+  <string id="ui_mcm_ap_news_desc">
+    <text>PDAの噂話システムを管理します。ゾーンでの出来事（キル、制圧、襲撃、ミュータントの活動など）は発生時に記録され、定期的に無線通信としてまとめられた後、イベントに関連するストーカーからPDAを通じて配信されます。</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_enabled">
+    <text>ニュースの有効化</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_enabled_desc">
+    <text>PDAニュース機能のオン/オフを切り替えます。無効にすると噂話は配信されなくなりますが、バックグラウンドでのイベント記録は継続されます。</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_interval_min_sec">
+    <text>配信間隔の最小値</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_interval_min_sec_desc">
+    <text>[秒]\nPDAメッセージが配信される間隔の最小値を設定します。システムは毎回、最小値と最大値の間からランダムな遅延時間を選ぶため、機械的ではなく人間らしい自然な頻度でメッセージが届きます。</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_interval_max_sec">
+    <text>配信間隔の最大値</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_interval_max_sec_desc">
+    <text>[秒]\nPDAメッセージが配信される間隔の最大値を設定します。数値を高くするほど、ゾーン全体の通信が静かになります。最小値と最大値を同じ値に設定すると、固定の間隔で配信されます。</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_scope">
+    <text>ニュースの受信範囲</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_scope_desc">
+    <text>どの派閥の無線を受信するかを設定します。\n・自派閥のみ: 所属する派閥の通信のみを受信します。\n・自派閥と同盟: 自派閥および友好関係にある派閥の通信を受信します（デフォルト）。\n・非敵対の全ストーカー: 敵対していないすべてのストーカーの通信を受信します。\nMonolith、Military、Sin、UNISGなどの派閥のチャンネルは、設定に関わらずメンバー専用となります。</text>
+  </string>
+  <string id="ap_news_news_scope_lst_own">
+    <text>自派閥のみ</text>
+  </string>
+  <string id="ap_news_news_scope_lst_allies">
+    <text>自派閥と同盟</text>
+  </string>
+  <string id="ap_news_news_scope_lst_world">
+    <text>非敵対の全ストーカー</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_max_age_game_hours">
+    <text>ニュースの有効期限</text>
+  </string>
+  <string id="ui_mcm_ap_news_news_max_age_game_hours_desc">
+    <text>[ゲーム内時間]\n発生からどれくらい経過したイベントまで噂話の対象にするかを設定します。配信のたびに、過去N時間以内のイベントからランダムに選ばれます。数値を低くすると新鮮なニュースが多くなり、高くすると幅広い話題が取り上げられます（デフォルト: 12）。</text>
+  </string>
+  <!-- ==================== CAUSES / REACTIONS (page banner) ==================== -->
+  <string id="ui_mcm_ap_causes_reactions_title">
+    <text>リアクション</text>
+  </string>
+  <!-- ==================== CAUSES / OPPORTUNITIES (page banner) ==================== -->
+  <string id="ui_mcm_ap_causes_opportunities_title">
+    <text>チャンス</text>
+  </string>
+  <!-- ==================== CAUSES / ALPHA ==================== -->
+  <string id="ui_mcm_ap_causes_alpha_tag">
+    <text>発生原因: アルファ\n概要: ミュータントが一定数のキルを達成し、アルファ個体としてレベルアップした際に発生します。最大10レベルまで存在し、レベルが上がるほど多くのキルが必要になります（ストーカーはゲームエンジンのランクシステムを使用します）。\n判定基準: キル数のしきい値</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alpha_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alpha_enabled_desc">
+    <text>ミュータントが新しいアルファレベルに到達した際、「発生原因: アルファ」を発生させます。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alpha_kills_per_level">
+    <text>レベルアップに必要なキル数</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alpha_kills_per_level_desc">
+    <text>アルファレベルを上げるために必要なキル数を設定します。「2」に設定した場合、2キルでレベル1、20キルでレベル10に到達します。</text>
+  </string>
+  <!-- ==================== CAUSES / ALPHAKILL ==================== -->
+  <string id="ui_mcm_ap_causes_alphakill_tag">
+    <text>発生原因: アルファ討伐\n概要: アルファ個体のミュータントが死亡した際に発生します。\n判定基準: アルファ個体の死亡</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alphakill_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_alphakill_enabled_desc">
+    <text>アルファミュータントが死亡した際、「アルファ討伐」イベントを発生させます。これにより、同種のミュータントが殺害者を追跡するようになります。</text>
+  </string>
+  <!-- ==================== CAUSES / MASSACRE ==================== -->
+  <string id="ui_mcm_ap_causes_massacre_tag">
+    <text>発生原因: 大虐殺\n概要: 特定の地点（スマートテレイン）で死者が続出した際に発生します。\n判定基準: 複数の人間が死亡（拠点以外）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_enabled_desc">
+    <text>エリア内の累計死亡者数をカウントし、設定したしきい値に達した際に「大虐殺」イベントを発生させます。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_threshold">
+    <text>イベント発生に必要な死亡数</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_threshold_desc">
+    <text>「大虐殺」イベントが発生するまでに必要な、エリア内での死亡者数を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_decay_time">
+    <text>カウントの有効時間（秒）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_massacre_decay_time_desc">
+    <text>死者数を蓄積・カウントする時間枠を設定します。この時間を過ぎた古い死者は死者数のカウントから除外されます。</text>
+  </string>
+  <!-- ==================== CAUSES / STASH ==================== -->
+  <string id="ui_mcm_ap_causes_stash_loot_tag">
+    <text>発生原因: スタッシュの略奪\n概要: 分隊が中身のあるスタッシュを発見し、略奪を行った際に発生します。\n判定基準: 視界内、日中、略奪を好む性格、強欲さ・洞察力、スタッシュが空でない、拠点以外の地点、戦術、MVT（最小待機時間）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_stash_ambush_tag">
+    <text>発生原因: スタッシュでの待ち伏せ\n概要: 無法者の分隊が、物資が豊富なスタッシュを見張っている際に発生します。\n判定基準: 視界内、日中、無法者、強欲さ・攻撃性、アイテム数が規定以上、拠点以外の地点、戦術、MVT（最小待機時間）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_stash_fill_tag">
+    <text>発生原因: スタッシュへの補充\n概要: 分隊が空のスタッシュを発見し、物資を補充した際に発生します。\n判定基準: 視界内、日中、全ストーカー、強欲さ・友好度、スタッシュが空、拠点以外の地点、戦術、MVT（最小待機時間）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_enabled_desc">
+    <text>NPCによるスタッシュの略奪イベントが発生するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_enabled_desc">
+    <text>NPCによるスタッシュでの待ち伏せイベントが発生するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_enabled_desc">
+    <text>NPCによるスタッシュへの物資補充イベントが発生するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_threshold">
+    <text>略奪の再判定間隔（MVT）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_threshold_desc">
+    <text>同じ分隊が再び略奪を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_threshold">
+    <text>待ち伏せの再判定間隔（MVT）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_threshold_desc">
+    <text>同じ分隊が再び待ち伏せを試みるまでに必要なゲーム内時間（時間）を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_threshold">
+    <text>補充の再判定間隔（MVT）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_fill_threshold_desc">
+    <text>同じ分隊が再び補充を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_min_items">
+    <text>待ち伏せに必要な最小アイテム数</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_stash_ambush_min_items_desc">
+    <text>無法者がスタッシュを見張る（待ち伏せする）ために必要な、スタッシュ内の最低アイテム数を設定します。この数値を下回る場合は、待ち伏せせずに直接略奪を行います。</text>
+  </string>
+  <!-- ==================== CAUSES / SQUADKILL ==================== -->
+  <string id="ui_mcm_ap_causes_squadkill_tag">
+    <text>発生原因: 分隊全滅\n概要: 人間の分隊が全滅した際に発生します。\n判定基準: 分隊の最後の一人が死亡（拠点以外）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_squadkill_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_squadkill_enabled_desc">
+    <text>分隊の最後のメンバーが死亡した際、「分隊全滅」イベントを発生させます。</text>
+  </string>
+  <!-- ==================== CAUSES / BASEKILL ==================== -->
+  <string id="ui_mcm_ap_causes_basekill_tag">
+    <text>発生原因: 拠点壊滅\n概要: 派閥の拠点で死者が続出した際に発生します。\n判定基準: 複数の人間が死亡（拠点内）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_enabled_desc">
+    <text>派閥拠点の累計死亡者数をカウントし、設定したしきい値に達した際に「拠点壊滅」イベントを発生させます。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_threshold">
+    <text>イベント発生に必要な死亡数</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_threshold_desc">
+    <text>「拠点壊滅」イベントが発生するまでに必要な、拠点での死亡数を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_decay_time">
+    <text>カウントの有効時間（秒）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_basekill_decay_time_desc">
+    <text>拠点での死者数を蓄積・カウントする時間枠を設定します。この時間を過ぎた古い死者は死者数のカウントから除外されます。</text>
+  </string>
+  <!-- ==================== CAUSES / WOUNDED ==================== -->
+  <string id="ui_mcm_ap_causes_wounded_tag">
+    <text>発生原因: 負傷者\n概要: NPCまたはプレイヤーが回復アイテムを使用した際に発生します。\n判定基準: 回復アイテムの使用（拠点以外）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_wounded_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_wounded_enabled_desc">
+    <text>NPCまたはプレイヤーが回復アイテムを使用した際、「負傷者」イベントを発生させます。</text>
+  </string>
+  <!-- ==================== CAUSES / AREA ==================== -->
+  <string id="ui_mcm_ap_causes_area_conquer_tag">
+    <text>発生原因: エリア制圧\n概要: ストーカー分隊が空の重要地点（スマートテレイン）を確保した際に発生します。\n判定基準: 視界内、日中、Ecologist以外の派閥、性格（縄張り意識・攻撃性）、空の地点、拠点以外、戦術、MVT（最小待機時間）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_area_swarm_tag">
+    <text>発生原因: エリア占拠\n概要: ミュータントの群れが空の重要地点を確保した際に発生します。\n判定基準: 視界内、日中、臆病でない個体、性格（縄張り意識・攻撃性）、空の地点、拠点以外、戦術、MVT（最小待機時間）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_area_infest_tag">
+    <text>発生原因: エリア侵食\n概要: ミュータントが巣穴や退避所を確保した際に発生します。\n判定基準: 視界内、日中、臆病でない個体、性格（縄張り意識・生存本能）、種族に適した場所、拠点以外、未侵食、アルファ個体の存在、レベル別上限、戦術、MVT（最小待機時間）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_enabled_desc">
+    <text>ストーカーによるエリア制圧イベントが発生するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_threshold">
+    <text>制圧の再判定間隔（MVT）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_threshold_desc">
+    <text>同じ分隊が再びエリア制圧を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled_desc">
+    <text>ミュータントの大群によるエリア占拠イベントが発生するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_threshold">
+    <text>占拠の再判定間隔（MVT）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_threshold_desc">
+    <text>同じ群れが再びエリア占拠を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_enabled_desc">
+    <text>ミュータントによる巣穴の侵食イベントが発生するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_threshold">
+    <text>侵食の再判定間隔（MVT）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_threshold_desc">
+    <text>同じ個体が再びエリア侵食を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
+  </string>
+  <!-- ==================== CAUSES / HARVEST ==================== -->
+  <string id="ui_mcm_ap_causes_harvest_tag">
+    <text>発生原因: アーティファクト\n概要: NPCまたはプレイヤーがアーティファクトを拾った際に発生します。\n判定基準: アーティファクトの取得</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_harvest_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_reactions_cause_harvest_enabled_desc">
+    <text>アーティファクトが拾われた際、「アーティファクト」イベントを発生させます。</text>
+  </string>
+  <!-- ==================== CAUSES / NEEDS ==================== -->
+  <string id="ui_mcm_ap_causes_needs_title">
+    <text>欲求</text>
+  </string>
+  <!-- Per-cause tags (14 sub-causes) -->
+  <string id="ui_mcm_ap_causes_needs_hunger_campfire_tag">
+    <text>発生原因: 空腹（焚き火）\n概要: 空腹状態の分隊が食事を摂るために焚き火へ向かいます。\n判定基準: 無線範囲内、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_sleep_campfire_tag">
+    <text>発生原因: 睡眠（焚き火）\n概要: 疲労した分隊が就寝のために焚き火へ向かいます。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_rest_campfire_tag">
+    <text>発生原因: 休息（焚き火）\n概要: 疲弊した分隊が休憩のために焚き火に立ち寄ります。\n判定基準: 無線範囲内、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_heal_shelter_tag">
+    <text>発生原因: 治療（退避所）\n概要: 負傷した分隊が治療のためにエミッション退避所を探します。\n判定基準: 無線範囲内、全ストーカー、性格（縄張り意識・生存本能）、エミッション退避所、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_shelter_indoor_tag">
+    <text>発生原因: 屋内退避\n概要: 分隊が屋内のエミッション退避所を確保します。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（縄張り意識・規律）、エミッション退避所、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_shelter_outdoor_tag">
+    <text>発生原因: 野外退避\n概要: 分隊が焚き火の周辺を野外の退避場所として利用します。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（洞察力）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_supply_trader_tag">
+    <text>発生原因: 物資補給（トレーダー）\n概要: 分隊が物資補充のため、トレーダー、医者、または技術者のいる重要地点へ向かいます。\n判定基準: 無線範囲内、日中、全ストーカー、性格（強欲・友好度）、サービスNPC、非敵対状態、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_supply_trader_offmap_tag">
+    <text>発生原因: 物資補給（エリア外）\n概要: 分隊が他マップのトレーダー等の元へ遠征します。「強欲」かつ「縄張り意識」の低い分隊が、交易のためにエリアを跨いで移動するようになります。\n判定基準: 全マップスキャン（自エリア除外）、エリア外バランス上限、エリア外移動者、性格（強欲・縄張り意識の低さ）、サービスNPC、非敵対、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_money_harvest_tag">
+    <text>発生原因: 資金稼ぎ（アーティファクト）\n概要: 分隊がアーティファクトを回収するためにアノマリー地帯へ向かいます。\n判定基準: 無線範囲内、日中、利己的なストーカー、性格（強欲・洞察力）、アノマリー、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_money_hunt_tag">
+    <text>発生原因: 資金稼ぎ（狩猟）\n概要: 分隊がミュータントを狩るために巣穴へ向かいます。\n判定基準: 無線範囲内、日中、博物学的なストーカー、性格（強欲・洞察力）、巣穴、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_job_outpost_tag">
+    <text>発生原因: 任務（監視）\n概要: 分隊が遠方の監視ポストに就き、警戒にあたります。\n判定基準: 無線範囲内、日中、信念を持つストーカー、性格（縄張り意識・規律）、拠点以外、巣穴以外、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_job_explore_tag">
+    <text>発生原因: 任務（探索）\n概要: 分隊が未占拠の重要地点を偵察します。\n判定基準: 無線範囲内、日中、利己的なストーカー、性格（洞察力・縄張り意識）、未占拠地点、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_job_explore_offmap_tag">
+    <text>発生原因: 任務（エリア外探索）\n概要: 分隊が他マップにある未占拠の重要地点を偵察します。平和的かつ好奇心の強い勢力が、隣接するエリアの状況を調査するようになります。\n判定基準: 全マップスキャン（自エリア除外）、エリア外バランス上限、エリア外移動者、性格（洞察力・攻撃性の低さ）、未占拠の地点、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_job_research_tag">
+    <text>発生原因: 任務（調査）\n概要: Ecologistの分隊がアノマリー地帯でサンプルを採取します。\n判定基準: 無線範囲内、日中、Ecologist、性格（洞察力・規律）、アノマリー、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_social_campfire_tag">
+    <text>発生原因: 交流（焚き火）\n概要: 分隊が焚き火に集まり、酒を酌み交わして交流します。\n判定基準: 無線範囲内、全ストーカー、性格（友好度）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_social_base_tag">
+    <text>発生原因: 交流（拠点）\n概要: 分隊が休息のために拠点へ戻ります。\n判定基準: 無線範囲内、信念を持つストーカー、性格（友好度・縄張り意識）、拠点、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold">
+    <text>空腹イベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold_desc">
+    <text>[ゲーム内時間]\n空腹イベントが発生する間隔を設定します。デフォルト値の「8」は、1日3食のペースに相当します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold">
+    <text>睡眠イベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold_desc">
+    <text>[ゲーム内時間]\n睡眠イベントが発生する間隔を設定します。このイベントは夜間（20:00～05:00）にのみ発生します。デフォルト値は「16」です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_rest_threshold">
+    <text>休息イベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_rest_threshold_desc">
+    <text>[ゲーム内時間]\n喫煙や飲酒、リラックスなどの休息イベントが発生する間隔を設定します。デフォルト値は「4」です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_heal_threshold">
+    <text>治療イベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_heal_threshold_desc">
+    <text>[ゲーム内時間]\n治療イベントが発生する間隔を設定します。デフォルト値は「12」です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold">
+    <text>避難イベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold_desc">
+    <text>[ゲーム内時間]\n避難イベントが発生する間隔を設定します。デフォルト値は「24」です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_threshold">
+    <text>資金稼ぎイベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_threshold_desc">
+    <text>[ゲーム内時間]\n資金稼ぎイベントが発生する間隔を設定します。デフォルト値は「24」です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_threshold">
+    <text>物資補給イベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_threshold_desc">
+    <text>[ゲーム内時間]\nトレーダーへの訪問やスタッシュへのアイテム預け入れなど、補給イベントが発生する間隔を設定します。デフォルト値は「48」です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_threshold">
+    <text>任務イベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_threshold_desc">
+    <text>[ゲーム内時間]\n警備、探索、調査などの任務イベントが発生する間隔を設定します。デフォルト値は「18」です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_threshold">
+    <text>交流イベントの発生間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_threshold_desc">
+    <text>[ゲーム内時間]\n焚き火の周りに集まったり、拠点を訪問したりする交流イベントが発生する間隔を設定します。デフォルト値は「36」です。</text>
+  </string>
+  <!-- Per-cause enable labels (uniform "Enabled") -->
+  <string id="ui_mcm_ap_causes_needs_cause_hunger_campfire_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_hunger_campfire_enabled_desc">
+    <text>空腹になったNPCが焚き火へ向かうイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_sleep_campfire_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_sleep_campfire_enabled_desc">
+    <text>休息が必要なNPCが焚き火で眠るイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_rest_campfire_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_rest_campfire_enabled_desc">
+    <text>疲弊したNPCが焚き火で休憩するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_heal_shelter_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_heal_shelter_enabled_desc">
+    <text>負傷したNPCが治療のために退避所を探すイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_indoor_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_indoor_enabled_desc">
+    <text>NPCが屋内の退避所を確保するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_outdoor_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_shelter_outdoor_enabled_desc">
+    <text>NPCが焚き火の周辺を野外退避所として利用するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_trader_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_trader_enabled_desc">
+    <text>NPCが物資補給のためにトレーダーを訪ねるイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_harvest_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_harvest_enabled_desc">
+    <text>NPCが資金稼ぎのためにアーティファクトを採取するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_hunt_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_money_hunt_enabled_desc">
+    <text>NPCが資金稼ぎのためにミュータントを狩るイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_outpost_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_outpost_enabled_desc">
+    <text>NPCが監視ポストに就いて警戒任務にあたるイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_explore_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_explore_enabled_desc">
+    <text>NPCが未占拠の地点を偵察・探索するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_research_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_research_enabled_desc">
+    <text>Ecologistがアノマリーの調査任務を行うイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_campfire_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_campfire_enabled_desc">
+    <text>NPCが焚き火に集まって交流するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_base_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_base_enabled_desc">
+    <text>NPCが休息や交流のために拠点へ戻るイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_trader_offmap_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_supply_trader_offmap_enabled_desc">
+    <text>NPCが物資を求めて他マップのトレーダーを訪問するようになります。主に「強欲」かつ「縄張り意識」の低い分隊が、遠方のエリアまで交易に出向くようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_explore_offmap_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_job_explore_offmap_enabled_desc">
+    <text>NPCが勢力拡大や調査のために、他マップへ探索に向かうようになります。平和的で好奇心の強い勢力が、隣接エリアの重要地点を偵察する確率が上がります。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / ALPHA PROMOTE ==================== -->
+  <string id="ui_mcm_ap_consequences_alpha_promote_title">
+    <text>アルファ: 昇格</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_tag">
+    <text>概要: 新たなアルファ個体を登録、または既存個体のレベルを上昇させます。\n原因: アルファ\n判定基準: ミュータント、キル数のしきい値</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_enabled_desc">
+    <text>レベルアップしたミュータントが「アルファ」個体として登録されるようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_max_alphas">
+    <text>アルファの最大数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alpha_promote_consequence_alpha_promote_max_alphas_desc">
+    <text>ゾーン全体に存在できるアルファミュータントの最大数を設定します。上限に達すると新たなアルファ個体の発生は制限されますが、ミュータントのレベルアップ自体は妨げられません。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / ALPHAKILL TARGETED ==================== -->
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_title">
+    <text>アルファ討伐: 追跡</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_tag">
+    <text>概要: アルファ個体を殺害した者に対し、同種のミュータントが群れを成して追跡・襲撃を開始します。\n原因: アルファ討伐\n判定基準: 嗅覚範囲内、同種、性格（攻撃性）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_enabled_desc">
+    <text>マップ内にいる同種のミュータントが、アルファを討伐した者を追跡して報復するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads_desc">
+    <text>討伐者を追跡するミュータントの群れの最大数を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases">
+    <text>追跡者ごとの最大追跡回数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases_desc">
+    <text>獲物を見失った際、再び追跡を開始する最大回数です。0にすると一度振り切れば追ってきません。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MASSACRE SCAVENGE ==================== -->
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_title">
+    <text>大虐殺: 死体漁り</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_tag">
+    <text>概要: 臆病な性質を持つミュータントが、死臭に誘われて大虐殺の現場に集まり、死体を漁り始めます。\n原因: 大虐殺\n判定基準: 嗅覚範囲内、臆病なミュータント、性格（生存本能・洞察力）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_enabled_desc">
+    <text>無法者や臆病種のミュータントが虐殺現場に集まり、アイテムや死体を漁るようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_scavenge_consequence_massacre_scavenge_max_squads_desc">
+    <text>虐殺現場へ向かう分隊・群れの最大数を設定します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MASSACRE INVESTIGATE ==================== -->
+  <string id="ui_mcm_ap_consequences_massacre_investigate_title">
+    <text>大虐殺: 調査</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_tag">
+    <text>概要: 仲間を殺害された派閥のストーカーが、状況確認や遺品回収のために虐殺現場へと向かいます。\n原因: 大虐殺\n判定基準: 無線範囲内、Renegade以外の派閥、性格（洞察力・友好度）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled_desc">
+    <text>ストーカーの派閥が仲間の大量死を察知し、現場の調査を行うようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_max_squads_desc">
+    <text>虐殺現場を調査する派閥分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MASSACRE LOOT ==================== -->
+  <string id="ui_mcm_ap_consequences_massacre_loot_title">
+    <text>大虐殺\n略奪</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_tag">
+    <text>概要: 無法者のストーカーが、大虐殺の現場に現れて死体から装備や所持品を剥ぎ取ります。\n原因: 大虐殺\n判定基準: 無線範囲内、無法者、性格（強欲・洞察力）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_enabled_desc">
+    <text>無法者が大虐殺の現場へ向かい、死体から略奪を行うイベントを許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_max_squads_desc">
+    <text>1回の大虐殺イベントに対して、略奪に向かう無法者分隊の最大数を設定します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / STASH AMBUSH ==================== -->
+  <string id="ui_mcm_ap_consequences_stash_ambush_title">
+    <text>スタッシュ: 待ち伏せ</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_tag">
+    <text>概要: 分隊がスタッシュに到着し、そこを漁りに来る者を排除するために潜伏・待機します。\n原因: スタッシュでの待ち伏せ</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_enabled_desc">
+    <text>Banditなどの無法者が発見したスタッシュ周辺に潜み、近づく者を待ち伏せするようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_ambush_consequence_stash_ambush_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / STASH LOOT ==================== -->
+  <string id="ui_mcm_ap_consequences_stash_loot_title">
+    <text>スタッシュ: 略奪</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_tag">
+    <text>概要: 分隊が特定のアイテム（PDA、医療キット、包帯、薬類、グレネードなど）を優先的に回収し、それ以外を整理・破棄します。クラフト用アイテムが含まれるスタッシュは、プレイヤーの資源を保護するために略奪の対象から除外されます。\n原因: スタッシュの略奪</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled_desc">
+    <text>略奪者が、プレイヤーよりも先にスタッシュの中身を奪おうと急行するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_min_items">
+    <text>最小回収アイテム数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_min_items_desc">
+    <text>分隊がスタッシュから回収するアイテムの最小数を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_max_items">
+    <text>最大回収アイテム数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_max_items_desc">
+    <text>分隊がスタッシュから回収するアイテムの最大数を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting">
+    <text>クラフト素材を含むスタッシュを保護する</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting_desc">
+    <text>スタッシュにクラフト関連アイテム（ツール、キット、武器パーツ、アップグレード品など）が1つでも含まれている場合、そのスタッシュには一切手を付けず、中身を完全に保護します。無効にすると、中身に関わらずあらゆるスタッシュが略奪の対象になります。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / STASH FILL ==================== -->
+  <string id="ui_mcm_ap_consequences_stash_fill_title">
+    <text>スタッシュ: 補充</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_tag">
+    <text>概要: 分隊が余剰の特定アイテム（PDA、医療キット、包帯、薬類、グレネードなど）をスタッシュに蓄えるようになります。\n原因: スタッシュへの補充</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled_desc">
+    <text>ストーカーが、発見したスタッシュに物資を隠すようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_min_items">
+    <text>最小アイテム数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_min_items_desc">
+    <text>NPCがスタッシュに隠すアイテムの最小数を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_max_items">
+    <text>最大アイテム数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_max_items_desc">
+    <text>NPCがスタッシュに隠すアイテムの最大数を設定します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SQUADKILL REVENGE ==================== -->
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_title">
+    <text>分隊全滅: 復讐</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_tag">
+    <text>概要: 仲間を殺害された派閥の分隊が、犯人を特定し報復のために追跡を開始します。\n原因: 分隊全滅\n判定基準: 無線範囲内、無法者または非道なストーカー、性格（攻撃性・友好度）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled_desc">
+    <text>分隊が全滅した際、近くにいる味方の分隊が殺害者を追跡して復讐するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads_desc">
+    <text>殺害者を追跡する復讐分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases">
+    <text>復讐者ごとの最大追跡回数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases_desc">
+    <text>復讐者が、逃げる殺害者を執拗に追跡する最大回数を設定します。「0」に設定すると追跡が無効になります。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / BASEKILL SUPPORT ==================== -->
+  <string id="ui_mcm_ap_consequences_basekill_support_title">
+    <text>拠点壊滅: 増援</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_tag">
+    <text>概要: 攻撃を受けている拠点を守るため、同派閥の分隊が救援に急行します。\n原因: 拠点壊滅\n判定基準: 無線範囲内、Renegade以外の派閥、性格（規律・友好度）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled_desc">
+    <text>攻撃を受けている拠点に対し、近くの味方分隊が増援として急行するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_max_squads_desc">
+    <text>拠点を防衛するために派遣される増援分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / BASEKILL FLEE ==================== -->
+  <string id="ui_mcm_ap_consequences_basekill_flee_title">
+    <text>拠点壊滅: 逃亡</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_tag">
+    <text>概要: 拠点の陥落を察知した周辺の分隊が、安全を確保するために遠方の友好的な拠点へと撤退します。\n原因: 拠点壊滅\n判定基準: 視界内、信念を持たないストーカー、性格（規律の欠如・縄張り意識の低さ）、同エリア内に拠点が存在</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled_desc">
+    <text>激しい攻撃を受けている拠点を放棄し、分隊が安全な場所へ撤退するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_max_squads_desc">
+    <text>1回のイベントで拠点から逃亡する分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / WOUNDED HUNT ==================== -->
+  <string id="ui_mcm_ap_consequences_wounded_hunt_title">
+    <text>負傷者: 狩り</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_tag">
+    <text>概要: 血の匂いや弱った気配を察知した捕食者や変異種が、負傷者のもとへ集まってきます。\n原因: 負傷者\n判定基準: 無線範囲内、捕食種または変異種、性格（攻撃性・洞察力）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_enabled_desc">
+    <text>捕食種や変異種のミュータントが、負傷者を積極的に狩るようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_hunt_consequence_wounded_hunt_max_squads_desc">
+    <text>負傷者の血の匂いに引き寄せられるミュータント分隊の最大数を設定します。実際の出現数は、1からこの設定値の間でランダムに決定されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / WOUNDED FACTION HELP ==================== -->
+  <string id="ui_mcm_ap_consequences_wounded_help_title">
+    <text>負傷者: 救助</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_tag">
+    <text>概要: 負傷した仲間の要請を受け、同派閥の衛生兵やストーカーが救護のために駆けつけます。\n原因: 負傷者\n判定基準: 無線範囲内、無法者以外の派閥、性格（友好度・規律）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled_desc">
+    <text>同じ派閥のメンバーが負傷した仲間の救助に駆けつけるようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_max_squads_desc">
+    <text>1回のイベントで派遣される救助分隊の最大数を設定します。実際の派遣数は、1からこの設定値の間でランダムに決定されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / AREA CONQUER ==================== -->
+  <string id="ui_mcm_ap_consequences_area_conquer_title">
+    <text>エリア: 制圧</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_tag">
+    <text>概要: ストーカー分隊が重要地点に到着して確保し、その場所のスポーン権益を自身の派閥に書き換えます。\n原因: エリア制圧</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled_desc">
+    <text>人間の分隊が空いているエリアを確保するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / AREA SWARM ==================== -->
+  <string id="ui_mcm_ap_consequences_area_swarm_title">
+    <text>エリア\n占拠</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_tag">
+    <text>概要: ミュータントの群れが重要地点に到着して占拠し、その場所のスポーン権益を自身の種族に書き換えます。\n原因: エリア占拠</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_enabled_desc">
+    <text>ミュータントが空いているエリアを占拠するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / HARVEST ROB ==================== -->
+  <string id="ui_mcm_ap_consequences_harvest_rob_title">
+    <text>アーティファクト: 強奪</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_tag">
+    <text>概要: アーティファクトを手に入れた者を標的とし、強欲な無法者たちがその品を奪うべく追跡を開始します。\n原因: アーティファクト\n判定基準: 無線範囲内、無法者、性格（強欲・攻撃性）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled_desc">
+    <text>無法者がアーティファクトの取得者を追跡し、強奪を狙うようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads_desc">
+    <text>アーティファクトの取得者を追跡する分隊の最大数を設定します。実際の追跡数は、1からこの設定値の間でランダムに決定されます。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases">
+    <text>追跡者ごとの最大追跡回数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases_desc">
+    <text>逃げる取得者に対して、追跡分隊が追いかけ続ける最大回数を設定します。0に設定すると、追跡行動そのものが無効化されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / HARVEST HAUNT ==================== -->
+  <string id="ui_mcm_ap_consequences_harvest_haunt_title">
+    <text>アーティファクト: 襲撃</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_tag">
+    <text>概要: アーティファクトが持ち去られたことに反応し、付近に潜んでいた変異種が採取現場へと集まってきます。\n原因: アーティファクト\n判定基準: 嗅覚範囲内、変異種、性格（洞察力・縄張り意識）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled_desc">
+    <text>変異種のミュータントがアーティファクトの取得地点に集結するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_max_squads">
+    <text>イベントごとの最大分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_max_squads_desc">
+    <text>取得地点に集結する変異種のミュータントの群れの最大数を設定します。実際の集結数は、1からこの設定値の間でランダムに決定されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / HUNGER CAMPFIRE ==================== -->
+  <string id="ui_mcm_ap_consequences_hunger_campfire_title">
+    <text>空腹: 焚き火</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_tag">
+    <text>概要: 空腹を満たすため、分隊が最寄りの焚き火へと移動します。\n原因: 空腹（焚き火）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_enabled_desc">
+    <text>空腹のストーカーが食事をとるために焚き火を探すようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_arrive_action_enabled">
+    <text>到着時のアクション</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_arrive_action_enabled_desc">
+    <text>目的地に到着したNPCが、インベントリからパンやソーセージ、缶詰、ウォッカ、ビールなどの食料を実際に消費するようになります。消費されたアイテムはインベントリから削除されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SLEEP CAMPFIRE ==================== -->
+  <string id="ui_mcm_ap_consequences_sleep_campfire_title">
+    <text>睡眠: 焚き火</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_tag">
+    <text>概要: 休息をとるため、分隊が最寄りの焚き火へと移動します。\n原因: 睡眠（焚き火）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled_desc">
+    <text>疲労したストーカーが夜間に睡眠をとるため、焚き火を探すようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / REST CAMPFIRE ==================== -->
+  <string id="ui_mcm_ap_consequences_rest_campfire_title">
+    <text>休息: 焚き火</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_tag">
+    <text>概要: 体を休めるため、分隊が最寄りの焚き火へと移動します。\n原因: 休息（焚き火）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_enabled_desc">
+    <text>疲労したストーカーが休息をとるために焚き火を探すようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_arrive_action_enabled">
+    <text>到着時のアクション</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_arrive_action_enabled_desc">
+    <text>目的地に到着したNPCが、インベントリからタバコやウォッカ、ビールを実際に消費するようになります。消費されたアイテムはインベントリから削除されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / HEAL SHELTER ==================== -->
+  <string id="ui_mcm_ap_consequences_heal_shelter_title">
+    <text>治療: 退避</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_tag">
+    <text>概要: 負傷を癒やすため、分隊が安全な退避所へと移動します。\n原因: 治療（退避所）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled_desc">
+    <text>負傷したストーカーが治療のために屋内の場所を探すようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_arrive_action_enabled">
+    <text>到着時のアクション</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_arrive_action_enabled_desc">
+    <text>目的地に到着したNPCが、インベントリから救急箱や包帯、スティムパックを実際に使用するようになります。使用されたアイテムはインベントリから削除されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SHELTER ==================== -->
+  <string id="ui_mcm_ap_consequences_shelter_indoor_title">
+    <text>避難: 屋内</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_tag">
+    <text>概要: エミッションから身を守るため、分隊が屋内の退避所へと移動します。\n原因: 屋内退避</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled_desc">
+    <text>屋外にいるストーカーがエミッションをやり過ごすための避難場所を探すようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SHELTER OUTDOOR ==================== -->
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_title">
+    <text>避難: 屋外</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_tag">
+    <text>概要: エミッションをやり過ごすため、分隊が焚き火などの野外の避難ポイントへと移動します。\n原因: 野外退避</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled_desc">
+    <text>近くにエミッションの避難場所がない場合、屋外にいるストーカーが焚き火を探すようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MONEY HARVEST ==================== -->
+  <string id="ui_mcm_ap_consequences_money_harvest_title">
+    <text>資金稼ぎ: アーティファクト</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_tag">
+    <text>概要: アーティファクトを回収して資金を得るため、分隊がアノマリー地帯へと向かいます。\n原因: 資金稼ぎ（アーティファクト）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled_desc">
+    <text>資金が必要になったストーカーがアノマリー領域を探すようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / MONEY HUNT ==================== -->
+  <string id="ui_mcm_ap_consequences_money_hunt_title">
+    <text>資金稼ぎ: ミュータント狩り</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_tag">
+    <text>概要: 戦利品や素材を得るため、分隊がミュータントの巣穴へと狩りに出向きます。\n原因: 資金稼ぎ（狩猟）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_enabled_desc">
+    <text>資金が必要になったストーカーがミュータントを狩るようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_money_hunt_consequence_money_hunt_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SUPPLY TRADER ==================== -->
+  <string id="ui_mcm_ap_consequences_supply_trader_title">
+    <text>物資補給: トレーダー</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_tag">
+    <text>概要: 分隊がトレーダーを訪れ、戦利品を売却して資金を得ます。その後、装備している銃の弾薬や必需品（PDA、医療キット、包帯、薬類、グレネードなど）を買い足して補充します。\n原因: 補給（トレーダー）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled_desc">
+    <text>物資が必要になったストーカーがトレーダーのもとを訪れるようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled">
+    <text>到着時のアクション</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled_desc">
+    <text>目的地での詳細な売買処理をシミュレートします。売却フェーズでは、装備中の武器、タスク用アイテム、現金、および一部の消耗品を除き、不要なアイテム（スロット外の予備の銃など）をすべて売却します。その後の購入フェーズで、装備している銃に対応する弾薬や消耗品を買い足し、インベントリを最適化します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_cash_cap">
+    <text>NPCの所持金上限 (RU)</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_cash_cap_desc">
+    <text>一連の取引完了後に、NPCが持ち出せる現金の最大値を設定します。この値を超えた余剰金はトレーダーへ送金され、個々のNPCが過剰な現金を持ち歩き続けないように制御されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SUPPLY TRADER OFF-MAP ==================== -->
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_title">
+    <text>物資補給（エリア外）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_tag">
+    <text>概要: 分隊が他マップの拠点に向かい、物資を補充します。\n原因: 物資補給（エリア外）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_enabled_desc">
+    <text>現在のマップ内に利用可能なトレーダーがいない場合、ストーカーが物資補充のために他マップの拠点へと遠征するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_arrive_action_enabled">
+    <text>到着時のアクション</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_arrive_action_enabled_desc">
+    <text>エリア外の目的地に到着した際、NPCがアイテムの整理と補充を実際に行います。売却フェーズでは、現在装備中の武器やその弾薬、タスク用アイテム、必需品（医療キット、包帯など）を除いた不要なアイテム（スロット外の予備武器など）をすべて売却します。その後、装備している銃の弾薬や消耗品を買い足し、戦力状態を最適化します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB OUTPOST ==================== -->
+  <string id="ui_mcm_ap_consequences_job_outpost_title">
+    <text>任務: 警備</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_tag">
+    <text>概要: 警戒・防衛任務を遂行するため、分隊が指定の監視ポストへと移動します。\n原因: 任務（監視）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled_desc">
+    <text>ストーカーが前哨基地や検問所の警備に向かうようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_arrive_action_enabled">
+    <text>到着時のアクション</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_arrive_action_enabled_desc">
+    <text>目的地に到着したNPCが、警備中にインベントリ内のタバコを吸うようになります。この際、アイテムは実際に消費されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB EXPLORE ==================== -->
+  <string id="ui_mcm_ap_consequences_job_explore_title">
+    <text>任務: 探索</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_tag">
+    <text>概要: 勢力圏を広げるための偵察として、分隊が未占拠のエリアへと向かいます。\n原因: 任務（探索）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled_desc">
+    <text>ストーカーが未知のエリアの探索に向かうようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB EXPLORE OFF-MAP ==================== -->
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_title">
+    <text>任務: 探索（エリア外）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_tag">
+    <text>概要: 分隊が他マップにある未占拠の地点へ向かい、偵察を行います。\n原因: 任務（エリア外探索）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_enabled_desc">
+    <text>現在のマップ内に未占拠の地点が存在しない場合、ストーカーが勢力拡大を求めて他マップへと遠征するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB RESEARCH ==================== -->
+  <string id="ui_mcm_ap_consequences_job_research_title">
+    <text>任務: 調査</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_tag">
+    <text>概要: 学術的なデータを収集するため、Ecologistの分隊がアノマリー地帯へと向かいます。\n原因: 任務（調査）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled_desc">
+    <text>ストーカーがアノマリー領域の調査に向かうようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / JOB RESEARCH OFF-MAP ==================== -->
+  <!-- ==================== CONSEQUENCES / SOCIAL CAMPFIRE ==================== -->
+  <string id="ui_mcm_ap_consequences_social_campfire_title">
+    <text>交流: 焚き火</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_tag">
+    <text>概要: 仲間との親睦を深めるため、分隊が焚き火を囲んで休息をとります。\n原因: 交流（焚き火）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_enabled_desc">
+    <text>孤独なストーカーが、焚き火での交流を求めて移動するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_arrive_action_enabled">
+    <text>到着時のアクション</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_arrive_action_enabled_desc">
+    <text>目的地に到着したNPCが、焚き火の周りでインベントリ内のタバコや飲み物を消費してくつろぐようになります。この際、アイテムは実際に消費されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / SOCIAL BASE ==================== -->
+  <string id="ui_mcm_ap_consequences_social_base_title">
+    <text>交流: 拠点</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_tag">
+    <text>概要: 安全な場所で休息し交流するため、分隊が派閥の拠点へと帰還します。\n原因: 交流（拠点）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_enabled_desc">
+    <text>孤独なストーカーが、仲間を求めて拠点へ帰還するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_arrive_action_enabled">
+    <text>到着時のアクション</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_arrive_action_enabled_desc">
+    <text>目的地に到着したNPCが、拠点でインベントリ内のタバコや飲み物を消費してくつろぐようになります。この際、アイテムは実際に消費されます。</text>
+  </string>
+  <!-- ==================== MUTATORS / AREA CONQUEST ==================== -->
+  <string id="ui_mcm_ap_mutators_conquest_title">
+    <text>エリア制圧の設定</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_desc">
+    <text>ストーカーによるエリア制圧時のスポーン挙動を調整します。制圧された重要地点（スマートテレイン）には、元のスポーン設定に加えて制圧した派閥専用のスポーン枠が追加されます。制圧した派閥と元の住人の分隊は、同じ人口枠をめぐって競合します。無効にすると、スポーン設定は変更せず、分隊の移動（area_conquer）のみを維持します。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_mutate_smart">
+    <text>スポーン設定の上書きを有効化</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_mutate_smart_desc">
+    <text>制圧されたエリアにおいて、制圧した派閥の分隊も出現するように設定を書き換えます。無効にした場合、スポーン傾向は変化せず、分隊の移動のみが行われます。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_max_per_level">
+    <text>マップごとの最大占領地点数</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_max_per_level_desc">
+    <text>[1〜5]\n1つのマップ内で勢力が占領・制圧できる重要地点（スマートテレイン）の最大数を設定します。値を調整することで、勢力の拡張規模をコントロールできます。デフォルトは「3」です。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_spawn_num">
+    <text>追加される分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_spawn_num_desc">
+    <text>制圧したエリアで追加される、その派閥の分隊数を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_decay_hours">
+    <text>制圧状態の持続時間（時間）</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_decay_hours_desc">
+    <text>制圧した派閥のスポーン枠が維持されるゲーム内時間を設定します。時間が経過すると元のスポーン状態に戻ります。「0」に設定すると、制圧状態は永続します。</text>
+  </string>
+  <!-- ==================== MUTATORS / AREA SWARM ==================== -->
+  <string id="ui_mcm_ap_mutators_swarm_title">
+    <text>大発生の設定</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_desc">
+    <text>ミュータントが大発生した際のスポーン挙動を調整します。大発生中の地点（スマートテレイン）には、本来のスポーン設定に加えて、そのミュータント種の専用枠が追加されます。大発生種と本来の住人は、同じ人口スロットを奪い合う形になります。無効にすると、スポーン設定は変更せず、ミュータントの移動挙動のみを維持します。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_mutate_smart">
+    <text>スポーン設定の上書きを有効化</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_mutate_smart_desc">
+    <text>大発生が発生したエリアにおいて、対象のミュータント種が出現するように設定を書き換えます。無効にした場合、スポーン傾向は変化せず、移動挙動のみが適用されます。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_max_per_level">
+    <text>マップごとの最大大発生地点数</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_max_per_level_desc">
+    <text>[1〜5]\n1つのマップ内でミュータントの大発生が発生する地点の最大数を設定します。デフォルトは「3」です。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_spawn_num">
+    <text>追加される分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_spawn_num_desc">
+    <text>大発生中のエリアにおいて、本来の設定に加えて追加されるミュータント分隊の数を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_decay_hours">
+    <text>大発生の持続時間（時間）</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_decay_hours_desc">
+    <text>大発生した種がその地点に出現し続けるゲーム内時間を設定します。時間が経過すると、本来のスポーン状態に戻ります。「0」に設定すると、大発生状態は永続します。</text>
+  </string>
+  <!-- ==================== MUTATORS / AREA INFEST ==================== -->
+  <string id="ui_mcm_ap_mutators_infest_title">
+    <text>エリア侵食の設定</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_desc">
+    <text>ミュータントによるエリア侵食時のスポーン挙動を調整します。侵食された地点では元のスポーン設定が完全に置き換わり、その種族のみが独占的に出現するようになります。マップごとの上限により、各マップで同時に侵食できる重要地点の数が制限されます。無効にすると、スポーン設定は変更せず、分隊の移動（area_infest）のみを維持します。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_mutate_smart">
+    <text>スポーン設定の上書きを有効化</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_mutate_smart_desc">
+    <text>侵食されたエリアのスポーン設定を、そのミュータント種族専用のものに置き換えます。無効にした場合、スポーン傾向は変化せず、分隊の移動のみが行われます。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_max_per_level">
+    <text>マップごとの最大侵食数</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_max_per_level_desc">
+    <text>[1〜5]\n1つのマップ内で同時に侵食状態にできる重要地点の最大数を設定します。デフォルトは「3」です。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_spawn_num">
+    <text>追加される分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_spawn_num_desc">
+    <text>[1〜5]\n侵食された地点から出現する分隊の数を設定します。デフォルトは「3」です。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_decay_hours">
+    <text>侵食状態の持続時間（時間）</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_decay_hours_desc">
+    <text>[0〜168]\n侵食状態が解除されるまでのゲーム内時間を設定します。「0」に設定すると侵食は永続します。</text>
+  </string>
+  <!-- ==================== WORLD TAB ==================== -->
+  <string id="ui_mcm_ap_world_offmap_title">
+    <text>エリア外</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_desc">
+    <text>エリア外への分隊派遣は、バニラのA-Lifeにおける「マップの隣接関係」に基づいて行われます。各分隊は設定された「初期探索距離」を持ち、ストーリーの進行（X-16やブレイン・スコーチャーの停止）や、分隊長がマスターランクであることによって、より遠くのマップまで到達できるようになります。また、48時間あたりの総派遣数はバランス上限によって制限されます。</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_cause_max_offmap">
+    <text>エリア外派遣の上限数</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_cause_max_offmap_desc">
+    <text>特定のマップから48時間以内に派遣される分隊の最大数を設定します（1〜10、推奨: 2）。このカウントは勢力や目的地に関わらず、すべてのエリア外派遣の合計数に適用されます。</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_base_hops">
+    <text>初期の探索可能距離</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_base_hops_desc">
+    <text>ストーリーやランクによるボーナスが適用される前の、初期のマップ移動可能距離を設定します。「0」に設定すると進行状況による解放まで自エリアに留まり、「1」にすると最初から隣接する1つ先のマップまで移動できるようになります（推奨: 0）。</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_x16">
+    <text>X-16停止後の探索距離ボーナス</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_x16_desc">
+    <text>ヤンターのX-16研究所（精神波の放射装置）を停止した後に解放される、追加の探索可能距離を設定します。「0」に設定するとこのボーナスは無効化されます（推奨: 1）。</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_radar">
+    <text>ブレイン・スコーチャー停止後の探索距離ボーナス</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_radar_desc">
+    <text>レーダー施設のブレイン・スコーチャーを停止した後に解放される、追加の探索可能距離を設定します。「0」に設定するとこのボーナスは無効化されます（推奨: 1）。</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_rank">
+    <text>マスターランク分隊長の探索距離ボーナス</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_extra_map_rank_desc">
+    <text>分隊長がマスターランク以上（ランク17499以上）の場合に付与される、追加の探索可能距離を設定します。「0」に設定するとランクによるボーナスは適用されません（推奨: 1）。</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_return_home_hours">
+    <text>帰還までの滞在時間</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_return_home_hours_desc">
+    <text>エリア外の目的地に到着した分隊が、元のマップへ向けて出発するまでの滞在時間を設定します（1～336時間）。デフォルトは72時間（ゲーム内時間で3日間）です。</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_despawn_hours">
+    <text>デスポーンの猶予時間（セーフティ）</text>
+  </string>
+  <string id="ui_mcm_ap_world_offmap_offmap_despawn_hours_desc">
+    <text>エリア外に滞在している分隊が安全のために消滅（デスポーン）するまでの最大時間を設定します。この機能はオフライン状態かつ保護されていない分隊（ストーリー、タスク、コンパニオン、派閥戦争関連以外）にのみ適用されます。デフォルトは168時間（ゲーム内時間で7日間）です。</text>
+  </string>
+  <!-- ==================== DEVELOPMENT TAB ==================== -->
+  <string id="ui_mcm_ap_development_title">
+    <text>開発とツール</text>
+  </string>
+  <string id="ui_mcm_ap_development_btn_reset_all">
+    <text>すべてデフォルトにリセット</text>
+  </string>
+  <string id="ui_mcm_ap_development_btn_reset_all_desc">
+    <text>すべてのAlifePlus設定を初期値に戻します。変更は即座に反映されますが、スライダーの表示を更新するにはMCMを一度閉じてから再度開く必要があります。設定をテストした後や、デフォルト値が調整された新バージョンへアップデートした際に便利です。</text>
+  </string>
+  <string id="ui_mcm_ap_development_desc">
+    <text>デバッグおよび開発用の設定です。ログレベルを「デバッグ」にすると、トレースやパフォーマンス計測、詳細なログ出力が有効になります。また、デバッグマーカーを有効にすると、PDAマップ上に分隊の目的地が表示されます。</text>
+  </string>
+  <string id="ui_mcm_ap_development_log_level">
+    <text>ログレベル</text>
+  </string>
+  <string id="ui_mcm_ap_development_log_level_desc">
+    <text>ログの詳細度とデバッグ機能を設定します。「デバッグ」にすると、OTelスタイルのトレースやパフォーマンス計測、詳細なログ出力が有効になりますが、ゲームのパフォーマンスに影響を与える可能性があります。</text>
+  </string>
+  <string id="ap_development_log_level_lst_error">
+    <text>エラー</text>
+  </string>
+  <string id="ap_development_log_level_lst_warn">
+    <text>警告</text>
+  </string>
+  <string id="ap_development_log_level_lst_info">
+    <text>情報</text>
+  </string>
+  <string id="ap_development_log_level_lst_debug">
+    <text>デバッグ</text>
+  </string>
+  <string id="ui_mcm_ap_development_map_markers">
+    <text>デバッグマーカー</text>
+  </string>
+  <string id="ui_mcm_ap_development_map_markers_desc">
+    <text>PDAマップ上に分隊の目的地マーカーを表示します。これはA-Lifeの移動を追跡するための大まかな位置であり、正確な座標ではありません。設定を適用するには、セーブデータをロードし直してください。</text>
+  </string>
+  <string id="st_ap_teleport_to_squad">
+    <text>分隊にテレポート</text>
+  </string>
+  <string id="ui_mcm_ap_development_statistics_position">
+    <text>統計情報のオーバーレイ</text>
+  </string>
+  <string id="ui_mcm_ap_development_statistics_position_desc">
+    <text>パイプラインの統計情報を画面上に表示し、10秒ごとにログへ書き込みます。表示位置を選択するか、オフに設定できます。オフにすればパフォーマンスへの影響はありません。</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_off">
+    <text>オフ</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_top_left">
+    <text>左上</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_top_right">
+    <text>右上</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_center_left">
+    <text>左中央</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_center_right">
+    <text>右中央</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_bottom_left">
+    <text>左下</text>
+  </string>
+  <string id="ap_development_statistics_position_lst_bottom_right">
+    <text>右下</text>
+  </string>
+  <!-- Cause: Instincts (5 drives + 7 answers, multi-answer drive: slumber splits 3 ways) -->
+  <string id="ui_mcm_ap_causes_instincts_title">
+    <text>生存本能</text>
+  </string>
+  <!-- Per-cause tags (7 sub-causes) -->
+  <string id="ui_mcm_ap_causes_instincts_scatter_tag">
+    <text>原因: 散開行動\n概要: ミュータントが自分より上位の脅威から逃走します。\n判定基準: 嗅覚範囲内、全時間帯、被食者となる種族、性格（生存本能・非攻撃的）、付近に脅威が存在、安全な地点、拠点以外、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_feed_tag">
+    <text>原因: 捕食行動\n概要: ミュータントが餌を求めて狩り場へ向かいます。\n判定基準: 嗅覚範囲内、日中、全ミュータント、性格（生存本能・洞察力）、縄張り内、拠点以外、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_slumber_field_tag">
+    <text>原因: 休息（野外）\n概要: ミュータントが野外の開けた場所で眠ります。\n判定基準: 嗅覚範囲内、夜間、臆病な個体、性格（生存本能）、縄張り内、拠点以外、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_slumber_lair_tag">
+    <text>原因: 休息（巣穴）\n概要: ミュータントが安全な巣穴に戻って休みます。\n判定基準: 嗅覚範囲内、夜間、野生種または捕食種、性格（生存本能）、巣穴、拠点以外、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_slumber_surge_tag">
+    <text>原因: 休息（エミッション）\n概要: ミュータントがアノマリーの脅威から逃れるために退避所へ向かいます。\n判定基準: 嗅覚範囲内、夜間、変異種または捕食種、性格（生存本能）、エミッション退避所、拠点以外、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_roam_tag">
+    <text>原因: 徘徊行動\n概要: ミュータントが新たな縄張りを求めて移動します。\n判定基準: 嗅覚範囲内、日中、変異種以外の個体、性格（洞察力・縄張り意識）、縄張りまたは巣穴、拠点以外、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_pack_tag">
+    <text>原因: 群れ行動\n概要: ミュータントが付近にいる同種の群れに合流します。\n判定基準: 嗅覚範囲内、日中、野生種または捕食種、性格（友好度）、付近に同種が存在、拠点以外、戦術、Hull（判定リミッター）</text>
+  </string>
+  <!-- Per-cause enable labels (uniform "Enabled"; single-answer drives use the drive name as cause name) -->
+  <string id="ui_mcm_ap_causes_instincts_cause_scatter_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_scatter_enabled_desc">
+    <text>ミュータントが上位種から逃走するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_feed_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_feed_enabled_desc">
+    <text>ミュータントが餌場へ向かうイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_roam_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_roam_enabled_desc">
+    <text>ミュータントが新たな場所へ移動するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_pack_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_pack_enabled_desc">
+    <text>ミュータントが同種の群れに合流するイベントの発生を許可します。</text>
+  </string>
+  <!-- Drive thresholds (5; drive-level sliders sit above their cause sections) -->
+  <string id="ui_mcm_ap_causes_instincts_cause_scatter_threshold">
+    <text>散開の再判定間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_scatter_threshold_desc">
+    <text>[ゲーム内時間]\n散開行動の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_feed_threshold">
+    <text>捕食の再判定間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_feed_threshold_desc">
+    <text>[ゲーム内時間]\n捕食行動の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_threshold">
+    <text>休息の再判定間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_threshold_desc">
+    <text>[ゲーム内時間]\n休息行動の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_roam_threshold">
+    <text>徘徊の再判定間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_roam_threshold_desc">
+    <text>[ゲーム内時間]\n徘徊行動の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_pack_threshold">
+    <text>群れ形成の再判定間隔</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_pack_threshold_desc">
+    <text>[ゲーム内時間]\n群れ形成の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+  </string>
+  <!-- Slumber per-answer enables -->
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_field_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_field_enabled_desc">
+    <text>ミュータントが野外で眠るイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_lair_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_lair_enabled_desc">
+    <text>ミュータントが巣穴に戻って眠るイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_surge_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_instincts_cause_slumber_surge_enabled_desc">
+    <text>ミュータントがエミッション退避所で休むイベントの発生を許可します。</text>
+  </string>
+  <!-- Consequence: Scatter -->
+  <string id="ui_mcm_ap_consequences_scatter_title">
+    <text>散開行動</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_tag">
+    <text>概要: 群れが上位の捕食者から逃れるために散り散りになります。\n原因: 散開行動</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_enabled_desc">
+    <text>下位階級のミュータントが、近くにいる上位種から離れた安全なスマートテレイン（拠点や野営地）へ逃げ込むようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_scatter_consequence_scatter_rush_desc">
+    <text>ミュータントが上位種から逃げて散開する際に、全力疾走で移動するようになります。</text>
+  </string>
+  <!-- Consequence: Feed -->
+  <string id="ui_mcm_ap_consequences_feed_title">
+    <text>捕食</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_tag">
+    <text>概要: 群れが餌を求めて狩り場へと向かいます。\n原因: 捕食行動</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_consequence_feed_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_consequence_feed_enabled_desc">
+    <text>ミュータントが、捕食のために開けたエリアへ向かうようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_consequence_feed_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_feed_consequence_feed_rush_desc">
+    <text>ミュータントが狩り場へ向かう際に、全力疾走で移動するようになります。</text>
+  </string>
+  <!-- Consequence: Slumber Field (cowardly mutants in open territory) -->
+  <string id="ui_mcm_ap_consequences_slumber_field_title">
+    <text>休息\n（野外）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_tag">
+    <text>概要: 臆病な性質の群れが、縄張り内の開けた場所で身を丸めて眠ります。\n原因: 休息（野外）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_enabled_desc">
+    <text>臆病なミュータントが野外の開けた地点へ移動して休息するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_field_consequence_slumber_field_rush_desc">
+    <text>有効にすると、休息地点まで全力疾走で移動します。</text>
+  </string>
+  <!-- Consequence: Slumber Lair (feral + predator returning to lair) -->
+  <string id="ui_mcm_ap_consequences_slumber_lair_title">
+    <text>休息\n（巣穴）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_tag">
+    <text>概要: 野生種や捕食者の群れが、安全な巣穴に引きこもって眠ります。\n原因: 休息（巣穴）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_enabled_desc">
+    <text>野生種や捕食者が休息のために巣穴へ戻るようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_lair_consequence_slumber_lair_rush_desc">
+    <text>有効にすると、巣穴まで全力疾走で移動します。</text>
+  </string>
+  <!-- Consequence: Slumber Surge (aberrant + predator overflow into surge shelter) -->
+  <string id="ui_mcm_ap_consequences_slumber_surge_title">
+    <text>休息\n（退避所）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_tag">
+    <text>概要: 捕食種や変異種がエミッションの脅威を避けるため、退避所を確保して休みます。\n原因: 休息（エミッション）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_enabled_desc">
+    <text>変異種や捕食者がエミッション退避所へ移動して休息するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_slumber_surge_consequence_slumber_surge_rush_desc">
+    <text>有効にすると、退避所まで全力疾走で移動します。</text>
+  </string>
+  <!-- Consequence: Roam -->
+  <string id="ui_mcm_ap_consequences_roam_title">
+    <text>徘徊行動</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_tag">
+    <text>概要: 群れが新たな縄張りを求めて、未占拠のエリアを徘徊します。\n原因: 徘徊行動</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_consequence_roam_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_consequence_roam_enabled_desc">
+    <text>ミュータントが探索のために付近の縄張りや巣穴へ移動するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_consequence_roam_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_roam_consequence_roam_rush_desc">
+    <text>有効にすると、探索中に全力疾走で移動します。</text>
+  </string>
+  <!-- Consequence: Pack -->
+  <string id="ui_mcm_ap_consequences_pack_title">
+    <text>群れ行動</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_tag">
+    <text>概要: ミュータントが付近にいる同種の個体と合流し、群れを形成します。\n原因: 群れ行動</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_consequence_pack_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_consequence_pack_enabled_desc">
+    <text>ミュータントが同種の分隊（群れ）に向かって移動するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_consequence_pack_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_pack_consequence_pack_rush_desc">
+    <text>有効にすると、仲間の群れに向かって全力疾走で移動します。</text>
+  </string>
+  <!-- ==================== CONSEQUENCE: AREA INFEST ==================== -->
+  <string id="ui_mcm_ap_consequences_area_infest_title">
+    <text>エリア侵食</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_tag">
+    <text>概要: ミュータントの群れが重要地点に到着して拠点を築き、その場所のスポーン設定を自身の種族専用に書き換えます。\n原因: エリア侵食</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_enabled_desc">
+    <text>ミュータントが重要地点を巣として占拠する「エリア侵食」イベントを許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_rush_desc">
+    <text>有効にすると、イベント対象の分隊は巣を確保するため、ラッシュ速度で移動します。</text>
+  </string>
 </string_table>
