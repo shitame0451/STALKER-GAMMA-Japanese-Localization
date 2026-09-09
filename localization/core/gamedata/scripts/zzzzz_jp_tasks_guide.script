@@ -1,6 +1,64 @@
 -- tasks_guide.script
 
 -- ===================================================================
+--  squad_on_npc_death （護衛対象全滅時のメッセージ）
+--  news_manager.send_tipにフック
+-- ===================================================================
+if tasks_guide
+and tasks_guide.squad_on_npc_death
+and news_manager
+and news_manager.send_tip
+then
+	local original_squad_on_npc_death = tasks_guide.squad_on_npc_death
+	local target_text = "The squad you were escorting has died. You were supposed to protect them. Other Stalkers will notice this."
+
+	tasks_guide.squad_on_npc_death = function(...)
+		local backup_send_tip = news_manager.send_tip
+
+		news_manager.send_tip = function(actor, text, ...)
+			if text == target_text then
+				text = "護衛対象の分隊が全滅し、任務に失敗した。\\nこの件は他のストーカーたちにも知れ渡るだろう。"
+			end
+			return backup_send_tip(actor, text, ...)
+		end
+
+		local ok, result = pcall(original_squad_on_npc_death, ...)
+		news_manager.send_tip = backup_send_tip
+		if not ok then error(result, 0) end
+		return result
+	end
+end
+
+-- ===================================================================
+--  fail_complete_late （タイムオーバー時の失敗セリフ）
+--  news_manager.send_tipにフック
+-- ===================================================================
+if tasks_guide
+and tasks_guide.fail_complete_late
+and news_manager
+and news_manager.send_tip
+then
+	local original_fail_complete_late = tasks_guide.fail_complete_late
+	local target_text = "Seriously? We're still not there yet? Forget it. You're paying me for wasting my time. Bye."
+
+	tasks_guide.fail_complete_late = function(...)
+		local backup_send_tip = news_manager.send_tip
+
+		news_manager.send_tip = function(actor, text, ...)
+			if text == target_text then
+				text = "マジかよ？まだ着かないのか？\\nもういい、時間を無駄にされた分の違約金を払ってもらうぞ。じゃあな。"
+			end
+			return backup_send_tip(actor, text, ...)
+		end
+
+		local ok, result = pcall(original_fail_complete_late, ...)
+		news_manager.send_tip = backup_send_tip
+		if not ok then error(result, 0) end
+		return result
+	end
+end
+
+-- ===================================================================
 --  prepare_follower （先導タスクの開始メッセージ）
 --  string.formatにフック
 -- ===================================================================
@@ -8,11 +66,11 @@ if tasks_guide
 and tasks_guide.prepare_follower
 then
 	local original_prepare_follower = tasks_guide.prepare_follower
-	
+
 	tasks_guide.prepare_follower = function(...)
 		local backup_format = string.format
 		local target_fmt = game.translate_string("st_jg_14")
-	
+
 		string.format = function(fmt, ...)
 			if fmt == target_fmt then
 				local args = {...}
@@ -23,7 +81,7 @@ then
 			end
 			return backup_format(fmt, ...)
 		end
-	
+
 		local ok, result = pcall(original_prepare_follower, ...)
 		string.format = backup_format
 		if not ok then error(result, 0) end
