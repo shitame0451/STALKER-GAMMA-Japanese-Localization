@@ -197,7 +197,7 @@
 		<text>科学の進歩</text>
 	</string>
 	<string id="yan_stalker_sakharov_task_2_text">
-		<text>サハロフ教授が研究資金を調達するため、%sを探してほしいと頼んできた。</text>
+		<text>サハロフ教授が研究資金を調達するため、「%s」アーティファクトを探してほしいと頼んできた。</text>
 	</string>
 	<string id="yan_stalker_sakharov_task_2_about">
 		<text>私の研究を手伝ってくれないかい？君の努力に見合った報酬を用意するよ。</text>
@@ -205,7 +205,7 @@
 	<string id="yan_stalker_sakharov_task_2_fetch_about">
 		<text>我々の研究チームは、もう一歩で大きな発見に手が届きそうな段階にある。
 \nだが、研究資金を維持し、実験を続けていくには素材がどうしても足りないんだ！
-\nどうか、%sを見つけて届けてほしい。
+\nどうか、「%s」アーティファクトを見つけて届けてほしい。
 \nサンプルを採取できなければ、調査の継続も、供給業者への素材提供もままならないのだ。</text>
 	</string>
 	<string id="yan_stalker_sakharov_task_2_fetch_finish">

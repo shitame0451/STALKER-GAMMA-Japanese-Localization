@@ -339,7 +339,7 @@
 		<text>果実の収穫</text>
 	</string>
 	<string id="monolith_eidolon_task_3_text">
-		<text>エイドロンのために%sを手に入れる。</text>
+		<text>エイドロンのために「%s」アーティファクトを手に入れる。</text>
 	</string>
 	<string id="monolith_eidolon_task_3_about">
 		<text>我々はモノリスを守る。そしてモノリスは我々を守る。
@@ -350,7 +350,7 @@
 		<text>我々はモノリスを守る。そしてモノリスは我々を守る。
 \n我々は奉仕し、ゾーンは恵みを与える。見事な果実、それは比類なき輝きに満ちている。
 \n我々に力を与えてくれるものだ。今すぐ行け、その果実を収穫するのだ、兄弟よ。
-\n力を高めるため、%sを収穫するのだ。</text>
+\n力を高めるため、「%s」アーティファクトを収穫するのだ。</text>
 	</string>
 	<string id="monolith_eidolon_task_3_fetch_finish">
 		<text>素晴らしい。なんと素晴らしい。これは目を見張るものがある。
@@ -467,17 +467,17 @@
 
 	<!-- FIND ARTEFACT FOR MONOLITH TASK -->
 	<string id="pri_monolith_monolith_trader_stalker_task_6_name">
-		<text>ラビットのために%sを見つける</text>
+		<text>ラビットのために「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_6_text">
-		<text>%sを見つける。それをラビットに渡せば、儀式の供物として準備してくれるだろう。</text>
+		<text>「%s」アーティファクトを見つける。それをラビットに渡せば、儀式の供物として準備してくれるだろう。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_6_about">
 		<text>我々は供物として捧げるアーティファクトを探さねばならない。
 \nモノリスのために奉仕する意志はあるか？</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_6_fetch_about">
-		<text>%sを見つけろ。
+		<text>「%s」アーティファクトを見つけろ。
 \nそれを持ってくれば、儀式を執り行うことができる。</text>
 	</string>
 	<string id="pri_monolith_monolith_trader_stalker_task_6_fetch_finish">
@@ -588,10 +588,10 @@
 		<text>ありがとう、ストーカー。約束した金だ、受け取ってくれ。</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_name">
-		<text>「ソウル」を見つける</text>
+		<text>「ソウル」アーティファクトを見つける</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_text">
-		<text>グリフィンから、「ソウル」を見つけてくるよう頼まれた。</text>
+		<text>グリフィンから、「ソウル」アーティファクトを見つけてくるよう頼まれた。</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_fetch_about">
 		<text>ここには医者がいない。我々はどうにかして生き延びるしかないんだ。

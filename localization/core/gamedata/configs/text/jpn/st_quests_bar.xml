@@ -384,10 +384,10 @@
 
 	<!-- Barkeep -->
 	<string id="bar_visitors_barman_stalker_trader_task_1_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="bar_visitors_barman_stalker_trader_task_1_text">
-		<text>バーキープはアーティファクトの密輸業のために%sを必要としている。</text>
+		<text>バーキープはアーティファクトの密輸業のために「%s」を必要としている。</text>
 	</string>
 	<string id="bar_visitors_barman_stalker_trader_task_1_about">
 		<text>俺はアーティファクトに興味があってな。座標を教えるから、そいつを持ってきてくれ。
@@ -396,7 +396,7 @@
 	<string id="bar_visitors_barman_stalker_trader_task_1_fetch_about">
 		<text>外部の依頼主に渡すアーティファクトが必要だ･･････ なあに、心配はいらんさ。
 \nそいつらは真面目なタイプの人間だからな。牧師、医者、科学者、そういう連中だ。
-\nとにかく、%sを探してる。協力してくれるか？</text>
+\nとにかく、「%s」アーティファクトを探してる。協力してくれるか？</text>
 	</string>
 	<string id="bar_visitors_barman_stalker_trader_task_1_fetch_finish">
 		<text>よくやった、ストーカー。これが報酬だ。</text>

@@ -3369,7 +3369,7 @@
 <string id="simulation_task_33e_name">
 	<text>信用限度額</text>
 </string>
-<string id="simulation_task_33e_text"><!-- 原文ではBanditsとなっているが、Mercenaryの依頼なのでMercenaryと翻訳 -->
+<string id="simulation_task_33e_text">
 	<text>Mercenaryたちは、長い間借金取りから逃げ回っている債務者を探している。\n\n債権者たちも、ついに我慢の限界に達したという噂だ。</text>
 </string>
 <string id="simulation_task_33e_about">
@@ -5375,7 +5375,7 @@
 		<text>%s入りシチュー</text>
 	</string>
 	<string id="simulation_task_77_text">
-		<text>Renegadeがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
+		<text>Banditがミュータントの肉を使った特別なレシピを作るため、%sを欲しがっている。</text>
 	</string>
 	<string id="simulation_task_77_about">
 		<text>おい、ミュータントの肉を食ったことはあるか？

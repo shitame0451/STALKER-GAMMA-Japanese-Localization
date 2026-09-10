@@ -215,10 +215,10 @@
 
 	<!-- FIND ARTEFACT FOR BEARD TASK -->
 	<string id="zat_a2_stalker_barmen_task_2_name">
-		<text>ベアードのために%sを見つける</text>
+		<text>ベアードのために「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_task_2_text">
-		<text>ベアードは%sというアーティファクトの捜索を依頼している。</text>
+		<text>ベアードは「%s」というアーティファクトの捜索を依頼している。</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_task_2_about">
 		<text>俺はアーティファクトの取引もやってる。
@@ -226,7 +226,7 @@
 \n手に入れたい特別なブツがあるんだ。俺のために取ってきてくれねえか？</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_task_2_fetch_about">
-		<text>%sを探してる。見たことはあるか？
+		<text>「%s」アーティファクトを探してる。見たことはあるか？
 \n見つけてくれたら、それ相応の価格で買い取らせてもらうぜ。約束する。</text>
 	</string>
 	<string id="zat_a2_stalker_barmen_task_2_fetch_finish">

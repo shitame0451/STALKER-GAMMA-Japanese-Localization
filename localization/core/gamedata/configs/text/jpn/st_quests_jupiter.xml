@@ -147,17 +147,17 @@
 	<!-- Loki  (Freedom Honcho) Hunt Artefact Storyline Task -->
 
 	<string id="drx_sl_jup_a6_freedom_leader_task_3_name">
-		<text>ロキのために%sを見つける</text>
+		<text>ロキのために「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_3_text">
-		<text>ロキは部下を守るために%sを必要としている。</text>
+		<text>ロキは部下を守るために「%s」アーティファクトを必要としている。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_3_about">
 		<text>部下の1人を特別な任務に送り出す予定だが、我々の最高のスーツ以上の防護が必要だ。
 \n彼を守るため、強力なアーティファクトを探している。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_3_fetch_about">
-		<text>%sが必要だ。
+		<text>「%s」アーティファクトが必要だ。
 \nそいつを持ってきてくれたら、報酬は弾むと約束するぞ。</text>
 	</string>
 	<string id="drx_sl_jup_a6_freedom_leader_task_3_fetch_finish">
@@ -280,17 +280,17 @@
 		<text>君の護衛のおかげで助かったよ。感謝の印だ。これを受け取ってくれ。</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_2_name">
-		<text>%sを探す</text>
+		<text>「%s」アーティファクトを探す</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_2_text">
-		<text>%sを探してくるよう頼まれた。手に入れたらトゥカレフのところに持っていこう。</text>
+		<text>「%s」アーティファクトを探してくるよう頼まれた。手に入れたらトゥカレフのところに持っていこう。</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_2_about">
 		<text>とあるアーティファクトを探していてね。
 \nもし興味があれば、何が必要なのか教えるのだが。</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_2_fetch_about">
-		<text>私たちが求めているのは%sだ。聞いたことはあるかね？</text>
+		<text>私が求めているのは「%s」アーティファクトだ。聞いたことはあるかね？</text>
 	</string>
 	<string id="jup_b6_scientist_tech_task_2_fetch_finish">
 		<text>素晴らしい！我々が求めていたのはまさにこれだよ。さあ、君への報酬だ。

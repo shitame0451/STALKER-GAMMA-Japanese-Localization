@@ -569,16 +569,16 @@
 	
 	<!-- FIND ARTEFACT FOR STALKER TASK -->
 	<string id="simulation_task_12_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_12_text">
-		<text>仲間のストーカーが%sと引き換えに報酬を提示している。</text>
+		<text>仲間のストーカーが「%s」アーティファクトと引き換えに報酬を提示している。</text>
 	</string>
 	<string id="simulation_task_12_about">
 		<text>アーティファクト狩りは得意か？</text>
 	</string>
 	<string id="simulation_task_12_fetch_about">
-		<text>%sを見つけたら知らせてくれ。
+		<text>「%s」アーティファクトを見つけたら知らせてくれ。
 \nあんたが喜びそうな、かなりいい報酬を用意してある。</text>
 	</string>
 	<string id="simulation_task_12_fetch_finish">
@@ -589,10 +589,10 @@
 	
 	<!-- FIND ARTEFACT FOR MILITARY TASK -->
 	<string id="simulation_task_13_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_13_text">
-		<text>兵士が%sとライフルの交換を持ちかけている。</text>
+		<text>兵士が「%s」アーティファクトとライフルの交換を持ちかけている。</text>
 	</string>
 	<string id="simulation_task_13_about">
 		<text>なあ、ちょっと聞いてくれ。
@@ -600,7 +600,7 @@
 \nだから、土産を持ち帰りたいと思ってる。アーティファクトを持ってきてくれないか？</text>
 	</string>
 	<string id="simulation_task_13_fetch_about">
-		<text>%sが欲しい。
+		<text>「%s」アーティファクトが欲しい。
 \nもし持ってきてくれたら、このライフルをお前にやるよ。</text>
 	</string>
 	<string id="simulation_task_13_fetch_finish">
@@ -1056,7 +1056,7 @@
 		<text>地元の派閥が科学者を悩ませている。研究を行うために、彼らを排除するよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_38_about">
-		<text>重要な研究を行わなければならないエリアがあるんだが、そこに居座ってる連中がいてね。
+		<text>重要な研究を行わなければならないエリアがあるんだが、そこに居座る連中がいてね。
 \n調査に出向くと毎回銃撃してくるんだ。この調査はなんとしても行う必要がある。
 \nストーカー、彼らが移動するように“説得”できないだろうか？</text>
 	</string>
@@ -1516,7 +1516,7 @@
 		<text>戦利品を交換しないか？</text>
 	</string>
 	<string id="simulation_task_53_fetch_about">
-		<text>いい物があるんだが、%sを持ってきたら交換してやるよ！</text>
+		<text>いい物があるぜ。%sを持ってきたら交換してやるよ！</text>
 	</string>
 	<string id="simulation_task_53_fetch_finish">
 		<text>助かるよ、ありがとな！</text>
@@ -1630,18 +1630,18 @@
 	
 	<!-- FIND ARTEFACT FOR ISG TASK -->
 	<string id="simulation_task_60_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_60_text">
-		<text>UNISGのメンバーが%sを探している。</text>
+		<text>UNISGのメンバーが「%s」アーティファクトを探している。</text>
 	</string>
 	<string id="simulation_task_60_about">
 		<text>アーティファクト狩りは得意か？</text>
 	</string>
 	<string id="simulation_task_60_fetch_about">
-		<text>依頼主がアーティファクトの研究をしていて、%sが必要だ。
-\nそして、その回収任務に選ばれた幸運な男は･･････ そう、君だ。
-\n頼む、このアーティファクトを見つけてきてくれ。素敵な報酬を約束しよう。</text>
+		<text>依頼主がアーティファクトの研究をしていて、「%s」が必要だ。
+\nそして、その回収任務に選ばれた幸運な男は･･････ そう、俺だ。
+\n頼む、このアーティファクトを見つけてきてくれ。かなりいい報酬を用意してある。</text>
 	</string>
 	<string id="simulation_task_60_fetch_finish">
 		<text>持ってきてくれたか！どれだけこれを探していたことか。さあ、これが君の報酬だ。</text>
@@ -1754,13 +1754,13 @@
 		<text>獣退治</text>
 	</string>
 	<string id="simulation_task_67_text">
-		<text>夜間に徘徊する危険な化け物の駆除を頼まれた。さらなるストーカーの犠牲者が増える前に探し出さなければならない。</text>
+		<text>夜間に徘徊する危険な獣の排除を手伝うよう頼まれた。さらなるストーカーの犠牲者が増える前に探し出さなければならない。</text>
 	</string>
 	<string id="simulation_task_67_about">
 		<text>聞いてくれ、ストーカー。俺たちは、危険な化け物を始末する任務を受けている。
 \n今夜中に仕留めなければ、ヤツはまた戻ってきて仲間を殺すだろう。
 \nそれだけは、何としても避けなければならない。助けが必要なんだ─力を貸してくれ。
-\n一緒にあの獣を倒そう。どうだ？</text>
+\n一緒にあの獣を討ち倒そう。どうだ？</text>
 	</string>
 	<string id="simulation_task_67_finish">
 		<text>やった･･････ よくやったぞ、友よ。これを受け取ってくれ。
@@ -1769,16 +1769,16 @@
 	
 		<!-- FIND ARTEFACT FOR STALKER TASK -->
 	<string id="simulation_task_68_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_68_text">
-		<text>Clear Skyのメンバーが、%sと引き換えに報酬を提示している。</text>
+		<text>Clear Skyのメンバーが、「%s」アーティファクトと引き換えに報酬を提示している。</text>
 	</string>
 	<string id="simulation_task_68_about">
 		<text>アーティファクト狩りは得意か？</text>
 	</string>
 	<string id="simulation_task_68_fetch_about">
-		<text>%sを見つけたら知らせてくれ。
+		<text>「%s」アーティファクトを見つけたら知らせてくれ。
 \nあんたが気に入りそうな報酬を用意して待ってるからさ。</text>
 	</string>
 	<string id="simulation_task_68_fetch_finish">
@@ -1788,16 +1788,16 @@
 
 	<!-- FIND ARTEFACT FOR STALKER TASK -->
 	<string id="simulation_task_69_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_69_text">
-		<text>Ecologistが%sと引き換えに報酬を提示している。</text>
+		<text>Ecologistが「%s」アーティファクトと引き換えに報酬を提示している。</text>
 	</string>
 	<string id="simulation_task_69_about">
 		<text>アーティファクト狩りは得意か？</text>
 	</string>
 	<string id="simulation_task_69_fetch_about">
-		<text>%sを見つけたらすぐに知らせてくれ。
+		<text>「%s」アーティファクトを見つけたらすぐに知らせてくれ。
 \n良い報酬を用意しておくよ、きっと気に入るはずさ。</text>
 	</string>
 	<string id="simulation_task_69_fetch_finish">
@@ -1807,16 +1807,16 @@
 	
 		<!-- FIND ARTEFACT FOR STALKER TASK -->
 	<string id="simulation_task_70_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_70_text">
-		<text>Freedomが%sと引き換えに報酬を提示している。</text>
+		<text>Freedomが「%s」アーティファクトと引き換えに報酬を提示している。</text>
 	</string>
 	<string id="simulation_task_70_about">
 		<text>アーティファクト狩りは得意か？</text>
 	</string>
 	<string id="simulation_task_70_fetch_about">
-		<text>%sを手に入れたらすぐに教えてくれ。
+		<text>「%s」アーティファクトを手に入れたらすぐに教えてくれ。
 \nお前が満足する報酬を用意して待ってるぜ。</text>
 	</string>
 	<string id="simulation_task_70_fetch_finish">
@@ -1826,16 +1826,16 @@
 	
 		<!-- FIND ARTEFACT FOR STALKER TASK -->
 	<string id="simulation_task_71_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_71_text">
-		<text>Mercenaryが%sと引き換えに報酬を提示している。</text>
+		<text>Mercenaryが「%s」アーティファクトと引き換えに報酬を提示している。</text>
 	</string>
 	<string id="simulation_task_71_about">
 		<text>アーティファクト狩りは得意か？</text>
 	</string>
 	<string id="simulation_task_71_fetch_about">
-		<text>%sを見つけたら教えてくれ。
+		<text>「%s」アーティファクトを見つけたら教えてくれ。
 \n報酬は用意してある。きっと気に入るはずだ。</text>
 	</string>
 	<string id="simulation_task_71_fetch_finish">
@@ -1845,16 +1845,16 @@
 	
 		<!-- FIND ARTEFACT FOR STALKER TASK -->
 	<string id="simulation_task_72_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_72_text">
-		<text>仲間のストーカーが%sと引き換えに報酬を提示している。</text>
+		<text>仲間のストーカーが「%s」アーティファクトと引き換えに報酬を提示している。</text>
 	</string>
 	<string id="simulation_task_72_about">
 		<text>アーティファクト狩りは得意か？</text>
 	</string>
 	<string id="simulation_task_72_fetch_about">
-		<text>%sを見つけたら教えてくれ。
+		<text>「%s」アーティファクトを見つけたら教えてくれ。
 \nあんたが喜びそうな、素晴らしい報酬を用意しとくよ。</text>
 	</string>
 	<string id="simulation_task_72_fetch_finish">
@@ -1864,10 +1864,10 @@
 	
 		<!-- FIND ARTEFACT FOR MILITARY TASK -->
 	<string id="simulation_task_73_name">
-		<text>%sを見つける</text>
+		<text>「%s」アーティファクトを見つける</text>
 	</string>
 	<string id="simulation_task_73_text">
-		<text>兵士が%sとライフルの交換を持ちかけている。</text>
+		<text>兵士が「%s」アーティファクトとライフルの交換を持ちかけている。</text>
 	</string>
 	<string id="simulation_task_73_about">
 		<text>なあ、ちょっと聞いてくれ。
@@ -1875,7 +1875,7 @@
 \nだから、土産を持ち帰りたいと思ってる。アーティファクトを持ってきてくれないか？</text>
 	</string>
 	<string id="simulation_task_73_fetch_about">
-		<text>%sが欲しい。
+		<text>「%s」アーティファクトが欲しい。
 \nもし持ってきてくれたら、このライフルをお前にやるよ。</text>
 	</string>
 	<string id="simulation_task_73_fetch_finish">
@@ -2782,16 +2782,17 @@
 \n連絡は途絶え、こちらからのメッセージにも反応がない。監視が厳しくなったのだろう。
 \nもし彼が疑われているのであれば、証拠を待たずして処分されてしまうかもしれない。
 \n一刻も早く救出する必要がある。位置は把握できているが、敵分隊と一緒にいるようだ。
-\n敵分隊を襲撃し、諜報員を我々の基地まで護衛してくれ。
-\n彼はSVDを所持している、それが目印になるはずだ。分隊を襲撃するとき、
-\n偽装のために彼が撃ち返してくるかもしれない。くれぐれも頭に入れておいてくれ。</text>
+
+\n\n敵分隊を襲撃し、諜報員を我々の基地まで護衛してくれ。
+\n彼はSVDを所持している、それが目印になるはずだ。一つ警告しておく。襲撃する際、
+\n諜報員は正体を隠し通すために撃ち返してくるだろう。それを頭に入れておいてくれ。</text>
 	</string>
 	<string id="spy_task_finish">
 		<text>よくやったぞ、すぐに彼に報告させよう。</text>
 	</string>
 	<string id="spy_task_join">
-		<text>撃つな！俺がスパイだ！撃ち返して悪かったが、
-\n奴らのフリをするためには仕方なかったんだ。さあ、急いで基地に戻ろう。</text>
+		<text>撃つな！俺がスパイだ！撃ち返して悪かった。
+\nだが、あんたがしくじった時に備えてこうするしかなかったんだ。さあ、基地に戻ろう。</text>
 	</string>
 	<string id="spy_task_leave">
 		<text>ここでお別れだ、また会おう！本当に助かったよ。</text>
@@ -2799,8 +2800,8 @@
 
 	<!-- HOSTAGE INTERACTION  TEXT -->
 	<string id="hostage_companion_task_1_start_dialog_1">
-		<text>あ、ありがとう！あと数分遅かったらどうなっていたか･･････
-\nいや、考えたくもない。命の恩人だよ。</text>
+		<text>助かった！あと数分遅かったらどうなっていたか･･････
+\nいや、考えたくもない。命を救ってくれた恩は忘れないよ。</text>
 	</string>
 	<string id="hostage_companion_task_1_actor_reply">
 		<text>ここから逃げたいならついてこい！</text>
@@ -2943,9 +2944,9 @@
 		<text>%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="fetch_drugkit_task_about">
-		<text>毎日治療しなければならない怪我の数を考えると、医薬品を維持するのは大変だ。
-\nいずれ包帯や医療キットが尽きるのではないかと心配している。
-\nそこで、薬品製造ツールを持ってきてもらいたい。きっと役に立つだろう。</text>
+		<text>毎日これだけの負傷者を治療していると、医療物資を維持するのは難しい。
+\n遅かれ早かれ、包帯と医療キットが底を突くんじゃないかと心配している。
+\nそこで、薬品製造ツールを持ってきてもらいたい。今後、必ず役立つだろう。</text>
 	</string>
 	<string id="fetch_drugkit_task_fetch_about">
 		<text>今すぐ%sが必要だ。

@@ -53,16 +53,16 @@
 	<!-- Cold (Clear Sky Honcho) Find Artefact Storyline Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_name">
-		<text>コールドのために%sを探す</text>
+		<text>コールドのために「%s」アーティファクトを探す</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_text">
-		<text>コールドは%sを必要としている。</text>
+		<text>コールドは「%s」アーティファクトを必要としている。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_about">
 		<text>ストーカー、あるアーティファクトを持ってきてもらいたい。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_fetch_about">
-		<text>%sを探してきてくれ。研究に必要でな。
+		<text>「%s」アーティファクトを探してきてくれ。研究に必要でな。
 \nこいつには、まだ解明されていない特性があるはずだ。</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_fetch_finish">
@@ -263,7 +263,7 @@
 		<text>科学の進歩</text>
 	</string>
 	<string id="mar_smart_terrain_base_doctor_task_2_text">
-		<text>カランチャ教授のために%sを見つける。</text>
+		<text>カランチャ教授のために「%s」アーティファクトを見つける。</text>
 	</string>
 	<string id="mar_smart_terrain_base_doctor_task_2_about">
 		<text>アーティファクトは、私たちの研究にとって極めて貴重な情報源だ。
@@ -273,7 +273,7 @@
 	<string id="mar_smart_terrain_base_doctor_task_2_fetch_about">
 		<text>アーティファクトは、私たちの研究にとって極めて貴重な情報源だ。
 \nだが、外は危険が多すぎて、隊員たちを採取に送り出す余裕がないのが現状でね。
-\nそこで、手を貸してもらえないだろうか？%sを見つけてくれ。</text>
+\nそこで、手を貸してもらえないだろうか？「%s」を見つけてくれ。</text>
 	</string>
 	<string id="mar_smart_terrain_base_doctor_task_2_fetch_finish">
 		<text>長年研究していても、アーティファクトにはいつも驚かされる。

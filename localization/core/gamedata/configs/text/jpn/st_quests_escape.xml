@@ -488,7 +488,7 @@
 		<text>トレーニング: ファナティックと話す</text>
 	</string>
 	<string id="task_fanat_training_1_9">
-		<text>トレーニング: 「ジェリーフィッシュ」を入手する</text>
+		<text>トレーニング: 「ジェリーフィッシュ」アーティファクトを入手する</text>
 	</string>
 	<string id="task_fanat_training_1_6">
 		<text>トレーニング: 村に戻る</text>
@@ -500,7 +500,7 @@
 		<text>トレーニング: ファナティックと話す</text>
 	</string>
 	<string id="task_fanat_training_1_10">
-		<text>トレーニング: 「ジェリーフィッシュ」を鉛の容器に入れる</text>
+		<text>トレーニング: 「ジェリーフィッシュ」アーティファクトを鉛の容器に入れる</text>
 	</string>
 	<string id="task_fanat_training_1_descr">
 		<text>ファナティックは経験豊富なストーカーだ。彼から、ゾーンを生き抜く術をいくつか教わることになった。</text>
@@ -545,10 +545,10 @@
 \nここにあんたへの報酬がある。みんなが少しずつ出し合ったものだ。</text>
 	</string>
 	<string id="esc_2_12_stalker_fanat_task_2_name">
-		<text>ファナティックのために「バッテリー」を見つける</text>
+		<text>ファナティックのために「バッテリー」アーティファクトを見つける</text>
 	</string>
 	<string id="esc_2_12_stalker_fanat_task_2_text">
-		<text>ファナティックは、旧友たちがゾーンから抜け出すため「バッテリー」を必要としている。</text>
+		<text>ファナティックは、旧友たちがゾーンから抜け出すため「バッテリー」アーティファクトを必要としている。</text>
 	</string>
 	<string id="esc_2_12_stalker_fanat_task_2_fetch_about">
 		<text>話を聞いてくれ。この村を兵士から守るためには汚れ仕事が必要だ。シドロヴィッチは

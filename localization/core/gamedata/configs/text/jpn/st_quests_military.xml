@@ -147,7 +147,7 @@
 		<text>敵地を強襲する</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_text">
-		<text>Freedomのために敵地を襲撃する任務を受けた。</text>
+		<text>Freedomのために敵地を襲撃する任務を受けた。任務が終わったらルーカッシュに報告しなければならない。</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_about">
 		<text>お前がやる気なら、危険だが重要な任務がある。
@@ -600,8 +600,8 @@
 	</string>
 	<string id="barrier_defense_zombie_outro_2">
 		<text>そうだな、お前の知り合いがそこにいないことを祈るよ。
-\nゾンビとの戦いは、Monolithとやり合うよりも精神的にきついんだ。
-\n彼らの魂に乾杯して･･････ ついでに、お前もああならないように一杯やろうか。</text>
+\nバリアから戻ってくる連中と戦うのは、Monolithとやり合うよりも精神的にきついんだ。
+\nあいつらの魂に乾杯して･･････ ついでに、お前もああならないように一杯やろうか。</text>
 	</string>
 	<string id="barrier_defense_reinforcements_1">
 		<text>待ってろ、すぐ助けに行くぞ！</text>
