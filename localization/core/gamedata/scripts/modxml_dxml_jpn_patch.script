@@ -81,10 +81,8 @@ local REPLACEMENT_CATEGORIES = {
 		{ source = "精神波の放射設備", official = "プサイ装置", community = "精神波の放射設備", note = "Psy-installation/Psi-installation" },
 		{ source = "精神波の放射装置", official = "プサイ装置", community = "精神波の放射装置", note = "Psy-emitter/Psi-emitter/Psi-device (S2)" },
 		{ source = "精神波の放射", official = "プサイ放射", community = "精神波の放射", note = "Psy-emission/Psi-emission" },
-		{ source = "精神波放射線", official = "プサイ放射線", community = "精神波放射線", note = "Psy-radiation/Psi-radiation" },
-		{ source = "精神波動", official = "プサイ波", community = "精神波動", note = "Psy-wave/Psi-wave" },
 		{ source = "精神波", official = "プサイ", community = "精神波", note = "Psy/Psi" },
-		{ source = "PSI", official = "プサイ", community = "精神", note = "「プサイ」と「精神」で使い分ける用語", boundary = "ascii_word" },
+		{ source = "PSI", official = "プサイ", community = "精神", note = "「プサイ」と「精神」で使い分ける用語（Psy-wave/Psi-waveなど）", boundary = "ascii_word" },
 	},
 }
 
