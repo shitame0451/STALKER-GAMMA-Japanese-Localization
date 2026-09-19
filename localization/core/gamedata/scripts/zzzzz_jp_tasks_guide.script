@@ -59,8 +59,8 @@ then
 end
 
 -- ===================================================================
---  prepare_follower （先導タスクの開始メッセージ）
---  string.formatにフック
+--  prepare_follower （先導タスクの開始メッセージ & マップマーカー整形）
+--  string.format および level.map_add_object_spot にフック
 -- ===================================================================
 if tasks_guide
 and tasks_guide.prepare_follower
@@ -69,21 +69,37 @@ then
 
 	tasks_guide.prepare_follower = function(...)
 		local backup_format = string.format
+		local backup_map_add = level and level.map_add_object_spot
 		local target_fmt = game.translate_string("st_jg_14")
 
+		-- 名前(3)と現在地(2)を入れ替え
 		string.format = function(fmt, ...)
 			if fmt == target_fmt then
 				local args = {...}
 				if #args >= 3 then
-					-- 名前(3)と現在地(2)を入れ替え
 					return backup_format(fmt, args[1], args[3], args[2])
 				end
 			end
 			return backup_format(fmt, ...)
 		end
 
+		-- マップマーカーのラベル短縮（Tasks Guide Spotの日本語表示崩れ防止）
+		if backup_map_add then
+			level.map_add_object_spot = function(id, spot, hint, ...)
+				if spot == "secondary_task_location" and type(hint) == "string" then
+					local dest = hint:match("^(.-)まで")
+					local short_hint = (dest and dest ~= "" and #dest <= 30) and (dest .. "への先導依頼") or "先導依頼"
+					hint = short_hint .. "\\n" .. hint
+				end
+				return backup_map_add(id, spot, hint, ...)
+			end
+		end
+
 		local ok, result = pcall(original_prepare_follower, ...)
 		string.format = backup_format
+		if backup_map_add then
+			level.map_add_object_spot = backup_map_add
+		end
 		if not ok then error(result, 0) end
 		return result
 	end
@@ -97,17 +113,17 @@ if tasks_guide
 and tasks_guide.activate
 then
 	local original_activate = tasks_guide.activate
-	
+
 	tasks_guide.activate = function(...)
 		local backup_map_add = level.map_add_object_spot_ser
-		
+
 		level.map_add_object_spot_ser = function(id, spot, hint, ...)
 			if spot == "secondary_task_location" and type(hint) == "string" then
 				hint = hint .. "まで案内するように頼まれた"
 			end
 			return backup_map_add(id, spot, hint, ...)
 		end
-		
+
 		local ok, result = pcall(original_activate, ...)
 		level.map_add_object_spot_ser = backup_map_add
 		if not ok then error(result, 0) end
@@ -122,11 +138,11 @@ if tasks_guide
 and tasks_guide.get_phrase_1
 then
 	local original_get_phrase_1 = tasks_guide.get_phrase_1
-	
+
 	tasks_guide.get_phrase_1 = function(...)
 		local backup_format = string.format
 		local target_fmt = game.translate_string("st_jg_16")
-	
+
 		string.format = function(fmt, ...)
 			if fmt == target_fmt then
 				local args = {...}
@@ -137,7 +153,7 @@ then
 			end
 			return backup_format(fmt, ...)
 		end
-	
+
 		local ok, res = pcall(original_get_phrase_1, ...)
 		string.format = backup_format
 		if not ok then error(res, 0) end
@@ -152,7 +168,7 @@ if tasks_guide
 and tasks_guide.get_phrase2
 then
 	local original_get_phrase2 = tasks_guide.get_phrase2
-	
+
 	tasks_guide.get_phrase2 = function(...)
 		local txt = original_get_phrase2(...)
 		if type(txt) == "string" then
