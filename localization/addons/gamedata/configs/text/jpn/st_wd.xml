@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+
+	<!-- General -->
+
+	<!-- MCM settings -->
+
+	<string id="ui_mcm_menu_wd">
+		<text>Wearable Devices</text>
+	</string>
+	<string id="ui_mcm_wd_title">
+		<text>Wearable Devices</text>
+	</string>
+	<string id="ui_mcm_wd_hold_key">
+		<text>確認キー</text>
+	</string>
+	<string id="ui_mcm_wd_hold_key_desc">
+		<text>タップ: Prominを確認\n長押し: 腕時計を確認</text>
+	</string>
+	<string id="ui_mcm_wd_tap_ms">
+		<text>長押し判定時間 (ms)</text>
+	</string>
+	<string id="ui_mcm_wd_tap_ms_desc">
+		<text>腕時計確認の長押し判定時間を制御します。</text>
+	</string>
+	<string id="ui_mcm_wd_double_tap_ms">
+		<text>ダブルタップ判定時間 (ms)</text>
+	</string>
+	<string id="ui_mcm_wd_double_tap_ms_desc">
+		<text>Promin画面切り替えのダブルタップ判定時間を制御します。</text>
+	</string>
+	<string id="ui_mcm_wd_gui_key">
+		<text>WD GUIキー</text>
+	</string>
+	<string id="ui_mcm_wd_gui_key_desc">
+		<text>WD設定GUIを開く／閉じる。</text>
+	</string>
+	<string id="ui_mcm_wd_gui_mod">
+		<text>WD GUIキーモディファイア</text>
+	</string>
+	<string id="ui_mcm_wd_gui_mod_desc">
+		<text>WD GUIキーと同時に押し続けて設定画面を開きます。</text>
+	</string>
+
+	<!-- Bracer -->
+
+	<string id="st_wd_bracer">
+		<text>ブレーサー</text>
+	</string>
+	<string id="st_wd_bracer_descr">
+		<text>布製の腕当て。デバイス装着用のストラップが縫い付けられている。</text>
+	</string>
+	<string id="st_attach_wd_bracer">
+		<text>身に付ける</text>
+	</string>
+	<string id="st_detach_wd_bracer">
+		<text>取り外す</text>
+	</string>
+
+	<!-- Promin -->
+
+	<string id="st_promin">
+		<text>Promin</text>
+	</string>
+	<string id="st_promin_descr">
+		<text>ウクライナ軍が野戦での健康管理用に支給する軍用タブレット。モジュール式設計により、拡張ユニットで機能を追加できる。\n
+		\n
+		機能:\n
+		%c[d_cyan] • %c[pda_white]生体モニター\n
+		%c[d_cyan] • %c[pda_white]モジュールベイ\n
+		</text>
+	</string>
+	<string id="st_promin_attach_arm">
+		<text>ブレーサーに取り付ける</text>
+	</string>
+	<string id="st_promin_detach_arm">
+		<text>ブレーサーから取り外す</text>
+	</string>
+	<string id="st_promin_2">
+		<text>Promin-2M</text>
+	</string>
+	<string id="st_promin_2_descr">
+		<text>ウクライナ軍が野戦での健康管理用に支給する軍用タブレット。モジュール式設計により、拡張ユニットで機能を追加できる。この機種はモジュールベイが拡張され、バッテリー容量が向上している。\n
+		\n
+		機能:\n
+		%c[d_cyan] • %c[pda_white]生体モニター\n
+		%c[d_cyan] • %c[pda_white]バッテリー寿命延長\n
+		%c[d_cyan] • %c[pda_white]追加モジュールベイ\n
+		</text>
+	</string>
+	<string id="st_promin_module_map">
+		<text>Promin ナビゲーションユニット</text>
+	</string>
+	<string id="st_promin_module_map_descr">
+		<text>GPS受信機とチェルノブイリ立入禁止区域の地形図を追加する。</text>
+	</string>
+	<string id="st_promin_module_conn">
+		<text>Promin コネクタモジュール</text>
+	</string>
+	<string id="st_promin_module_conn_descr">
+		<text>未実装</text>
+	</string>
+	<string id="st_promin_module_side">
+		<text>Promin サイドモジュール</text>
+	</string>
+	<string id="st_promin_module_side_descr">
+		<text>未実装</text>
+	</string>
+	<string id="st_wd_parts">
+		<text>デバイスパーツ</text>
+	</string>
+	<string id="st_wd_parts_descr">
+		<text>回収された各種電子部品、基板、配線、コネクタ、センサー部品が含まれている。</text>
+	</string>
+	<string id="st_promin_module_install">
+		<text>モジュールを取り付ける</text>
+	</string>
+	<string id="st_promin_module_remove">
+		<text>モジュールを取り外す</text>
+	</string>
+
+	<!-- Vektor -->
+
+	<string id="st_vektor_name">
+		<text>Vektor</text>
+	</string>
+	<string id="st_vektor_descr">
+		<text>過酷な環境を生き抜くために作られた、軍用規格のフィールドスマートウォッチ。\n
+		\n
+		機能:\n
+		%c[d_cyan] • %c[pda_white]目的地\n
+		%c[d_cyan] • %c[pda_white]コンパス\n
+		%c[d_cyan] • %c[pda_white]スタミナ\n
+		%c[d_cyan] • %c[pda_white]ガスマスクフィルターの残り時間\n
+		</text>
+	</string>
+	<string id="st_vektor_2_name">
+		<text>Vektor-2M</text>
+	</string>
+	<string id="st_vektor_2_descr">
+		<text>過酷な環境を生き抜くために作られた、軍用規格のフィールドスマートウォッチ。この機種はゾーンの過酷さに適応するよう改良されている。\n
+		\n
+		機能:\n
+		%c[d_cyan] • %c[pda_white]目的地\n
+		%c[d_cyan] • %c[pda_white]コンパス\n
+		%c[d_cyan] • %c[pda_white]スタミナ\n
+		%c[d_cyan] • %c[pda_white]ガスマスクフィルターの残り時間\n
+		%c[d_cyan] • %c[pda_white]アノマリーおよびアーティファクトの探知\n
+		</text>
+	</string>
+	<string id="st_attach_vektor">
+		<text>ブレーサーに取り付ける</text>
+	</string>
+	<string id="st_detach_vektor">
+		<text>ブレーサーから取り外す</text>
+	</string>
+
+	<!-- Ulman's Watch -->
+
+	<string id="st_metro_watch_name">
+		<text>ウルマンの腕時計</text>
+	</string>
+	<string id="st_metro_watch_descr">
+		<text>そのストーカーが地下トンネルで何を見たのか、彼は決して口にしなかった。だが、腕時計だけは手放さなかった。ゾーンのどこかにこの腕時計のブラックモデルが存在するという噂がストーカーたちの間で広まっている。\n
+		\n
+		機能:\n
+		%c[d_cyan] • %c[pda_white]アノマリーおよび放射線の探知\n
+		%c[d_cyan] • %c[pda_white]ガスマスクフィルターの残り時間\n
+		</text>
+	</string>
+	<string id="st_attach_metro_watch">
+		<text>ブレーサーに取り付ける</text>
+	</string>
+	<string id="st_detach_metro_watch">
+		<text>ブレーサーから取り外す</text>
+	</string>
+
+	<!-- Glowstick -->
+
+	<string id="st_dev_glowstick_attach_arm">
+		<text>ブレーサーに取り付ける</text>
+	</string>
+	<string id="st_dev_glowstick_detach_arm">
+		<text>ブレーサーから取り外す</text>
+	</string>
+
+	<!-- Customize -->
+
+	<string id="st_wd_customize">
+		<text>カスタマイズ</text>
+	</string>
+	<string id="st_wd_slots_no_bracer">
+		<text>先にブレーサーを着用する必要がある</text>
+	</string>
+	<string id="st_wd_customize_wrong_slot">
+		<text>このスロットには適していない</text>
+	</string>
+	<string id="st_wd_customize_no_bracer">
+		<text>先にブレーサーを着用する必要がある</text>
+	</string>
+	<string id="st_wd_customize_not_in_inventory">
+		<text>インベントリにアイテムがない</text>
+	</string>
+	<string id="st_wd_customize_attach_failed">
+		<text>デバイスを取り付けられなかった</text>
+	</string>
+	<string id="st_wd_customize_not_registered">
+		<text>デバイスが登録されていない</text>
+	</string>
+	<string id="st_wd_customize_module_locked">
+		<text>このタブレットはそのモジュールに対応していない</text>
+	</string>
+	<string id="st_wd_customize_module_installed">
+		<text>モジュールはすでに取り付けられている</text>
+	</string>
+
+</string_table>

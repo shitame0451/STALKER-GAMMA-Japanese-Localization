@@ -1,0 +1,46 @@
+-- d_promin.script
+
+if not d_promin
+or not d_promin.install_description_hook
+or not ui_item
+or not ui_item.build_desc_footer
+then
+	return
+end
+
+-- ===================================================================
+--  d_promin.install_description_hook （Promin説明文の改行と表示整形）
+-- ===================================================================
+local original_install_description_hook = d_promin.install_description_hook
+
+d_promin.install_description_hook = function()
+	original_install_description_hook()
+
+	local promin_build_desc_footer = ui_item.build_desc_footer
+
+	ui_item.build_desc_footer = function(obj, sec, str, ...)
+		local text = promin_build_desc_footer(obj, sec, str, ...)
+		if type(text) ~= "string" then
+			return text
+		end
+
+		-- Promin関連アイテム（セクション名が wd_promin で始まるもの）以外は返す
+		if not (sec and sec:find("^wd_promin")) then
+			return text
+		end
+
+		-- 説明文と特性の間に改行を挿入
+		local target = utils_xml and utils_xml.get_color and (utils_xml.get_color("ui_gray_1") .. " " .. game.translate_string("st_itm_desc_properties") .. ":\\n")
+		if target then
+			local s = text:find(target, 1, true)
+			if s then
+				text = text:sub(1, s - 1) .. "\\n \\n" .. text:sub(s)
+			end
+		end
+
+		-- 消費電力表示の整形
+		text = text:gsub("  . (%%c%[[^%]]-%]) ", "  • %1")
+
+		return text
+	end
+end
