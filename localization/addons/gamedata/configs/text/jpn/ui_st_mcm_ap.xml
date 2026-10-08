@@ -1872,7 +1872,7 @@
     <text>PDAマップ上に分隊の目的地マーカーを表示します。これはA-Lifeの移動を追跡するための大まかな位置であり、正確な座標ではありません。設定を適用するには、セーブデータをロードし直してください。</text>
   </string>
   <string id="ui_mcm_ap_development_world_trace_enabled">
-    <text>ワールドトレースログ</text>
+    <text>ワールドトレース</text>
   </string>
   <string id="ui_mcm_ap_development_world_trace_enabled_desc">
     <text>シミュレーション状態（スマート、分隊、操作中分隊の編成、キラーレジストリ、トレーダーのインベントリ）を定期的に別ファイル「alifeplus_world.log」へ出力します。意思決定トレースとは別に、A-Lifeの状態を診断するための機能です。無効時は何も実行されません。</text>
@@ -2182,13 +2182,7 @@
     <text>プレイヤーの獲物を保護する</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_enabled_desc">
-    <text>有効にすると、プレイヤーが倒した敵の死体をNPCが勝手に漁らなくなります。ただし、プレイヤーが有効半径から離れると所有権が失効し、通りすがりのストーカーに略奪される可能性があります。</text>
-  </string>
-  <string id="ui_mcm_ap_economy_loot_loot_include_companions">
-    <text>仲間から自分の獲物を保護</text>
-  </string>
-  <string id="ui_mcm_ap_economy_loot_loot_include_companions_desc">
-    <text>プレイヤーが倒した死体を、他のNPCと同様に仲間も漁れないようにします。無効にすると、仲間がプレイヤーの獲物を解体・回収できるようになります。</text>
+    <text>有効にすると、プレイヤーが倒した敵の死体のそばにいる間、NPCがその死体に手を出さなくなります。ただし、プレイヤーとの間に壁などの遮蔽物がなく、射線が通っている必要があります。壁の後ろに隠れたり、その場を離れたりすると、通りすがりのストーカーに死体を漁られる可能性があります。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_radius">
     <text>所有権の有効半径（m）</text>
@@ -2202,11 +2196,17 @@
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_ttl_desc">
     <text>所有権が自然消滅するまでのゲーム内時間を設定します。</text>
   </string>
+  <string id="ui_mcm_ap_economy_loot_loot_include_companions">
+    <text>仲間から自分の獲物を保護</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_include_companions_desc">
+    <text>プレイヤーが倒した死体を、他のNPCと同様に仲間も漁れないようにします。無効にすると、仲間がプレイヤーの獲物を解体・回収できるようになります。</text>
+  </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_enabled">
     <text>NPCの獲物を漁れないようにする</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_enabled_desc">
-    <text>NPC分隊が倒した獲物を、プレイヤーが自由に漁れないように制限します。持ち主が近くにいる状態で調べようとすると、PDAに所有者の名前が表示されます。</text>
+    <text>NPC分隊が倒した死体は、倒した本人または生存している分隊員が範囲内にいて、死体まで射線が通っている間は漁れなくなります。間に壁などの遮蔽物があれば死体を漁ることができます。死体の所有者が近くにいる状態で調べようとすると、PDAに警告が届きます。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_radius">
     <text>NPC所有権の有効半径（m）</text>
@@ -2224,7 +2224,7 @@
     <text>NPC同士の横取りを制限する</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_enabled_desc">
-    <text>あるNPC分隊が倒した獲物を、別のNPC分隊が勝手に漁るのを防ぎます。これにより、戦った当事者のみが戦利品を回収できるようになります。</text>
+    <text>あるNPC分隊が倒した死体のそばを、別のNPC分隊が通りかかった場合、その死体を倒した分隊が近くにいる間は漁られなくなります。距離のみで判定され、戦った当事者のみが自分たちの戦利品を回収できるようになります。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_radius">
     <text>NPC間所有権の有効半径（m）</text>

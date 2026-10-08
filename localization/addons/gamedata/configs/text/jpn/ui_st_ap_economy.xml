@@ -2,13 +2,13 @@
 <string_table>
   <!-- ==================== LOOT CLAIM TIPS ==================== -->
   <string id="st_ap_loot_claim_warn_001">
-    <text>そいつは俺の獲物だ。手を出すな。</text>
+    <text>そいつは俺たちの獲物だ。手を出すな。</text>
   </string>
   <string id="st_ap_loot_claim_warn_002">
     <text>おい、その死体から離れてくれ。</text>
   </string>
   <string id="st_ap_loot_claim_warn_003">
-    <text>そいつは俺が仕留めた。装備は俺のものだ。</text>
+    <text>そいつは俺たちが仕留めた。装備は俺たちのものだ。</text>
   </string>
   <string id="st_ap_loot_claim_warn_004">
     <text>その死体に触れてみろ。タダじゃ済まないぞ、#name#。</text>
@@ -16,7 +16,7 @@
   <string id="st_ap_loot_claim_warn_005">
     <text>下がれ、#name#。その物資には先客がいる。</text>
   </string>
-  <!-- Half A yield: an NPC leaves YOUR kill (seldom, the skipping stalker speaks) -->
+  <!-- reserve-own yield: an NPC leaves YOUR kill, overheard, rare -->
   <string id="st_ap_loot_reserve_yield_001">
     <text>そいつはあんたに譲るよ、ストーカー。</text>
   </string>
@@ -32,7 +32,7 @@
   <string id="st_ap_loot_reserve_yield_005">
     <text>あんたの獲物を横取りする気はないよ、#name#。</text>
   </string>
-  <!-- Flow C yield: you witness an NPC pass up another squad's kill (seldom, the passer speaks) -->
+  <!-- npc-vs-npc yield: an NPC passes up another squad's kill, overheard, rare -->
   <string id="st_ap_loot_npcvnpc_yield_001">
     <text>俺の獲物じゃない。手は出さないさ。</text>
   </string>
