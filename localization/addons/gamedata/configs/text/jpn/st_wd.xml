@@ -29,6 +29,9 @@
 	<string id="ui_mcm_wd_double_tap_ms_desc">
 		<text>Promin画面切り替えのダブルタップ判定時間を制御します。</text>
 	</string>
+	<string id="ui_mcm_wd_swap_hold_toggle">
+		<text>デバイス確認の操作方法（トグル／長押し）を入れ替える</text>
+	</string>
 	<string id="ui_mcm_wd_gui_key">
 		<text>WD GUIキー</text>
 	</string>
