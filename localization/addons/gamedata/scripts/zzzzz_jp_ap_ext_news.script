@@ -5,28 +5,34 @@ if not ap_ext_news then
 end
 
 -- ===================================================================
---  xlevel.get_smart_display_name （AlifePlusの#Location#に挿入される地名を短縮）
+--  xlevel.get_smart_name （AlifePlusの#location#に挿入される地名を短縮）
 -- ===================================================================
-if xlevel
-and xlevel.get_smart_display_name
-then
-	local original_get_smart_display_name = xlevel.get_smart_display_name
-	xlevel.get_smart_display_name = function(smart, ...)
-		local name = original_get_smart_display_name(smart, ...)
+local function patch_news_smart_name()
+	if not xlevel
+	or type(xlevel.get_smart_name) ~= "function"
+	or type(xlevel.get_level_id) ~= "function"
+	or type(xlevel.get_actor_level) ~= "function"
+	then
+		return
+	end
+
+	local original_get_smart_name = xlevel.get_smart_name
+	xlevel.get_smart_name = function(smart, ...)
+		local name = original_get_smart_name(smart, ...)
 
 		if name and smart then
 			local info = debug.getinfo(2, "S")
 			if info and info.short_src and string.find(info.short_src, "ap_ext_news", 1, true) then
 				local smart_level = xlevel.get_level_id(smart)
-				local actor_level = xlevel.get_actor_level_id()
+				local actor_level = xlevel.get_actor_level()
 				if smart_level and actor_level and smart_level ~= actor_level then
-					-- エリア外: 「ザトンの[スカドフスク]」と表示
-					local match = string.gsub(name, "%s+(%[)", "の%1")
-					return match
+					-- 別レベル: 「ザトンの[スカドフスク]」と表示
+					local location = string.gsub(name, "%s+(%[)", "の%1")
+					return location
 				else
-					-- エリア内: 「[スカドフスク]」と表示
-					local match = string.match(name, "(%[.+%])")
-					if match then return match end
+					-- 同じレベル: 「[スカドフスク]」と表示
+					local location = string.match(name, "(%[.+%])$")
+					if location then return location end
 				end
 			end
 		end
@@ -35,41 +41,45 @@ then
 	end
 end
 
+patch_news_smart_name()
+
 -- ===================================================================
---  _substitute （タグに何も挿入されなかった場合、後ろの1文字を削除 & ミリタリー置換）
+--  _format_template （タグに何も挿入されなかった場合、後ろの1文字を削除 & ミリタリー置換）
 -- ===================================================================
-local function patch_news_internals()
-	local compose_tick = ap_ext_news.compose_tick
-	local compose_impl
+local function patch_news_template()
+	local run_news_tick = ap_ext_news.run_news_tick
+	if type(run_news_tick) ~= "function" then return end
+
+	local build_news_tick
 
 	local i = 1
 	while true do
-		local name, value = debug.getupvalue(compose_tick, i)
+		local name, value = debug.getupvalue(run_news_tick, i)
 		if not name then break end
-		if name == "_compose_tick_impl" then
-			compose_impl = value
+		if name == "_build_news_tick" then
+			build_news_tick = value
 			break
 		end
 		i = i + 1
 	end
 
-	if type(compose_impl) ~= "function" then return end
+	if type(build_news_tick) ~= "function" then return end
 
-	local substitute_index
-	local original_substitute
+	local format_template_index
+	local original_format_template
 	local j = 1
 	while true do
-		local name, value = debug.getupvalue(compose_impl, j)
+		local name, value = debug.getupvalue(build_news_tick, j)
 		if not name then break end
-		if name == "_substitute" then
-			substitute_index = j
-			original_substitute = value
+		if name == "_format_template" then
+			format_template_index = j
+			original_format_template = value
 			break
 		end
 		j = j + 1
 	end
 
-	if not substitute_index or type(original_substitute) ~= "function" then return end
+	if not format_template_index or type(original_format_template) ~= "function" then return end
 
 	local removable_tags = {
 		subject_faction = true,
@@ -80,18 +90,16 @@ local function patch_news_internals()
 	local utf8_pattern = "[\1-\127\192-\255][\128-\191]*"
 	local tagged_character_pattern = "#([%w_]+)#(" .. utf8_pattern .. ")"
 
-	debug.setupvalue(compose_impl, substitute_index, function(template, slots, ...)
+	debug.setupvalue(build_news_tick, format_template_index, function(template, slots, ...)
 		local result = string.gsub(template, tagged_character_pattern, function(tag, following_character)
 			if removable_tags[tag] and slots[tag] == "" then return "" end
 			return "#" .. tag .. "#" .. following_character
 		end)
 
-		local final_msg = original_substitute(result, slots, ...)
+		local final_msg = original_format_template(result, slots, ...)
 		local translated_msg = string.gsub(final_msg, "ミリタリー", "軍")
 		return translated_msg
 	end)
 end
 
-if ap_ext_news.compose_tick then
-	patch_news_internals()
-end
+patch_news_template()
