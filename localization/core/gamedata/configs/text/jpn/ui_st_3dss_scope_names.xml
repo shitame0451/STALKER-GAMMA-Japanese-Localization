@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+	<string id="st_acog_ta11_donut">
+		<text>TA11 ドーナツ型</text>
+	</string>
+	<string id="st_acog_ta11e_chevron">
+		<text>TA11E シェブロン</text>
+	</string>
+	<string id="st_acog_ta31_300blk">
+		<text>TA31 300BLK</text>
+	</string>
+	<string id="st_acog_ta31_crosshair">
+		<text>TA31 クロスヘア</text>
+	</string>
+	<string id="st_acog_ta31_rco_chevron">
+		<text>TA31 RCO シェブロン</text>
+	</string>
+	<string id="st_acog_ta31h_horseshoe_dot">
+		<text>TA31H ホースシュー・ドット</text>
+	</string>
+	<string id="st_acog_ta33_horseshoe_dot">
+		<text>TA33 ホースシュー・ドット</text>
+	</string>
+	<string id="st_acog_ta50_crosshair">
+		<text>TA50 クロスヘア</text>
+	</string>
+
+	<string id="st_tac30_ballistic_cq_v1">
+		<text>Ballistic CQ V.1</text>
+	</string>
+	<string id="st_tac30_ballistic_cq_v2">
+		<text>Ballistic CQ V.2</text>
+	</string>
+
+	<string id="st_acss_raptor_m10s">
+		<text>ACSS Raptor M10S</text>
+	</string>
+	<string id="st_dr_1f">
+		<text>DR-1F</text>
+	</string>
+	<string id="st_dr_tr_1_illum">
+		<text>DR-TR-1</text>
+	</string>
+	<string id="st_ebr9">
+		<text>Razor EBR-9</text>
+	</string>
+	<string id="st_eotech_vudu">
+		<text>Eotech Vudu</text>
+	</string>
+	<string id="st_sr4">
+		<text>Vudu SR-4</text>
+	</string>	
+
+	<string id="st_fma1">
+		<text>March FMA-1</text>
+	</string>	
+	<string id="st_fml">
+		<text>March FML</text>
+	</string>		
+	<string id="st_fml_mb">
+		<text>March FML-MB</text>
+	</string>	
+	<string id="st_fml_t1">
+		<text>March FML-T1</text>
+	</string>	
+	<string id="st_fml_tr1h">
+		<text>March FML-TR1H</text>
+	</string>	
+
+	<string id="st_acss_raptor_m10s">
+		<text>ACSS Raptor M10S</text>
+	</string>	
+	<string id="st_dr_tr_1">
+		<text>DR-TR-1</text>
+	</string>	
+	<string id="st_fmc1">
+		<text>FMC-1</text>
+	</string>	
+	<string id="st_fmc2">
+		<text>FMC-2</text>
+	</string>	
+	<string id="st_fmc3">
+		<text>FMC-3</text>
+	</string>	
+	
+	<string id="st_7.62_cmr_w">
+		<text>7.62 CMR-W</text>
+	</string>	
+	<string id="st_acss_griffin_mil">
+		<text>ACSS Griffin MIL</text>
+	</string>	
+	<string id="st_acss_griffin_mil_m8">
+		<text>ACSS Griffin MIL M8</text>
+	</string>	
+	<string id="st_h_27d">
+		<text>H-27D</text>
+	</string>	
+	<string id="st_m_tmr">
+		<text>M-TMR</text>
+	</string>
+
+	<string id="st_l98_atacr_milr">
+		<text>ATACR MILR</text>
+	</string>
+	<string id="st_l98_atacr_moar">
+		<text>ATACR MOAR</text>
+	</string>
+	<string id="st_l98_genii">
+		<text>Gen II</text>
+	</string>
+	<string id="st_l98_p3l">
+		<text>P3L</text>
+	</string>
+	<string id="st_l98_p4fl">
+		<text>P4FL</text>
+	</string>	
+
+	<string id="st_r700_fine_duplex">
+		<text>Fine Duplex</text>
+	</string>	
+	<string id="st_r700_firedot_duplex">
+		<text>FireDot Duplex</text>
+	</string>	
+	<string id="st_r700_firedot_tri-moa">
+		<text>FireDot Tri-MOA</text>
+	</string>
+	<string id="st_r700_impact-23-moa">
+		<text>Impact-23 MOA</text>
+	</string>
+	<string id="st_r700_impact-29-moa">
+		<text>Impact-29 MOA</text>
+	</string>
+	<string id="st_r700_tmoa">
+		<text>TMOA</text>
+	</string>
+
+	<string id="st_scout_msr2">
+		<text>MSR2</text>
+	</string>
+	<string id="st_scout_p3l">
+		<text>P3L</text>
+	</string>
+	<string id="st_scout_p4fl">
+		<text>P4FL</text>
+	</string>
+
+	<string id="st_susat_green">
+		<text>緑色照明</text>
+	</string>
+	<string id="st_susat_red">
+		<text>赤色照明</text>
+	</string>
+
+	<string id="st_razor_jm1_bdc">
+		<text>JM-1 BDC</text>
+	</string>
+	<string id="st_razor_msr_bdc6">
+		<text>TANGO-MSR BDC6</text>
+	</string>
+
+	<string id="st_standard_reticle">
+		<text>標準</text>
+	</string>
+	<string id="st_thick_reticle">
+		<text>太線</text>
+	</string>	
+</string_table>

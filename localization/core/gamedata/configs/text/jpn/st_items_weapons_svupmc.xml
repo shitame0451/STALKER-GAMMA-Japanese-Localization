@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<string_table>
+
+	<string id="st_wpn_svu_pmc">
+		<text>SVU PMC</text>
+	</string>
+	<string id="st_wpn_svu_pmc_descr">
+		<text>ゾーンで製造された極めて希少な銃。ピカティニーレールとM-LOKスロットを組み合わせたタクティカルシャーシを採用し、各種装備を取り付けて自分好みに仕上げられる。内部にも手が加えられ、発射速度が向上している。\n \n</text>
+	</string>
+	
+</string_table>

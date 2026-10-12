@@ -1,36 +1,234 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <string_table>
-
 	<string id="ui_mcm_menu_3d_scopes">
 		<text>3D Scopes</text>
 	</string>
-
 	<string id="ui_mcm_3d_scopes_title">
-		<text>Shader 3D Scopes</text>
+		<text>3D Shader Scopes for GAMMA</text>
 	</string>
-
-	<string id="ui_mcm_3d_scopes_zoom_factor">
+	<string id="ui_mcm_menu_3d_scopes_scope_settings">
+		<text>スコープ設定</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_zoom_factor">
 		<text>ズーム倍率</text>
 	</string>
-
-	<string id="ui_mcm_3d_scopes_nvg_blur">
-		<text>Beefs NVG使用時のスコープをぼかす</text>
+	<string id="ui_mcm_3d_scopes_scope_settings_zoom_factor_desc">
+		<text>レンズ効果を再現するため、スコープ本来の倍率にカメラズームを加えます。値を上げるとスコープの解像度が低下します。1.3がおすすめです。</text>
 	</string>
-
-	<string id="ui_mcm_3d_scopes_parallax_shadow">
-		<text>視差影を表示</text>
+	<string id="ui_mcm_3d_scopes_scope_settings_reflex_lens_strength">
+		<text>リフレックスサイトのレンズ効果</text>
 	</string>
-
-	<string id="ui_mcm_3d_scopes_see_through">
-		<text>レティクルと射出瞳を常に表示</text>
+	<string id="ui_mcm_3d_scopes_scope_settings_reflex_lens_strength_desc">
+		<text>見る角度に応じて変化する、リフレックスサイトのレンズ反射の明るさと不透明度を調整します。1.0が初期値です。</text>
 	</string>
-
-	<string id="ui_mcm_3d_scopes_thermal_pixelation">
-		<text>ズーム時にサーマルスコープをピクセル化</text>
+	<string id="ui_mcm_3d_scopes_scope_settings_nvg_blur">
+		<text>Beef's NVG使用時にスコープをぼかす</text>
 	</string>
-
-	<string id="ui_mcm_3d_scopes_chromatism">
-		<text>スコープの色収差</text>
+	<string id="ui_mcm_3d_scopes_scope_settings_parallax_shadow">
+		<text>視差による影を描画</text>
 	</string>
-
+	<string id="ui_mcm_3d_scopes_scope_settings_see_through">
+		<text>レティクルと射出瞳を常時表示</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_thermal_pixelation">
+		<text>ズーム中のサーマルスコープをピクセル化</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_chromatism">
+		<text>スコープに色収差を適用</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_nvg_force_alt">
+		<text>NVG使用時はオフセット照準にする</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_nvg_force_alt_desc">
+		<text>大型でNVGと併用できない一部のスコープは、この設定を有効にするとオフセット照準に切り替わります。対応するスコープは説明文に記載されます。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_canted_sight_editors">
+		<text>オフセットサイト調整UIを有効化</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_canted_sight_editors_desc">
+		<text>オフセット照準の位置と見た目を調整する画面を開けるようにします。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher">
+		<text>サイトを透過表示</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_desc">
+		<text>透過サイト機能の一括設定。無効にすると、すべてのサイト、スコープ、アイアンサイトの透過効果が無効になります。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_scopes">
+		<text>スコープ本体を透過</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_scopes_desc">
+		<text>スコープに透過効果を適用します。両眼照準のシミュレーションが無効の場合、この設定は効果がありません。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_sights">
+		<text>ドットサイト本体を透過</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_sights_desc">
+		<text>サイトに透過効果を適用します。両眼照準のシミュレーションが無効の場合、この設定は効果がありません。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_rear_irons">
+		<text>リアアイアンサイトを透過</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_rear_irons_desc">
+		<text>アイアンサイトに透過効果を適用します。両眼照準のシミュレーションが無効の場合、この設定は効果がありません。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_opacity">
+		<text>ADS中の透過度</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_opacity_desc">
+		<text>対象となる武器モデルの透過度を設定します。1に近いほど透過してぼやけにくくなり、10に近いほど透過せず、ぼやけが強くなります。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_attachment_strip_enabled">
+		<text>スクリプト式アタッチメントアイコンを表示</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_attachment_strip_enabled_desc">
+		<text>武器のインベントリ欄に、スクリプト式アタッチメント用のスロット枠とアイコンを表示します。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_attachment_strip_occupied_only">
+		<text>装着済みのアタッチメント枠だけ表示</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_scope_settings_attachment_strip_occupied_only_desc">
+		<text>空のスクリプト式アタッチメント枠を隠し、装着済みのアタッチメントを左上に詰めて表示します。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_tab">
+		<text>マグニファイア切り替え</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_use_mousewheel">
+		<text>マウスホイールを使用</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_use_mousewheel_desc">
+		<text>マウスホイールで倍率を切り替えます。有効にすると、下のキー設定は無効になります。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_mwheel_switch_ads_only">
+		<text>ADS中のみマウスホイールで切り替え</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_mwheel_switch_ads_only_desc">
+		<text>照準していない間は、マウスホイールでマグニファイアを切り替えられないようにします。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_mwheel_weapon_swap">
+		<text>マウスホイールで武器を切り替える</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_mwheel_weapon_swap_desc">
+		<text>コンソール設定 mouse_wheel_change_weapon の有効・無効を切り替えます。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_switch_bind">
+		<text>マグニファイア切り替えキー</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_switch_bind_desc">
+		<text>サイト照準モード切り替えキーに割り当てた場合、マグニファイアを切り替えられない状態、または設定した修飾キーや入力方法を満たしていない状態では、通常のキー動作が維持されます。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_modifier">
+		<text>マグニファイア切り替えの修飾キー</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_press_type">
+		<text>マグニファイア切り替えの入力方法</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_keep_aim_toggle">
+		<text>ADS切り替え状態を維持</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_keep_aim_toggle_desc">
+		<text>ADS切り替えモード使用中にマグニファイアを切り替えても、ADS状態を維持します。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_switch_sound">
+		<text>効果音を再生</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_switch_sound_desc">
+		<text>マグニファイアの倍率を切り替えたときに効果音を再生します。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_magnifier_switch_debug">
+		<text>デバッグログ</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_mark_switch_tab">
+		<text>サイトモード切り替え</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_mark_switch_keybind">
+		<text>サイトモード切り替えキー</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_mark_switch_modifier">
+		<text>サイトモード切り替えの修飾キー</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_mark_switch_press_type">
+		<text>サイトモード切り替えの入力方法</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_mark_switch_keybind_reverse">
+		<text>サイトモード切り替えキー（逆順）</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_mark_switch_modifier_reverse">
+		<text>逆順切り替えの修飾キー</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_mark_switch_press_type_reverse">
+		<text>逆順切り替えの入力方法</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_camo_system">
+		<text>迷彩システム</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_camo_system_camo_keybind">
+		<text>迷彩選択ホイールのキー</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_camo_system_camo_modifier">
+		<text>迷彩選択ホイールの修飾キー</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_camo_system_camo_press_type">
+		<text>迷彩選択ホイールの入力方法</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_camo_system_camo_shared_unlocks">
+		<text>武器間で迷彩の発見状況を共有</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_camo_system_camo_shared_unlocks_desc">
+		<text>ある武器で迷彩を発見すると、他の武器でも似た色の迷彩が解放されます。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_camo_system_camo_debug_mode">
+		<text>デバッグ</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_camo_system_camo_debug_mode_desc">
+		<text>セーブデータの発見状況を変更せず、設定されたすべての迷彩を使用可能にします。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_reticle_profiles">
+		<text>レティクルプロファイル</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_reticle_profiles_default_profile">
+		<text>デフォルトプロファイル</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_reticle_profiles">
+		<text>レティクルプロファイル</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_reticle_profiles_default_profile">
+		<text>デフォルトプロファイル</text>
+	</string>
+	<string id="ui_3dss_camo_locked">
+		<text>%sの迷彩は未発見です。</text>
+	</string>
+	<string id="ui_3dss_camo_discovered">
+		<text>%s用の新しい迷彩を発見: %s</text>
+	</string>
+	<string id="ui_3dss_available_camos">
+		<text>使用可能な迷彩</text>
+	</string>
+	<string id="st_3dss_change_reticle">
+		<text>レティクルを変更</text>
+	</string>
+	<string id="st_3dss_scope_nvg_compatible">
+		<text>%c[d_cyan] • %c[0,255,255,255]NVGと併用可能</text>
+	</string>
+	<string id="st_3dss_silencer_condition">
+		<text>%c[0,255,255,255]サプレッサー耐久度:</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_silencer_wear">
+		<text>サプレッサーの摩耗</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_silencer_wear_silencer_wear_enabled">
+		<text>サプレッサーの耐久度変化を有効化</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_silencer_wear_silencer_wear_enabled_desc">
+		<text>耐久度低下、ボーナス減少、武器パーツの追加摩耗、破損による脱落を有効にします。無効にすると現在の耐久度は維持されますが、その他のボーナスとペナルティはすべて元に戻ります。</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_idle_animations">
+		<text>待機アニメーション</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_idle_animations_idle_animations_disabled">
+		<text>待機アニメーションを無効化</text>
+	</string>
+	<string id="ui_mcm_3d_scopes_idle_animations_idle_animations_disabled_desc">
+		<text>武器のランダムな待機アニメーションを停止します。手動で再生する点検アニメーションには影響しません。</text>
+	</string>
 </string_table>

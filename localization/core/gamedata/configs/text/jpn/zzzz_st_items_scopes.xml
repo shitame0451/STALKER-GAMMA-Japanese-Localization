@@ -39,7 +39,8 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Trijicon\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.8x\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.8x\n
+		%c[d_cyan] • %c[pda_white]レティクルの発光: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
 		</text>
 	</string>
 	
@@ -103,8 +104,8 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦 / ロシア\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 4.0x\n
-		%c[d_cyan] • %c[pda_white]ナイトビジョン切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		%c[d_cyan] • %c[pda_white]ナイトビジョン切り替え: %c[ui_gray_1]「サイトモード切り替え」キー\n \n
 		</text>
 	</string>
 	
@@ -154,7 +155,8 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ソビエト連邦\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの発光: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
 		</text>
 	</string>
 	
@@ -312,6 +314,7 @@
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]EOTech\n
 		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x / 3.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n
 		%c[d_cyan] • %c[pda_white]マグニファイア切り替え: %c[ui_gray_1]「マグニファイアの切り替え」キー\n \n
 		</text>
 	</string>
@@ -326,6 +329,7 @@
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Vortex &amp; EOTech\n
 		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x / 6.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n
 		%c[d_cyan] • %c[pda_white]マグニファイア切り替え: %c[ui_gray_1]「マグニファイアの切り替え」キー\n \n
 		</text>
 	</string>
@@ -338,7 +342,8 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Vortex\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
 		</text>
 	</string>
 
@@ -346,13 +351,35 @@
 		<text>Eotech EXPS3</text>
 	</string>
 	<string id="st_addon_scope_exps3_descr">
-		<text>コンパクトなホログラフィックサイトで、直感的に狙えるよう設計されたレティクルを複数備えている。側面に配置された操作スイッチ、クイックデタッチマウント、視界を覆う保護フードを特徴とし、視線を動かすことなく瞬時に射撃を行える信頼性重視の設計で作られている。\n \n
+		<text>小型のホログラフィックサイトで、直感的に狙えるよう設計されたレティクルを複数備えている。側面に配置された操作スイッチ、クイックデタッチマウント、視界窓を保護するフードを特徴とし、視線を動かすことなく瞬時に射撃を行える信頼性重視の設計で作られている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]EOTech\n
 		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
 		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
 		</text>
+	</string>
+	<string id="st_addon_scope_e0t2">
+		<text>Eotech XPS3</text>
+	</string>
+	<string id="st_addon_scope_e0t2_descr">
+		<text>小型のホログラフィックサイトで、直感的に狙えるよう設計されたレティクルを複数備えている。XPS3は背面に配置された操作スイッチ、クイックデタッチマウント、視界窓を保護するフードを特徴とし、視線を動かすことなく瞬時に射撃を行える信頼性重視の設計で作られている。\n \n
+		%c[0,255,255,255]特性:\n
+		%c[d_cyan] • %c[0,255,255,255]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[0,255,255,255]製造元: %c[ui_gray_1]EOTech\n
+		%c[d_cyan] • %c[0,255,255,255]倍率: %c[ui_gray_1]1.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n</text>
+	</string>
+	<string id="st_addon_scope_eotech">
+		<text>Eotech 552</text>
+	</string>
+	<string id="st_addon_scope_eotech_descr">
+		<text>小型のホログラフィックサイトで、直感的に狙えるよう設計されたレティクルを複数備えている。552はは背面に配置された操作スイッチ、クイックデタッチマウント、視界窓を保護するフードを特徴とし、視線を動かすことなく瞬時に射撃を行える信頼性重視の設計で作られている。\n \n
+		%c[0,255,255,255]特性:\n
+		%c[d_cyan] • %c[0,255,255,255]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[0,255,255,255]製造元: %c[ui_gray_1]EOTech\n
+		%c[d_cyan] • %c[0,255,255,255]倍率: %c[ui_gray_1]1.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n</text>
 	</string>
   
 	<string id="st_addon_scope_he510">
@@ -522,8 +549,8 @@
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Wilcox Industries\n
 		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
-		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n
-		%c[d_cyan] • %c[pda_white]レーザー切り替え可能\n \n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトモード切り替え」キー\n
+		%c[d_cyan] • %c[pda_white]レーザーの切り替え: %c[ui_gray_1]「ヘッドランプ」キー長押し\n \n
 		</text>
     </string>
 	
@@ -534,7 +561,9 @@
 	<string id="st_addon_scope_lazup_generic_descr">
 		<text>装着することで、あらゆる射撃姿勢において安定した精度を発揮する。暗視装置との併用により、より確実な照準が可能となる。\n \n
 		%c[pda_white]互換性:\n
-		%c[d_cyan] • %c[pda_white]ピカティニーレールなどの対応マウントを備えた銃\n
+		%c[d_cyan] • %c[pda_white]ピカティニーレールなどの対応マウントを備えた銃\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レーザーの切り替え: %c[ui_gray_1]「ヘッドランプ」キー長押し\n \n
 		</text>
 	</string>
 	
@@ -585,7 +614,8 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Valday\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
 		</text>
 	</string>
 
@@ -634,7 +664,8 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Burris\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 4.0x\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 4.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの発光: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
 		</text>
 	</string>		
 
@@ -672,7 +703,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スウェーデン\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Aimpoint\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
 		</text>
 	</string>	
 
@@ -684,7 +715,8 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]カナダ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ELCAN\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
 		</text>
 	</string>
 
@@ -709,7 +741,8 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swampfox Optics\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x\n \n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの発光: %c[ui_gray_1]「サイトのモード切り替え」キー\n \n
 		</text>
 	</string>
 

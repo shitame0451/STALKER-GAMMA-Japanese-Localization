@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+	<string id="st_install_canted_irons">
+		<text>オフセットサイトを装着</text>
+	</string>
+	
+	<string id="st_remove_canted_sight">
+		<text>オフセットサイトを取り外す</text>
+	</string>
+	
+	<string id="st_install_canted_rds_pos1">
+		<text>位置1に装着</text>
+	</string>
+	
+	<string id="st_install_canted_rds_pos2">
+		<text>位置2に装着</text>
+	</string>
+	
+	<string id="st_install_canted_rds_pos3">
+		<text>位置3に装着</text>
+	</string>
+
+	<string id="st_move_canted_rds_pos1">
+		<text>サイトを位置1へ移動</text>
+	</string>
+
+	<string id="st_move_canted_rds_pos2">
+		<text>サイトを位置2へ移動</text>
+	</string>
+
+	<string id="st_move_canted_rds_pos3">
+		<text>サイトを位置3へ移動</text>
+	</string>
+	
+	<string id="st_canted_sight_blocked_by_scope">
+		<text>このスコープとは併用できません。装着中のスコープを取り外すか交換する必要があります。</text>
+	</string>
+
+	<string id="st_addon_kac_irons">
+		<text>KAC Micro オフセットアイアンサイト</text>
+	</string>	
+	<string id="st_addon_kac_irons_descr">
+		<text>オフセットベースに取り付けられたKAC Microアイアンサイト。近距離の標的に素早く照準を合わせられる、信頼性の高いバックアップサイト。</text>
+	</string>
+
+	<string id="st_addon_canted_dp">
+		<text>オフセット Deltapointサイト</text>
+	</string>	
+	<string id="st_addon_canted_dp_descr">
+		<text>オフセットベースに取り付けられたDeltapointサイト。近距離の標的に素早く照準を合わせられる、信頼性の高いバックアップサイト。</text>
+	</string>	
+
+	<string id="st_addon_canted_docter">
+		<text>オフセット Docterサイト</text>
+	</string>	
+	<string id="st_addon_canted_docter_descr">
+		<text>オフセットベースに取り付けられたDocter Sight III。近距離の標的に素早く照準を合わせられる、信頼性の高いバックアップサイト。</text>
+	</string>
+	
+	<string id="st_addon_canted_t12">
+		<text>オフセット T12サイト</text>
+	</string>	
+	<string id="st_addon_canted_t12_descr">
+		<text>オフセットベースに取り付けられたT12サーマルサイト。近距離の標的に素早く照準を合わせられる、信頼性の高いバックアップサイト。</text>
+	</string>	
+
+	<string id="st_canted_compatible_sights">
+		<text>オフセットサイト</text>
+	</string>
+</string_table>

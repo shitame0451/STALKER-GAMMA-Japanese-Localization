@@ -3,7 +3,7 @@
 		<text>3DSS for GAMMA Optics</text>
 	</string>
 	<string id="ui_mcm_dii_3dssg_scopes_show">
-		<text>スコープ・サイトの名称ラベルを表示する</text>
+		<text>スコープ／サイトの名称ラベルを表示する</text>
 	</string>
 	<string id="ui_mcm_dii_3dssg_scopes_small_show">
 		<text>補助ラベルを表示する</text>

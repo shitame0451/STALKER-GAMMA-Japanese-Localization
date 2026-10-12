@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+<!--
+	KITS
+-->
+
+	<string id="st_addon_scope_kit_aus_tri">
+		<text>「Scout」アップグレードキット（SA-58 AUS用）</text>
+	</string>
+	<string id="st_addon_scope_kit_aus_tri_descr">
+		<text>SA-58 AUSを「Scout」仕様にするアップグレードキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]ACOG 2.8倍スコープ（固定倍率）\n
+		%c[d_cyan] • %c[ui_gray_1]D.PRO オフセットドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]Vltor CASV フォアグリップ\n
+		%c[d_cyan] • %c[ui_gray_1]ピカティニーレール\n
+		%c[d_cyan] • %c[ui_gray_1]折りたたみストック\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]SA-58 AUS\n \n</text>
+	</string>
+	
+	<string id="st_addon_scope_kit_fal_leup">
+		<text>「Marauder」アップグレードキット（SA-58 AUS用）</text>
+	</string>
+	<string id="st_addon_scope_kit_fal_leup_descr">
+		<text>SA-58 AUSを「Marauder」仕様にするアップグレードキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]CQBSS 可変倍率スコープ\n
+		%c[d_cyan] • %c[ui_gray_1]D.PRO オフセットドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]Vltor CASV フォアグリップ\n
+		%c[d_cyan] • %c[ui_gray_1]ピカティニーレール\n
+		%c[d_cyan] • %c[ui_gray_1]折りたたみストック\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]SA-58 AUS\n \n</text>
+	</string>	
+
+	<string id="st_addon_scope_kit_sa5x_spec">
+		<text>「Defender」アップグレードキット（SA-58 AUS用）</text>
+	</string>
+	<string id="st_addon_scope_kit_sa5x_spec_descr">
+		<text>SA-58 AUSを「Defender」仕様にするアップグレードキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]SpecterDR スコープ\n
+		%c[d_cyan] • %c[ui_gray_1]D.PRO オフセットドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]Vltor CASV フォアグリップ\n
+		%c[d_cyan] • %c[ui_gray_1]ピカティニーレール\n
+		%c[d_cyan] • %c[ui_gray_1]折りたたみストック\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]SA-58 AUS\n \n</text>
+	</string>
+	
+	<string id="st_addon_scope_mauser_kit">
+		<text>Karabiner 98k アップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_mauser_kit_descr">
+		<text>Karabiner 98kを現代化するアップグレードキット。サプレッサー対応、現代的なスコープ、ポリマー製外装、軽量ボルトを備え、ネイビーブルーに塗装されている。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]長距離用可変倍率スコープ\n
+		%c[d_cyan] • %c[ui_gray_1]軽量ポリマー製外装\n
+		%c[d_cyan] • %c[ui_gray_1]サプレッサー対応\n
+		%c[d_green] • %c[ui_gray_1]命中精度向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Karabiner 98k\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_upg220">
+		<text>SIG P220 .45 アップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_upg220_descr">
+		<text>SIG Sauer P220 .45用の総合アップグレードキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]サプレッサー用スレッドバレル\n
+		%c[d_cyan] • %c[ui_gray_1]グリーンレーザー照準モジュール\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（12発）\n
+		%c[d_green] • %c[ui_gray_1]発射速度向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]命中精度がわずかに向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Sig Sauer P220 \n \n</text>
+	</string>
+
+	<string id="st_addon_scope_sr1upgr1">
+		<text>SR1M Gyurza 9x21 アップグレードキット（レーザー照準モジュール／サプレッサー対応）</text>
+	</string>
+	<string id="st_addon_scope_sr1upgr1_descr">
+		<text>SR1M Gyurza 9x21用アップグレードキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]サプレッサー用スレッドバレル\n
+		%c[d_cyan] • %c[ui_gray_1]レッドレーザー照準モジュール\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Serdyukov SR1M Gyurza 9x21\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_kab_up">
+		<text>「Boar」アップグレードキット（KS-23M Drozd用）</text>
+	</string>
+	<string id="st_addon_scope_kab_up_descr">
+		<text>KS-23M Drozdを「Boar」仕様にするアップグレードキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]サプレッサー用スレッドバレル\n
+		%c[d_cyan] • %c[ui_gray_1]RMRドットサイト\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]KS-23M Drozd\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_archangel">
+		<text>タクティカルキット</text>
+	</string>
+	<string id="st_addon_scope_archangel_descr">
+		<text>Remington M700用の総合アップグレードキット。ネイビーブルーに塗装されている。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]March-F 可変倍率スコープ\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（20発）\n
+		%c[d_green] • %c[ui_gray_1]命中精度がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御がわずかに向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Remington M700\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_magpul_pro">
+		<text>タクティカルキット</text>
+	</string>
+	<string id="st_addon_scope_magpul_pro_descr">
+		<text>Remington M700用の総合アップグレードキット。ネイビーブルーのポリマー製外装を備える。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]長距離用可変倍率スコープ\n
+		%c[d_cyan] • %c[ui_gray_1]D.PRO オフセットドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（12発）\n
+		%c[d_green] • %c[ui_gray_1]重量がわずかに減少\n
+		%c[d_green] • %c[ui_gray_1]命中精度がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御が向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Remington M700\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_mod_x_gen3">
+		<text>Remington M700 タクティカルアップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_mod_x_gen3_descr">
+		<text>Remington M700用の総合アップグレードキット。カーキ色の軽量ポリマー製外装を備える。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]長距離用可変倍率スコープ\n
+		%c[d_cyan] • %c[ui_gray_1]D.PRO オフセットドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（12発）\n
+		%c[d_green] • %c[ui_gray_1]重量がわずかに減少\n
+		%c[d_green] • %c[ui_gray_1]命中精度がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御が向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Remington M700\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_swamp">
+		<text>「Swamp Thing」アップグレードキット（AK-105用）</text>
+	</string>
+	<string id="st_addon_scope_swamp_descr">
+		<text>AK-105を「Swamp Thing」仕様にする総合アップグレードキット。青い都市迷彩塗装を施している。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_green] • %c[ui_gray_1]5.56弾仕様に変更\n
+		%c[d_cyan] • %c[ui_gray_1]延長ハンドガードとエルゴノミックストック\n
+		%c[d_cyan] • %c[ui_gray_1]ピカティニーレール\n
+		%c[d_cyan] • %c[ui_gray_1]レッドレーザー照準モジュール\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（45発）\n
+		%c[d_green] • %c[ui_gray_1]発射速度向上\n
+		%c[d_green] • %c[ui_gray_1]命中精度がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御がわずかに向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]AK-105\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_gurza_up">
+		<text>SR1M Gyurza 9x21 タクティカルアップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_gurza_up_descr">
+		<text>「シュリンプ」の愛称でも知られるSR1M Gyurza用の簡易アップグレードキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]シンプルな円形ドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]レッドレーザー照準モジュール\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Serdyukov SR1M Gyurza 9x21\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_u2p2g0r">
+		<text>SIG P220 .45 タクティカルアップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_u2p2g0r_descr">
+		<text>SIG P220 .45ピストル用の総合アップグレードキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_green] • %c[ui_gray_1]9x19弾仕様に変更\n
+		%c[d_cyan] • %c[ui_gray_1]サプレッサー用スレッドバレル\n
+		%c[d_cyan] • %c[ui_gray_1]トリチウムサイトとグリーンレーザー照準モジュール\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（19発）\n
+		%c[d_green] • %c[ui_gray_1]発射速度が大幅に向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]命中精度がわずかに向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Sig Sauer P220 \n \n</text>
+	</string>
+
+	<string id="st_addon_scope_shakal">
+		<text>「Shakal」アップグレードキット（AK-105用）</text>
+	</string>
+	<string id="st_addon_scope_shakal_descr">
+		<text>AK-105を「Shakal」仕様にする総合アップグレードキット。赤い都市迷彩塗装を施している。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]延長ハンドガードとエルゴノミックストック\n
+		%c[d_cyan] • %c[ui_gray_1]レッドレーザー照準モジュール\n
+		%c[d_cyan] • %c[ui_gray_1]ピカティニーレール\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（45発）\n
+		%c[d_green] • %c[ui_gray_1]発射速度向上\n
+		%c[d_green] • %c[ui_gray_1]命中精度がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御がわずかに向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]AK-105\n \n</text>
+	</string>
+
+	<string id="st_addon_scope_sr2_upkit">
+		<text>SR-2M Veresk タクティカルアップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_sr2_upkit_descr">
+		<text>標準でピカティニーレールを備えていないSR-2M Veresk用アップグレードキット。\n \n
+		%c[pda_white]内容:\n
+		%c[d_cyan] • %c[ui_gray_1]グリーンタクティカルレーザー照準モジュール\n
+		%c[d_cyan] • %c[ui_gray_1]ピカティニーレール\n
+		%c[d_cyan] • %c[ui_gray_1]KP-SR2 リフレックスサイト（固定）\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]SR-2M Veresk\n \n</text>
+	</string>	
+
+	<string id="st_addon_scope_5c_tik">
+		<text>「ISG Special」アップグレードキット（AK 5C用）</text>
+	</string>
+	<string id="st_addon_scope_5c_tik_descr">
+		<text>AK 5C用タクティカルアップグレードキット。スウェーデン製、最高の銃だ。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]薄型フォアグリップ\n
+		%c[d_cyan] • %c[ui_gray_1]レッドレーザー照準モジュール\n
+		%c[d_green] • %c[ui_gray_1]発射速度向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御がわずかに向上\n
+		%c[d_green] • %c[ui_gray_1]信頼性がわずかに向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]AK 5C\n \n</text>
+	</string>
+	
+	<string id="st_addon_scope_vitup_kit">
+		<text>PP-19-01 Vityaz タクティカルアップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_vitup_kit_descr">
+		<text>PP-19-01 Vityazを現代化するタクティカルキット。ポリマー製外装、アングルドフォアグリップ、軽量ボルト、素早い照準を可能にするレーザー照準モジュールを備え、近接戦闘での取り回しを高める。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]ブルーレーザー照準モジュール\n
+		%c[d_green] • %c[ui_gray_1]発射速度向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]PP-19-01 Vityaz\n \n</text>
+	</string>
+	
+	<string id="st_addon_scope_pm_upgr_kit">
+		<text>Makarov PM 9x18 タクティカルアップグレードキット</text>
+	</string>
+    <string id="st_addon_scope_pm_upgr_kit_descr">
+		<text>Makarov PM 9x18ピストル用のタクティカルアップグレードキット。Zarya Z-1x20小型ドットサイトを搭載。\n \n
+		%c[pda_white]特徴: \n
+		%c[d_cyan] • %c[ui_gray_1]シンプルな円形ドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]オリーブ色のピストルグリップ\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（20発）\n
+		%c[d_green] • %c[ui_gray_1]発射速度向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]Makarov PM 9x18\n \n</text>
+	</string>
+	
+		<string id="st_addon_scope_pb_upgr_kit">
+		<text>PB 9x18 タクティカルアップグレードキット</text>
+	</string>
+    <string id="st_addon_scope_pb_upgr_kit_descr">
+		<text>PB 9x18用のタクティカルアップグレードキット。Zarya Z-1x20小型ドットサイトを搭載。\n \n
+		%c[pda_white]特徴: \n
+		%c[d_cyan] • %c[ui_gray_1]シンプルな円形ドットサイト\n
+		%c[d_cyan] • %c[ui_gray_1]サイドマウント式レッドタクティカルレーザー照準モジュール\n
+		%c[d_cyan] • %c[ui_gray_1]大容量マガジン（20発）\n
+		%c[d_green] • %c[ui_gray_1]発射速度向上\n
+		%c[d_green] • %c[ui_gray_1]反動制御向上\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]PB 9x18 \n \n</text>
+	</string>
+
+	<string id="st_addon_scope_pl15_scolaz_new">
+		<text>Lebedev PL-15 9x19 タクティカルアップグレードキット</text>
+	</string>
+	<string id="st_addon_scope_pl15_scolaz_new_descr">
+		<text>Lebedev PL-15 9x19用のタクティカルアップグレードキット。\n \n
+		%c[ui_gray_2]特徴: \n
+		%c[d_green] • %c[ui_gray_1]シンプルな円形ドットサイト\n
+		%c[d_green] • %c[ui_gray_1]サプレッサー用断熱カバー\n	
+		%c[d_green] • %c[ui_gray_1]レッドレーザー照準モジュール\n \n</text>
+	</string>
+	
+		<string id="st_addon_scope_23_up">
+		<text>KS-23用「Shortie」キット</text>
+	</string>
+	<string id="st_addon_scope_23_up_descr">
+		<text>フルサイズのKS-23を「Shortie」仕様にする改造キット。銃身を短縮し、軽量化する。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]短銃身\n
+		%c[d_green] • %c[ui_gray_1]軽量化\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]KS-23\n \n</text>
+	</string>
+	
+			<string id="st_addon_scope_sup">
+		<text>スペシャルアップグレードパック</text>
+	</string>
+	<string id="st_addon_scope_sup_descr">
+		<text>発射速度、命中精度、マガジン容量の向上、レーザー照準モジュール、外装の変更など、さまざまな改良を施すキット。内容は対応武器ごとに異なる。\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]ShAK-12\n
+		%c[d_cyan] • %c[ui_gray_1]Desert Tech MDR 7.62x51\n
+		%c[d_cyan] • %c[ui_gray_1]CMMG Mk47 Mutant\n \n</text>
+	</string>
+
+		<string id="st_addon_scope_kurtz">
+		<text>MP5A3用「MP5K」キット</text>
+	</string>
+	<string id="st_addon_scope_kurtz_descr">
+		<text>MP5A3を短銃身のMP5Kに改造するキット。\n \n
+		%c[pda_white]特徴:\n
+		%c[d_cyan] • %c[ui_gray_1]「ナイフ／ピストル」スロットに装着可能\n
+		%c[d_red] • %c[ui_gray_1]FMJ弾のみ使用可能\n
+		%c[d_red] • %c[ui_gray_1]反動制御がわずかに低下\n \n
+		%c[pda_white]対応武器:\n
+		%c[d_cyan] • %c[ui_gray_1]MP5A3\n \n</text>
+	</string>
+	
+	
+
+	
+</string_table>

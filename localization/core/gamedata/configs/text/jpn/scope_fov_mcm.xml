@@ -12,26 +12,44 @@
 	<string id="ui_mcm_menu_scop">
 		<text>Adjust Scope HUD</text>
 	</string>
+	<string id="ui_mcm_scop_use_player_hud_fov">
+		<text>常にゲーム設定のHUD FOVを使用</text>
+	</string>
+	<string id="ui_mcm_scop_use_player_hud_fov_desc">
+		<text>すべてのスコープHUD FOV設定を、ゲーム設定で選択したHUD FOVで上書きします。</text>
+	</string>
+	<string id="ui_mcm_scop_use_universal_hud_fov">
+		<text>共通HUD FOVを使用</text>
+	</string>
+	<string id="ui_mcm_scop_use_universal_hud_fov_desc">
+		<text>すべてのスコープHUD FOV設定を、下の共通値で上書きします。</text>
+	</string>
+	<string id="ui_mcm_scop_universal_hud_fov">
+		<text>共通HUD FOV</text>
+	</string>
+	<string id="ui_mcm_scop_universal_hud_fov_desc">
+		<text>照準中にすべての武器へ適用するHUD FOVを設定します。</text>
+	</string>
 
 	<string id="ui_mcm_scop_iron_fov">
 		<text>アイアンサイト</text>
 	</string>
 	<string id="ui_mcm_scop_iron_fov_desc">
-		<text>値を小さくするほど、アイアンサイト使用時の表示位置がより手前に近づきます。</text>
+		<text>値を小さくするほど、アイアンサイト使用時に銃が画面手前に寄ります。</text>
 	</string>
 
 	<string id="ui_mcm_scop_scope_fov">
-		<text>内蔵スコープ</text>
+		<text>統合スコープ</text>
 	</string>
 	<string id="ui_mcm_scop_scope_fov_desc">
-		<text>値を小さくするほど、内蔵スコープを搭載した武器の使用時に視点がより手前に寄ります。</text>
+		<text>値を小さくするほど、統合スコープ使用時に銃が画面手前に寄ります。</text>
 	</string>
 
 	<string id="ui_mcm_scop_grenade_fov">
 		<text>グレネードランチャー</text>
 	</string>
 	<string id="ui_mcm_scop_grenade_fov_desc">
-		<text>値を小さくするほど、装着されたグレネードランチャー使用時の視点がより手前に寄ります。</text>
+		<text>値を小さくするほど、装着されたグレネードランチャー使用時に銃が画面手前に寄ります。</text>
 	</string>
 
 	<string id="ui_mcm_scop_1p78_fov">

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+    <string id="ui_mcm_menu_uas">
+        <text>UAS</text>
+    </string>
+
+    <string id="ui_mcm_uas">
+        <text>Universal Animation Scripts</text>
+    </string>
+
+    <string id="ui_mcm_uas_no_reload_on_unjam">
+        <text>ジャム解除時にリロードしない</text>
+    </string>
+
+    <string id="ui_mcm_uas_no_reload_on_unjam_desc">
+        <text>ジャム解除アニメーション中に武器がリロードされるのを防ぎます。WPO導入時は効果がありません。</text>
+    </string>
+</string_table>

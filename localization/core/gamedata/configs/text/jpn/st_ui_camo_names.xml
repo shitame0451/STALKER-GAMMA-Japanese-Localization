@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+	<string id="st_3dss_switch_sp34_black">
+		<text>マウントを黒く塗装</text>
+	</string>
+
+	<string id="st_3dss_switch_sp34_fde">
+		<text>マウントをFDEカラーで塗装</text>
+	</string>
+
+	<string id="st_camo_base">
+		<text>ベース</text>
+	</string>
+	
+	<string id="st_camo_black">
+		<text>ブラック</text>
+	</string>
+
+	<string id="st_camo_tan">
+		<text>タン</text>
+	</string>
+	
+	<string id="st_camo_white">
+		<text>ホワイト</text>
+	</string>
+
+	<string id="st_camo_grey">
+		<text>グレー</text>
+	</string>
+
+	<string id="st_camo_navy">
+		<text>ネイビー</text>
+	</string>
+
+	<string id="st_camo_blue">
+		<text>ブルー</text>
+	</string>
+
+	<string id="st_camo_teal">
+		<text>青緑</text>
+	</string>
+
+	<string id="st_camo_green">
+		<text>グリーン</text>
+	</string>
+
+	<string id="st_camo_red">
+		<text>レッド</text>
+	</string>
+
+	<string id="st_camo_rust">
+		<text>錆色</text>
+	</string>
+
+	<string id="st_camo_yellow">
+		<text>イエロー</text>
+	</string>
+
+	<string id="st_camo_olive">
+		<text>オリーブ</text>
+	</string>
+
+	<string id="st_camo_cream">
+		<text>クリーム</text>
+	</string>
+
+	<string id="st_camo_plum">
+		<text>プラム</text>
+	</string>
+
+	<string id="st_camo_dual_tone">
+		<text>ツートン</text>
+	</string>
+
+	<string id="st_camo_wood">
+		<text>木目</text>
+	</string>
+
+	<string id="st_camo_cherry">
+		<text>チェリー</text>
+	</string>
+
+	<string id="st_camo_oak">
+		<text>オーク</text>
+	</string>
+
+	<string id="st_camo_walnut">
+		<text>ウォールナット</text>
+	</string>
+
+</string_table>

@@ -40,4 +40,12 @@
 		%c[ui_gray_1]アタッチメント: PU スコープ, KZRZP サプレッサー\n </text>
 	</string>
 	
+	<string id="st_addon_obrez_kit">
+		<text>金ノコ</text>
+	</string>
+
+	<string id="st_addon_obrez_kit_descr">
+		<text>ただの金ノコだ。いいか、「一度測って、二度切れ」だ。</text>
+	</string>
+	
 </string_table>

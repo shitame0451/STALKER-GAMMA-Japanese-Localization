@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<string id="st_camo_kmack_arctic">
+		<text>極地迷彩</text>
+	</string>
+	<string id="st_camo_kmack_blue_tiger">
+		<text>ブルータイガー</text>
+	</string>
+	<string id="st_camo_kmack_desert">
+		<text>砂漠迷彩</text>
+	</string>
+	<string id="st_camo_kmack_digital">
+		<text>デジタル迷彩</text>
+	</string>
+	<string id="st_camo_kmack_fall">
+		<text>秋季迷彩</text>
+	</string>
+	<string id="st_camo_kmack_red_tiger">
+		<text>レッドタイガー</text>
+	</string>
+	<string id="st_camo_kmack_urban">
+		<text>都市迷彩</text>
+	</string>
+	<string id="st_camo_kmack_woodland">
+		<text>森林迷彩</text>
+	</string>	
+	
+</string_table>

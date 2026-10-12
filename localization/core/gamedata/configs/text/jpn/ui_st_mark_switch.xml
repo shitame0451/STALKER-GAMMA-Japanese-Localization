@@ -13,4 +13,8 @@
 		<text>サイトのモード切り替え（Mark Switch）</text>
 	</string>
 
+	<string id="ui_mcm_mark_switch_keybind_reverse">
+		<text>サイトのモード切り替え（逆順）（Mark Switch）</text>
+	</string>
+
 </string_table>

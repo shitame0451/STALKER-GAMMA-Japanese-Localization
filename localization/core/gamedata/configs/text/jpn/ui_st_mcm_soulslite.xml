@@ -117,23 +117,35 @@
 	<string id="ui_mcm_soulslike_scenarios_description">
 		<text>ソウルライクのシナリオは、その性質上、状況に応じて変化します。復活イベントは以下の要因に基づいて発生します:\n %c[0,255,255,255]• %c[ui_gray_1]プレイヤーを“死亡”させた相手\n %c[0,255,255,255]• %c[ui_gray_1]プレイヤーが“死亡”した状況\n %c[0,255,255,255]• %c[ui_gray_1]プレイヤーが“死亡”した場所\n %c[0,255,255,255]• %c[ui_gray_1]プレイヤーが“死亡”した際、復活地点にどれだけ近かったか\n %c[0,255,255,255]• %c[ui_gray_1]プレイヤーが“死亡”した際、屋内にいたか屋外にいたか\n以下では、いくつかのシナリオの発生確率（比重）を変更できます。</text>
 	</string>
+	<string id="ui_mcm_soulslike_scenarios_enable_rf_detector_scenario">
+		<text>RF受信機シナリオを有効化（アルファ版）</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_enable_rf_detector_scenario_desc">
+		<text>アルファ版: 新機能のため、不具合がある可能性があります。バックパックを装備せずに死亡すると、装備は死亡地点に落ちず、代わりにスタッシュに隠される場合があります。見つける手がかりとして無線周波数が書かれたメモを受け取ります。バックパックを装備していない場合のみ適用されます。</text>
+	</string>
 	<string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight">
 		<text>RF受信機シナリオの発生確率</text>
 	</string>
 	<string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
-		<text>このシナリオでは、救助者はプレイヤーの所持品を発見場所と同じマップ内のスタッシュへと移動させます。装備を追跡するための周波数が伝えられるほか、忘れないよう所持品にメモが残されます。</text>
+		<text>バックパックを装備していない場合に、他のシナリオと比べてRF受信機シナリオが選ばれる頻度を設定します。</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_enable_hidden_stash_scenario">
+		<text>スタッシュシナリオを有効化（アルファ版）</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_enable_hidden_stash_scenario_desc">
+		<text>アルファ版: 新機能のため、不具合がある可能性があります。バックパックを装備せずに死亡すると、装備は死亡地点に落ちず、代わりにスタッシュに隠される場合があります。スタッシュの位置はPDAに表示されます。バックパックを装備していない場合のみ適用されます。</text>
 	</string>
 	<string id="ui_mcm_soulslike_scenarios_hidden_stash_scenario_weight">
 		<text>スタッシュシナリオの比重</text>
 	</string>
-	<string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
-		<text>このシナリオでは、救助者はプレイヤーの所持品をスタッシュへ移動させ、その位置をPDAにマークします。</text>
+	<string id="ui_mcm_soulslike_scenarios_hidden_stash_scenario_weight_desc">
+		<text>バックパックを装備していない場合に、他のシナリオと比べてスタッシュシナリオが選ばれる頻度を設定します。</text>
 	</string>
 	<string id="ui_mcm_soulslike_scenarios_looter_npcs_marked">
 		<text>略奪したNPCをPDAにマークする</text>
 	</string>
-	<string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
-		<text>プレイヤーの所持品を略奪したNPCをPDAマップに表示します。</text>
+	<string id="ui_mcm_soulslike_scenarios_looter_npcs_marked_desc">
+		<text>NPCに装備を略奪された場合、そのNPCをPDAで追跡できます。</text>
 	</string>
 
     <!--Ambush-->
@@ -217,6 +229,12 @@
     <string id="ui_mcm_soulslike_hardcore_lose_all_items_on_death_desc">
         <text>この設定を有効にすると、死亡時にすべてのアイテムを失います。このオプションは「アイテム」カテゴリ内の他の設定よりも優先されます。</text>
     </string>
+    <string id="ui_mcm_soulslike_hardcore_weak_willed_mode">
+        <text>弱気モード</text>
+    </string>
+    <string id="ui_mcm_soulslike_hardcore_weak_willed_mode_desc">
+        <text>セーフティネットを無効にします。ハードコアセーブは通常、削除したセーブファイルをすべてsoulslike-backupフォルダに保存するため、気が変われば手動で戻せます。弱気モードではバックアップを作らず、削除されたセーブは完全に失われます。有効にするにはハードコアセーブが必要です。</text>
+    </string>
 
     <!--Debug-->
 	<string id="ui_mcm_soulslike_debug">
@@ -233,6 +251,9 @@
 	</string>
 	<string id="ui_mcm_soulslike_debug_debug_hidden_stashes">
 		<text>(デバッグ用) Hidden Stashes</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_hidden_stashes_desc">
+		<text>まだ情報を得ていない場所も含め、RF受信機やスタッシュの位置をすべてPDAに表示します。</text>
 	</string>
 	<string id="ui_mcm_soulslike_debug_debug_item_loss">
 		<text>(デバッグ用) Item Loss</text>
@@ -251,6 +272,21 @@
 	</string>
 	<string id="ui_mcm_soulslike_debug_debug_the_hidden_stash_scenario">
 		<text>(デバッグ用) Hidden Stash Scenario</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_squad_spawns">
+		<text>分隊スポーンのデバッグ</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_squad_spawns_desc">
+		<text>出現した待ち伏せ分隊とその構成員をマップに表示します。</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_always_spawn_ambush">
+		<text>待ち伏せを必ず発生させる</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_always_spawn_ambush_desc">
+		<text>待ち伏せの発生確率判定を省略し、死亡するたびに待ち伏せを発生させます。</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_remove_default_scenario">
+		<text>デフォルトシナリオを除外</text>
 	</string>
     <string id="ui_mcm_soulslike_items_outfit_loss_chance">
         <text>スーツの紛失確率</text>
@@ -338,6 +374,9 @@
     <string id="ui_mcm_soulslike_ignored_items_device_pda">
         <text>PDA</text>
     </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_0">
+        <text>PDA 0</text>
+    </string>
     <string id="ui_mcm_soulslike_ignored_items_device_pda_1">
         <text>PDA 1</text>
     </string>
@@ -346,6 +385,18 @@
     </string>
     <string id="ui_mcm_soulslike_ignored_items_device_pda_3">
         <text>PDA 3</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_4">
+        <text>PDA 4</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_getac">
+        <text>GETAC PDA</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_milspec">
+        <text>ミルスペックPDA</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_kulon">
+        <text>Kulon PDA</text>
     </string>
     <string id="ui_mcm_soulslike_ignored_items_detector_radio">
         <text>RF受信機</text>
@@ -391,6 +442,12 @@
     </string>
     <string id="ui_mcm_soulslike_ignored_items_medkit">
         <text>医療キット</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_other">
+        <text>その他のアイテム</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_other_desc">
+        <text>無視するアイテムIDをカンマ区切りで指定します。</text>
     </string>
     <string id="ui_mcm_soulslike_character_allow_nighttime_respawn">
         <text>夜間の復活を許可する</text>
