@@ -2310,11 +2310,17 @@
   <string id="ui_mcm_ap_economy_market_market_item_condition_desc">
     <text>マーケットに並ぶ商品の耐久値を設定します。1.00で新品、値を下げるほど使い古された状態で出品されます。</text>
   </string>
+  <string id="ui_mcm_ap_economy_market_market_trader_sell_floor">
+    <text>トレーダー在庫の最低売り切れ率</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_trader_sell_floor_desc">
+    <text>補充時に新しい在庫から除外する最低割合を設定します。アイテムの種類ごとに最低値から最大値の範囲で割合がランダムに決まり、どの種類も在庫が完全に残ることはありません。最大値を超える値を設定した場合は、最大値が適用されます。</text>
+  </string>
   <string id="ui_mcm_ap_economy_market_market_trader_sell_percent">
-    <text>トレーダー在庫の売り切れ率（%）</text>
+    <text>トレーダー在庫の最大売り切れ率</text>
   </string>
   <string id="ui_mcm_ap_economy_market_market_trader_sell_percent_desc">
-    <text>トレーダーが最近所属派閥のストーカーに販売したアイテムについて、補充時に新しい在庫から除外する割合を設定します。ポリシーファイルで指定された弾薬と医療品にのみ適用されます。値が低い場合は希少な在庫も残りやすくなり、100%に設定すると対象アイテムがすべて在庫から除外されます。</text>
+    <text>補充時に新しい在庫から除外する最大割合を設定します。アイテムの種類ごとに最低値から最大値の範囲で割合がランダムに決まり、補充のたびに在庫の減少量が変わります。ポリシーファイルで指定された基本物資にのみ適用されます。100%に設定すると、対象アイテムの在庫が完全になくなる場合があります。</text>
   </string>
   <string id="st_ap_reset_all_done">
     <text>AlifePlus: すべての設定を既定値に戻しました。</text>

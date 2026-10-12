@@ -15,10 +15,10 @@
     <text>#trader#が#item#を入荷したって話だ。すぐ売り切れそうだな。</text>
   </string>
   <string id="st_ap_chatter_market_003">
-    <text>#trader#が#item#を扱ってるって聞いたぞ。</text>
+    <text>#trader#のところに#item#があるって聞いたぞ。</text>
   </string>
   <string id="st_ap_chatter_market_004">
-    <text>#location#の#trader#に#item#が入荷したらしい。</text>
+    <text>#location#の#trader#が#item#を仕入れたらしい。</text>
   </string>
   <string id="st_ap_chatter_market_005">
     <text>#trader#が#item#を入荷した。なくなる前に見に行ったほうがいいぜ。</text>
@@ -38,5 +38,74 @@
   </string>
   <string id="st_ap_chatter_market_short_005">
     <text>#trader#の#item#はもう底を突きそうだ。他を当たるんだな。</text>
+  </string>
+
+  <string id="st_ap_chatter_barter_001">
+    <text>すっからかんの仲間に、余っていた#item#を譲ってやった。</text>
+  </string>
+  <string id="st_ap_chatter_barter_002">
+    <text>分隊の仲間に#item#を譲った。ここじゃ仲間同士で助け合うもんだ。</text>
+  </string>
+  <string id="st_ap_chatter_barter_003">
+    <text>#item#を手放すことになったが、代わりに必要な物が手に入った。お互い様だな。</text>
+  </string>
+  <string id="st_ap_chatter_barter_004">
+    <text>#item#を仲間に譲った。丸腰同然でゾーンを歩かせるわけにはいかないからな。</text>
+  </string>
+  <string id="st_ap_chatter_barter_005">
+    <text>#item#を仲間と分け合った。ここでは互いに装備を整え合わないとな。</text>
+  </string>
+
+  <string id="st_ap_chatter_trade_sold_001">
+    <text>ついに#location#の#trader#に戦利品を全部売り払った。
+    \nああ、ポケットから小銭の音が聞こえるぜ。</text>
+  </string>
+  <string id="st_ap_chatter_trade_sold_002">
+    <text>#trader#の店でバックパックを空にしてきた。身軽になったし、久々に懐も潤ったな。</text>
+  </string>
+  <string id="st_ap_chatter_trade_sold_003">
+    <text>#location#の#trader#にガラクタの山を担ぎ込んでやった。
+    \n全部売り払って、ルーブルをたんまり手に入れたぜ。</text>
+  </string>
+  <string id="st_ap_chatter_trade_sold_004">
+    <text>ゾーンで手に入れた戦利品を全部#trader#に売り払った。今回はいい稼ぎになったな。</text>
+  </string>
+  <string id="st_ap_chatter_trade_sold_005">
+    <text>#location#の#trader#に戦利品をありったけ売り払った。
+    \nバックパックはすっからかんだが、ポケットにはルーブルがつまってるぜ。</text>
+  </string>
+
+  <string id="st_ap_chatter_trade_bought_001">
+    <text>#trader#の店で弾薬と包帯を買い込んだ。これで何が出てきても安心だな。</text>
+  </string>
+  <string id="st_ap_chatter_trade_bought_002">
+    <text>#location#にある#trader#の店で物資を補充してきた。
+    \n装備も整ったし、長丁場でもドンと来いだ。</text>
+  </string>
+  <string id="st_ap_chatter_trade_bought_003">
+    <text>#trader#の店で稼ぎを全部物資に注ぎ込んじまったが、1ルーブルたりとも惜しくはないな。</text>
+  </string>
+  <string id="st_ap_chatter_trade_bought_004">
+    <text>#location#にある#trader#の店で必要な物を一通り揃えてきた。
+    \nもう物資不足で出かけるなんてヘマはしないさ。</text>
+  </string>
+  <string id="st_ap_chatter_trade_bought_005">
+    <text>手持ちの金を#trader#の店で使い切ったところだ。道中に備えて弾薬と医薬品は確保したぜ。</text>
+  </string>
+
+  <string id="st_ap_chatter_loot_001">
+    <text>転がってた死体から#item#を回収した。まだ温かかったな。</text>
+  </string>
+  <string id="st_ap_chatter_loot_002">
+    <text>死体から#item#を剥ぎ取ってやった。死人には用がない代物だからな。</text>
+  </string>
+  <string id="st_ap_chatter_loot_003">
+    <text>仕留めた獲物から#item#を回収した。しっかり漁る者にゾーンは微笑むのさ。</text>
+  </string>
+  <string id="st_ap_chatter_loot_004">
+    <text>死体から#item#を奪った。物を無駄にするわけにはいかないからな。</text>
+  </string>
+  <string id="st_ap_chatter_loot_005">
+    <text>冷たくなった奴から#item#を拝借した。あいつにはもう必要ないだろう。</text>
   </string>
 </string_table>
