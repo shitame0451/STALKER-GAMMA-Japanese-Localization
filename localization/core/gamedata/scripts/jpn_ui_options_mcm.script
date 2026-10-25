@@ -10,7 +10,7 @@ local function add_japanese()
 				for _, lang in ipairs(entry.content or {}) do
 					if lang[1] == "jpn" then return end
 				end
-				table.insert(entry.content, {"jpn"})
+				entry.content[#entry.content+1] = {"jpn"}
 				return
 			end
 		end
