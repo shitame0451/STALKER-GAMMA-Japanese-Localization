@@ -49,25 +49,25 @@
 		<text>オフセット照準の位置と見た目を調整する画面を開けるようにします。</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher">
-		<text>サイトを透過表示</text>
+		<text>サイトの透過効果</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_desc">
 		<text>透過サイト機能の一括設定。無効にすると、すべてのサイト、スコープ、アイアンサイトの透過効果が無効になります。</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_scopes">
-		<text>スコープ本体を透過</text>
+		<text>スコープの透過</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_scopes_desc">
 		<text>スコープに透過効果を適用します。両眼照準のシミュレーションが無効の場合、この設定は効果がありません。</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_sights">
-		<text>ドットサイト本体を透過</text>
+		<text>ドットサイトの透過</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_sights_desc">
 		<text>サイトに透過効果を適用します。両眼照準のシミュレーションが無効の場合、この設定は効果がありません。</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_rear_irons">
-		<text>リアアイアンサイトを透過</text>
+		<text>リアアイアンサイトの透過</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_shader_switcher_rear_irons_desc">
 		<text>アイアンサイトに透過効果を適用します。両眼照準のシミュレーションが無効の場合、この設定は効果がありません。</text>

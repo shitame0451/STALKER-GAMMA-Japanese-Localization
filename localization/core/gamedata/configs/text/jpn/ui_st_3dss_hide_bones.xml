@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <string_table>
 	<string id="st_3dss_hide_laser">
-		<text>レーザーを隠す</text>
+		<text>レーザーを非表示</text>
 	</string>
 	<string id="st_3dss_show_laser">
 		<text>レーザーを表示</text>
 	</string>
 	<string id="st_3dss_hide_laser_mount">
-		<text>レールを隠す</text>
+		<text>レールを非表示</text>
 	</string>
 	<string id="st_3dss_show_laser_mount">
 		<text>レールを表示</text>
 	</string>
 	<string id="st_3dss_hide_rail_cover">
-		<text>レールカバーを隠す</text>
+		<text>レールカバーを非表示</text>
 	</string>
 	<string id="st_3dss_show_rail_cover">
 		<text>レールカバーを表示</text>
 	</string>
 	<string id="st_3dss_hide_rail_cover_l">
-		<text>左側のカバーを隠す</text>
+		<text>左カバーを非表示</text>
 	</string>
 	<string id="st_3dss_show_rail_cover_l">
-		<text>左側のカバーを表示</text>
+		<text>左カバーを表示</text>
 	</string>
 	<string id="st_3dss_hide_rail_cover_r">
-		<text>右側のカバーを隠す</text>
+		<text>右カバーを非表示</text>
 	</string>
 	<string id="st_3dss_show_rail_cover_r">
-		<text>右側のカバーを表示</text>
+		<text>右カバーを表示</text>
 	</string>	
 	<string id="st_3dss_hide_irons_off">
-		<text>アイアンサイトを隠す</text>
+		<text>アイアンサイトを非表示</text>
 	</string>
 	<string id="st_3dss_show_irons_off">
 		<text>アイアンサイトを表示</text>
