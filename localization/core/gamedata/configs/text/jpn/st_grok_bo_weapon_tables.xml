@@ -2,10 +2,10 @@
 
 <string_table>
 	<string id="st_grok_bo_sniper_penetration">
-		<text>\n %c[d_orange] • 貫通力上昇: +5\n \n</text>
+		<text>%c[d_orange] %c[d_orange] • 貫通力上昇: +5\n \n</text>
 	</string>
 	<string id="st_grok_bo_lmg_penetration">
-		<text>\n %c[d_orange] • 貫通力上昇: +3\n \n</text>
+		<text>%c[d_orange] %c[d_orange] • 貫通力上昇: +3\n \n</text>
 	</string>
 	<string id="ui_mcm_menu_grok_bo_weapon_tables">
 		<text>Expanded Penetration</text>		
