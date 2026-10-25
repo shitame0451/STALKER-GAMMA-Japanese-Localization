@@ -148,6 +148,7 @@ then
 	local original_UIInfoItem_Update = utils_ui.UIInfoItem.Update
 	utils_ui.UIInfoItem.Update = function(self, obj, sec, flags, ...)
 		-- 同一アイテムの再表示で余白が累積しないよう、前回追加分を先に戻す
+		local ipairs_ = ipairs
 		if self
 			and self._jp_bottom_padding
 			and self.frame
@@ -173,7 +174,7 @@ then
 			and self.stats_dialog.SetWndSize
 		then
 			local stats_y_offset = self._jp_stats_y_offset or 0
-			for _, shifted in ipairs(self._jp_stats_shifted_content or {}) do
+			for _, shifted in ipairs_(self._jp_stats_shifted_content or {}) do
 				shift_content_entry(shifted.entry, -shifted.offset)
 			end
 
@@ -218,7 +219,7 @@ then
 			and self.stats_dialog.IsShown
 			and self.stats_dialog:IsShown()
 		then
-			for _, ele in ipairs(self.stats) do
+			for _, ele in ipairs_(self.stats) do
 				if ele.base and ele.base.IsShown and ele.base:IsShown() then
 					has_visible_stats = true
 					break
@@ -306,7 +307,7 @@ then
 			local needs_reflow = false
 			local layout_anchor = self.stats_dialog
 
-			for _, entry in ipairs(content) do
+			for _, entry in ipairs_(content) do
 				local wnd = entry[1]
 				local label = entry[2]
 				if wnd
@@ -333,7 +334,7 @@ then
 
 			if needs_reflow then
 				local layout_anchor = self.stats_dialog
-				for _, entry in ipairs(content) do
+				for _, entry in ipairs_(content) do
 					local wnd = entry[1]
 					local label = entry[2]
 					if wnd and wnd.IsShown and wnd:IsShown() then
@@ -436,7 +437,7 @@ then
 
 		-- ステータスの位置調整
 		if self and self.stats then
-			for i, ele in ipairs(self.stats) do
+			for i, ele in ipairs_(self.stats) do
 				-- 項目名。上下位置を調整する場合は、下の2を変更する
 				if ele.cap and ele.cap:IsShown() and not moved_stats_cap[ele.cap] then
 					local pos = ele.cap:GetWndPos()
@@ -477,7 +478,7 @@ then
 				{self.cooking},
 			}
 
-			for _, entry in ipairs(content) do
+			for _, entry in ipairs_(content) do
 				local wnd = entry[1]
 				if wnd
 					and wnd.IsShown
