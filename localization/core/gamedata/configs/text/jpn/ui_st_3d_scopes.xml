@@ -85,7 +85,7 @@
 		<text>武器のインベントリ欄に、スクリプト式アタッチメント用のスロット枠とアイコンを表示します。</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_attachment_strip_occupied_only">
-		<text>装着済みのアタッチメント枠だけ表示</text>
+		<text>装着済みのアタッチメント枠のみ表示</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_scope_settings_attachment_strip_occupied_only_desc">
 		<text>空のスクリプト式アタッチメント枠を隠し、装着済みのアタッチメントを左上に詰めて表示します。</text>
@@ -211,16 +211,16 @@
 		<text>%c[d_cyan] • %c[0,255,255,255]NVGと併用可能</text>
 	</string>
 	<string id="st_3dss_silencer_condition">
-		<text>%c[0,255,255,255]サプレッサー耐久度:</text>
+		<text>%c[0,255,255,255]サプレッサー耐久値:</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_silencer_wear">
 		<text>サプレッサーの摩耗</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_silencer_wear_silencer_wear_enabled">
-		<text>サプレッサーの耐久度変化を有効化</text>
+		<text>サプレッサーの耐久値変化を有効化</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_silencer_wear_silencer_wear_enabled_desc">
-		<text>耐久度低下、ボーナス減少、武器パーツの追加摩耗、破損による脱落を有効にします。無効にすると現在の耐久度は維持されますが、その他のボーナスとペナルティはすべて元に戻ります。</text>
+		<text>耐久値低下、ボーナス減少、武器パーツの追加摩耗、破損による脱落を有効にします。無効にすると現在の耐久値は維持されますが、その他のボーナスとペナルティはすべて元に戻ります。</text>
 	</string>
 	<string id="ui_mcm_3d_scopes_idle_animations">
 		<text>待機アニメーション</text>
