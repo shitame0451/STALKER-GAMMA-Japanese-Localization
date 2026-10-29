@@ -1,0 +1,42 @@
+-- zzz_hunters_guide.script
+
+-- ===================================================================
+--  Hunters Hub独自の移動先料金をカンマ区切り
+-- ===================================================================
+if not zzz_hunters_guide
+or type(zzz_hunters_guide.text_travel_to_bunker) ~= "function"
+or type(zzz_hunters_guide.text_travel_to_rf_hub) ~= "function"
+or type(zzz_hunters_guide.text_travel_to_farm) ~= "function"
+then
+	return
+end
+
+local original_text_travel_to_bunker = zzz_hunters_guide.text_travel_to_bunker
+
+zzz_hunters_guide.text_travel_to_bunker = function(a, b, ...)
+	local text = original_text_travel_to_bunker(a, b, ...)
+	text = text:gsub("(%d+)", function(amount)
+		return japanese_patch.commas_to_number(amount)
+	end, 1)
+	return text
+end
+
+local original_text_travel_to_rf_hub = zzz_hunters_guide.text_travel_to_rf_hub
+
+zzz_hunters_guide.text_travel_to_rf_hub = function(a, b, ...)
+	local text = original_text_travel_to_rf_hub(a, b, ...)
+	text = text:gsub("(%d+)", function(amount)
+		return japanese_patch.commas_to_number(amount)
+	end, 1)
+	return text
+end
+
+local original_text_travel_to_farm = zzz_hunters_guide.text_travel_to_farm
+
+zzz_hunters_guide.text_travel_to_farm = function(a, b, ...)
+	local text = original_text_travel_to_farm(a, b, ...)
+	text = text:gsub("(%d+)", function(amount)
+		return japanese_patch.commas_to_number(amount)
+	end, 1)
+	return text
+end

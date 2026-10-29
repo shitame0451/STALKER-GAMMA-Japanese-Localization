@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<string_table>
+
+<string id="ui_mcm_menu_hunters_hub">
+    <text>Hunters Hub</text>
+</string>
+
+<string id="ui_mcm_hunters_hub_radio">
+    <text>ハブ内のラジオ</text>
+</string>
+
+<string id="ui_mcm_hunters_hub_radio_desc">
+    <text>このModがハブに設置したラジオのオン／オフを切り替えます。ゾーン内のほかのラジオには影響しません。MCMがない場合は、コンソールコマンド「hunters_radio」で現在のセーブデータに対して同じ操作ができます。</text>
+</string>
+
+<string id="ui_mcm_hunters_hub_uninstall">
+    <text>安全なアンインストール</text>
+</string>
+
+<string id="ui_mcm_hunters_hub_uninstall_desc">
+    <text>このModがセーブデータに追加したものをすべて取り除きます（住人、彼らの座席、家具、2つの移動ポイント、タスク、そしてクエストによって残されたものすべて）。チェックを入れて適用した後、セーブしてからModフォルダを削除してください。これを行わずにフォルダを削除すると、ゲームが再生成できないオブジェクトがセーブデータに残り、セーブデータを読み込めなくなります。</text>
+</string>
+
+<string id="ui_mcm_hunters_hub_report">
+    <text>診断レポート</text>
+</string>
+
+<string id="ui_mcm_hunters_hub_report_desc">
+    <text>このModがセーブデータに保持しているすべての情報を、1つのブロックにまとめてログへ出力します（住人、彼らの座席、家具、2つの移動ポイント、すべてのクエストとそのタスク）。ログは読み取り専用で、何も変更しません。チェックを入れて適用した後、チェックを外し、バグ報告にログを添付してください。</text>
+</string>
+
+</string_table>

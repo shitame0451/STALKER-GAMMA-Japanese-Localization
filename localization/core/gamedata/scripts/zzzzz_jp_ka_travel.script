@@ -1,0 +1,21 @@
+-- ka_travel.script
+
+-- ===================================================================
+--  text_travel_cost_for （移動料金のカンマ区切り）
+--  unlocalizerでグローバル化
+-- ===================================================================
+if not ka_travel
+or type(ka_travel.text_travel_cost_for) ~= "function"
+then
+	return
+end
+
+local original_text_travel_cost_for = ka_travel.text_travel_cost_for
+
+ka_travel.text_travel_cost_for = function(smart_key, ...)
+	local text = original_text_travel_cost_for(smart_key, ...)
+	text = text:gsub("(%d+)", function(amount)
+		return japanese_patch.commas_to_number(amount)
+	end, 1)
+	return text
+end

@@ -679,7 +679,7 @@
 		<text>モノリス戦争研究所</text>
 	</string>
 	<string id="ka_travel_dialog_ask">
-		<text>ちょっと旅をする用事があるんだが･･････ 手配してもらえないか？</text>
+		<text>行きたい場所があるんだが･･････ 手配してもらえるか？</text>
 	</string>
 	<string id="ka_travel_dialog_response">
 		<text>もちろんだ。どこへ行きたい？</text>
@@ -688,43 +688,43 @@
 		<text>やっぱりやめておく。</text>
 	</string>
 	<string id="ka_travel_dialog_accept">
-		<text>いいね。</text>
+		<text>それで頼む。</text>
 	</string>
 	<string id="ka_travel_dialog_change">
-		<text>実は別の場所に行きたくてな･･････</text>
+		<text>行き先を変えたい。</text>
 	</string>
 	<string id="ka_travel_dialog_deny">
 		<text>ちょっと高いな。</text>
 	</string>
 	<string id="ka_travel_dialog_cost">
-		<text>料金は%sルーブルかかる。</text>
+		<text>料金は%sルーブルだ。</text>
 	</string>
 	<string id="ka_travel_dialog_zaton">
-		<text>ザトンにあるスカドフスク</text>
+		<text>ザトンのスカドフスクへ。</text>
 	</string>
 	<string id="ka_travel_dialog_jupiter">
-		<text>ジュピターにあるヤノフ駅</text>
+		<text>ジュピターのヤノフ駅へ。</text>
 	</string>
 	<string id="ka_travel_dialog_yantar">
-		<text>ヤンターにある科学研究所</text>
+		<text>ヤンターの移動研究所へ。</text>
 	</string>
 	<string id="ka_travel_dialog_cordon">
-		<text>コードンにあるルーキー村</text>
+		<text>コードンのルーキー村へ。</text>
 	</string>
 	<string id="ka_travel_dialog_bar">
-		<text>ロストクにあるバー</text>
+		<text>ロストクのバーへ。</text>
 	</string>
 	<string id="ka_travel_dialog_warehouses">
-		<text>陸軍倉庫にあるFreedom本部</text>
+		<text>陸軍倉庫のFreedom本部へ。</text>
 	</string>
 	<string id="ka_travel_dialog_city">
-		<text>デッドシティにあるMercenary基地</text>
+		<text>デッドシティのMercenary基地へ。</text>
 	</string>
 	<string id="ka_travel_dialog_agroprom">
-		<text>アグロプロムにあるMilitaryの基地</text>
+		<text>アグロプロムのMilitary基地へ。</text>
 	</string>
 	<string id="ka_travel_dialog_swamp">
-		<text>グレートスワンプにあるClear Sky基地</text>
+		<text>グレートスワンプのClear Sky基地へ。</text>
 	</string>
 	<string id="about_quests_dialog_bandit_0">
 		<text>最近ここでニュースを聞いたことないか？</text>

@@ -1,0 +1,1451 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<string_table>
+
+<string id="hunters_medic_name">
+    <text>ソーボーンズ</text>
+</string>
+
+<string id="hunters_medic_greet_0">
+    <text>ケガしたのか？座れ、診てやる。</text>
+</string>
+
+<string id="hunters_medic_greet_1">
+    <text>今のところ無事だ。気遣いどうも。</text>
+</string>
+
+<string id="hunters_trader_name">
+    <text>クランチ</text>
+</string>
+
+<string id="hunters_trader_greet_0">
+    <text>毛皮、尻尾、爪。何を持ってきた？</text>
+</string>
+
+<string id="hunters_trader_greet_1">
+    <text>今は見てるだけだ。</text>
+</string>
+
+<string id="hunters_story_name">
+    <text>レシー</text>
+</string>
+
+<string id="hunters_story_greet_0">
+    <text>この辺りの人間じゃないな。何の用だ？</text>
+</string>
+
+<string id="hunters_story_greet_1">
+    <text>ちょっと見て回ってるだけだ。</text>
+</string>
+
+<string id="hunters_intro_0">
+    <text>やあ。</text>
+</string>
+
+<string id="hunters_intro_1">
+    <text>ストーカー、初めて見る顔だな。ここにいる奴は少ないし、みんな顔見知りだ。
+    \nそうでなきゃ、この辺じゃ長生きできない。さて、何の用でここまで来た？</text>
+</string>
+
+<string id="hunters_intro_2">
+    <text>ここはなかなか悪くない、居心地のよさそうな拠点だな。俺は仕事を探している。
+    \n最近、ストーカーがここをよく通るって聞いてな。何があるのか見に来たんだ。
+    \nあんたはどうしてこんなところに居座ってる？
+    \nアーティファクトの大当たりでも引いたのか、それともブーツの倉庫でも見つけたのか？</text>
+</string>
+
+<string id="hunters_intro_3">
+    <text>面白いことに、ここじゃアーティファクトなんてほとんど見つからない。ブーツもな。
+    \n知ってるだろ？昔みたいな代物はもう作られちゃいない。靴底なんて一週間でダメになる。
+    \nだが、獣ならいくらでもいるぜ。ここは自然保護区みたいなもんだ。
+    \n科学者と取引があってな、直接物資を流してる。珍しい部位を手に入れたがってるからな。
+    \n連中がそれなりの値段を払ってくれるなら、こっちも喜んで提供するってわけだ。</text>
+</string>
+
+<string id="hunters_intro_4">
+    <text>悪くない話だ。尻尾や毛皮を売るのか？</text>
+</string>
+
+<string id="hunters_intro_5">
+    <text>そう簡単な話ならいいがな。あまり深く考えない方がいい部位を頼まれることもある。
+    \nだが心配するな、犬狩りばかりってわけじゃない･･････ まあ、それもかなり多いがな。
+    \nもっと厄介な奴らもいる。茂みの向こうには何が潜んでるか分からない。
+    \nボアかコントローラーか、知ってるのは神様だけだ。</text>
+</string>
+
+<string id="hunters_intro_6">
+    <text>そうか･･････ ここまで来ない方がよかったかもな。</text>
+</string>
+
+<string id="hunters_intro_7">
+    <text>そう気にするな。大事なのはお互いに助け合うことだ。まずは簡単な仕事を頼みたい。
+    \n依頼人が欲しがってるのはスードウドッグの尻尾だ。近くで群れがうろついていてな。
+    \nやってみるか？報酬はそれなりに弾むぞ。</text>
+</string>
+
+<string id="hunters_intro_8">
+    <text>やろう。ここで受け入れてもらうには、まず稼がないとな。</text>
+</string>
+
+<string id="hunters_intro_9">
+    <text>よし、これが座標だ。足元に気をつけろよ。
+    \nそれと、むやみに引き金を引くな。常に周囲に目を配って耳も澄ませておけ。</text>
+</string>
+
+<string id="hunters_intro_10">
+    <text>心配するな、ちゃんと尻尾を持って帰ってくるさ。</text>
+</string>
+
+<string id="hunters_guide_name">
+    <text>ヴァショク・ピルグリム</text>
+</string>
+
+<string id="hunters_guide_greet_0">
+    <text>この辺の道なら詳しいぞ。遠くに行きたいのか？</text>
+</string>
+
+<string id="hunters_guide_greet_1">
+    <text>今はどこにも行く予定はない。</text>
+</string>
+
+<string id="hunters_sim_guard_north_name">
+    <text>バルディ・ユレツ</text>
+</string>
+
+<string id="hunters_sim_guard_west_name">
+    <text>ローマ・リング</text>
+</string>
+
+<string id="hunters_sim_guard_patrol_name">
+    <text>カツレツ</text>
+</string>
+
+<string id="hunters_story_task_1_name">
+    <text>角と蹄</text>
+</string>
+
+<string id="hunters_story_task_1_text">
+    <text>レシーはスードウドッグの尻尾の注文を受けたらしい。近くを群れがうろついている。群れを探し出してリーダーを倒し、尻尾を切り取らなくては。</text>
+</string>
+
+<string id="hunters_story_task_1_about">
+    <text>依頼人がスードウドッグの尻尾を欲しがってる。近くで群れがうろついていてな。
+    \n尻尾を持ってきてくれれば、報酬は弾むぞ。</text>
+</string>
+
+<string id="hunters_story_task_1_text_2">
+    <text>群れのリーダーの尻尾を手に入れた。農場のレシーに届けよう。</text>
+</string>
+
+<string id="hunters_q1_trophy_name">
+    <text>群れのリーダーの尻尾</text>
+</string>
+
+<string id="hunters_q1_trophy_descr">
+    <text>農場近くの群れを率いていたスードウドッグの尻尾。なぜかレシーは、この個体のものを特に欲しがっていた。</text>
+</string>
+
+<string id="hunters_q1_hand_0">
+    <text>ほら、約束の角と蹄だ。</text>
+</string>
+
+<string id="hunters_q1_hand_1">
+    <text>悪くない。仕事は早いし、無傷で戻ってきた。これならうまくやっていけそうだな。
+    \n次の仕事は少し危険だぞ。近くのガソリンスタンドにスノークが住み着いてな。
+    \nダークスケープはトンネルだらけで、全部崩落したって話だが･･････
+    \nどういうわけか、あいつらは毎度どこかから這い出してくる。
+    \nまあ、文句を言っても仕方ない。これが俺たちの稼ぎの種だからな。
+    \nあいつらのマスクを一つ持ってきてほしいんだ。やれるか？</text>
+</string>
+
+<string id="hunters_q1_hand_2">
+    <text>スノークは楽な相手じゃないぞ。何体いるんだ？</text>
+</string>
+
+<string id="hunters_q1_hand_3">
+    <text>5体は確実に見たな。だが、犬のときより多めに払うぜ。当然だろ。</text>
+</string>
+
+<string id="hunters_q1_hand_4">
+    <text>ここまで来たらやるしかないな･･････ よし、片付けてくる。</text>
+</string>
+
+<string id="hunters_story_task_2_name">
+    <text>半分はカニ、もう半分は･･････</text>
+</string>
+
+<string id="hunters_story_task_2_text">
+    <text>近くのガソリンスタンドにスノークが5体ほど住み着いた。レシーはその化け物のマスクを欲しがっていて、犬の尻尾を持ってきたときよりも報酬を弾むと約束した。</text>
+</string>
+
+<string id="hunters_story_task_2_text_2">
+    <text>スノークのマスクを手に入れた。農場のレシーに届けよう。</text>
+</string>
+
+<string id="hunters_story_task_2_about">
+    <text>近くのガソリンスタンドにスノークが住み着いてな。5体は確実に見た。
+    \nあの化け物のマスクを一つ持ってきてくれ。犬のときより多く払うぜ、当然だ。</text>
+</string>
+
+<string id="hunters_q2_trophy_name">
+    <text>スノークのリーダーのマスク</text>
+</string>
+
+<string id="hunters_q2_trophy_descr">
+    <text>古いガソリンスタンドに潜む群れを率いていたスノークのマスク。</text>
+</string>
+
+<string id="hunters_q2_hand_0">
+    <text>ふう･･････ とんでもない戦いだった。ほら、頼まれたものだ。</text>
+</string>
+
+<string id="hunters_q2_hand_1">
+    <text>はは、やるじゃないか！苦労して稼いだ報酬だ。</text>
+</string>
+
+<string id="hunters_q2_hand_2">
+    <text>助かるよ。次は何だ？キメラと友達にでもなるか？</text>
+</string>
+
+<string id="hunters_q2_hand_3">
+    <text>この辺りでキメラを見たことはないな。だが、さっき北の方から救難信号が届いた。
+    \n知らないストーカーたちからだ。内容はよく聞き取れなかったが、かなり慌てた様子だぞ。
+    \n様子を見に行った方がいいな。心配するな、お前一人で行かせるつもりはない。
+    \n何人かストーカーが偵察を引き受けてくれた。お前が足手まといになることもないだろう。
+    \n準備はいいか？</text>
+</string>
+
+<string id="hunters_q2_hand_4">
+    <text>準備はできてる。大勢で行ったほうが安心だしな。</text>
+</string>
+
+<string id="hunters_story_task_3_name">
+    <text>救難信号</text>
+</string>
+
+<string id="hunters_story_task_3_text">
+    <text>北の方から、知らないストーカーたちの救難信号が届いた。内容はほとんど判読できない。現地で何が起きたのか確認するべきだろう。レシーの指示で偵察に向かうストーカーの一団に同行することになった。</text>
+</string>
+
+<string id="hunters_story_task_3_text_2">
+    <text>助けを求めていたのはストーカーではなく、Banditだった。そして、キメラのほうが先に奴らを見つけたらしい。死体から回収したPDAをレシーに届けよう。</text>
+</string>
+
+<string id="hunters_story_task_3_about">
+    <text>北の方から、知らないストーカーたちの救難信号が届いた。
+    \n内容はよく聞き取れなかったが、かなり慌てているようだった。様子を見てきてくれ。
+    \n何人かが一緒に偵察に行くことを引き受けてくれた。お前一人で行かせるつもりはないさ。</text>
+</string>
+
+<string id="hunters_q3_pda_name">
+    <text>Banditの死体から回収したPDA</text>
+</string>
+
+<string id="hunters_q3_pda_descr">
+    <text>キメラに襲われたBanditの一人から回収したもの。ロックされている。</text>
+</string>
+
+<string id="hunters_q3_hand_0">
+    <text>キメラを見たことはないって言ってたよな？</text>
+</string>
+
+<string id="hunters_q3_hand_1">
+    <text>冗談だろ？</text>
+</string>
+
+<string id="hunters_q3_hand_2">
+    <text>冗談じゃない。首を食いちぎられかけたが、奇跡的に生きて帰ってきた。
+    \nそれと、あんたが言ってた「ストーカー」だが･･････ あれはBanditだったぞ。
+    \n俺たちが着いた頃には、すでにキメラが一人食い散らかしていた。
+    \nそいつからPDAを拾ってきたんだ。何か使える情報が入ってるかもしれない。</text>
+</string>
+
+<string id="hunters_q3_hand_3">
+    <text>クソ･･････ こんな結果になって悪かったな。だが、俺にどうしろっていうんだ？
+    \nそんなこと知りようがないだろ･･････ ほら、報酬だ。迷惑をかけた分も上乗せしてある。
+    \nこれで貸し借りなしってことでいいか？PDAを調べて、ロックを破れるか試してみよう。
+    \nそういえば、昨日の夜に丘の上で何か光ってるのが見えたんだ。
+    \nもしかしたら、この前のエミッションで生まれたアーティファクトかもしれない。
+    \n俺がPDAを調べてる間に、ちょっと見てきてくれよ。何か見つけたら報酬を払う。</text>
+</string>
+
+<string id="hunters_q3_hand_4">
+    <text>分かった、すぐ戻る。</text>
+</string>
+
+<string id="hunters_story_task_4_name">
+    <text>ホタル</text>
+</string>
+
+<string id="hunters_story_task_4_text">
+    <text>昨夜、レシーが丘の上で光を見たらしい。前回のエミッションの後に出たアーティファクトかもしれない。何かあるか確かめて、見つけたら回収しよう。</text>
+</string>
+
+<string id="hunters_story_task_4_text_2">
+    <text>「モス」アーティファクトを手に入れた。農場のレシーに届けよう。</text>
+</string>
+
+<string id="hunters_story_task_4_about">
+    <text>昨日の夜、丘の上で何か光ってるのが見えたんだ。
+    \nもしかしたら、この前のエミッションで生まれたアーティファクトかもしれない。
+    \nちょっと見てきてくれよ。何か見つけたら報酬を払う。</text>
+</string>
+
+<string id="hunters_q4_hand_0">
+    <text>ほら、「モス」を見つけてきたぞ。もう終わったか？</text>
+</string>
+
+<string id="hunters_q4_hand_1">
+    <text>「モス」？それは･･････ いや、面白いな。</text>
+</string>
+
+<string id="hunters_q4_hand_2">
+    <text>どういう意味だ？</text>
+</string>
+
+<string id="hunters_q4_hand_3">
+    <text>ん？いいや、何でもない。
+    \nPDAのロックを破ったぞ。だが、あまりいい知らせじゃない。誰かに監視されてる。</text>
+</string>
+
+<string id="hunters_q4_hand_4">
+    <text>誰が、何のために？Banditか？</text>
+</string>
+
+<string id="hunters_q4_hand_5">
+    <text>Banditだ。だが、それだけじゃない。もう一つ、正体の分からない集団もいる。
+    \n理由は知らねえな。俺たちの商売があまりにもうまくいってるから、妬んでるのかもな。
+    \nあるいは、漁れるものを探してるだけかもしれん。いずれにせよ、放ってはおけないな。
+    \n奴らのPDAに信号を送って、RF受信機に信号を繋いでおいた。
+    \nあとは正しい周波数に合わせて、そいつらの居場所を突き止めてくれ。</text>
+</string>
+
+<string id="hunters_q4_hand_6">
+    <text>俺が行くのか？</text>
+</string>
+
+<string id="hunters_q4_hand_7">
+    <text>他に誰がいるっていうんだ。俺たちは運命共同体だろ？
+    \n援護を送れば、連中がやって来るのを見つけやすくなる。逃げ出すか、仕留められるか。
+    \n･･････まあ、どちらかだな。俺からの助言は夕暮れに行くことだ。一人なら不意を突けるさ。
+    \nお前が北で見つけた集団は単独行動だったんだろうが、今度の二組は西のどこかにいる。
+    \nそこから探し始めろ。これがRF受信機だ。周波数はPDAに送っておくからな。
+    \nさあ行ってこい、気をつけろよ。</text>
+</string>
+
+<string id="hunters_q4_hand_8">
+    <text>ああ･･････ とんでもないことに首を突っ込んでしまったな･･････</text>
+</string>
+
+<string id="hunters_story_task_5_name">
+    <text>監視する者たち</text>
+</string>
+
+<string id="hunters_story_task_5_text">
+    <text>農場を監視している集団が2つある。Banditと正体不明の集団だ。レシーが奴らのPDAに信号を送ってRF受信機に繋ぎ、周波数を送ってきた。Banditは87MHz、正体不明の集団は142MHzだ。周波数を合わせ、西の方で両方の集団を見つけてPDAを奪おう。レシーは夕暮れに一人で行くのが良いと言っていた。</text>
+</string>
+
+<string id="hunters_story_task_5_text_2">
+    <text>PDAは2つとも手に入れた。農場のレシーに届けよう。</text>
+</string>
+
+<string id="hunters_story_task_5_about">
+    <text>奴らのPDAに信号を送って、RF受信機に繋いでおいた。
+    \nBanditが87MHz、正体不明の集団が142MHzだ。奴らの周波数を追跡してくれ。
+    \n連中は西のどこかにいるはずだ。夕暮れ時に行くといい、一人なら不意を突けるだろう。</text>
+</string>
+
+<string id="hunters_q5_pda_bandit_name">
+    <text>BanditグループのPDA</text>
+</string>
+
+<string id="hunters_q5_pda_bandit_descr">
+    <text>周波数87MHzを使っていたBanditから回収したもの。農場の監視記録がメモリに残っている。</text>
+</string>
+
+<string id="hunters_q5_pda_merc_name">
+    <text>MercenaryグループのPDA</text>
+</string>
+
+<string id="hunters_q5_pda_merc_descr">
+    <text>周波数142MHzを使っていたMercenaryから回収したもの。BanditのPDAと同じ記録が残されているが、こちらの方が整理されている。</text>
+</string>
+
+<string id="hunters_q5_hand_0">
+    <text>両方の集団を見つけて、PDAを回収してきた。
+    \n驚くかもしれないが、正体不明の集団はMercenaryだった。</text>
+</string>
+
+<string id="hunters_q5_hand_1">
+    <text>Mercenaryだと！？そいつは悪い知らせだ。
+    \nBanditどもを相手にするほうが楽だからな。PDAを渡してくれ。それとな･･････
+    \n俺の工具がもうボロボロなんだ。これじゃハンマーで叩き壊すことすらできやしない。
+    \nいいか、近くの隠し場所に新品のセットを隠してある。ここまで持ってきてくれないか？
+    \nそうすればデータを抜き出して、奴らが俺たちに何を求めてるのか分かるかもしれない。</text>
+</string>
+
+<string id="hunters_q5_hand_2">
+    <text>どうして新品の工具を手元に置かずに隠し場所なんかに置いてるんだ？</text>
+</string>
+
+<string id="hunters_q5_hand_3">
+    <text>緊急用の予備だ。万が一の時のためにな。まあ、その「万が一」が今日ってわけだ。</text>
+</string>
+
+<string id="hunters_q5_hand_4">
+    <text>分かった。最後にそれだけの見返りがあるといいが･･････ 行ってくる。</text>
+</string>
+
+<string id="hunters_story_task_6_name">
+    <text>ここの道は静かで･･････ </text>
+</string>
+
+<string id="hunters_story_task_6_text">
+    <text>レシーは近くの隠し場所に新品の工具一式を保管している。これがなければPDAを解析できない。工具を農場に持ち帰らなくては。</text>
+</string>
+
+<string id="hunters_story_task_6_text_2">
+    <text>そこにあったのは物資の隠し場所ではなく、コントローラーがいた。農場に戻ってレシーと話をつけよう。</text>
+</string>
+
+<string id="hunters_story_task_6_about">
+    <text>近くの隠し場所に新品の工具一式を置いてある。ここまで持ってきてくれないか？
+    \nそうすればデータを抜き出して、奴らが俺たちに何を求めてるのか分かるかもしれない。</text>
+</string>
+
+<string id="hunters_q6_pda">
+    <text>よく聞け、ストーカー。お前は俺の部下を殺した。
+    \n知ってか知らずか、レシーの命まで救ったことになる。俺はお前の仲間を二人、人質に取っている。
+    \nこいつらがどうなっても構わないなら、次は自分の身の心配でもするんだな。
+    \nゾーンのどこに隠れようが、俺がお前を引きずり出してやる。メドウへ来い。一人でだ。
+    \n武器を抜こうなんて考えるなよ。座標は送った。俺たちのちょっとした問題を片づけようじゃないか。</text>
+</string>
+
+<string id="hunters_q7_leader_name">
+    <text>正体不明の人物</text>
+</string>
+
+<string id="hunters_story_task_7_name">
+    <text>正体不明の人物</text>
+</string>
+
+<string id="hunters_story_task_7_text">
+    <text>正体不明の人物が仲間を二人拘束し、メドウで待っている。武器は持たず、一人で向かわなくてはならない。</text>
+</string>
+
+<string id="hunters_story_task_7_about">
+    <text>メドウへ来い。一人でだ。武器を抜こうなんて考えるなよ。
+    \n俺たちのちょっとした問題を片付けようじゃないか。</text>
+</string>
+
+<string id="hunters_q7_meet_0">
+    <text>よう。</text>
+</string>
+
+<string id="hunters_q7_meet_1">
+    <text>おや、誰かと思えば。いったい何のために俺の部下を殺した？</text>
+</string>
+
+<string id="hunters_q7_meet_2">
+    <text>俺たちを尾行していたからだ。ろくでもないことを企んでたのは明らかだった。</text>
+</string>
+
+<string id="hunters_q7_meet_3">
+    <text>確かに尾行はしていた。だが、殺すつもりはなかった･･････ お前と違ってな！
+    \n今ここでお前を始末してやりたいところだが、まだ使い道がありそうだ。
+    \nお前の仲間のレシーにはさんざん苦労させられた。お前がレシーの本性を知っていたら、
+    \nあの小屋で奴を見た瞬間に弾を撃ち込んでいただろう。だが･･････ その話は後だ。
+    \nまずは奴の隠し場所から書類を持ってきてもらう。
+    \n部下が見張っているが、あの一帯はブラッドサッカーだらけだ。
+    \n俺の連中はミュータントより人間を相手にする方が得意でな。言いたいことは分かるだろ。
+    \n書類を持ってくれば人質は解放する。その後で話の続きをしよう。
+    \n妙な真似はするなよ。それから、書類は読まないことだ･･････ 命が惜しければな。</text>
+</string>
+
+<string id="hunters_q7_meet_4">
+    <text>書類は持ってくる。
+    \nだが、お前とレシーが俺をどんな厄介事に巻き込んだのか、ちゃんと説明してもらうぞ。</text>
+</string>
+
+<string id="hunters_story_task_8_name">
+    <text>石の下から這い出る者</text>
+</string>
+
+<string id="hunters_story_task_8_text">
+    <text>正体不明の人物はレシーの隠し場所にある書類を求めている。そこはブラッドサッカーの群れに占拠されているらしい。隠し場所にある他の物は好きにしてもいいそうだ。</text>
+</string>
+
+<string id="hunters_story_task_8_text_2">
+    <text>書類を手に入れた。メドウに届けよう。</text>
+</string>
+
+<string id="hunters_story_task_8_text_3">
+    <text>人質は解放され、それぞれ先へ向かった。メドウから出よう。</text>
+</string>
+
+<string id="hunters_story_task_8_about">
+    <text>レシーの隠し場所から書類を持ってこい。そうすれば人質は解放する。
+    \nその後で話の続きをしよう。あの場所はブラッドサッカーに占拠されている。
+    \nそれから、書類は読まないことだ･･････ 命が惜しければな。</text>
+</string>
+
+<string id="hunters_q8_docs_name">
+    <text>レシーの書類</text>
+</string>
+
+<string id="hunters_q8_docs_descr">
+    <text>防水袋に入った分厚い書類の束。Mercenaryが探しているものだ。</text>
+</string>
+
+<string id="hunters_q8_pda_name">
+    <text>レシーのPDA</text>
+</string>
+
+<string id="hunters_q8_pda_descr">
+    <text>レシーが持っていたPDA。Banditから回収したものとは別物だ。厳重にロックされている。</text>
+</string>
+
+<string id="hunters_q8_hand_0">
+    <text>ほら、書類を持ってきたぞ。さあ、仲間を解放しろ。</text>
+</string>
+
+<string id="hunters_q8_hand_1">
+    <text>ああ、そうさせてもらう。約束した通りにな。</text>
+</string>
+
+<string id="hunters_q8_hand_2">
+    <text>それで、お前はいったい何者だ？それに、「レシー」という男は何なんだ？</text>
+</string>
+
+<string id="hunters_q8_hand_3">
+    <text>俺が何者かはお前には関係ない。レシーについて言えば･･････ 昔は俺の部下だった。
+    \nだがある時、奴はどういうわけか獲物を独り占めできると思ったらしい。
+    \n俺は奴と他の数人に、この書類を持ってくるよう命じた。その帰り道の野営での出来事だ。
+    \n全員が眠り込んだ瞬間、レシーは仲間たちの喉を切り、書類を奪って姿を消しやがった。
+    \nそれ以来、俺は何か月もあのクソ野郎を追ってる。奴は俺に見つかるのを恐れていてな。
+    \nしばらく身を隠すことにしたらしい･･････ 書類を持ったまま表に出られなかったんだろう。
+    \nその隠れ場所が、あの小屋だ。なのにお前が余計なことをして、全部台無しにしやがった。</text>
+</string>
+
+<string id="hunters_q8_hand_4">
+    <text>ああ･･････ とんでもない厄介事に巻き込まれたな･･････</text>
+</string>
+
+<string id="hunters_q8_hand_5">
+    <text>レシーが生きてるうちは俺たちの関係も終わらない。お前にはまだ役に立ってもらうぞ。
+    \nお前の「善意」のおかげで、俺の部下もずいぶん減ったしな。奴の痕跡を掴んだら知らせる。
+    \nその時にでも埋め合わせをしてもらうとしよう。今はここから出ていけ。
+    \nそれと、覚えておけ。俺の我慢にも限度があるってことをな。</text>
+</string>
+
+<string id="hunters_q8_hand_6">
+    <text>その時になったら、また会おう･･････ もう話すことはない。</text>
+</string>
+
+<string id="hunters_q8_thanks">
+    <text>置いていかないでくれて助かった。俺たちはもう死を覚悟していたんだ。
+    \nゾーンの気分次第では、またどこかで会うかもしれないな。達者でな。</text>
+</string>
+
+<string id="st_hunters_lc_pole">
+    <text>メドウへ移動</text>
+</string>
+
+<string id="st_hunters_lc_darkscape">
+    <text>ダークスケープへ移動</text>
+</string>
+
+<string id="ui_st_hunters_hub">
+    <text>ダークスケープ [製材所]</text>
+</string>
+
+<string id="hunters_pole_trader_name">
+    <text>ウェット・パシャ</text>
+</string>
+
+<string id="hunters_sim_pole_guard_1_name">
+    <text>ビバ</text>
+</string>
+
+<string id="hunters_sim_pole_guard_2_name">
+    <text>ボバ</text>
+</string>
+
+<string id="hunters_sim_pole_guard_3_name">
+    <text>ドゥンカ・ホイッスル</text>
+</string>
+
+<string id="hunters_q7_merc_1_name">
+    <text>クセルクセス</text>
+</string>
+
+<string id="hunters_q7_merc_2_name">
+    <text>リチャード</text>
+</string>
+
+<string id="hunters_trader_task_1_name">
+    <text>昔はもっといい肉が手に入ったもんだ</text>
+</string>
+
+<string id="hunters_trader_task_1_text">
+    <text>クランチは%sを必要としている。探し出して農場まで届けよう。</text>
+</string>
+
+<string id="hunters_trader_task_1_about">
+    <text>注文を抱えて手が回らねえ。両腕は内臓まみれだ。手を貸してくれ。報酬はきちんと払う。</text>
+</string>
+
+<string id="hunters_trader_task_1_fetch_about">
+    <text>注文の処理で手が回らねえし、両腕は内臓まみれで身動きが取れないんだ。
+    \n必要なのは%sだ。助けてくれよ、報酬はきちんと払うからさ。</text>
+</string>
+
+<string id="hunters_trader_task_1_finish">
+    <text>これで十分だ。ほら、約束どおりの報酬だ。</text>
+</string>
+
+<string id="hunters_trader_task_2_name">
+    <text>狩り</text>
+</string>
+
+<string id="hunters_trader_task_2_text">
+    <text>ミュータントの群れが農場の周囲をうろついているらしい。クランチから探して始末するよう頼まれた。</text>
+</string>
+
+<string id="hunters_trader_task_2_about">
+    <text>農場の周りでミュータントが増えすぎてる。このままじゃ窓から入ってくるぞ。
+    \n辺りを片づけてくれれば、いつもの報酬に少し上乗せするよ。</text>
+</string>
+
+<string id="hunters_trader_task_2_finish">
+    <text>これでやっと一息つける。ほら、あんたの取り分だ。</text>
+</string>
+
+<string id="hunters_medic_task_1_name">
+    <text>補給</text>
+</string>
+
+<string id="hunters_medic_task_1_text">
+    <text>ソーボーンズは%sを必要としている。農場まで持っていこう。</text>
+</string>
+
+<string id="hunters_medic_task_1_about">
+    <text>薬品棚が底をつきかけてる。次の補給まではまだまだ先だ。
+    \nいくらか持ってきてくれないか？借りは返すよ。</text>
+</string>
+
+<string id="hunters_medic_task_1_fetch_about">
+    <text>薬品棚が底をつきかけてる。次の補給まではまだまだ先だ。
+    \n%sを持ってきてくれないか？借りは返すぜよ。</text>
+</string>
+
+<string id="hunters_medic_task_1_finish">
+    <text>こいつはありがたい。これでまた傷を縫える。</text>
+</string>
+
+<string id="hunters_medic_task_2_name">
+    <text>駆除</text>
+</string>
+
+<string id="hunters_medic_task_2_text">
+    <text>ソーボーンズから、周辺をうろつくミュータントの群れを探して始末するよう頼まれた。</text>
+</string>
+
+<string id="hunters_medic_task_2_about">
+    <text>ここの連中は毎回、出かけるたびに傷だらけで帰ってきやがる。理由はいつも同じだ。
+    \nミュータントの数を減らしてくれれば、包帯を節約できる。</text>
+</string>
+
+<string id="hunters_medic_task_2_finish">
+    <text>これで一週間は静かに過ごせそうだ。さあ、これが報酬だ。</text>
+</string>
+
+<string id="hunters_pole_trader_task_1_name">
+    <text>あれ持ってこい、これ持ってこい</text>
+</string>
+
+<string id="hunters_pole_trader_task_1_text">
+    <text>ウェット・パシャは%sを欲しがっている。探し出してメドウまで届けよう。</text>
+</string>
+
+<string id="hunters_pole_trader_task_1_about">
+    <text>仕事の話がある。ある品が必要なんだ。
+    \nだが、こんな小物のために俺の連中を走り回らせるわけにもいかなくてな。
+    \nあんたが代わりにやってくれないか？損はさせないぞ。</text>
+</string>
+
+<string id="hunters_pole_trader_task_1_fetch_about">
+    <text>仕事の話がある。%sが必要なんだ。
+    \nだが、こんな小物のために俺の連中を走り回らせるわけにもいかなくてな。
+    \nあんたが代わりにやってくれないか？損はさせないぞ。</text>
+</string>
+
+<string id="hunters_pole_trader_task_1_finish">
+    <text>早かったな。これがあんたの取り分だ。報酬はきっちり払う主義なんでね。</text>
+</string>
+
+<string id="hunters_pole_trader_task_2_name">
+    <text>標的に圧をかけろ</text>
+</string>
+
+<string id="hunters_pole_trader_task_2_text">
+    <text>ウェット・パシャからストーカーを始末するよう頼まれた。</text>
+</string>
+
+<string id="hunters_pole_trader_task_2_about">
+    <text>世の中には、自分の取り分を俺に渡さなくてもいいと思ってる利口な奴がいるらしい。
+    \nそんな野郎には少し頭を冷やしてもらわないとな。</text>
+</string>
+
+<string id="hunters_pole_trader_task_2_finish">
+    <text>もう話は聞いてる。いい話し合いができたみたいだな。さあ、報酬だ。</text>
+</string>
+
+<string id="hunters_x18_offer_0">
+    <text>調子はどうだ？</text>
+</string>
+
+<string id="hunters_x18_offer_1">
+    <text>ストーカー、仕事を頼みたい。少し時間はあるか？</text>
+</string>
+
+<string id="hunters_x18_offer_2">
+    <text>いいぞ、何だ？</text>
+</string>
+
+<string id="hunters_x18_offer_3">
+    <text>前回のエミッションの後、北に新しいアノマリーが現れた。
+    \n冒険を求めてそこへ向かうストーカーはいるが、中に入る度胸のある奴はいなかった。
+    \nまあ、ついにそれをやってみようと決めたグループが現れたわけだが･･････
+    \n長い間、思い留まらせようと何度も説得を試みた。俺がこれまで、あいつらのような
+    \n連中を何人治療し、何人埋葬してきたか聞かせたんだ。だが、まったく効果がなかった。
+    \nあいつらが出発してもう2日になるが、連絡はない。無線も、救難信号すら送ってこない。
+    \n俺はお前を死地に送りたいわけじゃない。今週のゾーンの犠牲者はもう十分だからな。
+    \nだが、あいつらのことで何か聞いたら俺に教えてくれ。そうしてくれたら、恩は忘れない。</text>
+</string>
+
+<string id="hunters_x18_offer_4">
+    <text>見つけたら知らせる。</text>
+</string>
+
+<string id="hunters_x18_offer_5">
+    <text>悪いが無理だ。他にやることがある。</text>
+</string>
+
+<string id="hunters_x18_hand_0">
+    <text>行方不明になっていた連中を見つけた。
+    \nどうやら、スペースアノマリーにダークバレーの地下研究所まで飛ばされていたらしい。
+    \n俺もどうにか脱出したが･･････ あそこは本物の地獄だ。全部吹き飛ばしてやりたいくらいだ。</text>
+</string>
+
+<string id="hunters_x18_hand_1">
+    <text>まったく･･････ いや、まさかそんなことになっていたとはな。
+    \nストーカーたちは気の毒だな。分別のある連中で、ゾーンに来たばかりでもなかったのに。
+    \nそれが、あんなくだらない騒ぎに巻き込まれて犬死にとは。はあ･･････
+    \n仕事の報酬はみんなで出し合った。それとは別に、俺からもボーナスを上乗せしておく。
+    \nあのストーカーたちのことは･･････ いい酒でも飲みながら、せめていい言葉をかけてやろう。
+    \nじゃあな。気をつけろよ。</text>
+</string>
+
+<string id="hunters_x18_hand_2">
+    <text>飲みすぎるなよ。まだ生きてる連中の面倒を見なきゃならないんだからな。またな。</text>
+</string>
+
+<string id="hunters_medic_task_3_name">
+    <text>冒険を求める者たち</text>
+</string>
+
+<string id="hunters_medic_task_3_about">
+    <text>前回のエミッションの後、北に新しいアノマリーが現れた。
+    \n冒険を求めてそこへ向かうストーカーはいるが、中に入る度胸のある奴はいなかった。
+    \nまあ、ついにそれをやってみようと決めたグループが現れたわけだが･･････
+    \n長い間、思い留まらせようと何度も説得を試みた。俺がこれまで、あいつらのような
+    \n連中を何人治療し、何人埋葬してきたか聞かせたんだ。だが、まったく効果がなかった。
+    \nあいつらが出発してもう2日になるが、連絡はない。無線も、SOSすら送ってこない。
+    \n俺はお前を死地に送りたいわけじゃない。今週のゾーンの犠牲者はもう十分だからな。
+    \nだが、あいつらのことで何か聞いたら俺に教えてくれ。そうしてくれたら、恩は忘れない。</text>
+</string>
+
+<string id="hunters_medic_task_3_text">
+    <text>ストーカーのグループが新しいアノマリーを調べに行ったまま戻ってこない。何が起きたのか調べなくては。</text>
+</string>
+
+<string id="hunters_medic_task_3_text_2">
+    <text>行方不明のグループを見つけた。彼らのPDAをソーボーンズに届けよう。</text>
+</string>
+
+<string id="hunters_x18_pda_name">
+    <text>行方不明のストーカーのPDA</text>
+</string>
+
+<string id="hunters_x18_pda_descr">
+    <text>行方不明になったグループのストーカーが持っていたPDA。ダークバレーの地下研究所で発見した。</text>
+</string>
+
+
+
+
+<string id="hunters_rf_trader_name">
+    <text>ケトル</text>
+</string>
+
+<string id="hunters_rf_butcher_name">
+    <text>ヴィーガン</text>
+</string>
+
+<string id="hunters_rf_guide_name">
+    <text>コーリャ・ダブレット</text>
+</string>
+
+<string id="hunters_sim_rf_guard_2_name">
+    <text>サーニャ・シャギー</text>
+</string>
+
+<string id="hunters_sim_rf_guard_3_name">
+    <text>ヴィタリャ・ソーンオフ</text>
+</string>
+
+<string id="hunters_sim_rf_guard_4_name">
+    <text>ヴァディク・クロスボウ</text>
+</string>
+
+
+<string id="hunters_rf_trader_task_1_name">
+    <text>ストーカーのシチュー</text>
+</string>
+
+<string id="hunters_rf_trader_task_1_text">
+    <text>ケトルはミュータントシチューの納品が遅れて困っているらしい。急ぎの仕事で、報酬もいいそうだ。</text>
+</string>
+
+<string id="hunters_rf_trader_task_1_about">
+    <text>鍋は空っぽで、注文の期限が迫ってる。生肉を持ってきてくれ。ぐずぐずするなよ。</text>
+</string>
+
+<string id="hunters_rf_trader_task_1_fetch_about">
+    <text>鍋は空っぽで、注文の期限が迫ってる。
+    \n必要なのは%sだ。火を通した肉は受け取らないからな。</text>
+</string>
+
+<string id="hunters_rf_trader_task_1_finish">
+    <text>こいつはいい。今夜はごちそうだな。</text>
+</string>
+
+<string id="hunters_rf_trader_task_2_name">
+    <text>石のスープ</text>
+</string>
+
+<string id="hunters_rf_trader_task_2_text">
+    <text>ケトルはミュータントの部位を必要としている。何に使うのかは知らないほうがよさそうだ。</text>
+</string>
+
+<string id="hunters_rf_trader_task_2_about">
+    <text>ミュータントから取れる特定の部位が必要だ。
+    \n何に使うかはお前の知ったことじゃない。報酬はきちんと払う。</text>
+</string>
+
+<string id="hunters_rf_trader_task_2_fetch_about">
+    <text>%sが必要だ。何に使うかはお前の知ったことじゃない。</text>
+</string>
+
+<string id="hunters_rf_trader_task_2_finish">
+    <text>これでいい。ほら、あんたの取り分だ。余計なことは聞くなよ。</text>
+</string>
+
+<string id="hunters_rf_butcher_task_1_name">
+    <text>学者の気まぐれ</text>
+</string>
+
+<string id="hunters_rf_butcher_task_1_text">
+    <text>ヴィーガンは科学者から物資の注文を受けた。簡単な仕事だ。科学のために一仕事しよう。</text>
+</string>
+
+<string id="hunters_rf_butcher_task_1_about">
+    <text>科学者から物資の注文が入った。書類は連中が用意し、金は俺が出す。お前は運ぶだけだ。</text>
+</string>
+
+<string id="hunters_rf_butcher_task_1_fetch_about">
+    <text>科学者から%sの注文が入った。
+    \n書類は連中が用意し、金は俺が出す。お前は運ぶだけだ。</text>
+</string>
+
+<string id="hunters_rf_butcher_task_1_finish">
+    <text>科学が喜べば、俺も嬉しい。さあ、報酬を受け取れ。</text>
+</string>
+
+<string id="hunters_rf_butcher_task_2_name">
+    <text>北方の狩りの獲物</text>
+</string>
+
+<string id="hunters_rf_butcher_task_2_text">
+    <text>ヴィーガンはレッドフォレストで獲物を仕留めてほしいらしい。狩りならいつでも歓迎だ。</text>
+</string>
+
+<string id="hunters_rf_butcher_task_2_about">
+    <text>キャンプの近くで獣が増えすぎて困ってるんだ。解体してやりたいが･･････
+    \n大人しくしてる奴が一匹もいない。あんた、狩りに行く気はあるか？</text>
+</string>
+
+<string id="hunters_rf_butcher_task_2_finish">
+    <text>これでまた静かになる。ほら、あんたの取り分だ。</text>
+</string>
+
+<string id="hunters_rf_guide_task_1_name">
+    <text>ゾーンの毛皮</text>
+</string>
+
+<string id="hunters_rf_guide_task_1_text">
+    <text>ミュータントの毛皮の注文が入った。道端に金は落ちていないが、ミュータントの死体ならそこら中に転がっている。</text>
+</string>
+
+<string id="hunters_rf_guide_task_1_about">
+    <text>毛皮の注文が入った。依頼主は金に困ってないらしくてな。その分、報酬も弾んでる。</text>
+</string>
+
+<string id="hunters_rf_guide_task_1_fetch_about">
+    <text>毛皮の注文が入った。必要なのは%sだ。
+    \n依頼主は金に困ってないらしくてな。その分、報酬も弾んでる。</text>
+</string>
+
+<string id="hunters_rf_guide_task_1_finish">
+    <text>いい毛皮だ。持っていけ、あんたが稼いだ報酬だ。</text>
+</string>
+
+<string id="hunters_rf_guide_task_2_name">
+    <text>レッドフォレストの獣</text>
+</string>
+
+<string id="hunters_rf_guide_task_2_text">
+    <text>危険なミュータントがレッドフォレストのストーカーたちを悩ませている。周辺を片づけなくては。</text>
+</string>
+
+<string id="hunters_rf_guide_task_2_about">
+    <text>あいつらがずっと俺たちの周りをうろついてやがる。
+    \n誰も境界の外に出たがらないんだ。周辺を片づけてくれれば、恩は忘れない。</text>
+</string>
+
+<string id="hunters_rf_guide_task_2_finish">
+    <text>これでようやく一息つけるな。ほら、あんたの取り分だ。</text>
+</string>
+
+
+<string id="hunters_travel_dialog_bunker">
+    <text>ジュピターにある科学者の地下施設。</text>
+</string>
+
+
+<string id="hunters_trader_task_3_name">
+    <text>新鮮な肉</text>
+</string>
+
+<string id="hunters_trader_task_3_text">
+    <text>クランチは生のミュータント肉を必要としている。夕方にはシチューになるかもしれない。</text>
+</string>
+
+<string id="hunters_trader_task_3_about">
+    <text>肉が切れてるってのに、注文は次々入ってくる。
+    \nミュータントの生肉を持ってきてくれ、報酬はきちんと払う。</text>
+</string>
+
+<string id="hunters_trader_task_3_fetch_about">
+    <text>肉が切れてるってのに、注文は次々入ってくる。
+    \n%sを持ってきてくれ。調理済みは受け取らないからな。</text>
+</string>
+
+<string id="hunters_trader_task_3_finish">
+    <text>そうこなくちゃな。ほら、あんたの取り分だ。報酬をちょろまかしたりはしないさ。</text>
+</string>
+
+<string id="hunters_guide_task_1_name">
+    <text>旅の土産</text>
+</string>
+
+<string id="hunters_guide_task_1_text">
+    <text>ヴァショク・ピルグリムはミュータントの部位を必要としている。ゾーンを人に案内するなら、ついでに商売をするのも悪くないだろう。</text>
+</string>
+
+<string id="hunters_guide_task_1_about">
+    <text>俺は毎日、人を連れてゾーンを案内してる。狩りをしてる暇なんてないんだ。
+    \nミュータントの部位を持ってきてくれれば、この恩は忘れないさ。</text>
+</string>
+
+<string id="hunters_guide_task_1_fetch_about">
+    <text>俺は毎日、人を連れてゾーンを案内してる。狩りをしてる暇なんてないんだ。
+    \n%sを持ってきてくれれば、この恩は忘れないさ。</text>
+</string>
+
+<string id="hunters_guide_task_1_finish">
+    <text>これでいい。ほら、あんたの取り分だ。よくやった。</text>
+</string>
+
+<string id="hunters_guide_task_2_name">
+    <text>自分のための仕事</text>
+</string>
+
+<string id="hunters_guide_task_2_text">
+    <text>ヴァショク・ピルグリムはミュータントの毛皮を集めている。あれだけの買い手をどこで見つけているんだ？俺もガイドになった方がいいのかもしれない･･････</text>
+</string>
+
+<string id="hunters_guide_task_2_about">
+    <text>毛皮の買い手は見つけたが、この辺を走り回って探す暇がない。
+    \n毛皮を一枚取ってきてくれれば、報酬は山分けだ。きっちり半分ずつ、文句なしだ。</text>
+</string>
+
+<string id="hunters_guide_task_2_fetch_about">
+    <text>毛皮の買い手は見つけたが、この辺を走り回って探す暇がない。
+    \n奴が欲しがっているのは%sだ。
+    \n毛皮を一枚取ってきてくれれば、報酬は山分けだ。きっちり半分ずつ、文句なしだ。</text>
+</string>
+
+<string id="hunters_guide_task_2_finish">
+    <text>いい毛皮だ。ほら、あんたの取り分だ。</text>
+</string>
+
+
+
+<string id="hunters_q9_pda">
+    <text>ストーカー、お前の借りを忘れるな。俺はレシーの足取りを追っているが、遠くにいて時間もない。
+    \nあの野郎がまた姿をくらます前に捕まえるんだ。俺から盗んだ情報を売られでもしたら厄介だからな。
+    \nお前はレシーが目撃された場所の近くにいる。俺がどうやってお前の居場所を知ったのかは聞くな。
+    \nとにかく、俺の情報屋がヤノフ近くの科学者の移動研究所にいる。レイムという男だ。
+    \nそいつのところへ行き、「青い同志たちから来た」と伝えろ。奴なら分かる。以上だ。</text>
+</string>
+
+<string id="hunters_q10_sos">
+    <text>おい、ストーカー、助けてくれ！
+    \nスードウジャイアントに追われて浚渫船の上まで逃げてきた！もう5時間もここに座ってるんだ！</text>
+</string>
+
+<string id="hunters_q9_lame_name">
+    <text>レイム</text>
+</string>
+
+<string id="hunters_q10_hamster_name">
+    <text>ハムスター</text>
+</string>
+
+<string id="hunters_story_task_9_name">
+    <text>借り</text>
+</string>
+
+<string id="hunters_story_task_9_about">
+    <text>俺の情報屋がヤノフ近くの科学者の移動研究所にいる。レイムという男だ。
+    \nそいつのところへ行き、「青い同志たちから来た」と伝えろ。奴なら分かる。</text>
+</string>
+
+<string id="hunters_story_task_9_text">
+    <text>正体不明の人物は、今もレシーの足取りを追っている。まずは科学者の移動研究所で情報屋のレイムを見つけ、「青い同志たちから来た」と伝えよう。</text>
+</string>
+
+<string id="hunters_story_task_10_name">
+    <text>ハムスターを探せ</text>
+</string>
+
+<string id="hunters_story_task_10_about">
+    <text>Freedomのハムスターがレシーをヤノフから連れ去った。
+    \nエミッションの後、酸の池でアーティファクトを探すため浚渫船に向かったらしい。</text>
+</string>
+
+<string id="hunters_story_task_10_text">
+    <text>浚渫船にいるFreedomのハムスターを見つけ、レシーをどこへ連れていったのか聞き出さなくては。</text>
+</string>
+
+<string id="hunters_story_task_10_text_2">
+    <text>スードウジャイアントが浚渫船でハムスターを追い詰めている。ミュータントを倒さなくては。</text>
+</string>
+
+<string id="hunters_story_task_10_text_3">
+    <text>スードウジャイアントは死んだ。ハムスターと話そう。</text>
+</string>
+
+<string id="hunters_story_task_10_text_4">
+    <text>ハムスターは素直に話さなかった。PDAを調べよう。</text>
+</string>
+
+<string id="hunters_q10_pda_name">
+    <text>ハムスターのPDA</text>
+</string>
+
+<string id="hunters_q10_pda_descr">
+    <text>ハムスター: プリピャチ地下の研究所から持ち出された機密文書を売りたがっているストーカーがいる。お前は今どこにいる？\n\nヴァレノク: いいぞ、ちょうど金に困ってたところだ。北のトンネルに向かえ。\n\nハムスター: 分かった。30分後に会おう。</text>
+</string>
+
+<string id="hunters_q9_meet_0">
+    <text>青い同志たちから来た。</text>
+</string>
+
+<string id="hunters_q9_meet_1">
+    <text>俺、酒は飲まないんだけどな。</text>
+</string>
+
+<string id="hunters_q9_meet_2">
+    <text>えーっと、そうだな･･････</text>
+</string>
+
+<string id="hunters_q9_meet_3">
+    <text>おいおい、落ち着けよ。冗談だ。</text>
+</string>
+
+<string id="hunters_q9_meet_4">
+    <text>今は冗談を聞く気分じゃないんだ。悪いな。</text>
+</string>
+
+<string id="hunters_q9_meet_5">
+    <text>分かった、なら仕事の話に入ろう。少し前、ヤノフに妙な話をするストーカーが現れた。
+    \nそいつは全員に酒を奢った後、運良く大当たりの探索をしてきたって話を始めた。
+    \nプリピャチ地下で未知の研究所を見つけ、機密文書を手に入れたらしい。
+    \nそれで、その情報を誰に売ればいいのか分からないと言い出した─もちろん、高値でな。
+    \nこういうホラ吹き野郎の話は、タダ酒目当てでもない限り誰も真面目に聞きやしない。
+    \nだが、そいつの狙い通りになった。Freedomのハムスターが、良い買い手を紹介すると
+    \n申し出たんだ。まともな人間なら、どこの誰とも分からない相手なんて絶対に関わらない。
+    \nそれでも、そいつは最後まで馬鹿を演じきった。とにかく、二人はここを出ていったぞ。</text>
+</string>
+
+<string id="hunters_q9_meet_6">
+    <text>勘弁してくれ。今度はどこを探せばいいんだ？</text>
+</string>
+
+<string id="hunters_q9_meet_7">
+    <text>俺が知るわけないだろ。ハムスターに聞きな。</text>
+</string>
+
+<string id="hunters_q9_meet_8">
+    <text>出だしは上々だな･･････ それで、そのハムスターはどこにいる？</text>
+</string>
+
+<string id="hunters_q9_meet_9">
+    <text>エミッションの後、浚渫船に行って酸の池でアーティファクトを探すと言ってたな。
+    \nそれで、俺は急いでここまで来たってわけだ。さあ追いかけろ、何をボーッとしている？</text>
+</string>
+
+<string id="hunters_q9_meet_10">
+    <text>言葉も出ないな･･････</text>
+</string>
+
+<string id="hunters_q10_meet_0">
+    <text>それで、酸の池はどうだった？</text>
+</string>
+
+<string id="hunters_q10_meet_1">
+    <text>ああ･･････ 自分のケツまで探る羽目になったがな。
+    \nあんたのおかげで、レンガを詰め込んだのかってくらいに重くなっちまったよ。
+    \nありがとな。助けが来なかったら、あとどれだけここに座っていたことか･･････</text>
+</string>
+
+<string id="hunters_q10_meet_2">
+    <text>共通周波数で救難信号を送らなかったのは何故だ？</text>
+</string>
+
+<string id="hunters_q10_meet_3">
+    <text>送ったさ。ここじゃ信号がまったく届かないんだ。
+    \nヤノフは目と鼻の先だってのに、戦車みたいに沈黙してやがる。
+    \nで、礼は現金がいいか？それとも何か装備でも欲しいのか？</text>
+</string>
+
+<string id="hunters_q10_meet_4">
+    <text>必要ない。それより、ヤノフから連れ出したストーカーの情報が欲しい。</text>
+</string>
+
+<string id="hunters_q10_meet_5">
+    <text>ストーカーだって？見ての通り、俺は一人だ。ストーカーなんて知らないな。</text>
+</string>
+
+<string id="hunters_q10_meet_6">
+    <text>とぼけるな。そいつをどこへ連れていった？</text>
+</string>
+
+<string id="hunters_q10_meet_7">
+    <text>よく聞け、ストーカー。商売は商売だ。
+    \n客の情報を誰彼構わず喋ってみろ。次の探索で真っ先に木の枝から金玉を吊るされちまう。</text>
+</string>
+
+<string id="hunters_q10_meet_8">
+    <text>俺はお前を助けた。今度はお前が俺を助けろ。公平な話だろ。別のやり方もあるが･･････
+    \nそうなれば、スードウジャイアントの方がマシだったと思うことになるぞ。</text>
+</string>
+
+<string id="hunters_q10_meet_9">
+    <text>おいおい、落ち着けって。前にも脅されたことがあるんだ。</text>
+</string>
+
+<string id="hunters_q10_meet_10">
+    <text>俺だってあの化け物を追い回すのにうんざりしているんだ。
+    \n情報を吐かせる方法なんてどうでもいい─大人しく話すか、死体から探すかだ。</text>
+</string>
+
+<string id="hunters_q10_meet_11">
+    <text>分かったよ。そこまで言うなら仕方ない。</text>
+</string>
+
+<string id="hunters_q10_meet_12">
+    <text>分かった、分かった。落ち着けよ。北のトンネルにいる知り合いのところに連れていった。
+    \nそいつらはBanditで、研究所の文書を高く買い取ってくれるツテを持ってるんだ。
+    \n俺が喋ったってことは言うなよ。連中は話し合いで済ませる気はないだろうしな。
+    \nまったく、惜しいな･･････ いい取引相手だったんだが。</text>
+</string>
+
+<string id="hunters_q10_meet_13">
+    <text>心配するな。あんたから聞いたとは言わない。</text>
+</string>
+
+
+
+<string id="hunters_q11_valenok_name">
+    <text>ヴァレノク</text>
+</string>
+
+<string id="hunters_story_task_11_name">
+    <text>迷子の行方</text>
+</string>
+
+<string id="hunters_story_task_11_about">
+    <text>レシーは北のトンネルにいるBanditのところへ連れていかれた。連中は研究所の文書の買い手とつながっている。</text>
+</string>
+
+<string id="hunters_story_task_11_text">
+    <text>北のトンネルでBanditを見つけ、レシーをどうしたのか聞き出そう。</text>
+</string>
+
+<string id="hunters_story_task_11_text_2">
+    <text>Banditのリーダーは死んだ。PDAを調べよう。</text>
+</string>
+
+<string id="hunters_q11_pda_name">
+    <text>ヴァレノクのPDA</text>
+</string>
+
+<string id="hunters_q11_pda_descr">
+    <text>ヴァレノク: よう。買い手が見つかったぞ。お前ら好みの情報だ。どこへ連れて行けばいい？\n\nN: ザトンの製材所だ。今はこっちで用がある。\n\nヴァレノク: 部下を向かわせた。2時間もあれば着くだろう。</text>
+</string>
+
+<string id="hunters_story_task_12_name">
+    <text>謎の買い手</text>
+</string>
+
+<string id="hunters_story_task_12_about">
+    <text>ヴァレノクはレシーを、ザトンの製材所にいる買い手のもとへ送ったようだ。</text>
+</string>
+
+<string id="hunters_story_task_12_text">
+    <text>ザトンの製材所にいる買い手を見つけよう。</text>
+</string>
+
+<string id="hunters_story_task_12_text_2">
+    <text>買い手は死んでいた。PDAを持っていこう。</text>
+</string>
+
+<string id="hunters_q12_pda_name">
+    <text>ロックされたPDA</text>
+</string>
+
+<string id="hunters_q12_pda_descr">
+    <text>アクセスが拒否されている。</text>
+</string>
+
+
+
+<string id="hunters_q13_pda">
+    <text>ストーカー、俺は近くにいる。いい知らせを期待しているぞ。
+    \nザトンのクレーンのそばで会おう。座標は送っておいた。</text>
+</string>
+
+<string id="hunters_story_task_13_name">
+    <text>クレーンのそばでの会合</text>
+</string>
+
+<string id="hunters_story_task_13_about">
+    <text>正体不明の人物はザトンにいる。港のクレーンのそばで待っているらしい。</text>
+</string>
+
+<string id="hunters_story_task_13_text">
+    <text>ザトンのクレーンのそばで、正体不明の人物と会わなくては。</text>
+</string>
+
+<string id="hunters_q13_meet_0">
+    <text>よう。</text>
+</string>
+
+<string id="hunters_q13_meet_1">
+    <text>来たか。話せ、こっちはもう手がうずいてるんだ。</text>
+</string>
+
+<string id="hunters_q13_meet_2">
+    <text>レシーはその情報を怪しげな連中に売ろうとしている。
+    \nあんたらに似ているが、もっと物騒な連中だ。連中からロックされたPDAを手に入れた。
+    \nレシーをどこへ連れていったのか、これで分かるはずだ。</text>
+</string>
+
+<string id="hunters_q13_meet_3">
+    <text>ふむ、見せてみろ･･････ なるほど、こいつは変わったPDAだな。
+    \nだが、そいつらが何者か見当はついた。スカドフスクの技術者にこのPDAを渡せ。
+    \n俺の方から連絡を入れておく。あいつには借りがあるんでな。</text>
+</string>
+
+<string id="hunters_q13_meet_4">
+    <text>ゾーンに、あんたに借りがない奴なんているのか？</text>
+</string>
+
+<string id="hunters_q13_meet_5">
+    <text>いるさ。だが、お前には関係のないことだ。さっさと行け。</text>
+</string>
+
+<string id="hunters_q13_meet_6">
+    <text>分かった。</text>
+</string>
+
+<string id="hunters_story_task_14_name">
+    <text>何でも屋</text>
+</string>
+
+<string id="hunters_story_task_14_about">
+    <text>正体不明の人物は、あのPDAの持ち主に心当たりがあるようだ。スカドフスクにいる技術者なら、PDAのロックを解除できるはずだ。</text>
+</string>
+
+<string id="hunters_story_task_14_text">
+    <text>ロックされたPDAをスカドフスクの技術者に渡そう。</text>
+</string>
+
+<string id="hunters_story_task_14_text_2">
+    <text>技術者が作業中だ。連絡を待とう。</text>
+</string>
+
+<string id="hunters_story_task_14_text_3">
+    <text>技術者の作業が終わった。PDAを受け取ろう。</text>
+</string>
+
+<string id="hunters_story_task_14_text_4">
+    <text>ロックを解除したPDAを正体不明の人物に届けなくては。</text>
+</string>
+
+<string id="hunters_q14_pda_msg">
+    <text>技術者からのメッセージ: 終わったぞ。取りに来てくれ。</text>
+</string>
+
+<string id="hunters_q14_pda_name">
+    <text>ロック解除済みのPDA</text>
+</string>
+
+<string id="hunters_q14_pda_descr">
+    <text>技術者がロックを解除した。中身を理解できるのは、あの正体不明の人物だけだ。</text>
+</string>
+
+<string id="hunters_q14_give_0">
+    <text>やあ。PDAのことであんたに連絡するよう頼まれた。</text>
+</string>
+
+<string id="hunters_q14_give_1">
+    <text>ああ、そうだ。渡してくれ。作業が終わったらお前のPDAに連絡する。</text>
+</string>
+
+<string id="hunters_q14_give_2">
+    <text>分かった。</text>
+</string>
+
+<string id="hunters_q14_collect_0">
+    <text>終わったのか？</text>
+</string>
+
+<string id="hunters_q14_collect_1">
+    <text>ああ、言ったとおりにな。ほら、こいつがその成果だ。</text>
+</string>
+
+<string id="hunters_q14_collect_2">
+    <text>助かるよ。</text>
+</string>
+
+<string id="hunters_q14_return_0">
+    <text>ロックを解除してもらったぞ。これだ。</text>
+</string>
+
+<string id="hunters_q14_return_1">
+    <text>さて、見てみよう･･････ よし、分かった。今からプリピャチに行くぞ。</text>
+</string>
+
+<string id="hunters_q14_return_2">
+    <text>俺も行かないといけないのか？</text>
+</string>
+
+<string id="hunters_q14_return_3">
+    <text>レシーが生きている限りはな。もう忘れたのか？</text>
+</string>
+
+<string id="hunters_q14_return_4">
+    <text>ああ、覚えてるさ･･････ 行こう。</text>
+</string>
+
+<string id="hunters_story_task_15_name">
+    <text>最後の狩り</text>
+</string>
+
+<string id="hunters_story_task_15_about">
+    <text>レシーはプリピャチのプロメテウス映画館に拘束されている。正体不明の人物とその部下たちで乗り込むことになった。</text>
+</string>
+
+<string id="hunters_story_task_15_text">
+    <text>正体不明の人物と話そう。</text>
+</string>
+
+<string id="hunters_story_task_15_text_2">
+    <text>プロメテウス映画館を制圧して、レシーを始末しよう。</text>
+</string>
+
+<string id="hunters_story_task_15_text_3">
+    <text>レシーは死んだ。正体不明の人物に報告しよう。</text>
+</string>
+
+<string id="hunters_q15_brief_0">
+    <text>着いたぞ。これからどうする？</text>
+</string>
+
+<string id="hunters_q15_brief_1">
+    <text>奴らはプロメテウス映画館にいるはずだ。何かの中継地点らしい。
+    \nレシーがまだメインランドへ移送されていなければいいが、そうなればすべて終わりだ。
+    \n互いに離れず、背中を守り合って行動しろよ。行くぞ！</text>
+</string>
+
+<string id="hunters_q15_brief_2">
+    <text>健闘を祈る。</text>
+</string>
+
+<string id="hunters_q15_end_0">
+    <text>ふう･･････ これで終わったようだな。</text>
+</string>
+
+<string id="hunters_q15_end_1">
+    <text>逃げ回るのもここまでだぜ、可愛い坊や。新しい仲間も役には立たなかったようだな。
+    \n間に合って運がよかった･･････ お前もだ、ストーカー。これで借りは帳消しにしてやる。
+    \nメドウでお前を撃ち殺さなくてよかったよ。</text>
+</string>
+
+<string id="hunters_q15_end_2">
+    <text>実を言うと、俺はあんた以上に喜んでる。あんたもレシーも、もううんざりだ。
+    \nまったく、とんだ狩りの旅だったな･･････</text>
+</string>
+
+<string id="hunters_q15_end_3">
+    <text>いい教訓になっただろ。それと、これはボーナスだ。俺はいつだって仕事には報酬を払う。</text>
+</string>
+
+<string id="hunters_q15_end_4">
+    <text>ああ、ありがとう。二度と会わずに済むことを願うよ。</text>
+</string>
+
+
+
+<string id="hunters_travel_dialog_bar">
+    <text>ロストクのバーへ。</text>
+</string>
+
+<string id="hunters_travel_dialog_zaton">
+    <text>ザトンのスカドフスクへ。</text>
+</string>
+
+<string id="hunters_travel_dialog_rf_hub">
+    <text>レッドフォレストのハンター拠点へ。</text>
+</string>
+
+<string id="hunters_travel_dialog_farm">
+    <text>ダークスケープのハンター農場へ。</text>
+</string>
+
+</string_table>
+
