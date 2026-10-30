@@ -196,13 +196,13 @@
 		<text>デフォルトプロファイル</text>
 	</string>
 	<string id="ui_3dss_camo_locked">
-		<text>%sの迷彩は未発見です。</text>
+		<text>%s迷彩はまだ発見していない</text>
 	</string>
 	<string id="ui_3dss_camo_discovered">
 		<text>%s用の新しい迷彩を発見: %s</text>
 	</string>
 	<string id="ui_3dss_available_camos">
-		<text>使用可能な迷彩</text>
+		<text>%c[0,255,255,255]使用可能な迷彩:</text>
 	</string>
 	<string id="st_3dss_change_reticle">
 		<text>レティクルを変更</text>
