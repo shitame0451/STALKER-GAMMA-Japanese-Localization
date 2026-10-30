@@ -12,7 +12,7 @@
 		<text>Wearable Devices</text>
 	</string>
 	<string id="ui_mcm_wd_hold_key">
-		<text>確認キー</text>
+		<text>デバイスを確認（Wearable Devices）</text>
 	</string>
 	<string id="ui_mcm_wd_hold_key_desc">
 		<text>タップ: Prominを確認\n長押し: 腕時計を確認</text>
@@ -23,26 +23,41 @@
 	<string id="ui_mcm_wd_tap_ms_desc">
 		<text>腕時計確認の長押し判定時間を制御します。</text>
 	</string>
-	<string id="ui_mcm_wd_double_tap_ms">
-		<text>ダブルタップ判定時間 (ms)</text>
-	</string>
-	<string id="ui_mcm_wd_double_tap_ms_desc">
-		<text>Promin画面切り替えのダブルタップ判定時間を制御します。</text>
-	</string>
 	<string id="ui_mcm_wd_swap_hold_toggle">
 		<text>デバイス確認の操作方法（トグル／長押し）を入れ替える</text>
 	</string>
 	<string id="ui_mcm_wd_gui_key">
-		<text>WD GUIキー</text>
+		<text>設定画面を開く（Wearable Devices）</text>
 	</string>
 	<string id="ui_mcm_wd_gui_key_desc">
-		<text>WD設定GUIを開く／閉じる。</text>
+		<text>Wearable Devicesの設定画面を開く／閉じる。</text>
 	</string>
 	<string id="ui_mcm_wd_gui_mod">
-		<text>WD GUIキーモディファイア</text>
+		<text>修飾キー</text>
 	</string>
 	<string id="ui_mcm_wd_gui_mod_desc">
-		<text>WD GUIキーと同時に押し続けて設定画面を開きます。</text>
+		<text>「設定画面を開く」キーと同時に押すキーを設定します。</text>
+	</string>
+	<string id="ui_mcm_wd_strict_geiger">
+		<text>放射線表示に環境モジュールを必須にする</text>
+	</string>
+	<string id="ui_mcm_wd_strict_geiger_desc">
+		<text>ONにすると、Prominに環境モジュールを取り付けている場合にのみ、放射線メーターが作動します。</text>
+	</string>
+	<string id="ui_mcm_wd_qaw_raise">
+		<text>クイックアクションホイール表示時にデバイスを構える</text>
+	</string>
+	<string id="ui_mcm_wd_qaw_raise_desc">
+		<text>クイックアクションホイール（QAW）を開くと、選択したデバイスを自動で構えます。画面上で回復アイテムの効果を確認できるようになります。</text>
+	</string>
+	<string id="ui_mcm_lst_wd_qaw_raise_watch">
+		<text>腕時計</text>
+	</string>
+	<string id="ui_mcm_lst_wd_qaw_raise_promin">
+		<text>Promin</text>
+	</string>
+	<string id="ui_mcm_lst_wd_qaw_raise_none">
+		<text>なし</text>
 	</string>
 
 	<!-- Bracer -->
@@ -58,6 +73,22 @@
 	</string>
 	<string id="st_detach_wd_bracer">
 		<text>取り外す</text>
+	</string>
+
+	<string id="st_wd_patch_504th">
+		<text>第504空挺歩兵隊パッチ</text>
+	</string>
+	<string id="st_wd_patch_8bitcat">
+		<text>8BitCatパッチ</text>
+	</string>
+	<string id="st_wd_patch_happysteam">
+		<text>Happysteamパッチ</text>
+	</string>
+	<string id="st_wd_patch_zero">
+		<text>Zeroパッチ</text>
+	</string>
+	<string id="st_wd_patch_descr">
+		<text>マジックテープ式のパッチ。ブレーサーに取り付けられる。</text>
 	</string>
 
 	<!-- Promin -->
@@ -104,16 +135,22 @@
 		<text>未実装</text>
 	</string>
 	<string id="st_promin_module_side">
-		<text>Promin サイドモジュール</text>
+		<text>Promin 環境モジュール</text>
 	</string>
 	<string id="st_promin_module_side_descr">
-		<text>未実装</text>
+		<text>センサーと通信インターフェースを備え、周囲の情報をProminに表示する環境モジュール。生体モニターのガイガー表示用に放射線を測定する。\nPromin-2Mにのみ取り付け可能。</text>
 	</string>
 	<string id="st_wd_parts">
 		<text>デバイスパーツ</text>
 	</string>
 	<string id="st_wd_parts_descr">
 		<text>回収された各種電子部品、基板、配線、コネクタ、センサー部品が含まれている。</text>
+	</string>
+	<string id="st_promin_module_side_2">
+		<text>Promin 環境モジュール Mk II</text>
+	</string>
+	<string id="st_promin_module_side_2_descr">
+		<text>センサーと通信インターフェースを備え、周囲の情報をProminに表示する環境モジュール。生体モニターのガイガー表示用に放射線を測定するほか、アーティファクトが近くにあると音で知らせ、ナビゲーション画面に周辺のアーティファクト名を表示する。\nPromin-2Mにのみ取り付け可能。</text>
 	</string>
 	<string id="st_promin_module_install">
 		<text>モジュールを取り付ける</text>
@@ -215,6 +252,36 @@
 	</string>
 	<string id="st_wd_customize_module_installed">
 		<text>モジュールはすでに取り付けられている</text>
+	</string>
+
+	<!-- Promin COMMS -->
+
+	<string id="st_wd_comms_rank_up">
+		<text>ランク上昇</text>
+	</string>
+	<string id="st_wd_comms_rank_down">
+		<text>ランク低下</text>
+	</string>
+	<string id="st_wd_comms_rep_up">
+		<text>評判上昇</text>
+	</string>
+	<string id="st_wd_comms_rep_down">
+		<text>評判低下</text>
+	</string>
+	<string id="st_wd_comms_disassembly">
+		<text>分解</text>
+	</string>
+	<string id="st_wd_comms_encyclopedia">
+		<text>百科事典</text>
+	</string>
+	<string id="st_wd_comms_emission">
+		<text>エミッション</text>
+	</string>
+	<string id="st_wd_comms_psy">
+		<text>精神波の嵐</text>
+	</string>
+	<string id="st_wd_guide_title">
+		<text>案内先: %s</text>
 	</string>
 
 </string_table>
