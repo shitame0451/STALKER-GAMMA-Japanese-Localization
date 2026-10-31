@@ -106,7 +106,7 @@ then
 end
 
 -- ===================================================================
---  activate （マップ上のタスクマーカーのメッセージ）
+--  activate （マップ上のタスクマーカーのメッセージ & マップマーカー整形）
 --  level.map_add_object_spot_serにフック
 -- ===================================================================
 if tasks_guide
@@ -119,7 +119,11 @@ then
 
 		level.map_add_object_spot_ser = function(id, spot, hint, ...)
 			if spot == "secondary_task_location" and type(hint) == "string" then
-				hint = hint .. "まで案内するように頼まれた"
+				local detail = hint .. "までの案内を頼まれた"
+				local dest = hint:match("^ストーカーから%s*(.+)")
+				local map_name = dest and (dest:match("^(.-)にある") or dest:match("^(.-)の") or dest:match("^(%S+)"))
+				local short_hint = (map_name and map_name ~= "" and #map_name <= 27) and (map_name .. "への先導依頼") or "先導依頼"
+				hint = short_hint .. "\\n" .. detail
 			end
 			return backup_map_add(id, spot, hint, ...)
 		end
